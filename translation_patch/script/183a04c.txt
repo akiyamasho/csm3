@@ -1,0 +1,664 @@
+code0488        -1, 1
+code046d        0, 192
+code043e        0, 6, 0
+walkto          0, ($h128 - 16), ($h129 + 16), 1
+walkwait        0
+code043e        0, 3, 0
+code043c        0, 4
+code046d        0, 192
+code048b        80, 336, 24
+code0490        0
+code043d        1, $h128, $h129
+code043c        1, 1
+code043e        1, 3, 0
+code0438        2, 130, 547, 1
+code043a        2, 2, 0
+code043d        2, $h128, $h129
+code043c        2, 2
+code043e        2, 6, 0
+walkto          2, ($h128 + 16), ($h129 - 16), 1
+code043e        1, 6, 0
+walkto          1, ($h128 + 32), $h129, 1
+walkwait        2
+code043e        2, 3, 0
+code043c        2, 1
+walkwait        1
+code043e        1, 3, 0
+code043c        1, 2
+code048c        
+code0478        0, 0
+code0479        0, 5, 17
+code047d        0, 0
+code0478        1, 2
+jumpz           @Cond_025a, ($b003 == 0)
+code0479        1, 0, 12
+goto            @Label_02c2
+
+@Cond_025a:
+jumpz           @Cond_0282, ($b003 == 1)
+code0479        1, 0, 14
+goto            @Label_02c2
+
+@Cond_0282:
+jumpz           @Cond_02aa, ($b003 == 2)
+code0479        1, 0, 16
+goto            @Label_02c2
+
+@Cond_02aa:
+code0479        1, 5, 14
+goto            @Label_02c2
+
+@Label_02c2:
+code047d        1, 2
+call            @Func_194c
+call            @Func_1848
+jumpz           @Cond_0320, ($b002 == 0)
+dialogtxt       "Oh!"
+dialogtxt       "So this is where we come out..."
+dialogtxt       "Amazing..."
+goto            @Label_0358
+
+@Cond_0320:
+dialogtxt       "Whoa!"
+dialogtxt       "We come out in a place like this..."
+dialogtxt       "Amazing..."
+goto            @Label_0358
+
+@Label_0358:
+code047b        
+code0309        
+call            @Func_189c
+jumpz           @Cond_0388, ($b003 == 0)
+code0479        1, 0, 12
+goto            @Label_03f0
+
+@Cond_0388:
+jumpz           @Cond_03b0, ($b003 == 1)
+code0479        1, 0, 14
+goto            @Label_03f0
+
+@Cond_03b0:
+jumpz           @Cond_03d8, ($b003 == 2)
+code0479        1, 0, 12
+goto            @Label_03f0
+
+@Cond_03d8:
+code0479        1, 0, 16
+goto            @Label_03f0
+
+@Label_03f0:
+call            @Func_18d2
+jumpz           @Cond_057a, ($b003 == 0)
+dialogtxt       "Then, from here, [NAME 8],"
+dialogtxt       "where shall we go?"
+code0309        
+call            @Func_1908
+code0479        0, 0, 16
+call            @Func_1866
+jumpz           @Cond_04aa, ($b002 == 0)
+dialogtxt       "Where else...?"
+dialogtxt       "Myuno’s village, surely?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_04f6
+
+@Cond_04aa:
+dialogtxt       "Where else...?"
+dialogtxt       "Myuno’s village, right?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_04f6
+
+@Label_04f6:
+code0309        
+call            @Func_189c
+code0479        1, 0, 12
+call            @Func_18d2
+dialogtxt       "There are also Anis’s people consider."
+dialogtxt       "I think it would be best avoid approaching"
+dialogtxt       "Approach carefully, [NAME 8]."
+goto            @Cond_057a
+
+@Cond_057a:
+jumpz           @Cond_06dc, ($b003 == 1)
+dialogtxt       "Now then,"
+dialogtxt       "where shall we head next?"
+code0309        
+call            @Func_1908
+code0479        0, 0, 16
+call            @Func_1866
+jumpz           @Cond_062c, ($b002 == 0)
+dialogtxt       "Where else...?"
+dialogtxt       "Myuno’s village, surely?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_0678
+
+@Cond_062c:
+dialogtxt       "Where else...?"
+dialogtxt       "Myuno’s village, right?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_0678
+
+@Label_0678:
+code0309        
+call            @Func_189c
+code0479        1, 2, 14
+call            @Func_18d2
+dialogtxt       "Before that, we must deal with Anis and"
+dialogtxt       "the others targeting the magic stone."
+dialogtxt       "We must do something about them."
+goto            @Cond_06dc
+
+@Cond_06dc:
+jumpz           @Cond_0838, ($b003 == 2)
+dialogtxt       "So,"
+dialogtxt       "what do you intend to do next?"
+code0309        
+call            @Func_1908
+code0479        0, 0, 16
+call            @Func_1866
+jumpz           @Cond_0792, ($b002 == 0)
+dialogtxt       "What do you mean...?"
+dialogtxt       "Myuno’s village, surely?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_07e2
+
+@Cond_0792:
+dialogtxt       "What do you mean...?"
+dialogtxt       "Myuno’s village, right?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_07e2
+
+@Label_07e2:
+code0309        
+call            @Func_189c
+code0479        1, 4, 14
+call            @Func_18d2
+dialogtxt       "Anis’s people are still at large."
+dialogtxt       "Think a little harder."
+goto            @Cond_0838
+
+@Cond_0838:
+jumpz           @Cond_09aa, ($b003 == 3)
+dialogtxt       "And then..."
+dialogtxt       "What should we do now?"
+code0309        
+call            @Func_1908
+code0479        0, 0, 16
+call            @Func_1866
+jumpz           @Cond_08ee, ($b002 == 0)
+dialogtxt       "What do you mean...?"
+dialogtxt       "Myuno’s village, surely?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_093e
+
+@Cond_08ee:
+dialogtxt       "What do you mean...?"
+dialogtxt       "Myuno’s village, right?"
+dialogtxt       "We are returning the magic stone, right?"
+goto            @Label_093e
+
+@Label_093e:
+code0309        
+call            @Func_189c
+code0479        1, 2, 16
+call            @Func_18d2
+dialogtxt       "What about Anis and the others?"
+dialogtxt       "What should we do about them?"
+dialogtxt       "It is dangerous to go back now."
+goto            @Cond_09aa
+
+@Cond_09aa:
+code0309        
+call            @Func_198c
+call            @Func_1908
+code047b        
+code0478        1, 6
+code0479        1, 0, 16
+code047d        1, 107
+call            @Func_1936
+call            @Func_18d2
+dialogtxt       "That is true..."
+dialogtxt       "Anis and the others know where"
+dialogtxt       "Mishus Village is..."
+code047b        
+code0309        
+code0479        1, 0, 14
+dialogtxt       "And I think Vee and the others"
+dialogtxt       "must be worried too."
+code0309        
+call            @Func_1908
+code0479        0, 2, 14
+call            @Func_1866
+dialogtxt       "True... but Anis may be in town,"
+dialogtxt       "and the master will certainly be angry..."
+dialogtxt       "the master will certainly be angry..."
+code0309        
+code0479        0, 1, 16
+dialogtxt       "I really do not want to go back..."
+code0309        
+call            @Func_189c
+code0479        1, 4, 12
+call            @Func_18d2
+dialogtxt       "But we cannot just stay like this..."
+code0309        
+call            @Func_1908
+code0479        0, 2, 14
+call            @Func_1866
+dialogtxt       "Uhhh..."
+code0309        
+code0479        0, 2, 12
+dialogtxt       "Then..."
+dialogtxt       "In any case, let us get near town."
+dialogtxt       "We will decide once we get there."
+code0309        
+call            @Func_19a2
+call            @Func_1884
+code047b        
+code0333        2, 30
+code0445        2, 12
+code0446        2
+code0334        
+code0331        31, 256
+code0479        0, 5, 14
+code0479        1, 1, 12
+call            @Func_194c
+call            @Func_18b4
+dialogtxt       "Hee hee..."
+code047b        
+code0309        
+call            @Func_1908
+code0479        0, 5, 16
+call            @Func_1866
+dialogtxt       "What!?"
+jumpz           @Cond_0cc8, ($b002 == 0)
+dialogtxt       "[NAME 8], was that strange?"
+goto            @Label_0cf0
+
+@Cond_0cc8:
+dialogtxt       "Did I say something strange?"
+goto            @Label_0cf0
+
+@Label_0cf0:
+code0309        
+call            @Func_189c
+code0479        1, 0, 13
+call            @Func_18d2
+dialogtxt       "No."
+dialogtxt       "That is very much like δ."
+code0309        
+call            @Func_198c
+call            @Func_1908
+code047b        
+code0478        1, 2
+jumpz           @Cond_0d6e, ($b003 == 0)
+code0479        1, 0, 12
+goto            @Label_0dd6
+
+@Cond_0d6e:
+jumpz           @Cond_0d96, ($b003 == 1)
+code0479        1, 0, 12
+goto            @Label_0dd6
+
+@Cond_0d96:
+jumpz           @Cond_0dbe, ($b003 == 2)
+code0479        1, 0, 12
+goto            @Label_0dd6
+
+@Cond_0dbe:
+code0479        1, 0, 12
+goto            @Label_0dd6
+
+@Label_0dd6:
+code047d        1, 2
+call            @Func_1936
+call            @Func_18d2
+jumpz           @Cond_0ed0, ($b003 == 0)
+dialogtxt       "Indeed. That is an answer worthy"
+dialogtxt       "That is a very characteristic conclusion."
+code047b        
+code0309        
+call            @Func_1908
+code0479        0, 7, 13
+call            @Func_1866
+dialogtxt       "Hehe."
+jumpz           @Cond_0e78, ($b002 == 0)
+dialogtxt       "Do not praise me so much~"
+goto            @Label_0e96
+
+@Cond_0e78:
+dialogtxt       "Do not praise me so much~"
+goto            @Label_0e96
+
+@Label_0e96:
+code0309        
+call            @Func_189c
+code0479        1, 0, 12
+call            @Func_18d2
+dialogtxt       "Did someone praise you?"
+goto            @Cond_0ed0
+
+@Cond_0ed0:
+jumpz           @Cond_0fbc, ($b003 == 1)
+dialogtxt       "Indeed."
+dialogtxt       "That is an answer worthy of you."
+code047b        
+code0309        
+call            @Func_1908
+code0479        0, 7, 13
+call            @Func_1866
+dialogtxt       "Hehe."
+jumpz           @Cond_0f5c, ($b002 == 0)
+dialogtxt       "Do not praise me so much~"
+goto            @Label_0f7a
+
+@Cond_0f5c:
+dialogtxt       "Do not praise me so much~"
+goto            @Label_0f7a
+
+@Label_0f7a:
+code0309        
+call            @Func_189c
+code0479        1, 5, 14
+call            @Func_18d2
+dialogtxt       "No one praised you!?"
+goto            @Cond_0fbc
+
+@Cond_0fbc:
+jumpz           @Cond_109a, ($b003 == 2)
+dialogtxt       "Indeed."
+dialogtxt       "Lord [NAME 4]'s answer."
+code047b        
+code0309        
+call            @Func_1908
+code0479        0, 7, 13
+call            @Func_1866
+dialogtxt       "Hehe."
+jumpz           @Cond_1044, ($b002 == 0)
+dialogtxt       "Do not praise me so much~"
+goto            @Label_1062
+
+@Cond_1044:
+dialogtxt       "Do not praise me so much~"
+goto            @Label_1062
+
+@Label_1062:
+code0309        
+call            @Func_189c
+code0479        1, 4, 13
+call            @Func_18d2
+dialogtxt       "You really are a happy one."
+goto            @Cond_109a
+
+@Cond_109a:
+jumpz           @Cond_1188, ($b003 == 3)
+dialogtxt       "It certainly sounds like δ,"
+dialogtxt       "does it not?"
+code047b        
+code0309        
+call            @Func_1908
+code0479        0, 7, 13
+call            @Func_1866
+dialogtxt       "Hehe."
+jumpz           @Cond_1128, ($b002 == 0)
+dialogtxt       "Do not praise me so much~"
+goto            @Label_1146
+
+@Cond_1128:
+dialogtxt       "Do not praise me so much~"
+goto            @Label_1146
+
+@Label_1146:
+code0309        
+call            @Func_189c
+code0479        1, 1, 16
+call            @Func_18d2
+dialogtxt       "I was not really praising you, though."
+goto            @Cond_1188
+
+@Cond_1188:
+code0309        
+call            @Func_198c
+call            @Func_1908
+code047b        
+code0478        1, 6
+code0479        1, 0, 12
+code047d        1, 107
+call            @Func_1936
+call            @Func_18d2
+dialogtxt       "In any case, let us head"
+dialogtxt       "toward town."
+code047b        
+code0309        
+call            @Func_19a2
+call            @Func_18f0
+code047b        
+code0333        2, 30
+code0489        0, 1, 12
+code046d        0, 192
+code043e        2, 6, 0
+walkto          2, $h128, $h129, 1
+code043e        1, 6, 0
+walkto          1, $h128, $h129, 1
+walkwait        2
+code043b        2
+code0439        2
+walkwait        1
+code0493        
+code0334        
+code046e        20, 256, 2
+code048c        
+done            
+
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_160c, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_1846
+
+@Cond_160c:
+jumpz           @Cond_1632, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_1846
+
+@Cond_1632:
+jumpz           @Cond_1658, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_1846
+
+@Cond_1658:
+jumpz           @Cond_167e, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_1846
+
+@Cond_167e:
+jumpz           @Cond_16a4, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_1846
+
+@Cond_16a4:
+jumpz           @Cond_16ca, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_1846
+
+@Cond_16ca:
+jumpz           @Cond_16f0, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_1846
+
+@Cond_16f0:
+jumpz           @Cond_1716, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_1846
+
+@Cond_1716:
+jumpz           @Cond_173c, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_1846
+
+@Cond_173c:
+jumpz           @Cond_1762, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_1846
+
+@Cond_1762:
+jumpz           @Cond_1788, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_1846
+
+@Cond_1788:
+jumpz           @Cond_17ae, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_1846
+
+@Cond_17ae:
+jumpz           @Cond_17d4, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_1846
+
+@Cond_17d4:
+jumpz           @Cond_17fa, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_1846
+
+@Cond_17fa:
+jumpz           @Cond_1820, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_1846
+
+@Cond_1820:
+jumpz           @Label_1846, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_1846
+
+@Label_1846:
+ret             
+
+@Func_1848:
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_1866:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+@Func_1884:
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_189c:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_18b4:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_18d2:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_18f0:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_1908:
+code047e        1, 0
+code0302        7
+ret             
+
+code047a        0, 1, 1
+ret             
+
+@Func_1936:
+code047a        1, 1, 1
+ret             
+
+@Func_194c:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+code047a        0, 0, 1
+ret             
+
+@Func_198c:
+code047a        1, 0, 1
+ret             
+
+@Func_19a2:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

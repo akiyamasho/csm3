@@ -1,0 +1,219 @@
+code0301        0, 7
+code0305        1
+jumpz           @Cond_05ac, ($h319 == 44)
+jumpz           @Cond_00ee, ($h311 == 4)
+dialogtxt       "Spin it round and win a prize!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Heavy Gold Ore"
+dialogtxt       "2nd Prize: Doom Switch"
+dialogtxt       "3rd Prize: Red Rust Powder"
+code0309        
+dialogtxt       "4th Prize: Juyu Medicine"
+dialogtxt       "5th Prize: Overripe Fruit"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_00ee:
+jumpz           @Cond_01ac, ($h311 == 5)
+dialogtxt       "Spin the lottery for sure happiness!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Extension Ring"
+dialogtxt       "2nd Prize: Proof of Great Strength"
+dialogtxt       "3rd Prize: Proof of Iron Defense"
+code0309        
+dialogtxt       "4th Prize: Proof of Mastery"
+dialogtxt       "5th Prize: Handy Twig"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_01ac:
+jumpz           @Cond_027a, ($h311 == 8)
+dialogtxt       "I am taking a loss! Take it, you thief!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand: Legendary Ba[NAME 6]"
+dialogtxt       "2nd Prize: Pitch-Black Sunglasses"
+dialogtxt       "3rd Prize: Secret Scroll"
+code0309        
+dialogtxt       "4th Prize: Martial Arts Scroll"
+dialogtxt       "5th Prize: Fine Paper"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_027a:
+jumpz           @Cond_0348, ($h311 == 9)
+dialogtxt       "Can you believe it!? Amazing prizes!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Flash Talisman"
+dialogtxt       "2nd Prize: Repair Parts"
+dialogtxt       "3rd Prize: Spirit Headband"
+code0309        
+dialogtxt       "4th Prize: Martial Arts Textbook"
+dialogtxt       "5th Prize: Stinky Garlic"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_0348:
+jumpz           @Cond_040c, ($h311 == 11)
+dialogtxt       "Will spinning open the way!?"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Legendary Iron Skewer"
+dialogtxt       "2nd Prize: Worn Whetstone"
+dialogtxt       "3rd Prize: Healthy Sandals"
+code0309        
+dialogtxt       "4th Prize: Deadly Poison Scrap"
+dialogtxt       "5th Prize: Dried Shrimp"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_040c:
+jumpz           @Cond_04d2, ($h311 == 12)
+dialogtxt       "Put your heart into that spin!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Legendary Bamboo"
+dialogtxt       "2nd Prize: Super Accelerator"
+dialogtxt       "3rd Prize: Good-Luck Charm"
+code0309        
+dialogtxt       "4th Prize: Spicy Curry"
+dialogtxt       "5th Prize: Lobster"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Cond_04d2:
+jumpz           @Label_059e, ($h311 == 99)
+dialogtxt       "Last one! Give it your all!!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Desperate Love Letter"
+dialogtxt       "2nd Prize: Legendary Bamboo"
+dialogtxt       "3rd Prize: Legendary Iron Skewer"
+code0309        
+dialogtxt       "4th Prize: First-Aid Kit"
+dialogtxt       "5th Prize: Fine Shell"
+dialogtxt       "That is all."
+goto            @Label_059e
+
+@Label_059e:
+code0309        
+code0302        7
+goto            @Label_0b08
+
+@Cond_05ac:
+jumpz           @Cond_0682, ($h311 == 8)
+dialogtxt       "Even if you lose the grand prize, don't"
+dialogtxt       "back-attack the lottery machine!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Re-Extension Ring"
+dialogtxt       "2nd Prize: Lightning Talisman"
+dialogtxt       "3rd Prize: Lightning Crystal"
+code0309        
+dialogtxt       "4th Prize: Blazing Talisman"
+dialogtxt       "5th Prize: Fire Crystal"
+dialogtxt       "That is all!!"
+goto            @Label_0afa
+
+@Cond_0682:
+jumpz           @Cond_0738, ($h311 == 9)
+dialogtxt       "The grand prize is calling~"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Finishing-Move Ring"
+dialogtxt       "2nd Prize: Waterflow Talisman"
+dialogtxt       "3rd Prize: Water Crystal"
+code0309        
+dialogtxt       "4th Prize: Gale Talisman"
+dialogtxt       "5th Prize: Wind Crystal"
+dialogtxt       "That is all!!"
+goto            @Label_0afa
+
+@Cond_0738:
+jumpz           @Cond_0800, ($h311 == 10)
+dialogtxt       "Man or woman, it makes no difference!"
+dialogtxt       "Spin it with some flair!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: First-Aid Kit"
+dialogtxt       "2nd Prize: Spicy Curry"
+dialogtxt       "3rd Prize: Egg Rice"
+code0309        
+dialogtxt       "4th Prize: Soft-Boiled Egg"
+dialogtxt       "5th Prize: Juyu Medicine"
+dialogtxt       "That is all!!"
+goto            @Label_0afa
+
+@Cond_0800:
+jumpz           @Cond_0962, ($h311 == 11)
+jumpz           @Cond_083e, ($b003 == 0)
+dialogtxt       "A prize like this is impossible!"
+goto            @Label_08cc
+
+@Cond_083e:
+jumpz           @Cond_0866, ($b003 == 1)
+dialogtxt       "Let us settle this with a lottery!"
+goto            @Label_08cc
+
+@Cond_0866:
+jumpz           @Cond_089e, ($b003 == 2)
+dialogtxt       "You want to play the lottery?"
+dialogtxt       "I suppose I have no choice."
+goto            @Label_08cc
+
+@Cond_089e:
+dialogtxt       "They say the prizes are amazing!"
+dialogtxt       "That is what the wind says!"
+goto            @Label_08cc
+
+@Label_08cc:
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Magic Bracelet"
+dialogtxt       "2nd Prize: Desperate Love Letter"
+dialogtxt       "3rd Prize: Super Accelerator"
+code0309        
+dialogtxt       "4th Prize: Paralysis Iron Powder"
+dialogtxt       "5th: [NAME 6]muri Powder"
+dialogtxt       "That is all!!"
+goto            @Label_0afa
+
+@Cond_0962:
+jumpz           @Cond_0a36, ($h311 == 12)
+dialogtxt       "Even if you do not win the grand prize,"
+dialogtxt       "that is that!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Long-Term Warranty Ring"
+dialogtxt       "2nd Prize: Splendid Ore"
+dialogtxt       "3rd Prize: Excel Ore"
+code0309        
+dialogtxt       "4th Prize: Punish Ore"
+dialogtxt       "5th Prize: Sash Ore"
+dialogtxt       "That is all!!"
+goto            @Label_0afa
+
+@Cond_0a36:
+jumpz           @Label_0afa, ($h311 == 99)
+dialogtxt       "Last one! Spin with all your might!"
+dialogtxt       "This round's prizes are..."
+code0309        
+dialogtxt       "Grand Prize: Ultra Electric Motor"
+dialogtxt       "2nd Prize: Steel Fang Rough Ore"
+dialogtxt       "3rd Prize: Frenzy Phantom Ore"
+code0309        
+dialogtxt       "4th Prize: Ubis Ore"
+dialogtxt       "5th Prize: Agist Rough Ore"
+dialogtxt       "Nwoooooo!"
+goto            @Label_0afa
+
+@Label_0afa:
+code0309        
+code0302        7
+goto            @Label_0b08
+
+@Label_0b08:
+done            

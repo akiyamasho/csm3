@@ -1,0 +1,1100 @@
+setvar          $f0153, 0
+code0490        0
+code043d        1, 288, 184
+code043e        1, 6, 0
+walkto          1, 176, 184, 1
+walkwait        1
+code043e        1, 3, 0
+code040d        30
+jumpz           @Cond_00ba, ($b003 == 0)
+code047f        224
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+goto            @Label_017a
+
+@Cond_00ba:
+jumpz           @Cond_00fa, ($b003 == 1)
+code047f        225
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+goto            @Label_017a
+
+@Cond_00fa:
+jumpz           @Cond_013a, ($b003 == 2)
+code047f        226
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+goto            @Label_017a
+
+@Cond_013a:
+jumpz           @Label_017a, ($b003 == 3)
+code047f        227
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+goto            @Label_017a
+
+@Label_017a:
+code047d        0, 2
+code0301        16, 3
+code047e        0, 1
+jumpz           @Cond_01ce, ($b003 == 0)
+dialogtxt       "You Were Here?"
+goto            @Label_0256
+
+@Cond_01ce:
+jumpz           @Cond_0204, ($b003 == 1)
+dialogtxt       "Hmm..."
+dialogtxt       "So you were here."
+goto            @Label_0256
+
+@Cond_0204:
+jumpz           @Cond_0234, ($b003 == 2)
+dialogtxt       "Tch..."
+dialogtxt       "So you were here."
+goto            @Label_0256
+
+@Cond_0234:
+dialogtxt       "Oh."
+dialogtxt       "So you were here."
+goto            @Label_0256
+
+@Label_0256:
+code0309        
+code047e        0, 0
+code0302        3
+code040d        15
+code0481        0
+code040d        30
+code043e        1, 6, 0
+walkto          1, 160, 168, 0
+code040d        15
+setvar          $h137, 30
+setvar          $h136, 0
+call            @Func_2942
+code040d        30
+walkwait        1
+code0488        -1, 1
+code043d        0, 100, 144
+code043c        0, 4
+code043d        1, 128, 144
+code043e        1, 3, 0
+code043c        1, 2
+call            @Func_2982
+code040d        15
+code0478        0, 0
+code0479        0, 0, 16
+code047d        0, 0
+code0478        1, 2
+jumpz           @Cond_03c0, ($b003 == 0)
+code0479        1, 0, 12
+goto            @Label_0428
+
+@Cond_03c0:
+jumpz           @Cond_03e8, ($b003 == 1)
+code0479        1, 0, 13
+goto            @Label_0428
+
+@Cond_03e8:
+jumpz           @Cond_0410, ($b003 == 2)
+code0479        1, 0, 14
+goto            @Label_0428
+
+@Cond_0410:
+code0479        1, 0, 12
+goto            @Label_0428
+
+@Label_0428:
+code047d        1, 2
+call            @Func_2fca
+jumpz           @Cond_0bd4, ($b003 == 0)
+call            @Func_2f32
+dialogtxt       "What Were You Doing?"
+code047b        
+code0309        
+call            @Func_2f86
+code0479        0, 0, 12
+call            @Func_2ee4
+dialogtxt       "Well..."
+dialogtxt       "I was thinking about"
+dialogtxt       "tomorrow's match."
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 12
+call            @Func_2f50
+dialogtxt       "It Is A One-On-One Match."
+dialogtxt       "Are You Confident You Can Win?"
+code0309        
+call            @Func_2f86
+code0479        0, 4, 12
+call            @Func_2ee4
+jumpz           @Cond_05fc, ($b002 == 0)
+dialogtxt       "Of course!"
+dialogtxt       "...is what I'd like to say, but"
+dialogtxt       "fighting alone is a little..."
+code0309        
+code0479        0, 2, 13
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_06c4
+
+@Cond_05fc:
+dialogtxt       "Of course!"
+dialogtxt       "...is what I'd like to say, but"
+dialogtxt       "fighting alone is a little..."
+code0309        
+code0479        0, 2, 13
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_06c4
+
+@Label_06c4:
+code0309        
+call            @Func_2f1a
+code0479        1, 5, 12
+call            @Func_2f50
+dialogtxt       "Am I Cool?"
+code0309        
+call            @Func_2f86
+code0479        0, 1, 12
+call            @Func_2ee4
+jumpz           @Cond_0776, ($b002 == 0)
+dialogtxt       "Yeah."
+dialogtxt       "You transformed and protected me."
+dialogtxt       "It was really cool."
+goto            @Label_07c0
+
+@Cond_0776:
+dialogtxt       "Yeah."
+dialogtxt       "You transformed and protected me."
+dialogtxt       "It was really cool."
+goto            @Label_07c0
+
+@Label_07c0:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 12
+call            @Func_2f50
+dialogtxt       "Transform... You Mean My"
+dialogtxt       "Transformation To Combat"
+dialogtxt       "Mode? That Was Cool...?"
+code0309        
+code0479        0, 5, 16
+code0479        1, 9, 12
+dialogtxt       "..."
+code0309        
+call            @Func_2f86
+code0479        0, 5, 15
+call            @Func_2ee4
+jumpz           @Cond_08a2, ($b002 == 0)
+dialogtxt       "W-Why are you crying!?"
+goto            @Label_08be
+
+@Cond_08a2:
+dialogtxt       "W-Why are you crying!?"
+goto            @Label_08be
+
+@Label_08be:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 12
+call            @Func_2f50
+dialogtxt       "The Cause Is Unknown,"
+dialogtxt       "But My Body Temperature Rose,"
+dialogtxt       "So I Performed Cooling."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 16
+call            @Func_2ee4
+jumpz           @Cond_098a, ($b002 == 0)
+dialogtxt       "You mean you got hot?"
+dialogtxt       "Were you embarrassed?"
+goto            @Label_09c0
+
+@Cond_098a:
+dialogtxt       "You mean you got hot?"
+dialogtxt       "Were you embarrassed?"
+goto            @Label_09c0
+
+@Label_09c0:
+code0309        
+call            @Func_2f1a
+code0479        1, 5, 12
+call            @Func_2f50
+dialogtxt       "Embarrassed? Me?"
+dialogtxt       "Such A Thing Is..."
+dialogtxt       "..."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 12
+call            @Func_2ee4
+jumpz           @Cond_0a52, ($b002 == 0)
+dialogtxt       "Hm?"
+dialogtxt       "What's wrong?"
+goto            @Label_0a70
+
+@Cond_0a52:
+dialogtxt       "Hm?"
+dialogtxt       "What's wrong?"
+goto            @Label_0a70
+
+@Label_0a70:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 12
+call            @Func_2f50
+dialogtxt       "When The Transformation System"
+dialogtxt       "Error Was Resolved, It May Have"
+dialogtxt       "Affected Part Of My Program..."
+code0309        
+dialogtxt       "When I Am With You,"
+dialogtxt       "Unexpected Things"
+dialogtxt       "Occur."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 16
+call            @Func_2ee4
+dialogtxt       "Hmm..."
+dialogtxt       "Is that a compliment?"
+code0309        
+call            @Func_2f1a
+code0479        1, 1, 12
+call            @Func_2f50
+dialogtxt       "Please Consider It [NAME 5]"
+dialogtxt       "There Is No Problem."
+code0309        
+call            @Func_3020
+call            @Func_2f6e
+code047b        
+goto            @Cond_0bd4
+
+@Cond_0bd4:
+jumpz           @Cond_150e, ($b003 == 1)
+call            @Func_2f32
+dialogtxt       "What were you doing"
+dialogtxt       "in a place like this?"
+code047b        
+code0309        
+call            @Func_2f86
+code0479        0, 0, 12
+call            @Func_2ee4
+dialogtxt       "Oh, nothing much."
+dialogtxt       "I was thinking about"
+dialogtxt       "tomorrow's match..."
+code0309        
+call            @Func_2f1a
+code0479        1, 4, 12
+call            @Func_2f50
+dialogtxt       "Indeed... It is worrying."
+dialogtxt       "It's a one-on-one match,"
+dialogtxt       "and I won't be there to help."
+code0309        
+call            @Func_2f86
+code0479        0, 2, 13
+call            @Func_2ee4
+jumpz           @Cond_0d9e, ($b002 == 0)
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 13
+dialogtxt       "fighting alone is a little..."
+goto            @Label_0e2e
+
+@Cond_0d9e:
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 13
+dialogtxt       "fighting alone is a little..."
+goto            @Label_0e2e
+
+@Label_0e2e:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 16
+call            @Func_2f50
+dialogtxt       "δ..."
+code0309        
+call            @Func_2f86
+code0479        0, 2, 12
+call            @Func_2ee4
+jumpz           @Cond_0ee4, ($b002 == 0)
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_0f4a
+
+@Cond_0ee4:
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_0f4a
+
+@Label_0f4a:
+code0309        
+call            @Func_2f1a
+code0479        1, 7, 13
+call            @Func_2f50
+dialogtxt       "Oh!"
+dialogtxt       "So you've finally realized"
+dialogtxt       "how cool I am!"
+code0309        
+call            @Func_2f86
+code0479        0, 1, 13
+call            @Func_2ee4
+jumpz           @Cond_101e, ($b002 == 0)
+dialogtxt       "Yeah!"
+dialogtxt       "You transformed into a huge tiger,"
+dialogtxt       "and it was really cool!"
+goto            @Label_1064
+
+@Cond_101e:
+dialogtxt       "Yeah!"
+dialogtxt       "You transformed into a huge tiger,"
+dialogtxt       "and it was really cool!"
+goto            @Label_1064
+
+@Label_1064:
+code0309        
+call            @Func_2f1a
+code0479        0, 5, 14
+code0479        1, 2, 15
+call            @Func_2f50
+dialogtxt       "It wasn't a transformation."
+dialogtxt       "That is my true form!"
+dialogtxt       "I was cool to begin with!"
+code0309        
+call            @Func_2f86
+code0479        0, 1, 16
+call            @Func_2ee4
+jumpz           @Cond_115e, ($b002 == 0)
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you're back to normal."
+goto            @Label_11ae
+
+@Cond_115e:
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you're back to normal."
+goto            @Label_11ae
+
+@Label_11ae:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 14
+call            @Func_2f50
+dialogtxt       "That's right... You couldn't use"
+dialogtxt       "your power before because you'd"
+dialogtxt       "forgotten something simple."
+code0309        
+code0479        0, 0, 14
+code0479        1, 0, 12
+dialogtxt       "Simple,"
+dialogtxt       "but a very important feeling."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 16
+call            @Func_2ee4
+jumpz           @Cond_12d4, ($b002 == 0)
+dialogtxt       "A simple but important feeling?"
+dialogtxt       "What's that?"
+goto            @Label_1304
+
+@Cond_12d4:
+dialogtxt       "A simple but important feeling?"
+dialogtxt       "What's that?"
+goto            @Label_1304
+
+@Label_1304:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 13
+call            @Func_2f50
+dialogtxt       "What are you saying?"
+dialogtxt       "Weren't you the one"
+dialogtxt       "who reminded me of it?"
+code0309        
+call            @Func_2f86
+code0479        0, 4, 16
+call            @Func_2ee4
+jumpz           @Cond_13c6, ($b002 == 0)
+dialogtxt       "Me?"
+dialogtxt       "Huh...?"
+dialogtxt       "I don't get it..."
+goto            @Label_13f6
+
+@Cond_13c6:
+dialogtxt       "Me?"
+dialogtxt       "Huh...?"
+dialogtxt       "I don't get it..."
+goto            @Label_13f6
+
+@Label_13f6:
+code0309        
+call            @Func_2f1a
+code0479        1, 2, 12
+call            @Func_2f50
+dialogtxt       "You needn't understand."
+dialogtxt       "In any case, my power has returned,"
+dialogtxt       "so you can rest easy."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 16
+code0479        1, 5, 16
+call            @Func_2ee4
+dialogtxt       "How easy can I rest?"
+code0309        
+call            @Func_2f1a
+code0479        1, 1, 15
+call            @Func_2f50
+dialogtxt       "Don't sweat the details!"
+code0309        
+call            @Func_3020
+call            @Func_2f6e
+code047b        
+goto            @Cond_150e
+
+@Cond_150e:
+jumpz           @Cond_1fda, ($b003 == 2)
+call            @Func_2f32
+dialogtxt       "Why are you spacing out"
+dialogtxt       "in a place like this?"
+code047b        
+code0309        
+call            @Func_2f86
+code0479        0, 0, 14
+call            @Func_2ee4
+jumpz           @Cond_15c6, ($b002 == 0)
+dialogtxt       "Nothing..."
+dialogtxt       "I was just thinking"
+dialogtxt       "about tomorrow's match."
+goto            @Label_1600
+
+@Cond_15c6:
+dialogtxt       "Nothing..."
+dialogtxt       "I was just thinking"
+dialogtxt       "about tomorrow's match."
+goto            @Label_1600
+
+@Label_1600:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 13
+call            @Func_2f50
+dialogtxt       "Even if you've only just realized you"
+dialogtxt       "have no chance of winning alone,"
+dialogtxt       "[NAME 4] , it's too late now."
+code0309        
+call            @Func_2f86
+code0479        0, 2, 15
+call            @Func_2ee4
+jumpz           @Cond_173a, ($b002 == 0)
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 12
+dialogtxt       "fighting alone is a little..."
+goto            @Label_17ca
+
+@Cond_173a:
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 12
+dialogtxt       "fighting alone is a little..."
+goto            @Label_17ca
+
+@Label_17ca:
+code0309        
+call            @Func_2f1a
+code0479        1, 4, 13
+call            @Func_2f50
+dialogtxt       "Hmph... For [NAME 4]"
+dialogtxt       ", you're awfully honest."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 13
+call            @Func_2ee4
+jumpz           @Cond_1894, ($b002 == 0)
+dialogtxt       "After all, if [NAME 8] transforms"
+dialogtxt       "and saves you so coolly..."
+dialogtxt       "of course you'd be honest."
+goto            @Label_18ea
+
+@Cond_1894:
+dialogtxt       "After all, if [NAME 8] transforms"
+dialogtxt       "and saves you so coolly..."
+dialogtxt       "of course you'd be honest."
+goto            @Label_18ea
+
+@Label_18ea:
+code0309        
+call            @Func_2f1a
+code0479        0, 5, 16
+code0479        1, 2, 15
+call            @Func_2f50
+dialogtxt       "A transformation? Don't be ridiculous!"
+dialogtxt       "This current form, caused by insufficient"
+dialogtxt       "spirit power, is one I find unacceptable."
+code0309        
+call            @Func_2f86
+code0479        0, 1, 16
+call            @Func_2ee4
+jumpz           @Cond_19e6, ($b002 == 0)
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you're back to normal."
+goto            @Label_1a36
+
+@Cond_19e6:
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you're back to normal."
+goto            @Label_1a36
+
+@Label_1a36:
+code0309        
+call            @Func_2f1a
+code0479        1, 3, 16
+call            @Func_2f50
+dialogtxt       "Tch..."
+dialogtxt       "To do that, I had to acknowledge"
+dialogtxt       "such a thing within myself..."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 16
+call            @Func_2ee4
+jumpz           @Cond_1aee, ($b002 == 0)
+dialogtxt       "What thing?"
+goto            @Label_1b0a
+
+@Cond_1aee:
+dialogtxt       "What thing?"
+goto            @Label_1b0a
+
+@Label_1b0a:
+code0309        
+call            @Func_2f1a
+code0479        1, 6, 15
+call            @Func_2f50
+dialogtxt       "It is none of [NAME 4]'s concern!"
+code0309        
+call            @Func_2f86
+code0479        0, 0, 14
+call            @Func_2ee4
+jumpz           @Cond_1bc0, ($b002 == 0)
+dialogtxt       "What?"
+dialogtxt       "Why are you getting angry...?"
+dialogtxt       "...Wait, why are you blushing?"
+goto            @Label_1c04
+
+@Cond_1bc0:
+dialogtxt       "What?"
+dialogtxt       "Why are you getting angry...?"
+dialogtxt       "...Wait, why are you blushing?"
+goto            @Label_1c04
+
+@Label_1c04:
+code0309        
+call            @Func_2f1a
+code0479        1, 3, 14
+call            @Func_2f50
+dialogtxt       "I am not blushing!"
+dialogtxt       "Say one more foolish thing"
+dialogtxt       "and I'll erase you!"
+code0309        
+call            @Func_2f86
+code0479        0, 2, 13
+call            @Func_2ee4
+jumpz           @Cond_1cde, ($b002 == 0)
+dialogtxt       "Oh, a match!?"
+dialogtxt       "A match against your transformed self"
+dialogtxt       "before Tram might be fun!"
+goto            @Label_1d30
+
+@Cond_1cde:
+dialogtxt       "What, a match!?"
+dialogtxt       "A match against your transformed self"
+dialogtxt       "before Tram might be fun!"
+goto            @Label_1d30
+
+@Label_1d30:
+code0309        
+call            @Func_2f1a
+code0479        1, 8, 12
+call            @Func_2f50
+dialogtxt       "Transform..."
+dialogtxt       "..."
+dialogtxt       "Tch... enough already."
+code0309        
+call            @Func_3020
+call            @Func_2f6e
+code047b        
+code040d        15
+code043e        1, 6, 0
+walkto          1, 128, 176, 1
+code0445        0, 3
+walkwait        1
+walkto          1, 224, 176, 1
+walkwait        1
+walkto          1, 224, 156, 1
+walkwait        1
+walkto          1, 224, 136, 0
+code0419        0, 2, 0, 26, 15, 0
+code033a        109, 0
+code041b        0
+code041a        0, 0
+setvar          $h139, 0
+code046d        1, 192
+call            @Func_2c64
+code031a        6
+code031b        6, $h139, 0, 0, 15
+code031c        6, 1
+code0443        1, 32, 0
+walkwait        1
+code0443        1, 16, 0
+code031a        6
+code0419        0, 2, 0, 26, 15, 5
+code041b        0
+code041a        0, 0
+code0446        0
+code0479        0, 0, 16
+call            @Func_2f9e
+call            @Func_2ec6
+jumpz           @Cond_1f9e, ($b002 == 0)
+dialogtxt       "What..."
+dialogtxt       "You really are impossible to understand."
+goto            @Label_1fc8
+
+@Cond_1f9e:
+dialogtxt       "What..."
+dialogtxt       "You really are impossible to understand."
+goto            @Label_1fc8
+
+@Label_1fc8:
+code047b        
+code0309        
+call            @Func_2ff4
+call            @Func_2f02
+code047b        
+goto            @Cond_1fda
+
+@Cond_1fda:
+jumpz           @Cond_2932, ($b003 == 3)
+call            @Func_2f32
+dialogtxt       "What were you doing"
+dialogtxt       "in a place like this?"
+code047b        
+code0309        
+call            @Func_2f86
+code0479        0, 0, 12
+call            @Func_2ee4
+dialogtxt       "Oh, nothing much..."
+dialogtxt       "I was thinking about"
+dialogtxt       "tomorrow's match."
+code0309        
+call            @Func_2f1a
+code0479        1, 4, 13
+call            @Func_2f50
+dialogtxt       "It is a one-on-one match, after all."
+dialogtxt       "Is it frightening"
+dialogtxt       "without me there?"
+code0309        
+call            @Func_2f86
+code0479        0, 2, 15
+call            @Func_2ee4
+jumpz           @Cond_219a, ($b002 == 0)
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 12
+dialogtxt       "fighting alone is a little..."
+goto            @Label_222a
+
+@Cond_219a:
+dialogtxt       "What are you talking about!"
+dialogtxt       "I could beat someone like that easily!"
+dialogtxt       "...is what I'd like to say, but"
+code0309        
+code0479        0, 4, 12
+dialogtxt       "fighting alone is a little..."
+goto            @Label_222a
+
+@Label_222a:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 16
+call            @Func_2f50
+dialogtxt       "Ms. δ..."
+code0309        
+call            @Func_2f86
+code0479        0, 2, 13
+call            @Func_2ee4
+jumpz           @Cond_22e4, ($b002 == 0)
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_234a
+
+@Cond_22e4:
+dialogtxt       "But if you keep taking all the"
+dialogtxt       "cool moments, I'll look bad,"
+dialogtxt       "so I have to do my best, too."
+goto            @Label_234a
+
+@Label_234a:
+code0309        
+call            @Func_2f1a
+code0479        1, 1, 13
+call            @Func_2f50
+dialogtxt       "Really?"
+dialogtxt       "Am I cool?"
+dialogtxt       "I'm so happy."
+code0309        
+call            @Func_2f86
+jumpz           @Cond_24be, ($b002 == 0)
+code0479        0, 2, 12
+call            @Func_2ee4
+dialogtxt       "Yeah!"
+dialogtxt       "Your hair exploded,"
+dialogtxt       "and it was really cool!"
+code0309        
+call            @Func_2f1a
+code0479        1, 4, 16
+call            @Func_2f50
+dialogtxt       "Somehow, I feel like"
+dialogtxt       "that wasn't really a compliment..."
+code0309        
+call            @Func_2f86
+code0479        0, 0, 13
+call            @Func_2ee4
+dialogtxt       "No, I mean you were cool."
+dialogtxt       "You were really strong, too."
+code0309        
+call            @Func_2f1a
+goto            @Label_2512
+
+@Cond_24be:
+code0479        0, 0, 12
+call            @Func_2ee4
+dialogtxt       "Yeah!"
+dialogtxt       "You were really strong"
+dialogtxt       "and really cool!"
+code0309        
+call            @Func_2f1a
+goto            @Label_2512
+
+@Label_2512:
+code0479        1, 2, 14
+call            @Func_2f50
+dialogtxt       "That's what I've been telling you all along."
+dialogtxt       "I am strong."
+dialogtxt       "I simply couldn't use my power before."
+code0309        
+call            @Func_2f86
+code0479        0, 1, 16
+call            @Func_2ee4
+jumpz           @Cond_2602, ($b002 == 0)
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you can transform again."
+goto            @Label_2656
+
+@Cond_2602:
+dialogtxt       "R-Right, that's true."
+dialogtxt       "I forgot, sorry, sorry."
+dialogtxt       "I'm glad you can transform again."
+goto            @Label_2656
+
+@Label_2656:
+code0309        
+call            @Func_2f1a
+code0479        1, 0, 12
+call            @Func_2f50
+dialogtxt       "That's right..."
+dialogtxt       "I was so focused on using my power"
+dialogtxt       "that I forgot something important."
+code0309        
+code0479        0, 0, 14
+code0479        1, 0, 13
+dialogtxt       "Because Ms. δ reminded me of it"
+dialogtxt       "back then,"
+dialogtxt       "I was able to transform."
+code0309        
+call            @Func_2f86
+code0479        0, 4, 12
+call            @Func_2ee4
+jumpz           @Cond_279e, ($b002 == 0)
+dialogtxt       "Let's see..."
+dialogtxt       "Did I do something...?"
+goto            @Label_27cc
+
+@Cond_279e:
+dialogtxt       "Let's see..."
+dialogtxt       "Did I do something...?"
+goto            @Label_27cc
+
+@Label_27cc:
+code0309        
+call            @Func_2f1a
+code0479        1, 1, 13
+call            @Func_2f50
+dialogtxt       "You did."
+dialogtxt       "You were incredibly cool."
+code0309        
+call            @Func_2f86
+code0479        0, 10, 13
+call            @Func_2ee4
+dialogtxt       "Really~?"
+dialogtxt       "I don't quite understand,"
+dialogtxt       "but praise like that is embarrassing."
+code0309        
+code0479        0, 0, 16
+dialogtxt       "But..."
+dialogtxt       "What was the important thing"
+dialogtxt       "γ had forgotten?"
+code0309        
+call            @Func_2f1a
+code0479        1, 11, 16
+call            @Func_2f50
+dialogtxt       "That is..."
+code0309        
+code0479        1, 7, 13
+dialogtxt       "A secret. ◎"
+code0309        
+call            @Func_3020
+call            @Func_2f6e
+code047b        
+goto            @Cond_2932
+
+@Cond_2932:
+code0333        2, 30
+done            
+
+@Func_2942:
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+@Func_2982:
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+@Func_2c64:
+jumpz           @Cond_2c8a, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_2ec4
+
+@Cond_2c8a:
+jumpz           @Cond_2cb0, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_2ec4
+
+@Cond_2cb0:
+jumpz           @Cond_2cd6, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_2ec4
+
+@Cond_2cd6:
+jumpz           @Cond_2cfc, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_2ec4
+
+@Cond_2cfc:
+jumpz           @Cond_2d22, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_2ec4
+
+@Cond_2d22:
+jumpz           @Cond_2d48, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_2ec4
+
+@Cond_2d48:
+jumpz           @Cond_2d6e, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_2ec4
+
+@Cond_2d6e:
+jumpz           @Cond_2d94, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_2ec4
+
+@Cond_2d94:
+jumpz           @Cond_2dba, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_2ec4
+
+@Cond_2dba:
+jumpz           @Cond_2de0, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_2ec4
+
+@Cond_2de0:
+jumpz           @Cond_2e06, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_2ec4
+
+@Cond_2e06:
+jumpz           @Cond_2e2c, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_2ec4
+
+@Cond_2e2c:
+jumpz           @Cond_2e52, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_2ec4
+
+@Cond_2e52:
+jumpz           @Cond_2e78, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_2ec4
+
+@Cond_2e78:
+jumpz           @Cond_2e9e, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_2ec4
+
+@Cond_2e9e:
+jumpz           @Label_2ec4, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_2ec4
+
+@Label_2ec4:
+ret             
+
+@Func_2ec6:
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_2ee4:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+@Func_2f02:
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_2f1a:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_2f32:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_2f50:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_2f6e:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_2f86:
+code047e        1, 0
+code0302        7
+ret             
+
+@Func_2f9e:
+code047a        0, 1, 1
+ret             
+
+code047a        1, 1, 1
+ret             
+
+@Func_2fca:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+@Func_2ff4:
+code047a        0, 0, 1
+ret             
+
+code047a        1, 0, 1
+ret             
+
+@Func_3020:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

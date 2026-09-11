@@ -1,0 +1,1768 @@
+setvar          $f0153, 0
+code0333        2, 30
+code031a        5
+code031b        5, 144, 0, 0, 30
+code031c        5, 1
+code0324        5, 80
+code031d        5, 1
+jumpz           @Cond_009a, ($b003 == 0)
+code0438        1, 41, 527, 6
+goto            @Cond_009a
+
+@Cond_009a:
+jumpz           @Cond_00c8, ($b003 == 1)
+code0438        1, 61, 527, 6
+goto            @Cond_00c8
+
+@Cond_00c8:
+jumpz           @Cond_00f6, ($b003 == 2)
+code0438        1, 81, 527, 6
+goto            @Cond_00f6
+
+@Cond_00f6:
+jumpz           @Cond_0124, ($b003 == 3)
+code0438        1, 101, 527, 6
+goto            @Cond_0124
+
+@Cond_0124:
+code043a        1, 1, 0
+code043e        1, 0, 1
+code043d        1, 104, 320
+code0444        1, 60
+code0443        1, 32, 0
+code0443        1, 256, 0
+code0443        1, 64, 1
+code0334        
+code0331        29, 256
+code048b        24, 240, 24
+code043e        0, 6, 0
+walkto          0, 184, 320, 1
+walkwait        0
+code043e        0, 3, 0
+code048c        
+code040d        15
+code0478        1, 0
+code0479        1, 0, 16
+code047d        1, 0
+code0478        0, 2
+jumpz           @Cond_0288, ($b003 == 0)
+code0479        0, 0, 12
+goto            @Label_02f0
+
+@Cond_0288:
+jumpz           @Cond_02b0, ($b003 == 1)
+code0479        0, 2, 16
+goto            @Label_02f0
+
+@Cond_02b0:
+jumpz           @Cond_02d8, ($b003 == 2)
+code0479        0, 0, 12
+goto            @Label_02f0
+
+@Cond_02d8:
+code0479        0, 0, 12
+goto            @Label_02f0
+
+@Label_02f0:
+code047d        0, 2
+call            @Func_50e0
+jumpz           @Cond_1404, ($b003 == 0)
+call            @Func_505e
+dialogtxt       "γ？"
+code047b        
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_50ca
+call            @Func_5010
+dialogtxt       "..."
+dialogtxt       "Yes..."
+code047b        
+code0309        
+call            @Func_5046
+code0479        1, 0, 13
+call            @Func_507c
+jumpz           @Cond_03ac, ($b002 == 0)
+dialogtxt       "Thank goodness!"
+dialogtxt       "...Was That A Secret?"
+goto            @Label_03d6
+
+@Cond_03ac:
+dialogtxt       "Thank goodness!"
+dialogtxt       "...Was That A Secret?"
+goto            @Label_03d6
+
+@Label_03d6:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "I Am Restrained, But [NAME 8]"
+dialogtxt       "There Are No System Abnormalities"
+code0309        
+call            @Func_5046
+code0479        1, 0, 16
+call            @Func_507c
+jumpz           @Cond_04a2, ($b002 == 0)
+dialogtxt       "I Do Not Really Understand, But"
+dialogtxt       "So You Are All Right..."
+dialogtxt       "What Happened To Murno?"
+goto            @Label_04ec
+
+@Cond_04a2:
+dialogtxt       "I Do Not Really Understand, But"
+dialogtxt       "So You Are All Right..."
+dialogtxt       "What Happened To Murno?"
+goto            @Label_04ec
+
+@Label_04ec:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "I Do Not Know... After I Rescued You"
+dialogtxt       "From The River The Residents Here"
+dialogtxt       "Restrained Me... [NAME 8]"
+code0309        
+dialogtxt       "They Carried Me Here, [NAME 8]"
+code0309        
+call            @Func_5046
+code0479        1, 4, 12
+call            @Func_507c
+jumpz           @Cond_0624, ($b002 == 0)
+dialogtxt       "I See."
+dialogtxt       "You Saved Us...?"
+dialogtxt       "Thanks..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "Come To Think Of It"
+dialogtxt       "Where Are We?"
+code0309        
+goto            @Label_069e
+
+@Cond_0624:
+dialogtxt       "I See."
+dialogtxt       "You Saved Us...?"
+dialogtxt       "Thanks..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "Come To Think Of It"
+dialogtxt       "Where Could This Be?"
+code0309        
+goto            @Label_069e
+
+@Label_069e:
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "I Do Not Know..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_07c2, ($b002 == 0)
+dialogtxt       "I See... But"
+dialogtxt       "They Locked Us Up In A Place Like This"
+dialogtxt       "Who Knows What They Will Do To Us..."
+code0309        
+code0479        1, 2, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Smash It With Your Power?"
+code0309        
+goto            @Label_0886
+
+@Cond_07c2:
+dialogtxt       "I See... But"
+dialogtxt       "If We Stay Locked Up Here"
+dialogtxt       "Who Knows What They Will Do To Us..."
+code0309        
+code0479        1, 2, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Break It With Your Power?"
+code0309        
+goto            @Label_0886
+
+@Label_0886:
+call            @Func_50b2
+code0479        0, 4, 12
+call            @Func_5010
+dialogtxt       "Impossible."
+dialogtxt       "A Special Bracelet Limits My Actions"
+dialogtxt       "It Has Been Set In Place"
+code0309        
+call            @Func_5046
+code0479        1, 2, 15
+call            @Func_507c
+jumpz           @Cond_095e, ($b002 == 0)
+dialogtxt       "The Bracelet...?"
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "Damn it...!"
+goto            @Label_09aa
+
+@Cond_095e:
+dialogtxt       "The Bracelet...?"
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "Poor Thing...!"
+goto            @Label_09aa
+
+@Label_09aa:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 12
+call            @Func_5010
+dialogtxt       "In This State, I Cannot Protect Lady"
+dialogtxt       "Murno I Cannot Protect Her..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_0ad0, ($b002 == 0)
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        0, 0, 12
+code0479        1, 4, 12
+dialogtxt       "What Has Become Of Them..."
+goto            @Label_0b5c
+
+@Cond_0ad0:
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        1, 4, 12
+dialogtxt       "What Has Become Of Them..."
+goto            @Label_0b5c
+
+@Label_0b5c:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "I Will Change My Priority"
+dialogtxt       "To Protect Lady Murno In This Situation,"
+dialogtxt       "I Judge It Better To Tell You"
+code0309        
+call            @Func_5046
+code0479        1, 0, 16
+call            @Func_507c
+jumpz           @Cond_0c1c, ($b002 == 0)
+dialogtxt       "Is That So?"
+goto            @Label_0c2e
+
+@Cond_0c1c:
+dialogtxt       "Is That So?"
+goto            @Label_0c2e
+
+@Label_0c2e:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "That Govan Summon Stone Is"
+dialogtxt       "Lady Murno’s Family"
+dialogtxt       "Has Protected It For Generations"
+code0309        
+call            @Func_5046
+code0479        1, 0, 14
+call            @Func_507c
+jumpz           @Cond_0d1a, ($b002 == 0)
+dialogtxt       "Keeping It All Inside..."
+dialogtxt       "Keeping It All Inside..."
+dialogtxt       "I Look Forward To Working With You"
+goto            @Label_0d68
+
+@Cond_0d1a:
+dialogtxt       "So I Cannot Use My Power..."
+dialogtxt       "Find A Way To Rescue Murno..."
+dialogtxt       "...Was That A Secret?"
+goto            @Label_0d68
+
+@Label_0d68:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "Because It Holds Powerful Energy,"
+dialogtxt       "So It Cannot Be Misused,"
+dialogtxt       "They Appeared To Protect It."
+code0309        
+dialogtxt       "Anise And The Others Came To The"
+dialogtxt       "Village An Armed Group Came For The"
+dialogtxt       "Summon Stone Because They Appeared,"
+code0309        
+dialogtxt       "Lady Murno’s Father"
+dialogtxt       "Lord Wellman Asked Us To"
+dialogtxt       "Entrust The Summon Stone To Us"
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_0f00, ($b002 == 0)
+dialogtxt       "...Was That A Secret?"
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "What Has Become Of It..."
+goto            @Label_0f5a
+
+@Cond_0f00:
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "What Has Become Of That Village..."
+dialogtxt       "What Has Become Of It..."
+goto            @Label_0f5a
+
+@Label_0f5a:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 12
+call            @Func_5010
+dialogtxt       "I Do Not Know"
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+dialogtxt       "I See."
+dialogtxt       "Murno Must Be Worried..."
+code0309        
+code0479        1, 4, 14
+jumpz           @Cond_103c, ($b002 == 0)
+dialogtxt       "What Has Become Of That Village..."
+dialogtxt       "You Kept Silent..."
+dialogtxt       "Enduring It..."
+goto            @Label_1082
+
+@Cond_103c:
+dialogtxt       "Judging By That Scene..."
+dialogtxt       "You Kept Silent..."
+dialogtxt       "Enduring It..."
+goto            @Label_1082
+
+@Label_1082:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "Lady Murno Tried To Solve The Problem"
+dialogtxt       "Herself."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_1190, ($b002 == 0)
+dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+goto            @Label_121c
+
+@Cond_1190:
+dialogtxt       "You Know..."
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+goto            @Label_121c
+
+@Label_121c:
+code0309        
+call            @Func_50b2
+code0479        0, 5, 12
+call            @Func_5010
+dialogtxt       "Partner..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 13
+call            @Func_507c
+jumpz           @Cond_12c4, ($b002 == 0)
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_1312
+
+@Cond_12c4:
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_1312
+
+@Label_1312:
+code0309        
+call            @Func_50b2
+code0479        0, 1, 12
+call            @Func_5010
+dialogtxt       "I Understand. Please Take Care Of"
+dialogtxt       "[NAME 6]."
+code0309        
+call            @Func_5046
+code0479        1, 1, 13
+call            @Func_507c
+jumpz           @Cond_1392, ($b002 == 0)
+dialogtxt       "Yeah!"
+goto            @Label_13a0
+
+@Cond_1392:
+dialogtxt       "Yes!"
+goto            @Label_13a0
+
+@Label_13a0:
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...But First"
+dialogtxt       "We Must Do Something About This"
+dialogtxt       "Or We Will Be In Trouble..."
+code0309        
+call            @Func_514c
+call            @Func_509a
+code047b        
+goto            @Cond_1404
+
+@Cond_1404:
+jumpz           @Cond_24da, ($b003 == 1)
+call            @Func_505e
+dialogtxt       "γ？"
+code047b        
+code0309        
+call            @Func_50b2
+code0479        0, 0, 13
+call            @Func_50ca
+call            @Func_5010
+dialogtxt       "Hm..."
+dialogtxt       "It Seems You Are As Energetic As Ever"
+dialogtxt       "You Seem Well, As Usual."
+code047b        
+code0309        
+call            @Func_5046
+code0479        1, 0, 13
+call            @Func_507c
+jumpz           @Cond_14d4, ($b002 == 0)
+dialogtxt       "Yes!"
+dialogtxt       "That Was Her Intention..."
+goto            @Label_14f6
+
+@Cond_14d4:
+dialogtxt       "Yes!"
+dialogtxt       "Is [NAME 1] All Right?"
+goto            @Label_14f6
+
+@Label_14f6:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 12
+call            @Func_5010
+dialogtxt       "More Or Less."
+code0309        
+call            @Func_5046
+code0479        1, 0, 16
+call            @Func_507c
+dialogtxt       "Thank Goodness..."
+dialogtxt       "Then What About Murno?"
+dialogtxt       "What Happened To Murno?"
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "I Do Not Know... I Used All My Strength"
+dialogtxt       "Just To Save You ..."
+dialogtxt       "..."
+code0309        
+code0479        0, 4, 14
+dialogtxt       "When We Arrived, The Residents"
+dialogtxt       "Captured Us..."
+dialogtxt       "When I Came To, I Was Like This..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 12
+call            @Func_507c
+jumpz           @Cond_16f0, ($b002 == 0)
+dialogtxt       "I See."
+dialogtxt       "You Saved Us."
+dialogtxt       "Thank You"
+code0309        
+code0479        1, 0, 16
+dialogtxt       "I Do Not Know..."
+goto            @Label_175a
+
+@Cond_16f0:
+dialogtxt       "I See."
+dialogtxt       "You Saved Us."
+dialogtxt       "Thank You"
+code0309        
+code0479        1, 0, 16
+dialogtxt       "If Only My Power Would Return..."
+goto            @Label_175a
+
+@Label_175a:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 16
+call            @Func_5010
+dialogtxt       "I Do Not Know That Much..."
+dialogtxt       "But We Are Not Welcome"
+dialogtxt       "It Seems..."
+code0309        
+call            @Func_5046
+code0479        0, 0, 14
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_18ac, ($b002 == 0)
+dialogtxt       "Indeed..."
+dialogtxt       "...Was That A Secret?"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Smash It With Your Power?"
+goto            @Label_1952
+
+@Cond_18ac:
+dialogtxt       "Indeed..."
+dialogtxt       "We've Been Put In A Place Like This"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Break It With Your Power?"
+goto            @Label_1952
+
+@Label_1952:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "...Was That A Secret?"
+dialogtxt       "So I Cannot Use My Power..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 15
+call            @Func_507c
+jumpz           @Cond_1a02, ($b002 == 0)
+dialogtxt       "The Bracelet...?"
+dialogtxt       "Damn it...!"
+goto            @Label_1a22
+
+@Cond_1a02:
+dialogtxt       "The Bracelet...?"
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_1a22
+
+@Label_1a22:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 16
+call            @Func_5010
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "Find A Way To Rescue Murno..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_1b46, ($b002 == 0)
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        1, 4, 12
+code0479        0, 0, 14
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_1be6
+
+@Cond_1b46:
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        1, 4, 12
+code0479        0, 0, 14
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_1be6
+
+@Label_1be6:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "Now That Things Have Come To This,"
+dialogtxt       "Perhaps I Should Tell You As Well"
+dialogtxt       "To Protect Murno, Too..."
+code0309        
+call            @Func_5046
+code0479        1, 5, 16
+call            @Func_507c
+jumpz           @Cond_1caa, ($b002 == 0)
+dialogtxt       "Is That So?"
+goto            @Label_1cbc
+
+@Cond_1caa:
+dialogtxt       "Is That So?"
+goto            @Label_1cbc
+
+@Label_1cbc:
+code0309        
+call            @Func_50b2
+code0479        1, 0, 16
+code0479        0, 0, 14
+call            @Func_5010
+dialogtxt       "That Govan Summon Stone"
+dialogtxt       "It Is What They Have Protected."
+dialogtxt       "For Generations."
+code0309        
+call            @Func_5046
+code0479        1, 0, 14
+call            @Func_507c
+jumpz           @Cond_1dbc, ($b002 == 0)
+dialogtxt       "When I Came To, I Was In This Room..."
+dialogtxt       "So I Cannot Use My Power..."
+dialogtxt       "Find A Way To Rescue Lady Murno..."
+goto            @Label_1e0a
+
+@Cond_1dbc:
+dialogtxt       "...Was That A Secret?"
+dialogtxt       "...Was That A Secret?"
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_1e0a
+
+@Label_1e0a:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 14
+call            @Func_5010
+dialogtxt       "It Is Hardly A Treasure..."
+dialogtxt       "To Prevent Its Power From Misuse"
+dialogtxt       "They Kept It Hidden."
+code0309        
+code0479        0, 2, 16
+dialogtxt       "But Somehow The Word Got Out"
+dialogtxt       "Is It Some Kind Of Treasure?"
+dialogtxt       "And Ran Wild, Demanding The Stone..."
+code0309        
+dialogtxt       "The Village Was Left In Ruins..."
+dialogtxt       "What Has Become Of That Village..."
+dialogtxt       "And Gave Him The Summon Stone..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_1fc6, ($b002 == 0)
+dialogtxt       "What Has Become Of That Village..."
+dialogtxt       "But Judging By That Scene..."
+dialogtxt       "I Do Not Know..."
+goto            @Label_2018
+
+@Cond_1fc6:
+dialogtxt       "So You Fled The Village..."
+dialogtxt       "Then, Now..."
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_2018
+
+@Label_2018:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "I Do Not Know..."
+dialogtxt       "But Probably,"
+dialogtxt       "Judging By That Scene..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+jumpz           @Cond_20ea, ($b002 == 0)
+dialogtxt       "No... Even Though You Suffered So"
+dialogtxt       "Much, You Kept Silent Around Us..."
+dialogtxt       "[NAME 8]"
+goto            @Label_213e
+
+@Cond_20ea:
+dialogtxt       "No..."
+dialogtxt       "Even Though You Suffered So Much,"
+dialogtxt       "You Kept It From Us All..."
+goto            @Label_213e
+
+@Label_213e:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 14
+call            @Func_5010
+dialogtxt       "Murno Did Her Best To Keep You Out Of"
+dialogtxt       "This Get You Involved That Was Her"
+dialogtxt       "Intention..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_2264, ($b002 == 0)
+dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "So I’ll Do My Best, Too!"
+goto            @Label_22f0
+
+@Cond_2264:
+dialogtxt       "You Know..."
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "So I’ll Do My Best, Too!"
+goto            @Label_22f0
+
+@Label_22f0:
+code0309        
+call            @Func_50b2
+code0479        0, 5, 16
+call            @Func_5010
+dialogtxt       "You..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 13
+call            @Func_507c
+jumpz           @Cond_2394, ($b002 == 0)
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_23e2
+
+@Cond_2394:
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_23e2
+
+@Label_23e2:
+code0309        
+call            @Func_50b2
+code0479        0, 1, 13
+call            @Func_5010
+dialogtxt       "Good! That Is The Spirit!"
+dialogtxt       "Let Us Fight Together!"
+code0309        
+call            @Func_5046
+code0479        1, 1, 13
+call            @Func_507c
+jumpz           @Cond_2468, ($b002 == 0)
+dialogtxt       "Yeah!"
+goto            @Label_2476
+
+@Cond_2468:
+dialogtxt       "Yes!"
+goto            @Label_2476
+
+@Label_2476:
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...But First"
+dialogtxt       "We Must Do Something About This"
+dialogtxt       "Or We Will Be In Trouble..."
+code0309        
+call            @Func_514c
+call            @Func_509a
+code047b        
+goto            @Cond_24da
+
+@Cond_24da:
+jumpz           @Cond_3914, ($b003 == 2)
+call            @Func_505e
+dialogtxt       "γ？"
+code047b        
+code0309        
+call            @Func_50b2
+code0479        0, 0, 13
+call            @Func_50ca
+call            @Func_5010
+dialogtxt       "Hmph... Even An Attack Like That"
+dialogtxt       "[NAME 8] Cannot Bring Me"
+dialogtxt       "Down"
+code047b        
+code0309        
+call            @Func_5046
+code0479        1, 0, 13
+call            @Func_507c
+jumpz           @Cond_25b2, ($b002 == 0)
+dialogtxt       "Of Course"
+dialogtxt       "Are You All Right?"
+goto            @Label_25e6
+
+@Cond_25b2:
+dialogtxt       "Of Course"
+dialogtxt       "Are You All Right?"
+goto            @Label_25e6
+
+@Label_25e6:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "There’s Nothing For [NAME 4] To Worry About."
+dialogtxt       "Nothing At All."
+code0309        
+call            @Func_5046
+code0479        1, 0, 16
+call            @Func_507c
+jumpz           @Cond_26a8, ($b002 == 0)
+dialogtxt       "I See."
+dialogtxt       "Then What About Murno?"
+dialogtxt       "What Happened To Murno?"
+goto            @Label_26ea
+
+@Cond_26a8:
+dialogtxt       "I See."
+dialogtxt       "Then What About Murno?"
+dialogtxt       "What Happened To Murno?"
+goto            @Label_26ea
+
+@Label_26ea:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 12
+call            @Func_5010
+dialogtxt       "I Do Not Know..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+dialogtxt       "γ..."
+code0309        
+call            @Func_50b2
+code0479        0, 2, 12
+call            @Func_5010
+dialogtxt       "Just Carrying You This Far [NAME 4]"
+dialogtxt       "My Strength Seems Exhausted..."
+dialogtxt       "When I Came To, I Was In This Room..."
+code0309        
+code0479        0, 2, 16
+dialogtxt       "If Only My Power Would Return..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 12
+call            @Func_507c
+jumpz           @Cond_285e, ($b002 == 0)
+dialogtxt       "I See."
+dialogtxt       "γ Saved Us..."
+dialogtxt       "Thank You"
+goto            @Label_2896
+
+@Cond_285e:
+dialogtxt       "I See."
+dialogtxt       "γ Saved Us..."
+dialogtxt       "Thank You"
+goto            @Label_2896
+
+@Label_2896:
+code0309        
+call            @Func_50b2
+code0479        0, 6, 14
+call            @Func_5010
+dialogtxt       "Tch...!"
+dialogtxt       "I Did Not Save You Because I Wanted To"
+dialogtxt       "Do Not Thank Me"
+code0309        
+call            @Func_5046
+code0479        1, 1, 16
+call            @Func_507c
+jumpz           @Cond_2944, ($b002 == 0)
+dialogtxt       "Yes, Yes."
+dialogtxt       "So, Where Are We?"
+goto            @Label_296c
+
+@Cond_2944:
+dialogtxt       "Yes, Yes."
+dialogtxt       "So, Where Are We?"
+goto            @Label_296c
+
+@Label_296c:
+code0309        
+call            @Func_50b2
+code0479        1, 0, 16
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "How Would I Know?"
+dialogtxt       "But I Can Tell We're Not Welcome"
+dialogtxt       "Seems Certain..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_2ac6, ($b002 == 0)
+dialogtxt       "That Is True..."
+dialogtxt       "They Put Us In A Place Like This"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Smash It With Your Power?"
+goto            @Label_2b6e
+
+@Cond_2ac6:
+dialogtxt       "That Is True..."
+dialogtxt       "They Put Us In A Place Like This"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Break It With Your Power?"
+goto            @Label_2b6e
+
+@Label_2b6e:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "Tch... I Would Have Done So"
+dialogtxt       "Already If I Could. This Bracelet"
+dialogtxt       "Keeps Me From Using My Power."
+code0309        
+call            @Func_5046
+code0479        1, 2, 15
+call            @Func_507c
+jumpz           @Cond_2c50, ($b002 == 0)
+dialogtxt       "A Strange Bracelet...?"
+dialogtxt       "They Put That On You...?"
+dialogtxt       "How Cruel..."
+goto            @Label_2c94
+
+@Cond_2c50:
+dialogtxt       "A Strange Bracelet...?"
+dialogtxt       "They Put That On You...?"
+dialogtxt       "Poor Thing..."
+goto            @Label_2c94
+
+@Label_2c94:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "I Told You There’s No Need"
+dialogtxt       "For [NAME 4] To Worry."
+dialogtxt       "There Is Nothing To Worry About."
+code0309        
+code0479        1, 2, 14
+code0479        0, 2, 12
+dialogtxt       "More importantly, think about [NAME 4]"
+dialogtxt       "What You Must Think About Is..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_2e6c, ($b002 == 0)
+dialogtxt       "I Know"
+dialogtxt       "It Is About Murno, Right?"
+dialogtxt       "Come To Think Of It..."
+code0309        
+code0479        0, 2, 12
+code0479        1, 2, 16
+dialogtxt       "The Reason Murno Was Targeted..."
+dialogtxt       "Was That Summon Stone"
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...Was That A Secret?"
+goto            @Label_2f60
+
+@Cond_2e6c:
+dialogtxt       "I Know"
+dialogtxt       "It Is About Murno, Right?"
+dialogtxt       "Come To Think Of It..."
+code0309        
+code0479        0, 2, 12
+code0479        1, 2, 16
+dialogtxt       "The Reason Murno Was Targeted..."
+dialogtxt       "Was That Summon Stone"
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...Was That A Secret?"
+goto            @Label_2f60
+
+@Label_2f60:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "Tch... Since You Have Seen This Much"
+dialogtxt       "[NAME 8] There Is No Point In"
+dialogtxt       "Hiding It"
+code0309        
+call            @Func_5046
+code0479        1, 5, 16
+call            @Func_507c
+jumpz           @Cond_2ffe, ($b002 == 0)
+dialogtxt       "Is That So?"
+goto            @Label_3010
+
+@Cond_2ffe:
+dialogtxt       "Is That So?"
+goto            @Label_3010
+
+@Label_3010:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "Enough. Listen."
+code0309        
+dialogtxt       "That Govan Summon Stone"
+dialogtxt       "Murno's Family Have"
+dialogtxt       "Protected It For Generations"
+code0309        
+call            @Func_5046
+code0479        1, 0, 14
+call            @Func_507c
+jumpz           @Cond_310e, ($b002 == 0)
+dialogtxt       "Protected It?"
+dialogtxt       "You Said It Had Great Power."
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_315c
+
+@Cond_310e:
+dialogtxt       "Protected It?"
+dialogtxt       "You Said It Had Great Power."
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_315c
+
+@Label_315c:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "I Told You To Listen..."
+code0309        
+call            @Func_5046
+code0479        1, 1, 16
+call            @Func_507c
+dialogtxt       "Ugh..."
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "Tch... To Keep That Power From Being"
+dialogtxt       "Misused, We Only Kept It Hidden From"
+dialogtxt       "[NAME 5]."
+code0309        
+code0479        1, 2, 14
+code0479        0, 0, 12
+dialogtxt       "But Somehow The Word Got Out"
+dialogtxt       "Those People Came To The Village"
+dialogtxt       "Demanding The Summon Stone..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 16
+call            @Func_507c
+jumpz           @Cond_32f2, ($b002 == 0)
+dialogtxt       "Anise And The Others...?"
+goto            @Label_3308
+
+@Cond_32f2:
+dialogtxt       "Anise And The Others...?"
+goto            @Label_3308
+
+@Label_3308:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "They Caused A Great Uproar I Was"
+dialogtxt       "Asked To Protect The Summon Stone By"
+dialogtxt       "Her Father"
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_33fa, ($b002 == 0)
+dialogtxt       "So That's Why You Fled The Village..."
+dialogtxt       "What About Your Village And Father... "
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_344c
+
+@Cond_33fa:
+dialogtxt       "So That's Why You Fled The Village..."
+dialogtxt       "What About Your Village And Father... "
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_344c
+
+@Label_344c:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 12
+call            @Func_5010
+dialogtxt       "I Do Not Know"
+dialogtxt       "But Judging By That Scene..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+jumpz           @Cond_3510, ($b002 == 0)
+dialogtxt       "No... Even Though You Suffered So"
+dialogtxt       "Much, You Kept It Hidden From Us All"
+dialogtxt       "This Time...?"
+goto            @Label_3566
+
+@Cond_3510:
+dialogtxt       "No... Even Though You Suffered So"
+dialogtxt       "Much, You Kept It Hidden From Us All"
+dialogtxt       "This Time...?"
+goto            @Label_3566
+
+@Label_3566:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 16
+call            @Func_5010
+dialogtxt       "She Was Afraid Of Causing You [NAME 4]"
+dialogtxt       "Trouble, It Seems So She Went"
+dialogtxt       "Alone..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_3662, ($b002 == 0)
+dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+goto            @Label_36ba
+
+@Cond_3662:
+dialogtxt       "You Know..."
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+goto            @Label_36ba
+
+@Label_36ba:
+code0309        
+call            @Func_50b2
+code0479        0, 5, 17
+call            @Func_5010
+dialogtxt       "W-What Are You Saying..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 12
+call            @Func_507c
+jumpz           @Cond_37a0, ($b002 == 0)
+dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+code0309        
+code0479        1, 2, 13
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_3822
+
+@Cond_37a0:
+dialogtxt       "So I’ll Do My Best, Too!"
+code0309        
+code0479        1, 2, 13
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_3822
+
+@Label_3822:
+code0309        
+call            @Func_50b2
+code0479        0, 9, 12
+call            @Func_5010
+dialogtxt       "Tch..."
+dialogtxt       "Enough"
+dialogtxt       "Do As You Please..."
+code0309        
+call            @Func_5046
+code0479        1, 1, 13
+call            @Func_507c
+jumpz           @Cond_38a2, ($b002 == 0)
+dialogtxt       "Yeah!"
+goto            @Label_38b0
+
+@Cond_38a2:
+dialogtxt       "Yes!"
+goto            @Label_38b0
+
+@Label_38b0:
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...But First"
+dialogtxt       "We Must Do Something About This"
+dialogtxt       "Or We Will Be In Trouble..."
+code0309        
+call            @Func_514c
+call            @Func_509a
+code047b        
+goto            @Cond_3914
+
+@Cond_3914:
+jumpz           @Cond_4a5e, ($b003 == 3)
+call            @Func_505e
+dialogtxt       "γ？"
+code047b        
+code0309        
+call            @Func_50b2
+code0479        0, 4, 13
+call            @Func_50ca
+call            @Func_5010
+dialogtxt       "Yes..."
+dialogtxt       "You Appear To Be Safe As Well"
+dialogtxt       "I Am Relieved..."
+code047b        
+code0309        
+call            @Func_5046
+code0479        1, 0, 13
+call            @Func_507c
+jumpz           @Cond_39f2, ($b002 == 0)
+dialogtxt       "Yeah!"
+dialogtxt       "I Am Fine! [NAME 8]"
+dialogtxt       "Are You All Right, γ?"
+goto            @Label_3a2c
+
+@Cond_39f2:
+dialogtxt       "Yes!"
+dialogtxt       "I Am Fine!"
+dialogtxt       "Are You All Right, γ?"
+goto            @Label_3a2c
+
+@Label_3a2c:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 12
+call            @Func_5010
+dialogtxt       "Yes, More Or Less..."
+code0309        
+call            @Func_5046
+code0479        1, 0, 16
+call            @Func_507c
+jumpz           @Cond_3acc, ($b002 == 0)
+dialogtxt       "Thank Goodness..."
+dialogtxt       "Then What About Murno?"
+dialogtxt       "What Happened To Murno?"
+goto            @Label_3b10
+
+@Cond_3acc:
+dialogtxt       "Thank Goodness..."
+dialogtxt       "Then What About Murno?"
+dialogtxt       "What Happened To Murno?"
+goto            @Label_3b10
+
+@Label_3b10:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "I Don't Know..."
+dialogtxt       "I Tried My Best, But..."
+dialogtxt       "Used All My Strength..."
+code0309        
+dialogtxt       "When We Arrived, The Residents"
+dialogtxt       "Captured Us..."
+dialogtxt       "When I Came To, I Was In This Room..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 12
+call            @Func_507c
+jumpz           @Cond_3c7c, ($b002 == 0)
+dialogtxt       "I See."
+dialogtxt       "γ Saved Us..."
+dialogtxt       "Thank You"
+code0309        
+code0479        1, 0, 16
+dialogtxt       "So, Where Are We?"
+goto            @Label_3ce6
+
+@Cond_3c7c:
+dialogtxt       "I See."
+dialogtxt       "γ Saved Us..."
+dialogtxt       "Thank You"
+code0309        
+code0479        1, 0, 16
+dialogtxt       "So Where Are We?"
+goto            @Label_3ce6
+
+@Label_3ce6:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 14
+call            @Func_5010
+dialogtxt       "I Do Not Know..."
+dialogtxt       "But We Are Not Welcome"
+dialogtxt       "It Seems So..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_3e24, ($b002 == 0)
+dialogtxt       "Indeed..."
+dialogtxt       "They Put Us In A Place Like This"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Smash It With Your Power?"
+goto            @Label_3eca
+
+@Cond_3e24:
+dialogtxt       "Indeed..."
+dialogtxt       "They Put Us In A Place Like This"
+dialogtxt       "After All..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "We Have To Escape Somehow..."
+dialogtxt       "A Wall Like This"
+dialogtxt       "Can You Break It With Your Power?"
+goto            @Label_3eca
+
+@Label_3eca:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 14
+call            @Func_5010
+dialogtxt       "So I Cannot Use My Power..."
+dialogtxt       "So I Cannot Use My Power..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+jumpz           @Cond_3f7c, ($b002 == 0)
+dialogtxt       "A Strange Bracelet...?"
+dialogtxt       "Is That So..."
+goto            @Label_3fa2
+
+@Cond_3f7c:
+dialogtxt       "A Strange Bracelet...?"
+dialogtxt       "I See."
+goto            @Label_3fa2
+
+@Label_3fa2:
+code0309        
+call            @Func_50b2
+code0479        0, 2, 16
+call            @Func_5010
+dialogtxt       "I Must Somehow"
+dialogtxt       "Find A Way To Rescue Lady Murno..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_40ca, ($b002 == 0)
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        0, 2, 14
+code0479        1, 4, 12
+dialogtxt       "...Was That A Secret?"
+goto            @Label_416a
+
+@Cond_40ca:
+dialogtxt       "Those People、That Murno Possessed"
+dialogtxt       "Were After The Summon Stone..."
+dialogtxt       "What Exactly Is It? [NAME 8]"
+code0309        
+code0479        0, 2, 14
+code0479        1, 4, 12
+dialogtxt       "...Was That A Secret?"
+goto            @Label_416a
+
+@Label_416a:
+code0309        
+call            @Func_50b2
+call            @Func_5010
+dialogtxt       "Now That Things Have Come To This,"
+dialogtxt       "Perhaps I Should Tell You As Well"
+dialogtxt       "To Protect Lady Murno, Too..."
+code0309        
+call            @Func_5046
+code0479        1, 5, 16
+call            @Func_507c
+jumpz           @Cond_4220, ($b002 == 0)
+dialogtxt       "Is That So?"
+goto            @Label_4232
+
+@Cond_4220:
+dialogtxt       "Is That So?"
+goto            @Label_4232
+
+@Label_4232:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 16
+call            @Func_5010
+dialogtxt       "That Govan Summon Stone"
+dialogtxt       "Lady Murno's Family Have"
+dialogtxt       "Have Protected It For Generations"
+code0309        
+call            @Func_5046
+code0479        1, 0, 14
+call            @Func_507c
+jumpz           @Cond_431e, ($b002 == 0)
+dialogtxt       "Protected It?"
+dialogtxt       "You Said It Had Great Power."
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_436c
+
+@Cond_431e:
+dialogtxt       "Protected It?"
+dialogtxt       "You Said It Had Great Power."
+dialogtxt       "Is It Some Kind Of Treasure?"
+goto            @Label_436c
+
+@Label_436c:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "It May Not Really Be A Treasure..."
+dialogtxt       "To Prevent Its Power From Misuse"
+dialogtxt       "That Is Why We Hid It."
+code0309        
+code0479        0, 2, 14
+dialogtxt       "But Somehow The Word Got Out Anise"
+dialogtxt       "And The Others Came To The Village And"
+dialogtxt       "Ran Wild, Demanding The Stone..."
+code0309        
+code0479        0, 4, 12
+dialogtxt       "The Village Was A Complete Mess... At"
+dialogtxt       "That Time, Lady Murno Gave The"
+dialogtxt       "Summon Stone To Her Father..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_4558, ($b002 == 0)
+dialogtxt       "So That's Why You Fled The Village..."
+dialogtxt       "What About Your Village And Father... "
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_45aa
+
+@Cond_4558:
+dialogtxt       "So That's Why You Fled The Village..."
+dialogtxt       "What About Your Village And Father... "
+dialogtxt       "What Has Become Of That Village..."
+goto            @Label_45aa
+
+@Label_45aa:
+code0309        
+call            @Func_50b2
+code0479        0, 4, 16
+call            @Func_5010
+dialogtxt       "I Don't Know..."
+dialogtxt       "But Judging By That Scene..."
+code0309        
+call            @Func_5046
+code0479        1, 4, 16
+call            @Func_507c
+jumpz           @Cond_4676, ($b002 == 0)
+dialogtxt       "No... Even Though You Suffered So"
+dialogtxt       "Much, You Kept It Hidden From Us All"
+dialogtxt       "This Time...?"
+goto            @Label_46cc
+
+@Cond_4676:
+dialogtxt       "No... Even Though You Suffered So"
+dialogtxt       "Much, You Kept It Hidden From Us All"
+dialogtxt       "This Time...?"
+goto            @Label_46cc
+
+@Label_46cc:
+code0309        
+call            @Func_50b2
+code0479        0, 0, 12
+call            @Func_5010
+dialogtxt       "Murno Did Her Best To Keep You Out Of"
+dialogtxt       "This Get You Involved That Was Her"
+dialogtxt       "Intention..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 14
+call            @Func_507c
+jumpz           @Cond_47f6, ($b002 == 0)
+dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+goto            @Label_4882
+
+@Cond_47f6:
+dialogtxt       "You Know..."
+dialogtxt       "Why You Want To Protect Murno"
+dialogtxt       "I Think I Understand Now..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "So I’ll Do My Best, Too!"
+goto            @Label_4882
+
+@Label_4882:
+code0309        
+call            @Func_50b2
+code0479        0, 5, 16
+call            @Func_5010
+dialogtxt       "Ms. δ..."
+code0309        
+call            @Func_5046
+code0479        1, 2, 13
+call            @Func_507c
+jumpz           @Cond_4926, ($b002 == 0)
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_4974
+
+@Cond_4926:
+dialogtxt       "I Will Work Even Harder"
+dialogtxt       "Together With You"
+dialogtxt       "I Will Protect Murno To The End!"
+goto            @Label_4974
+
+@Label_4974:
+code0309        
+call            @Func_50b2
+code0479        0, 1, 13
+call            @Func_5010
+dialogtxt       "Yes!"
+dialogtxt       "I Will Do My Best!"
+code0309        
+call            @Func_5046
+code0479        1, 1, 13
+call            @Func_507c
+jumpz           @Cond_49ec, ($b002 == 0)
+dialogtxt       "Yeah!"
+goto            @Label_49fa
+
+@Cond_49ec:
+dialogtxt       "Yes!"
+goto            @Label_49fa
+
+@Label_49fa:
+code0309        
+code0479        1, 4, 12
+dialogtxt       "...But First"
+dialogtxt       "We Must Do Something About This"
+dialogtxt       "Or We Will Be In Trouble..."
+code0309        
+call            @Func_514c
+call            @Func_509a
+code047b        
+goto            @Cond_4a5e
+
+@Cond_4a5e:
+code0333        2, 30
+done            
+
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_4db6, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_4ff0
+
+@Cond_4db6:
+jumpz           @Cond_4ddc, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_4ff0
+
+@Cond_4ddc:
+jumpz           @Cond_4e02, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_4ff0
+
+@Cond_4e02:
+jumpz           @Cond_4e28, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_4ff0
+
+@Cond_4e28:
+jumpz           @Cond_4e4e, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_4ff0
+
+@Cond_4e4e:
+jumpz           @Cond_4e74, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_4ff0
+
+@Cond_4e74:
+jumpz           @Cond_4e9a, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_4ff0
+
+@Cond_4e9a:
+jumpz           @Cond_4ec0, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_4ff0
+
+@Cond_4ec0:
+jumpz           @Cond_4ee6, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_4ff0
+
+@Cond_4ee6:
+jumpz           @Cond_4f0c, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_4ff0
+
+@Cond_4f0c:
+jumpz           @Cond_4f32, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_4ff0
+
+@Cond_4f32:
+jumpz           @Cond_4f58, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_4ff0
+
+@Cond_4f58:
+jumpz           @Cond_4f7e, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_4ff0
+
+@Cond_4f7e:
+jumpz           @Cond_4fa4, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_4ff0
+
+@Cond_4fa4:
+jumpz           @Cond_4fca, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_4ff0
+
+@Cond_4fca:
+jumpz           @Label_4ff0, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_4ff0
+
+@Label_4ff0:
+ret             
+
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_5010:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_5046:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_505e:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_507c:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_509a:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_50b2:
+code047e        1, 0
+code0302        7
+ret             
+
+@Func_50ca:
+code047a        0, 1, 1
+ret             
+
+@Func_50e0:
+code047a        1, 1, 1
+ret             
+
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+code047a        0, 0, 1
+ret             
+
+code047a        1, 0, 1
+ret             
+
+@Func_514c:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

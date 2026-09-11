@@ -1,0 +1,1035 @@
+code043c        1, 3
+code0478        1, 6
+code0479        1, 2, 14
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "No, δ."
+dialogtxt       "That one's the fake."
+dialogtxt       "Believe me. Let's get back, quickly!"
+code047b        
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+dialogtxt       "γ... Murno..."
+jumpz           @Cond_00ee, ($b002 == 0)
+dialogtxt       "[NAME 8]..."
+dialogtxt       "[NAME 8]...!"
+goto            @Label_0110
+
+@Cond_00ee:
+dialogtxt       "I..."
+dialogtxt       "I...!"
+goto            @Label_0110
+
+@Label_0110:
+code0309        
+choicetxt       @Choice_094c, "Trust Murno"
+choicetxt       @Choice_013a, "Trust γ"
+choicewait      
+
+@Choice_013a:
+setvar          $f0139, 1
+code0333        2, 30
+code0479        0, 2, 15
+jumpz           @Cond_020c, ($b002 == 0)
+dialogtxt       "γ's right. There's no way"
+dialogtxt       "Murno could be one of the"
+dialogtxt       "people who attacked this village!"
+code0309        
+code0334        
+code0331        21, 256
+code0479        0, 2, 14
+dialogtxt       "Let's move on, quickly!"
+goto            @Label_02a0
+
+@Cond_020c:
+dialogtxt       "γ's right. There's no way"
+dialogtxt       "Murno could be one of the"
+dialogtxt       "people who attacked this village!"
+code0309        
+code0334        
+code0331        21, 256
+code0479        0, 2, 14
+dialogtxt       "Let's move on, quickly!"
+goto            @Label_02a0
+
+@Label_02a0:
+code0309        
+call            @Func_2834
+call            @Func_2744
+code047b        
+code043c        1, 2
+code0478        1, 2
+jumpz           @Cond_02f0, ($b003 == 0)
+code0479        1, 1, 12
+goto            @Label_0358
+
+@Cond_02f0:
+jumpz           @Cond_0318, ($b003 == 1)
+code0479        1, 0, 12
+goto            @Label_0358
+
+@Cond_0318:
+jumpz           @Cond_0340, ($b003 == 2)
+code0479        1, 3, 13
+goto            @Label_0358
+
+@Cond_0340:
+code0479        1, 0, 12
+goto            @Label_0358
+
+@Label_0358:
+code047d        1, 2
+call            @Func_27de
+call            @Func_277a
+jumpz           @Cond_0394, ($b003 == 0)
+dialogtxt       "Partner...!"
+goto            @Cond_0394
+
+@Cond_0394:
+jumpz           @Cond_03b2, ($b003 == 1)
+dialogtxt       "δ...！"
+goto            @Cond_03b2
+
+@Cond_03b2:
+jumpz           @Cond_03d0, ($b003 == 2)
+dialogtxt       "δ...！"
+goto            @Cond_03d0
+
+@Cond_03d0:
+jumpz           @Cond_03f2, ($b003 == 3)
+dialogtxt       "δ...!"
+goto            @Cond_03f2
+
+@Cond_03f2:
+code047b        
+code0309        
+call            @Func_2834
+call            @Func_27b0
+code047b        
+code0478        1, 6
+code0479        1, 2, 12
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "You..."
+dialogtxt       "Do you truly"
+dialogtxt       "feel that way, deep down...?"
+code047b        
+code0309        
+code043c        1, 3
+code0479        1, 2, 13
+dialogtxt       "Or maybe..."
+dialogtxt       "you just want to believe that?"
+code0309        
+call            @Func_27b0
+code0479        0, 2, 15
+call            @Func_270e
+dialogtxt       "That's not true!"
+code0309        
+call            @Func_284a
+call            @Func_272c
+code047b        
+code0333        2, 30
+code0478        1, 0
+code0479        1, 4, 12
+code047d        1, 106
+code0301        8, 7
+code047e        1, 1
+jumpz           @Cond_058a, ($b002 == 0)
+dialogtxt       "Let's stop pretending to be tough..."
+goto            @Label_05b0
+
+@Cond_058a:
+dialogtxt       "Ahaha."
+dialogtxt       "Let's stop pretending to be tough..."
+goto            @Label_05b0
+
+@Label_05b0:
+code0309        
+code047e        1, 0
+code0302        7
+code0445        1, 3
+code0445        0, 11
+code0446        0
+code0334        
+code046e        34, 256, 1
+code040d        15
+call            @Func_1e6e
+code0479        0, 5, 14
+code0479        1, 0, 12
+call            @Func_27f4
+call            @Func_26f0
+jumpz           @Cond_0680, ($b002 == 0)
+dialogtxt       "You...!?"
+dialogtxt       "This thing... what in the world...!"
+goto            @Label_06b6
+
+@Cond_0680:
+dialogtxt       "You...!?"
+dialogtxt       "What does this... what in the world...!"
+goto            @Label_06b6
+
+@Label_06b6:
+code047b        
+code0309        
+call            @Func_2744
+code0479        1, 2, 12
+call            @Func_277a
+jumpz           @Cond_0786, ($b002 == 0)
+dialogtxt       "I always thought that woman"
+dialogtxt       "looked suspicious."
+dialogtxt       "She's definitely bad news..."
+code0309        
+code0479        1, 4, 12
+dialogtxt       "If we don't get back soon,"
+dialogtxt       "we might get executed too..."
+goto            @Label_081e
+
+@Cond_0786:
+dialogtxt       "I always thought that girl"
+dialogtxt       "looked suspicious."
+dialogtxt       "She's definitely bad news..."
+code0309        
+code0479        1, 4, 12
+dialogtxt       "If we don't get back soon,"
+dialogtxt       "we might get executed too......"
+goto            @Label_081e
+
+@Label_081e:
+code0309        
+call            @Func_27b0
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_085c, ($b002 == 0)
+dialogtxt       "Quiet..."
+goto            @Label_0870
+
+@Cond_085c:
+dialogtxt       "Be quiet..."
+goto            @Label_0870
+
+@Label_0870:
+code0309        
+call            @Func_2744
+code0479        1, 2, 12
+call            @Func_277a
+jumpz           @Cond_08b4, ($b002 == 0)
+dialogtxt       "Let's get back quickly..."
+goto            @Label_08ca
+
+@Cond_08b4:
+dialogtxt       "Let's get back quickly..."
+goto            @Label_08ca
+
+@Label_08ca:
+code0309        
+call            @Func_27b0
+code0479        0, 2, 15
+call            @Func_270e
+jumpz           @Cond_0918, ($b002 == 0)
+dialogtxt       "I said shut up!"
+goto            @Label_093c
+
+@Cond_0918:
+dialogtxt       "I said be quiet!"
+goto            @Label_093c
+
+@Label_093c:
+code0309        
+call            @Func_284a
+call            @Func_272c
+code047b        
+goto            @Label_1e6c
+
+@Choice_094c:
+setvar          $f0140, 1
+code0479        0, 2, 16
+jumpz           @Cond_099a, ($b002 == 0)
+dialogtxt       "All right..."
+dialogtxt       "Let's go back..."
+goto            @Label_09ba
+
+@Cond_099a:
+dialogtxt       "All right..."
+dialogtxt       "Let's go back..."
+goto            @Label_09ba
+
+@Label_09ba:
+code0309        
+call            @Func_2744
+code0479        1, 1, 12
+call            @Func_277a
+dialogtxt       "Thank goodness."
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+code043c        1, 2
+jumpz           @Cond_0a20, ($b003 == 0)
+code0445        1, 2
+goto            @Label_0a76
+
+@Cond_0a20:
+jumpz           @Cond_0a42, ($b003 == 1)
+code0445        1, 6
+goto            @Label_0a76
+
+@Cond_0a42:
+jumpz           @Cond_0a64, ($b003 == 2)
+code0445        1, 7
+goto            @Label_0a76
+
+@Cond_0a64:
+code0445        1, 9
+goto            @Label_0a76
+
+@Label_0a76:
+code0446        1
+code0478        1, 2
+jumpz           @Cond_0ab4, ($b003 == 0)
+code0479        1, 5, 12
+goto            @Label_0b1c
+
+@Cond_0ab4:
+jumpz           @Cond_0adc, ($b003 == 1)
+code0479        1, 3, 15
+goto            @Label_0b1c
+
+@Cond_0adc:
+jumpz           @Cond_0b04, ($b003 == 2)
+code0479        1, 2, 12
+goto            @Label_0b1c
+
+@Cond_0b04:
+code0479        1, 2, 15
+goto            @Label_0b1c
+
+@Label_0b1c:
+code047d        1, 2
+code0479        0, 2, 14
+call            @Func_27f4
+call            @Func_275c
+jumpz           @Cond_0fdc, ($b003 == 0)
+dialogtxt       "PLEASE WAIT"
+dialogtxt       "SHE IS A FAKE"
+code047b        
+code0309        
+call            @Func_27b0
+code043c        0, 4
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_0c08, ($b002 == 0)
+dialogtxt       "That may be true."
+dialogtxt       "But how are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_0c56
+
+@Cond_0c08:
+dialogtxt       "That may be true, but..."
+dialogtxt       "How are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_0c56
+
+@Label_0c56:
+code0309        
+call            @Func_2744
+code0479        1, 4, 12
+call            @Func_277a
+dialogtxt       "[NAME 5][NAME 8]..."
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+jumpz           @Cond_0d06, ($b002 == 0)
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_0d62
+
+@Cond_0d06:
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_0d62
+
+@Label_0d62:
+code0309        
+call            @Func_2744
+code0479        1, 0, 12
+call            @Func_277a
+dialogtxt       "HOWEVER, IF WE DO NOT PROCEED"
+dialogtxt       "QUICKLY THE REAL LADY MURNO"
+dialogtxt       "WILL BE EXPOSED TO DANGER"
+code0309        
+call            @Func_27b0
+code0479        0, 4, 14
+call            @Func_270e
+dialogtxt       "That may be true, but..."
+code0309        
+call            @Func_2834
+call            @Func_2744
+code047b        
+code043c        0, 3
+code043c        1, 3
+code0478        1, 6
+code0479        1, 2, 12
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "Don't be fooled, δ."
+dialogtxt       "That one's the fake."
+dialogtxt       "Look, here's the proof..."
+code047b        
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+code0333        2, 30
+call            @Func_1e6e
+code0334        
+code046e        34, 256, 1
+code0478        0, 2
+code0479        0, 0, 12
+code047d        0, 2
+code0478        1, 2
+code0479        1, 0, 12
+code047d        1, 106
+call            @Func_27f4
+call            @Func_275c
+dialogtxt       "AS [NAME 5] SAYS"
+dialogtxt       "YOU ARE THE FAKE"
+code047b        
+code0309        
+call            @Func_27b0
+code0479        0, 5, 12
+call            @Func_270e
+dialogtxt       "...！"
+code0309        
+call            @Func_2744
+code0479        1, 2, 12
+call            @Func_277a
+dialogtxt       "I WILL ELIMINATE THE FAKE!"
+goto            @Cond_0fdc
+
+@Cond_0fdc:
+jumpz           @Cond_14d4, ($b003 == 1)
+dialogtxt       "What did you say?!"
+dialogtxt       "You don't believe me?!"
+dialogtxt       "That one's definitely the fake!"
+code047b        
+code0309        
+call            @Func_27b0
+code043c        0, 4
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_10c8, ($b002 == 0)
+dialogtxt       "That may be true."
+dialogtxt       "But how are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_1116
+
+@Cond_10c8:
+dialogtxt       "That may be true, but..."
+dialogtxt       "How are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_1116
+
+@Label_1116:
+code0309        
+call            @Func_2744
+code0479        1, 2, 14
+call            @Func_277a
+dialogtxt       "Well, you see..."
+code0309        
+call            @Func_27b0
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_11cc, ($b002 == 0)
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_1228
+
+@Cond_11cc:
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_1228
+
+@Label_1228:
+code0309        
+call            @Func_2744
+code0479        1, 2, 15
+call            @Func_277a
+dialogtxt       "But if we don't hurry,"
+dialogtxt       "the real Murno will become food"
+dialogtxt       "for the Summon Beast!"
+code0309        
+call            @Func_27b0
+code0479        0, 4, 14
+call            @Func_270e
+dialogtxt       "That may be true, but..."
+code0309        
+call            @Func_2834
+call            @Func_2744
+code047b        
+code043c        0, 3
+code043c        1, 3
+code0478        1, 6
+code0479        1, 2, 12
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "Don't be fooled, δ."
+dialogtxt       "That one's the fake."
+dialogtxt       "Look, here's the proof..."
+code047b        
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+code0333        2, 30
+call            @Func_1e6e
+code0334        
+code046e        34, 256, 1
+code0478        0, 2
+code0479        0, 5, 15
+code047d        0, 2
+code0478        1, 2
+code0479        1, 2, 12
+code047d        1, 106
+call            @Func_27f4
+call            @Func_275c
+dialogtxt       "That's right."
+dialogtxt       "That one's the fake."
+dialogtxt       "It's just a [NAME 6]."
+code047b        
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+dialogtxt       "What..."
+dialogtxt       "Who are you!?"
+code0309        
+call            @Func_2744
+code0479        1, 3, 15
+call            @Func_277a
+dialogtxt       "Fake, leave this place"
+dialogtxt       "at once!"
+goto            @Cond_14d4
+
+@Cond_14d4:
+jumpz           @Cond_1994, ($b003 == 2)
+dialogtxt       "I see..."
+dialogtxt       "So [NAME 4]-sama never"
+dialogtxt       "believed in me after all."
+code047b        
+code0309        
+call            @Func_27b0
+code043c        0, 4
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_15aa, ($b002 == 0)
+dialogtxt       "That's not what I mean, but..."
+dialogtxt       "Can you prove"
+dialogtxt       "she's a fake?!"
+goto            @Label_15ec
+
+@Cond_15aa:
+dialogtxt       "That's not what I mean, but..."
+dialogtxt       "Can you prove"
+dialogtxt       "she's a fake?"
+goto            @Label_15ec
+
+@Label_15ec:
+code0309        
+call            @Func_2744
+code0479        1, 5, 14
+call            @Func_277a
+dialogtxt       "Proof?"
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+jumpz           @Cond_16a0, ($b002 == 0)
+dialogtxt       "If you can't do that,"
+dialogtxt       "we can't leave Murno"
+dialogtxt       "in a place like this, can we?"
+goto            @Label_16f0
+
+@Cond_16a0:
+dialogtxt       "If you can't do that,"
+dialogtxt       "we can't leave Murno"
+dialogtxt       "in a place like this, can we?"
+goto            @Label_16f0
+
+@Label_16f0:
+code0309        
+call            @Func_2744
+code0479        1, 3, 15
+call            @Func_277a
+dialogtxt       "Even if the real Murno up ahead"
+dialogtxt       "is about to become food"
+dialogtxt       "for this so-called Lord's Summon Beast?"
+code0309        
+call            @Func_27b0
+code0479        0, 4, 14
+call            @Func_270e
+dialogtxt       "That's..."
+dialogtxt       "But...!"
+code0309        
+call            @Func_2834
+call            @Func_2744
+code047b        
+code043c        0, 3
+code043c        1, 3
+code0478        1, 6
+code0479        1, 2, 12
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "Don't be fooled, δ."
+dialogtxt       "That one's the fake."
+dialogtxt       "Look, here's the proof..."
+code047b        
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+code0333        2, 30
+call            @Func_1e6e
+code0334        
+code046e        34, 256, 1
+code0478        0, 2
+code0479        0, 5, 16
+code047d        0, 2
+code0478        1, 2
+code0479        1, 0, 12
+code047d        1, 106
+call            @Func_27f4
+call            @Func_275c
+dialogtxt       "Of all things,"
+dialogtxt       "you would [NAME 6] my..."
+code047b        
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+dialogtxt       "Tch..."
+dialogtxt       "You even prepared something like this."
+code0309        
+call            @Func_2744
+code0479        1, 3, 15
+call            @Func_277a
+dialogtxt       "You're an eyesore."
+dialogtxt       "Disappear!"
+goto            @Cond_1994
+
+@Cond_1994:
+jumpz           @Cond_1e60, ($b003 == 3)
+dialogtxt       "Why!?"
+dialogtxt       "That person is definitely the fake!"
+dialogtxt       "Please believe me!"
+code047b        
+code0309        
+call            @Func_27b0
+code043c        0, 4
+code0479        0, 2, 16
+call            @Func_270e
+jumpz           @Cond_1a76, ($b002 == 0)
+dialogtxt       "That may be true."
+dialogtxt       "But how are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_1ac4
+
+@Cond_1a76:
+dialogtxt       "That may be true, but..."
+dialogtxt       "How are we supposed to"
+dialogtxt       "prove she's a fake?!"
+goto            @Label_1ac4
+
+@Label_1ac4:
+code0309        
+call            @Func_2744
+code0479        1, 2, 16
+call            @Func_277a
+dialogtxt       "Well, you see..."
+code0309        
+call            @Func_27b0
+code0479        0, 2, 14
+call            @Func_270e
+jumpz           @Cond_1b7a, ($b002 == 0)
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_1bd6
+
+@Cond_1b7a:
+dialogtxt       "If we can't prove it, we can't"
+dialogtxt       "leave Murno in a place like this,"
+dialogtxt       "can we?"
+goto            @Label_1bd6
+
+@Label_1bd6:
+code0309        
+call            @Func_2744
+code0479        1, 2, 14
+call            @Func_277a
+dialogtxt       "But if we don't hurry,"
+dialogtxt       "the real Lady Murno..."
+code0309        
+call            @Func_27b0
+code0479        0, 4, 14
+call            @Func_270e
+dialogtxt       "That may be true, but..."
+code0309        
+call            @Func_2834
+call            @Func_2744
+code047b        
+code043c        0, 3
+code043c        1, 3
+code0478        1, 6
+code0479        1, 2, 12
+code047d        1, 107
+call            @Func_27de
+call            @Func_277a
+dialogtxt       "Don't be fooled, δ."
+dialogtxt       "That one's the fake."
+dialogtxt       "Look, here's the proof..."
+code047b        
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+code0333        2, 30
+call            @Func_1e6e
+code0334        
+code046e        34, 256, 1
+code0478        0, 2
+code0479        0, 5, 17
+code047d        0, 2
+code0478        1, 2
+code0479        1, 0, 12
+code047d        1, 106
+call            @Func_27f4
+call            @Func_275c
+dialogtxt       "That's right!"
+dialogtxt       "The real me is right here!"
+code0309        
+call            @Func_27b0
+code0479        0, 5, 16
+call            @Func_270e
+dialogtxt       "Wha... what!?"
+dialogtxt       "What does this mean?"
+code0309        
+call            @Func_2744
+code0479        1, 2, 15
+call            @Func_277a
+dialogtxt       "Fake, please"
+dialogtxt       "go away!"
+goto            @Cond_1e60
+
+@Cond_1e60:
+code0309        
+call            @Func_284a
+call            @Func_2798
+code047b        
+@Label_1e6c:
+done            
+
+@Func_1e6e:
+code033a        394, 0
+code031a        7
+code031b        7, -1, -1, 32767, 10
+code031c        7, 1
+code031f        7
+code031a        6
+code031b        6, -1, -1, 1023, 15
+code031c        6, 1
+code031f        6
+code031a        7
+code040d        3
+jumpz           @Cond_1fb2, ($f0139 == 1)
+jumpz           @Cond_1f46, ($b002 == 0)
+code0438        3, 0, 497, 0
+goto            @Label_1f64
+
+@Cond_1f46:
+code0438        3, 20, 497, 0
+goto            @Label_1f64
+
+@Label_1f64:
+code043a        3, 3, 0
+code043d        3, 160, 240
+code043e        3, 3, 0
+code043c        3, 1
+goto            @Label_20b8
+
+@Cond_1fb2:
+jumpz           @Cond_1fe0, ($b003 == 0)
+code0438        3, 40, 519, 6
+goto            @Cond_1fe0
+
+@Cond_1fe0:
+jumpz           @Cond_200e, ($b003 == 1)
+code0438        3, 60, 522, 6
+goto            @Cond_200e
+
+@Cond_200e:
+jumpz           @Cond_203c, ($b003 == 2)
+code0438        3, 80, 521, 1
+goto            @Cond_203c
+
+@Cond_203c:
+jumpz           @Cond_206a, ($b003 == 3)
+code0438        3, 100, 520, 1
+goto            @Cond_206a
+
+@Cond_206a:
+code043a        3, 3, 0
+code043d        3, 160, 240
+code043e        3, 3, 0
+code043c        3, 1
+goto            @Label_20b8
+
+@Label_20b8:
+code031a        6
+code031b        6, -1, -1, 1023, 45
+code031c        6, 2
+code031f        6
+code031a        6
+code033e        394
+jumpz           @Cond_2140, ($f0139 == 1)
+code040d        5
+code0445        0, 10
+code0446        0
+code040d        10
+goto            @Label_216a
+
+@Cond_2140:
+code040d        5
+code0445        1, 2
+code0446        1
+code040d        10
+goto            @Label_216a
+
+@Label_216a:
+ret             
+
+
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_24b4, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_26ee
+
+@Cond_24b4:
+jumpz           @Cond_24da, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_26ee
+
+@Cond_24da:
+jumpz           @Cond_2500, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_26ee
+
+@Cond_2500:
+jumpz           @Cond_2526, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_26ee
+
+@Cond_2526:
+jumpz           @Cond_254c, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_26ee
+
+@Cond_254c:
+jumpz           @Cond_2572, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_26ee
+
+@Cond_2572:
+jumpz           @Cond_2598, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_26ee
+
+@Cond_2598:
+jumpz           @Cond_25be, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_26ee
+
+@Cond_25be:
+jumpz           @Cond_25e4, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_26ee
+
+@Cond_25e4:
+jumpz           @Cond_260a, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_26ee
+
+@Cond_260a:
+jumpz           @Cond_2630, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_26ee
+
+@Cond_2630:
+jumpz           @Cond_2656, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_26ee
+
+@Cond_2656:
+jumpz           @Cond_267c, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_26ee
+
+@Cond_267c:
+jumpz           @Cond_26a2, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_26ee
+
+@Cond_26a2:
+jumpz           @Cond_26c8, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_26ee
+
+@Cond_26c8:
+jumpz           @Label_26ee, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_26ee
+
+@Label_26ee:
+ret             
+
+@Func_26f0:
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_270e:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+@Func_272c:
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_2744:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_275c:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_277a:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_2798:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_27b0:
+code047e        1, 0
+code0302        7
+ret             
+
+code047a        0, 1, 1
+ret             
+
+@Func_27de:
+code047a        1, 1, 1
+ret             
+
+@Func_27f4:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+code047a        0, 0, 1
+ret             
+
+@Func_2834:
+code047a        1, 0, 1
+ret             
+
+@Func_284a:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

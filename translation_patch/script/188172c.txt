@@ -1,0 +1,1540 @@
+code0333        2, 30
+code043c        0, 3
+code0445        0, 4
+code0446        0
+code0334        
+code0331        16, 256
+code043e        0, 6, 0
+walkto          0, 400, 464, 1
+walkwait        0
+code043e        0, 3, 0
+code043c        0, 3
+code046d        7, 192
+code043e        7, 6, 0
+walkto          7, ($h128 + 0), ($h129 + 16), 1
+code046d        4, 192
+code043e        4, 6, 0
+walkto          4, ($h128 - 16), ($h129 + 16), 1
+code046d        6, 192
+code043e        6, 6, 0
+walkto          6, ($h128 + 0), ($h129 + 16), 1
+code046d        5, 192
+code043e        5, 6, 0
+walkto          5, ($h128 + 24), ($h129 + 16), 1
+code046d        0, 192
+code0490        0
+code043d        1, $h128, $h129
+code043c        1, 2
+code043e        1, 3, 0
+code0438        2, 130, 547, 1
+code043a        2, 2, 0
+code043d        2, $h128, $h129
+code043e        2, 3, 0
+code043c        2, 4
+walkto          1, ($h128 - 16), ($h129 + 0), 1
+walkto          2, ($h128 + 16), ($h129 + 0), 1
+walkwait        1
+code043e        1, 3, 0
+code043c        1, 3
+walkwait        2
+code043e        2, 3, 0
+code043c        2, 3
+walkwait        7
+code043e        7, 3, 0
+code043c        7, 1
+walkwait        4
+code043e        4, 3, 0
+code043c        4, 1
+walkwait        6
+code043e        6, 3, 0
+code043c        6, 1
+walkwait        5
+code043e        5, 3, 0
+code043c        5, 1
+code0478        0, 0
+code0479        0, 5, 13
+code047d        0, 0
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Thank goodness...!"
+dialogtxt       "Everyone..."
+dialogtxt       "You're safe!"
+code047b        
+code0309        
+call            @Func_42f6
+code0478        1, 11
+code0479        1, 2, 15
+code047d        1, 109
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "Don't Say Such [NAME 4]..."
+dialogtxt       "We were the ones worried about you!"
+dialogtxt       "You'll be fined, a fine!"
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 10
+code0479        1, 0, 13
+code047d        1, 132
+code0479        0, 4, 12
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "Quite right."
+dialogtxt       "But you two..."
+dialogtxt       "I'm truly glad you're safe."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 9
+code0479        1, 4, 16
+code047d        1, 108
+code0479        0, 0, 16
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "Are you really all right?"
+dialogtxt       "If anything had happened..."
+dialogtxt       "facing your parents."
+code047b        
+code0309        
+call            @Func_4362
+code0479        0, 1, 14
+call            @Func_42c0
+dialogtxt       "Hehe..."
+dialogtxt       "Sorry..."
+code0309        
+call            @Func_43fc
+call            @Func_42de
+code047b        
+code046d        3, 192
+code043e        3, 6, 0
+walkto          3, ($h128 + 0), ($h129 + 24), 1
+walkwait        3
+code043e        3, 3, 0
+code043c        3, 1
+code0478        1, 19
+code0479        1, 4, 12
+code047d        1, 129
+code0478        0, 6
+code0479        0, 11, 12
+code047d        0, 107
+call            @Func_43a6
+call            @Func_42a2
+dialogtxt       "Oh..."
+dialogtxt       "Dad!"
+code0309        
+call            @Func_43fc
+call            @Func_42de
+code047b        
+code046d        4, 192
+code0443        4, 256, 0
+code043e        4, 8, 0
+walkto          4, ($h128 + 8), $h129, 1
+walkwait        4
+code0443        4, 256, 1
+code043e        4, 3, 0
+code043c        4, 2
+code040d        15
+code0479        1, 4, 16
+call            @Func_43a6
+call            @Func_430e
+dialogtxt       "I'm sorry, Murno..."
+dialogtxt       "It's all because I was captured..."
+code047b        
+code0309        
+call            @Func_4362
+code0479        0, 10, 13
+call            @Func_42c0
+dialogtxt       "No... It's all right..."
+dialogtxt       "Dad..."
+dialogtxt       "You're safe now, right?"
+code0309        
+call            @Func_42f6
+code0479        1, 1, 12
+call            @Func_432c
+dialogtxt       "Yes..."
+dialogtxt       "It's thanks to Mr. Velvoren."
+code0309        
+call            @Func_43fc
+call            @Func_434a
+code047b        
+code0445        0, 2
+code0445        1, 10
+code0446        0
+code0478        0, 2
+jumpz           @Cond_092c, ($b003 == 0)
+code0479        0, 2, 12
+goto            @Label_0994
+
+@Cond_092c:
+jumpz           @Cond_0954, ($b003 == 1)
+code0479        0, 5, 17
+goto            @Label_0994
+
+@Cond_0954:
+jumpz           @Cond_097c, ($b003 == 2)
+code0479        0, 5, 15
+goto            @Label_0994
+
+@Cond_097c:
+code0479        0, 5, 17
+goto            @Label_0994
+
+@Label_0994:
+code047d        0, 2
+code0478        1, 0
+code0479        1, 5, 17
+code047d        1, 0
+call            @Func_43a6
+code0301        6, 7
+code047e        1, 1
+code047e        0, 1
+dialogbig       24, 116, 1, 0, 0, "Whaaaat?!"
+code047b        
+code030c        
+code047e        1, 0
+code047e        0, 0
+call            @Func_43fc
+code0302        7
+code047b        
+code0489        8, 1, 32
+code048c        
+code046d        8, 192
+code043e        8, 6, 0
+walkto          8, ($h128 + 0), ($h129 + 24), 1
+walkwait        8
+code043e        8, 3, 0
+code043c        8, 1
+code0478        0, 16
+code0479        0, 0, 17
+code047d        0, 112
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Why are you so"
+dialogtxt       "surprised...?"
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code0489        0, 1, 32
+code048c        
+code0478        1, 9
+code0479        1, 0, 12
+code047d        1, 108
+code0478        0, 0
+code0479        0, 0, 16
+code047d        0, 0
+call            @Func_43a6
+call            @Func_430e
+dialogtxt       "It really is thanks to him."
+dialogtxt       "He certainly lives up to being a."
+dialogtxt       "I'm glad he managed to be useful."
+code047b        
+code0309        
+call            @Func_43fc
+call            @Func_434a
+code047b        
+code0489        8, 1, 32
+code048c        
+code0478        0, 16
+code0479        0, 4, 16
+code047d        0, 112
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "You don't have to put it that way."
+dialogtxt       "He guided us properly all the way to the"
+dialogtxt       "and everything..."
+code047b        
+code0309        
+code043c        8, 4
+code0479        0, 0, 13
+dialogtxt       "Well, I suppose it's fine."
+dialogtxt       "Thanks to him, we got to see"
+dialogtxt       "something this incredible."
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code046d        8, 192
+code043e        8, 6, 0
+walkto          8, 400, 392, 1
+walkwait        8
+code043e        8, 3, 0
+code043c        8, 3
+code0445        8, 4
+code0446        8
+code0489        0, 1, 32
+code048c        
+code0445        0, 11
+code0446        0
+code0478        0, 0
+code0479        0, 0, 16
+code047d        0, 0
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "What are you doing?"
+code047b        
+code0309        
+call            @Func_42f6
+code0478        1, 11
+code0479        1, 0, 14
+code047d        1, 109
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "They said it's an investigation."
+dialogtxt       "Apparently there's something about that"
+dialogtxt       "that [NAME 4] is."
+code047b        
+code0309        
+call            @Func_4362
+code0333        2, 30
+code0479        0, 2, 14
+call            @Func_42c0
+dialogtxt       "Oh...!"
+dialogtxt       "Come to think of it,"
+dialogtxt       "where are Mr. Bostaph and Anise?"
+code0309        
+call            @Func_43e6
+call            @Func_42f6
+code047b        
+code0478        1, 10
+code0479        1, 2, 12
+code047d        1, 132
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "Well..."
+dialogtxt       "They're nowhere to be found..."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0334        
+code0331        17, 256
+code0478        1, 12
+code0479        1, 4, 14
+code047d        1, 110
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "They must have been caught in that..."
+dialogtxt       "..."
+code047b        
+code0309        
+call            @Func_4362
+code0479        0, 4, 16
+call            @Func_42c0
+jumpz           @Cond_109c, ($b002 == 0)
+dialogtxt       "Uh... You know..."
+dialogtxt       "[NAME 8] and the."
+dialogtxt       "So, I'm sure..."
+goto            @Label_10ec
+
+@Cond_109c:
+dialogtxt       "Uh... You know..."
+dialogtxt       "We were all right too."
+dialogtxt       "So, I'm sure..."
+goto            @Label_10ec
+
+@Label_10ec:
+code0309        
+call            @Func_42f6
+code0479        1, 2, 12
+call            @Func_432c
+dialogtxt       "More importantly, right now"
+dialogtxt       "sealing the sword comes first, right?"
+code0309        
+call            @Func_4362
+code0479        0, 0, 14
+call            @Func_42c0
+dialogtxt       "Sealing?"
+code0309        
+call            @Func_43e6
+call            @Func_42f6
+code047b        
+code0478        1, 9
+code0479        1, 2, 16
+code047d        1, 108
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "I hear that sword is cursed..."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 19
+code0479        1, 2, 16
+code047d        1, 129
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "That's right."
+dialogtxt       "That sword was made using Summon..."
+dialogtxt       "but that's not all..."
+code047b        
+code0309        
+code0479        1, 2, 14
+dialogtxt       "the resentment of all the Summon"
+dialogtxt       "has possessed it..."
+dialogtxt       "It is a cursed sword..."
+code0309        
+call            @Func_4362
+code0479        0, 2, 16
+call            @Func_42c0
+jumpz           @Cond_12fc, ($b002 == 0)
+dialogtxt       "What's that supposed to mean...?"
+goto            @Label_1312
+
+@Cond_12fc:
+dialogtxt       "What's that supposed to mean...?"
+goto            @Label_1312
+
+@Label_1312:
+code0309        
+call            @Func_42f6
+code0479        1, 0, 16
+call            @Func_432c
+dialogtxt       "It is probably an application of."
+dialogtxt       "A sword that controls the souls of..."
+dialogtxt       "That is why this sword was created."
+code0309        
+code0479        1, 0, 14
+dialogtxt       "Of course, controlling those it cuts"
+dialogtxt       "requires the sword's wielder to have"
+dialogtxt       "as well."
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 9
+code0479        1, 2, 14
+code047d        1, 108
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "I think that..."
+dialogtxt       "it also anchors the souls of the..."
+dialogtxt       "I think it also anchors them..."
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_4362
+code047b        
+code043c        6, 4
+code043c        7, 4
+code043c        5, 4
+code0478        0, 11
+code0479        0, 5, 16
+code047d        0, 109
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "The souls of Summon Beasts..."
+dialogtxt       "Can it really do that?"
+code047b        
+code0309        
+call            @Func_42f6
+code0479        1, 2, 16
+call            @Func_432c
+dialogtxt       "Rob once told me there used to be."
+dialogtxt       "Or rather, it was magic..."
+dialogtxt       "Or rather, magic..."
+code0309        
+call            @Func_43d0
+call            @Func_4362
+code047b        
+code0478        0, 2
+jumpz           @Cond_15e8, ($b003 == 0)
+code0479        0, 0, 12
+goto            @Label_1650
+
+@Cond_15e8:
+jumpz           @Cond_1610, ($b003 == 1)
+code0479        0, 2, 14
+goto            @Label_1650
+
+@Cond_1610:
+jumpz           @Cond_1638, ($b003 == 2)
+code0479        0, 3, 16
+goto            @Label_1650
+
+@Cond_1638:
+code0479        0, 4, 14
+goto            @Label_1650
+
+@Label_1650:
+code047d        0, 2
+call            @Func_437a
+call            @Func_42c0
+jumpz           @Cond_16c0, ($b003 == 0)
+dialogtxt       "Indeed, From That Sword"
+dialogtxt       "Multiple Waves Are Being"
+dialogtxt       "Emitted At Once [NAME 8]."
+goto            @Cond_16c0
+
+@Cond_16c0:
+jumpz           @Cond_1722, ($b003 == 1)
+dialogtxt       "I Can Certainly Sense Multiple"
+dialogtxt       "Evil Presences From That Sword..."
+dialogtxt       "It Is A Most Ominous Thing..."
+goto            @Cond_1722
+
+@Cond_1722:
+jumpz           @Cond_1780, ($b003 == 2)
+dialogtxt       "I Can Certainly Sense Multiple"
+dialogtxt       "I Can Sense Multiple Evil Presences..."
+dialogtxt       "It Shines With Deep, Dark Anger..."
+goto            @Cond_1780
+
+@Cond_1780:
+jumpz           @Cond_17ec, ($b003 == 3)
+dialogtxt       "I Can Certainly Sense Multiple"
+dialogtxt       "I Can Sense Multiple Evil Presences..."
+dialogtxt       "And It Feels Very Sad..."
+goto            @Cond_17ec
+
+@Cond_17ec:
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42f6
+code047b        
+code0478        0, 10
+code0479        0, 2, 14
+code047d        0, 132
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "The Sword Itself Is Already"
+dialogtxt       "Some Kind Of Terrible Monster..."
+dialogtxt       "They made one terrifying thing..."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_42f6
+code047b        
+code0478        1, 19
+code0479        1, 2, 16
+code047d        1, 129
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "By amplifying that sword's ability to"
+dialogtxt       "and sending it throughout the land via..."
+dialogtxt       "they can control every Summon Beast..."
+code047b        
+code0309        
+code0479        1, 4, 14
+dialogtxt       "For such a terrifying purpose,"
+dialogtxt       "my daughter's ancestor created this..."
+dialogtxt       "the Govan Ruins."
+code0309        
+call            @Func_43d0
+call            @Func_4362
+code047b        
+code0478        0, 11
+code0479        0, 5, 16
+code047d        0, 109
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "Your daughter? So you're not her?"
+code047b        
+code0309        
+call            @Func_42f6
+code0479        1, 0, 16
+call            @Func_432c
+dialogtxt       "I am not the rightful heir."
+dialogtxt       "My wife, this child's mother,"
+dialogtxt       "was the heir..."
+code0309        
+call            @Func_43d0
+call            @Func_4362
+code047b        
+code0478        0, 0
+code0479        0, 2, 16
+code047d        0, 0
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "Was...?"
+code047b        
+code0309        
+call            @Func_42f6
+code0479        1, 4, 14
+call            @Func_432c
+dialogtxt       "Yes... My wife passed away."
+dialogtxt       "Now my daughter is the sole"
+dialogtxt       "rightful heir."
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 6
+code0479        1, 4, 14
+code047d        1, 107
+code0479        0, 4, 16
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "..."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 19
+code0479        1, 2, 16
+code047d        1, 129
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "After an experiment once failed"
+dialogtxt       "and this ruin claimed many sacrifices,"
+dialogtxt       "it was sealed."
+code047b        
+code0309        
+code0479        1, 2, 14
+code0479        0, 0, 14
+dialogtxt       "The magic crystal that amplified magical"
+dialogtxt       "was repurposed as the power to maintain"
+dialogtxt       "instead."
+code0309        
+call            @Func_4362
+code0479        0, 0, 16
+call            @Func_42c0
+dialogtxt       "Then if we destroy that sword..."
+code0309        
+call            @Func_42f6
+code0479        1, 0, 16
+call            @Func_432c
+dialogtxt       "You saw that explosion."
+dialogtxt       "If all the power sealed inside that sword"
+dialogtxt       "were released..."
+code0309        
+code0479        1, 2, 14
+dialogtxt       "I cannot even imagine what would..."
+code0309        
+call            @Func_4362
+code0479        0, 2, 14
+call            @Func_42c0
+dialogtxt       "I see..."
+code0309        
+call            @Func_42f6
+code0479        1, 2, 15
+call            @Func_432c
+dialogtxt       "Even as we speak,"
+dialogtxt       "evil energy is leaking from that sword."
+dialogtxt       "My daughter has returned..."
+code0309        
+call            @Func_43e6
+call            @Func_4362
+code047b        
+code0478        1, 9
+code0479        1, 2, 14
+code047d        1, 108
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "That's right."
+dialogtxt       "Something that dangerous"
+dialogtxt       "let's put away quickly."
+code047b        
+code0309        
+call            @Func_43fc
+call            @Func_434a
+code047b        
+code043c        4, 3
+code048b        280, 344, 24
+code048c        
+code0479        1, 2, 15
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "Hey, you."
+dialogtxt       "Give that sword back."
+dialogtxt       "We're sealing it now."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code048b        280, 328, 32
+code043c        4, 3
+code043c        7, 3
+code043c        6, 3
+code043c        5, 3
+code043c        3, 3
+code048c        
+code0333        2, 30
+code0445        8, 7
+code0446        8
+code0334        
+code0331        39, 256
+code040d        15
+code0478        0, 16
+code0479        0, 4, 14
+code047d        0, 112
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Seal..."
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code033a        111, 0
+code0443        9, 16, 0
+code0443        9, 32, 0
+code040d        20
+code033e        413
+code043e        8, 6, 0
+walkto          8, 376, 392, 1
+walkwait        8
+code0445        6, 11
+walkto          8, 376, 364, 1
+walkwait        8
+walkto          8, 400, 320, 1
+code040d        20
+code0446        6
+code048b        280, 344, 32
+code048c        
+code0478        0, 10
+code0479        0, 5, 16
+code047d        0, 132
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Hey...!"
+dialogtxt       "Where are you going?"
+dialogtxt       "We have to seal that sword quickly..."
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+walkwait        8
+code043e        8, 3, 0
+code043c        8, 1
+code0489        8, 1, 48
+code048c        
+code0478        1, 16
+code0479        1, 4, 12
+code047d        1, 112
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "If you cut them with this sword,"
+dialogtxt       "you can control any Summon Beast,"
+dialogtxt       "right?"
+code047b        
+code0309        
+call            @Func_4362
+code0478        0, 19
+code0479        0, 5, 16
+code047d        0, 129
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "That is what they say..."
+dialogtxt       "Though only someone with magical..."
+code047b        
+code0309        
+call            @Func_42f6
+code0479        1, 5, 13
+call            @Func_432c
+dialogtxt       "Then if I use this sword,"
+dialogtxt       "even the most amazing Summon Beast"
+dialogtxt       "will do whatever I want..."
+code0309        
+call            @Func_43d0
+call            @Func_4362
+code047b        
+code0478        0, 9
+code0479        0, 2, 14
+code047d        0, 108
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "Hey, you..."
+dialogtxt       "Don't get any foolish ideas."
+dialogtxt       "Mr. Wellman said so too, remember...?"
+code047b        
+code0309        
+code0479        0, 2, 16
+dialogtxt       "It's sword you case \"if you have.\""
+dialogtxt       "You can't even properly use..."
+dialogtxt       "can you? So..."
+code0309        
+call            @Func_43fc
+call            @Func_42de
+code047b        
+code0489        8, 1, 48
+code048c        
+code0333        2, 30
+code033a        413, 0
+code040d        5
+code046d        8, 192
+code043b        8
+code0439        8
+code0438        8, 322, 626, 6
+code043a        8, 8, 0
+code043d        8, $h128, $h129
+code043e        8, 1, 1
+code0443        9, 16, 1
+code0443        9, 32, 1
+code043d        9, ($h128 - 20), ($h129 - 4)
+code0443        9, 256, 0
+code0443        9, 64, 1
+code0443        9, 512, 0
+code0443        9, 32, 0
+code0438        11, 440, 684, 6
+code043a        11, 11, 0
+code043d        11, ($h128 + 8), ($h129 + 4)
+code043e        11, 1, 1
+code0443        11, 32, 0
+code0443        11, 512, 1
+code0443        11, 256, 0
+code043f        11
+code033e        413
+code0334        
+code0331        34, 256
+code0478        0, 6
+code0479        0, 5, 17
+code047d        0, 107
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "What's that?!"
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code047f        231
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+code040d        60
+code0481        0
+code040d        15
+code0478        1, 19
+code0479        1, 2, 17
+code047d        1, 129
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "When did you get the magic crystal?!"
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code0478        1, 16
+code0479        1, 2, 16
+code047d        1, 112
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "With this magic crystal,"
+dialogtxt       "I can even summon an incredible Summon"
+dialogtxt       "I should be able to!"
+code047b        
+code0309        
+code0479        1, 2, 14
+dialogtxt       "And"
+dialogtxt       "even if an uncontrollable Summon..."
+dialogtxt       "I can use this sword...!"
+code0309        
+call            @Func_4362
+code0478        0, 10
+code0479        0, 3, 15
+code047d        0, 132
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "You...!"
+dialogtxt       "Don't screw around!!"
+dialogtxt       "Hurry up and get that thing...!!!"
+code047b        
+code0309        
+call            @Func_42f6
+code043e        8, 1, 0
+code043e        11, 1, 0
+code0479        1, 3, 17
+call            @Func_432c
+dialogbig       24, 116, 1, 0, 0, "Shut uuuup!!"
+code047b        
+code030c        
+call            @Func_43fc
+call            @Func_434a
+code047b        
+code033a        374, 64
+code031a        5
+code031b        5, -1, -1, 32767, 10
+code031c        5, 1
+code031f        5
+code0489        0, 1, 64
+code031b        5, -1, -1, 32767, 30
+code031c        5, 2
+code031f        5
+code031a        5
+code048c        
+code033e        374
+code0445        4, 2
+code0445        1, 10
+code0446        1
+code033a        383, 0
+code040d        5
+code046d        4, 192
+code0439        4
+code043b        4
+code0438        4, 161, 570, 6
+code043a        4, 4, 0
+code043d        4, $h128, $h129
+code0443        4, 256, 0
+code043c        5, 1
+code043c        3, 1
+code043c        6, 1
+code043c        7, 1
+code033a        383, 0
+code040d        5
+code046d        1, 192
+code043b        1
+code0439        1
+jumpz           @Cond_2b36, ($b003 == 0)
+code0438        1, 41, 527, 6
+goto            @Cond_2b36
+
+@Cond_2b36:
+jumpz           @Cond_2b64, ($b003 == 1)
+code0438        1, 61, 527, 6
+goto            @Cond_2b64
+
+@Cond_2b64:
+jumpz           @Cond_2b92, ($b003 == 2)
+code0438        1, 81, 527, 6
+goto            @Cond_2b92
+
+@Cond_2b92:
+jumpz           @Cond_2bc0, ($b003 == 3)
+code0438        1, 101, 527, 6
+goto            @Cond_2bc0
+
+@Cond_2bc0:
+code043a        1, 1, 0
+code043e        1, 0, 0
+code043d        1, $h128, $h129
+code0443        1, 32, 0
+code0443        1, 256, 0
+code0443        1, 64, 1
+code033e        383
+code0445        0, 9
+code043c        0, 2
+code040d        15
+code043c        0, 3
+code0446        0
+code043c        0, 2
+code0478        0, 2
+jumpz           @Cond_2cbe, ($b003 == 0)
+code0479        0, 0, 12
+goto            @Label_2d26
+
+@Cond_2cbe:
+jumpz           @Cond_2ce6, ($b003 == 1)
+code0479        0, 2, 14
+goto            @Label_2d26
+
+@Cond_2ce6:
+jumpz           @Cond_2d0e, ($b003 == 2)
+code0479        0, 3, 16
+goto            @Label_2d26
+
+@Cond_2d0e:
+code0479        0, 4, 14
+goto            @Label_2d26
+
+@Label_2d26:
+code047d        0, 2
+call            @Func_437a
+call            @Func_42a2
+jumpz           @Cond_2d5a, ($b003 == 0)
+dialogtxt       "...!"
+goto            @Cond_2d5a
+
+@Cond_2d5a:
+jumpz           @Cond_2d78, ($b003 == 1)
+dialogtxt       "...!"
+goto            @Cond_2d78
+
+@Cond_2d78:
+jumpz           @Cond_2d96, ($b003 == 2)
+dialogtxt       "...!"
+goto            @Cond_2d96
+
+@Cond_2d96:
+jumpz           @Cond_2db4, ($b003 == 3)
+dialogtxt       "...!"
+goto            @Cond_2db4
+
+@Cond_2db4:
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code043c        0, 3
+code0478        1, 9
+code0479        1, 4, 17
+code047d        1, 108
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "Tch...!"
+dialogtxt       "This pressure, [NAME 8]...!"
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code0489        8, 1, 64
+code048c        
+code0478        1, 16
+code0479        1, 2, 16
+code047d        1, 112
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "This is my sword!"
+dialogtxt       "The fact that I'm here now"
+dialogtxt       "is all the proof you need!"
+code047b        
+code0309        
+code043c        5, 3
+code043c        3, 3
+code0479        1, 5, 15
+dialogtxt       "Open!"
+dialogtxt       "Gate to the Otherworld!!!"
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code0333        2, 30
+code031a        6
+code031b        6, 0, -16, 0, 60
+code031c        6, 1
+code0321        6, 30
+code0334        
+code0331        42, 256
+code040d        25
+code033a        394, 0
+code031a        5
+code031b        5, -1, -1, 32767, 4
+code031c        5, 1
+code031f        5
+code048d        1, 1
+code046d        8, 192
+code0438        10, 434, 678, 7
+code043a        10, 10, 0
+code043d        10, $h128, ($h129 - 40)
+code0443        10, 256, 0
+code043e        10, 0, 0
+code0443        10, 32, 0
+code031b        5, -1, -1, 32767, 26
+code031c        5, 2
+code031f        5
+code031a        5
+code033d        394
+code033a        390, 0
+code048b        280, 176, 32
+code048c        
+code033e        390
+code046d        2, 192
+code043d        3, ($h128 + 4), ($h129 - 8)
+code043c        3, 1
+code046d        4, 192
+code043d        6, ($h128 - 4), ($h129 - 10)
+code043c        6, 1
+code046d        7, 192
+code043d        5, ($h128 - 2), ($h129 - 12)
+code043c        5, 1
+code043c        7, 3
+code0478        0, 11
+code0479        0, 5, 15
+code047d        0, 109
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Whoa?!"
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code0478        0, 6
+code0479        0, 1, 15
+code047d        0, 107
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "Dad!"
+code047b        
+code0309        
+call            @Func_42f6
+code0478        1, 19
+code0479        1, 2, 15
+code047d        1, 129
+call            @Func_4390
+call            @Func_432c
+dialogtxt       "Murno!"
+code047b        
+code0309        
+call            @Func_43fc
+call            @Func_434a
+code047b        
+code0478        0, 12
+code0479        0, 4, 14
+code047d        0, 110
+call            @Func_437a
+call            @Func_42a2
+dialogtxt       "S...such incredible power...!"
+dialogtxt       "At this rate...!"
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code0489        8, 1, 32
+code048c        
+code0478        1, 16
+code047d        1, 112
+code0479        1, 5, 15
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "With this, no one will ever"
+dialogtxt       "call me a useless Summoner again!"
+dialogtxt       "The strongest..."
+code047b        
+code0309        
+code0479        1, 3, 13
+dialogtxt       "I'll make it mine!"
+code0309        
+call            @Func_4362
+code0478        0, 10
+code0479        0, 3, 15
+code047d        0, 132
+call            @Func_437a
+call            @Func_42c0
+dialogtxt       "[NAME 4], Master!"
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42f6
+code047b        
+code0479        1, 5, 15
+call            @Func_432c
+dialogbig       24, 116, 1, 0, 0, "Summon!!!!!"
+code030c        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code048b        280, 176, 64
+code048c        
+code031a        5
+code031b        5, -1, -1, 32767, 5
+code031c        5, 1
+code031f        5
+code033a        394, 0
+code048d        2, 2
+code046d        10, 192
+code043b        10
+code0439        10
+code0438        10, 435, 679, 7
+code043a        10, 10, 0
+code043d        10, $h128, $h129
+code0443        10, 256, 0
+code043e        10, 0, 0
+code0443        10, 32, 0
+code031b        5, -1, -1, 32767, 26
+code031c        5, 2
+code031f        5
+code031a        5
+code033d        394
+code033a        390, 0
+code048b        280, 176, 32
+code048c        
+code033e        390
+code0478        1, 16
+code0479        1, 3, 15
+code047d        0, 112
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "It's here, it's here, it's here, it's here..."
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code0478        0, 0
+code0479        0, 5, 15
+code047d        0, 0
+call            @Func_437a
+call            @Func_42a2
+jumpz           @Cond_36fe, ($b002 == 0)
+dialogtxt       "S..."
+dialogtxt       "It's so... big..."
+goto            @Label_3720
+
+@Cond_36fe:
+dialogtxt       "S..."
+dialogtxt       "It's so... huge..."
+goto            @Label_3720
+
+@Label_3720:
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code0478        1, 16
+code0479        1, 3, 13
+code047d        1, 112
+call            @Func_4390
+call            @Func_430e
+dialogbig       24, 116, 1, 0, 0, "Come on, come on, come on!"
+code030c        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code048b        280, 384, 64
+code048c        
+code0478        1, 6
+code0479        1, 4, 17
+code047d        1, 107
+call            @Func_4390
+call            @Func_430e
+dialogtxt       "What do I do..."
+dialogtxt       "What do I do...!"
+code047b        
+code0309        
+call            @Func_43e6
+call            @Func_434a
+code047b        
+code0333        2, 30
+code0334        
+code046e        7, 256, 2
+code0478        0, 0
+code0479        0, 2, 15
+code047d        0, 0
+call            @Func_437a
+call            @Func_42a2
+jumpz           @Cond_38b0, ($b002 == 0)
+dialogtxt       "Damn it...!"
+dialogtxt       "As if I'll let you!"
+goto            @Label_38d2
+
+@Cond_38b0:
+dialogtxt       "Damn...!"
+dialogtxt       "I won't let you!"
+goto            @Label_38d2
+
+@Label_38d2:
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code046d        0, 192
+code043e        0, 12, 0
+walkto          0, $h128, ($h129 - 56), 2
+code040d        15
+code0445        1, 10
+code043c        6, 2
+code043c        5, 4
+walkwait        0
+walkto          0, ($h128 - 16), ($h129 - 100), 2
+code043c        6, 3
+code043c        5, 3
+code0446        1
+code0478        0, 2
+jumpz           @Cond_39dc, ($b003 == 0)
+code0479        0, 5, 12
+goto            @Label_3a44
+
+@Cond_39dc:
+jumpz           @Cond_3a04, ($b003 == 1)
+code0479        0, 3, 15
+goto            @Label_3a44
+
+@Cond_3a04:
+jumpz           @Cond_3a2c, ($b003 == 2)
+code0479        0, 3, 15
+goto            @Label_3a44
+
+@Cond_3a2c:
+code0479        0, 2, 15
+goto            @Label_3a44
+
+@Label_3a44:
+code047d        0, 2
+call            @Func_437a
+call            @Func_42a2
+jumpz           @Cond_3a7e, ($b003 == 0)
+dialogtxt       "Partner!"
+goto            @Cond_3a7e
+
+@Cond_3a7e:
+jumpz           @Cond_3a9c, ($b003 == 1)
+dialogtxt       "δ!"
+goto            @Cond_3a9c
+
+@Cond_3a9c:
+jumpz           @Cond_3aba, ($b003 == 2)
+dialogtxt       "δ!"
+goto            @Cond_3aba
+
+@Cond_3aba:
+jumpz           @Cond_3adc, ($b003 == 3)
+dialogtxt       "δ!"
+goto            @Cond_3adc
+
+@Cond_3adc:
+code047b        
+code0309        
+call            @Func_43d0
+call            @Func_42de
+code047b        
+code046d        1, 192
+code0493        
+code0490        0
+code043d        1, $h128, $h129
+code043e        1, 3, 0
+code043c        1, 3
+code046d        1, 192
+code043e        1, 6, 0
+walkto          1, ($h128 - 32), $h129, 2
+walkwait        1
+walkto          1, ($h128 - 32), ($h129 - 100), 2
+walkwait        1
+code043d        1, 408, 348
+code043e        1, 3, 0
+code043c        1, 3
+code043d        0, 392, 348
+code043e        0, 3, 0
+code043c        0, 3
+code0489        8, 1, 64
+code048c        
+code040d        15
+code033a        166, 0
+code040d        5
+code031a        5
+code031b        5, -1, -1, 32767, 4
+code031c        5, 1
+code031f        5
+code040d        15
+code043e        10, 1, 0
+code048b        280, 160, 16
+code031b        5, -1, -1, 32767, 40
+code031c        5, 2
+code031f        5
+code031a        5
+code033a        391, 0
+code033e        391
+code048c        
+code040d        30
+done            
+
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_4066, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_42a0
+
+@Cond_4066:
+jumpz           @Cond_408c, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_42a0
+
+@Cond_408c:
+jumpz           @Cond_40b2, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_42a0
+
+@Cond_40b2:
+jumpz           @Cond_40d8, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_42a0
+
+@Cond_40d8:
+jumpz           @Cond_40fe, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_42a0
+
+@Cond_40fe:
+jumpz           @Cond_4124, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_42a0
+
+@Cond_4124:
+jumpz           @Cond_414a, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_42a0
+
+@Cond_414a:
+jumpz           @Cond_4170, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_42a0
+
+@Cond_4170:
+jumpz           @Cond_4196, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_42a0
+
+@Cond_4196:
+jumpz           @Cond_41bc, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_42a0
+
+@Cond_41bc:
+jumpz           @Cond_41e2, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_42a0
+
+@Cond_41e2:
+jumpz           @Cond_4208, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_42a0
+
+@Cond_4208:
+jumpz           @Cond_422e, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_42a0
+
+@Cond_422e:
+jumpz           @Cond_4254, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_42a0
+
+@Cond_4254:
+jumpz           @Cond_427a, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_42a0
+
+@Cond_427a:
+jumpz           @Label_42a0, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_42a0
+
+@Label_42a0:
+ret             
+
+@Func_42a2:
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_42c0:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+@Func_42de:
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_42f6:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_430e:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_432c:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_434a:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_4362:
+code047e        1, 0
+code0302        7
+ret             
+
+@Func_437a:
+code047a        0, 1, 1
+ret             
+
+@Func_4390:
+code047a        1, 1, 1
+ret             
+
+@Func_43a6:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+@Func_43d0:
+code047a        0, 0, 1
+ret             
+
+@Func_43e6:
+code047a        1, 0, 1
+ret             
+
+@Func_43fc:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

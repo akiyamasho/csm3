@@ -1,0 +1,385 @@
+setvar          $f0154, 1
+code0438        2, 160, 550, 1
+code043a        2, 2, 0
+code043d        2, 592, 152
+code043e        2, 6, 0
+walkto          2, 524, 152, 1
+walkwait        2
+code043e        2, 3, 0
+code040d        30
+code047f        222
+code0480        0, 1, 0, 0
+code0481        1
+code0482        
+code047d        0, 108
+code0301        16, 3
+code047e        0, 1
+dialogtxt       "Yo, δ!"
+code0309        
+code047e        0, 0
+code0302        3
+code040d        15
+code0481        0
+code040d        30
+code043e        2, 6, 0
+walkto          2, 500, 152, 0
+code040d        15
+setvar          $h137, 30
+setvar          $h136, 0
+call            @Func_0a0a
+code040d        30
+code0488        -1, 1
+code043d        0, 436, 152
+code043d        2, 460, 152
+code043e        2, 3, 0
+code043c        2, 2
+code043c        0, 4
+call            @Func_0a4a
+code040d        15
+code0478        0, 0
+code0479        0, 0, 12
+code047d        0, 0
+code0478        1, 9
+code0479        1, 4, 14
+code047d        1, 108
+call            @Func_1092
+call            @Func_0ffa
+dialogtxt       "Sorry About Today."
+dialogtxt       "Looks Like I Drew The Short Straw."
+dialogtxt       "It's All That Idiot Jade's Fault..."
+code0309        
+code0479        1, 2, 16
+dialogtxt       "He Said They Weren't At The"
+dialogtxt       "Slenji Mining Site... That's Why..."
+code0309        
+call            @Func_1036
+code0479        0, 4, 13
+call            @Func_0fac
+dialogtxt       "Now, Now, Master."
+dialogtxt       "Calm Down..."
+code0309        
+call            @Func_0fe2
+code0479        1, 2, 17
+call            @Func_1018
+dialogtxt       "And Those Anise People..."
+dialogtxt       "They Put Our δ Through"
+dialogtxt       "A Terrible Ordeal..."
+code0309        
+code0479        1, 2, 14
+dialogtxt       "I'll Never Forgive Them..."
+code0309        
+call            @Func_104e
+code0479        0, 0, 16
+call            @Func_0fac
+dialogtxt       "Isn't That What You'd Call Revenge...?"
+code0309        
+call            @Func_0fe2
+code0479        1, 2, 12
+call            @Func_1018
+dialogtxt       "That's Different."
+dialogtxt       "I Can't Explain Exactly How"
+dialogtxt       "It's Different, Even I Can't."
+code0309        
+call            @Func_104e
+code0479        0, 1, 14
+call            @Func_0fac
+dialogtxt       "That Doesn't Make It Any Better..."
+code0309        
+code0479        1, 0, 14
+code0479        0, 0, 16
+dialogtxt       "Come To Think Of It..."
+dialogtxt       "When Master Rob Was... Attacked,"
+dialogtxt       "He Went Out Alone, Right?"
+code0309        
+call            @Func_0fe2
+code0479        1, 0, 16
+call            @Func_1018
+dialogtxt       "Why Bring That Up Now?"
+dialogtxt       "You Remember, Don't You?"
+dialogtxt       "We Were At Home."
+code0309        
+code0479        1, 0, 14
+code0479        0, 2, 14
+dialogtxt       "There Were Rumors Of Suspicious People"
+dialogtxt       "Wandering Around Prosban,"
+dialogtxt       "So He Went To Look Into It Alone..."
+code0309        
+code0479        1, 4, 14
+dialogtxt       "Bostaph Was Out On Patrol Then And"
+dialogtxt       "Found The Scene. He Came Back..."
+dialogtxt       "In Scars, Carrying Rob's Keepsake..."
+code0309        
+code0479        1, 4, 16
+dialogtxt       "The Pick"
+dialogtxt       "I Gave Him..."
+code0309        
+call            @Func_104e
+code0479        0, 2, 16
+call            @Func_0fac
+dialogtxt       "So, Um..."
+dialogtxt       "You've Never Met"
+dialogtxt       "A Man Named Voijin, Right?"
+code0309        
+call            @Func_0fe2
+code0479        1, 0, 14
+call            @Func_1018
+dialogtxt       "Voijin...? Um, Somewhere...?"
+dialogtxt       "Wait, Wasn't He The One"
+dialogtxt       "You Mentioned At Our Last Meeting?"
+code0309        
+code0479        1, 2, 16
+dialogtxt       "He's The Man Who Used To Lead"
+dialogtxt       "Anise, Right? Why Would I Have"
+dialogtxt       "To Meet Someone Like That!?"
+code0309        
+call            @Func_104e
+code0479        0, 4, 12
+call            @Func_0fac
+jumpz           @Cond_08d2, ($b002 == 0)
+dialogtxt       "I See... You're Right..."
+dialogtxt       "Then Never Mind..."
+goto            @Label_0900
+
+@Cond_08d2:
+dialogtxt       "I See... You're Right..."
+dialogtxt       "Then Never Mind..."
+goto            @Label_0900
+
+@Label_0900:
+code0309        
+call            @Func_0fe2
+code0479        1, 0, 14
+call            @Func_1018
+dialogtxt       "What Is It?"
+dialogtxt       "Does This Voijin Person"
+dialogtxt       "Have Something To Do With Rob?"
+code0309        
+call            @Func_104e
+code0479        0, 5, 15
+call            @Func_0fac
+dialogtxt       "No!"
+dialogtxt       "He Has Nothing To Do With It!"
+code0309        
+call            @Func_0fe2
+code0479        1, 4, 14
+call            @Func_1018
+dialogtxt       "What Was That...?"
+dialogtxt       "Honestly, You..."
+code0309        
+call            @Func_10e8
+call            @Func_1036
+code047b        
+code0333        2, 30
+done            
+
+@Func_0a0a:
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+@Func_0a4a:
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_0d52, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_0f8c
+
+@Cond_0d52:
+jumpz           @Cond_0d78, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_0f8c
+
+@Cond_0d78:
+jumpz           @Cond_0d9e, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_0f8c
+
+@Cond_0d9e:
+jumpz           @Cond_0dc4, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_0f8c
+
+@Cond_0dc4:
+jumpz           @Cond_0dea, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_0f8c
+
+@Cond_0dea:
+jumpz           @Cond_0e10, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_0f8c
+
+@Cond_0e10:
+jumpz           @Cond_0e36, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_0f8c
+
+@Cond_0e36:
+jumpz           @Cond_0e5c, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_0f8c
+
+@Cond_0e5c:
+jumpz           @Cond_0e82, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_0f8c
+
+@Cond_0e82:
+jumpz           @Cond_0ea8, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_0f8c
+
+@Cond_0ea8:
+jumpz           @Cond_0ece, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_0f8c
+
+@Cond_0ece:
+jumpz           @Cond_0ef4, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_0f8c
+
+@Cond_0ef4:
+jumpz           @Cond_0f1a, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_0f8c
+
+@Cond_0f1a:
+jumpz           @Cond_0f40, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_0f8c
+
+@Cond_0f40:
+jumpz           @Cond_0f66, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_0f8c
+
+@Cond_0f66:
+jumpz           @Label_0f8c, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_0f8c
+
+@Label_0f8c:
+ret             
+
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_0fac:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_0fe2:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_0ffa:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_1018:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_1036:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_104e:
+code047e        1, 0
+code0302        7
+ret             
+
+code047a        0, 1, 1
+ret             
+
+code047a        1, 1, 1
+ret             
+
+@Func_1092:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+code047a        0, 0, 1
+ret             
+
+code047a        1, 0, 1
+ret             
+
+@Func_10e8:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             

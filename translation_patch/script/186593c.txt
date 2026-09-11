@@ -1,0 +1,710 @@
+code0332        
+code046e        31, 256, 1
+code0478        0, 0
+code0479        0, 2, 12
+code047d        0, 0
+code0478        1, 12
+code0479        1, 4, 14
+code047d        1, 110
+call            @Func_208a
+call            @Func_1ff2
+dialogtxt       "..."
+dialogtxt       "Urgh...!"
+dialogtxt       "Again..."
+code0309        
+call            @Func_2046
+code0479        0, 0, 14
+call            @Func_1fa4
+jumpz           @Cond_0100, ($b002 == 0)
+dialogtxt       "Hey..."
+dialogtxt       "If you're hesitating"
+dialogtxt       "you can't put up a good fight."
+goto            @Label_0142
+
+@Cond_0100:
+dialogtxt       "Listen..."
+dialogtxt       "If you keep hesitating like that,"
+dialogtxt       "you can't put up a good fight."
+goto            @Label_0142
+
+@Label_0142:
+code0309        
+call            @Func_1fda
+code0479        1, 5, 12
+call            @Func_2010
+dialogtxt       "What do you mean...?"
+dialogtxt       "I'm hesitating...?"
+code0309        
+call            @Func_2046
+code0479        0, 0, 16
+call            @Func_1fa4
+jumpz           @Cond_020e, ($b002 == 0)
+dialogtxt       "How should I put it...?"
+dialogtxt       "It's like you're not focused on the fight..."
+dialogtxt       "It's [NAME 8], right? Your mother, right?"
+goto            @Label_026e
+
+@Cond_020e:
+dialogtxt       "How should I put it...?"
+dialogtxt       "It's like you're not focused on the fight..."
+dialogtxt       "It's [NAME 8], right? Your mother, right?"
+goto            @Label_026e
+
+@Label_026e:
+code0309        
+call            @Func_1fda
+code0479        1, 2, 15
+call            @Func_2010
+dialogtxt       "Wha...!"
+dialogtxt       "Why would I be...?"
+code0309        
+call            @Func_2046
+code0479        0, 0, 12
+call            @Func_1fa4
+jumpz           @Cond_0338, ($b002 == 0)
+dialogtxt       "I don't know what happened, but... If"
+dialogtxt       "If something's bothering you, tell me."
+dialogtxt       "You might feel better [NAME 4]."
+goto            @Label_0396
+
+@Cond_0338:
+dialogtxt       "I don't know what happened, but..."
+dialogtxt       "something's wrong, tell me?"
+dialogtxt       "You might feel better [NAME 4]."
+goto            @Label_0396
+
+@Label_0396:
+code0309        
+call            @Func_1fda
+code0479        1, 5, 16
+call            @Func_2010
+dialogtxt       "What are you...?"
+code0309        
+call            @Func_2046
+code0479        0, 2, 12
+call            @Func_1fa4
+jumpz           @Cond_0420, ($b002 == 0)
+dialogtxt       "Then, once you feel better [NAME 4],"
+dialogtxt       "we'll have another match!"
+goto            @Label_0450
+
+@Cond_0420:
+dialogtxt       "Then, once you feel better [NAME 4],"
+dialogtxt       "we'll have another match!"
+goto            @Label_0450
+
+@Label_0450:
+code0309        
+call            @Func_1fda
+code0479        1, 4, 12
+call            @Func_2010
+dialogtxt       "Huh..."
+dialogtxt       "Good grief..."
+dialogtxt       "You really are something..."
+code0309        
+code0479        1, 0, 16
+dialogtxt       "But aside from my mother,"
+dialogtxt       "there's nothing you need"
+dialogtxt       "to worry about."
+code0309        
+call            @Func_2046
+code0479        0, 0, 16
+call            @Func_1fa4
+jumpz           @Cond_0568, ($b002 == 0)
+dialogtxt       "But your mother is a Summoner,"
+dialogtxt       "while you're training as a smith, right?"
+dialogtxt       "Why is that?"
+goto            @Label_05c4
+
+@Cond_0568:
+dialogtxt       "But your mother is a Summoner,"
+dialogtxt       "so why are you training as a smith?"
+dialogtxt       "Isn't that strange?"
+goto            @Label_05c4
+
+@Label_05c4:
+code0309        
+call            @Func_1fda
+code0479        1, 4, 13
+call            @Func_2010
+dialogtxt       "You really are something..."
+dialogtxt       "I'm a little envious that you can"
+dialogtxt       "say exactly what you think."
+code0309        
+call            @Func_2046
+code0479        0, 0, 13
+call            @Func_1fa4
+jumpz           @Cond_0696, ($b002 == 0)
+dialogtxt       "Right?"
+dialogtxt       "So you should tell me everything, too."
+dialogtxt       "It'll be all right."
+goto            @Label_06d6
+
+@Cond_0696:
+dialogtxt       "Right?"
+dialogtxt       "So you should tell me everything, too."
+dialogtxt       "It'll be all right."
+goto            @Label_06d6
+
+@Label_06d6:
+code0309        
+call            @Func_1fda
+code0479        1, 4, 12
+call            @Func_2010
+dialogtxt       "All right, I get it... I'm a"
+dialogtxt       "Summoner's son, too. I used to"
+dialogtxt       "dream of becoming a Summoner."
+code0309        
+code0333        2, 30
+code0479        1, 2, 12
+dialogtxt       "But after my father died,"
+dialogtxt       "everything changed..."
+code0309        
+call            @Func_2046
+code0479        0, 4, 12
+call            @Func_1fa4
+code0334        
+code0331        33, 256
+jumpz           @Cond_082e, ($b002 == 0)
+dialogtxt       "Ah... Sorry..."
+dialogtxt       "That sounds pretty serious."
+dialogtxt       "You don't have to force yourself..."
+goto            @Label_0878
+
+@Cond_082e:
+dialogtxt       "Ah... Well..."
+dialogtxt       "That sounds pretty serious."
+dialogtxt       "You don't have to force yourself..."
+goto            @Label_0878
+
+@Label_0878:
+code0309        
+call            @Func_1fda
+code0479        1, 2, 13
+call            @Func_2010
+dialogtxt       "What are you saying now...?"
+dialogtxt       "You told me to talk."
+dialogtxt       "You're going to hear me out to the end."
+code0309        
+call            @Func_2046
+code0479        0, 4, 16
+call            @Func_1fa4
+dialogtxt       "Fiiine..."
+code0309        
+call            @Func_1fda
+code0479        1, 0, 12
+call            @Func_2010
+dialogtxt       "After my father died, my mother"
+dialogtxt       "started thinking only about building"
+dialogtxt       "her position within the faction..."
+code0309        
+code0479        1, 2, 14
+code0479        0, 0, 14
+dialogtxt       "She befriended the head of the"
+dialogtxt       "Ringval family and became the secretary"
+dialogtxt       "of someone like Belvon. That proves it..."
+code0309        
+code0479        1, 2, 12
+dialogtxt       "She said it was so I could"
+dialogtxt       "study Summoning with"
+dialogtxt       "the Ringval family, but..."
+code0309        
+code0479        1, 4, 16
+dialogtxt       "I'm sure she sees me, too,"
+dialogtxt       "as nothing more than a tool"
+dialogtxt       "for building her position in the faction."
+code0309        
+code0479        1, 2, 14
+dialogtxt       "It makes me sick...!"
+code0309        
+call            @Func_2046
+code0479        0, 0, 16
+call            @Func_1fa4
+dialogtxt       "Could it be..."
+dialogtxt       "that you went to Master Bostaph"
+dialogtxt       "just to spite her...?"
+code0309        
+call            @Func_1fda
+code0479        1, 2, 15
+call            @Func_2010
+dialogtxt       "That's not it!"
+dialogtxt       "Master Bostaph recognized me"
+dialogtxt       "as a person, not a tool."
+code0309        
+code0479        1, 2, 16
+dialogtxt       "There, I didn't have to worry"
+dialogtxt       "about the Mortea family's position"
+dialogtxt       "or anything like that."
+code0309        
+call            @Func_2046
+code0479        0, 4, 14
+call            @Func_1fa4
+dialogtxt       "[NAME 8]my..."
+code0309        
+call            @Func_1fda
+code0479        1, 4, 12
+call            @Func_2010
+dialogtxt       "But Master Bostaph changed, too,"
+dialogtxt       "after his wife left..."
+dialogtxt       "He changed little by little."
+code0309        
+code0479        1, 2, 14
+dialogtxt       "Now I have to be there"
+dialogtxt       "for Master Bostaph..."
+code0309        
+call            @Func_2046
+code0479        0, 0, 14
+call            @Func_1fa4
+jumpz           @Cond_0e9c, ($b002 == 0)
+dialogtxt       "..."
+dialogtxt       "I think I understand"
+dialogtxt       "what you're saying, more or less..."
+code0309        
+code0479        0, 0, 16
+dialogtxt       "But what you said about your mother..."
+dialogtxt       "Is it really true?"
+dialogtxt       "Could you be mistaken?"
+code0309        
+code0479        0, 2, 14
+dialogtxt       "Maybe your mother really did it"
+dialogtxt       "for your sake, becoming"
+dialogtxt       "Mr. Belvon's secretary..."
+goto            @Label_0f9a
+
+@Cond_0e9c:
+dialogtxt       "..."
+dialogtxt       "I think I understand"
+dialogtxt       "what you're saying, more or less..."
+code0309        
+code0479        0, 0, 14
+dialogtxt       "But what you said about your mother..."
+dialogtxt       "Is it really true?"
+dialogtxt       "Could you be mistaken?"
+code0309        
+code0479        0, 2, 14
+dialogtxt       "Maybe your mother really did it"
+dialogtxt       "for your sake, becoming"
+dialogtxt       "Mr. Belvon's secretary..."
+goto            @Label_0f9a
+
+@Label_0f9a:
+code0309        
+call            @Func_1fda
+code0479        1, 2, 17
+call            @Func_2010
+dialogtxt       "That's not true...! She only"
+dialogtxt       "wanted to make the Mortea family"
+dialogtxt       "accepted within the faction..."
+code0309        
+call            @Func_2046
+code0479        0, 2, 16
+call            @Func_1fa4
+jumpz           @Cond_1084, ($b002 == 0)
+dialogtxt       "How can you say that?"
+dialogtxt       "Did you hear it from your mother?"
+goto            @Label_10da
+
+@Cond_1084:
+dialogtxt       "How can you say that?"
+dialogtxt       "It's not as if you heard it"
+dialogtxt       "from your mother, right?"
+goto            @Label_10da
+
+@Label_10da:
+code0309        
+call            @Func_1fda
+code0479        1, 2, 14
+call            @Func_2010
+dialogtxt       "I don't need to ask. I know"
+dialogtxt       "what she's like..."
+code0309        
+call            @Func_20e0
+call            @Func_202e
+code047b        
+code0445        0, 14
+code0446        0
+code0479        1, 5, 14
+code0479        0, 2, 15
+call            @Func_208a
+call            @Func_1f86
+dialogbig       24, 116, 1, 0, 0, "How could you know?!"
+code030c        
+call            @Func_1fda
+code0479        1, 5, 16
+call            @Func_2010
+dialogtxt       "δ..."
+code0309        
+call            @Func_2046
+code0479        0, 2, 16
+call            @Func_1fa4
+jumpz           @Cond_12be, ($b002 == 0)
+dialogtxt       "If your father is gone,"
+dialogtxt       "your mother has to look after you"
+dialogtxt       "all by herself!"
+code0309        
+code0479        0, 2, 14
+code0479        1, 0, 16
+dialogtxt       "Have you ever thought about"
+dialogtxt       "how hard that is for her?!"
+goto            @Label_1384
+
+@Cond_12be:
+dialogtxt       "If your father is gone,"
+dialogtxt       "your mother has to look after you"
+dialogtxt       "all by herself!"
+code0309        
+code0479        0, 2, 14
+code0479        1, 0, 16
+dialogtxt       "Have you ever really thought about"
+dialogtxt       "how hard that is for her?!"
+goto            @Label_1384
+
+@Label_1384:
+code0309        
+call            @Func_1fda
+code0479        1, 2, 14
+call            @Func_2010
+dialogtxt       "What did you say...!"
+dialogtxt       "How do you know that...?"
+code0309        
+code0479        1, 5, 16
+dialogtxt       "Ah..."
+dialogtxt       "You, too... Your master..."
+code0309        
+call            @Func_2046
+code0479        0, 2, 14
+call            @Func_1fa4
+jumpz           @Cond_1472, ($b002 == 0)
+dialogtxt       "That's right."
+dialogtxt       "Supporting each other at times like this"
+dialogtxt       "is what family is about!"
+goto            @Label_14b6
+
+@Cond_1472:
+dialogtxt       "That's right..."
+dialogtxt       "Supporting each other at times like this"
+dialogtxt       "is what family is about!"
+goto            @Label_14b6
+
+@Label_14b6:
+code0309        
+call            @Func_1fda
+code0479        1, 4, 14
+call            @Func_2010
+dialogtxt       "..."
+code0309        
+call            @Func_2046
+code0479        0, 2, 16
+call            @Func_1fa4
+jumpz           @Cond_15a4, ($b002 == 0)
+dialogtxt       "Even earlier, I think your mother"
+dialogtxt       "was genuinely worried about you."
+dialogtxt       "That's what I think [NAME 8]."
+code0309        
+code0479        0, 0, 12
+dialogtxt       "So try trusting your mother"
+dialogtxt       "a little more..."
+goto            @Label_1646
+
+@Cond_15a4:
+dialogtxt       "Even earlier, I think your mother"
+dialogtxt       "was genuinely worried about you."
+dialogtxt       "That's what I think."
+code0309        
+code0479        0, 0, 12
+dialogtxt       "So try trusting your mother"
+dialogtxt       "a little more..."
+goto            @Label_1646
+
+@Label_1646:
+code0309        
+call            @Func_1fda
+code0333        2, 30
+code0479        1, 4, 16
+call            @Func_2010
+dialogtxt       "..."
+dialogtxt       "You're like that with everyone,"
+dialogtxt       "even Summon Beasts, aren't you...?"
+code0309        
+code0334        
+code046e        31, 256, 1
+code0479        1, 4, 13
+dialogtxt       "I'm envious..."
+dialogtxt       "I can't do that [NAME 6]..."
+code0309        
+call            @Func_2046
+code0479        0, 2, 16
+call            @Func_1fa4
+dialogtxt       "Were you making fun of me"
+dialogtxt       "just now?"
+code0309        
+call            @Func_1fda
+code0479        1, 0, 16
+call            @Func_2010
+dialogtxt       "No."
+dialogtxt       "I'm honestly envious."
+code0309        
+call            @Func_2046
+code0479        0, 7, 14
+call            @Func_1fa4
+dialogtxt       "Huh...? Really? This is kind of"
+dialogtxt       "embarrassing [NAME 8]..."
+code0309        
+call            @Func_1fda
+code0479        1, 0, 13
+call            @Func_2010
+dialogtxt       "As much as it pains me, you were right."
+dialogtxt       "Talking about it made me feel better [NAME 4]."
+dialogtxt       "But we'll have our match another time..."
+code0309        
+code0479        0, 0, 14
+code0479        1, 2, 13
+dialogtxt       "Once all my troubles are resolved,"
+dialogtxt       "I want you to face me again."
+code0309        
+call            @Func_2046
+code0479        0, 2, 12
+call            @Func_1fa4
+jumpz           @Cond_191e, ($b002 == 0)
+dialogtxt       "All right!"
+dialogtxt       "I'll be looking forward to that day!"
+goto            @Label_1952
+
+@Cond_191e:
+dialogtxt       "Okay!"
+dialogtxt       "I'll be looking forward to that day!"
+goto            @Label_1952
+
+@Label_1952:
+code0309        
+call            @Func_20e0
+call            @Func_1fc2
+code047b        
+code047f        229
+code0480        1, 1, 0, 0
+code0481        1
+code0482        
+code040d        15
+code047d        0, 110
+code0301        16, 7
+code047e        0, 1
+dialogtxt       "I'm looking forward to it, too."
+code0309        
+code047e        0, 0
+code0302        7
+code040d        15
+code0481        0
+code040d        1
+done            
+
+code031a        7
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031b        7, -1, -1, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031a        7
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 1
+code031f        7
+ret             
+
+code031a        6
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 1
+code031f        6
+ret             
+
+code031b        7, (-1 - $h139), $h140, $h136, $h137
+code031c        7, 2
+code031f        7
+code031a        7
+ret             
+
+code031b        6, $h139, 0, $h136, $h137
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+code031a        7
+code031b        7, -1, -1, $h141, $h137
+code031c        7, 1
+code040d        15
+code031a        6
+code031b        6, -1, -1, $h136, $h137
+code031c        6, 1
+code031f        6
+code031a        7
+ret             
+
+code031b        6, -1, -1, $h136, ($h137 / 2)
+code031c        6, 2
+code031f        6
+code031a        6
+ret             
+
+jumpz           @Cond_1d4a, ($h131 == 0)
+setvar          $h139, ($h139 | 0x0001)
+goto            @Label_1f84
+
+@Cond_1d4a:
+jumpz           @Cond_1d70, ($h131 == 1)
+setvar          $h139, ($h139 | 0x0002)
+goto            @Label_1f84
+
+@Cond_1d70:
+jumpz           @Cond_1d96, ($h131 == 2)
+setvar          $h139, ($h139 | 0x0004)
+goto            @Label_1f84
+
+@Cond_1d96:
+jumpz           @Cond_1dbc, ($h131 == 3)
+setvar          $h139, ($h139 | 0x0008)
+goto            @Label_1f84
+
+@Cond_1dbc:
+jumpz           @Cond_1de2, ($h131 == 4)
+setvar          $h139, ($h139 | 0x0010)
+goto            @Label_1f84
+
+@Cond_1de2:
+jumpz           @Cond_1e08, ($h131 == 5)
+setvar          $h139, ($h139 | 0x0020)
+goto            @Label_1f84
+
+@Cond_1e08:
+jumpz           @Cond_1e2e, ($h131 == 6)
+setvar          $h139, ($h139 | 0x0040)
+goto            @Label_1f84
+
+@Cond_1e2e:
+jumpz           @Cond_1e54, ($h131 == 7)
+setvar          $h139, ($h139 | 0x0080)
+goto            @Label_1f84
+
+@Cond_1e54:
+jumpz           @Cond_1e7a, ($h131 == 8)
+setvar          $h139, ($h139 | 0x0100)
+goto            @Label_1f84
+
+@Cond_1e7a:
+jumpz           @Cond_1ea0, ($h131 == 9)
+setvar          $h139, ($h139 | 0x0200)
+goto            @Label_1f84
+
+@Cond_1ea0:
+jumpz           @Cond_1ec6, ($h131 == 10)
+setvar          $h139, ($h139 | 0x0400)
+goto            @Label_1f84
+
+@Cond_1ec6:
+jumpz           @Cond_1eec, ($h131 == 11)
+setvar          $h139, ($h139 | 0x0800)
+goto            @Label_1f84
+
+@Cond_1eec:
+jumpz           @Cond_1f12, ($h131 == 12)
+setvar          $h139, ($h139 | 0x1000)
+goto            @Label_1f84
+
+@Cond_1f12:
+jumpz           @Cond_1f38, ($h131 == 13)
+setvar          $h139, ($h139 | 0x2000)
+goto            @Label_1f84
+
+@Cond_1f38:
+jumpz           @Cond_1f5e, ($h131 == 14)
+setvar          $h139, ($h139 | 0x4000)
+goto            @Label_1f84
+
+@Cond_1f5e:
+jumpz           @Label_1f84, ($h131 == 15)
+setvar          $h139, ($h139 | 0x00008000)
+goto            @Label_1f84
+
+@Label_1f84:
+ret             
+
+@Func_1f86:
+code0301        2, 4
+code047e        0, 1
+ret             
+
+@Func_1fa4:
+code0301        2, 7
+code047e        0, 1
+ret             
+
+@Func_1fc2:
+code047e        0, 0
+code0302        4
+ret             
+
+@Func_1fda:
+code047e        0, 0
+code0302        7
+ret             
+
+@Func_1ff2:
+code0301        4, 5
+code047e        1, 1
+ret             
+
+@Func_2010:
+code0301        4, 7
+code047e        1, 1
+ret             
+
+@Func_202e:
+code047e        1, 0
+code0302        5
+ret             
+
+@Func_2046:
+code047e        1, 0
+code0302        7
+ret             
+
+code047a        0, 1, 1
+ret             
+
+code047a        1, 1, 1
+ret             
+
+@Func_208a:
+code047a        0, 1, 1
+code047a        1, 1, 1
+ret             
+
+code047a        0, 0, 1
+ret             
+
+code047a        1, 0, 1
+ret             
+
+@Func_20e0:
+code047a        0, 0, 1
+code047a        1, 0, 1
+ret             
