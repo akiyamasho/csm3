@@ -30,9 +30,9 @@ call            @Func_0fac
 jumpz           @Cond_01e6, ($b003 == 0)
 code0479        0, 2, 12
 jumpz           @Cond_016a, ($b002 == 0)
-dialogtxt       "With This Weapon..."
-dialogtxt       "I Will Convey [NAME 8]'s Soul"
-dialogtxt       "To You!"
+dialogtxt       "With this weapon..."
+dialogtxt       "I will give you a taste"
+dialogtxt       "of my soul!"
 goto            @Label_01a8
 
 @Cond_016a:
@@ -230,7 +230,7 @@ code047d        0, 2
 code0301        16, 1
 code047e        0, 1
 jumpz           @Cond_0906, ($b003 == 0)
-dialogbig       48, 116, 1, 0, 0, "Here I [NAME 4]!!"
+dialogbig       48, 116, 1, 0, 0, "Here I go!!"
 code030c        
 code047e        0, 0
 code0302        1

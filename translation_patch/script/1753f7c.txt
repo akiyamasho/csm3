@@ -134,7 +134,7 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "You shouldn't go any farther."
-dialogtxt       "A scary Stray, Akaba[NAME 6]"
+dialogtxt       "A scary Stray, Akabane"
 dialogtxt       "and it's dangerous."
 code0309        
 code047e        0, 0
@@ -429,7 +429,7 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　∞ LOST PET ∞"
 code0309        
-dialogtxt       "We are looking for a [NAME 6]ko"
+dialogtxt       "We are looking for a cat"
 dialogtxt       "with a black-and-white pattern."
 dialogtxt       "Please contact us if you find it."
 code0309        

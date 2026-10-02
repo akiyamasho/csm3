@@ -935,8 +935,8 @@ code047d        1, 108
 call            @Func_415e
 call            @Func_40fa
 dialogtxt       "Returning to the issue at hand..."
-dialogtxt       "The story needs a twist too."
-dialogtxt       "Make it more convincing."
+dialogtxt       "And [NAME 2]'s relative"
+dialogtxt       "isn't much of a twist."
 code047b        
 code0309        
 call            @Func_4130

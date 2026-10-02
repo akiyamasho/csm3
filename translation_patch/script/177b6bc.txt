@@ -213,7 +213,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "Ugh..."
-dialogtxt       "I even have to clean the floor again..."
+dialogtxt       "I even have to clean the floor..."
 code0309        
 code047e        0, 0
 code0302        7

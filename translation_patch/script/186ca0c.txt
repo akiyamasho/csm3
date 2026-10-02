@@ -162,9 +162,9 @@ code047d        1, 2
 call            @Func_2638
 call            @Func_25d4
 jumpz           @Cond_07b0, ($b003 == 0)
-dialogtxt       "I Think The Possibility [NAME 5]..."
-dialogtxt       "Would It Not Be More Reasonable"
-dialogtxt       "To Assume Something Has Happened?"
+dialogtxt       "The chances seem low."
+dialogtxt       "Would it not be more reasonable"
+dialogtxt       "to assume something happened?"
 goto            @Cond_07b0
 
 @Cond_07b0:
@@ -402,7 +402,7 @@ code047d        1, 2
 call            @Func_2638
 call            @Func_25d4
 jumpz           @Cond_1292, ($b003 == 0)
-dialogtxt       "I See. [NAME 6] Was Bad With..."
+dialogtxt       "I see. You were bad with directions."
 goto            @Cond_1292
 
 @Cond_1292:
@@ -483,9 +483,9 @@ code0309
 call            @Func_260a
 code0479        0, 1, 14
 call            @Func_2568
-dialogtxt       "Oh, Come On, [NAME 8]..."
-dialogtxt       "Fine, Damn It~"
-dialogtxt       "I'll Pay, Leave It To Me!"
+dialogtxt       "Oh, me...?"
+dialogtxt       "Fine, damn it~"
+dialogtxt       "I'll pay. Leave it to me!"
 code0309        
 call            @Func_259e
 code0479        1, 2, 12
@@ -589,7 +589,7 @@ code0479        1, 2, 16
 code047d        1, 109
 call            @Func_2638
 call            @Func_25b6
-dialogtxt       "What? [NAME 8]..."
+dialogtxt       "What? That...?"
 code047b        
 code0309        
 call            @Func_268e

@@ -35,7 +35,7 @@ code047d        1, 110
 call            @Func_1a86
 call            @Func_1982
 dialogtxt       "Everyone...!"
-dialogtxt       "Even [NAME 8] and Mi...!?"
+dialogtxt       "Even Lemmy...!?"
 code047b        
 code0309        
 call            @Func_19d6
@@ -153,7 +153,7 @@ code0479        1, 0, 16
 call            @Func_1a70
 call            @Func_1a0c
 dialogtxt       "Your explanation was"
-dialogtxt       "[NAME 8] , but I understand"
+dialogtxt       "hard to follow, but I understand"
 dialogtxt       "most of it. Now, what shall we do?"
 code047b        
 code0309        
@@ -167,7 +167,7 @@ call            @Func_1a5a
 call            @Func_19a0
 dialogtxt       "Returning Govan’s magic stone might"
 dialogtxt       "calm the rampaging stray Summon"
-dialogtxt       "Beasts, but those people are after it..."
+dialogtxt       "Beasts, but those people want it..."
 code047b        
 code0309        
 call            @Func_1ab0
@@ -178,9 +178,9 @@ code0479        0, 2, 15
 code047d        0, 109
 call            @Func_1a5a
 call            @Func_19a0
-dialogtxt       "They intend to use it for something bad!"
-dialogtxt       "In any case, we have to"
-dialogtxt       "catch those people!"
+dialogtxt       "They intend to use it for something"
+dialogtxt       "bad! In any case, we have to catch"
+dialogtxt       "those people!"
 code047b        
 code0309        
 call            @Func_1adc
@@ -224,14 +224,14 @@ call            @Func_1a86
 call            @Func_1982
 jumpz           @Cond_0a90, ($b002 == 0)
 dialogtxt       "What did you say? Are you saying"
-dialogtxt       "Are [NAME 8] and others lying?"
-dialogtxt       "[NAME 5] lying about this!?"
+dialogtxt       "we're the ones lying?"
+dialogtxt       "Is that what you mean!?"
 goto            @Label_0acc
 
 @Cond_0a90:
 dialogtxt       "What? Are you saying"
-dialogtxt       "we're [NAME 5]"
-dialogtxt       "lying about this!?"
+dialogtxt       "we're lying about this?"
+dialogtxt       "Is that what you mean!?"
 goto            @Label_0acc
 
 @Label_0acc:
@@ -281,13 +281,13 @@ code047d        0, 2
 call            @Func_1a5a
 call            @Func_19a0
 jumpz           @Cond_0d98, ($b003 == 0)
-dialogtxt       "I believe it's a [NAME 5] lie."
+dialogtxt       "At present, that seems likely."
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "They may join Anis and the others."
-dialogtxt       "and obtain the power of the magic stone"
-dialogtxt       "Together, [NAME 8]."
+dialogtxt       "Maybe they want to join Anise's group"
+dialogtxt       "and gain the magic stone's power"
+dialogtxt       "together."
 goto            @Cond_0d98
 
 @Cond_0d98:
@@ -297,9 +297,9 @@ dialogtxt       "that is what it means."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "They may intend to ally with those people"
-dialogtxt       "and obtain the magic stone’s power"
-dialogtxt       "perhaps..."
+dialogtxt       "They may intend to ally with those"
+dialogtxt       "people and obtain the magic stone’s"
+dialogtxt       "power perhaps..."
 goto            @Cond_0e3c
 
 @Cond_0e3c:
@@ -320,7 +320,7 @@ dialogtxt       "that is probably so."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "Perhaps you intend to join those people"
+dialogtxt       "Perhaps you'll join those people"
 dialogtxt       "and obtain the magic stone’s power,"
 dialogtxt       "and obtain the magic stone’s power?"
 goto            @Cond_0f7a

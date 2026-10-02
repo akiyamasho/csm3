@@ -62,7 +62,7 @@ goto            @start
 
 @Event_0296:
 code0301        8, 7
-dialogtxt       "When boarding the Summon Beast trolley,"
+dialogtxt       "Aboard the Summon Beast trolley,"
 dialogtxt       "please watch your step."
 code0309        
 code0302        7
@@ -342,9 +342,9 @@ ret
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "Mother says a master specialized in one"
-dialogtxt       "thing is best, but I think someone who"
-dialogtxt       "has mastered everything..."
+dialogtxt       "Mother says a master specialized in"
+dialogtxt       "one thing is best, but I think someone"
+dialogtxt       "who has mastered everything..."
 code0309        
 dialogtxt       "is the very best!"
 code0309        
@@ -414,9 +414,9 @@ dialogtxt       "Amaaazing! All your Smith Ranks are at"
 dialogtxt       "the highest level? Amaaaazing◎"
 dialogtxt       "Amaaaazing◎"
 code0309        
-dialogtxt       "Then I'll give you this as a special gift."
-dialogtxt       "It's the “Smithing Mastery Guide,”"
-dialogtxt       "so keep training hard."
+dialogtxt       "Then I'll give you this as a special"
+dialogtxt       "gift. It's the “Smithing Mastery"
+dialogtxt       "Guide,” so keep training hard."
 code0309        
 code047e        0, 0
 code0302        7
@@ -424,7 +424,7 @@ code0366        529, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "If you save while carrying the “Smithing"
+dialogtxt       "If you save with the “Smithing"
 dialogtxt       "“Smithing Mastery Guide,” the bonus"
 dialogtxt       "condition “Rob” will be added."
 code0309        
@@ -445,9 +445,9 @@ dialogtxt       "Whoa!"
 dialogtxt       "You collected every secret technique?!"
 dialogtxt       "That's unbelievably amazing~"
 code0309        
-dialogtxt       "Then I'll give you this as a special gift."
-dialogtxt       "It's an “Audio Player,”"
-dialogtxt       "though I don't know what it's used for."
+dialogtxt       "Then I'll give you this as a special"
+dialogtxt       "gift. It's an “Audio Player,” though"
+dialogtxt       "I don't know what it's used for."
 code0309        
 code047e        0, 0
 code0302        7
@@ -455,9 +455,9 @@ code0366        531, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "If you save while carrying the “Audio"
-dialogtxt       "Player,” the bonus condition “VOICE”"
-dialogtxt       "will be added."
+dialogtxt       "If you save while carrying the"
+dialogtxt       "“Audio Player,” the bonus condition"
+dialogtxt       "“VOICE” will be added."
 code0309        
 code0302        7
 goto            @Cond_1428
@@ -476,7 +476,7 @@ dialogtxt       "That's incredible~"
 dialogtxt       "You met every stray?!"
 dialogtxt       "That's incredible~◎"
 code0309        
-dialogtxt       "Then I'll give you this as a special gift."
+dialogtxt       "Then this is a special gift for you."
 dialogtxt       "It's a “Great War Ticket,” It sounds"
 dialogtxt       "appropriate, so I'll give it to you."
 code0309        

@@ -173,8 +173,8 @@ code0479        1, 0, 16
 code0479        0, 0, 12
 call            @Func_13c2
 call            @Func_132a
-dialogtxt       "Actually now that I look at you,"
-dialogtxt       "you two seem pretty healthy..."
+dialogtxt       "Come to think of it, [NAME 2] and"
+dialogtxt       "the others seem pretty healthy..."
 dialogtxt       "Are you giving it to someone else?"
 code047b        
 code0309        
@@ -187,7 +187,7 @@ code0309
 call            @Func_1312
 code0479        1, 2, 12
 call            @Func_1348
-dialogtxt       "Is it for a girl you like?"
+dialogtxt       "Is it for a girl [NAME 2] likes?"
 code0309        
 call            @Func_137e
 code0479        0, 11, 17
@@ -210,7 +210,7 @@ code0309
 call            @Func_1312
 code0479        1, 2, 16
 call            @Func_1348
-dialogtxt       "Is this person precious to you?"
+dialogtxt       "Is [NAME 2] someone precious to you?"
 code0309        
 call            @Func_137e
 code0479        0, 1, 12
@@ -520,4 +520,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

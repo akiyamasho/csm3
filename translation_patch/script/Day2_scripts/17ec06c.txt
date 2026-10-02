@@ -346,7 +346,7 @@ code0309
 code0479        0, 0, 16
 code0479        1, 4, 16
 dialogtxt       "Since I came here, all I've"
-dialogtxt       "done is stir up trouble..."
+dialogtxt       "done is stir up trouble for [NAME 2]..."
 dialogtxt       "I must be a burden to you..."
 code0309        
 call            @Func_3b72
@@ -872,12 +872,12 @@ call            @Func_3b8a
 call            @Func_3ad0
 jumpz           @Cond_25e4, ($b002 == 0)
 choicetxt       @Choice_2632, "It won't be just you!"
-choicetxt       @Choice_2728, "Like you said, it's dangerous..."
+choicetxt       @Choice_2728, "As you said, dangerous..."
 goto            @Label_262e
 
 @Cond_25e4:
 choicetxt       @Choice_2632, "It won't be just you!"
-choicetxt       @Choice_2728, "Like you said, it's dangerous..."
+choicetxt       @Choice_2728, "As you said, dangerous..."
 goto            @Label_262e
 
 @Label_262e:
@@ -1058,7 +1058,7 @@ code047d        0, 108
 call            @Func_3b8a
 call            @Func_3ad0
 dialogtxt       "I know you're talking about giving"
-dialogtxt       "[NAME 2] your approval,"
+dialogtxt       "your approval,"
 dialogtxt       "but..."
 code047b        
 code0309        
@@ -1214,7 +1214,7 @@ code0479        1, 0, 13
 code047d        1, 132
 call            @Func_3ba0
 call            @Func_3b3c
-dialogtxt       "Alright then."
+dialogtxt       "Alright then, [NAME 2]!"
 dialogtxt       "Let me know when you're ready."
 code047b        
 code0309        

@@ -74,8 +74,8 @@ code0309
 call            @Func_0d7e
 code0479        1, 2, 16
 call            @Func_0db4
-dialogtxt       "What really happened?"
-dialogtxt       "If there's anything I can do, I'll help."
+dialogtxt       "What really happened? If there's"
+dialogtxt       "anything I can do, I'll help."
 code0309        
 call            @Func_0dea
 code0479        0, 4, 16
@@ -92,7 +92,7 @@ code0309
 call            @Func_0dea
 code0479        0, 4, 14
 call            @Func_0d48
-dialogtxt       "I'm sorry, Ani[NAME 4]..."
+dialogtxt       "I'm sorry, big bro..."
 code0309        
 call            @Func_0d7e
 code0479        1, 0, 16
@@ -114,9 +114,9 @@ code0309
 call            @Func_0d7e
 code0479        1, 2, 12
 call            @Func_0db4
-dialogtxt       "I'm part of this town's volunteer guard."
-dialogtxt       "Leave the dangerous stuff"
-dialogtxt       "to us."
+dialogtxt       "I'm part of this town's volunteer"
+dialogtxt       "guard. Leave the dangerous stuff to"
+dialogtxt       "us."
 code0309        
 call            @Func_0dea
 code0479        0, 4, 16
@@ -126,8 +126,8 @@ code0309
 call            @Func_0d7e
 code0479        1, 2, 16
 call            @Func_0db4
-dialogtxt       "You're not from this town."
-dialogtxt       "You don't need to push yourself that far."
+dialogtxt       "You're not from this town. You don't"
+dialogtxt       "need to push yourself that far."
 code0309        
 code0479        1, 4, 12
 dialogtxt       "You already"

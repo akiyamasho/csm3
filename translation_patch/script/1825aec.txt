@@ -143,14 +143,14 @@ call            @Func_14be
 dialogtxt       "Unknown."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "We Must Hurry, [NAME 8]."
+dialogtxt       "We must hurry."
 dialogtxt       "I Am Concerned For Lady Murno."
 goto            @Cond_05f0
 
 @Cond_05f0:
 jumpz           @Cond_08be, ($b003 == 1)
-dialogtxt       "Disappeared..."
-dialogtxt       "I can no longer sense that girl's presence"
+dialogtxt       "Disappeared... I can no longer"
+dialogtxt       "sense that girl's presence"
 dialogtxt       "anywhere..."
 code047b        
 code0309        

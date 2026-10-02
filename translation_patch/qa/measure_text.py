@@ -17,6 +17,7 @@ QUOTED = re.compile(r'"(?:\\.|[^"\\])*"')
 COMMAND = re.compile(r'^\s*([A-Za-z_][A-Za-z0-9_]*)\b')
 ASCII_DB = re.compile(r'^\s*\.db\s+([^;]+)')
 TOKENS = re.compile(r'\[([^\]]+)\]')
+NAME_GLYPHS = {glyph: index for index, glyph in enumerate("βγδεζηθικλμνξοπρ")}
 
 DRAW_COMMANDS = {
     "dialogtxt": (224, 240, "dialogue line (28-tile safe interior; 30-tile hard screen)"),
@@ -79,6 +80,32 @@ def runtime_quoted_matches(raw: str) -> list[re.Match[str]]:
             break
     return [match for match in QUOTED.finditer(raw) if match.start() < comment_start]
 
+def manifest_script_paths(root: Path, manifest: Path, expected_count: int = 1052) -> list[Path]:
+    """Read exactly the selected runtime scripts, including explicit overrides."""
+    result: list[Path] = []
+    seen_addresses: set[str] = set()
+    for lineno, raw in enumerate(manifest.read_text(encoding="utf-8").splitlines(), 1):
+        if not raw.strip():
+            continue
+        parts = raw.split()
+        if len(parts) != 2 or not re.fullmatch(r"--pos=[0-9a-fA-F]+", parts[1]):
+            raise ValueError(f"invalid manifest row {manifest}:{lineno}: {raw}")
+        address = parts[1][6:].lower()
+        if Path(parts[0]).stem.lower() != address:
+            raise ValueError(f"manifest filename/address mismatch at {manifest}:{lineno}: {parts[0]} {parts[1]}")
+        if address in seen_addresses:
+            raise ValueError(f"duplicate manifest address {address} at {manifest}:{lineno}")
+        seen_addresses.add(address)
+        path = (root / parts[0]).resolve()
+        if not path.is_relative_to(root.resolve()) or not path.is_file():
+            raise ValueError(f"missing or out-of-tree manifest source at {manifest}:{lineno}: {parts[0]}")
+        if path.suffix.lower() != ".txt":
+            raise ValueError(f"manifest source is not a .txt file at {manifest}:{lineno}: {parts[0]}")
+        result.append(path)
+    if len(result) != expected_count:
+        raise ValueError(f"manifest selects {len(result)} scripts; expected {expected_count}")
+    return result
+
 def measure(text: str, widths: list[int]) -> tuple[list[int], list[int], list[str], int]:
     """Return worst-case and definitely-static physical line widths."""
     line_widths = [0]
@@ -88,6 +115,7 @@ def measure(text: str, widths: list[int]) -> tuple[list[int], list[int], list[st
     fixed_width: int | None = None
 
     def add_char(ch: str) -> None:
+        nonlocal token_count
         if ch == "\n":
             line_widths.append(0)
             static_widths.append(0)
@@ -95,6 +123,12 @@ def measure(text: str, widths: list[int]) -> tuple[list[int], list[int], list[st
         if ch == "\t":
             line_widths[-1] += 4
             static_widths[-1] += 4
+            return
+        if ch in NAME_GLYPHS:
+            token_count += 1
+            name_advance = 9 * (fixed_width if fixed_width is not None else 12)
+            uncertain.append(f"{ch} [NAME {NAME_GLYPHS[ch]}] runtime substitution (charged at {name_advance}px worst case)")
+            line_widths[-1] += name_advance
             return
         if ord(ch) < 128:
             advance = widths[ord(ch) - 32] if 32 <= ord(ch) <= 126 else 0
@@ -133,81 +167,83 @@ def measure(text: str, widths: list[int]) -> tuple[list[int], list[int], list[st
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    ap.add_argument("--manifest", type=Path, help="selected script manifest (default: <root>/build_scripts.manifest)")
     ap.add_argument("--report", type=Path)
     ap.add_argument("--tsv", type=Path, help="write complete machine-readable findings TSV")
+    ap.add_argument("--fail-on-static-overflow", action="store_true",
+                    help="return failure if any fixed text exceeds its safe width")
     args = ap.parse_args()
     root = args.root.resolve()
     widths = load_ascii_widths(root / "asm" / "vwf_font.asm")
     findings: list[dict] = []
     checked = 0
     dynamic = 0
-    for folder in (root / "script", root / "system_messages"):
-        if not folder.exists():
-            continue
-        for path in sorted(folder.rglob("*.txt")):
-            # Day2 is an exact duplicate corpus; including it doubles findings.
-            if "Day2_scripts" in path.parts:
+    manifest = args.manifest or (root / "build_scripts.manifest")
+    script_paths = manifest_script_paths(root, manifest.resolve())
+    source_paths = script_paths + sorted((root / "system_messages").glob("*.txt"))
+    selected_day2 = sum("Day2_scripts" in path.parts for path in script_paths)
+    for path in source_paths:
+        for lineno, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+            cm = COMMAND.match(raw)
+            if not cm or cm.group(1) not in DRAW_COMMANDS:
                 continue
-            for lineno, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
-                cm = COMMAND.match(raw)
-                if not cm or cm.group(1) not in DRAW_COMMANDS:
-                    continue
-                command = cm.group(1)
-                all_quoted = list(QUOTED.finditer(raw))
-                quoted = runtime_quoted_matches(raw)
-                if not quoted:
-                    continue
-                # Annotation quotes after an unquoted semicolon are excluded
-                # above. For ordinary script lines retain the historical
-                # final-quote behavior, including legacy lines containing
-                # unescaped inner quotes; annotated system rows have one
-                # runtime field, so select its first pre-comment quote.
-                payload_quote = quoted[0] if len(quoted) < len(all_quoted) else quoted[-1]
-                text = unescape(payload_quote.group(0))
-                line_widths, static_widths, uncertain, token_count = measure(text, widths)
-                checked += 1
-                dynamic += token_count
-                safe, hard, rule = DRAW_COMMANDS[command]
-                # menutxtp's final numeric argument is a width in pixels/8.
-                declared = None
-                if command == "menutxtp":
-                    tail = raw[payload_quote.end():].split(";", 1)[0]
-                    nums = re.findall(r"\b\d+\b", tail)
-                    if nums:
-                        declared = int(nums[-1]) * 8
-                        safe = declared
-                        hard = declared
-                        rule = f"declared menu width ({declared}px)"
-                peak = max(line_widths, default=0)
-                static_peak = max(static_widths, default=0)
-                kind = ""
-                if static_peak > hard:
-                    kind = "HARD_OVERFLOW"
-                elif static_peak > safe:
-                    kind = "SAFE_OVERFLOW"
-                elif uncertain and peak > hard:
-                    kind = "DYNAMIC_OVERFLOW"
-                elif uncertain:
-                    kind = "DYNAMIC_REVIEW"
-                if kind:
-                    findings.append({"file": str(path.relative_to(root)), "line": lineno,
-                                     "command": command, "width": peak, "safe": safe,
-                                     "hard": hard, "static_width": static_peak,
-                                     "kind": kind, "text": text,
-                                     "uncertainty": uncertain, "rule": rule,
-                                     "declared_width": declared})
+            command = cm.group(1)
+            all_quoted = list(QUOTED.finditer(raw))
+            quoted = runtime_quoted_matches(raw)
+            if not quoted:
+                continue
+            # Annotation quotes after an unquoted semicolon are excluded
+            # above. For ordinary script lines retain the historical
+            # final-quote behavior, including legacy lines containing
+            # unescaped inner quotes; annotated system rows have one
+            # runtime field, so select its first pre-comment quote.
+            payload_quote = quoted[0] if len(quoted) < len(all_quoted) else quoted[-1]
+            text = unescape(payload_quote.group(0))
+            line_widths, static_widths, uncertain, token_count = measure(text, widths)
+            checked += 1
+            dynamic += token_count
+            safe, hard, rule = DRAW_COMMANDS[command]
+            # menutxtp's final numeric argument is a width in pixels/8.
+            declared = None
+            if command == "menutxtp":
+                tail = raw[payload_quote.end():].split(";", 1)[0]
+                nums = re.findall(r"\b\d+\b", tail)
+                if nums:
+                    declared = int(nums[-1]) * 8
+                    safe = declared
+                    hard = declared
+                    rule = f"declared menu width ({declared}px)"
+            peak = max(line_widths, default=0)
+            static_peak = max(static_widths, default=0)
+            kind = ""
+            if static_peak > hard:
+                kind = "HARD_OVERFLOW"
+            elif static_peak > safe:
+                kind = "SAFE_OVERFLOW"
+            elif uncertain and peak > hard:
+                kind = "DYNAMIC_OVERFLOW"
+            elif uncertain:
+                kind = "DYNAMIC_REVIEW"
+            if kind:
+                findings.append({"file": str(path.relative_to(root)), "line": lineno,
+                                 "command": command, "width": peak, "safe": safe,
+                                 "hard": hard, "static_width": static_peak,
+                                 "kind": kind, "text": text,
+                                 "uncertainty": uncertain, "rule": rule,
+                                 "declared_width": declared})
     findings.sort(key=lambda x: (-x["width"], x["file"], x["line"]))
     counts = Counter(f["kind"] for f in findings)
     out = args.report or (root / "qa" / "ui_overflow_report.md")
     out.parent.mkdir(parents=True, exist_ok=True)
     with out.open("w", encoding="utf-8") as fp:
         fp.write("# UI text-fit report\n\n")
-        fp.write("Generated by `qa/measure_text.py`; Day2 duplicate scripts are excluded.\n\n")
+        fp.write(f"Generated by `qa/measure_text.py`; manifest-selected runtime scripts include {selected_day2} Day 2 overrides.\n\n")
+        fp.write("Semantic coverage note: static integrity and width checks do not establish scene-level correctness. Dynamic NAME expansion and caller-specific UI placement still require emulator review.\n\n")
         fp.write(f"- Commands checked: **{checked}**\n- Findings: **{len(findings)}**\n")
         fp.write(f"- Hard overflows: **{counts['HARD_OVERFLOW']}**\n- Safe-margin overflows: **{counts['SAFE_OVERFLOW']}**\n")
         fp.write(f"- Dynamic worst-case overflows: **{counts['DYNAMIC_OVERFLOW']}**\n- Dynamic-token reviews: **{counts['DYNAMIC_REVIEW']}**\n- Dynamic tokens charged: **{dynamic}**\n\n")
         fp.write("## Model and limits\n\n")
-        fp.write("ASCII advances are parsed from `asm/vwf_font.asm` (`AsciiWidths`); JIS advances are 12px, matching `LookupGlyph`. A 0x7f width-control token is represented by the source token syntax and dynamic `[NAME n]` substitutions are charged at 9×12px. Safe dialogue width is 224px (28 tiles), with 240px as the screen hard ceiling. Menu/choice callers vary, so 160px is a conservative review threshold unless `menutxtp` declares a narrower width. The VWF renderer has no automatic word wrapping: each quoted command payload is one physical line, so source line/page breaks are the wrap mechanism. `HARD_OVERFLOW` is proven from non-dynamic glyphs alone; `DYNAMIC_OVERFLOW` exceeds the hard limit only under the conservative nine-glyph name bound. Emulator screenshots remain required for caller-specific placement and dynamic names.\n\n")
+        fp.write("ASCII advances are parsed from `asm/vwf_font.asm` (`AsciiWidths`); ordinary JIS advances are 12px, matching `LookupGlyph`. Raw Greek beta through rho map in the runtime renderer to NAME0 through NAME15, so both those symbols and explicit `[NAME n]` tokens are reported as dynamic substitutions and charged at the conservative nine-glyph bound. WIDTH controls use the fixed advance they set. Safe dialogue width is 224px (28 tiles), with 240px as the screen hard ceiling. Menu/choice callers vary, so 160px is a conservative review threshold unless `menutxtp` declares a narrower width. The VWF renderer has no automatic word wrapping: each quoted command payload is one physical line, so source line/page breaks are the wrap mechanism. `HARD_OVERFLOW` is proven from non-dynamic glyphs alone; `DYNAMIC_OVERFLOW` exceeds the hard limit only under the conservative nine-glyph name bound. Emulator screenshots remain required for caller-specific placement and dynamic names.\n\n")
         by_command = Counter(f["command"] for f in findings)
         by_file = Counter(f["file"] for f in findings)
         fp.write("## Aggregate counts\n\n| Command | Findings |\n|---|---:|\n")
@@ -235,6 +271,8 @@ def main() -> int:
                 fp.write(f"{f['kind']}\t{f['file']}\t{f['line']}\t{f['command']}\t{f['static_width']}\t{f['width']}\t{f['safe']}/{f['hard']}\t{safe_text}\n")
     print(f"checked={checked} findings={len(findings)} hard={counts['HARD_OVERFLOW']} safe={counts['SAFE_OVERFLOW']} dynamic_overflow={counts['DYNAMIC_OVERFLOW']} dynamic_review={counts['DYNAMIC_REVIEW']}")
     print(f"report={out}")
+    if args.fail_on_static_overflow and (counts["HARD_OVERFLOW"] or counts["SAFE_OVERFLOW"]):
+        return 1
     return 0
 
 if __name__ == "__main__":

@@ -73,8 +73,8 @@ goto            @Cond_02a0
 
 @Cond_02a0:
 jumpz           @Cond_02e2, ($b003 == 3)
-dialogtxt       "Those people..."
-dialogtxt       "I can't believe they've come this far..."
+dialogtxt       "Those people... I can't believe"
+dialogtxt       "they've come this far..."
 goto            @Cond_02e2
 
 @Cond_02e2:
@@ -194,7 +194,7 @@ goto            @Cond_0714
 jumpz           @Cond_07aa, ($b003 == 1)
 dialogtxt       "What?"
 dialogtxt       "That's completely different!"
-dialogtxt       "This one's a [NAME 6]!"
+dialogtxt       "This one's a cat!"
 code0309        
 jumpz           @Cond_07a6, ($b002 == 0)
 code0479        1, 0, 17
@@ -588,7 +588,7 @@ goto            @Label_18fa
 setvar          $f0138, 1
 code0479        0, 2, 16
 jumpz           @Cond_16ba, ($b002 == 0)
-dialogtxt       "But, [NAME 8]..."
+dialogtxt       "But I..."
 goto            @Label_16d0
 
 @Cond_16ba:
@@ -632,7 +632,7 @@ goto            @Cond_17f4
 
 @Cond_17f4:
 jumpz           @Cond_183e, ($b003 == 2)
-dialogtxt       "How should I know! Forget it... [NAME 4],"
+dialogtxt       "How should I know!? Forget it..."
 dialogtxt       "stay there and watch!"
 dialogtxt       "..."
 goto            @Cond_183e

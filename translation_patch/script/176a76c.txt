@@ -275,8 +275,8 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Hey, [NAME 4], are you a"
-dialogtxt       "offense or healing type?"
+dialogtxt       "Hey, would you say you're more"
+dialogtxt       "attack or healing type?"
 code0309        
 dialogtxt       "Hm?"
 dialogtxt       "Your Summon Beast strategy, I mean,"

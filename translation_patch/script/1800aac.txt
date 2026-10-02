@@ -46,12 +46,12 @@ code047d        1, 132
 call            @Func_1138
 call            @Func_10a0
 jumpz           @Cond_02b4, ($b002 == 0)
-dialogtxt       "That's quite a sigh."
+dialogtxt       "Sigh."
 dialogtxt       "What's got you so down, pretty boy?"
 goto            @Label_02e6
 
 @Cond_02b4:
-dialogtxt       "That's quite a sigh."
+dialogtxt       "Sigh."
 dialogtxt       "What's got you so down, popular guy?"
 goto            @Label_02e6
 
@@ -62,13 +62,13 @@ call            @Func_10f4
 code0479        0, 0, 16
 call            @Func_1052
 jumpz           @Cond_034c, ($b002 == 0)
-dialogtxt       "What do you want, Ani[NAME 4]?"
-dialogtxt       "I'm trying to think here."
+dialogtxt       "What, even you, big bro?"
+dialogtxt       "I'm thinking."
 goto            @Label_0380
 
 @Cond_034c:
-dialogtxt       "What do you want, Ani[NAME 4]?"
-dialogtxt       "I'm trying to think here."
+dialogtxt       "What, even big bro?"
+dialogtxt       "I'm thinking."
 goto            @Label_0380
 
 @Label_0380:
@@ -77,8 +77,8 @@ code0309
 call            @Func_1088
 call            @Func_10be
 dialogtxt       "How should I know?"
-dialogtxt       "It's your fault for not being"
-dialogtxt       "clear about your feelings, right?"
+dialogtxt       "It's your fault for being"
+dialogtxt       "unclear, right?"
 code0309        
 call            @Func_10f4
 code0479        0, 2, 15
@@ -105,13 +105,13 @@ call            @Func_10f4
 code0479        0, 11, 15
 call            @Func_1052
 dialogtxt       "Choose?"
-dialogtxt       "Is that really the issue here!?"
+dialogtxt       "Is that the issue here!?"
 code0309        
 call            @Func_1088
 code0479        1, 5, 12
 call            @Func_10be
 dialogtxt       "Isn't it?"
-dialogtxt       "Is there someone else you like?"
+dialogtxt       "Do you like someone else?"
 code0309        
 call            @Func_10f4
 code0479        0, 7, 15
@@ -121,15 +121,15 @@ code0309
 code0479        0, 4, 12
 code0479        1, 0, 12
 jumpz           @Cond_0602, ($b002 == 0)
-dialogtxt       "At first, it was just about whether I'd"
-dialogtxt       "work as a blacksmith."
-dialogtxt       "How did I become your wife...?"
+dialogtxt       "At first, it was whether"
+dialogtxt       "I'd work as a smith. How did I"
+dialogtxt       "become your wife...?"
 goto            @Label_065c
 
 @Cond_0602:
-dialogtxt       "At first, it was just about whether I'd"
-dialogtxt       "work as a blacksmith."
-dialogtxt       "How did I become the poster girl...?"
+dialogtxt       "At first, it was about whether"
+dialogtxt       "I'd work as a smith. How did I"
+dialogtxt       "become the poster girl...?"
 goto            @Label_065c
 
 @Label_065c:
@@ -137,7 +137,7 @@ code0309
 call            @Func_1088
 code0479        1, 2, 12
 call            @Func_10be
-dialogtxt       "Everyone in this world wants things"
+dialogtxt       "Everyone wants things"
 dialogtxt       "to go their own way."
 dialogtxt       "If you want to follow your own path..."
 code0309        
@@ -157,10 +157,10 @@ code0479        1, 0, 13
 call            @Func_10be
 dialogtxt       "But that's a good thing, isn't it?"
 dialogtxt       "People like you, after all."
-dialogtxt       "That's a pretty luxurious problem."
+dialogtxt       "That's a luxury problem."
 code0309        
 code0479        1, 4, 16
-dialogtxt       "All the people flocking around [NAME 8]"
+dialogtxt       "All the people flocking around me"
 dialogtxt       "are men, though... It's not like that"
 dialogtxt       "makes me happy..."
 code0309        
@@ -169,8 +169,8 @@ jumpz           @Cond_08c8, ($b002 == 0)
 code0479        0, 2, 15
 call            @Func_1052
 dialogtxt       "Sorry, then!"
-dialogtxt       "From now on, [NAME 8] won't"
-dialogtxt       "come near Ani[NAME 4]!"
+dialogtxt       "Then from now on, I won't"
+dialogtxt       "come near you, big bro!"
 goto            @Label_0926
 
 @Cond_08c8:
@@ -187,21 +187,21 @@ call            @Func_1088
 code0479        1, 5, 15
 call            @Func_10be
 dialogtxt       "H-Hey..."
-dialogtxt       "That's not what [NAME 8]"
+dialogtxt       "That's not what I"
 dialogtxt       "was trying to say..."
 code0309        
 call            @Func_10f4
 code0479        0, 1, 13
 call            @Func_1052
 jumpz           @Cond_09fa, ($b002 == 0)
-dialogtxt       "Hehe... Do you grasp [NAME 8]'s feelings"
+dialogtxt       "Hehe... Do you understand my feelings"
 dialogtxt       "a little better now,"
-dialogtxt       "Ani[NAME 4]?"
+dialogtxt       "a little better now, Anise?"
 goto            @Label_0a3c
 
 @Cond_09fa:
-dialogtxt       "Hehe... Do you grasp my feelings a little"
-dialogtxt       "better now, Ani[NAME 4]?"
+dialogtxt       "Hehe... Do you grasp my feelings"
+dialogtxt       "understand how I feel, big bro?"
 dialogtxt       "..."
 goto            @Label_0a3c
 

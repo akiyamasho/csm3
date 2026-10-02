@@ -118,7 +118,7 @@ code0479        0, 0, 16
 call            @Func_1ac0
 call            @Func_19bc
 jumpz           @Cond_04ea, ($b002 == 0)
-dialogtxt       "[NAME 8]'s hammer!"
+dialogtxt       "My hammer!"
 dialogtxt       "...and a broken sword?"
 dialogtxt       "Are we supposed to repair it?"
 goto            @Label_0538
@@ -252,7 +252,7 @@ goto            @Cond_0998
 @Cond_0998:
 jumpz           @Cond_09ca, ($b003 == 2)
 dialogtxt       "..."
-dialogtxt       "So [NAME 4] can remove it."
+dialogtxt       "So you can remove it."
 goto            @Cond_09ca
 
 @Cond_09ca:
@@ -448,8 +448,8 @@ code047d        1, 0
 call            @Func_1aaa
 call            @Func_1a46
 jumpz           @Cond_113e, ($b002 == 0)
-dialogtxt       "H-Hey."
-dialogtxt       "What's gotten into you all of a sudden?"
+dialogtxt       "H-Hey. What's gotten into you all of a"
+dialogtxt       "sudden?"
 goto            @Label_1162
 
 @Cond_113e:

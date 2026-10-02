@@ -65,7 +65,7 @@ dialogtxt       "magic stone to Murno's village."
 code0309        
 code0479        0, 5, 16
 code0479        1, 2, 13
-dialogtxt       "It sounds pretty far away,"
+dialogtxt       "It's pretty far away,"
 dialogtxt       "but we'll have to do our best!"
 code0309        
 call            @Func_1512
@@ -94,22 +94,22 @@ call            @Func_1512
 code0479        0, 0, 14
 call            @Func_1470
 jumpz           @Cond_0580, ($b002 == 0)
-dialogtxt       "But if the strays went berserk"
+dialogtxt       "If the strays went berserk"
 dialogtxt       "because the magic stone"
 dialogtxt       "was taken away, then..."
 code0309        
-dialogtxt       "everyone said Murno's village"
-dialogtxt       "was in danger, too, when we"
+dialogtxt       "Murno's village"
+dialogtxt       "was in danger when we"
 dialogtxt       "went to the Gold Faction, right?"
 goto            @Label_0618
 
 @Cond_0580:
-dialogtxt       "But if the strays went berserk"
+dialogtxt       "If the strays went berserk"
 dialogtxt       "because the magic stone"
 dialogtxt       "was taken away, then..."
 code0309        
-dialogtxt       "everyone said Murno's village"
-dialogtxt       "was in danger, too, when we"
+dialogtxt       "Murno's village"
+dialogtxt       "was in danger when we"
 dialogtxt       "went to the Gold Faction, right?"
 goto            @Label_0618
 
@@ -136,15 +136,15 @@ call            @Func_1512
 code0479        0, 2, 16
 call            @Func_1470
 jumpz           @Cond_0760, ($b002 == 0)
-dialogtxt       "Even [NAME 8] -mii was"
-dialogtxt       "told by her mother to stop, and"
-dialogtxt       "stay home instead of overdoing it."
+dialogtxt       "Her mother told Lemmy"
+dialogtxt       "not to push it, but"
+dialogtxt       "to stay home."
 goto            @Label_07bc
 
 @Cond_0760:
-dialogtxt       "Even [NAME 8] -mii was"
-dialogtxt       "told by her mother to stop, and"
-dialogtxt       "stay home instead of overdoing it."
+dialogtxt       "Her mother told Lemmy"
+dialogtxt       "not to push it, but"
+dialogtxt       "to stay home."
 goto            @Label_07bc
 
 @Label_07bc:
@@ -178,15 +178,15 @@ call            @Func_1512
 code0479        0, 2, 16
 call            @Func_1470
 jumpz           @Cond_0940, ($b002 == 0)
-dialogtxt       "Your parents are worried"
-dialogtxt       "about everything that's happened, right?"
-dialogtxt       "And now you're doing this again..."
+dialogtxt       "Your parents are worried about"
+dialogtxt       "all that's happened, right? And"
+dialogtxt       "now you're doing this again..."
 goto            @Label_099c
 
 @Cond_0940:
-dialogtxt       "Your parents are worried"
-dialogtxt       "about everything that's happened, right?"
-dialogtxt       "And now you're doing this again..."
+dialogtxt       "Your parents are worried about"
+dialogtxt       "all that's happened, right? And"
+dialogtxt       "now you're doing this again..."
 goto            @Label_099c
 
 @Label_099c:
@@ -262,13 +262,13 @@ call            @Func_1512
 code0479        0, 5, 16
 call            @Func_1470
 jumpz           @Cond_0d12, ($b002 == 0)
-dialogtxt       "Huh...? Are you sure [NAME 8]"
-dialogtxt       "alone is enough? It might"
-dialogtxt       "be better if we all went to greet them..."
+dialogtxt       "Huh? Are you sure you're alone?"
+dialogtxt       "Wouldn't it be better if we all"
+dialogtxt       "went to greet them..."
 goto            @Label_0d5c
 
 @Cond_0d12:
-dialogtxt       "Huh...? Is it all right if I go"
+dialogtxt       "Huh? Is it all right if I go"
 dialogtxt       "alone? It might be better if"
 dialogtxt       "we all went to greet them..."
 goto            @Label_0d5c
@@ -284,7 +284,7 @@ dialogtxt       "we'll see each other..."
 code0309        
 code0479        1, 10, 16
 dialogtxt       "But even being apart from δ"
-dialogtxt       "for a little while"
+dialogtxt       "for long"
 dialogtxt       "would make me lonely..."
 code0309        
 call            @Func_1512
@@ -292,7 +292,7 @@ code0479        0, 1, 14
 call            @Func_1470
 dialogtxt       "Don't be so dramatic..."
 dialogtxt       "But, well..."
-dialogtxt       "I suppose I can do that."
+dialogtxt       "I can do that."
 code0309        
 call            @Func_14a6
 code0479        1, 0, 12

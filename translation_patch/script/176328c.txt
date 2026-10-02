@@ -236,7 +236,7 @@ code0479        1, 0, 12
 call            @Func_3ec2
 dialogtxt       "To see the crystal pillar inside,"
 dialogtxt       "we are to obtain permission"
-dialogtxt       "it seems we will fight inside the ruins..."
+dialogtxt       "seems we'll fight inside the ruins..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -279,8 +279,8 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
-dialogtxt       "To see the magic crystal pillar inside,"
-dialogtxt       "we are going to fight inside the ruins."
+dialogtxt       "To see the Crystal Pillar inside,"
+dialogtxt       "we'll fight inside the ruins."
 dialogtxt       "That is what it sounds like..."
 code0309        
 call            @Func_3ef8
@@ -324,9 +324,9 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
-dialogtxt       "[NAME 4], have you noticed?"
-dialogtxt       "To see the crystal pillar inside,"
-dialogtxt       "it seems we will fight inside the ruins."
+dialogtxt       "Have you noticed? To see"
+dialogtxt       "the crystal pillar inside, it seems we"
+dialogtxt       "will fight inside the ruins."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -370,8 +370,8 @@ call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
 dialogtxt       "The Hall of Judgment is in the ruins,"
-dialogtxt       "is it not..."
-dialogtxt       "Lady Murno's magic pillar is there too..."
+dialogtxt       "is it not... Lady Murno's magic pillar"
+dialogtxt       "is there too..."
 code0309        
 call            @Func_3ef8
 code0479        0, 1, 16
@@ -581,15 +581,15 @@ call            @Func_3f3c
 jumpz           @Cond_1690, ($b003 == 0)
 call            @Func_3e38
 jumpz           @Cond_153c, ($b002 == 0)
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_1598
 
 @Cond_153c:
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_1598
 
 @Label_1598:
@@ -620,15 +620,15 @@ goto            @Cond_1690
 jumpz           @Cond_1906, ($b003 == 1)
 call            @Func_3e38
 jumpz           @Cond_1712, ($b002 == 0)
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_176e
 
 @Cond_1712:
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_176e
 
 @Label_176e:
@@ -637,8 +637,8 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 12
 call            @Func_3ec2
-dialogtxt       "If your mind is clear, even fire feels cool,"
-dialogtxt       "and for someone as great as me,"
+dialogtxt       "If your mind is clear, even fire feels"
+dialogtxt       "cool, and for someone as great as me,"
 dialogtxt       "this heat is nothing to worry about."
 code0309        
 call            @Func_3ef8
@@ -672,15 +672,15 @@ goto            @Cond_1906
 jumpz           @Cond_1b70, ($b003 == 2)
 call            @Func_3e38
 jumpz           @Cond_1988, ($b002 == 0)
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_19e4
 
 @Cond_1988:
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_19e4
 
 @Label_19e4:
@@ -730,15 +730,15 @@ goto            @Cond_1b70
 jumpz           @Cond_1d9a, ($b003 == 3)
 call            @Func_3e38
 jumpz           @Cond_1bf2, ($b002 == 0)
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_1c4e
 
 @Cond_1bf2:
-dialogtxt       "We must reach the Hall of Judgment, but"
-dialogtxt       "the Flame Ruins of Gumag are really hot."
-dialogtxt       "γ, are you all right?"
+dialogtxt       "We must reach the Hall of Judgment,"
+dialogtxt       "but the Flame Ruins of Gumag are"
+dialogtxt       "really hot. γ, are you all right?"
 goto            @Label_1c4e
 
 @Label_1c4e:
@@ -915,9 +915,9 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
-dialogtxt       "We have come this far."
-dialogtxt       "Even if [NAME 4] loses here,"
-dialogtxt       "everything will be fine if I defeat them."
+dialogtxt       "We have come this far. Even if"
+dialogtxt       "even if you lose here, it'll be fine"
+dialogtxt       "if I defeat them."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "Just finish this quickly."
@@ -926,14 +926,14 @@ call            @Func_3ef8
 code0479        0, 1, 16
 call            @Func_3e56
 jumpz           @Cond_2466, ($b002 == 0)
-dialogtxt       "What you say is [NAME 5], but"
-dialogtxt       "You're worried about [NAME 8]."
+dialogtxt       "That's a grim thing to say, but"
+dialogtxt       "I hope you care about me."
 dialogtxt       "I would like to think so!"
 goto            @Label_24b8
 
 @Cond_2466:
-dialogtxt       "What you say is [NAME 5], but"
-dialogtxt       "I think you're worried about me."
+dialogtxt       "That's a grim thing to say, but"
+dialogtxt       "I hope you care about me."
 dialogtxt       "I would like to think so!"
 goto            @Label_24b8
 
@@ -1031,14 +1031,14 @@ code0479        0, 4, 14
 call            @Func_3e56
 jumpz           @Cond_289a, ($b002 == 0)
 dialogtxt       "Sure, but now that I think about it,"
-dialogtxt       "even if [NAME 8] goes"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "even if I go to examine the"
+dialogtxt       "magic crystal pillar..."
 goto            @Label_2900
 
 @Cond_289a:
 dialogtxt       "Sure, but now that I think about it,"
 dialogtxt       "even if I go, it might get in the way"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "of examining the Crystal Pillar..."
 goto            @Label_2900
 
 @Label_2900:
@@ -1062,9 +1062,9 @@ goto            @Cond_2976
 @Cond_2976:
 jumpz           @Cond_2be4, ($b003 == 1)
 call            @Func_3ea4
-dialogtxt       "Murno went to the Flame Ruins of Gumag"
-dialogtxt       "to see the strange magic crystal pillar."
-dialogtxt       "We must hurry too!"
+dialogtxt       "Murno went to the Flame Ruins of"
+dialogtxt       "Gumag to see the strange magic crystal"
+dialogtxt       "pillar. We must hurry too!"
 code047b        
 code0309        
 call            @Func_3ef8
@@ -1072,14 +1072,14 @@ code0479        0, 4, 14
 call            @Func_3e56
 jumpz           @Cond_2a74, ($b002 == 0)
 dialogtxt       "Sure, but now that I think about it,"
-dialogtxt       "even if [NAME 8] goes"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "even if I go to examine the"
+dialogtxt       "magic crystal pillar..."
 goto            @Label_2ada
 
 @Cond_2a74:
 dialogtxt       "Sure, but now that I think about it,"
 dialogtxt       "even if I go, it might get in the way"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "of examining the Crystal Pillar..."
 goto            @Label_2ada
 
 @Label_2ada:
@@ -1087,9 +1087,9 @@ code0309
 call            @Func_3e8c
 code0479        1, 2, 16
 call            @Func_3ec2
-dialogtxt       "Why are you saying that all of a sudden?"
-dialogtxt       "What is this? Murno was taken"
-dialogtxt       "by [NAME 6]?"
+dialogtxt       "Why are you saying that all of a"
+dialogtxt       "sudden? What is this? Murno was taken"
+dialogtxt       "Are you sulking because she was taken?"
 code0309        
 call            @Func_3ef8
 code0479        0, 2, 16
@@ -1116,22 +1116,22 @@ jumpz           @Cond_2db6, ($b003 == 2)
 call            @Func_3ea4
 dialogtxt       "Murno went to the Flame Ruins of Gumag"
 dialogtxt       "went to see the magic crystal pillar."
-dialogtxt       "Should [NAME 4] not hurry too?"
+dialogtxt       "Shouldn't you hurry, too?"
 code047b        
 code0309        
 call            @Func_3ef8
 code0479        0, 4, 14
 call            @Func_3e56
 jumpz           @Cond_2ce2, ($b002 == 0)
-dialogtxt       "But now that I think about it,"
-dialogtxt       "even if [NAME 8] goes"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "But now that I think about it, even if"
+dialogtxt       "I go to examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_2d42
 
 @Cond_2ce2:
-dialogtxt       "But now that I think about it,"
-dialogtxt       "even if I go, it might get in the way"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "But now that I think about it, even"
+dialogtxt       "if I go, it might get in the way of"
+dialogtxt       "examining the magic crystal pillar..."
 goto            @Label_2d42
 
 @Label_2d42:
@@ -1144,7 +1144,7 @@ code0309
 call            @Func_3ef8
 code0479        0, 1, 13
 call            @Func_3e56
-dialogtxt       "[NAME 5][NAME 5]."
+dialogtxt       "Just kidding!"
 dialogtxt       "Let us hurry!"
 code0309        
 call            @Func_3f92
@@ -1165,14 +1165,14 @@ code0479        0, 4, 14
 call            @Func_3e56
 jumpz           @Cond_2eba, ($b002 == 0)
 dialogtxt       "Sure, but now that I think about it,"
-dialogtxt       "even if [NAME 8] goes"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "even if I go to examine the"
+dialogtxt       "magic crystal pillar..."
 goto            @Label_2f20
 
 @Cond_2eba:
 dialogtxt       "Sure, but now that I think about it,"
 dialogtxt       "even if I go, it might get in the way"
-dialogtxt       "of examining the magic crystal pillar..."
+dialogtxt       "of examining the Crystal Pillar..."
 goto            @Label_2f20
 
 @Label_2f20:
@@ -1262,15 +1262,15 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3294, ($b002 == 0)
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_32da
 
 @Cond_3294:
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_32da
 
 @Label_32da:
@@ -1309,15 +1309,15 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3476, ($b002 == 0)
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_34bc
 
 @Cond_3476:
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_34bc
 
 @Label_34bc:
@@ -1350,21 +1350,21 @@ code0479        1, 2, 13
 call            @Func_3ec2
 dialogtxt       "Heh... Have you lost your nerve?"
 dialogtxt       "Protecting Murno from those people"
-dialogtxt       "[NAME 4]'s role is to protect her."
+dialogtxt       "It's your job to protect her."
 code0309        
 call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3666, ($b002 == 0)
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_36ac
 
 @Cond_3666:
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_36ac
 
 @Label_36ac:
@@ -1403,15 +1403,15 @@ call            @Func_3ef8
 code0479        0, 2, 14
 call            @Func_3e56
 jumpz           @Cond_3858, ($b002 == 0)
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_389e
 
 @Cond_3858:
-dialogtxt       "That is right..."
-dialogtxt       "For now, let's go behind the ruins"
-dialogtxt       "and examine the magic crystal pillar..."
+dialogtxt       "That is right... For now, let's go"
+dialogtxt       "behind the ruins and examine the magic"
+dialogtxt       "crystal pillar..."
 goto            @Label_389e
 
 @Label_389e:

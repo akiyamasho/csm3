@@ -625,7 +625,7 @@ call            @Func_2172
 code0479        0, 5, 14
 call            @Func_20d0
 dialogtxt       "Oh, come on."
-dialogtxt       "You do that all the time..."
+dialogtxt       "Even [NAME 1] goes by intuition..."
 code0309        
 call            @Func_2106
 code0479        1, 2, 14

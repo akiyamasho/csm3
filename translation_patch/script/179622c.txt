@@ -374,12 +374,12 @@ dialogtxt       "Mother keeps going on about"
 dialogtxt       "that blacksmith, Master Rob..."
 dialogtxt       "Even though he's gone..."
 code0309        
-dialogtxt       "Personally, I think Lord Jade would be a"
-dialogtxt       "great choice~ Oh, and Lord"
-dialogtxt       "Oh, and Lord [NAME 8]mi is hard to pass up too~"
+dialogtxt       "I think Lord Jade's a"
+dialogtxt       "great choice~"
+dialogtxt       "And Lady Lemmy, too~"
 code0309        
 jumpz           @Cond_133c, ($f1251 == 0)
-dialogtxt       "By the way, you look like a blacksmith."
+dialogtxt       "Say, you look like a blacksmith."
 dialogtxt       "Would you like to hear about upgrades?"
 code0309        
 code047e        0, 0
@@ -484,7 +484,7 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　~In trouble~"
 code0309        
-dialogtxt       "I'm in trouble because I can't find spices."
+dialogtxt       "I'm in trouble; I can't find spices."
 dialogtxt       "Does anyone sell them somewhere?"
 code0309        
 code0302        7

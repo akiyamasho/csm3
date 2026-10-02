@@ -323,7 +323,7 @@ code0334
 code0331        23, 256
 code0479        0, 2, 12
 jumpz           @Cond_0dda, ($b002 == 0)
-dialogtxt       "Leave Murno to [NAME 8]"
+dialogtxt       "Leave Murno to us"
 dialogtxt       "and the others!"
 goto            @Label_0e0a
 
@@ -407,7 +407,7 @@ code0334
 code0331        23, 256
 code0479        0, 2, 12
 dialogtxt       "δ will manage with Murno."
-dialogtxt       "[NAME 4] should"
+dialogtxt       "You should"
 dialogtxt       "return to the workshop."
 goto            @Cond_10d8
 
@@ -500,7 +500,7 @@ call            @Func_1ffa
 call            @Func_1ef6
 jumpz           @Cond_14a8, ($b002 == 0)
 dialogtxt       "All right! Let's go, too,"
-dialogtxt       "[NAME 8] and everyone!"
+dialogtxt       "Let's go, too!"
 goto            @Label_14d0
 
 @Cond_14a8:
@@ -571,9 +571,9 @@ goto            @Cond_1766
 
 @Cond_1766:
 jumpz           @Cond_17d2, ($b003 == 3)
-dialogtxt       "Master said earlier that it was a trap,"
-dialogtxt       "so I don't think"
-dialogtxt       "they're nearby anymore."
+dialogtxt       "Master said earlier that it was a"
+dialogtxt       "trap, so I don't think they're nearby"
+dialogtxt       "anymore."
 goto            @Cond_17d2
 
 @Cond_17d2:

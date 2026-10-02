@@ -121,7 +121,7 @@ call            @Func_0efe
 code0479        0, 4, 12
 call            @Func_0e5c
 dialogtxt       "A secret, huh..."
-dialogtxt       "Well, just like always."
+dialogtxt       "Well, like always."
 code0309        
 call            @Func_0e92
 code0479        1, 5, 17
@@ -154,7 +154,7 @@ code0479        1, 4, 13
 call            @Func_0ec8
 dialogtxt       "No..."
 dialogtxt       "This isn't your fault, δ."
-dialogtxt       "I'm the one to blame for everything..."
+dialogtxt       "I'm to blame for it all..."
 code0309        
 call            @Func_0efe
 code0479        1, 4, 12

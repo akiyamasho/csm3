@@ -38,7 +38,7 @@ call            @Func_1ff6
 code0479        0, 5, 17
 call            @Func_1f54
 jumpz           @Cond_0172, ($b002 == 0)
-dialogtxt       "Huh, [NAME 8]?"
+dialogtxt       "Huh, me?"
 goto            @Label_0188
 
 @Cond_0172:
@@ -50,9 +50,9 @@ code0309
 call            @Func_1f8a
 code0479        1, 0, 16
 call            @Func_1fc0
-dialogtxt       "Everyone's been busy lately,"
-dialogtxt       "and among the work piling up,"
-dialogtxt       "there's something you might be able to."
+dialogtxt       "Everyone's been busy lately, and among"
+dialogtxt       "the work piling up, there's something"
+dialogtxt       "you might be able to."
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 13
@@ -84,8 +84,8 @@ goto            @Label_07d2
 @Cond_02fe:
 jumpz           @Cond_03ee, ($bv017 == 1)
 call            @Func_1fa2
-dialogtxt       "Hey, δ."
-dialogtxt       "Would you be willing to take an order for?"
+dialogtxt       "Hey, δ. Would you be willing to take"
+dialogtxt       "an order for?"
 code047b        
 code0309        
 call            @Func_2090
@@ -113,7 +113,7 @@ goto            @Label_07d2
 @Cond_03ee:
 jumpz           @Cond_043a, ($bv017 == 3)
 call            @Func_1fa2
-dialogtxt       "Oh, did you finish the weapon I ordered?"
+dialogtxt       "Oh, is the weapon I ordered done?"
 code047b        
 code0309        
 call            @Func_2090
@@ -155,7 +155,7 @@ dialogtxt       "I can't complain about this."
 code0309        
 code0479        1, 1, 12
 dialogtxt       "Good work."
-dialogtxt       "Here, I'll give you [NAME 8]."
+dialogtxt       "Here, I'll give you this."
 dialogtxt       "It's not bad. Keep it."
 code0309        
 call            @Func_2090
@@ -183,8 +183,8 @@ call            @Func_1f8a
 code0479        0, 0, 12
 code0479        1, 0, 13
 call            @Func_1fc0
-dialogtxt       "See you."
-dialogtxt       "If anything comes up, I'll count on you."
+dialogtxt       "See you. If anything comes up, I'll"
+dialogtxt       "count on you."
 code0309        
 goto            @Label_073e
 
@@ -223,8 +223,8 @@ code047d        1, 131
 call            @Func_203a
 jumpz           @Cond_0b6c, ($bv017 == 0)
 call            @Func_1fa2
-dialogtxt       "You..."
-dialogtxt       "Would you be willing to take an order for?"
+dialogtxt       "You... Would you be willing to take an"
+dialogtxt       "order for?"
 code047b        
 code0309        
 call            @Func_1ff6
@@ -232,7 +232,7 @@ code0479        0, 5, 16
 call            @Func_1f54
 jumpz           @Cond_08e0, ($b002 == 0)
 dialogtxt       "Huh?"
-dialogtxt       "Why are you asking [NAME 8]?"
+dialogtxt       "Why are you asking me?"
 goto            @Label_090c
 
 @Cond_08e0:
@@ -246,12 +246,12 @@ call            @Func_1f8a
 code0479        1, 0, 16
 call            @Func_1fc0
 dialogtxt       "Someone I know asked me for one,"
-dialogtxt       "and I [NAME 8]."
+dialogtxt       "and was going to ask Remy."
 dialogtxt       "But..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 4, 12
-dialogtxt       "[NAME 8] looks busy,"
+dialogtxt       "Remy looks busy,"
 dialogtxt       "so, for now,"
 dialogtxt       "I figured you would do."
 code0309        
@@ -300,8 +300,8 @@ goto            @Label_103a
 @Cond_0b6c:
 jumpz           @Cond_0c54, ($bv017 == 1)
 call            @Func_1fa2
-dialogtxt       "You..."
-dialogtxt       "Would you be willing to take an order for?"
+dialogtxt       "You... Would you be willing to take an"
+dialogtxt       "order for?"
 code047b        
 code0309        
 call            @Func_2090
@@ -386,7 +386,7 @@ code0479        1, 4, 12
 call            @Func_203a
 call            @Func_1fa2
 dialogtxt       "Come to think of it..."
-dialogtxt       "Don't tell [NAME 8] about this"
+dialogtxt       "Don't tell Remy about this"
 dialogtxt       "this time!"
 code0309        
 call            @Func_1ff6
@@ -415,7 +415,7 @@ code0479        1, 0, 15
 call            @Func_1fa2
 dialogtxt       "Don't forget:"
 dialogtxt       "that I ordered a weapon."
-dialogtxt       "Don't tell [NAME 8]!"
+dialogtxt       "Don't tell Remy!"
 code047b        
 code0309        
 call            @Func_2090
@@ -533,8 +533,8 @@ goto            @Label_14c6
 @Cond_1396:
 jumpz           @Cond_13d4, ($bv029 == 2)
 call            @Func_1fa2
-dialogtxt       "Hey..."
-dialogtxt       "Are you reading the order form properly?"
+dialogtxt       "Hey... Are you reading the order form"
+dialogtxt       "properly?"
 code0309        
 goto            @Label_14c6
 
@@ -647,7 +647,7 @@ code0479        1, 0, 16
 call            @Func_203a
 call            @Func_1f54
 jumpz           @Cond_1702, ($b002 == 0)
-dialogtxt       "Umm... For [NAME 8],"
+dialogtxt       "Umm... For me,"
 goto            @Label_1720
 
 @Cond_1702:

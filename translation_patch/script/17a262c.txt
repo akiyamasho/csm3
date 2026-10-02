@@ -404,7 +404,7 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "I feel like the strays around here"
-dialogtxt       "have gotten a little more aggressive again"
+dialogtxt       "are a bit more aggressive again"
 dialogtxt       "somehow..."
 code0309        
 code047e        0, 0
@@ -419,9 +419,9 @@ dialogtxt       "Right now, a battle that will decide"
 dialogtxt       "the fate of the world is being fought"
 dialogtxt       "or so I hear."
 code0309        
-dialogtxt       "What am I doing at a time like this? You"
-dialogtxt       "should stop loitering around here, too,"
-dialogtxt       "and do something."
+dialogtxt       "What am I doing at a time like this?"
+dialogtxt       "You should stop loitering around here,"
+dialogtxt       "too, and do something."
 code0309        
 code047e        0, 0
 code0302        7
@@ -431,7 +431,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Hey, what in the world is going on? Even"
+dialogtxt       "Hey, what's going on? Even"
 dialogtxt       "the faction-controlled Summon Beasts"
 dialogtxt       "have gotten too violent to handle!"
 code0309        

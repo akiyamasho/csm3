@@ -11,7 +11,7 @@ code0302        7
 code0479        0, 0, 16
 call            @Func_0850
 call            @Func_0796
-dialogtxt       "I'm looking for a girl named Tier from the"
+dialogtxt       "I'm seeking a girl named Tier from the"
 dialogtxt       "inn, but I can't seem to find her..."
 code047b        
 code0309        

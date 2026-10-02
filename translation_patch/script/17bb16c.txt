@@ -27,12 +27,12 @@ call            @Func_455c
 jumpz           @Cond_05a8, ($b003 == 0)
 call            @Func_4458
 jumpz           @Cond_0136, ($b002 == 0)
-dialogtxt       "Training really is fun."
+dialogtxt       "Training's fun."
 dialogtxt       "γ"
 goto            @Label_0158
 
 @Cond_0136:
-dialogtxt       "Training really is fun, huh?"
+dialogtxt       "Fun, huh?"
 dialogtxt       "γ"
 goto            @Label_0158
 
@@ -43,8 +43,8 @@ call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
 dialogtxt       "Is It Fun?"
-dialogtxt       "I Do Not Possess The Emotion"
-dialogtxt       "Called Happiness."
+dialogtxt       "I Lack The Emotion"
+dialogtxt       "Happiness."
 code0309        
 call            @Func_4518
 code0479        0, 4, 16
@@ -52,13 +52,13 @@ call            @Func_4476
 jumpz           @Cond_0236, ($b002 == 0)
 dialogtxt       "I see... So you're not having fun..."
 dialogtxt       "Then it must be boring, huh?"
-dialogtxt       "Somehow, that's kind of sad..."
+dialogtxt       "Somehow, that's sad..."
 goto            @Label_0288
 
 @Cond_0236:
 dialogtxt       "I see... So you're not having fun..."
 dialogtxt       "Then it must be boring, huh?"
-dialogtxt       "Somehow, that's kind of sad..."
+dialogtxt       "Somehow, that's sad..."
 goto            @Label_0288
 
 @Label_0288:
@@ -67,22 +67,22 @@ call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
 dialogtxt       "No."
-dialogtxt       "I Do Not Possess Emotions,"
-dialogtxt       "So It Is Not Boring, Either."
+dialogtxt       "I Lack Emotions,"
+dialogtxt       "So Not Boring."
 code0309        
 call            @Func_4518
 code0479        0, 0, 14
 call            @Func_4476
 jumpz           @Cond_038a, ($b002 == 0)
-dialogtxt       "Neither Fun Nor Boring... I Heard About"
+dialogtxt       "Neither Fun Nor Boring... I Heard"
 dialogtxt       "That From My Master Long Ago. It's"
-dialogtxt       "Called The Height Of Mindlessness."
+dialogtxt       "Called Mindlessness."
 goto            @Label_03f8
 
 @Cond_038a:
-dialogtxt       "Neither Fun Nor Boring... I Heard About"
-dialogtxt       "That From My Master Long Ago. It's"
-dialogtxt       "Called"
+dialogtxt       "Neither Fun Nor Boring... I Heard"
+dialogtxt       "About That From My Master Long Ago."
+dialogtxt       "It's Called"
 goto            @Label_03f8
 
 @Label_03f8:
@@ -99,7 +99,7 @@ code0479        0, 2, 12
 call            @Func_4476
 jumpz           @Cond_04be, ($b002 == 0)
 dialogtxt       "Amazing, γ."
-dialogtxt       "That's really cool."
+dialogtxt       "That's cool."
 goto            @Label_04e2
 
 @Cond_04be:
@@ -131,12 +131,12 @@ goto            @Cond_05a8
 jumpz           @Cond_0ae2, ($b003 == 1)
 call            @Func_4458
 jumpz           @Cond_05ee, ($b002 == 0)
-dialogtxt       "Training really is fun."
+dialogtxt       "Training's fun."
 dialogtxt       "γ"
 goto            @Label_0610
 
 @Cond_05ee:
-dialogtxt       "Training really is fun, huh?"
+dialogtxt       "Fun, huh?"
 dialogtxt       "γ"
 goto            @Label_0610
 
@@ -150,8 +150,8 @@ dialogtxt       "Indeed."
 dialogtxt       "You hone the weapons you make,"
 dialogtxt       "And hone your own skills as well..."
 code0309        
-dialogtxt       "There can be nothing more enjoyable"
-dialogtxt       "For a blacksmith, I suppose."
+dialogtxt       "Nothing's more enjoyable"
+dialogtxt       "For a smith."
 code0309        
 call            @Func_4518
 code0479        0, 1, 12
@@ -199,7 +199,7 @@ call            @Func_44ac
 code0479        1, 2, 12
 call            @Func_44e2
 dialogtxt       "In fact, I know"
-dialogtxt       "Something even more enjoyable"
+dialogtxt       "Something more enjoyable"
 dialogtxt       "Than that."
 code0309        
 call            @Func_4518
@@ -241,7 +241,7 @@ code0479        0, 2, 12
 call            @Func_4476
 jumpz           @Cond_0aaa, ($b002 == 0)
 dialogtxt       "All right!"
-dialogtxt       "I'll do my best, [NAME 8]!"
+dialogtxt       "I'll do my best!"
 goto            @Label_0ad2
 
 @Cond_0aaa:
@@ -260,12 +260,12 @@ goto            @Cond_0ae2
 jumpz           @Cond_0f2a, ($b003 == 2)
 call            @Func_4458
 jumpz           @Cond_0b28, ($b002 == 0)
-dialogtxt       "Training really is fun."
+dialogtxt       "Training's fun."
 dialogtxt       "γ"
 goto            @Label_0b4a
 
 @Cond_0b28:
-dialogtxt       "Training really is fun, huh?"
+dialogtxt       "Fun, huh?"
 dialogtxt       "γ"
 goto            @Label_0b4a
 
@@ -283,20 +283,20 @@ call            @Func_4518
 code0479        0, 0, 16
 call            @Func_4476
 dialogtxt       "That's not true. You can make better"
-dialogtxt       "weapons than before, And fight stronger"
-dialogtxt       "opponents..."
+dialogtxt       "weapons than before, And fight"
+dialogtxt       "stronger opponents..."
 code0309        
 code0479        0, 2, 12
 jumpz           @Cond_0c72, ($b002 == 0)
-dialogtxt       "And being able to train"
-dialogtxt       "Together with γ"
-dialogtxt       "Is really fun!"
+dialogtxt       "And training with [NAME 1]"
+dialogtxt       "is"
+dialogtxt       "so much fun!"
 goto            @Label_0cbc
 
 @Cond_0c72:
-dialogtxt       "And being able to train"
-dialogtxt       "Together with γ"
-dialogtxt       "Is really fun!"
+dialogtxt       "And training with [NAME 1]"
+dialogtxt       "is"
+dialogtxt       "so much fun!"
 goto            @Label_0cbc
 
 @Label_0cbc:
@@ -306,20 +306,20 @@ code0479        1, 9, 14
 call            @Func_44e2
 dialogtxt       "Grr...!"
 dialogtxt       "How dare you say something like that,"
-dialogtxt       "With such a straight face..."
+dialogtxt       "With that straight face..."
 code0309        
 call            @Func_4518
 code0479        0, 2, 16
 call            @Func_4476
 jumpz           @Cond_0d82, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "Do you really hate training"
+dialogtxt       "Do you hate training"
 dialogtxt       "With me that much?"
 goto            @Label_0dc4
 
 @Cond_0d82:
 dialogtxt       "What?"
-dialogtxt       "Do you really hate training"
+dialogtxt       "Do you hate training"
 dialogtxt       "With me that much?"
 goto            @Label_0dc4
 
@@ -336,13 +336,13 @@ code0479        0, 0, 12
 call            @Func_4476
 jumpz           @Cond_0e74, ($b002 == 0)
 dialogtxt       "Then what's the problem?"
-dialogtxt       "Let's just call it fun..."
+dialogtxt       "Let's call it fun..."
 dialogtxt       "Right?"
 goto            @Label_0eae
 
 @Cond_0e74:
 dialogtxt       "Then what's the problem?"
-dialogtxt       "Let's just call it fun..."
+dialogtxt       "Let's call it fun..."
 dialogtxt       "Right?"
 goto            @Label_0eae
 
@@ -368,12 +368,12 @@ goto            @Cond_0f2a
 jumpz           @Cond_13bc, ($b003 == 3)
 call            @Func_4458
 jumpz           @Cond_0f70, ($b002 == 0)
-dialogtxt       "Training really is fun."
+dialogtxt       "Training's fun."
 dialogtxt       "γ"
 goto            @Label_0f92
 
 @Cond_0f70:
-dialogtxt       "Training really is fun, huh?"
+dialogtxt       "Fun, huh?"
 dialogtxt       "γ"
 goto            @Label_0f92
 
@@ -384,7 +384,7 @@ call            @Func_44ac
 code0479        1, 1, 12
 call            @Func_44e2
 dialogtxt       "Indeed."
-dialogtxt       "Just gathering materials and thinking"
+dialogtxt       "gathering materials and thinking"
 dialogtxt       "About what to do next is enjoyable."
 code0309        
 call            @Func_4518
@@ -393,7 +393,7 @@ call            @Func_4476
 jumpz           @Cond_1074, ($b002 == 0)
 dialogtxt       "That's a nice thing to say..."
 dialogtxt       "As expected of γ,"
-dialogtxt       "[NAME 8]'s partner!"
+dialogtxt       "My partner!"
 goto            @Label_10b6
 
 @Cond_1074:
@@ -420,8 +420,8 @@ call            @Func_44ac
 code0479        1, 6, 12
 call            @Func_44e2
 dialogtxt       "That would be..."
-dialogtxt       "Being together"
-dialogtxt       "With δ."
+dialogtxt       "Being together with [NAME 2],"
+dialogtxt       "is what I want."
 code0309        
 call            @Func_4518
 code0479        0, 11, 16
@@ -441,7 +441,7 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 13
 call            @Func_44e2
-dialogtxt       "Just watching δ"
+dialogtxt       "watching δ"
 dialogtxt       "Is so entertaining."
 dialogtxt       "I never grow tired of it..."
 code0309        
@@ -453,8 +453,8 @@ code0309
 call            @Func_44ac
 code0479        1, 1, 12
 call            @Func_44e2
-dialogtxt       "Yes! Very entertaining."
-dialogtxt       "See? Even just watching you now..."
+dialogtxt       "Yes! entertaining."
+dialogtxt       "See? Even watching you now..."
 dialogtxt       "Hee hee..."
 code0309        
 call            @Func_4518
@@ -547,12 +547,12 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
-dialogtxt       "At Present, I Judge That There Are No"
-dialogtxt       "Individuals Targeting Lady Murno, So"
+dialogtxt       "Currently, There Are No"
+dialogtxt       "Targets On Lady Murno, So"
 dialogtxt       "Her Condition Is Relatively Safe."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "Welman-sama's Combat Ability Should Be"
+dialogtxt       "Welman's Combat Ability Should Be"
 dialogtxt       "Sufficient To Protect"
 dialogtxt       "Lady Murno."
 code0309        
@@ -581,8 +581,8 @@ code0309
 call            @Func_4518
 code0479        0, 2, 14
 call            @Func_4476
-dialogtxt       "A Practice Match Between Welman And"
-dialogtxt       "γ... I Can't Picture It."
+dialogtxt       "Welman and [NAME 1]'s sparring"
+dialogtxt       "match..."
 dialogtxt       "I can't imagine it."
 code0309        
 call            @Func_44ac
@@ -658,7 +658,7 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 16
 call            @Func_44e2
-dialogtxt       "We are apart, it is true,"
+dialogtxt       "We're apart, it is true,"
 dialogtxt       "So I do worry at times,"
 dialogtxt       "But Welman is with her."
 code0309        
@@ -668,15 +668,15 @@ code0309
 call            @Func_4518
 code0479        0, 2, 16
 call            @Func_4476
-dialogtxt       "But the Stray Summon Beasts"
+dialogtxt       "But the Stray Beasts"
 dialogtxt       "Haven't disappeared from that area"
 dialogtxt       "Yet..."
 code0309        
 call            @Func_44ac
 code0479        1, 0, 16
 call            @Func_44e2
-dialogtxt       "That is true, but..."
-dialogtxt       "There cannot be many Summon Beasts"
+dialogtxt       "That's true, but..."
+dialogtxt       "There can't be many Beasts"
 dialogtxt       "That could give Welman trouble."
 code0309        
 call            @Func_4518
@@ -697,18 +697,18 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 14
 call            @Func_44e2
-dialogtxt       "Hmm..."
-dialogtxt       "As the guardian of Govan's Magic Stone,"
-dialogtxt       "He appears to have trained suitably."
+dialogtxt       "Hmm... As the guardian of Govan's"
+dialogtxt       "Magic Stone, He appears to have"
+dialogtxt       "trained suitably."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "I have sparred with him several times,"
-dialogtxt       "And he was quite strong..."
+dialogtxt       "And he was strong..."
 code0309        
 call            @Func_4518
 code0479        0, 2, 14
 call            @Func_4476
-dialogtxt       "Sparring between Welman and γ..."
+dialogtxt       "Sparring between Welman and [NAME 1]..."
 dialogtxt       "I can't"
 dialogtxt       "Picture it."
 code0309        
@@ -724,7 +724,7 @@ code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_1f70, ($b002 == 0)
 dialogtxt       "S-somehow... Does that mean"
-dialogtxt       "Does [NAME 8] still have far to go?"
+dialogtxt       "So I'm still not there yet?"
 goto            @Label_1fa4
 
 @Cond_1f70:
@@ -789,7 +789,7 @@ code0309
 call            @Func_4518
 code0479        0, 2, 16
 call            @Func_4476
-dialogtxt       "But the Stray Summon Beasts"
+dialogtxt       "But the Stray Beasts"
 dialogtxt       "Haven't disappeared from that area"
 dialogtxt       "Yet..."
 code0309        
@@ -819,7 +819,7 @@ code0309
 call            @Func_44ac
 code0479        1, 4, 14
 call            @Func_44e2
-dialogtxt       "Didn't you notice, [NAME 4]?"
+dialogtxt       "Didn't you notice?"
 dialogtxt       "As the guardian of Govan's Ruins,"
 dialogtxt       "He has trained considerably."
 code0309        
@@ -830,7 +830,7 @@ code0309
 call            @Func_4518
 code0479        0, 2, 14
 call            @Func_4476
-dialogtxt       "Sparring between Welman and γ..."
+dialogtxt       "Sparring between Welman and [NAME 1]..."
 dialogtxt       "I can't"
 dialogtxt       "Picture it."
 code0309        
@@ -845,8 +845,8 @@ call            @Func_4518
 code0479        0, 5, 16
 call            @Func_4476
 jumpz           @Cond_2518, ($b002 == 0)
-dialogtxt       "Somehow, [NAME 8] ... Am I"
-dialogtxt       "being worried about more than Murno?"
+dialogtxt       "Somehow, I..."
+dialogtxt       "Do they worry more for me than Murno?"
 goto            @Label_254e
 
 @Cond_2518:
@@ -902,26 +902,26 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
-dialogtxt       "It is worrying to be apart,"
+dialogtxt       "It's worrying to be apart,"
 dialogtxt       "Certainly, but"
-dialogtxt       "Welman-sama is with her..."
+dialogtxt       "Welman is with her..."
 code0309        
 code0479        1, 0, 13
-dialogtxt       "I am sure she will be fine."
+dialogtxt       "I'm sure she will be fine."
 code0309        
 call            @Func_4518
 code0479        0, 2, 16
 call            @Func_4476
-dialogtxt       "But the Stray Summon Beasts"
+dialogtxt       "But the Stray Beasts"
 dialogtxt       "Haven't disappeared from that area"
 dialogtxt       "Yet..."
 code0309        
 call            @Func_44ac
 code0479        1, 0, 16
 call            @Func_44e2
-dialogtxt       "That is true, but"
-dialogtxt       "With Welman-sama there,"
-dialogtxt       "Only an extraordinary opponent could..."
+dialogtxt       "That's true, but With Welman"
+dialogtxt       "there, Only an extraordinary opponent"
+dialogtxt       "could..."
 code0309        
 call            @Func_4518
 code0479        0, 5, 16
@@ -943,27 +943,27 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
-dialogtxt       "Yes."
-dialogtxt       "As the guardian of Govan's Magic Stone,"
-dialogtxt       "He seems to have trained quite a lot."
+dialogtxt       "Yes. As the guardian of Govan's Magic"
+dialogtxt       "Stone, He seems to have trained quite"
+dialogtxt       "a lot."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "I have sparred with him several times,"
-dialogtxt       "And he was quite strong."
+dialogtxt       "And he was strong."
 code0309        
 call            @Func_4518
 code0479        0, 2, 14
 call            @Func_4476
-dialogtxt       "Sparring between Welman and γ..."
+dialogtxt       "Sparring between Welman and [NAME 1]..."
 dialogtxt       "I can't"
 dialogtxt       "Picture it."
 code0309        
 call            @Func_44ac
 code0479        1, 4, 12
 call            @Func_44e2
-dialogtxt       "So if anything, It is δ who is always"
-dialogtxt       "doing reckless things Who worries me"
-dialogtxt       "more..."
+dialogtxt       "If anything, I'm more worried"
+dialogtxt       "when you keep acting recklessly"
+dialogtxt       "about [NAME 2]..."
 code0309        
 call            @Func_4518
 code0479        0, 5, 16
@@ -1047,7 +1047,7 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 12
 call            @Func_44e2
-dialogtxt       "[NAME 5][NAME 8] Is Classified Information."
+dialogtxt       "That Is Classified Information."
 code0309        
 call            @Func_4518
 code0479        0, 0, 14
@@ -1065,13 +1065,13 @@ code0479        0, 2, 16
 call            @Func_4476
 jumpz           @Cond_2e8c, ($b002 == 0)
 dialogtxt       "Hoho~, so it was a secret..."
-dialogtxt       "It must have been very important."
+dialogtxt       "It must have been important."
 dialogtxt       "That's why you protected it..."
 goto            @Label_2ee0
 
 @Cond_2e8c:
 dialogtxt       "Hoho~, so it was a secret..."
-dialogtxt       "It must have been very important."
+dialogtxt       "It must have been important."
 dialogtxt       "That's why you protected it..."
 goto            @Label_2ee0
 
@@ -1119,7 +1119,7 @@ call            @Func_4518
 code0479        0, 2, 14
 call            @Func_4476
 dialogtxt       "On standby...?"
-dialogtxt       "You just stayed put?"
+dialogtxt       "You stayed put?"
 code0309        
 call            @Func_44ac
 code0479        1, 0, 12
@@ -1141,7 +1141,7 @@ code0479        0, 2, 14
 call            @Func_4476
 jumpz           @Cond_31b4, ($b002 == 0)
 dialogtxt       "Amazing, as expected of γ..."
-dialogtxt       "I don't think [NAME 8] could"
+dialogtxt       "I don't think I could"
 dialogtxt       "Stand it..."
 goto            @Label_31fe
 
@@ -1185,9 +1185,9 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 16
 call            @Func_44e2
-dialogtxt       "Well..."
-dialogtxt       "Rather than living for a hundred years,"
-dialogtxt       "I could not die for a hundred years."
+dialogtxt       "Well... Rather than living for a"
+dialogtxt       "hundred years, I couldn't die for a"
+dialogtxt       "hundred years."
 code0309        
 call            @Func_4518
 code0479        0, 0, 14
@@ -1200,12 +1200,12 @@ code0479        1, 0, 12
 call            @Func_44e2
 dialogtxt       "No... I was searching for someone."
 dialogtxt       "Until I met them, even if I died,"
-dialogtxt       "I could not truly pass on..."
+dialogtxt       "I couldn't truly pass on..."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "While I was thinking that,"
-dialogtxt       "A hundred years passed before I knew it."
-dialogtxt       "Time truly flies like an arrow."
+dialogtxt       "While I was thinking that, A hundred"
+dialogtxt       "years passed before I knew it. Time"
+dialogtxt       "truly flies like an arrow."
 code0309        
 call            @Func_4518
 code0479        0, 5, 16
@@ -1219,7 +1219,7 @@ code0479        1, 0, 16
 call            @Func_44e2
 dialogtxt       "Who can say?"
 dialogtxt       "I doubt they are still alive,"
-dialogtxt       "Since they were a very unusual person."
+dialogtxt       "Since they were a unusual person."
 code0309        
 code0479        0, 0, 16
 code0479        1, 0, 12
@@ -1230,13 +1230,13 @@ code0479        0, 0, 12
 call            @Func_4476
 jumpz           @Cond_364e, ($b002 == 0)
 dialogtxt       "Huh..."
-dialogtxt       "Were they really that unusual?"
+dialogtxt       "Were they that unusual?"
 dialogtxt       "They sound interesting."
 goto            @Label_3688
 
 @Cond_364e:
 dialogtxt       "Huh..."
-dialogtxt       "Were they really that unusual?"
+dialogtxt       "Were they that unusual?"
 dialogtxt       "They sound interesting."
 goto            @Label_3688
 
@@ -1245,13 +1245,13 @@ code0309
 call            @Func_44ac
 code0479        1, 0, 13
 call            @Func_44e2
-dialogtxt       "Yes, they were very interesting."
-dialogtxt       "I would like to tell you about them,"
+dialogtxt       "Yes, they were interesting."
+dialogtxt       "I'd like to tell you about them,"
 dialogtxt       "But it would take a while..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "If we get the chance someday,"
-dialogtxt       "I will tell you all about them."
+dialogtxt       "I'll tell you all about them."
 code0309        
 call            @Func_4518
 code0479        0, 1, 13
@@ -1302,8 +1302,8 @@ code0309
 call            @Func_44ac
 code0479        1, 3, 15
 call            @Func_44e2
-dialogtxt       "What did you say, [NAME 4]!"
-dialogtxt       "Watch your mouth, or I will erase you!"
+dialogtxt       "What did you say!"
+dialogtxt       "Watch your mouth, or I'll erase you!"
 code0309        
 call            @Func_4518
 code0479        0, 0, 16
@@ -1357,14 +1357,14 @@ code0309
 call            @Func_44ac
 code0479        1, 3, 12
 call            @Func_44e2
-dialogtxt       "Making friends is fun, you say...? What"
-dialogtxt       "an amusing thing to say. Then shall I tell"
-dialogtxt       "you, [NAME 4] ...?"
+dialogtxt       "Making friends is fun, you say...?"
+dialogtxt       "What an amusing thing to say. Then"
+dialogtxt       "shall I tell you...?"
 code0309        
 code0479        1, 2, 14
 dialogtxt       "About when I was in Sapureth,"
 dialogtxt       "And those so-called friends"
-dialogtxt       "Took everything from me..."
+dialogtxt       "Took it all from me..."
 code0309        
 call            @Func_4518
 code0479        0, 4, 16
@@ -1372,7 +1372,7 @@ call            @Func_4476
 jumpz           @Cond_3d20, ($b002 == 0)
 dialogtxt       "Oh... γ..."
 dialogtxt       "Sorry..."
-dialogtxt       "I kind of... [NAME 8]..."
+dialogtxt       "I kind of... I..."
 goto            @Label_3d50
 
 @Cond_3d20:
@@ -1399,7 +1399,7 @@ code0309
 call            @Func_44ac
 code0479        1, 3, 12
 call            @Func_44e2
-dialogtxt       "[NAME 4] , you were Starting"
+dialogtxt       "You were starting"
 dialogtxt       "to believe that story, weren't you?"
 code0309        
 call            @Func_4518
@@ -1424,19 +1424,19 @@ code0479        1, 3, 13
 call            @Func_44e2
 dialogtxt       "Heh heh..."
 dialogtxt       "When I feel like it someday,"
-dialogtxt       "I will tell you the truth."
+dialogtxt       "I'll tell you the truth."
 code0309        
 call            @Func_4518
 code0479        0, 2, 12
 call            @Func_4476
 jumpz           @Cond_3f6a, ($b002 == 0)
-dialogtxt       "Darn..."
-dialogtxt       "I definitely won't be fooled next time!"
+dialogtxt       "Darn... I definitely won't be fooled"
+dialogtxt       "next time!"
 goto            @Label_3f9c
 
 @Cond_3f6a:
-dialogtxt       "Honestly..."
-dialogtxt       "I definitely won't be fooled next time!"
+dialogtxt       "Honestly... I definitely won't be"
+dialogtxt       "fooled next time!"
 goto            @Label_3f9c
 
 @Label_3f9c:
@@ -1450,15 +1450,15 @@ goto            @Cond_3fac
 jumpz           @Cond_4420, ($b003 == 3)
 call            @Func_4458
 jumpz           @Cond_4024, ($b002 == 0)
-dialogtxt       "Come to think of it, γ, You said before"
-dialogtxt       "that you had an older brother. What was"
-dialogtxt       "he like?"
+dialogtxt       "Come to think of it, γ, You said"
+dialogtxt       "before that you had an older brother."
+dialogtxt       "What was he like?"
 goto            @Label_4076
 
 @Cond_4024:
-dialogtxt       "Come to think of it, γ, You said before"
-dialogtxt       "that you had an older brother. What was"
-dialogtxt       "he like?"
+dialogtxt       "Come to think of it, γ, You said"
+dialogtxt       "before that you had an older brother."
+dialogtxt       "What was he like?"
 goto            @Label_4076
 
 @Label_4076:
@@ -1500,8 +1500,8 @@ dialogtxt       "stubborn about odd things."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "He would say, 'I won't bend my"
-dialogtxt       "convictions,' And absolutely refuse to do"
-dialogtxt       "anything"
+dialogtxt       "convictions,' And absolutely refuse to"
+dialogtxt       "do anything"
 code0309        
 call            @Func_4518
 code0479        0, 5, 14

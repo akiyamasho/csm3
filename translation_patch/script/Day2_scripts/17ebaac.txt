@@ -164,7 +164,7 @@ code0479        1, 1, 13
 code047d        1, 132
 call            @Func_0f54
 call            @Func_0ebc
-dialogtxt       "And all is well."
+dialogtxt       "Glad to hear it, [NAME 2]."
 code047b        
 code0309        
 call            @Func_0f10

@@ -106,8 +106,8 @@ code0479        1, 2, 14
 code047d        1, 130
 call            @Func_1eb4
 call            @Func_1e50
-dialogtxt       "In short, returning this magic stone to"
-dialogtxt       "your village will calm the Stray Summon"
+dialogtxt       "In short, returning this stone to"
+dialogtxt       "your village will calm the Stray"
 dialogtxt       "Beasts... Is that what you're saying?"
 code047b        
 code0309        
@@ -327,9 +327,9 @@ code0309
 call            @Func_1e1a
 code0479        1, 0, 14
 call            @Func_1e50
-dialogtxt       "I'm sorry, but"
-dialogtxt       "please gather a little more information"
-dialogtxt       "about them."
+dialogtxt       "I'm sorry, but please gather a"
+dialogtxt       "little more information about"
+dialogtxt       "them."
 code0309        
 call            @Func_1f20
 call            @Func_1e6e
@@ -339,9 +339,9 @@ code0479        1, 2, 14
 code047d        1, 111
 call            @Func_1eb4
 call            @Func_1e32
-dialogtxt       "I'm sorry, but [NAME 8] cannot"
-dialogtxt       "help with anything"
-dialogtxt       "that would betray a contractual partner."
+dialogtxt       "Sorry, I cannot help"
+dialogtxt       "with anything that betrays a"
+dialogtxt       "contract partner."
 code047b        
 code0309        
 code0479        1, 2, 12
@@ -390,9 +390,9 @@ code0309
 call            @Func_1e86
 code0479        0, 2, 13
 call            @Func_1de4
-dialogtxt       "That's right. Let's see what"
-dialogtxt       "[NAME 8] and the others"
-dialogtxt       "can find out on our own first."
+dialogtxt       "That is right."
+dialogtxt       "Let us investigate on our own"
+dialogtxt       "and see what we can find."
 code0309        
 call            @Func_1f0a
 call            @Func_1e1a
@@ -454,9 +454,9 @@ code047d        1, 130
 call            @Func_1eca
 code043c        7, 2
 call            @Func_1e32
-dialogtxt       "Wait!"
-dialogtxt       "Why did you give it back?!"
-dialogtxt       "We should investigate it a little more..."
+dialogtxt       "Wait! Why did you give it back?!"
+dialogtxt       "We should investigate it a little"
+dialogtxt       "more..."
 code047b        
 code0309        
 call            @Func_1e86

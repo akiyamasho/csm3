@@ -9,8 +9,8 @@ code047d        1, 108
 call            @Func_0888
 call            @Func_0784
 jumpz           @Cond_00b2, ($b002 == 0)
-dialogtxt       "This weapon holds everything"
-dialogtxt       "[NAME 8] and γ have..."
+dialogtxt       "This weapon holds"
+dialogtxt       "everything [NAME 1] and I have..."
 goto            @Label_00de
 
 @Cond_00b2:

@@ -62,7 +62,7 @@ call            @Func_2940
 code0479        0, 2, 15
 call            @Func_289e
 jumpz           @Cond_02ca, ($b002 == 0)
-dialogtxt       "[NAME 4]...!"
+dialogtxt       "You...!"
 dialogtxt       "Give Murno back!"
 goto            @Label_02f2
 

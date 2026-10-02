@@ -73,7 +73,7 @@ code0309
 call            @Func_13f8
 code0479        1, 5, 12
 call            @Func_142e
-dialogtxt       "[NAME 5]...!"
+dialogtxt       "That is...!"
 dialogtxt       "But Lady Murno,"
 code0309        
 call            @Func_1464
@@ -86,7 +86,7 @@ code0309
 call            @Func_13f8
 code0479        1, 0, 12
 call            @Func_142e
-dialogtxt       "[NAME 5], [NAME 5]..."
+dialogtxt       "Th-that..."
 code0309        
 call            @Func_1464
 code0479        0, 2, 14
@@ -96,7 +96,7 @@ code0309
 call            @Func_13f8
 code0479        1, 4, 12
 call            @Func_142e
-dialogtxt       "[NAME 5], Is That So..."
+dialogtxt       "Is that so..."
 goto            @Cond_03e2
 
 @Cond_03e2:

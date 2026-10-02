@@ -532,7 +532,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "Apparently, these days, dates where"
-dialogtxt       "both people collide with all their might"
+dialogtxt       "both sides clash with all their might"
 dialogtxt       "are all the rage."
 code0309        
 code047e        0, 0

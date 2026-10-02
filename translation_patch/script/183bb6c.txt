@@ -303,7 +303,7 @@ code0479        1, 2, 15
 call            @Func_163e
 dialogtxt       "Apologize properly"
 dialogtxt       "to everyone!"
-dialogtxt       "Myuno and the others too!"
+dialogtxt       "Murno and the others too!"
 code0309        
 call            @Func_170e
 call            @Func_165c

@@ -764,7 +764,7 @@ code047d        1, 2
 call            @Func_482a
 code0479        0, 0, 12
 dialogtxt       "γ,"
-dialogtxt       "please have a match with δ." 
+dialogtxt       "please have a match with them."
 code047b        
 code0309        
 call            @Func_4790
@@ -1733,4 +1733,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -267,7 +267,7 @@ code0301        8, 7
 code047d        0, 121
 code047e        0, 1
 dialogtxt       "I hear some people want to fight"
-dialogtxt       "a savage Beast, Akaba[NAME 6],"
+dialogtxt       "a savage Beast, Akabane,"
 dialogtxt       "but why do something so scary?"
 code0309        
 dialogtxt       "What's so interesting about that?"

@@ -99,9 +99,9 @@ goto            @Cond_03ec
 
 @Cond_03ec:
 jumpz           @Cond_0446, ($b003 == 2)
-dialogtxt       "I Felt Like Something Had Been Watching"
-dialogtxt       "Me... It Feels Awful. It Makes Me"
-dialogtxt       "Sick..."
+dialogtxt       "I Felt Like Something Had Been"
+dialogtxt       "Watching Me... It Feels Awful. It"
+dialogtxt       "Makes Me Sick..."
 goto            @Cond_0446
 
 @Cond_0446:
@@ -116,8 +116,8 @@ code0309
 call            @Func_0cd4
 code0479        0, 4, 14
 call            @Func_0c32
-dialogtxt       "Wasn't This Like Before...? Could It Be"
-dialogtxt       "Ani[NAME 4] Again?"
+dialogtxt       "Wasn't This Like Before...? Could It"
+dialogtxt       "Could it be big bro again?"
 code0309        
 call            @Func_0d58
 call            @Func_0c68

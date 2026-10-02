@@ -370,9 +370,9 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　~Information Wanted!~"
 code0309        
-dialogtxt       "that burns like the flames inside a tatara"
-dialogtxt       "furnace. I'm looking for a spicy food I'm"
-dialogtxt       "looking for it."
+dialogtxt       "that burns like a tatara's flames"
+dialogtxt       "furnace. I'm looking for a spicy food"
+dialogtxt       "I'm looking for it."
 code0309        
 code0302        7
 code040b        

@@ -25,9 +25,9 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_19f0
 call            @Func_18ec
-dialogtxt       "Hey, Bro [NAME 4]!"
-dialogtxt       "Didn't they just tell you"
-dialogtxt       "to take your vigilante duties seriously...?"
+dialogtxt       "Hey, Bro! Didn't they just"
+dialogtxt       "tell you to take your vigilante duties"
+dialogtxt       "seriously...?"
 code047b        
 code0309        
 call            @Func_1940
@@ -57,14 +57,14 @@ code0309
 call            @Func_1940
 code0479        1, 0, 16
 call            @Func_1976
-dialogtxt       "It looks like they haven't returned"
-dialogtxt       "to town"
-dialogtxt       "since their fight with δ and the others..."
+dialogtxt       "It looks like they haven't returned to"
+dialogtxt       "town since their fight with δ and the"
+dialogtxt       "others..."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "Let's search around town first."
-dialogtxt       "[NAME 8] can take"
-dialogtxt       "the Berrito Forest by the south gate!"
+dialogtxt       "Let us search around town first."
+dialogtxt       "I will handle Berrito Forest"
+dialogtxt       "by the south gate!"
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Sis, search around Ryuto Cavern."
@@ -83,7 +83,7 @@ code0479        1, 2, 12
 call            @Func_1976
 dialogtxt       "Oh, the Slenji Mine can wait. There's"
 dialogtxt       "a dangerous Summon Beast there"
-dialogtxt       "called Akaba[NAME 6]."
+dialogtxt       "called Akabane."
 code0309        
 call            @Func_1a1a
 call            @Func_19ac
@@ -118,13 +118,13 @@ goto            @Cond_05b6
 
 @Cond_05b6:
 jumpz           @Cond_05ee, ($b003 == 1)
-dialogtxt       "Akaba[NAME 6]...?"
+dialogtxt       "Akabane...?"
 dialogtxt       "Are its wings red?"
 goto            @Cond_05ee
 
 @Cond_05ee:
 jumpz           @Cond_0630, ($b003 == 2)
-dialogtxt       "Akaba[NAME 6]...?"
+dialogtxt       "Akabane...?"
 dialogtxt       "Heh..."
 dialogtxt       "Are its wings red, at least?"
 goto            @Cond_0630
@@ -141,9 +141,9 @@ code0309
 call            @Func_1940
 code0479        1, 2, 16
 call            @Func_1976
-dialogtxt       "That's right..."
-dialogtxt       "It's a huge Summon Beast"
-dialogtxt       "large enough to swallow a person whole."
+dialogtxt       "That's right... It's a huge Summon"
+dialogtxt       "Beast large enough to swallow a person"
+dialogtxt       "whole."
 code0309        
 code0479        1, 3, 13
 dialogtxt       "Its wings are stained bright red"
@@ -158,12 +158,12 @@ code047d        0, 0
 call            @Func_19c4
 call            @Func_190a
 jumpz           @Cond_07b6, ($b002 == 0)
-dialogtxt       "It's called Akaba[NAME 6]!"
+dialogtxt       "It's called Akabane!"
 dialogtxt       "Sounds kind of cool...!"
 goto            @Label_07f2
 
 @Cond_07b6:
-dialogtxt       "It's called Akaba[NAME 6]!"
+dialogtxt       "It's called Akabane!"
 dialogtxt       "Sounds kind of cool...!"
 goto            @Label_07f2
 
@@ -371,7 +371,7 @@ call            @Func_19c4
 call            @Func_190a
 jumpz           @Cond_1060, ($b002 == 0)
 dialogtxt       "Right?!"
-dialogtxt       "[NAME 8] will be fine, too!"
+dialogtxt       "I can take care of myself, too!"
 goto            @Label_107e
 
 @Cond_1060:

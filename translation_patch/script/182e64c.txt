@@ -265,8 +265,8 @@ code0309
 call            @Func_2f1a
 code0479        1, 1, 12
 call            @Func_2f50
-dialogtxt       "Please Consider It [NAME 5]"
-dialogtxt       "There Is No Problem."
+dialogtxt       "You can take it that way."
+dialogtxt       "That is fine."
 code0309        
 call            @Func_3020
 call            @Func_2f6e
@@ -491,7 +491,7 @@ code0479        1, 0, 13
 call            @Func_2f50
 dialogtxt       "Even if you've only just realized you"
 dialogtxt       "have no chance of winning alone,"
-dialogtxt       "[NAME 4] , it's too late now."
+dialogtxt       "It's too late now."
 code0309        
 call            @Func_2f86
 code0479        0, 2, 15
@@ -519,20 +519,20 @@ code0309
 call            @Func_2f1a
 code0479        1, 4, 13
 call            @Func_2f50
-dialogtxt       "Hmph... For [NAME 4]"
-dialogtxt       ", you're awfully honest."
+dialogtxt       "Hmph..."
+dialogtxt       "You're awfully honest, for you."
 code0309        
 call            @Func_2f86
 code0479        0, 0, 13
 call            @Func_2ee4
 jumpz           @Cond_1894, ($b002 == 0)
-dialogtxt       "After all, if [NAME 8] transforms"
+dialogtxt       "After all, if he transforms"
 dialogtxt       "and saves you so coolly..."
 dialogtxt       "of course you'd be honest."
 goto            @Label_18ea
 
 @Cond_1894:
-dialogtxt       "After all, if [NAME 8] transforms"
+dialogtxt       "After all, if she transforms"
 dialogtxt       "and saves you so coolly..."
 dialogtxt       "of course you'd be honest."
 goto            @Label_18ea
@@ -544,8 +544,8 @@ code0479        0, 5, 16
 code0479        1, 2, 15
 call            @Func_2f50
 dialogtxt       "A transformation? Don't be ridiculous!"
-dialogtxt       "This current form, caused by insufficient"
-dialogtxt       "spirit power, is one I find unacceptable."
+dialogtxt       "This form, caused by insufficient"
+dialogtxt       "spirit power, is unacceptable to me."
 code0309        
 call            @Func_2f86
 code0479        0, 1, 16
@@ -587,7 +587,7 @@ code0309
 call            @Func_2f1a
 code0479        1, 6, 15
 call            @Func_2f50
-dialogtxt       "It is none of [NAME 4]'s concern!"
+dialogtxt       "It is none of your concern!"
 code0309        
 call            @Func_2f86
 code0479        0, 0, 14
@@ -672,13 +672,13 @@ code0479        0, 0, 16
 call            @Func_2f9e
 call            @Func_2ec6
 jumpz           @Cond_1f9e, ($b002 == 0)
-dialogtxt       "What..."
-dialogtxt       "You really are impossible to understand."
+dialogtxt       "What... You really are impossible to"
+dialogtxt       "understand."
 goto            @Label_1fc8
 
 @Cond_1f9e:
-dialogtxt       "What..."
-dialogtxt       "You really are impossible to understand."
+dialogtxt       "What... You really are impossible to"
+dialogtxt       "understand."
 goto            @Label_1fc8
 
 @Label_1fc8:
@@ -798,9 +798,9 @@ goto            @Label_2512
 @Label_2512:
 code0479        1, 2, 14
 call            @Func_2f50
-dialogtxt       "That's what I've been telling you all along."
-dialogtxt       "I am strong."
-dialogtxt       "I simply couldn't use my power before."
+dialogtxt       "That's what I've been telling you all"
+dialogtxt       "along. I am strong. I simply couldn't"
+dialogtxt       "use my power before."
 code0309        
 call            @Func_2f86
 code0479        0, 1, 16
@@ -862,8 +862,8 @@ dialogtxt       "but praise like that is embarrassing."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "But..."
-dialogtxt       "What was the important thing"
-dialogtxt       "γ had forgotten?"
+dialogtxt       "What important thing did γ"
+dialogtxt       "forget?"
 code0309        
 call            @Func_2f1a
 code0479        1, 11, 16

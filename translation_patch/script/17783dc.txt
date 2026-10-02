@@ -481,7 +481,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "After Akaba[NAME 6] fell,"
+dialogtxt       "After Akabane fell,"
 dialogtxt       "damage from Strays hasn't decreased."
 code0309        
 code047e        0, 0

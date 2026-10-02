@@ -40,9 +40,9 @@ code0479        0, 4, 16
 call            @Func_1440
 call            @Func_1386
 jumpz           @Cond_0296, ($b002 == 0)
-dialogtxt       "γ... You didn't have to... Watching the"
-dialogtxt       "way you fought, I could tell you were"
-dialogtxt       "trying not to hurt [NAME 8]..."
+dialogtxt       "[NAME 1]... no, please..."
+dialogtxt       "Seeing how you fought, I knew"
+dialogtxt       "you were trying not to hurt me..."
 goto            @Label_02ee
 
 @Cond_0296:
@@ -67,9 +67,9 @@ dialogbig       96, 116, 1, 0, 0, "Huh?"
 code030c        
 code0479        0, 7, 13
 jumpz           @Cond_0438, ($b002 == 0)
-dialogtxt       "Ahahaha! That's right!"
-dialogtxt       "[NAME 8] won thanks to this"
-dialogtxt       "weapon... and all that training with you!"
+dialogtxt       "Ahahaha! That is right!"
+dialogtxt       "This weapon is why I won..."
+dialogtxt       "Thanks to training with you!"
 goto            @Label_0498
 
 @Cond_0438:
@@ -87,18 +87,18 @@ call            @Func_13bc
 code0479        1, 1, 12
 call            @Func_13f2
 dialogtxt       "You..."
-dialogtxt       "You really are an interesting one..."
+dialogtxt       "You are an interesting one..."
 code0309        
 call            @Func_1428
 code0479        0, 5, 14
 call            @Func_1386
 jumpz           @Cond_0568, ($b002 == 0)
-dialogtxt       "What's that supposed to mean?"
+dialogtxt       "What's that meant to mean?"
 dialogtxt       "Are you making fun of me?"
 goto            @Label_0592
 
 @Cond_0568:
-dialogtxt       "What's that supposed to mean?"
+dialogtxt       "What's that meant to mean?"
 dialogtxt       "Are you making fun of me?"
 goto            @Label_0592
 
@@ -107,7 +107,7 @@ code0309
 call            @Func_13bc
 code0479        1, 0, 12
 call            @Func_13f2
-dialogtxt       "That is not it."
+dialogtxt       "That isn't it."
 dialogtxt       "I have never met someone like you..."
 dialogtxt       "Not in all my years."
 code0309        
@@ -142,7 +142,7 @@ code0309
 call            @Func_13bc
 code0479        1, 0, 12
 call            @Func_13f2
-dialogtxt       "That was not my intention..."
+dialogtxt       "That wasn't my intention..."
 dialogtxt       "Though I did punish"
 dialogtxt       "some humans who did bad things..."
 code0309        
@@ -166,9 +166,9 @@ code0309
 call            @Func_13bc
 code0479        1, 4, 14
 call            @Func_13f2
-dialogtxt       "Good and evil depend on one's position."
-dialogtxt       "Something may be good for one side"
-dialogtxt       "but not for the other..."
+dialogtxt       "Good and evil depend on one's"
+dialogtxt       "position. Something may be good for"
+dialogtxt       "one side but not for the other..."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "So there were many humans"
@@ -184,7 +184,7 @@ call            @Func_13bc
 code0479        1, 4, 14
 call            @Func_13f2
 dialogtxt       "Since I had only fought such people,"
-dialogtxt       "I thought every battle would leave behind"
+dialogtxt       "I thought each battle left behind"
 dialogtxt       "nothing but hatred and emptiness..."
 code0309        
 code0479        1, 2, 12
@@ -207,7 +207,7 @@ code0309
 code0479        1, 7, 12
 code0479        0, 0, 16
 dialogtxt       "Thank you, δ..."
-dialogtxt       "I am truly glad"
+dialogtxt       "I'm truly glad"
 dialogtxt       "that I met you!"
 code0309        
 call            @Func_1428
@@ -215,8 +215,8 @@ code0479        0, 11, 16
 call            @Func_1386
 jumpz           @Cond_0c8a, ($b002 == 0)
 dialogtxt       "What's with that...?"
-dialogtxt       "[NAME 8] is truly glad"
-dialogtxt       "to have met γ, too!"
+dialogtxt       "I am so glad"
+dialogtxt       "I got to meet [NAME 1], too!"
 goto            @Label_0cd0
 
 @Cond_0c8a:
@@ -243,8 +243,8 @@ code040d        15
 code047d        0, 2
 code0301        16, 7
 code047e        0, 1
-dialogtxt       "Perhaps remaining a blacksmith's partner"
-dialogtxt       "would not have been so bad..."
+dialogtxt       "Perhaps remaining a smith's"
+dialogtxt       "partner wouldn't have been so bad..."
 code0309        
 code047e        0, 0
 code0302        7

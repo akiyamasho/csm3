@@ -25,7 +25,7 @@ code0479        0, 0, 14
 code047d        0, 107
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "How is it, Myuno?"
+dialogtxt       "How is it, Murno?"
 dialogtxt       "Did you figure anything out?"
 code047b        
 code0309        
@@ -63,9 +63,9 @@ code047d        1, 2
 call            @Func_3722
 call            @Func_36be
 jumpz           @Cond_0c86, ($b003 == 0)
-dialogtxt       "A wave has been detected magic crystal"
-dialogtxt       "pillar. It appears be affected by Govan’s"
-dialogtxt       "magic stone [NAME 8] ."
+dialogtxt       "We've detected a wave from the"
+dialogtxt       "magic crystal pillar. It seems"
+dialogtxt       "affected by Govan's magic stone."
 code047b        
 code0309        
 call            @Func_36f4
@@ -77,9 +77,9 @@ code0309
 call            @Func_3688
 code0479        1, 0, 12
 call            @Func_36be
-dialogtxt       "The wave detected when we"
-dialogtxt       "fled the village with [NAME 4]"
-dialogtxt       "is extremely similar."
+dialogtxt       "The wave we detected when we"
+dialogtxt       "fled the village"
+dialogtxt       "is very similar."
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -208,9 +208,9 @@ code0479        1, 0, 12
 code047d        1, 2
 call            @Func_3738
 call            @Func_36a0
-dialogtxt       "Please be careful."
-dialogtxt       "The waves from the magic crystal pillar [NAME 8]"
-dialogtxt       "are growing stronger."
+dialogtxt       "Please be careful. The waves from"
+dialogtxt       "the magic crystal pillar are"
+dialogtxt       "growing stronger."
 code047b        
 code0309        
 call            @Func_36f4
@@ -256,7 +256,7 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Myuno!"
+dialogtxt       "Murno!"
 jumpz           @Cond_0b6a, ($b002 == 0)
 dialogtxt       "Are you all right!?"
 goto            @Label_0b7c
@@ -484,7 +484,7 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Myuno!"
+dialogtxt       "Murno!"
 jumpz           @Cond_1506, ($b002 == 0)
 dialogtxt       "Are you all right!?"
 goto            @Label_1518
@@ -536,9 +536,9 @@ code0309
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "This feeling... yes..."
-dialogtxt       "It feels like when we left the village,"
-dialogtxt       "it does..."
+dialogtxt       "This feeling... yes... It feels"
+dialogtxt       "like when we left the village, it"
+dialogtxt       "does..."
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -713,7 +713,7 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Myuno!"
+dialogtxt       "Murno!"
 jumpz           @Cond_1e6a, ($b002 == 0)
 dialogtxt       "Are you all right!?"
 goto            @Label_1e7c
@@ -752,7 +752,7 @@ goto            @Cond_1f88
 @Cond_1f88:
 jumpz           @Cond_2926, ($b003 == 3)
 dialogtxt       "I have such a bad feeling... Could"
-dialogtxt       "this be coming from Lady Myuno’s"
+dialogtxt       "this be coming from Lady Murno’s"
 dialogtxt       "Govan’s magic stone too...?"
 code047b        
 code0309        
@@ -765,9 +765,9 @@ code0309
 call            @Func_3688
 code0479        1, 2, 16
 call            @Func_36be
-dialogtxt       "This feeling... yes..."
-dialogtxt       "It feels like when we left the village,"
-dialogtxt       "it does..."
+dialogtxt       "This feeling... yes... It feels"
+dialogtxt       "like when we left the village, it"
+dialogtxt       "does..."
 code0309        
 call            @Func_378e
 call            @Func_36dc
@@ -942,7 +942,7 @@ code0479        1, 5, 15
 code047d        1, 0
 call            @Func_3722
 call            @Func_36a0
-dialogtxt       "Myuno!"
+dialogtxt       "Murno!"
 jumpz           @Cond_2802, ($b002 == 0)
 dialogtxt       "Are you all right!?"
 goto            @Label_2814

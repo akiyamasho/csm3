@@ -108,8 +108,8 @@ code0309
 call            @Func_350a
 code0479        1, 0, 13
 call            @Func_3540
-dialogtxt       "The road to the Marneil Outpost is"
-dialogtxt       "[NAME 4]'s assignment, is it?"
+dialogtxt       "The road to Marneil Outpost"
+dialogtxt       "is your assignment, then?"
 dialogtxt       "Do your best."
 code0309        
 call            @Func_3576
@@ -257,7 +257,7 @@ call            @Func_350a
 code0479        1, 2, 14
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. It"
+dialogtxt       "Akabane is there. It"
 dialogtxt       "seems"
 code0309        
 code0479        1, 2, 14
@@ -302,7 +302,7 @@ call            @Func_350a
 code0479        1, 0, 13
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. They"
+dialogtxt       "Akabane is there. They"
 dialogtxt       "say"
 code0309        
 call            @Func_3576
@@ -337,7 +337,7 @@ call            @Func_350a
 code0479        1, 2, 16
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. It"
+dialogtxt       "Akabane is there. It"
 dialogtxt       "seems"
 code0309        
 call            @Func_3576
@@ -436,7 +436,7 @@ call            @Func_350a
 code0479        1, 2, 14
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. It"
+dialogtxt       "Akabane is there. It"
 dialogtxt       "seems"
 code0309        
 code0479        1, 2, 14
@@ -481,7 +481,7 @@ call            @Func_350a
 code0479        1, 0, 13
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. They"
+dialogtxt       "Akabane is there. They"
 dialogtxt       "say"
 code0309        
 call            @Func_3576
@@ -516,7 +516,7 @@ call            @Func_350a
 code0479        1, 2, 16
 call            @Func_3540
 dialogtxt       "A violent Summon Beast called"
-dialogtxt       "Akaba[NAME 6] is there. It"
+dialogtxt       "Akabane is there. It"
 dialogtxt       "seems"
 code0309        
 call            @Func_3576
@@ -668,9 +668,9 @@ code0309
 call            @Func_350a
 code0479        1, 2, 13
 call            @Func_3540
-dialogtxt       "It looks like a dumping ground for scum,"
-dialogtxt       "the atmosphere is [NAME 4]..."
-dialogtxt       "When I find them, I'll wipe them out."
+dialogtxt       "This place feels like a dump"
+dialogtxt       "where scum gather..."
+dialogtxt       "I'll wipe them out if I find them."
 code0309        
 call            @Func_3576
 code0479        0, 5, 14
@@ -778,8 +778,8 @@ code0309
 call            @Func_350a
 code0479        1, 0, 12
 call            @Func_3540
-dialogtxt       "during the earlier battle, our presence"
-dialogtxt       "may have been detected."
+dialogtxt       "during the earlier battle, our"
+dialogtxt       "presence may have been detected."
 dialogtxt       "Please exercise great caution."
 code0309        
 call            @Func_3576
@@ -1012,8 +1012,8 @@ code0309
 call            @Func_350a
 code0479        1, 2, 14
 call            @Func_3540
-dialogtxt       "We still haven't identified that presence..."
-dialogtxt       "Be careful."
+dialogtxt       "We still haven't identified that"
+dialogtxt       "presence... Be careful."
 code0309        
 call            @Func_3576
 code0479        0, 2, 12
@@ -1123,8 +1123,8 @@ code0309
 call            @Func_350a
 code0479        1, 4, 16
 call            @Func_3540
-dialogtxt       "I have a bad feeling..."
-dialogtxt       "I hope it really is just my imagination."
+dialogtxt       "I have a bad feeling... I hope it"
+dialogtxt       "really is just my imagination."
 code0309        
 call            @Func_3610
 call            @Func_355e
@@ -1279,12 +1279,12 @@ call            @Func_35ba
 jumpz           @Cond_3272, ($b003 == 0)
 call            @Func_34b6
 jumpz           @Cond_31fe, ($b002 == 0)
-dialogtxt       "Wait for me, [NAME 8]mi!"
+dialogtxt       "Wait for me, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_3224
 
 @Cond_31fe:
-dialogtxt       "Please wait, [NAME 8]mi!"
+dialogtxt       "Please wait, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_3224
 
@@ -1306,12 +1306,12 @@ goto            @Cond_3272
 jumpz           @Cond_3330, ($b003 == 1)
 call            @Func_34b6
 jumpz           @Cond_32be, ($b002 == 0)
-dialogtxt       "Wait for me, [NAME 8]mi!"
+dialogtxt       "Wait for me, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_32e4
 
 @Cond_32be:
-dialogtxt       "Please wait, [NAME 8]mi!"
+dialogtxt       "Please wait, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_32e4
 
@@ -1333,12 +1333,12 @@ goto            @Cond_3330
 jumpz           @Cond_33f2, ($b003 == 2)
 call            @Func_34b6
 jumpz           @Cond_337c, ($b002 == 0)
-dialogtxt       "Wait for me, [NAME 8]mi!"
+dialogtxt       "Wait for me, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_33a2
 
 @Cond_337c:
-dialogtxt       "Please wait, [NAME 8]mi!"
+dialogtxt       "Please wait, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_33a2
 
@@ -1360,12 +1360,12 @@ goto            @Cond_33f2
 jumpz           @Cond_34b0, ($b003 == 3)
 call            @Func_34b6
 jumpz           @Cond_343e, ($b002 == 0)
-dialogtxt       "Wait for me, [NAME 8]mi!"
+dialogtxt       "Wait for me, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_3464
 
 @Cond_343e:
-dialogtxt       "Please wait, [NAME 8]mi!"
+dialogtxt       "Please wait, Remy!"
 dialogtxt       "Were coming!"
 goto            @Label_3464
 

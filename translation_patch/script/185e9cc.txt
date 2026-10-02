@@ -108,7 +108,7 @@ code0479        0, 1, 16
 call            @Func_0bf6
 jumpz           @Cond_0516, ($b002 == 0)
 dialogtxt       "All right, all right. Since Murno only"
-dialogtxt       "has one weapon, [NAME 8]"
+dialogtxt       "has one weapon, so I"
 dialogtxt       "will choose one weapon, too."
 goto            @Label_056c
 

@@ -188,15 +188,15 @@ code047d        1, 116
 call            @Func_2050
 call            @Func_1fec
 jumpz           @Cond_0882, ($b002 == 0)
-dialogtxt       "Summon Beast, stay still."
-dialogtxt       "Or else..."
-dialogtxt       "I'll snap this little boy's thin neck..."
+dialogtxt       "Summon Beast, stay still. Or else..."
+dialogtxt       "I'll snap this little boy's thin"
+dialogtxt       "neck..."
 goto            @Label_08dc
 
 @Cond_0882:
-dialogtxt       "Summon Beast, stay still."
-dialogtxt       "Or else..."
-dialogtxt       "I'll snap the little girl's neck right now..."
+dialogtxt       "Summon Beast, stay still. Or else..."
+dialogtxt       "I'll snap the little girl's neck right"
+dialogtxt       "now..."
 goto            @Label_08dc
 
 @Label_08dc:
@@ -245,9 +245,9 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_2050
 call            @Func_1fec
-dialogtxt       "Let's see... I'll trade these people's lives"
-dialogtxt       "for Govann's Summon Stone..."
-dialogtxt       "How about that?"
+dialogtxt       "Let's see... I'll trade these people's"
+dialogtxt       "lives for Govan's Magic Stone... How"
+dialogtxt       "about that?"
 code047b        
 code0309        
 call            @Func_20bc
@@ -387,7 +387,7 @@ code047d        1, 116
 call            @Func_2050
 call            @Func_1fce
 dialogtxt       "This child... She needs a little"
-dialogtxt       "discipline, [NAME 4] ..."
+dialogtxt       "discipline..."
 code047b        
 code0309        
 call            @Func_2022
@@ -429,21 +429,21 @@ code047d        0, 0
 call            @Func_2066
 call            @Func_1fce
 dialogtxt       "Heh heh heh... Prepare yourself."
-dialogtxt       "I'll discipline you thoroughly,"
-dialogtxt       "[NAME 4] ."
+dialogtxt       "I'll give you a thorough"
+dialogtxt       "discipline."
 code047b        
 code0309        
 call            @Func_2022
 code0479        0, 2, 15
 call            @Func_1f80
 jumpz           @Cond_1338, ($b002 == 0)
-dialogtxt       "W-what did you say!?"
-dialogtxt       "How dare [NAME 8]!"
+dialogtxt       "What did you say?!"
+dialogtxt       "Who do you think you are?!"
 goto            @Label_1368
 
 @Cond_1338:
-dialogtxt       "W-what!? How dare [NAME 8]"
-dialogtxt       "do that to someone like you...!"
+dialogtxt       "What?!"
+dialogtxt       "Who do you think you are?!"
 goto            @Label_1368
 
 @Label_1368:

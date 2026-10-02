@@ -243,9 +243,9 @@ code047d        0, 109
 call            @Func_4428
 code0333        2, 30
 call            @Func_4324
-dialogtxt       "That's right! We sell marvelous weapons"
-dialogtxt       "forged by a blacksmith and a Summon"
-dialogtxt       "Beast!"
+dialogtxt       "That's right! We sell marvelous"
+dialogtxt       "weapons forged by a blacksmith and a"
+dialogtxt       "Summon Beast!"
 code047b        
 code0309        
 code0334        
@@ -414,9 +414,9 @@ code0479        0, 2, 17
 code047d        0, 109
 call            @Func_43fc
 call            @Func_4324
-dialogtxt       "What are you saying, Father!?"
-dialogtxt       "That's why this place"
-dialogtxt       "has been running at a loss all this time!?"
+dialogtxt       "What are you saying, Father!? That's"
+dialogtxt       "why this place has been running at a"
+dialogtxt       "loss all this time!?"
 code047b        
 code0309        
 call            @Func_4378
@@ -501,7 +501,7 @@ dialogtxt       "your future husband,"
 goto            @Label_148a
 
 @Label_148a:
-dialogtxt       "or your future business partner's family?"
+dialogtxt       "or your future partner's family?"
 code047b        
 code0309        
 call            @Func_4452
@@ -698,9 +698,9 @@ code0479        0, 2, 12
 code047d        0, 109
 call            @Func_43fc
 call            @Func_4324
-dialogtxt       "But you know..."
-dialogtxt       "That face you made"
-dialogtxt       "when you fought for me was definitely..."
+dialogtxt       "But you know... That face you"
+dialogtxt       "made when you fought for me was"
+dialogtxt       "definitely..."
 code047b        
 code0309        
 code0334        
@@ -732,8 +732,8 @@ call            @Func_43e4
 code0479        0, 10, 12
 call            @Func_4342
 dialogtxt       "You don't have to be so shy."
-dialogtxt       "I know perfectly well"
-dialogtxt       "that δ loves me~"
+dialogtxt       "I know perfectly well that [NAME 2]"
+dialogtxt       "loves me~"
 code0309        
 call            @Func_4378
 code0479        1, 2, 15
@@ -894,9 +894,9 @@ dialogtxt       "how you feel, being passed over"
 dialogtxt       "and feeling jealous."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "But you don't seem to be"
-dialogtxt       "a blacksmith or anything,"
-dialogtxt       "and you're a little gloomy, aren't you?"
+dialogtxt       "But you don't seem to be a blacksmith"
+dialogtxt       "or anything, and you're a little"
+dialogtxt       "gloomy, aren't you?"
 code0309        
 call            @Func_4378
 code0479        1, 5, 16
@@ -908,8 +908,8 @@ call            @Func_43e4
 code0479        0, 4, 12
 call            @Func_4342
 dialogtxt       "You see, we're in the hospitality"
-dialogtxt       "business, so a cheerful girl is a must."
-dialogtxt       "I'm really sorry~"
+dialogtxt       "business, so a cheerful girl is a"
+dialogtxt       "must. I'm really sorry~"
 code0309        
 call            @Func_447e
 call            @Func_4360
@@ -1000,8 +1000,8 @@ code0479        0, 2, 12
 code047d        0, 132
 call            @Func_43fc
 call            @Func_4324
-dialogtxt       "Gnh, this old man couldn't move a step."
-dialogtxt       "What an atmosphere."
+dialogtxt       "Gnh, this old man couldn't move a"
+dialogtxt       "step. What an atmosphere."
 code0309        
 call            @Func_4452
 call            @Func_4360
@@ -1079,8 +1079,8 @@ code0479        0, 2, 12
 code047d        0, 109
 call            @Func_43fc
 call            @Func_4342
-dialogtxt       "That's right! It was about the room fee."
-dialogtxt       "Naturally, you'll be paying it."
+dialogtxt       "That's right! It was about the room"
+dialogtxt       "fee. Naturally, you'll be paying it."
 dialogtxt       "Even an important person once said,"
 code047b        
 code0309        
@@ -1131,7 +1131,7 @@ dialogtxt       "All I've heard from you"
 dialogtxt       "is money, money, money..."
 code0309        
 code0479        1, 2, 15
-dialogbig       24, 116, 1, 0, 0, "You're making a spectacle of yourself!"
+dialogbig       24, 116, 1, 0, 0, "You're making a spectacle!"
 code030c        
 call            @Func_43e4
 code0479        0, 5, 16
@@ -1264,9 +1264,9 @@ dialogtxt       "Without bringing customers,"
 dialogtxt       "this place would have failed long ago!"
 code0309        
 code0479        0, 2, 16
-dialogtxt       "'I'll take your smiles,' my foot."
-dialogtxt       "Say things like that"
-dialogtxt       "after you've actually earned some money!"
+dialogtxt       "'I'll take your smiles,' my foot. Say"
+dialogtxt       "things like that after you've actually"
+dialogtxt       "earned some money!"
 code0309        
 call            @Func_4378
 code0479        1, 5, 16
@@ -1338,9 +1338,9 @@ call            @Func_4378
 code043c        6, 3
 code0479        1, 0, 13
 call            @Func_43ae
-dialogtxt       "Now, now, don't worry so much."
-dialogtxt       "Please, Jade, have some too."
-dialogtxt       "There's cake for after dinner, as well."
+dialogtxt       "Now, now, don't worry so much. Please,"
+dialogtxt       "Jade, have some too. There's cake for"
+dialogtxt       "after dinner, as well."
 code0309        
 call            @Func_43e4
 code043c        6, 1

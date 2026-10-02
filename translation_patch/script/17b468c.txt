@@ -349,9 +349,9 @@ code040b
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "Hey, let's play legendary blacksmith! I'll"
+dialogtxt       "Let's play blacksmith! I'll"
 dialogtxt       "be the legendary blacksmith... and"
-dialogtxt       "[NAME 4]mi is my Master."
+dialogtxt       "you are my Master."
 code0309        
 dialogtxt       "Say, \"There's nothing left to teach"
 dialogtxt       "you,\" and praise me."
@@ -380,7 +380,7 @@ code040b
 @Event_0fd0:
 code0301        8, 7
 dialogtxt       "Well, shall we break some magic soon?"
-dialogtxt       "                The mad old man's muttering"
+dialogtxt       "The mad old man's muttering"
 code0309        
 code0302        7
 code040b        
@@ -388,7 +388,7 @@ code040b
 @Event_1036:
 code0301        8, 7
 dialogtxt       "Some days, no matter what you do,"
-dialogtxt       "you just have no luck."
+dialogtxt       "you have no luck."
 code0309        
 dialogtxt       "I think even important people say,"
 dialogtxt       "a bad day,' or something like that."

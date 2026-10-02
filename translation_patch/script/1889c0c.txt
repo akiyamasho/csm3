@@ -11,7 +11,7 @@ code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
 dialogtxt       "You've gotten stronger..."
-dialogtxt       "That's [NAME 8]'s rival, right!"
+dialogtxt       "As expected of my rival!"
 goto            @Label_016e
 
 @Cond_00d8:
@@ -41,8 +41,8 @@ code0479        1, 2, 15
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "You can't [NAME 8]."
-dialogtxt       "Because [NAME 8] is..."
+dialogtxt       "You can't beat me with that skill."
+dialogtxt       "Because I am..."
 dialogtxt       "the immortal Jade!"
 code047b        
 code0309        
@@ -67,14 +67,14 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_0b0e
 call            @Func_0a76
-dialogtxt       "There's only one [NAME 8]..."
-dialogtxt       "isn't there? To have a match."
+dialogtxt       "The reason you keep coming to see me"
+dialogtxt       "is to have a match, right?"
 dialogtxt       "Because..."
 code047b        
 code0309        
 code0479        1, 2, 13
-dialogtxt       "[NAME 8] is your"
-dialogtxt       "rival by destiny!"
+dialogtxt       "I'm your destined"
+dialogtxt       "rival!"
 code0309        
 goto            @Label_03f8
 

@@ -168,8 +168,8 @@ code047d        1, 120
 call            @Func_0d9a
 call            @Func_0d18
 dialogtxt       "There they are!"
-dialogtxt       "Don't let them get away!"
-dialogtxt       "[NAME 4] and the rest of you!"
+dialogtxt       "Do not let them get away!"
+dialogtxt       "You lot!"
 code047b        
 code0309        
 call            @Func_0df0

@@ -79,9 +79,9 @@ goto            @Cond_02ca
 
 @Cond_02ca:
 jumpz           @Cond_031a, ($b003 == 1)
-dialogtxt       "Of course..."
-dialogtxt       "But that cursed bracelet has once again"
-dialogtxt       "left me unable to move..."
+dialogtxt       "Of course... But that cursed bracelet"
+dialogtxt       "has once again left me unable to"
+dialogtxt       "move..."
 goto            @Cond_031a
 
 @Cond_031a:
@@ -93,9 +93,9 @@ goto            @Cond_0372
 
 @Cond_0372:
 jumpz           @Cond_03c6, ($b003 == 3)
-dialogtxt       "Yes..."
-dialogtxt       "But they put that bracelet on me again,"
-dialogtxt       "I Was Restrained Again..."
+dialogtxt       "Yes... But they put that bracelet"
+dialogtxt       "on me again, I Was Restrained"
+dialogtxt       "Again..."
 goto            @Cond_03c6
 
 @Cond_03c6:
@@ -196,7 +196,7 @@ call            @Func_1008
 call            @Func_0fa4
 jumpz           @Cond_07a4, ($b003 == 0)
 dialogtxt       "About That Tremor Earlier"
-dialogtxt       "[NAME 4] ... What Happened?"
+dialogtxt       "What happened...?"
 goto            @Cond_07a4
 
 @Cond_07a4:
@@ -224,14 +224,14 @@ call            @Func_0fda
 code0479        0, 2, 16
 call            @Func_0f38
 jumpz           @Cond_090a, ($b002 == 0)
-dialogtxt       "[NAME 8] came to"
-dialogtxt       "rescue us. He took on Akaba[NAME 6]"
+dialogtxt       "Lemmy came to"
+dialogtxt       "rescue us. He took on Akabane"
 dialogtxt       "alone...! Anyway, let's get out!"
 goto            @Label_0962
 
 @Cond_090a:
-dialogtxt       "[NAME 8] came to rescue"
-dialogtxt       "us. She took on Akaba[NAME 6]"
+dialogtxt       "Lemmy came to rescue"
+dialogtxt       "us. She took on Akabane"
 dialogtxt       "alone...! Anyway, let's get out!"
 goto            @Label_0962
 

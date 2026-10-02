@@ -1,5 +1,7 @@
+#include <algorithm>
 #include <cstdint>
 #include <cstdio>
+#include <limits>
 #include <map>
 #include <vector>
 #include "lz77.h"
@@ -11,6 +13,7 @@ public:
 	}
 
 	std::vector<uint8_t> Compress(int flags, int max_scenarios);
+	std::vector<uint8_t> CompressOptimal(int flags);
 
 private:
 	constexpr static int MAX_BACKREF_OFFSET = 0xFFF;
@@ -40,6 +43,101 @@ private:
 	int flags_ = 0;
 };
 
+std::vector<uint8_t> LZ77GBACompressor::CompressOptimal(int flags) {
+	if (input_.size() > 0x00FFFFFF) {
+		return {};
+	}
+	flags_ = flags & ~LZ77_REVERSE;
+
+	struct Step {
+		uint32_t prev_pos = 0;
+		uint8_t prev_slot = 0;
+		uint8_t length = 0;
+		uint16_t offset = 0;
+		bool set = false;
+	};
+	constexpr uint32_t INF = std::numeric_limits<uint32_t>::max() / 4;
+	const size_t states = (input_.size() + 1) * 8;
+	std::vector<uint32_t> cost(states, INF);
+	std::vector<Step> previous(states);
+	auto state = [](size_t pos, int slot) { return pos * 8 + (size_t)slot; };
+	cost[state(0, 0)] = 0;
+
+	for (size_t pos = 0; pos < input_.size(); ++pos) {
+		Scenario match = TryForwardWaste(pos, 0);
+		for (int slot = 0; slot < 8; ++slot) {
+			const uint32_t current = cost[state(pos, slot)];
+			if (current == INF) {
+				continue;
+			}
+			const uint32_t flag_cost = slot == 0 ? 1 : 0;
+			const int next_slot = (slot + 1) & 7;
+			auto relax = [&](size_t next_pos, uint32_t added, uint8_t length, uint16_t offset) {
+				const size_t next = state(next_pos, next_slot);
+				if (current + flag_cost + added < cost[next]) {
+					cost[next] = current + flag_cost + added;
+					previous[next] = Step{ (uint32_t)pos, (uint8_t)slot, length, offset, true };
+				}
+			};
+			relax(pos + 1, 1, 1, 0);
+			for (int length = MIN_BACKREF_LEN; length <= match.backref_len; ++length) {
+				relax(pos + length, 2, (uint8_t)length, (uint16_t)match.backref_offset);
+			}
+		}
+	}
+
+	uint32_t best_cost = INF;
+	int best_slot = 0;
+	for (int slot = 0; slot < 8; ++slot) {
+		if (cost[state(input_.size(), slot)] < best_cost) {
+			best_cost = cost[state(input_.size(), slot)];
+			best_slot = slot;
+		}
+	}
+	if (best_cost == INF) {
+		return {};
+	}
+
+	std::vector<Step> steps;
+	size_t pos = input_.size();
+	int slot = best_slot;
+	while (pos != 0) {
+		const Step &step = previous[state(pos, slot)];
+		if (!step.set) {
+			return {};
+		}
+		steps.push_back(step);
+		pos = step.prev_pos;
+		slot = step.prev_slot;
+	}
+	std::reverse(steps.begin(), steps.end());
+
+	std::vector<uint8_t> result;
+	result.reserve(4 + best_cost + 3);
+	result.push_back(0x10);
+	result.push_back((input_.size() >> 0) & 0xFF);
+	result.push_back((input_.size() >> 8) & 0xFF);
+	result.push_back((input_.size() >> 16) & 0xFF);
+	size_t source = 0;
+	for (size_t i = 0; i < steps.size(); i += 8) {
+		const size_t flag_pos = result.size();
+		result.push_back(0);
+		for (size_t j = 0; j < 8 && i + j < steps.size(); ++j) {
+			const Step &step = steps[i + j];
+			if (step.length == 1) {
+				result.push_back(input_[source]);
+			} else {
+				result[flag_pos] |= 0x80 >> j;
+				result.push_back(((step.length - 3) << 4) | (step.offset >> 8));
+				result.push_back(step.offset & 0xFF);
+			}
+			source += step.length;
+		}
+	}
+	result.resize((result.size() + 3) & ~3);
+	return result;
+}
+
 std::vector<uint8_t> LZ77GBACompressor::Compress(int flags, int max_scenarios) {
 	output_.clear();
 
@@ -68,7 +166,9 @@ void LZ77GBACompressor::BuildIndex() {
 	uint32_t hash = (input_[0] << 16) | (input_[1] << 8);
 	for (size_t i = 2; i < input_.size(); ++i) {
 		hash = (hash | input_[i]) << 8;
-		index_.emplace(hash, i);
+		// The rolling hash now covers input_[i - 2..i]; retain the
+		// beginning of that three-byte window as the match position.
+		index_.emplace(hash, i - 2);
 	}
 }
 
@@ -356,6 +456,15 @@ std::vector<uint8_t> compress_gba_lz77(const std::vector<uint8_t> &input, int fl
 	if (flags & LZ77_FAST) {
 		return engine.Compress(flags, 1);
 	}
+	// The dynamic-programming encoder is deterministic and considers every
+	// legal token boundary, so use it for normal script insertion.  Keep the
+	// legacy scenario encoders below as a fallback for unusual flag modes.
+	if ((flags & LZ77_REVERSE) == 0) {
+		std::vector<uint8_t> optimal = engine.CompressOptimal(flags);
+		if (!optimal.empty()) {
+			return optimal;
+		}
+	}
 
 	// Try to compress as well as possible to fit more in the same space.
 	std::vector<uint8_t> best;
@@ -376,7 +485,7 @@ std::vector<uint8_t> compress_gba_lz77(const std::vector<uint8_t> &input, int fl
 
 std::vector<uint8_t> decompress_gba_lz77(const std::vector<uint8_t> &input, size_t *compressed_size) {
 	std::vector<uint8_t> result;
-	if (input[0] != 0x10) {
+	if (input.size() < 4 || input[0] != 0x10) {
 		return result;
 	}
 
@@ -389,17 +498,32 @@ std::vector<uint8_t> decompress_gba_lz77(const std::vector<uint8_t> &input, size
 		uint8_t marker = input[i++];
 		for (uint8_t flag = 0x80; flag != 0 && w < result.size(); flag >>= 1) {
 			if (marker & flag) {
+				if (i + 2 > input.size()) {
+					result.clear();
+					return result;
+				}
 				uint8_t byte1 = input[i++];
 				uint8_t byte2 = input[i++];
 				size_t offset = ((byte1 & 0x0F) << 8) | byte2;
 				size_t len = 3 + (byte1 >> 4);
-
+				if (offset >= w) {
+					result.clear();
+					return result;
+				}
 				size_t start = w - 1 - offset;
 				// Might overlap itself, so go byte by byte.
 				for (size_t r = 0; r < len && w < result.size(); ++r) {
-					result[w++] = input[start + r];
+					if (start + r >= result.size()) {
+						result.clear();
+						return result;
+					}
+					result[w++] = result[start + r];
 				}
 			} else {
+				if (i >= input.size()) {
+					result.clear();
+					return result;
+				}
 				result[w++] = input[i++];
 			}
 		}

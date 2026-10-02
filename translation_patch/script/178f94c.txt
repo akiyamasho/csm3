@@ -396,7 +396,7 @@ dialogtxt       "Never stop believing!"
 dialogtxt       "Just keep chasing!"
 dialogtxt       "Grandpa used to say that all the time."
 code0309        
-dialogtxt       "Is [NAME 4]mi after something?"
+dialogtxt       "Are you after something?"
 code0309        
 code047e        0, 0
 code0302        7

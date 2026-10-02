@@ -256,8 +256,8 @@ code040b
 @Event_0aae:
 code0301        0, 9
 code0305        1
-dialogtxt       "This door can be opened"
-dialogtxt       "by pressing the switch for your weapon."
+dialogtxt       "This door can be opened by pressing"
+dialogtxt       "the switch for your weapon."
 code0309        
 code0302        9
 code040b        

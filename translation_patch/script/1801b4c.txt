@@ -7,27 +7,27 @@ code047d        1, 2
 call            @Func_15de
 call            @Func_14da
 jumpz           @Cond_0162, ($b002 == 0)
-dialogtxt       "In the end, we had to bring Tia along"
-dialogtxt       "in exchange for getting our lodging free,"
+dialogtxt       "We had to bring Tia along"
+dialogtxt       "for free lodging,"
 dialogtxt       "but they only gave us one room..."
 code047b        
 code0309        
 code0479        0, 1, 17
-dialogtxt       "Now we sleep in the workshop?"
-dialogtxt       "This is just like always!"
-dialogtxt       "What's the point of staying at an inn?!"
+dialogtxt       " sleeps here? This is"
+dialogtxt       "like always! Why bother with"
+dialogtxt       "staying at an inn?!"
 goto            @Label_024e
 
 @Cond_0162:
-dialogtxt       "In the end, we had to bring Tia along"
-dialogtxt       "in exchange for getting our lodging free,"
+dialogtxt       "We had to bring Tia along"
+dialogtxt       "for free lodging,"
 dialogtxt       "but they only gave us one room..."
 code047b        
 code0309        
 code0479        0, 1, 17
-dialogtxt       "Now we sleep in the workshop?"
-dialogtxt       "This is just like always!"
-dialogtxt       "What's the point of staying at an inn?!"
+dialogtxt       "Now we sleep in the workshop? This is"
+dialogtxt       "like always! What's the point of"
+dialogtxt       "staying at an inn?!"
 goto            @Label_024e
 
 @Label_024e:
@@ -55,19 +55,19 @@ goto            @Label_02e4
 call            @Func_1564
 jumpz           @Cond_05ae, ($b003 == 0)
 dialogtxt       "Same...?"
-dialogtxt       "This workshop is not the same as"
+dialogtxt       "This workshop isn't the same as"
 dialogtxt       "the usual workshop."
 code0309        
 call            @Func_159a
 code0479        0, 4, 16
 call            @Func_14f8
 jumpz           @Cond_0398, ($b002 == 0)
-dialogtxt       "It is different, sure,"
+dialogtxt       "It's different,"
 dialogtxt       "but it feels the same to me."
 goto            @Label_03c8
 
 @Cond_0398:
-dialogtxt       "It is different, sure,"
+dialogtxt       "It's different,"
 dialogtxt       "but it feels the same to me."
 goto            @Label_03c8
 
@@ -82,15 +82,15 @@ call            @Func_159a
 code0479        0, 0, 12
 call            @Func_14f8
 jumpz           @Cond_0478, ($b002 == 0)
-dialogtxt       "...Sorry!"
-dialogtxt       "It's the start of our trip, so we have to"
-dialogtxt       "get ourselves excited, at least!"
+dialogtxt       "...Sorry! It's the start of our trip,"
+dialogtxt       "so we have to get excited,"
+dialogtxt       "at least!"
 goto            @Label_04d2
 
 @Cond_0478:
-dialogtxt       "...Sorry!"
-dialogtxt       "It's the start of our trip, so we have to"
-dialogtxt       "get ourselves excited, at least!"
+dialogtxt       "...Sorry! It's the start of our trip,"
+dialogtxt       "so we have to get ourselves excited,"
+dialogtxt       "at least!"
 goto            @Label_04d2
 
 @Label_04d2:
@@ -105,12 +105,12 @@ code0479        0, 2, 13
 call            @Func_14f8
 jumpz           @Cond_055e, ($b002 == 0)
 dialogtxt       "All right!"
-dialogtxt       "Today, we finally reach Prosbane Town!"
+dialogtxt       "We reach Prosbane Town today!"
 goto            @Label_0592
 
 @Cond_055e:
 dialogtxt       "All right!"
-dialogtxt       "Today, we finally reach Prosbane Town!"
+dialogtxt       "We reach Prosbane Town today!"
 goto            @Label_0592
 
 @Label_0592:
@@ -123,7 +123,7 @@ goto            @Cond_05ae
 @Cond_05ae:
 jumpz           @Cond_095c, ($b003 == 1)
 dialogtxt       "You still have a long way to go."
-dialogtxt       "Your training is not enough."
+dialogtxt       "Your training isn't enough."
 code0309        
 call            @Func_159a
 code0479        0, 2, 14
@@ -133,7 +133,7 @@ dialogtxt       "What?"
 goto            @Label_0638
 
 @Cond_0624:
-dialogtxt       "What's that supposed to mean?"
+dialogtxt       "What does that mean?"
 goto            @Label_0638
 
 @Label_0638:
@@ -141,8 +141,8 @@ code0309
 call            @Func_152e
 code0479        1, 0, 12
 call            @Func_1564
-dialogtxt       "The changing air and wind-borne scents"
-dialogtxt       "tell me clearly that this is"
+dialogtxt       "The changing air and scents"
+dialogtxt       "tell me this is"
 dialogtxt       "a different place from usual."
 code0309        
 call            @Func_159a
@@ -163,12 +163,12 @@ code0309
 call            @Func_152e
 code0479        1, 1, 15
 call            @Func_1564
-dialogtxt       "That is not what I mean!"
+dialogtxt       "That isn't what I mean!"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "Honestly..."
-dialogtxt       "You have no appreciation for atmosphere"
-dialogtxt       "at all."
+dialogtxt       "Honestly... You have no"
+dialogtxt       "feel for atmosphere at"
+dialogtxt       "all."
 code0309        
 call            @Func_159a
 code0479        0, 2, 14
@@ -216,23 +216,23 @@ goto            @Cond_095c
 
 @Cond_095c:
 jumpz           @Cond_0b9e, ($b003 == 2)
-dialogtxt       "How pointless."
-dialogtxt       "For a human like [NAME 4],"
-dialogtxt       "wouldn't sleeping anywhere be the same?"
+dialogtxt       "Pointless. For a human like you,"
+dialogtxt       "For someone like you, anywhere is"
+dialogtxt       "the same, wouldn't it?"
 code0309        
 call            @Func_159a
 code0479        0, 2, 14
 call            @Func_14f8
 jumpz           @Cond_0a26, ($b002 == 0)
-dialogtxt       "What did you say?"
-dialogtxt       "I want to enjoy the feeling of traveling"
-dialogtxt       "a little, too!"
+dialogtxt       "What? I want to enjoy"
+dialogtxt       " traveling,"
+dialogtxt       "too!"
 goto            @Label_0a6c
 
 @Cond_0a26:
-dialogtxt       "What's that supposed to mean?"
-dialogtxt       "I want to enjoy the feeling of traveling"
-dialogtxt       "a little, too!"
+dialogtxt       "What does that mean? I want"
+dialogtxt       "to enjoy the feeling of travel"
+dialogtxt       "little, too!"
 goto            @Label_0a6c
 
 @Label_0a6c:
@@ -240,8 +240,8 @@ code0309
 call            @Func_152e
 code0479        1, 0, 13
 call            @Func_1564
-dialogtxt       "You toss and turn so much, you'd end up"
-dialogtxt       "sleeping on the floor anyway..."
+dialogtxt       "You toss and turn so much, you'd end"
+dialogtxt       "up sleeping on the floor anyway..."
 code0309        
 call            @Func_159a
 code0479        0, 5, 12
@@ -251,13 +251,13 @@ code0309
 code043c        0, 1
 code0479        0, 1, 17
 dialogtxt       "Well then!"
-dialogtxt       "I think it's about time we set out!"
-dialogtxt       "Today, we finally reach Prosbane Town!"
+dialogtxt       "Time to set out!"
+dialogtxt       "We'll reach Prosbane Town today!"
 code0309        
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
-dialogtxt       "You think that will distract us...?"
+dialogtxt       "That'll distract us...?"
 code0309        
 call            @Func_1634
 call            @Func_1582
@@ -265,22 +265,22 @@ goto            @Cond_0b9e
 
 @Cond_0b9e:
 jumpz           @Cond_0f3a, ($b003 == 3)
-dialogtxt       "Indeed."
-dialogtxt       "At least once we reached our destination,"
-dialogtxt       "I wanted to sleep in a separate room."
+dialogtxt       "Indeed. Once we reached our"
+dialogtxt       "destination, I wanted to sleep in a"
+dialogtxt       "separate room."
 code0309        
 call            @Func_159a
 code0479        0, 2, 14
 call            @Func_14f8
 jumpz           @Cond_0c5c, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "I want to sleep alone"
+dialogtxt       " wants to sleep alone"
 dialogtxt       "in peace, too!"
 goto            @Label_0c88
 
 @Cond_0c5c:
-dialogtxt       "What's that supposed to mean?"
-dialogtxt       "Isn't that really awful?"
+dialogtxt       "What's that mean?"
+dialogtxt       "Isn't that awful?"
 goto            @Label_0c88
 
 @Label_0c88:
@@ -288,7 +288,7 @@ code0309
 call            @Func_152e
 code0479        1, 2, 16
 call            @Func_1564
-dialogtxt       "What are you talking about?"
+dialogtxt       "What do you mean?"
 dialogtxt       "Your sleep-talking, δ,"
 dialogtxt       "is incredibly loud!"
 code0309        
@@ -319,8 +319,8 @@ goto            @Label_0dea
 code0309        
 code0479        1, 2, 16
 code0479        0, 6, 16
-dialogtxt       "you shouted things like that."
-dialogtxt       "I cannot make any sense of it."
+dialogtxt       "you shouted that nonsense."
+dialogtxt       "I can't make any sense of it."
 code0309        
 call            @Func_159a
 code0479        0, 7, 16
@@ -331,14 +331,14 @@ code0309
 code043c        0, 1
 code0479        0, 2, 12
 dialogtxt       "That's right! We have to set out soon,"
-dialogtxt       "and today we finally reach Prosbane"
+dialogtxt       "and we reach Prosbane today"
 dialogtxt       "Town!"
 code0309        
 call            @Func_152e
 code0479        1, 4, 12
 call            @Func_1564
 dialogtxt       "Honestly..."
-dialogtxt       "What kind of dream were you having...?"
+dialogtxt       "What dream were you having...?"
 code0309        
 call            @Func_1634
 call            @Func_1582

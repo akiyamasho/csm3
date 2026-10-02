@@ -14,8 +14,8 @@ code0479        0, 2, 14
 call            @Func_270e
 dialogtxt       "γ... Murno..."
 jumpz           @Cond_00ee, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
-dialogtxt       "[NAME 8]...!"
+dialogtxt       "I..."
+dialogtxt       "I...!"
 goto            @Label_0110
 
 @Cond_00ee:
@@ -168,8 +168,8 @@ dialogtxt       "This thing... what in the world...!"
 goto            @Label_06b6
 
 @Cond_0680:
-dialogtxt       "You...!?"
-dialogtxt       "What does this... what in the world...!"
+dialogtxt       "You...!? What does this... what in the"
+dialogtxt       "world...!"
 goto            @Label_06b6
 
 @Label_06b6:
@@ -338,7 +338,7 @@ code0309
 call            @Func_2744
 code0479        1, 4, 12
 call            @Func_277a
-dialogtxt       "[NAME 5][NAME 8]..."
+dialogtxt       "That is..."
 code0309        
 call            @Func_27b0
 code0479        0, 2, 14
@@ -399,7 +399,7 @@ code0479        1, 0, 12
 code047d        1, 106
 call            @Func_27f4
 call            @Func_275c
-dialogtxt       "AS [NAME 5] SAYS"
+dialogtxt       "THAT IS CORRECT."
 dialogtxt       "YOU ARE THE FAKE"
 code047b        
 code0309        
@@ -505,7 +505,7 @@ call            @Func_27f4
 call            @Func_275c
 dialogtxt       "That's right."
 dialogtxt       "That one's the fake."
-dialogtxt       "It's just a [NAME 6]."
+dialogtxt       "It's just a cat..."
 code047b        
 code0309        
 call            @Func_27b0
@@ -524,7 +524,7 @@ goto            @Cond_14d4
 @Cond_14d4:
 jumpz           @Cond_1994, ($b003 == 2)
 dialogtxt       "I see..."
-dialogtxt       "So [NAME 4]-sama never"
+dialogtxt       "So you never"
 dialogtxt       "believed in me after all."
 code047b        
 code0309        
@@ -572,8 +572,8 @@ call            @Func_2744
 code0479        1, 3, 15
 call            @Func_277a
 dialogtxt       "Even if the real Murno up ahead"
-dialogtxt       "is about to become food"
-dialogtxt       "for this so-called Lord's Summon Beast?"
+dialogtxt       "is about to become food for this"
+dialogtxt       "so-called Lord's Summon Beast?"
 code0309        
 call            @Func_27b0
 code0479        0, 4, 14
@@ -611,8 +611,8 @@ code0479        1, 0, 12
 code047d        1, 106
 call            @Func_27f4
 call            @Func_275c
-dialogtxt       "Of all things,"
-dialogtxt       "you would [NAME 6] my..."
+dialogtxt       "To think you'd"
+dialogtxt       "imitate me..."
 code047b        
 code0309        
 call            @Func_27b0

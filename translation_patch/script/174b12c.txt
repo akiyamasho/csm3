@@ -322,7 +322,7 @@ dialogtxt       "I travel meeting smiths and craftsmen"
 dialogtxt       "and making connections."
 code0309        
 dialogtxt       "I'm looking for regular customers"
-dialogtxt       "so my daughter and I can run a big shop"
+dialogtxt       "so we can run a big shop together"
 dialogtxt       "together someday."
 code0309        
 dialogtxt       "I know a lot about smithing,"

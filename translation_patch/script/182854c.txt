@@ -23,9 +23,9 @@ code047d        0, 2
 call            @Func_271c
 call            @Func_2662
 jumpz           @Cond_08b0, ($b003 == 0)
-dialogtxt       "But why did they"
-dialogtxt       "suddenly start talking about execution?"
-dialogtxt       "Why would they say that?"
+dialogtxt       "But why did they suddenly start"
+dialogtxt       "talking about execution? Why would"
+dialogtxt       "they say that?"
 code047b        
 code0309        
 call            @Func_2698
@@ -99,19 +99,19 @@ dialogtxt       "would be easy to know the"
 dialogtxt       "answer. It can't be helped..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out [NAME 8]..."
+dialogtxt       "They found out ..."
 code0309        
 call            @Func_2704
 code0479        0, 5, 12
 call            @Func_2662
-dialogtxt       "They found out [NAME 8]...?"
+dialogtxt       "They found out ...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "That I was one who wrecked this village,"
-dialogtxt       "and that I had been one of Voijin’s"
-dialogtxt       "people —[NAME 8] found out!"
+dialogtxt       "They found out I wrecked this"
+dialogtxt       "village and had been one of"
+dialogtxt       "Voijin’s people!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -129,13 +129,13 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_05d6, ($b002 == 0)
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about..."
 goto            @Label_061e
 
 @Cond_05d6:
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about...?"
 goto            @Label_061e
@@ -151,15 +151,15 @@ dialogtxt       "But it is the truth."
 dialogtxt       "I used to be one of Voijin’s people."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "But [NAME 8] exposed me."
-dialogtxt       "been diverting the treasure, so Anis and"
+dialogtxt       "But they found out I was"
+dialogtxt       "diverting treasure, so Anis and"
 dialogtxt       "the others chased me as a traitor..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No... Myuno..."
-dialogtxt       "I cannot believe she was one of them..."
+dialogtxt       "No... Murno... I cannot believe she"
+dialogtxt       "was one of them..."
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -176,21 +176,21 @@ code0479        1, 5, 12
 code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
-dialogtxt       "It is a [NAME 5] lie!"
-dialogtxt       "Lady Myuno is not one of"
+dialogtxt       "It is a lie!"
+dialogtxt       "Lady Murno is not one of"
 dialogtxt       "Voijin’s people."
 code047b        
 code0309        
 code0479        1, 0, 12
-dialogtxt       "There is a high chance she is not the"
-dialogtxt       "real one. I think it would be better not"
-dialogtxt       "to follow her, [NAME 8] ."
+dialogtxt       "There's a good chance she's not the"
+dialogtxt       "real one. It would be better"
+dialogtxt       "not to follow her."
 goto            @Cond_08b0
 
 @Cond_08b0:
 jumpz           @Cond_1092, ($b003 == 1)
 dialogtxt       "But why did they suddenly"
-dialogtxt       "say they would execute Myuno?"
+dialogtxt       "say they would execute Murno?"
 dialogtxt       "Why would they say that?"
 code047b        
 code0309        
@@ -241,7 +241,7 @@ code047d        0, 2
 call            @Func_271c
 call            @Func_2662
 dialogtxt       "What are you saying,"
-dialogtxt       "Myuno?"
+dialogtxt       "Murno?"
 code047b        
 code0309        
 call            @Func_2698
@@ -266,19 +266,19 @@ dialogtxt       "would be easy to know the"
 dialogtxt       "answer. It can't be helped..."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out [NAME 8]..."
+dialogtxt       "They found out ..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "They found out [NAME 8]...?"
+dialogtxt       "They found out ...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "That I was one who wrecked this village,"
-dialogtxt       "and that I had been one of Voijin’s"
-dialogtxt       "people —[NAME 8] found out!"
+dialogtxt       "They found out I wrecked this"
+dialogtxt       "village and had been one of"
+dialogtxt       "Voijin’s people!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -295,13 +295,13 @@ code047d        0, 0
 call            @Func_2748
 call            @Func_2662
 jumpz           @Cond_0dd8, ($b002 == 0)
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about..."
 goto            @Label_0e20
 
 @Cond_0dd8:
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about...?"
 goto            @Label_0e20
@@ -317,15 +317,15 @@ dialogtxt       "But it is the truth."
 dialogtxt       "I used to be one of Voijin’s people."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "But [NAME 8] exposed me."
-dialogtxt       "been diverting the treasure, so Anis and"
+dialogtxt       "But they found out I was"
+dialogtxt       "diverting treasure, so Anis and"
 dialogtxt       "the others chased me as a traitor..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No... Myuno..."
-dialogtxt       "I cannot believe she was one of them..."
+dialogtxt       "No... Murno... I cannot believe she"
+dialogtxt       "was one of them..."
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -348,7 +348,7 @@ code047b
 code0309        
 code0479        1, 2, 15
 dialogtxt       "I swear upon this mage’s honor,"
-dialogtxt       "Myuno is absolutely not one of"
+dialogtxt       "Murno is absolutely not one of"
 dialogtxt       "those people!"
 goto            @Cond_1092
 
@@ -414,9 +414,9 @@ call            @Func_2698
 code043c        0, 3
 code0479        1, 2, 14
 call            @Func_26ce
-dialogtxt       "If you are the real one, you should know"
-dialogtxt       "why those people want"
-dialogtxt       "to execute me."
+dialogtxt       "If you are the real one, you should"
+dialogtxt       "know why those people want to execute"
+dialogtxt       "me."
 code0309        
 call            @Func_2704
 code0479        0, 5, 16
@@ -432,19 +432,19 @@ dialogtxt       "Since you do not seem to understand,"
 dialogtxt       "I will explain it to you."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "They found out [NAME 8]..."
+dialogtxt       "They found out ..."
 code0309        
 call            @Func_2704
 code0479        0, 3, 14
 call            @Func_2662
-dialogtxt       "They found out [NAME 8]...?"
+dialogtxt       "They found out ...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "That I was one who wrecked this village,"
-dialogtxt       "and that I had been one of Voijin’s"
-dialogtxt       "people —[NAME 8] found out!"
+dialogtxt       "They found out I wrecked this"
+dialogtxt       "village and had been one of"
+dialogtxt       "Voijin’s people!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -462,13 +462,13 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_15b4, ($b002 == 0)
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about..."
 goto            @Label_15fc
 
 @Cond_15b4:
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about...?"
 goto            @Label_15fc
@@ -484,15 +484,15 @@ dialogtxt       "But it is the truth."
 dialogtxt       "I used to be one of Voijin’s people."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "But [NAME 8] exposed me."
-dialogtxt       "been diverting the treasure, so Anis and"
+dialogtxt       "But they found out I was"
+dialogtxt       "diverting treasure, so Anis and"
 dialogtxt       "the others chased me as a traitor..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No... Myuno..."
-dialogtxt       "I cannot believe she was one of them..."
+dialogtxt       "No... Murno... I cannot believe she"
+dialogtxt       "was one of them..."
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -515,7 +515,7 @@ code047b
 code0309        
 code043c        1, 3
 code0479        1, 2, 15
-dialogtxt       "To say Myuno is one of them..."
+dialogtxt       "To say Murno is one of them..."
 dialogtxt       "To say such absurd things aloud"
 dialogtxt       "and expect to get away safely!"
 goto            @Cond_1890
@@ -523,7 +523,7 @@ goto            @Cond_1890
 @Cond_1890:
 jumpz           @Cond_20b2, ($b003 == 3)
 dialogtxt       "But an execution all of a sudden..."
-dialogtxt       "Lady Myuno, what on earth"
+dialogtxt       "Lady Murno, what on earth"
 dialogtxt       "happened?"
 code047b        
 code0309        
@@ -575,7 +575,7 @@ code047d        0, 2
 call            @Func_271c
 call            @Func_2662
 dialogtxt       "What are you saying,"
-dialogtxt       "Lady Myuno"
+dialogtxt       "Lady Murno"
 dialogtxt       "I am the real one!"
 code047b        
 code0309        
@@ -601,19 +601,19 @@ dialogtxt       "would be easy to know the"
 dialogtxt       "answer. It can't be helped..."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "They found out [NAME 8]..."
+dialogtxt       "They found out ..."
 code0309        
 call            @Func_2704
 code0479        1, 2, 14
 call            @Func_2662
-dialogtxt       "They found out [NAME 8]...?"
+dialogtxt       "They found out ...?"
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
 call            @Func_26ce
-dialogtxt       "That I was one who wrecked this village,"
-dialogtxt       "and that I had been one of Voijin’s"
-dialogtxt       "people —[NAME 8] found out!"
+dialogtxt       "They found out I wrecked this"
+dialogtxt       "village and had been one of"
+dialogtxt       "Voijin’s people!"
 code0309        
 call            @Func_279e
 call            @Func_26ec
@@ -631,13 +631,13 @@ code0479        1, 2, 14
 call            @Func_2748
 call            @Func_2644
 jumpz           @Cond_1dcc, ($b002 == 0)
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about..."
 goto            @Label_1e14
 
 @Cond_1dcc:
-dialogtxt       "Myuno was one of"
+dialogtxt       "Murno was one of"
 dialogtxt       "Voijin’s people...?"
 dialogtxt       "Wha... what are you talking about...?"
 goto            @Label_1e14
@@ -653,15 +653,15 @@ dialogtxt       "But it is the truth."
 dialogtxt       "I used to be one of Voijin’s people."
 code0309        
 code0479        1, 4, 12
-dialogtxt       "But [NAME 8] exposed me."
-dialogtxt       "been diverting the treasure, so Anis and"
+dialogtxt       "But they found out I was"
+dialogtxt       "diverting treasure, so Anis and"
 dialogtxt       "the others chased me as a traitor..."
 code0309        
 call            @Func_2704
 code0479        0, 2, 16
 call            @Func_2662
-dialogtxt       "No... Myuno..."
-dialogtxt       "I cannot believe she was one of them..."
+dialogtxt       "No... Murno... I cannot believe she"
+dialogtxt       "was one of them..."
 code0309        
 call            @Func_2698
 code0479        1, 2, 15
@@ -678,12 +678,12 @@ code047d        1, 2
 call            @Func_2732
 call            @Func_26ce
 dialogtxt       "Please do not be fooled!"
-dialogtxt       "That person is not Lady Myuno!"
+dialogtxt       "That person is not Lady Murno!"
 dialogtxt       "She is a fake!"
 code047b        
 code0309        
 code0479        1, 2, 15
-dialogtxt       "Lady Myuno's a liar..."
+dialogtxt       "Lady Murno's a liar..."
 dialogtxt       "Anyone who lies like that..."
 dialogtxt       "will never be forgiven!"
 goto            @Cond_20b2

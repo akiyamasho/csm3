@@ -53,8 +53,8 @@ call            @Func_08a2
 call            @Func_093c
 call            @Func_08d8
 jumpz           @Cond_01f8, ($b003 == 0)
-dialogtxt       "This waveform..."
-dialogtxt       "It Is The Voice Of The Man From Earlier."
+dialogtxt       "This waveform... It Is The Voice Of"
+dialogtxt       "The Man From Earlier."
 goto            @Cond_01f8
 
 @Cond_01f8:

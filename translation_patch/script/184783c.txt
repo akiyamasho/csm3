@@ -139,7 +139,7 @@ goto            @Cond_059c
 
 @Cond_059c:
 jumpz           @Cond_05dc, ($b003 == 2)
-dialogtxt       "We sought Master [NAME 4]."
+dialogtxt       "We were looking for you."
 dialogtxt       "That's certain."
 goto            @Cond_05dc
 

@@ -223,7 +223,7 @@ call            @Func_170e
 jumpz           @Cond_091a, ($b003 == 0)
 dialogtxt       "Energy Is Coming From The Sword!"
 dialogtxt       "His body..."
-dialogtxt       "Is Being, [NAME 8]...!"
+dialogtxt       "is being absorbed into the sword...!"
 goto            @Cond_091a
 
 @Cond_091a:
@@ -326,13 +326,13 @@ code0479        0, 2, 15
 call            @Func_175c
 call            @Func_1684
 jumpz           @Cond_0e40, ($b002 == 0)
-dialogtxt       "What is this, [NAME 8]...!"
+dialogtxt       "What is this...!"
 dialogtxt       "I'm being sucked in...?!"
 dialogtxt       "γ...!"
 goto            @Label_0e7c
 
 @Cond_0e40:
-dialogtxt       "What is this, [NAME 8]...!"
+dialogtxt       "What is this...!"
 dialogtxt       "I'm being sucked in...?!"
 dialogtxt       "γ...!"
 goto            @Label_0e7c

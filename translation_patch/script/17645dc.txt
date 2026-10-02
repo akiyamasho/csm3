@@ -26,15 +26,15 @@ code047d        1, 2
 call            @Func_2af4
 jumpz           @Cond_01d0, ($b003 == 0)
 call            @Func_29f0
-dialogtxt       "Murno's studying the magic crystal pillar."
+dialogtxt       "Murno's studying the Crystal Pillar."
 dialogtxt       "Can I help somehow?"
 code047b        
 code0309        
 call            @Func_2a44
 code0479        1, 0, 12
 call            @Func_2a7a
-dialogtxt       "[NAME 5][NAME 8]"
-dialogtxt       "what it means to assist."
+dialogtxt       "Searching for that"
+dialogtxt       "is part of helping."
 code0309        
 call            @Func_2ab0
 code0479        0, 1, 16
@@ -49,8 +49,8 @@ goto            @Cond_01d0
 @Cond_01d0:
 jumpz           @Cond_02ae, ($b003 == 1)
 call            @Func_29f0
-dialogtxt       "Murno's studying the magic crystal pillar."
-dialogtxt       "Can I help somehow?"
+dialogtxt       "Murno's studying the magic crystal"
+dialogtxt       "pillar. Can I help somehow?"
 code047b        
 code0309        
 call            @Func_2a44
@@ -72,8 +72,8 @@ goto            @Cond_02ae
 @Cond_02ae:
 jumpz           @Cond_037e, ($b003 == 2)
 call            @Func_29f0
-dialogtxt       "Murno's studying the magic crystal pillar."
-dialogtxt       "Can I help somehow?"
+dialogtxt       "Murno's studying the magic crystal"
+dialogtxt       "pillar. Can I help somehow?"
 code047b        
 code0309        
 call            @Func_2a44
@@ -94,8 +94,8 @@ goto            @Cond_037e
 @Cond_037e:
 jumpz           @Cond_0484, ($b003 == 3)
 call            @Func_29f0
-dialogtxt       "Murno's studying the magic crystal pillar."
-dialogtxt       "Can I help somehow?"
+dialogtxt       "Murno's studying the magic crystal"
+dialogtxt       "pillar. Can I help somehow?"
 code047b        
 code0309        
 call            @Func_2a44
@@ -163,9 +163,9 @@ code0309
 call            @Func_2a44
 code0479        1, 0, 12
 call            @Func_2a7a
-dialogtxt       "However, even if she is a Summoner,"
-dialogtxt       "will taking her with [NAME 8]"
-dialogtxt       "really resolve this situation?"
+dialogtxt       "Still, even if she is a Summoner,"
+dialogtxt       "would bringing her with us"
+dialogtxt       "really solve this?"
 code0309        
 call            @Func_2ab0
 code0479        0, 2, 15
@@ -206,9 +206,9 @@ code0309
 call            @Func_2a44
 code0479        1, 2, 16
 call            @Func_2a7a
-dialogtxt       "However, even if she is a Summoner,"
-dialogtxt       "taking that girl with us"
-dialogtxt       "would pour oil on the fire, would it not?"
+dialogtxt       "Still, even if she is a Summoner,"
+dialogtxt       "taking that girl with us would pour"
+dialogtxt       "oil on the fire, would it not?"
 code0309        
 call            @Func_2ab0
 code0479        0, 2, 15
@@ -355,7 +355,7 @@ code0309
 call            @Func_2a44
 code0479        1, 0, 12
 call            @Func_2a7a
-dialogtxt       "There is no other way, [NAME 6]."
+dialogtxt       "It can't be helped."
 code0309        
 call            @Func_2b4a
 call            @Func_2a98
@@ -472,7 +472,7 @@ goto            @Cond_120e
 @Cond_120e:
 jumpz           @Cond_1262, ($b003 == 2)
 dialogtxt       "You may escape if you wish."
-dialogtxt       "Then eliminate [NAME 4]."
+dialogtxt       "Then I'll have cause to erase you."
 goto            @Cond_1262
 
 @Cond_1262:
@@ -558,8 +558,8 @@ goto            @Label_1524
 call            @Func_2a7a
 jumpz           @Cond_1578, ($b003 == 0)
 dialogtxt       "Understood."
-dialogtxt       "I Do Not Believe There Is Any"
-dialogtxt       "Must remain here, [NAME 8]."
+dialogtxt       "I do not think we need to"
+dialogtxt       "stay in this village."
 goto            @Cond_1578
 
 @Cond_1578:
@@ -685,26 +685,26 @@ goto            @Label_19d6
 @Label_19d6:
 call            @Func_2a7a
 jumpz           @Cond_1a28, ($b003 == 0)
-dialogtxt       "I Believe Not Only The Foreman,"
-dialogtxt       "Our brother's angry, [NAME 8]."
+dialogtxt       "Not only the foreman,"
+dialogtxt       "Big Brother may be angry, too."
 goto            @Cond_1a28
 
 @Cond_1a28:
 jumpz           @Cond_1a72, ($b003 == 1)
 dialogtxt       "When we return to town,"
-dialogtxt       "you'll be scolded by [NAME 4] too, I expect."
+dialogtxt       "Big Brother will scold you, too."
 goto            @Cond_1a72
 
 @Cond_1a72:
 jumpz           @Cond_1ac6, ($b003 == 2)
-dialogtxt       "When we return, [NAME 4]"
-dialogtxt       "will scold [NAME 4] too."
+dialogtxt       "When you return,"
+dialogtxt       "Big Brother will scold you, too."
 dialogtxt       "Heh... I can hardly wait."
 goto            @Cond_1ac6
 
 @Cond_1ac6:
 jumpz           @Cond_1b1c, ($b003 == 3)
-dialogtxt       "[NAME 4] will scold you too,"
+dialogtxt       "Big Brother will scold you, too,"
 dialogtxt       "with a terribly frightening look"
 dialogtxt       "on their face..."
 goto            @Cond_1b1c
@@ -763,7 +763,7 @@ code047d        1, 2
 call            @Func_2af4
 call            @Func_29f0
 jumpz           @Cond_1d3c, ($b002 == 0)
-dialogtxt       "Someone is looking for [NAME 8]."
+dialogtxt       "Someone is looking for me."
 dialogtxt       "Who could it be...?"
 goto            @Label_1d70
 
@@ -797,9 +797,9 @@ goto            @Label_1e08
 @Label_1e08:
 call            @Func_2a7a
 jumpz           @Cond_1e76, ($b003 == 0)
-dialogtxt       "Maybe the foreman, [NAME 8]."
-dialogtxt       "If We Meet Again, His Anger May Explode"
-dialogtxt       "And Result In Combat."
+dialogtxt       "It may be the foreman."
+dialogtxt       "If we meet again, his anger may flare,"
+dialogtxt       "and we could end up fighting."
 goto            @Cond_1e76
 
 @Cond_1e76:
@@ -829,7 +829,7 @@ call            @Func_2ab0
 code0479        0, 2, 14
 call            @Func_2a0e
 dialogtxt       "T-that makes it frightening..."
-dialogtxt       "Even if it's [NAME 4],"
+dialogtxt       "Even if it was Big Brother,"
 dialogtxt       "we may be in for a rough time..."
 code0309        
 call            @Func_2b34

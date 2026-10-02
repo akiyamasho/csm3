@@ -10,7 +10,7 @@ code047e        0, 1
 code047d        1, 2
 code047e        1, 1
 code047b        
-dialogtxt       "Guardian Beast dialogue from Episode 0."
+dialogtxt       "Guardian Beast dialogue, Episode 0."
 dialogtxt       "Protagonist β"
 dialogtxt       "Guardian Beast γ"
 code0309        

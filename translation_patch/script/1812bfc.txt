@@ -14,9 +14,9 @@ code047d        0, 0
 code047d        1, 124
 call            @Func_1a3e
 call            @Func_1966
-dialogtxt       "Hello."
-dialogtxt       "I have a delivery from Benon's workshop."
-dialogtxt       "I've brought it."
+dialogtxt       "Hello. I have a delivery from"
+dialogtxt       "Benon's workshop. I've brought"
+dialogtxt       "it."
 code0309        
 call            @Func_1a94
 call            @Func_19a2
@@ -53,9 +53,9 @@ call            @Func_19ba
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "I can tell by looking at the merchandise!"
-dialogtxt       "Fortunately, there aren't any scratches,"
-dialogtxt       "but this won't do!"
+dialogtxt       "I can tell by looking at the"
+dialogtxt       "merchandise! Fortunately, there aren't"
+dialogtxt       "any scratches, but this won't do!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -70,7 +70,7 @@ call            @Func_19ba
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "You look like a smith yourself, so start"
+dialogtxt       "You look like a smith, so start"
 dialogtxt       "your training over from the beginning."
 code0309        
 code047e        1, 0
@@ -197,7 +197,7 @@ goto            @Label_0794
 
 @Label_0794:
 code0309        
-dialogtxt       "Take [NAME 8] as your reward."
+dialogtxt       "Take this as your reward."
 code0309        
 code047e        1, 0
 code0302        7
@@ -320,9 +320,9 @@ call            @Func_19ba
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "I can tell by looking at the merchandise!"
-dialogtxt       "Fortunately, there aren't any scratches,"
-dialogtxt       "but this won't do!"
+dialogtxt       "I can tell by looking at the"
+dialogtxt       "merchandise! Fortunately, there aren't"
+dialogtxt       "any scratches, but this won't do!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -337,9 +337,9 @@ call            @Func_19ba
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "You look like a smith yourself, You were"
-dialogtxt       "late, and your work was sloppy, too."
-dialogtxt       "You'd better mend your ways!"
+dialogtxt       "You look like a smith yourself, You"
+dialogtxt       "were late, and your work was sloppy,"
+dialogtxt       "too. You'd better mend your ways!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -461,7 +461,7 @@ goto            @Label_10d0
 
 @Label_10d0:
 code0309        
-dialogtxt       "Take [NAME 8] as your reward."
+dialogtxt       "Take this as your reward."
 code0309        
 code047e        1, 0
 code0302        5

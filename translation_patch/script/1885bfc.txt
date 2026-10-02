@@ -80,7 +80,7 @@ call            @Func_4f76
 call            @Func_4e9e
 jumpz           @Cond_034c, ($b002 == 0)
 dialogtxt       "This is..."
-dialogtxt       "[NAME 8]..."
+dialogtxt       "I..."
 dialogtxt       "I'm back..."
 goto            @Label_0378
 
@@ -126,18 +126,18 @@ code0479        0, 5, 16
 call            @Func_4ebc
 jumpz           @Cond_0540, ($b002 == 0)
 dialogtxt       "N-no..."
-dialogtxt       "γ went alone"
-dialogtxt       "to save [NAME 8]...!"
+dialogtxt       "He went alone"
+dialogtxt       "to save me...!"
 code0309        
 code0479        0, 4, 17
 dialogtxt       "He said he was counting on you to..."
 dialogtxt       "Damn it...!"
-dialogtxt       "[NAME 8] is...!"
+dialogtxt       "I am...!"
 goto            @Label_05d8
 
 @Cond_0540:
 dialogtxt       "N-no..."
-dialogtxt       "γ went alone"
+dialogtxt       "He went alone"
 dialogtxt       "to save me...!"
 code0309        
 code0479        0, 4, 17
@@ -325,8 +325,8 @@ call            @Func_4f76
 call            @Func_4ebc
 jumpz           @Cond_0d10, ($b002 == 0)
 dialogtxt       "Damn..."
-dialogtxt       "[NAME 8] is..."
-dialogtxt       "[NAME 8] is...!!"
+dialogtxt       "I..."
+dialogtxt       "I...!!"
 goto            @Label_0d40
 
 @Cond_0d10:
@@ -431,9 +431,9 @@ code047d        1, 107
 code0479        0, 0, 16
 call            @Func_4fa2
 call            @Func_4f0a
-dialogtxt       "Don't give up, δ."
-dialogtxt       "I told you this Summon Stone is close..."
-dialogtxt       "so it's difficult to handle."
+dialogtxt       "Don't give up, δ. I told you this"
+dialogtxt       "Summon Stone is close... so it's"
+dialogtxt       "difficult to handle."
 code0309        
 call            @Func_4fe2
 call            @Func_4f5e
@@ -496,7 +496,7 @@ call            @Func_4e9e
 jumpz           @Cond_1516, ($b002 == 0)
 dialogtxt       "Everyone..."
 dialogtxt       "Thank you...!"
-dialogtxt       "[NAME 8] will never give up!"
+dialogtxt       "I won't give up!"
 goto            @Label_155a
 
 @Cond_1516:
@@ -556,8 +556,8 @@ dialogtxt       "precious partner, right?"
 dialogtxt       "What good will giving up do?!"
 code0309        
 code0479        1, 2, 12
-dialogtxt       "Come on, I'll lend you my strength, too."
-dialogtxt       "So, one more time!"
+dialogtxt       "Come on, I'll lend you my strength,"
+dialogtxt       "too. So, one more time!"
 code0309        
 call            @Func_4f5e
 code0479        0, 2, 12
@@ -623,7 +623,7 @@ code0309
 call            @Func_4f5e
 code0479        0, 0, 16
 call            @Func_4ebc
-dialogtxt       "[NAME 8]-mii?"
+dialogtxt       "Lemmy?"
 code047b        
 code0309        
 call            @Func_4ef2
@@ -647,7 +647,7 @@ code0309
 call            @Func_4f5e
 code0479        0, 2, 12
 call            @Func_4ebc
-dialogtxt       "[NAME 8]-mii..."
+dialogtxt       "Lemmy..."
 dialogtxt       "Yeah, let's try...!"
 code0309        
 call            @Func_4ff8
@@ -707,7 +707,7 @@ code0309
 call            @Func_4f5e
 code0479        0, 0, 16
 call            @Func_4ebc
-dialogtxt       "Bro [NAME 4]?"
+dialogtxt       "Big bro?"
 code047b        
 code0309        
 call            @Func_4ef2
@@ -723,13 +723,13 @@ dialogtxt       "is the moment you can't do it!"
 code0309        
 code0479        1, 2, 15
 dialogtxt       "So don't give up!"
-dialogtxt       "[NAME 8] will never give up!"
+dialogtxt       "I won't give up!"
 code0309        
 call            @Func_4f5e
 code0479        0, 2, 12
 call            @Func_4ebc
 dialogtxt       "I see... Yeah..."
-dialogtxt       "Got it, Bro [NAME 4]."
+dialogtxt       "Got it, big bro."
 code0309        
 call            @Func_4ff8
 call            @Func_4eda
@@ -793,8 +793,8 @@ call            @Func_4ef2
 code0479        1, 0, 12
 call            @Func_4f28
 dialogtxt       "We're trying so hard"
-dialogtxt       "to call γ back."
-dialogtxt       "There's no way γ can't hear us!"
+dialogtxt       "to call γ back,"
+dialogtxt       "there's no way he won't hear us!"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "I'll ask her with you..."
@@ -910,7 +910,7 @@ code0479        0, 2, 16
 code047d        0, 110
 call            @Func_4f76
 call            @Func_4ebc
-dialogtxt       "γ isn't enough"
+dialogtxt       "He's not enough"
 dialogtxt       "on his own..."
 goto            @Label_29e8
 
@@ -1462,8 +1462,8 @@ code047b
 code0309        
 code0479        0, 11, 12
 code0479        1, 7, 13
-dialogtxt       "you are the δ"
-dialogtxt       "that [NAME 8] believed in!"
+dialogtxt       "You're the one I believed in,"
+dialogtxt       "δ!"
 code0309        
 call            @Func_4f5e
 code0479        0, 7, 13

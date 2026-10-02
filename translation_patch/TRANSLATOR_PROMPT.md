@@ -18,12 +18,12 @@ Before editing, read:
 Preserve every non-payload byte/structure and every control feature:
 
 - opcode/command names, labels, addresses, variables, expressions, numeric arguments, comments, indentation, and ordering;
-- `[NAME 0]`, `[NAME 1]`, all bracketed substitutions, escape sequences, and control codes exactly and in the same position;
+- all substitution/control tokens verified in the original Japanese ROM payload, including genuine `[NAME 0]`–`[NAME 8]` controls, escape sequences, and control codes; preserve them exactly and in the same position;
 - quote delimiters and escaped quotes;
 - every original `dialogtxt` line, page break, and intentional spacing/full-width space;
 - `dialogbig` coordinates/flags, table widths, allocation lengths, and any size-sensitive metadata.
 
-Do not rewrap lines for prose convenience. If an English payload cannot fit its allocation, use a faithful concise rendering and report the constraint. Never modify labels, opcodes, addresses, variables, or control codes to make a sentence work.
+Do not infer validity or invalidity from a token's number or from its presence in an English `HEAD` payload. Compare ambiguous markers with the original Japanese ROM payload and runtime behavior; a marker introduced only in English `HEAD` may be repaired only when that comparison proves it is unsupported. Raw Greek β–ρ in runtime text encode NAME0–NAME15 controls (SJIS `83 C0`–`83 CF`), not static-width letters; the current corpus has observed NAME0–NAME8, while the dispatcher supports 16 indices. Runtime sizing is separate: `[NAME 0]` and `[NAME 1]` expand to six glyphs in the observed engine path, while other dynamic NAME values require runtime UI review. Do not rewrap lines for prose convenience. If an English payload cannot fit its allocation, use a faithful concise rendering and report the constraint. Never modify labels, opcodes, addresses, variables, or source-verified control codes to make a sentence work.
 
 ## Scope exclusions
 
@@ -34,7 +34,7 @@ Do not rewrap lines for prose convenience. If an English payload cannot fit its 
 
 ## Voice and terminology
 
-Use the memory’s character bible. Keep V.E’s mentor authority and “Master” correction, Rob’s warm master register, Murno’s formal/vulnerable voice, γ’s clipped analytical speech, and the distinct older forest-worker voices. Use canonical terms such as “Summon Beast”, “Summon Stone”, “Craftknight”, “Stray Summon Beast”, “Master”, “Lyndbaum”, “GUNVALD”, and “Bogrim” exactly as specified. Preserve `[NAME 0]/[NAME 1]` tokens. Use title case for named UI labels and sentence case for descriptions. Treat memory items marked `[UNCERTAIN]` as report-only decisions: do not silently promote a guess to canon.
+Use the memory’s character bible. Keep V.E’s mentor authority and “Master” correction, Rob’s warm master register, Murno’s formal/vulnerable voice, γ’s clipped analytical speech, and the distinct older forest-worker voices. Use canonical terms such as “Summon Beast”, “Summon Stone”, “Craftknight”, “Stray Summon Beast”, “Master”, “Lyndbaum”, “GUNVALD”, and “Bogrim” exactly as specified. Preserve all genuine bracketed substitution/control tokens, including `[NAME 0]`–`[NAME 8]`, exactly. Use title case for named UI labels and sentence case for descriptions. Treat memory items marked `[UNCERTAIN]` as report-only decisions: do not silently promote a guess to canon.
 
 ## Required workflow
 

@@ -137,7 +137,7 @@ goto            @Cond_0554
 
 @Cond_0554:
 jumpz           @Cond_0584, ($b003 == 2)
-dialogtxt       "Master [NAME 4]..."
+dialogtxt       "You..."
 dialogtxt       "Don't be ridiculous!"
 goto            @Cond_0584
 
@@ -156,7 +156,7 @@ code047d        0, 0
 call            @Func_1ef6
 call            @Func_1e3c
 jumpz           @Cond_0630, ($b002 == 0)
-dialogtxt       "Oh, this is [NAME 8]'s"
+dialogtxt       "Oh, this is my"
 dialogtxt       "partner. They're with us!"
 goto            @Label_0668
 
@@ -196,9 +196,9 @@ code047b
 code047d        0, 120
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "They showed up deeper in!"
-dialogtxt       "Stray Summon Beasts!"
-dialogtxt       "And there are a whole lot of huge ones!"
+dialogtxt       "Deeper in! Stray Summon"
+dialogtxt       "Beasts! And there are a whole lot of"
+dialogtxt       "huge ones!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -285,7 +285,7 @@ code047d        1, 2
 call            @Func_1f0c
 call            @Func_1ea8
 jumpz           @Cond_0bce, ($b003 == 0)
-dialogtxt       "([NAME 5], Like [NAME 8]'s outfit!"
+dialogtxt       "(So, this outfit is"
 dialogtxt       "It is identical to the one"
 dialogtxt       "worn by those targeting Lady Murno.)"
 goto            @Cond_0bce
@@ -299,7 +299,7 @@ goto            @Cond_0c36
 
 @Cond_0c36:
 jumpz           @Cond_0c9c, ($b003 == 2)
-dialogtxt       "(Master [NAME 4], where are"
+dialogtxt       "(Master, where are"
 dialogtxt       "you looking!? That person is dressed"
 dialogtxt       "just like Murno's enemies...)"
 goto            @Cond_0c9c
@@ -332,7 +332,7 @@ code0479        0, 2, 17
 call            @Func_1e3c
 jumpz           @Cond_0dda, ($b002 == 0)
 dialogtxt       "N-No!"
-dialogtxt       "It's [NAME 8]'s partner!"
+dialogtxt       "It's my partner!"
 goto            @Label_0e0e
 
 @Cond_0dda:
@@ -345,7 +345,7 @@ code0309
 call            @Func_1e72
 code0479        1, 0, 14
 call            @Func_1ea8
-dialogtxt       "Oh, Master [NAME 4]."
+dialogtxt       "Oh, Master."
 dialogtxt       "Traveling with a Summon Beast...?"
 code0309        
 call            @Func_1ede
@@ -393,7 +393,7 @@ call            @Func_1f0c
 call            @Func_1ea8
 dialogtxt       "I see..."
 dialogtxt       "I hope they're a worthy opponent"
-dialogtxt       "for [NAME 8]..."
+dialogtxt       "That would be fine..."
 code0309        
 call            @Func_1f62
 call            @Func_1ec6
@@ -411,9 +411,9 @@ code0302        7
 code0479        1, 0, 13
 call            @Func_1f0c
 call            @Func_1ea8
-dialogtxt       "Dangerous...?"
-dialogtxt       "That's exactly why I'm going!"
-dialogtxt       "An iron fortress that fears no attack..."
+dialogtxt       "Dangerous...? That's exactly why I'm"
+dialogtxt       "going! An iron fortress that fears no"
+dialogtxt       "attack..."
 code0309        
 code0479        1, 2, 12
 code047d        1, 115
@@ -431,8 +431,8 @@ code0309
 call            @Func_1e72
 code0479        1, 1, 12
 call            @Func_1ea8
-dialogtxt       "Heh heh heh... I hope they're opponents"
-dialogtxt       "who can make [NAME 8] feel"
+dialogtxt       "Heh heh heh... I hope they're"
+dialogtxt       "opponents who can make me feel"
 dialogtxt       "some pain..."
 code0309        
 code0479        1, 2, 12

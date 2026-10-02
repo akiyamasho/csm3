@@ -208,7 +208,7 @@ code040b
 code0301        8, 7
 code047d        0, 131
 code047e        0, 1
-dialogtxt       "Come on, you two..."
+dialogtxt       "[NAME 2] and Remy, a match...?"
 dialogtxt       "Why do you have to fight...?"
 code0309        
 code047e        0, 0

@@ -174,7 +174,7 @@ code040b
 
 @Event_076a:
 code0301        8, 7
-dialogtxt       "Beyond this point is a maiden's secret ◎"
+dialogtxt       "Beyond here is a maiden's secret ◎"
 dialogtxt       "No entry!!"
 dialogtxt       "　　　　　　　　　　　Tier"
 code0309        

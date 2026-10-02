@@ -322,10 +322,10 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "A child beat Akaba[NAME 6]."
+dialogtxt       "A child beat Akabane."
 code0309        
-dialogtxt       "with a truly terrifying expression, They"
-dialogtxt       "say it's so violent you'd never think it's a"
+dialogtxt       "with a terrifying look, they say it's"
+dialogtxt       "so violent you'd never think it's a"
 dialogtxt       "child. Or so they say."
 code0309        
 code047e        0, 0

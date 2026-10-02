@@ -81,8 +81,8 @@ call            @Func_2e4e
 code0479        0, 11, 13
 call            @Func_2dac
 jumpz           @Cond_03b2, ($b002 == 0)
-dialogtxt       "You recognize [NAME 8], γ?"
-dialogtxt       "You're back to normal!"
+dialogtxt       "You recognize [NAME 1]?"
+dialogtxt       "You are back to normal!"
 goto            @Label_03e8
 
 @Cond_03b2:
@@ -102,7 +102,7 @@ code0309
 code0333        2, 30
 code0479        1, 0, 12
 dialogtxt       "We Must Remove"
-dialogtxt       "Let's remove [NAME 4]"
+dialogtxt       "the cause while we can."
 code0309        
 call            @Func_2e4e
 code0334        
@@ -123,7 +123,7 @@ call            @Func_2de2
 code0479        1, 0, 12
 call            @Func_2e18
 dialogtxt       "If we can remove that sword,"
-dialogtxt       "source, [NAME 4]..."
+dialogtxt       "the source of this wave..."
 code0309        
 call            @Func_2e4e
 code0479        0, 2, 13
@@ -152,8 +152,8 @@ call            @Func_2e4e
 code0479        0, 11, 13
 call            @Func_2dac
 jumpz           @Cond_0668, ($b002 == 0)
-dialogtxt       "You recognize [NAME 8], γ?"
-dialogtxt       "You're back to normal!"
+dialogtxt       "You recognize [NAME 1]?"
+dialogtxt       "You are back to normal!"
 goto            @Label_069e
 
 @Cond_0668:
@@ -221,8 +221,8 @@ call            @Func_2e4e
 code0479        0, 11, 13
 call            @Func_2dac
 jumpz           @Cond_0918, ($b002 == 0)
-dialogtxt       "You recognize [NAME 8], γ?"
-dialogtxt       "You're back to normal!"
+dialogtxt       "You recognize [NAME 1]?"
+dialogtxt       "You are back to normal!"
 goto            @Label_094e
 
 @Cond_0918:
@@ -235,9 +235,9 @@ code0309
 call            @Func_2de2
 code0479        1, 2, 14
 call            @Func_2e18
-dialogtxt       "After being [NAME 4]'"
-dialogtxt       "so loudly,"
-dialogtxt       "even I had to wake up..."
+dialogtxt       "After you kept"
+dialogtxt       "shouting your feelings at me,"
+dialogtxt       "I had no choice but to wake..."
 code0309        
 code0333        2, 30
 code0479        1, 3, 12
@@ -291,8 +291,8 @@ call            @Func_2e4e
 code0479        0, 11, 13
 call            @Func_2dac
 jumpz           @Cond_0bea, ($b002 == 0)
-dialogtxt       "You recognize [NAME 8], γ?"
-dialogtxt       "You're back to normal!"
+dialogtxt       "You recognize [NAME 1]?"
+dialogtxt       "You are back to normal!"
 goto            @Label_0c20
 
 @Cond_0bea:
@@ -459,12 +459,12 @@ code0479        0, 2, 15
 call            @Func_2e92
 call            @Func_2d8e
 jumpz           @Cond_1300, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_132e
 
 @Cond_1300:
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_132e
 
@@ -555,13 +555,13 @@ code047d        0, 0
 call            @Func_2e66
 call            @Func_2dac
 jumpz           @Cond_176c, ($b002 == 0)
-dialogtxt       "That's our Master! So cool!"
-dialogtxt       "Keep it up, and take care of Anise, too!"
+dialogtxt       "That's our Master! So cool! Keep it"
+dialogtxt       "up, and take care of Anise, too!"
 goto            @Label_17b0
 
 @Cond_176c:
-dialogtxt       "That's our Master! So cool!"
-dialogtxt       "Keep it up, and take care of Anise, too!"
+dialogtxt       "That's our Master! So cool! Keep it"
+dialogtxt       "up, and take care of Anise, too!"
 goto            @Label_17b0
 
 @Label_17b0:
@@ -570,9 +570,9 @@ code0309
 call            @Func_2de2
 code0479        1, 5, 14
 call            @Func_2e18
-dialogtxt       "Huh?"
-dialogtxt       "Ah... yeah!"
-dialogtxt       "I don't really understand, but I got it!"
+dialogtxt       "Huh? Ah... yeah! I don't"
+dialogtxt       "really understand, but I got"
+dialogtxt       "it!"
 code0309        
 call            @Func_2ee8
 call            @Func_2e36
@@ -593,12 +593,12 @@ code0479        0, 2, 15
 call            @Func_2e92
 call            @Func_2d8e
 jumpz           @Cond_192a, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_1958
 
 @Cond_192a:
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_1958
 
@@ -648,7 +648,7 @@ code0309
 call            @Func_2e4e
 code0479        0, 2, 15
 call            @Func_2dac
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 dialogtxt       "How is it over there?"
 code0309        
 call            @Func_2ee8
@@ -706,13 +706,13 @@ code0479        1, 3, 14
 call            @Func_2e66
 call            @Func_2dac
 jumpz           @Cond_1dce, ($b002 == 0)
-dialogtxt       "Ani[NAME 4]!"
+dialogtxt       "Bro!"
 dialogtxt       "You came at just the right time!"
 dialogtxt       "Take care of Anise!"
 goto            @Label_1e12
 
 @Cond_1dce:
-dialogtxt       "Ani[NAME 4]!"
+dialogtxt       "Bro!"
 dialogtxt       "You came at just the right time!"
 dialogtxt       "Please take care of Anise!"
 goto            @Label_1e12
@@ -749,12 +749,12 @@ code0479        0, 2, 15
 call            @Func_2e92
 call            @Func_2d8e
 jumpz           @Cond_1fac, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_1fda
 
 @Cond_1fac:
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "please!"
 goto            @Label_1fda
 
@@ -806,7 +806,7 @@ call            @Func_2e4e
 code047b        
 code0479        0, 2, 15
 call            @Func_2dac
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 dialogtxt       "How is it over there?"
 code0309        
 call            @Func_2ebc
@@ -857,7 +857,7 @@ call            @Func_2e4e
 code047b        
 code0479        0, 2, 15
 call            @Func_2dac
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 dialogtxt       "How is it over there?"
 code0309        
 call            @Func_2ebc

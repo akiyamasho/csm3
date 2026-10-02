@@ -82,9 +82,9 @@ code0309
 call            @Func_1680
 code0479        1, 0, 12
 call            @Func_16b6
-dialogtxt       "I AM CONCERNED, [NAME 6]"
+dialogtxt       "PLEASE."
 dialogtxt       "IF YOU DO NOT WIN, MURNO"
-dialogtxt       "CANNOT SEE THE CRYSTAL [NAME 4] PILLAR"
+dialogtxt       "CANNOT SEE THE CRYSTAL PILLAR"
 code0309        
 call            @Func_16ec
 code0479        0, 1, 16
@@ -96,7 +96,7 @@ dialogtxt       "I'll do my best."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "So, anyway,"
-dialogtxt       "I'm heading out soon, [NAME 8]."
+dialogtxt       "I'm heading out soon."
 dialogtxt       "What about you, γ?"
 goto            @Label_0488
 
@@ -116,7 +116,7 @@ code0309
 call            @Func_1680
 code0479        1, 1, 12
 call            @Func_16b6
-dialogtxt       "I WILL FOLLOW [NAME 4]"
+dialogtxt       "I WILL FOLLOW YOU"
 dialogtxt       "BECAUSE I AM YOUR PARTNER"
 code0309        
 call            @Func_16ec
@@ -137,8 +137,8 @@ call            @Func_1680
 code0479        1, 0, 12
 call            @Func_16b6
 dialogtxt       "IF YOU GO ALONE, THERE IS A HIGH"
-dialogtxt       "TROUBLE FOR [NAME 4]!"
-dialogtxt       "BEFORE THE BATTLE"
+dialogtxt       "CHANCE OF TROUBLE"
+dialogtxt       "BEFORE THE BATTLE."
 goto            @Cond_05ae
 
 @Cond_05ae:
@@ -180,7 +180,7 @@ dialogtxt       "I'll do my best."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "So, anyway,"
-dialogtxt       "I'm heading out soon, [NAME 8]."
+dialogtxt       "I'm heading out soon."
 dialogtxt       "What about you, γ?"
 goto            @Label_083e
 
@@ -219,7 +219,7 @@ goto            @Cond_0936
 @Cond_0936:
 jumpz           @Cond_0cb6, ($b003 == 2)
 dialogtxt       "Do you really think you can win"
-dialogtxt       "on your own, [NAME 4]-sama?"
+dialogtxt       "on your own?"
 code0309        
 call            @Func_16ec
 code0479        0, 0, 16
@@ -239,9 +239,9 @@ code0309
 call            @Func_1680
 code0479        1, 11, 14
 call            @Func_16b6
-dialogtxt       "I-I'd never worry, [NAME 4]!"
-dialogtxt       "It would just be troublesome"
-dialogtxt       "If [NAME 4]-sama loses."
+dialogtxt       "I-I'd never worry about you!"
+dialogtxt       "If you lost and couldn't see"
+dialogtxt       "the Crystal Pillar, it'd be a hassle."
 code0309        
 call            @Func_16ec
 code0479        0, 0, 12
@@ -253,7 +253,7 @@ dialogtxt       "I'll do my best."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "So, anyway,"
-dialogtxt       "I'm heading out soon, [NAME 8]."
+dialogtxt       "I'm heading out soon."
 dialogtxt       "What about you, γ?"
 goto            @Label_0bd8
 
@@ -264,7 +264,7 @@ dialogtxt       "I'll do my best."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "So, anyway,"
-dialogtxt       "I'm heading out soon, [NAME 8]."
+dialogtxt       "I'm heading out soon."
 dialogtxt       "What about you, γ?"
 goto            @Label_0bd8
 
@@ -273,9 +273,9 @@ code0309
 call            @Func_1680
 code0479        1, 4, 12
 call            @Func_16b6
-dialogtxt       "..."
-dialogtxt       "It's troublesome, but"
-dialogtxt       "I suppose I have no choice but to follow."
+dialogtxt       "... It's troublesome, but I"
+dialogtxt       "suppose I have no choice but to"
+dialogtxt       "follow."
 code0309        
 call            @Func_16ec
 code0479        0, 0, 12
@@ -286,8 +286,8 @@ call            @Func_1680
 code0479        1, 2, 13
 call            @Func_16b6
 dialogtxt       "I must keep watch so"
-dialogtxt       "[NAME 4] -sama"
-dialogtxt       "doesn't get scared and run away."
+dialogtxt       "you don't get scared"
+dialogtxt       "and run away."
 goto            @Cond_0cb6
 
 @Cond_0cb6:
@@ -315,9 +315,9 @@ code0309
 call            @Func_1680
 code0479        1, 4, 16
 call            @Func_16b6
-dialogtxt       "But if you lose, Lady Murno"
-dialogtxt       "won't be able to see the Crystal Pillar."
-dialogtxt       "I'm worried."
+dialogtxt       "But if you lose, Lady Murno won't be"
+dialogtxt       "able to see the Crystal Pillar. I'm"
+dialogtxt       "worried."
 code0309        
 call            @Func_16ec
 code0479        0, 2, 12
@@ -328,7 +328,7 @@ code0309
 code0479        0, 0, 16
 jumpz           @Cond_0eb4, ($b002 == 0)
 dialogtxt       "So, anyway,"
-dialogtxt       "I'm heading out soon, [NAME 8]."
+dialogtxt       "I'm heading out soon."
 dialogtxt       "What about you, γ?"
 goto            @Label_0ef6
 

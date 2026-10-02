@@ -205,14 +205,14 @@ code0479        0, 4, 15
 call            @Func_1b08
 jumpz           @Cond_08fe, ($b002 == 0)
 dialogtxt       "No..."
-dialogtxt       "It forgot..."
-dialogtxt       "You know [NAME 5], γ!"
+dialogtxt       "It forgot me?"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Cond_08fe:
 dialogtxt       "No..."
-dialogtxt       "It forgot..."
-dialogtxt       "You know [NAME 5], γ!"
+dialogtxt       "It forgot me?"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Label_0932:
@@ -253,7 +253,7 @@ call            @Func_1bc2
 call            @Func_1b08
 jumpz           @Cond_0a82, ($b002 == 0)
 dialogtxt       "Damn it..."
-dialogtxt       "What should [NAME 8] do...?"
+dialogtxt       "What should I do...?"
 goto            @Label_0ab8
 
 @Cond_0a82:
@@ -346,8 +346,8 @@ code047b
 code0309        
 code0479        0, 4, 14
 jumpz           @Cond_0f08, ($b002 == 0)
-dialogtxt       "no longer knows [NAME 8]..."
-dialogtxt       "She said she doesn't know anymore..."
+dialogtxt       "I no longer know"
+dialogtxt       "who I am..."
 goto            @Label_0f42
 
 @Cond_0f08:
@@ -382,17 +382,17 @@ code0309
 call            @Func_1b3e
 code0479        1, 2, 15
 call            @Func_1b74
-dialogtxt       "The training you've done together all this"
-dialogtxt       "couldn't possibly be forgotten so easily!"
-dialogtxt       "There's no way!"
+dialogtxt       "The training you've done together all"
+dialogtxt       "this couldn't possibly be forgotten so"
+dialogtxt       "easily! There's no way!"
 code0309        
 call            @Func_1baa
 code0479        0, 4, 17
 call            @Func_1b08
 jumpz           @Cond_1130, ($b002 == 0)
 dialogtxt       "But..."
-dialogtxt       "γ can no longer"
-dialogtxt       "hear [NAME 8]'s voice!"
+dialogtxt       "[NAME 1] can no longer"
+dialogtxt       "hear my voice!"
 goto            @Label_116c
 
 @Cond_1130:
@@ -414,14 +414,14 @@ call            @Func_1baa
 code0479        0, 5, 16
 call            @Func_1b08
 jumpz           @Cond_1278, ($b002 == 0)
-dialogtxt       "[NAME 8] is a blacksmith..."
+dialogtxt       "I am a blacksmith..."
 dialogtxt       "..."
-dialogtxt       "Heh, is that so..."
+dialogtxt       "Heh, I see..."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Got it, Tia."
-dialogtxt       "I'll have [NAME 8]"
-dialogtxt       "wake γ up, no matter what..."
+dialogtxt       "I will make [NAME 1]"
+dialogtxt       "wake up, no matter what..."
 goto            @Label_1306
 
 @Cond_1278:

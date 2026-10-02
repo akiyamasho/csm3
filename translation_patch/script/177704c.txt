@@ -445,7 +445,7 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "I saw it! When I shot the target with a"
+dialogtxt       "I saw it! When I shot the target,"
 dialogtxt       "bow and arrow, a girl suddenly sprang"
 dialogtxt       "out!"
 code0309        

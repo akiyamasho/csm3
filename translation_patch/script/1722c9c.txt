@@ -98,7 +98,7 @@ goto            @Cond_030a
 
 @Cond_030a:
 code0301        0, 7
-dialogtxt       "Here is your reward for splitting logs."
+dialogtxt       "Your log-splitting reward."
 code0309        
 dialogtxt       "Take it."
 code0309        

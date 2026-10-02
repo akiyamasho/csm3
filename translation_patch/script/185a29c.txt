@@ -1,15 +1,15 @@
 code0304        1
-dialogtxt       "　After handing over Anise and the others"
-dialogtxt       "we caught to the Gold Faction, before"
-dialogtxt       "then, the sun had set　　　　　　　　　"
+dialogtxt       "After handing over Anise and the"
+dialogtxt       "others we caught to the Gold Faction,"
+dialogtxt       "before then, the sun had set"
 code030a        6, 1
-dialogtxt       "　Questioning Anise and the others will"
+dialogtxt       "Questioning Anise and the others will"
 dialogtxt       "to begin. We don't know what happened"
 dialogtxt       "between Rob and Voijin..."
 code030a        6, 1
 dialogtxt       "Then there's the plan to return the"
 dialogtxt       "Summon Stone to Mishus Village, where"
-dialogtxt       "Murno lived. We still must discuss it..."
+dialogtxt       "Murno lived. We still must discuss..."
 code030a        6, 1
 dialogtxt       "And Mr. Wellman isn't doing well,"
 dialogtxt       "either He's going to rest today..."

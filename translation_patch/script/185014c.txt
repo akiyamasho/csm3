@@ -25,14 +25,14 @@ code047d        1, 2
 call            @Func_1558
 call            @Func_1454
 jumpz           @Cond_0138, ($b002 == 0)
-dialogtxt       "All Right!"
-dialogtxt       "Today, We're Going To"
+dialogtxt       "Right!"
+dialogtxt       "Today, We'll"
 dialogtxt       "Catch Anise And The Others!"
 goto            @Label_017a
 
 @Cond_0138:
-dialogtxt       "All Right!"
-dialogtxt       "Today, We're Going To"
+dialogtxt       "Right!"
+dialogtxt       "Today, We'll"
 dialogtxt       "Catch Anise And The Others!"
 goto            @Label_017a
 
@@ -61,22 +61,22 @@ goto            @Label_0212
 @Label_0212:
 call            @Func_14de
 jumpz           @Cond_04a6, ($b003 == 0)
-dialogtxt       "[NAME 5] Here [NAME 6]"
-dialogtxt       "This Time, We Will Never Let Them..."
-dialogtxt       "We Will Certainly Capture Them"
+dialogtxt       "That is so."
+dialogtxt       "This time, I will not let them"
+dialogtxt       "escape. I will capture them."
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
-dialogtxt       "Don't Say 'Capture' Like You Mean Kill"
+dialogtxt       "Don't Say 'Capture' Like 'Kill'"
 dialogtxt       "Them! We're arresting them We Have"
-dialogtxt       "To Hand Them Over To The Watch"
+dialogtxt       "Hand Them To The Watch"
 code0309        
 call            @Func_14a8
 code0479        1, 4, 12
 call            @Func_14de
-dialogtxt       "... [NAME 5]"
-dialogtxt       "Here [NAME 6]"
+dialogtxt       "..."
+dialogtxt       "I see."
 code0309        
 call            @Func_1514
 code0479        0, 0, 16
@@ -98,9 +98,9 @@ code0309
 call            @Func_14a8
 code0479        1, 5, 12
 call            @Func_14de
-dialogtxt       "Angry? I Have No Emotion"
-dialogtxt       "Such As [NAME 5]"
-dialogtxt       "There Are None"
+dialogtxt       "Angry?"
+dialogtxt       "I have no such"
+dialogtxt       "feelings."
 code0309        
 call            @Func_1514
 code0479        0, 0, 14
@@ -122,20 +122,20 @@ goto            @Cond_04a6
 
 @Cond_04a6:
 jumpz           @Cond_079a, ($b003 == 1)
-dialogtxt       "I Still Hold A Grudge From Last Time..."
-dialogtxt       "I Swear On This Topknot"
-dialogtxt       "They Won't Get Off Easy!"
+dialogtxt       "I Hold A Grudge From Last"
+dialogtxt       "Time... I Swear On This Topknot They"
+dialogtxt       "Won't Get Off Easy!"
 code0309        
 call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_0572, ($b002 == 0)
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_05b6
 
 @Cond_0572:
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_05b6
 
@@ -144,14 +144,14 @@ code0309
 call            @Func_14a8
 code0479        1, 2, 16
 call            @Func_14de
-dialogtxt       "Hmm... You Are Right"
-dialogtxt       "I Nearly Became Just Like Them"
+dialogtxt       "You're Right"
+dialogtxt       "I Nearly Became Like Them"
 dialogtxt       "For Now, We Must Keep Them Alive"
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
 call            @Func_1472
-dialogtxt       "Of Course! We Have To Hand"
+dialogtxt       "Must Hand"
 dialogtxt       "Them Over To The Watch"
 code0309        
 call            @Func_14a8
@@ -159,7 +159,7 @@ code0479        1, 2, 14
 call            @Func_14de
 dialogtxt       "Hmm... You Are Right"
 dialogtxt       "Then We Need To Think Of A Plan..."
-dialogtxt       "Hmm..."
+dialogtxt       "Hm..."
 code0309        
 call            @Func_1514
 code0479        0, 0, 14
@@ -189,12 +189,12 @@ call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_086c, ($b002 == 0)
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_08b0
 
 @Cond_086c:
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_08b0
 
@@ -203,9 +203,9 @@ code0309
 call            @Func_14a8
 code0479        1, 3, 13
 call            @Func_14de
-dialogtxt       "Don't Worry"
-dialogtxt       "I'll Make Sure Not Even Evidence Remains"
-dialogtxt       "I'll Erase Them Without A Trace"
+dialogtxt       "Don't Worry I'll Make Sure Not Even"
+dialogtxt       "Evidence Remains I'll Erase Them"
+dialogtxt       "Without A Trace"
 code0309        
 call            @Func_1514
 code0479        0, 5, 17
@@ -279,12 +279,12 @@ call            @Func_1514
 code0479        0, 4, 14
 call            @Func_1472
 jumpz           @Cond_0c88, ($b002 == 0)
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_0ccc
 
 @Cond_0c88:
-dialogtxt       "I Know You're Angry"
+dialogtxt       "You're Angry"
 dialogtxt       "But Don't Do Anything Reckless"
 goto            @Label_0ccc
 
@@ -293,7 +293,7 @@ code0309
 call            @Func_14a8
 code0479        1, 2, 12
 call            @Func_14de
-dialogtxt       "Rest Assured"
+dialogtxt       "Sure"
 dialogtxt       "I Don't Intend To Take Their Lives"
 code0309        
 call            @Func_1514

@@ -396,7 +396,7 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　~Please tell me~"
 code0309        
-dialogtxt       "I'm researching a food called ka[NAME 8]."
+dialogtxt       "I'm researching a food called curry."
 dialogtxt       "I am researching it. Please tell me"
 dialogtxt       "what it's like!"
 code0309        

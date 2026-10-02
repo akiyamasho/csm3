@@ -10,7 +10,7 @@ code047d        1, 0
 call            @Func_11c2
 call            @Func_10be
 dialogtxt       "Good work today."
-dialogtxt       "You probably won't be called"
+dialogtxt       "You likely won't be called"
 dialogtxt       "by the Gold Faction anymore."
 code047b        
 code0309        
@@ -25,7 +25,7 @@ code0309
 call            @Func_117e
 code0479        0, 0, 12
 call            @Func_10dc
-dialogtxt       "[NAME 8], too."
+dialogtxt       "Me, too."
 dialogtxt       "Those people have things"
 dialogtxt       "that matter to them, too."
 code0309        
@@ -45,7 +45,7 @@ code0479        0, 2, 12
 call            @Func_10dc
 dialogtxt       "You saved this town... no,"
 jumpz           @Cond_0306, ($b002 == 0)
-dialogtxt       "I could call you the man who saved this"
+dialogtxt       "I could call you the village savior"
 goto            @Label_032a
 
 @Cond_0306:
@@ -93,13 +93,13 @@ call            @Func_117e
 code0479        0, 0, 12
 call            @Func_10dc
 jumpz           @Cond_059a, ($b002 == 0)
-dialogtxt       "Yeah, you're quite a guy."
+dialogtxt       "Yeah, you're a guy."
 dialogtxt       "Until now..."
 dialogtxt       "my cute little brother, but..."
 goto            @Label_05f4
 
 @Cond_059a:
-dialogtxt       "Yeah, you're quite a girl."
+dialogtxt       "Yeah, you're a girl."
 dialogtxt       "Until now..."
 dialogtxt       "my cute little sister, but..."
 goto            @Label_05f4
@@ -109,7 +109,7 @@ code0309
 code0479        1, 0, 12
 code0479        0, 0, 16
 dialogtxt       "From now on, I'll have to"
-dialogtxt       "look at [NAME 8] differently..."
+dialogtxt       "change the way I look at things..."
 code0309        
 call            @Func_1112
 code0479        1, 0, 16
@@ -136,7 +136,7 @@ code0309
 code0479        1, 6, 16
 code0479        0, 2, 13
 dialogtxt       "A full-fledged smith."
-dialogtxt       "So don't call [NAME 8]"
+dialogtxt       "So don't call me"
 dialogtxt       "Brother anymore!"
 code0309        
 call            @Func_1112
@@ -145,7 +145,7 @@ call            @Func_1148
 jumpz           @Cond_0836, ($b002 == 0)
 dialogtxt       "What...? But..."
 dialogtxt       "You won't be Brother anymore...?"
-dialogtxt       "[NAME 8]..."
+dialogtxt       "I..."
 goto            @Label_0884
 
 @Cond_0836:
@@ -159,15 +159,15 @@ code0309
 call            @Func_117e
 code0479        0, 8, 12
 call            @Func_10dc
-dialogtxt       "That's right. [NAME 8] isn't"
+dialogtxt       "That's right. I'm not"
 dialogtxt       "your Brother anymore..."
-dialogtxt       "From now, [NAME 8]..."
+dialogtxt       "From now, I..."
 code0309        
 call            @Func_1112
 jumpz           @Cond_092e, ($b002 == 0)
 code0479        1, 0, 16
 call            @Func_1148
-dialogtxt       "[NAME 8]'s...?"
+dialogtxt       "Your...?"
 goto            @Label_095a
 
 @Cond_092e:
@@ -181,7 +181,7 @@ code0309
 call            @Func_117e
 code0479        0, 2, 13
 call            @Func_10dc
-dialogtxt       "[NAME 8] is your rival!"
+dialogtxt       "I am your rival!"
 code0309        
 call            @Func_1112
 code0479        1, 5, 17
@@ -200,7 +200,7 @@ dialogtxt       "The woman who saved the world? Bring!"
 goto            @Label_0a2e
 
 @Label_0a2e:
-dialogtxt       "That's just the opponent"
+dialogtxt       "That's the opponent"
 dialogtxt       "the immortal Jade deserves!"
 code0309        
 call            @Func_1112

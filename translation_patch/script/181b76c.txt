@@ -6,7 +6,7 @@ code047d        0, 0
 call            @Func_08c0
 call            @Func_07e8
 jumpz           @Cond_00c6, ($b002 == 0)
-dialogtxt       "Why does [NAME 8] have to be"
+dialogtxt       "Why do I have to be here?"
 dialogtxt       "locked up in a place like this..."
 dialogtxt       "What in the world is going on...?"
 goto            @Label_012c

@@ -320,9 +320,9 @@ dialogtxt       "Master Bostaph..."
 code0309        
 dialogtxt       "But he was a very scary man,"
 dialogtxt       "so I couldn't even talk to him."
-dialogtxt       "They say he used to be a good person..."
+dialogtxt       "They say he was once a good person..."
 code0309        
-dialogtxt       "Apparently, after his wife disappeared,"
+dialogtxt       "Apparently, after his wife vanished,"
 dialogtxt       "he became a different man."
 code0309        
 code047e        0, 0

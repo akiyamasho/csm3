@@ -161,8 +161,8 @@ goto            @Label_0646
 @Label_0646:
 call            @Func_1886
 jumpz           @Cond_0688, ($b003 == 0)
-dialogtxt       "HE PROBABLY WENT OUT"
-dialogtxt       "TO [NAME 5] BUSINESS."
+dialogtxt       "He probably went"
+dialogtxt       "out on business."
 goto            @Cond_0688
 
 @Cond_0688:

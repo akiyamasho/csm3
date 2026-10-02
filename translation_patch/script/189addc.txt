@@ -304,9 +304,9 @@ setvar          $f1015, 1
 code043e        0, 3, 0
 code0301        0, 9
 code0305        1
-dialogtxt       "Hit the three types of switches"
-dialogtxt       "on the floor with your hammer,"
-dialogtxt       "and the corresponding plates rise from."
+dialogtxt       "Hit the three types of switches on"
+dialogtxt       "the floor with your hammer, and the"
+dialogtxt       "corresponding plates rise from."
 code0309        
 code0302        9
 code0461        8

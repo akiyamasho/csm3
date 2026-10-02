@@ -27,7 +27,7 @@ goto            @Label_00f2
 code047d        0, 2
 call            @Func_2152
 call            @Func_20ba
-dialogtxt       "Your attacks didn't work..."
+dialogtxt       "[NAME 1]'s attacks didn't work..."
 dialogtxt       "That was a Stray...?"
 dialogtxt       "Are you alright, γ?"
 goto            @Label_0196
@@ -823,4 +823,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -55,29 +55,29 @@ code047d        0, 2
 call            @Func_0d7a
 call            @Func_0cc0
 jumpz           @Cond_029c, ($b003 == 0)
-dialogtxt       "I Must Discuss Future Plans With Lady"
-dialogtxt       "Murno With Her, So I Must Go Out For"
-dialogtxt       "A While I Will Be Away For A Short Time"
+dialogtxt       "Lady Murno and I must"
+dialogtxt       "discuss future plans."
+dialogtxt       "I will be away awhile."
 goto            @Cond_029c
 
 @Cond_029c:
 jumpz           @Cond_0300, ($b003 == 1)
-dialogtxt       "I Have Something To Discuss With Murno"
-dialogtxt       "About What Comes Next Sorry, But"
-dialogtxt       "I Must Do As I Please For A Little While"
+dialogtxt       "I need to talk with Murno"
+dialogtxt       "about our future. Sorry, but"
+dialogtxt       "I'll do as I please for a while."
 goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "I Must See Murno"
-dialogtxt       "It Has Nothing To Do With [NAME 4]"
+dialogtxt       "I have business with Murno."
+dialogtxt       "This has nothing to do with you."
 goto            @Cond_0346
 
 @Cond_0346:
 jumpz           @Cond_03a2, ($b003 == 3)
-dialogtxt       "I Wish To Discuss The Future"
-dialogtxt       "With Lady Murno..."
-dialogtxt       "I Am Sorry, But..."
+dialogtxt       "I need to discuss the future"
+dialogtxt       "with Lady Murno..."
+dialogtxt       "I am sorry, but..."
 goto            @Cond_03a2
 
 @Cond_03a2:
@@ -115,35 +115,35 @@ code047d        0, 0
 call            @Func_0d7a
 call            @Func_0ca2
 jumpz           @Cond_05ec, ($b002 == 0)
-dialogtxt       "Murno's Father Is There, Too And"
-dialogtxt       "We'll Be Returning To The Village Soon"
-dialogtxt       "There Must Be A Lot Going On..."
+dialogtxt       "Murno's father is there, too."
+dialogtxt       "We'll be back at the village soon."
+dialogtxt       "There's a lot going on..."
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "It Can't Be Helped"
-dialogtxt       "As For [NAME 8], [NAME 8] Will Go To Murno's Village"
-dialogtxt       "I Should Start Preparing"
+dialogtxt       "It cannot be helped."
+dialogtxt       "I will go to Murno’s village"
+dialogtxt       "and get things ready."
 code0309        
 code0479        0, 0, 14
-dialogtxt       "Come To Think Of It, Is Mii"
+dialogtxt       "Come To Think Of It, Is Lemmy"
 dialogtxt       "Still Planning To Leave Without"
 dialogtxt       "Telling Her Mother I Wonder..."
 goto            @Label_0710
 
 @Cond_05ec:
-dialogtxt       "Murno's Father Is There, Too And"
-dialogtxt       "We'll Be Returning To The Village Soon"
-dialogtxt       "There Must Be A Lot Going On..."
+dialogtxt       "Murno's father is there, too."
+dialogtxt       "We'll be back at the village soon."
+dialogtxt       "There's a lot going on..."
 code047b        
 code0309        
 code0479        0, 0, 12
-dialogtxt       "It Can't Be Helped"
-dialogtxt       "I Will Go To Murno's Village On My Own"
-dialogtxt       "I Should Start Preparing"
+dialogtxt       "Can't be helped."
+dialogtxt       "I'll head to Murno's village"
+dialogtxt       "and get things ready."
 code0309        
 code0479        0, 0, 14
-dialogtxt       "Come To Think Of It, Is Mii"
+dialogtxt       "Come To Think Of It, Is Lemmy"
 dialogtxt       "Still Planning To Leave Without"
 dialogtxt       "Telling Her Mother I Wonder..."
 goto            @Label_0710

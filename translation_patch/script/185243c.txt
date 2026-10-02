@@ -75,7 +75,7 @@ goto            @Cond_02e2
 
 @Cond_02e2:
 jumpz           @Cond_0302, ($b003 == 2)
-dialogtxt       "[NAME 4], My Lord..."
+dialogtxt       "You, my lord..."
 goto            @Cond_0302
 
 @Cond_0302:
@@ -92,8 +92,8 @@ code043c        3, 1
 code0479        0, 5, 17
 call            @Func_0a68
 jumpz           @Cond_039a, ($b002 == 0)
-dialogtxt       "I-I, [NAME 8]!?"
-dialogtxt       "[NAME 8] Didn't Do Anything!"
+dialogtxt       "M-me?!"
+dialogtxt       "I did not do anything!"
 goto            @Label_03ca
 
 @Cond_039a:

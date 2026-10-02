@@ -257,7 +257,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "they aren't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
@@ -388,7 +388,7 @@ call            @Func_48fe
 call            @Func_4866
 code0479        1, 2, 14
 dialogtxt       "Come on, get out of here!"
-dialogtxt       "Go meet the Chief!"
+dialogtxt       "Go meet the Chief with [NAME 2]!"
 code0309        
 call            @Func_4928
 call            @Func_48ba
@@ -607,7 +607,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "they aren't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
@@ -913,7 +913,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "they aren't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
@@ -1229,7 +1229,7 @@ code0309
 code0479        1, 0, 12
 dialogtxt       "There've been more strays lately,"
 dialogtxt       "so we need to make sure"
-dialogtxt       "γ isn't mistaken for one."
+dialogtxt       "they aren't mistaken for one."
 code0309        
 call            @Func_48ba
 code0479        0, 0, 16
@@ -1688,4 +1688,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -171,9 +171,9 @@ call            @Func_1c86
 code043c        3, 3
 code0479        1, 0, 13
 call            @Func_1cbc
-dialogtxt       "That's Magdorado's voice."
-dialogtxt       "She seems to have recovered quite a bit."
-dialogtxt       "Thank goodness..."
+dialogtxt       "That's Magdorado's voice. She seems"
+dialogtxt       "to have recovered quite a bit. Thank"
+dialogtxt       "goodness..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "When we brought Anise here,"
@@ -227,9 +227,9 @@ code047b
 code0309        
 code043c        2, 3
 code0479        1, 0, 12
-dialogtxt       "Magdorado's body doesn't seem to"
-dialogtxt       "handle water well. I believe it took"
-dialogtxt       "heavy damage, [NAME 8] ."
+dialogtxt       "Magdrado's body seems weak to"
+dialogtxt       "water, so it likely took"
+dialogtxt       "heavy damage."
 goto            @Cond_0948
 
 @Cond_0948:
@@ -269,7 +269,7 @@ code0309
 code043c        2, 3
 code0479        1, 4, 16
 dialogtxt       "Magdorado seems to have trouble with"
-dialogtxt       "water, so it must have suffered terribly."
+dialogtxt       "water, so it suffered terribly."
 goto            @Cond_0bce
 
 @Cond_0bce:
@@ -332,21 +332,21 @@ call            @Func_1c86
 code0479        1, 0, 14
 call            @Func_1cbc
 dialogtxt       "It seems Voijin and his men found this"
-dialogtxt       "village based on a rumor that a powerful"
+dialogtxt       "village on a rumor that a powerful"
 dialogtxt       "Summon Beast was hidden here..."
 code0309        
 code0333        2, 30
 code0479        1, 0, 16
-dialogtxt       "They arrived and took villagers hostage."
+dialogtxt       "They came and took villagers hostage."
 dialogtxt       "They demanded the Summon Beast."
 dialogtxt       "they would take the hostages' lives."
 code0309        
 code0334        
 code0331        33, 256
 code0479        1, 2, 16
-dialogtxt       "Then, to prove they meant it,"
-dialogtxt       "they... took the lives of many villagers..."
-dialogtxt       "So cruelly..."
+dialogtxt       "Then, to prove they meant it, they..."
+dialogtxt       "took the lives of many villagers... So"
+dialogtxt       "cruelly..."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "My parents were the village"

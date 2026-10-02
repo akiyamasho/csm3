@@ -478,8 +478,8 @@ code0479        1, 0, 14
 code047d        1, 0
 call            @Func_3bbe
 code0479        0, 3, 15
-dialogtxt       "We Nearly"
-dialogtxt       "Killed Master [NAME 4]!"
+dialogtxt       "I failed to"
+dialogtxt       "kill him!"
 code047b        
 code0309        
 call            @Func_3b24
@@ -649,7 +649,7 @@ code047d        0, 2
 call            @Func_3ba8
 call            @Func_3aee
 jumpz           @Cond_206a, ($b003 == 0)
-dialogtxt       "As [NAME 5] Said."
+dialogtxt       "That's right."
 dialogtxt       "The Partner Was Almost"
 dialogtxt       "Killed."
 code047b        
@@ -703,9 +703,9 @@ goto            @Cond_21a8
 
 @Cond_21a8:
 jumpz           @Cond_22ea, ($b003 == 2)
-dialogtxt       "After Everything You Did,"
-dialogtxt       "Surely You Do Not Think An Apology Alone"
-dialogtxt       "Will Be Enough, Do You?"
+dialogtxt       "After Everything You Did, Surely You"
+dialogtxt       "Do Not Think An Apology Alone Will Be"
+dialogtxt       "Enough, Do You?"
 code047b        
 code0309        
 call            @Func_3c14
@@ -725,7 +725,7 @@ code043c        5, 2
 code0479        0, 3, 15
 call            @Func_3aee
 dialogtxt       "Could Not Be Helped?"
-dialogtxt       "Not Helped? [NAME 4] Do Joke"
+dialogtxt       "Don't mess with me!"
 goto            @Cond_22ea
 
 @Cond_22ea:
@@ -851,7 +851,7 @@ code047b
 code0309        
 code0479        1, 0, 16
 dialogtxt       "Above This Water Ruin"
-dialogtxt       "[NAME 8] kui Is Another Ruin,"
+dialogtxt       "There is another ruin,"
 dialogtxt       "And There Is Intact Crystal Pillar..."
 code0309        
 call            @Func_3b90
@@ -864,7 +864,7 @@ code0309
 call            @Func_3b24
 code0479        1, 4, 12
 call            @Func_3b5a
-dialogtxt       "However, The Gुमag Fire Ruin"
+dialogtxt       "However, The Gumag Fire Ruin"
 dialogtxt       "Is Off-Limits..."
 code0309        
 call            @Func_3bfe
@@ -951,9 +951,9 @@ code0309
 call            @Func_3b24
 code0479        1, 2, 16
 call            @Func_3b5a
-dialogtxt       "This Village Has A Place Called The Hall"
-dialogtxt       "Of Judgment, Perfect For A Challenge..."
-dialogtxt       "There Is A Place Perfect For A Match..."
+dialogtxt       "This Village Has A Hall"
+dialogtxt       "Of Judgment, Ideal For A Challenge..."
+dialogtxt       "It's A Perfect Place For A Match..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "How About A One-On-One Match"
@@ -1075,7 +1075,7 @@ code047d        1, 2
 call            @Func_3bd4
 call            @Func_3b3c
 jumpz           @Cond_339c, ($b003 == 0)
-dialogtxt       "Is This Acceptable, [NAME 8]?"
+dialogtxt       "Is this acceptable?"
 goto            @Cond_339c
 
 @Cond_339c:

@@ -252,7 +252,7 @@ code047d        0, 120
 code047e        0, 1
 dialogtxt       "That rascal Zack got better, and as"
 dialogtxt       "and as soon as he came back"
-dialogtxt       "place, he kept falling all over the place."
+dialogtxt       "place, he kept falling everywhere."
 code0309        
 dialogtxt       "They say he's covered in bruises as"
 dialogtxt       "usual, or so I hear."

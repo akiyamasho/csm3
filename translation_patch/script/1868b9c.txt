@@ -86,8 +86,8 @@ dialogtxt       "know what might happen..."
 code0309        
 code0479        1, 4, 15
 dialogtxt       "I'm worried too!"
-dialogtxt       "I want to go with δ!"
-dialogtxt       "I don't want to wait here!"
+dialogtxt       "I want to go with you!"
+dialogtxt       "I hate having to wait here!"
 code0309        
 call            @Func_1e82
 code0479        0, 2, 16
@@ -277,7 +277,7 @@ call            @Func_1dc2
 jumpz           @Cond_0c62, ($b002 == 0)
 dialogtxt       "Whoa..."
 dialogtxt       "No, um..."
-dialogtxt       "I'm sorry, O[NAME 8], um..."
+dialogtxt       "I am sorry... I..."
 goto            @Label_0c9c
 
 @Cond_0c62:

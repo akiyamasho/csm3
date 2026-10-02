@@ -311,7 +311,7 @@ goto            @Label_0c0c
 
 @Cond_0bda:
 jumpz           @Label_0c0c, ($h216 == 6)
-dialogtxt       "　I love you just the way you are, δ　"
+dialogtxt       "I love you just as you are, δ"
 goto            @Label_0c0c
 
 @Label_0c0c:
@@ -364,9 +364,9 @@ goto            @Label_0f00
 
 @Cond_0e10:
 jumpz           @Cond_0e9c, ($b003 == 2)
-dialogtxt       "Until I've repaid what I owe you, I'll stay"
-dialogtxt       "by your side... Forever..."
-dialogtxt       " "
+dialogtxt       "Until I've repaid what I owe"
+dialogtxt       "you, I'll stay by your side..."
+dialogtxt       "Forever..."
 goto            @Label_0f00
 
 @Cond_0e9c:
@@ -380,8 +380,8 @@ goto            @Label_1344
 
 @Cond_0f04:
 jumpz           @Cond_0f68, ($f0263 == 1)
-dialogtxt       "　It's still a little too soon for you.　"
-dialogtxt       "　Train by my side a little longer.　"
+dialogtxt       "It's still a little too soon for you."
+dialogtxt       "Train by my side a little longer."
 goto            @Label_1344
 
 @Cond_0f68:
@@ -416,15 +416,15 @@ dialogtxt       "　　　Thank you, δ　　　"
 goto            @Label_10c2
 
 @Label_10c2:
-dialogtxt       "I haven't felt this happy in such a long"
-dialogtxt       "time."
+dialogtxt       "I haven't felt this happy in such a"
+dialogtxt       "long time."
 goto            @Label_1344
 
 @Cond_1116:
 jumpz           @Cond_11a2, ($f0265 == 1)
-dialogtxt       "　　　　I'll retrain myself, too,　　　"
-dialogtxt       "　　　and remain your rival forever,　　"
-dialogtxt       "　　　a man worthy of you!　　"
+dialogtxt       "I'll retrain myself, too, and remain"
+dialogtxt       "your rival forever, a man worthy of"
+dialogtxt       "you!"
 goto            @Label_1344
 
 @Cond_11a2:
@@ -752,16 +752,16 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "Mother has finally started talking to"
-dialogtxt       "Master Benon, too. Well, it didn't exactly"
-dialogtxt       "become a conversation."
+dialogtxt       "Mother has finally started talking"
+dialogtxt       "to Master Benon, too. Well, it didn't"
+dialogtxt       "exactly become a conversation."
 code0309        
 dialogtxt       "I'd rather it were someone a little"
 dialogtxt       "cooler~ When you meet someone"
 dialogtxt       "through work, it should be fun~"
 code0309        
 jumpz           @Cond_219e, ($f1252 == 0)
-dialogtxt       "By the way, you look like a blacksmith."
+dialogtxt       "Say, you look like a blacksmith."
 dialogtxt       "Want to hear about upgrades?"
 code0309        
 code047e        0, 0
@@ -772,8 +772,8 @@ choicewait
 @Choice_1f3c:
 code047e        0, 1
 dialogtxt       "Let's see... If you use 3 'Old"
-dialogtxt       "Whetstones' for an upgrade, the special"
-dialogtxt       "effect"
+dialogtxt       "Whetstones' for an upgrade, the"
+dialogtxt       "special effect"
 code0309        
 dialogtxt       "And this time, unbelievably,"
 dialogtxt       "we're selling 3 'Old Whetstones'"

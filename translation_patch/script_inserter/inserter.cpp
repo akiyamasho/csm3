@@ -124,6 +124,9 @@ std::vector<uint8_t> prepare_insert(const std::vector<uint8_t> &input, InsertInf
 		if (data.empty()) {
 			info.valid = false;
 			info.error = "Compression failed";
+		} else if (decompress_gba_lz77(data) != input) {
+			info.valid = false;
+			info.error = "Compression round-trip verification failed";
 		}
 	} else {
 		data = input;

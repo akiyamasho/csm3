@@ -44,8 +44,8 @@ code0479        1, 0, 16
 code047d        1, 110
 call            @Func_0e4c
 call            @Func_0db4
-dialogtxt       "What are you doing?"
-dialogtxt       "Were you planning to sneak out of town"
+dialogtxt       "What now?"
+dialogtxt       "Were you sneaking out of town"
 dialogtxt       "again?"
 code047b        
 code0309        
@@ -53,13 +53,13 @@ call            @Func_0e08
 code0479        0, 2, 15
 call            @Func_0d66
 jumpz           @Cond_031c, ($b002 == 0)
-dialogtxt       "is supposed mean! [NAME 8]"
-dialogtxt       "was patrolling this area..."
+dialogtxt       "What do you mean?! I was"
+dialogtxt       "patrolling this area..."
 goto            @Label_0358
 
 @Cond_031c:
-dialogtxt       "What is that supposed to mean!"
-dialogtxt       "I was only patrolling this area..."
+dialogtxt       "What does that mean!"
+dialogtxt       "I was patrolling here..."
 goto            @Label_0358
 
 @Label_0358:
@@ -67,21 +67,21 @@ code0309
 call            @Func_0d9c
 code0479        1, 0, 12
 call            @Func_0dd2
-dialogtxt       "Patrolling?"
+dialogtxt       "Patrol?"
 dialogtxt       "Why?"
 code0309        
 call            @Func_0e08
 code0479        0, 0, 14
 call            @Func_0d66
-dialogtxt       "Because Anis and the others"
+dialogtxt       "Anis and the others"
 dialogtxt       "might still be somewhere,"
-dialogtxt       "targeting Myuno, even now..."
+dialogtxt       "targeting Murno, even now..."
 code0309        
 call            @Func_0d9c
 code0479        1, 2, 14
 call            @Func_0dd2
-dialogtxt       "Hmph... You really seem"
-dialogtxt       "determined to make those"
+dialogtxt       "Hmph... You seem"
+dialogtxt       "making those"
 dialogtxt       "people out to be villains."
 code0309        
 call            @Func_0e08
@@ -96,7 +96,7 @@ goto            @Label_054a
 @Cond_04ec:
 dialogtxt       "Are you still calling those people"
 dialogtxt       "your comrades?"
-dialogtxt       "Because Mr. Bostaph said so!?"
+dialogtxt       "Mr. Bostaph said that!?"
 goto            @Label_054a
 
 @Label_054a:
@@ -105,7 +105,7 @@ call            @Func_0d9c
 code0479        0, 2, 14
 code0479        1, 0, 12
 call            @Func_0dd2
-dialogtxt       "Well..."
+dialogtxt       "Hmm..."
 dialogtxt       "I have not told the master yet..."
 code0309        
 call            @Func_0e08
@@ -113,12 +113,12 @@ code0479        0, 2, 16
 call            @Func_0d66
 jumpz           @Cond_05fe, ($b002 == 0)
 dialogtxt       "What..."
-dialogtxt       "But just a moment ago you were so..."
+dialogtxt       "But a moment ago you were so..."
 goto            @Label_0624
 
 @Cond_05fe:
-dialogtxt       "But just a moment ago you were so..."
-dialogtxt       "But just a moment ago you were so..."
+dialogtxt       "But a moment ago you were so..."
+dialogtxt       "But a moment ago you were so..."
 goto            @Label_0624
 
 @Label_0624:
@@ -126,22 +126,22 @@ code0309
 call            @Func_0d9c
 code0479        1, 2, 17
 call            @Func_0dd2
-dialogtxt       "The master is busy!"
-dialogtxt       "I cannot burden him with"
+dialogtxt       "Master's busy!"
+dialogtxt       "I can't burden him with"
 dialogtxt       "unnecessary worries!"
 code0309        
 call            @Func_0e08
 code0479        0, 4, 16
 call            @Func_0d66
 dialogtxt       "...!"
-dialogtxt       "You do not have to get so angry..."
+dialogtxt       "You don't have to get so angry..."
 code0309        
 call            @Func_0d9c
 code0479        1, 0, 16
 call            @Func_0dd2
 dialogtxt       "Tomorrow, we are gathering everyone"
 dialogtxt       "to discuss things, right?"
-dialogtxt       "I am sure it will become clear then."
+dialogtxt       "I'm sure it will become clear then."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "Master Bostaph"

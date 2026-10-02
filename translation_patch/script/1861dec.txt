@@ -52,21 +52,21 @@ code0309
 call            @Func_1cce
 code0479        1, 5, 16
 call            @Func_1d04
-dialogtxt       "What... Why would you thank"
-dialogtxt       "[NAME 4]...?"
+dialogtxt       "What...?"
+dialogtxt       "Why would I thank you...?"
 code0309        
 call            @Func_1d3a
 code0479        0, 0, 12
 call            @Func_1c98
 jumpz           @Cond_030e, ($b002 == 0)
-dialogtxt       "If you'd used magic on [NAME 8],"
-dialogtxt       "I'd have been blown away"
+dialogtxt       "If you had used magic on me,"
+dialogtxt       "I would have been blown away"
 dialogtxt       "in one hit."
 goto            @Label_0360
 
 @Cond_030e:
-dialogtxt       "If you'd used magic on [NAME 8],"
-dialogtxt       "I'd have been blown away"
+dialogtxt       "If you had used magic on me,"
+dialogtxt       "I would have been blown away"
 dialogtxt       "in one hit."
 goto            @Label_0360
 
@@ -76,8 +76,8 @@ call            @Func_1cce
 code0479        1, 2, 14
 call            @Func_1d04
 dialogtxt       "Wha...!"
-dialogtxt       "I did not refrain from using it"
-dialogtxt       "for [NAME 4]'s sake...!"
+dialogtxt       "I did not spare you"
+dialogtxt       "for your sake...!"
 code0309        
 call            @Func_1d3a
 code0479        0, 1, 12
@@ -88,9 +88,9 @@ dialogtxt       "want to say it was for"
 dialogtxt       "Murno's sake, right?"
 code0309        
 code0479        0, 0, 16
-dialogtxt       "If you'd really erased [NAME 8],"
-dialogtxt       "even Murno would have been"
-dialogtxt       "angry with you."
+dialogtxt       "If I really erased you,"
+dialogtxt       "even Murno would be angry"
+dialogtxt       "with you."
 goto            @Label_0564
 
 @Cond_04a6:
@@ -99,9 +99,9 @@ dialogtxt       "want to say it was for"
 dialogtxt       "Murno's sake, don't you?"
 code0309        
 code0479        0, 0, 16
-dialogtxt       "If you'd really erased [NAME 8],"
-dialogtxt       "even Murno would have gotten"
-dialogtxt       "angry with you."
+dialogtxt       "If I really erased you,"
+dialogtxt       "even Murno would get angry"
+dialogtxt       "with you."
 goto            @Label_0564
 
 @Label_0564:
@@ -117,14 +117,14 @@ code0479        0, 4, 12
 call            @Func_1c98
 jumpz           @Cond_0632, ($b002 == 0)
 dialogtxt       "Enough already..."
-dialogtxt       "I get it—you care about Murno."
-dialogtxt       "I know how much you care about Murno."
+dialogtxt       "I know [NAME 1] cares about Murno,"
+dialogtxt       "I get it."
 goto            @Label_0686
 
 @Cond_0632:
 dialogtxt       "Enough already..."
-dialogtxt       "I get it—you care about Murno."
-dialogtxt       "I know how much you care about Murno."
+dialogtxt       "I know [NAME 1] cares about Murno,"
+dialogtxt       "I get it."
 goto            @Label_0686
 
 @Label_0686:
@@ -154,7 +154,7 @@ code0309
 call            @Func_1cce
 code0479        1, 3, 14
 call            @Func_1d04
-dialogtxt       "[NAME 4]...!"
+dialogtxt       "You...!"
 dialogtxt       "Listen to me!"
 code0309        
 call            @Func_1d3a
@@ -199,13 +199,13 @@ call            @Func_1d3a
 code0479        0, 5, 14
 call            @Func_1c98
 jumpz           @Cond_0a0a, ($b002 == 0)
-dialogtxt       "Murno risked her life to protect you...?"
-dialogtxt       "What happened?"
+dialogtxt       "Murno risked her life to protect"
+dialogtxt       "you...? What happened?"
 goto            @Label_0a46
 
 @Cond_0a0a:
-dialogtxt       "Murno risked her life to protect you...?"
-dialogtxt       "What happened?"
+dialogtxt       "Murno risked her life to protect"
+dialogtxt       "you...? What happened?"
 goto            @Label_0a46
 
 @Label_0a46:
@@ -281,7 +281,7 @@ call            @Func_1cce
 code0479        1, 0, 16
 call            @Func_1d04
 dialogtxt       "There was a dog in the village that"
-dialogtxt       "barked a lot. Murno was terrified of it."
+dialogtxt       "barked a lot. Murno feared it."
 dialogtxt       "It would be fair to say she feared it."
 code0309        
 code0479        1, 0, 12
@@ -319,9 +319,9 @@ code0309
 call            @Func_1cce
 code0479        1, 0, 14
 call            @Func_1d04
-dialogtxt       "However, after she fled,"
-dialogtxt       "the dog started barking at me, too."
-dialogtxt       "It was noisy, so I decided to erase it..."
+dialogtxt       "However, after she fled, the dog"
+dialogtxt       "started barking at me, too. It was"
+dialogtxt       "noisy, so I decided to erase it..."
 code0309        
 code0479        1, 0, 16
 code0479        0, 0, 14
@@ -342,15 +342,15 @@ code0309
 call            @Func_1cce
 code0479        1, 2, 16
 call            @Func_1d04
-dialogtxt       "For a child, challenging Gau was just as"
-dialogtxt       "dangerous as when [NAME 4]"
-dialogtxt       "challenged the Phantom Dragon..."
+dialogtxt       "For a child, challenging Gau"
+dialogtxt       "was as life-threatening as when"
+dialogtxt       "you faced the Phantom Dragon..."
 code0309        
 code0479        1, 2, 12
 code0479        0, 0, 16
-dialogtxt       "I could not stand owing such a great debt"
-dialogtxt       "to a human..."
-dialogtxt       "So until I repaid it, I would..."
+dialogtxt       "I could not stand owing such a great"
+dialogtxt       "debt to a human... So until I repaid"
+dialogtxt       "it, I would..."
 code0309        
 code0479        1, 3, 13
 dialogtxt       "I decided to protect her."
@@ -384,18 +384,18 @@ code0309
 call            @Func_1cce
 code0479        1, 0, 17
 call            @Func_1d04
-dialogtxt       "While I was [NAME 4]'s"
-dialogtxt       "partner, you yourself said you would"
-dialogtxt       "protect Murno. Is that not so?"
+dialogtxt       "While I was your partner,"
+dialogtxt       "you said you would protect Murno."
+dialogtxt       "You said so yourself."
 code0309        
 code0479        1, 0, 16
 code0479        0, 2, 14
-dialogtxt       "Furthermore, [NAME 4] defeated"
-dialogtxt       "me. If [NAME 4] is protecting"
-dialogtxt       "Murno, why would I need to help now?"
+dialogtxt       "Besides, you defeated me."
+dialogtxt       "Why should I help you protect"
+dialogtxt       "Murno now?"
 code0309        
 code0479        1, 3, 13
-dialogtxt       "So I leave Murno to [NAME 4]."
+dialogtxt       "So I leave Murno to you."
 dialogtxt       "Protect her with your life."
 code0309        
 call            @Func_1d3a
@@ -418,9 +418,9 @@ code0309
 call            @Func_1cce
 code0479        1, 6, 12
 call            @Func_1d04
-dialogtxt       "'All right' is beside the point... Now I"
-dialogtxt       "can finally devote myself to protecting"
-dialogtxt       "[NAME 4]. That is all."
+dialogtxt       "'All right' is beside the point..."
+dialogtxt       "Now I can focus only on"
+dialogtxt       "protecting you. That is all."
 code0309        
 call            @Func_1d3a
 code0479        0, 5, 14

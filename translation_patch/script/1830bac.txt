@@ -33,8 +33,8 @@ call            @Func_1baa
 code043c        2, 2
 code0479        1, 5, 16
 call            @Func_1be0
-dialogtxt       "But... the Gumag Flame Ruins"
-dialogtxt       "are normally off-limits even to villagers."
+dialogtxt       "But... the Gumag Flame Ruins are"
+dialogtxt       "normally off-limits even to villagers."
 dialogtxt       "That's the kind of place it is."
 code0309        
 code0479        1, 2, 14
@@ -94,8 +94,8 @@ dialogtxt       "expected so much and saw nothing."
 dialogtxt       "That would indeed be a shame."
 code0309        
 code0479        1, 0, 13
-dialogtxt       "Very well, if it can't be helped."
-dialogtxt       "I grant permission to attend the match."
+dialogtxt       "Very well, if it can't be helped. I"
+dialogtxt       "grant permission to attend the match."
 code0309        
 call            @Func_1cb0
 call            @Func_1bfe
@@ -116,9 +116,9 @@ call            @Func_1baa
 code043c        2, 2
 code0479        1, 1, 12
 call            @Func_1be0
-dialogtxt       "No thanks are necessary."
-dialogtxt       "The magic crystal pillar you want to see"
-dialogtxt       "is deep inside the Hall of Judgment."
+dialogtxt       "No thanks are necessary. The magic"
+dialogtxt       "crystal pillar you want to see is deep"
+dialogtxt       "inside the Hall of Judgment."
 code0309        
 call            @Func_1cb0
 call            @Func_1bfe
@@ -219,7 +219,7 @@ code043c        1, 3
 code0479        0, 2, 14
 code0479        1, 0, 12
 dialogtxt       "A one-on-one battle"
-dialogtxt       "between δ and Tram."
+dialogtxt       "between [NAME 2] and Tram."
 dialogtxt       "Only one weapon may be used."
 code0309        
 call            @Func_1c16

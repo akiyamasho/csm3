@@ -205,14 +205,14 @@ call            @Func_3ef6
 call            @Func_3e1e
 jumpz           @Cond_07e8, ($b002 == 0)
  dialogtxt       "I'm worried with Master as our guide."
- dialogtxt       "Anyway, [NAME 8], we should"
+ dialogtxt       "Anyway, we should"
  dialogtxt       "Let's head for Prosbaan Town."
 goto            @Label_0840
 
 @Cond_07e8:
  dialogtxt       "Anyway, we should also"
  dialogtxt       "Let's head for Prosbaan Town."
- dialogtxt       "I'm worried with Master as our guide..."
+ dialogtxt       "I'm worried with Master guiding us..."
 goto            @Label_0840
 
 @Label_0840:
@@ -348,23 +348,23 @@ code047d        1, 2
 call            @Func_3f0c
 call            @Func_3ea8
 jumpz           @Cond_0d3e, ($b003 == 0)
- dialogtxt       "You, [NAME 5], from now on"
+ dialogtxt       "From now on, you too"
  dialogtxt       "Do not make careless remarks"
- dialogtxt       "[NAME 4], you must be careful."
+ dialogtxt       "should watch what you say."
 goto            @Cond_0d3e
 
 @Cond_0d3e:
 jumpz           @Cond_0db2, ($b003 == 1)
  dialogtxt       "You're the one who should be careful!"
- dialogtxt       "The next time you open your mouth, first"
- dialogtxt       "Think of Murno first!"
+ dialogtxt       "The next time you open your mouth,"
+ dialogtxt       "first Think of Murno first!"
 goto            @Cond_0db2
 
 @Cond_0db2:
 jumpz           @Cond_0e10, ($b003 == 2)
- dialogtxt       "You should be careful, [NAME 4]!"
+ dialogtxt       "You should watch what you say!"
  dialogtxt       "Don't say anything careless"
- dialogtxt       "You'd better be careful."
+ dialogtxt       "or you'll regret it."
 goto            @Cond_0e10
 
 @Cond_0e10:
@@ -479,8 +479,8 @@ code0309
 call            @Func_3e72
 code0479        1, 0, 16
 call            @Func_3ea8
- dialogtxt       "I want to meet someone called Velworen."
- dialogtxt       "That's what she said, but..."
+ dialogtxt       "I want to meet someone called"
+ dialogtxt       "Velworen. That's what she said, but..."
  dialogtxt       "Even I don't really know..."
 code0309        
 call            @Func_3ede
@@ -636,7 +636,7 @@ code0479        0, 5, 17
 call            @Func_3e3c
  dialogtxt       "You mean Master Benon?!"
  dialogtxt       "No!"
- dialogtxt       "We can't stay here, [NAME 4]!"
+ dialogtxt       "We can't stay here!"
 code0309        
 call            @Func_3f78
 call            @Func_3e5a
@@ -906,7 +906,7 @@ call            @Func_3e72
 code0479        1, 0, 12
 call            @Func_3ea8
  dialogtxt       "If you're not our big brother..."
- dialogtxt       "Possible, [NAME 8]..."
+ dialogtxt       "That may be possible..."
 code0309        
 call            @Func_3f4c
 call            @Func_3ede
@@ -923,7 +923,7 @@ call            @Func_3e72
 code0479        1, 5, 12
 call            @Func_3ea8
  dialogtxt       "I see."
- dialogtxt       "I hadn't considered [NAME 5]."
+ dialogtxt       "I hadn't considered that."
  dialogtxt       "I will reconsider..."
 code0309        
 call            @Func_3f4c
@@ -957,7 +957,7 @@ call            @Func_3e72
 code0479        1, 2, 14
 call            @Func_3ea8
  dialogtxt       "That presence..."
- dialogtxt       "No one surpasses Ani[NAME 4]."
+ dialogtxt       "It can't be stronger than Big Brother."
  dialogtxt       "That much is certain."
 code0309        
 call            @Func_3f4c
@@ -1059,7 +1059,7 @@ call            @Func_3e72
 code0479        1, 0, 16
 call            @Func_3ea8
  dialogtxt       "That's right."
- dialogtxt       "If it's not Ani[NAME 4]..."
+ dialogtxt       "If it's not Big Brother..."
  dialogtxt       "Who could it be?"
 code0309        
 call            @Func_3f4c
@@ -1369,7 +1369,7 @@ code0309
 call            @Func_3e72
 code0479        1, 0, 12
 call            @Func_3ea8
- dialogtxt       "...[NAME 5][NAME 6]."
+ dialogtxt       "...That seems right."
  dialogtxt       "However..."
 code0309        
 call            @Func_3f78

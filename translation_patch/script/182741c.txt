@@ -102,27 +102,27 @@ call            @Func_100c
 call            @Func_0fa8
 jumpz           @Cond_05c0, ($b003 == 0)
 dialogtxt       "AT THE MOMENT OF DISAPPEARANCE,"
-dialogtxt       "DISTURBANCE, [NAME 8]!"
+dialogtxt       "CONFIRMED!"
 code047b        
 code0309        
 code0479        1, 0, 12
 dialogtxt       "AS I SUSPECTED, THE ENERGY"
 dialogtxt       "FILLING THESE RUINS IS INVOLVED"
-dialogtxt       "I BELIEVE, [NAME 8]..."
+dialogtxt       "I BELIEVE ..."
 code0309        
 call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_0566, ($b002 == 0)
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_05bc
 
 @Cond_0566:
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_05bc
 
 @Label_05bc:
@@ -130,8 +130,8 @@ goto            @Cond_05c0
 
 @Cond_05c0:
 jumpz           @Cond_06fe, ($b003 == 1)
-dialogtxt       "As I thought, it seems related"
-dialogtxt       "to the unpleasant energy filling the ruins."
+dialogtxt       "As I thought, it seems related to the"
+dialogtxt       "unpleasant energy filling the ruins."
 dialogtxt       "We mustn't underestimate it."
 code047b        
 code0309        
@@ -139,15 +139,15 @@ call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_06a4, ($b002 == 0)
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_06fa
 
 @Cond_06a4:
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_06fa
 
 @Label_06fa:
@@ -155,8 +155,8 @@ goto            @Cond_06fe
 
 @Cond_06fe:
 jumpz           @Cond_083a, ($b003 == 2)
-dialogtxt       "As I thought, it's because of"
-dialogtxt       "the unpleasant energy filling this place."
+dialogtxt       "As I thought, it's because of the"
+dialogtxt       "unpleasant energy filling this place."
 dialogtxt       "Is it showing us illusions?"
 code047b        
 code0309        
@@ -164,15 +164,15 @@ call            @Func_0fde
 code0479        0, 2, 14
 call            @Func_0f3c
 jumpz           @Cond_07e0, ($b002 == 0)
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_0836
 
 @Cond_07e0:
-dialogtxt       "I don't really get it, but"
+dialogtxt       "I don't get it, but"
 dialogtxt       "there's no point worrying here."
-dialogtxt       "Let's just keep moving!"
+dialogtxt       "Let's keep moving!"
 goto            @Label_0836
 
 @Label_0836:

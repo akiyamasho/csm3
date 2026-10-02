@@ -15,13 +15,13 @@ code047d        1, 132
 call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_010c, ($b002 == 0)
-dialogtxt       "A... Ani[NAME 4]...!"
-dialogtxt       "It was such a precious weapon..."
-dialogtxt       "I'm sorry... O[NAME 8]..."
+dialogtxt       "B... Bro...!"
+dialogtxt       "That weapon meant so much to you..."
+dialogtxt       "I am sorry... I..."
 goto            @Label_014e
 
 @Cond_010c:
-dialogtxt       "A... Ani[NAME 4]...!"
+dialogtxt       "A... Bro...!"
 dialogtxt       "It was such a precious weapon..."
 dialogtxt       "I'm sorry... I..."
 goto            @Label_014e
@@ -52,12 +52,12 @@ code047d        1, 132
 call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_02ba, ($b002 == 0)
-dialogtxt       "What's wrong, Ani[NAME 4]?"
+dialogtxt       "What's wrong, Bro?"
 dialogtxt       "You were moving strangely..."
 goto            @Label_02f6
 
 @Cond_02ba:
-dialogtxt       "What's wrong, Ani[NAME 4]?"
+dialogtxt       "What's wrong, Bro?"
 dialogtxt       "You were moving strangely..."
 goto            @Label_02f6
 
@@ -98,8 +98,8 @@ call            @Func_141c
 call            @Func_1318
 jumpz           @Cond_049a, ($b002 == 0)
 dialogtxt       "Whoa!"
-dialogtxt       "No... O[NAME 8]..."
-dialogtxt       "I didn't mean to break it..."
+dialogtxt       "No... I never meant"
+dialogtxt       "to break it..."
 goto            @Label_04d6
 
 @Cond_049a:
@@ -138,13 +138,13 @@ call            @Func_13d8
 code0479        0, 6, 12
 call            @Func_1336
 jumpz           @Cond_067a, ($b002 == 0)
-dialogtxt       "Ah... Ani[NAME 4]..."
+dialogtxt       "Ah... Bro..."
 dialogtxt       "Does that mean..."
-dialogtxt       "O[NAME 8]..."
+dialogtxt       "I..."
 goto            @Label_06aa
 
 @Cond_067a:
-dialogtxt       "Ah... Ani[NAME 4]..."
+dialogtxt       "Ah... Bro..."
 dialogtxt       "Does that mean..."
 dialogtxt       "I..."
 goto            @Label_06aa
@@ -154,9 +154,9 @@ code0309
 call            @Func_136c
 code0479        1, 0, 16
 call            @Func_13a2
-dialogtxt       "Since O[NAME 8] became a smith,"
-dialogtxt       "the only ones she defeated were"
-dialogtxt       "Benon and Rob, at smithing and battle..."
+dialogtxt       "Since I became a smith,"
+dialogtxt       "only Master Benson and Rob have"
+dialogtxt       "beaten me at smithing and combat..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "As her apprentice, you really have"
@@ -175,7 +175,7 @@ call            @Func_13d8
 code0479        0, 1, 13
 call            @Func_1336
 dialogtxt       "Thank you!"
-dialogtxt       "Ani[NAME 4]!"
+dialogtxt       "Bro!"
 code0309        
 call            @Func_1472
 call            @Func_1354
@@ -235,7 +235,7 @@ code0479        0, 11, 17
 call            @Func_13f0
 call            @Func_1318
 dialogtxt       "Oh no..."
-dialogtxt       "S-sorry, Ani[NAME 4]..."
+dialogtxt       "S-sorry, Bro..."
 code047b        
 code0309        
 call            @Func_136c

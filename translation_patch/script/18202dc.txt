@@ -93,7 +93,7 @@ call            @Func_0f00
 code0479        1, 0, 12
 call            @Func_0f36
 dialogtxt       "Correct..."
-dialogtxt       "If you call yourself a blacksmith,"
+dialogtxt       "If you call yourself a smith,"
 dialogtxt       "you should know something this basic."
 code0309        
 goto            @Label_0482
@@ -171,7 +171,7 @@ goto            @Label_0686
 
 @Label_0686:
 code0479        1, 2, 14
-dialogtxt       "As a blacksmith, what is the"
+dialogtxt       "As a smith, what is the"
 dialogtxt       "most important thing when making"
 dialogtxt       "weapons? Which of these is it?"
 code0309        
@@ -233,7 +233,7 @@ goto            @Label_0926
 @Label_08e0:
 jumpz           @Label_0926, ($f0142 == 0)
 code0479        1, 2, 12
-dialogtxt       "You answered every question correctly..."
+dialogtxt       "You got equestion right..."
 code0309        
 goto            @Label_0926
 

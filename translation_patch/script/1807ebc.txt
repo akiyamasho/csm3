@@ -101,7 +101,7 @@ call            @Func_18f2
 call            @Func_188e
 jumpz           @Cond_0550, ($b002 == 0)
 dialogtxt       "What? Don't tell me he's gone berserk,"
-dialogtxt       "[NAME 8]~!"
+dialogtxt       "Could it be you~?"
 dialogtxt       "..."
 goto            @Label_058a
 
@@ -147,7 +147,7 @@ call            @Func_1858
 code0479        1, 2, 16
 call            @Func_188e
 jumpz           @Cond_0720, ($b002 == 0)
-dialogtxt       "What the heck...! After scolding [NAME 8]"
+dialogtxt       "What the heck...! After scolding you"
 dialogtxt       "about all sorts of things, you're"
 dialogtxt       "fighting too!"
 goto            @Label_0772
@@ -305,9 +305,9 @@ call            @Func_1822
 dialogtxt       "Don't mention it."
 code0309        
 code0479        0, 5, 15
-dialogtxt       "...No!"
-dialogtxt       "I just... for Elie,"
-dialogtxt       "I didn't want to get dragged into it..."
+dialogtxt       "...No! I just... for Elie, I"
+dialogtxt       "didn't want to get dragged into"
+dialogtxt       "it..."
 code0309        
 call            @Func_1858
 code0479        1, 1, 12

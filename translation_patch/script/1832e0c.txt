@@ -174,8 +174,8 @@ code047d        1, 2
 call            @Func_20f4
 call            @Func_205c
 jumpz           @Cond_07d4, ($b003 == 0)
-dialogtxt       "THAT'S GREAT, [NAME 6]"
-dialogtxt       "LADY MURNO"
+dialogtxt       "THAT'S GREAT,"
+dialogtxt       "LADY MURNO!"
 goto            @Cond_07d4
 
 @Cond_07d4:
@@ -216,7 +216,7 @@ call            @Func_20de
 call            @Func_207a
 dialogtxt       "From here altar with the magic crystal"
 dialogtxt       "pillar, there are Summon Beasts even"
-dialogtxt       "stronger than before. Please be careful."
+dialogtxt       "stronger than before. Be careful."
 code047b        
 code0309        
 call            @Func_20b0
@@ -252,13 +252,13 @@ call            @Func_1ff0
 jumpz           @Cond_0b1a, ($b002 == 0)
 dialogtxt       "Magdrado..."
 dialogtxt       "You don't mean the Summon Beast"
-dialogtxt       "who was with Anise...?"
+dialogtxt       "that was with her...?"
 goto            @Label_0b62
 
 @Cond_0b1a:
 dialogtxt       "Magdrado..."
 dialogtxt       "You mean the Summon Beast"
-dialogtxt       "who was with Anise?"
+dialogtxt       "that was with her?"
 goto            @Label_0b62
 
 @Label_0b62:
@@ -277,8 +277,8 @@ dialogtxt       "borrowed to open this Louise Village."
 code0309        
 code0479        1, 0, 16
 dialogtxt       "Even after that work was done, their"
-dialogtxt       "Summon Stones were placed in each"
-dialogtxt       "ruin as treasures to protect this village."
+dialogtxt       "Summon Stones were placed in each ruin"
+dialogtxt       "as treasures to protect this village."
 code0309        
 call            @Func_20b0
 code0479        0, 2, 14
@@ -346,9 +346,9 @@ code0309
 call            @Func_2044
 code0479        1, 4, 13
 call            @Func_207a
-dialogtxt       "Lady Murno is one thing,"
-dialogtxt       "but you look like you might let it slip,"
-dialogtxt       "you see."
+dialogtxt       "Lady Murno is one thing, but you"
+dialogtxt       "look like you might let it slip, you"
+dialogtxt       "see."
 code0309        
 call            @Func_20b0
 code0479        0, 2, 15
@@ -509,7 +509,7 @@ code043c        1, 2
 jumpz           @Cond_1756, ($b003 == 0)
 dialogtxt       "LADY MURNO HAS GONE"
 dialogtxt       "ON AHEAD AGAIN!"
-dialogtxt       "WE SHOULD GO, [NAME 4]!"
+dialogtxt       "WE SHOULD GO TOO!"
 goto            @Cond_1756
 
 @Cond_1756:
@@ -522,7 +522,7 @@ goto            @Cond_17b0
 @Cond_17b0:
 jumpz           @Cond_1802, ($b003 == 2)
 dialogtxt       "Tch, Murno again...!"
-dialogtxt       "Hey, [NAME 4]!"
+dialogtxt       "Hey, you!"
 dialogtxt       "Hurry up!"
 goto            @Cond_1802
 

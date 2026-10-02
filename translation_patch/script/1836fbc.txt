@@ -135,9 +135,9 @@ code0309
 call            @Func_17ec
 code0479        0, 2, 12
 call            @Func_174a
-dialogtxt       "Of course."
-dialogtxt       "At this point, asking me to believe you"
-dialogtxt       "would be impossible."
+dialogtxt       "Of course. At this point, asking"
+dialogtxt       "me to believe you would be"
+dialogtxt       "impossible."
 code0309        
 call            @Func_1780
 code0479        1, 2, 13
@@ -169,9 +169,9 @@ code0309
 call            @Func_17ec
 code0479        0, 2, 16
 call            @Func_174a
-dialogtxt       "Do you think there's anyone"
-dialogtxt       "foolish enough to believe what"
-dialogtxt       "[NAME 4] says at this point?"
+dialogtxt       "Who do you think would be"
+dialogtxt       "foolish enough to believe you"
+dialogtxt       "now?"
 code0309        
 call            @Func_1780
 code0479        1, 2, 13
@@ -184,7 +184,7 @@ call            @Func_17ec
 code0479        0, 3, 14
 call            @Func_174a
 dialogtxt       "Owner...?!"
-dialogtxt       "[NAME 4], watch your mouth...!"
+dialogtxt       "You... how dare you...!"
 goto            @Cond_0972
 
 @Cond_0972:

@@ -54,14 +54,14 @@ jumpz           @Cond_0418, ($b003 == 0)
 call            @Func_2f12
 jumpz           @Cond_0214, ($b002 == 0)
 dialogtxt       "Let's show that old man"
-dialogtxt       "what [NAME 8] and I can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "what we can do!"
+dialogtxt       "Let's show him!"
 goto            @Label_0252
 
 @Cond_0214:
 dialogtxt       "Let's show that man"
 dialogtxt       "what we can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "Let's show him!"
 goto            @Label_0252
 
 @Label_0252:
@@ -79,7 +79,7 @@ call            @Func_2f30
 dialogtxt       "Even if you say that..."
 dialogtxt       "γ, you're wearing that thing, so"
 jumpz           @Cond_0310, ($b002 == 0)
-dialogtxt       "You can't use magic while it's on, right?"
+dialogtxt       "You can't use magic with it on, right?"
 goto            @Label_032e
 
 @Cond_0310:
@@ -92,7 +92,7 @@ call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
 dialogtxt       "..."
-dialogtxt       "...That was [NAME 5]."
+dialogtxt       "Oh, that's right."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
@@ -106,8 +106,8 @@ dialogtxt       "If we show them our skill,"
 goto            @Label_03d0
 
 @Label_03d0:
-dialogtxt       "Then they'll understand what we can do,"
-dialogtxt       "so let's do our best for now."
+dialogtxt       "Then they'll understand what we can"
+dialogtxt       "do, so let's do our best for now."
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -119,14 +119,14 @@ jumpz           @Cond_06a0, ($b003 == 1)
 call            @Func_2f12
 jumpz           @Cond_0480, ($b002 == 0)
 dialogtxt       "Let's show that old man"
-dialogtxt       "what [NAME 8] and I can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "what we can do!"
+dialogtxt       "Let's show him!"
 goto            @Label_04be
 
 @Cond_0480:
 dialogtxt       "Let's show that man"
 dialogtxt       "what we can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "Let's show him!"
 goto            @Label_04be
 
 @Label_04be:
@@ -145,7 +145,7 @@ call            @Func_2f30
 dialogtxt       "Even if you say that..."
 dialogtxt       "γ, you're wearing that thing, so"
 jumpz           @Cond_0590, ($b002 == 0)
-dialogtxt       "You can't use magic while it's on, right?"
+dialogtxt       "You can't use magic with it on, right?"
 goto            @Label_05ae
 
 @Cond_0590:
@@ -172,8 +172,8 @@ dialogtxt       "If we show them our skill,"
 goto            @Label_0658
 
 @Label_0658:
-dialogtxt       "Then they'll understand what we can do,"
-dialogtxt       "so let's do our best for now."
+dialogtxt       "Then they'll understand what we can"
+dialogtxt       "do, so let's do our best for now."
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -185,14 +185,14 @@ jumpz           @Cond_0910, ($b003 == 2)
 call            @Func_2f12
 jumpz           @Cond_0708, ($b002 == 0)
 dialogtxt       "Let's show that old man"
-dialogtxt       "what [NAME 8] and I can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "what we can do!"
+dialogtxt       "Let's show him!"
 goto            @Label_0746
 
 @Cond_0708:
 dialogtxt       "Let's show that man"
 dialogtxt       "what we can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "Let's show him!"
 goto            @Label_0746
 
 @Label_0746:
@@ -210,7 +210,7 @@ call            @Func_2f30
 dialogtxt       "Even if you say that..."
 dialogtxt       "γ, you're wearing that thing, so"
 jumpz           @Cond_0800, ($b002 == 0)
-dialogtxt       "You can't use magic while it's on, right?"
+dialogtxt       "You can't use magic with it on, right?"
 goto            @Label_081e
 
 @Cond_0800:
@@ -237,8 +237,8 @@ dialogtxt       "If we show them our skill,"
 goto            @Label_08c8
 
 @Label_08c8:
-dialogtxt       "Then they'll understand what we can do,"
-dialogtxt       "so let's do our best for now."
+dialogtxt       "Then they'll understand what we can"
+dialogtxt       "do, so let's do our best for now."
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -250,14 +250,14 @@ jumpz           @Cond_0b94, ($b003 == 3)
 call            @Func_2f12
 jumpz           @Cond_0978, ($b002 == 0)
 dialogtxt       "Let's show that old man"
-dialogtxt       "what [NAME 8] and I can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "what we can do!"
+dialogtxt       "Let's show him!"
 goto            @Label_09b6
 
 @Cond_0978:
 dialogtxt       "Let's show that man"
 dialogtxt       "what we can do!"
-dialogtxt       "Let's show them what we've got!"
+dialogtxt       "Let's show him!"
 goto            @Label_09b6
 
 @Label_09b6:
@@ -275,7 +275,7 @@ call            @Func_2f30
 dialogtxt       "Even if you say that..."
 dialogtxt       "γ, you're wearing that thing, so"
 jumpz           @Cond_0a84, ($b002 == 0)
-dialogtxt       "You can't use magic while it's on, right?"
+dialogtxt       "You can't use magic with it on, right?"
 goto            @Label_0aa2
 
 @Cond_0a84:
@@ -301,8 +301,8 @@ dialogtxt       "If we show them our skill,"
 goto            @Label_0b4c
 
 @Label_0b4c:
-dialogtxt       "Then they'll understand what we can do,"
-dialogtxt       "so let's do our best for now."
+dialogtxt       "Then they'll understand what we can"
+dialogtxt       "do, so let's do our best for now."
 code0309        
 call            @Func_306c
 call            @Func_2f4e
@@ -407,7 +407,7 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "[NAME 5]'s three weapons:"
+dialogtxt       "As for the three weapons:"
 dialogtxt       "you can tell from their appearance,"
 dialogtxt       "I believe."
 code0309        
@@ -497,9 +497,9 @@ dialogtxt       "What did you say?"
 dialogtxt       "Did you count them properly!?"
 code0309        
 code0479        1, 4, 16
-dialogtxt       "Gallahan told us, too,"
-dialogtxt       "so surely you didn't forget the hammer..."
-dialogtxt       "I would hope..."
+dialogtxt       "Gallahan told us, too, so surely you"
+dialogtxt       "didn't forget the hammer... I would"
+dialogtxt       "hope..."
 code0309        
 call            @Func_2fd2
 code0479        0, 5, 14
@@ -546,9 +546,9 @@ code0309
 call            @Func_2f66
 code0479        1, 4, 16
 call            @Func_2f9c
-dialogtxt       "What do you mean...?"
-dialogtxt       "With those three types,"
-dialogtxt       "Their appearance tells you, doesn't it?"
+dialogtxt       "What do you mean...? With those three"
+dialogtxt       "types, Their appearance tells you,"
+dialogtxt       "doesn't it?"
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 16
@@ -830,9 +830,9 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 16
 call            @Func_2f9c
-dialogtxt       "Which one...?"
-dialogtxt       "With those three types,"
-dialogtxt       "I think you can tell from their appearance."
+dialogtxt       "Which one...? With those three types,"
+dialogtxt       "I think you can tell from their"
+dialogtxt       "appearance."
 code0309        
 call            @Func_2fd2
 code0479        0, 0, 12
@@ -948,9 +948,9 @@ code0309
 call            @Func_2f66
 code0479        1, 0, 12
 call            @Func_2f9c
-dialogtxt       "[NAME 5][NAME 6]."
+dialogtxt       "That's right."
 dialogtxt       "With my current equipment,"
-dialogtxt       "We believe defeating it will be difficult."
+dialogtxt       "We may not beat it."
 code0309        
 call            @Func_2fd2
 code0479        0, 1, 14
@@ -984,9 +984,9 @@ code0309
 call            @Func_2f66
 code0479        1, 2, 14
 call            @Func_2f9c
-dialogtxt       "Well..."
-dialogtxt       "As a blacksmith, that may be"
-dialogtxt       "the proper way to use one's strength..."
+dialogtxt       "Well... As a blacksmith, that may"
+dialogtxt       "be the proper way to use one's"
+dialogtxt       "strength..."
 code0309        
 call            @Func_2fd2
 code0479        0, 2, 16
@@ -1225,7 +1225,7 @@ call            @Func_2f66
 code0479        1, 2, 12
 call            @Func_2f9c
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Murno is in the underground palace, but"
+dialogtxt       "Murno's in the palace below, but"
 dialogtxt       "Can we reach it without being caught?"
 code0309        
 call            @Func_2fd2
@@ -1266,8 +1266,8 @@ call            @Func_2f66
 code0479        1, 2, 12
 call            @Func_2f9c
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Lady Murno is in the underground palace."
-dialogtxt       "Let's avoid the villagers."
+dialogtxt       "Lady Murno is in the underground"
+dialogtxt       "palace. Let's avoid the villagers."
 code0309        
 call            @Func_2fd2
 code0479        0, 2, 12

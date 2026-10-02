@@ -257,7 +257,7 @@ code0301        8, 7
 code047d        0, 119
 code047e        0, 1
 dialogtxt       "If there's something you have to do,"
-dialogtxt       "give it everything you've got right now."
+dialogtxt       "give it all you've got right now."
 code0309        
 code047e        0, 0
 code0302        7

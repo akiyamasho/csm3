@@ -59,9 +59,9 @@ call            @Func_1894
 code047b        
 call            @Func_1946
 call            @Func_18c4
-dialogtxt       "Huh, I've seen it before. It's small, but"
-dialogtxt       "ferocious... But this is the first time"
-dialogtxt       "I've seen one around here."
+dialogtxt       "Huh, I've seen it before. It's small,"
+dialogtxt       "but ferocious... But this is the first"
+dialogtxt       "time I've seen one around here."
 code047b        
 code0309        
 code0479        1, 2, 16
@@ -115,11 +115,11 @@ code047d        1, 109
 call            @Func_1946
 call            @Func_18c4
 dialogtxt       "(I can do this...!"
-dialogtxt       " [NAME 8] can do this...!)"
+dialogtxt       " This could work...!)"
 code047b        
 code0309        
 code0479        1, 1, 12
-dialogtxt       "Let's have you move aside for a moment."
+dialogtxt       "Please move aside for a moment."
 code0309        
 call            @Func_199c
 call            @Func_1900

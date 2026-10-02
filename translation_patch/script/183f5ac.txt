@@ -81,15 +81,15 @@ call            @Func_11ac
 code0479        0, 0, 13
 call            @Func_110a
 jumpz           @Cond_04ec, ($b002 == 0)
-dialogtxt       "Yeah, it's for Murno."
-dialogtxt       "And it got me fired up, so I thought I'd"
-dialogtxt       "patrol like this..."
+dialogtxt       "Yeah, it's for Murno. And it got me"
+dialogtxt       "fired up, so I thought I'd patrol like"
+dialogtxt       "this..."
 goto            @Label_0544
 
 @Cond_04ec:
-dialogtxt       "Yeah, it's for Murno."
-dialogtxt       "And it got me fired up, so I thought I'd"
-dialogtxt       "patrol like this..."
+dialogtxt       "Yeah, it's for Murno. And it got me"
+dialogtxt       "fired up, so I thought I'd patrol like"
+dialogtxt       "this..."
 goto            @Label_0544
 
 @Label_0544:
@@ -130,8 +130,8 @@ call            @Func_11ac
 code0479        0, 4, 16
 call            @Func_110a
 jumpz           @Cond_0736, ($b002 == 0)
-dialogtxt       "Ugh..."
-dialogtxt       "But [NAME 8], too..."
+dialogtxt       "Aww..."
+dialogtxt       "But I want to help, too..."
 goto            @Label_075a
 
 @Cond_0736:
@@ -144,19 +144,19 @@ code0309
 call            @Func_1140
 code0479        1, 4, 12
 call            @Func_1176
-dialogtxt       "You're always getting involved."
-dialogtxt       "You're always meddling."
-dialogtxt       "Randy, my old [NAME 6]-ko."
+dialogtxt       "The moment I look away, you're"
+dialogtxt       "sticking your nose into things,"
+dialogtxt       "just like my old cat, Randy."
 code0309        
 call            @Func_11ac
 code0479        0, 2, 15
 call            @Func_110a
 jumpz           @Cond_0828, ($b002 == 0)
-dialogtxt       "Not [NAME 6]-ko!"
+dialogtxt       "Don't compare me to a cat!"
 goto            @Label_084c
 
 @Cond_0828:
-dialogtxt       "Not [NAME 6]-ko!"
+dialogtxt       "Don't compare me to a cat!"
 goto            @Label_084c
 
 @Label_084c:
@@ -203,8 +203,8 @@ code0309
 call            @Func_1140
 code0479        1, 1, 13
 call            @Func_1176
-dialogtxt       "Then I'll sing you a lullaby while I lie"
-dialogtxt       "beside you. A rock 'n' roll"
+dialogtxt       "Then I'll sing you a lullaby while"
+dialogtxt       "I lie beside you. A rock 'n' roll"
 dialogtxt       "lullaby."
 code0309        
 call            @Func_11ac

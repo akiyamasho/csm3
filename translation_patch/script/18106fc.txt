@@ -45,19 +45,19 @@ code047d        1, 110
 call            @Func_0f42
 call            @Func_0eaa
 dialogtxt       "...?"
-dialogtxt       "Why are you in a place like this?"
+dialogtxt       "Why are you here?"
 code047b        
 code0309        
 call            @Func_0efe
 code0479        0, 4, 16
 call            @Func_0e5c
 jumpz           @Cond_02f4, ($b002 == 0)
-dialogtxt       "[NAME 8] doesn't really know,"
+dialogtxt       "I don't know, either,"
 dialogtxt       "either. I was walking, and somehow..."
 goto            @Label_0330
 
 @Cond_02f4:
-dialogtxt       "I don't really know, either."
+dialogtxt       "I don't know, either."
 dialogtxt       "I was walking, and somehow..."
 goto            @Label_0330
 
@@ -66,22 +66,22 @@ code0309
 call            @Func_0e92
 code0479        1, 2, 12
 call            @Func_0ec8
-dialogtxt       "Somehow?"
-dialogtxt       "If you keep wandering around like that,"
-dialogtxt       "don't blame me if you get harassed again."
+dialogtxt       "Somehow? If you keep wandering around"
+dialogtxt       "like that, don't blame me if you get"
+dialogtxt       "harassed again."
 code0309        
 call            @Func_0efe
 code0479        0, 0, 14
 call            @Func_0e5c
 jumpz           @Cond_040e, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "Did you come all the way here"
-dialogtxt       "because you were worried about me?"
+dialogtxt       "Did you come here"
+dialogtxt       "because you were worried?"
 goto            @Label_0454
 
 @Cond_040e:
 dialogtxt       "What?"
-dialogtxt       "Did you come all the way here"
+dialogtxt       "Did you come here"
 dialogtxt       "because you were worried about me?"
 goto            @Label_0454
 
@@ -93,21 +93,21 @@ call            @Func_0ec8
 dialogtxt       "W-who said I was...!"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "I was just out on patrol."
-dialogtxt       "Our workshop is also part of"
+dialogtxt       "I was out on patrol."
+dialogtxt       "Our workshop is part of"
 dialogtxt       "the town guard, you know."
 code0309        
 call            @Func_0efe
 code0479        0, 0, 16
 call            @Func_0e5c
 jumpz           @Cond_0568, ($b002 == 0)
-dialogtxt       "Oh... So you're like [NAME 4]."
+dialogtxt       "Oh... So you're like big bro."
 dialogtxt       "Then were you patrolling"
 dialogtxt       "when you were in Liuto Cavern, too?"
 goto            @Label_05ba
 
 @Cond_0568:
-dialogtxt       "Oh... So you're like [NAME 4]."
+dialogtxt       "Oh... So you're like big bro."
 dialogtxt       "Then were you patrolling"
 dialogtxt       "when you were in Liuto Cavern, too?"
 goto            @Label_05ba
@@ -126,9 +126,9 @@ call            @Func_0efe
 code0479        0, 1, 12
 call            @Func_0e5c
 jumpz           @Cond_067e, ($b002 == 0)
-dialogtxt       "I see. That sounds tough... Still, thanks"
-dialogtxt       "to you, [NAME 8] and the"
-dialogtxt       "others were able to help out."
+dialogtxt       "I see. That sounds tough... Still,"
+dialogtxt       "thanks to you, the others and I"
+dialogtxt       "were able to help out."
 goto            @Label_06ca
 
 @Cond_067e:

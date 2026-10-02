@@ -50,7 +50,7 @@ code0312
 menutxt         @Menu_02b6, "Murno"
 menutxt         @Menu_02c2, "γ"
 menutxt         @Menu_02ce, "V.E"
-menutxt         @Menu_02da, "[NAME 8]"
+menutxt         @Menu_02da, "Lemmy"
 menutxt         @Menu_02e6, "Jade"
 menutxt         @Menu_02f2, "Tye"
 menuwait        

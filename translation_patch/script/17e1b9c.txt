@@ -198,7 +198,7 @@ call            @Func_1e78
 code0479        0, 1, 12
 call            @Func_1dd6
 dialogtxt       "Yeah!"
-dialogtxt       "That's thanks to you too..."
+dialogtxt       "Thanks to you too, [NAME 2]..."
 code0309        
 code0479        0, 5, 15
 dialogtxt       "...But Lemmy-"

@@ -45,8 +45,8 @@ code047d        1, 116
 call            @Func_1a92
 call            @Func_1a2e
 dialogtxt       "For a Summon Beast from a nameless"
-dialogtxt       "world, [NAME 4] you sure are"
-dialogtxt       "arrogant, trying to take on the two of..."
+dialogtxt       "world, you sure are arrogant,"
+dialogtxt       "trying to take on the two of..."
 code047b        
 code0309        
 call            @Func_1ad2
@@ -86,7 +86,7 @@ goto            @Cond_037c
 
 @Cond_037c:
 jumpz           @Cond_03a0, ($b003 == 2)
-dialogtxt       "[NAME 4] and the others..."
+dialogtxt       "You and the others..."
 goto            @Cond_03a0
 
 @Cond_03a0:
@@ -111,9 +111,9 @@ dialogtxt       "on my cute apprentice."
 code047b        
 code0309        
 code0479        0, 4, 13
-dialogtxt       "The shock sent blood rushing to my head,"
-dialogtxt       "so I lost control."
-dialogtxt       "It couldn't be helped..."
+dialogtxt       "The shock sent blood rushing to my"
+dialogtxt       "head, so I lost control. It couldn't"
+dialogtxt       "be helped..."
 code0309        
 call            @Func_19f8
 code0479        1, 2, 14
@@ -223,8 +223,8 @@ code0479        0, 0, 12
 code047d        0, 116
 call            @Func_1a7c
 code0479        1, 2, 12
-dialogtxt       "While [NAME 8] and the"
-dialogtxt       "others were away, you didn't just"
+dialogtxt       "While we were away,"
+dialogtxt       "you didn't just"
 dialogtxt       "rampage through my workshop, did you?"
 code047b        
 code0309        
@@ -260,13 +260,13 @@ call            @Func_1a2e
 dialogtxt       "Interesting..."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "[NAME 8] completely agree"
+dialogtxt       "I completely agree"
 dialogtxt       "with teaching people physically"
 dialogtxt       "when words don't work."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "So don't complain"
-dialogtxt       "when [NAME 8] knocks you flat,"
+dialogtxt       "when I knock you flat,"
 dialogtxt       "all right?"
 code0309        
 call            @Func_1a64
@@ -278,7 +278,7 @@ call            @Func_19f8
 code0479        1, 3, 15
 call            @Func_1a2e
 dialogtxt       "Because"
-dialogtxt       "you [NAME 4] are scum"
+dialogtxt       "you are scum"
 dialogtxt       "who need to be taught manners!"
 code0309        
 call            @Func_1ad2
@@ -307,7 +307,7 @@ call            @Func_19c2
 jumpz           @Cond_0e4a, ($b002 == 0)
 dialogtxt       "Sorry, Anise..."
 dialogtxt       "But I want you to leave"
-dialogtxt       "that Gillan guy to [NAME 8]."
+dialogtxt       "that Gillan guy to me."
 goto            @Label_0e9c
 
 @Cond_0e4a:
@@ -338,8 +338,8 @@ code0479        1, 1, 16
 code047d        1, 108
 call            @Func_1a92
 call            @Func_1a2e
-dialogtxt       "Ah... You..."
-dialogtxt       "Why are you looking at me like that...?"
+dialogtxt       "Ah... You... Why are you looking at me"
+dialogtxt       "like that...?"
 code047b        
 code0309        
 call            @Func_1ae8
@@ -352,7 +352,7 @@ call            @Func_1a92
 code0479        0, 2, 14
 call            @Func_19c2
 jumpz           @Cond_1070, ($b002 == 0)
-dialogtxt       "I don't think [NAME 8] has"
+dialogtxt       "I don't think I have"
 dialogtxt       "learned anything wrong from Master."
 dialogtxt       "I want to prove that to him..."
 goto            @Label_10d0
@@ -407,9 +407,9 @@ call            @Func_19f8
 code043c        5, 3
 code0479        1, 2, 13
 call            @Func_1a2e
-dialogtxt       "All right, got it! I'll leave him to δ"
-dialogtxt       "and the others. [NAME 8]"
-dialogtxt       "will teach the fuzzy guy!"
+dialogtxt       "Got it! I'll leave him to δ"
+dialogtxt       "and the others. I will"
+dialogtxt       "the fuzzy guy!"
 code0309        
 call            @Func_1ad2
 call            @Func_1a64

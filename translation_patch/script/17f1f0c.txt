@@ -207,8 +207,8 @@ goto            @Cond_090e
 
 @Cond_090e:
 jumpz           @Cond_0946, ($b003 == 2)
-	dialogtxt       "It can't be helped. It seems we have no"
-	dialogtxt       "choice but to do it..."
+	dialogtxt       "It can't be helped. It seems we have"
+	dialogtxt       "no choice but to do it..."
 goto            @Cond_0946
 
 @Cond_0946:
@@ -227,7 +227,7 @@ code0479        0, 2, 13
 code047d        0, 0
 call            @Func_1162
 call            @Func_10a8
-	dialogtxt       "Something about this bothers me, but..."
+	dialogtxt       "Something feels off, but..."
 jumpz           @Cond_0a06, ($b002 == 0)
 	dialogtxt       "Oh, well!"
 	dialogtxt       "I'll definitely win!"

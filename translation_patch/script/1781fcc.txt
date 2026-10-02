@@ -195,14 +195,14 @@ jumpz           @Cond_0902, ($b003 == 0)
 call            @Func_2982
 jumpz           @Cond_07c4, ($b002 == 0)
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
+dialogtxt       "Slenji Mine, apparently. Seems Zack is"
 dialogtxt       "chasing them..."
 goto            @Label_0826
 
 @Cond_07c4:
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_0826
 
 @Label_0826:
@@ -239,14 +239,14 @@ jumpz           @Cond_0aca, ($b003 == 1)
 call            @Func_2982
 jumpz           @Cond_0988, ($b002 == 0)
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_09ea
 
 @Cond_0988:
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_09ea
 
 @Label_09ea:
@@ -283,14 +283,14 @@ jumpz           @Cond_0c88, ($b003 == 2)
 call            @Func_2982
 jumpz           @Cond_0b50, ($b002 == 0)
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_0bb2
 
 @Cond_0b50:
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_0bb2
 
 @Label_0bb2:
@@ -299,9 +299,9 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 14
 call            @Func_2a0c
-dialogtxt       "Does he really think he can follow them"
-dialogtxt       "alone and remain safe...? What a child"
-dialogtxt       "with no sense of his own limits."
+dialogtxt       "Does he really think he can follow"
+dialogtxt       "them alone and remain safe...? What a"
+dialogtxt       "child with no sense of his own limits."
 code0309        
 call            @Func_2a42
 code0479        0, 2, 14
@@ -319,14 +319,14 @@ jumpz           @Cond_0e54, ($b003 == 3)
 call            @Func_2982
 jumpz           @Cond_0d0e, ($b002 == 0)
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_0d70
 
 @Cond_0d0e:
 dialogtxt       "Anise and the others went toward the"
-dialogtxt       "Slenji Mine apparently. It seems Zack is"
-dialogtxt       "chasing them..."
+dialogtxt       "Slenji Mine apparently. It seems Zack"
+dialogtxt       "is chasing them..."
 goto            @Label_0d70
 
 @Label_0d70:
@@ -422,9 +422,9 @@ dialogtxt       "Let's hurry!"
 goto            @Label_1150
 
 @Cond_1102:
-dialogtxt       "Yeah... Got it."
-dialogtxt       "It seems they're deep inside Slate Cave."
-dialogtxt       "Let's hurry!"
+dialogtxt       "Yeah... Got it. It seems they're"
+dialogtxt       "deep inside Slate Cave. Let's"
+dialogtxt       "hurry!"
 goto            @Label_1150
 
 @Label_1150:
@@ -469,9 +469,9 @@ dialogtxt       "Let's hurry!"
 goto            @Label_1366
 
 @Cond_1318:
-dialogtxt       "Yeah... Got it."
-dialogtxt       "It seems they're deep inside Slate Cave."
-dialogtxt       "Let's hurry!"
+dialogtxt       "Yeah... Got it. It seems they're"
+dialogtxt       "deep inside Slate Cave. Let's"
+dialogtxt       "hurry!"
 goto            @Label_1366
 
 @Label_1366:
@@ -516,9 +516,9 @@ dialogtxt       "I'll proceed calmly!"
 goto            @Label_1580
 
 @Cond_1526:
-dialogtxt       "I see... Thank you, γ."
-dialogtxt       "It seems they're deep inside Slate Cave."
-dialogtxt       "Let's proceed calmly!"
+dialogtxt       "I see... Thank you, γ. It seems"
+dialogtxt       "they're deep inside Slate Cave. Let's"
+dialogtxt       "proceed calmly!"
 goto            @Label_1580
 
 @Label_1580:
@@ -563,9 +563,9 @@ dialogtxt       "Let's hurry!"
 goto            @Label_1792
 
 @Cond_1744:
-dialogtxt       "Yeah... Got it."
-dialogtxt       "It seems they're deep inside Slate Cave."
-dialogtxt       "Let's hurry!"
+dialogtxt       "Yeah... Got it. It seems they're"
+dialogtxt       "deep inside Slate Cave. Let's"
+dialogtxt       "hurry!"
 goto            @Label_1792
 
 @Label_1792:
@@ -650,7 +650,7 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 14
 call            @Func_2a0c
-dialogtxt       "Much as I hate it, that man is our only"
+dialogtxt       "Much as I hate it, he's our only"
 dialogtxt       "clue to Murno's whereabouts. Let's"
 dialogtxt       "catch him while he's still alive."
 code0309        
@@ -685,9 +685,9 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 14
 call            @Func_2a0c
-dialogtxt       "That's true..."
-dialogtxt       "I will be the one to deliver his final blow."
-dialogtxt       "Not that woman."
+dialogtxt       "That's true... I will be the one"
+dialogtxt       "to deliver his final blow. Not that"
+dialogtxt       "woman."
 code0309        
 call            @Func_2a42
 code0479        0, 4, 12
@@ -722,9 +722,9 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 14
 call            @Func_2a0c
-dialogtxt       "For now, that man is our only clue"
-dialogtxt       "to Lady Murno's whereabouts."
-dialogtxt       "Let's catch him while he can still speak!"
+dialogtxt       "For now, that man is our only clue to"
+dialogtxt       "Lady Murno's whereabouts. Let's catch"
+dialogtxt       "him while he can still speak!"
 code0309        
 call            @Func_2a42
 code0479        0, 1, 16
@@ -902,9 +902,9 @@ code0309
 call            @Func_29d6
 code0479        1, 2, 13
 call            @Func_2a0c
-dialogtxt       "Shouldn't we hurry? Because"
-dialogtxt       "Because [NAME 4] is taking so long to arrive,"
-dialogtxt       "arrive, He's probably angry by now."
+dialogtxt       "Shouldn't we hurry?"
+dialogtxt       "You're taking so long to get here;"
+dialogtxt       "they're probably angry by now."
 code0309        
 call            @Func_2a42
 code0479        0, 2, 15

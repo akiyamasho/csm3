@@ -28,7 +28,7 @@ code0479        0, 1, 16
 call            @Func_1b08
 jumpz           @Cond_01c4, ($f0142 == 0)
 jumpz           @Cond_019e, ($b002 == 0)
-dialogtxt       "Even though [NAME 8] paid..."
+dialogtxt       "Even though I paid..."
 goto            @Label_01c0
 
 @Cond_019e:
@@ -64,8 +64,8 @@ code047d        0, 2
 call            @Func_1bc2
 call            @Func_1b08
 dialogtxt       "He looks happy from the bottom of his"
-dialogtxt       "heart... Well, I suppose we can call that"
-dialogtxt       "a good thing..."
+dialogtxt       "heart... Well, I suppose we can call"
+dialogtxt       "that a good thing..."
 goto            @Label_03ea
 
 @Cond_02f0:
@@ -74,9 +74,9 @@ code0479        0, 5, 12
 code047d        0, 2
 call            @Func_1bc2
 call            @Func_1b08
-dialogtxt       "What an incredible radiance in his soul..."
-dialogtxt       "Was he really that"
-dialogtxt       "happy it was free...?"
+dialogtxt       "What an incredible radiance in his"
+dialogtxt       "soul... Was he really that happy it"
+dialogtxt       "was free...?"
 goto            @Label_03ea
 
 @Cond_0378:
@@ -104,8 +104,8 @@ code043c        1, 1
 code043c        3, 1
 code0479        1, 2, 12
 call            @Func_1b74
-dialogtxt       "Now you've seen what I'm capable of, so"
-dialogtxt       "you're satisfied, right? Now, as"
+dialogtxt       "Now you've seen what I'm capable of,"
+dialogtxt       "so you're satisfied, right? Now, as"
 dialogtxt       "promised, the money..."
 code047b        
 code0309        
@@ -306,8 +306,8 @@ goto            @Cond_0c48
 
 @Cond_0c48:
 jumpz           @Cond_0c94, ($b003 == 2)
-dialogtxt       "You want to take her to the waystation,"
-dialogtxt       "right? Do as you please."
+dialogtxt       "You want to take her to the"
+dialogtxt       "waystation, right? Do as you please."
 goto            @Cond_0c94
 
 @Cond_0c94:

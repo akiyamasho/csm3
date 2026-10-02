@@ -222,7 +222,7 @@ call            @Func_169e
 call            @Func_163a
 dialogtxt       "Now that you mention it..."
 jumpz           @Cond_0a04, ($b002 == 0)
-dialogtxt       "[NAME 8] is getting hungry, too!"
+dialogtxt       "I'm getting hungry, too!"
 goto            @Label_0a26
 
 @Cond_0a04:

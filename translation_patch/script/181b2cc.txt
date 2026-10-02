@@ -72,12 +72,12 @@ call            @Func_0cc8
 call            @Func_0c0e
 jumpz           @Cond_035a, ($b002 == 0)
 dialogtxt       "Uh, huh...?"
-dialogtxt       "You're [NAME 8], aren't you?"
+dialogtxt       "Who are you?"
 goto            @Label_037e
 
 @Cond_035a:
 dialogtxt       "Huh...?"
-dialogtxt       "Um... [NAME 8]?"
+dialogtxt       "Um... who are you?"
 goto            @Label_037e
 
 @Label_037e:
@@ -92,9 +92,9 @@ dialogtxt       "Honestly..."
 dialogtxt       "I had just thought the girl next door"
 dialogtxt       "had finally quieted down..."
 code0309        
-dialogtxt       "Listen up!  Don't make me repeat myself!"
-dialogtxt       "Your questioning will be tomorrow."
-dialogtxt       "Go to sleep quietly tonight!"
+dialogtxt       "Listen up! Don't make me repeat"
+dialogtxt       "myself! Your questioning will be"
+dialogtxt       "tomorrow. Go to sleep quietly tonight!"
 code0309        
 code047e        1, 0
 code0302        7
@@ -121,8 +121,8 @@ call            @Func_0c44
 code047b        
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Silence!"
-dialogtxt       "I told you not to make me repeat myself!"
+dialogtxt       "Silence! I told you not to make me"
+dialogtxt       "repeat myself!"
 code0309        
 code047e        1, 0
 code0302        7

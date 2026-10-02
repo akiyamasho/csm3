@@ -53,9 +53,9 @@ dialogtxt       "I wanted to see you, too..."
 code047b        
 code0309        
 code0479        1, 0, 13
-dialogtxt       "It'll take a long time"
-dialogtxt       "to restore the village to a beautiful one..."
-dialogtxt       "but I'll do my best."
+dialogtxt       "It'll take a long time to restore the"
+dialogtxt       "village to a beautiful one... but I'll"
+dialogtxt       "do my best."
 code0309        
 call            @Func_0dd8
 call            @Func_0d26
@@ -71,9 +71,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "It looks like you're working hard at your."
-dialogtxt       "I'll work hard, too..."
-dialogtxt       "to its original beautiful state."
+dialogtxt       "It looks like you're working hard at"
+dialogtxt       "your. I'll work hard, too... to its"
+dialogtxt       "original beautiful state."
 code047b        
 code0309        
 call            @Func_0dd8
@@ -92,9 +92,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "It looks like you're working hard at your."
-dialogtxt       "So I don't lose to δ,"
-dialogtxt       "I'll work hard, too."
+dialogtxt       "It looks like you're working hard at"
+dialogtxt       "your. So I don't lose to δ, I'll work"
+dialogtxt       "hard, too."
 code047b        
 code0309        
 call            @Func_0dd8
@@ -111,9 +111,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "It looks like you're working hard at your."
-dialogtxt       "So I don't lose to δ,"
-dialogtxt       "I have to work hard, too."
+dialogtxt       "It looks like you're working hard at"
+dialogtxt       "your. So I don't lose to δ, I have to"
+dialogtxt       "work hard, too."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -123,7 +123,7 @@ dialogtxt       "So..."
 code0309        
 code0479        0, 0, 16
 code0479        1, 6, 13
-dialogtxt       "I was thinking I'd like to practice δ..."
+dialogtxt       "I thought I'd like to practice δ..."
 code0309        
 goto            @Label_064c
 
@@ -133,9 +133,9 @@ code0479        1, 0, 13
 code047d        1, 107
 call            @Func_0d82
 call            @Func_0cea
-dialogtxt       "It looks like you're working hard at your."
-dialogtxt       "So I don't lose to δ,"
-dialogtxt       "I have to work hard, too."
+dialogtxt       "It looks like you're working hard at"
+dialogtxt       "your. So I don't lose to δ, I have to"
+dialogtxt       "work hard, too."
 code047b        
 code0309        
 code0479        1, 0, 12

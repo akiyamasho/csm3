@@ -41,7 +41,7 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_284e
 call            @Func_27cc
-dialogtxt       "They sure are making a spectacle again."
+dialogtxt       "They're making a spectacle again."
 code047b        
 code0309        
 call            @Func_2820
@@ -77,7 +77,7 @@ code0479        1, 2, 14
 call            @Func_2864
 call            @Func_27cc
 dialogtxt       "I can't believe we let them infiltrate"
-dialogtxt       "this far. You lot will pay for this later."
+dialogtxt       "this far. You'll all pay later."
 code047b        
 code0309        
 call            @Func_2820
@@ -215,7 +215,7 @@ goto            @Cond_0a7c
 
 @Cond_0a7c:
 jumpz           @Cond_0abc, ($b003 == 2)
-dialogtxt       "I sought [NAME 4]."
+dialogtxt       "I was looking for you"
 dialogtxt       "and the others, that's for sure."
 goto            @Cond_0abc
 
@@ -565,7 +565,7 @@ code047d        1, 116
 call            @Func_284e
 call            @Func_27cc
 dialogtxt       "This child..."
-dialogtxt       "needs a little discipline[NAME 4]..."
+dialogtxt       "needs a little discipline..."
 code047b        
 code0309        
 call            @Func_2820
@@ -608,20 +608,20 @@ call            @Func_2864
 call            @Func_27cc
 dialogtxt       "Hehehe... Prepare yourself."
 dialogtxt       "I'll give you plenty of"
-dialogtxt       "discipline[NAME 4]."
+dialogtxt       "discipline."
 code047b        
 code0309        
 call            @Func_2820
 code0479        0, 2, 15
 call            @Func_277e
 jumpz           @Cond_1b96, ($b002 == 0)
-dialogtxt       "W-what did you say! How could Da[NAME 8]"
-dialogtxt       "choose someone like you...!"
+dialogtxt       "W-what did you say?!"
+dialogtxt       "Who do you think you are...!"
 goto            @Label_1bc6
 
 @Cond_1b96:
-dialogtxt       "W-what!? How could Da[NAME 8]"
-dialogtxt       "choose someone like you...!"
+dialogtxt       "What?!"
+dialogtxt       "Who do you think you are...!"
 goto            @Label_1bc6
 
 @Label_1bc6:

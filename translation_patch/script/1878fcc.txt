@@ -90,9 +90,9 @@ goto            @Cond_03de
 
 @Cond_03de:
 jumpz           @Cond_0456, ($b003 == 3)
-dialogtxt       "That sword gives me a terrible feeling."
-dialogtxt       "The cause of the Stray Summon Beasts"
-dialogtxt       "is definitely that sword."
+dialogtxt       "That sword gives me a terrible"
+dialogtxt       "feeling. The cause of the Stray Summon"
+dialogtxt       "Beasts is definitely that sword."
 code047b        
 code0309        
 goto            @Cond_0456
@@ -484,7 +484,7 @@ code0479        0, 5, 16
 code047d        0, 0
 call            @Func_2e60
 call            @Func_2d88
-dialogtxt       "[NAME 8]-mii...!"
+dialogtxt       "Lemmy...!"
 code047b        
 code0309        
 call            @Func_2eb6
@@ -498,9 +498,9 @@ code043c        1, 3
 code0479        1, 2, 12
 call            @Func_2e8c
 call            @Func_2df4
-dialogtxt       "You came, too..."
-dialogtxt       "I told you if you [NAME 8]'..."
-dialogtxt       "I would cut you down without hesitation."
+dialogtxt       "You came too... I told you"
+dialogtxt       "I would cut you down without"
+dialogtxt       "hesitation if you blocked me again."
 code047b        
 code0309        
 call            @Func_2e48
@@ -519,8 +519,8 @@ call            @Func_2ddc
 code0479        1, 4, 13
 call            @Func_2e12
 dialogtxt       "Freedom from Summon Beasts...?"
-dialogtxt       "[NAME 8] no interest in that."
-dialogtxt       "What I want is power."
+dialogtxt       "I have no interest in that."
+dialogtxt       "I want power."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "The ultimate power,"
@@ -595,7 +595,7 @@ code0479        1, 3, 15
 call            @Func_2e76
 call            @Func_2e12
 dialogtxt       "Even after death,"
-dialogtxt       "he stands above [NAME 8]!"
+dialogtxt       "he still stands above me!"
 dialogtxt       "I cannot surpass him!"
 code047b        
 code0309        
@@ -663,7 +663,7 @@ code0479        1, 2, 15
 code047d        1, 0
 call            @Func_2e76
 call            @Func_2df4
-dialogtxt       "[NAME 8]-mii!"
+dialogtxt       "Lemmy!"
 code047b        
 code0309        
 call            @Func_2ecc
@@ -721,9 +721,9 @@ code0479        1, 4, 16
 code047d        1, 111
 call            @Func_2e76
 call            @Func_2e12
-dialogtxt       "From the moment I first met him..."
+dialogtxt       "Ever since we first met..."
 dialogtxt       "Rob was..."
-dialogtxt       "always one [NAME 8]..."
+dialogtxt       "always one step ahead of me..."
 code047b        
 code0309        
 code0479        1, 2, 14
@@ -745,14 +745,14 @@ code0309
 call            @Func_2ddc
 code0479        1, 2, 14
 call            @Func_2e12
-dialogtxt       "To catch, [NAME 8]"
-dialogtxt       "by sacrificing everything..."
-dialogtxt       "Even his sick wife..."
+dialogtxt       "To catch up with him,"
+dialogtxt       "I sacrificed everything in training..."
+dialogtxt       "even my sick wife..."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "As a result, I didn't care"
-dialogtxt       "when my friends, comrades..."
-dialogtxt       "left [NAME 8]!"
+dialogtxt       "As a result, I did not care"
+dialogtxt       "when my friends, comrades, and wife"
+dialogtxt       "left me!"
 code0309        
 code0479        1, 3, 15
 dialogtxt       "If it meant I could beat him!"
@@ -776,8 +776,8 @@ dialogtxt       "Even now that he's dead,"
 dialogtxt       "he hasn't lost a thing."
 code0309        
 code0479        1, 4, 13
-dialogtxt       "All [NAME 8] has left"
-dialogtxt       "are the scars on this face..."
+dialogtxt       "All I have left now"
+dialogtxt       "is the scar on my face..."
 code0309        
 call            @Func_2e48
 code0479        0, 4, 15
@@ -801,9 +801,9 @@ code0309
 call            @Func_2ddc
 code0479        1, 3, 16
 call            @Func_2e12
-dialogtxt       "But if I obtain the power of these ruins,"
-dialogtxt       "everything will change."
-dialogtxt       "With that power, everything..."
+dialogtxt       "But if I obtain the power of these"
+dialogtxt       "ruins, everything will change. With"
+dialogtxt       "that power, everything..."
 code0309        
 code0479        1, 3, 13
 dialogtxt       "I can have the world!"
@@ -847,8 +847,8 @@ code0333        2, 30
 code0479        1, 4, 15
 call            @Func_2e12
 dialogtxt       "A child who has nothing..."
-dialogtxt       "How could [NAME 8]..."
-dialogtxt       "having lost everything?!"
+dialogtxt       "How could you understand how I feel,"
+dialogtxt       "after losing everything?!"
 code0309        
 call            @Func_2e48
 code0334        
@@ -856,9 +856,9 @@ code046e        25, 256, 2
 code0479        0, 2, 16
 call            @Func_2da6
 jumpz           @Cond_26f0, ($b002 == 0)
-dialogtxt       "I don't even want to understand!"
-dialogtxt       "Not something like that!"
-dialogtxt       "The one [NAME 8]"
+dialogtxt       "I do not even want to understand!"
+dialogtxt       "Not that!"
+dialogtxt       "I learned one thing..."
 code0309        
 code0479        0, 2, 15
 code0479        1, 5, 14

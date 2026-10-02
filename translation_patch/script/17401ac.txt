@@ -66,7 +66,7 @@ call            @Func_1eea
 jumpz           @Cond_02f8, ($b002 == 0)
 dialogtxt       "...Not that the master"
 dialogtxt       "is planning to do anything to Murno..."
-dialogtxt       "I don't intend to do anything to her..."
+dialogtxt       "I mean her no harm..."
 goto            @Label_0344
 
 @Cond_02f8:
@@ -99,18 +99,18 @@ code0309
 call            @Func_1f20
 code0479        1, 2, 14
 call            @Func_1f56
-dialogtxt       "Of course."
-dialogtxt       "If you even think"
-dialogtxt       "for a moment that losing is acceptable..."
+dialogtxt       "Of course. If you even think"
+dialogtxt       "for a moment that losing is"
+dialogtxt       "acceptable..."
 code0309        
 code0479        1, 3, 16
-dialogtxt       "I'll erase you, [NAME 4]."
+dialogtxt       "I'll erase you."
 code0309        
 call            @Func_1f8c
 code0479        0, 5, 16
 call            @Func_1eea
 jumpz           @Cond_04d2, ($b002 == 0)
-dialogtxt       "A-are you really against staying behind?"
+dialogtxt       "A-are you against staying behind?"
 goto            @Label_04fc
 
 @Cond_04d2:
@@ -283,9 +283,9 @@ code0309
 call            @Func_1f20
 code0479        1, 0, 13
 call            @Func_1f56
-dialogtxt       "Lady Murno is waiting at the gate, too."
-dialogtxt       "Let's hurry!"
-dialogtxt       "Let's get going!"
+dialogtxt       "Lady Murno is waiting at the"
+dialogtxt       "gate, too. Let's hurry! Let's get"
+dialogtxt       "going!"
 code0309        
 call            @Func_1f8c
 code0479        0, 1, 12
@@ -318,8 +318,8 @@ code0309
 call            @Func_1f8c
 call            @Func_1fa4
 call            @Func_1eea
-dialogtxt       "You're directionally challenged, Master."
-dialogtxt       "Make sure you keep up."
+dialogtxt       "You're directionally challenged,"
+dialogtxt       "Master. Make sure you keep up."
 code0309        
 code0479        0, 2, 16
 dialogtxt       "It would be a problem"
@@ -330,7 +330,7 @@ call            @Func_1f20
 code0479        1, 2, 12
 call            @Func_1f56
 dialogtxt       "What are you talking about?!"
-dialogtxt       "I was testing you, [NAME 8]!"
+dialogtxt       "I was testing you!"
 dialogtxt       "That's what I've been saying!"
 code0309        
 call            @Func_1f8c
@@ -713,7 +713,7 @@ goto            @Label_1c90
 
 @Cond_1c08:
 jumpz           @Cond_1c4c, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "You..."
 dialogtxt       "Do you trust that human?"
 goto            @Label_1c90
 

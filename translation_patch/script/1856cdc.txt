@@ -168,9 +168,9 @@ code047d        0, 116
 call            @Func_2490
 code0479        1, 2, 14
 call            @Func_2442
-dialogtxt       "Pathetic..."
-dialogtxt       "Well, it's their own fault this happened."
-dialogtxt       "They can deal with it themselves."
+dialogtxt       "Pathetic... Well, it's their own fault"
+dialogtxt       "this happened. They can deal with it"
+dialogtxt       "themselves."
 code047b        
 code0309        
 code0479        1, 0, 12
@@ -318,9 +318,9 @@ code0309
 call            @Func_240c
 code0479        1, 2, 14
 call            @Func_2442
-dialogtxt       "I told you, didn't I?"
-dialogtxt       "It's their own fault they were captured."
-dialogtxt       "If you want to kill them, then kill them!"
+dialogtxt       "I told you, didn't I? It's their own"
+dialogtxt       "fault they were captured. If you want"
+dialogtxt       "to kill them, then kill them!"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "Though I doubt you have the nerve."
@@ -504,7 +504,7 @@ code047d        0, 108
 code0479        1, 2, 14
 call            @Func_24bc
 call            @Func_23b8
-dialogtxt       "Master [NAME 4]!"
+dialogtxt       "You!"
 code047b        
 code0309        
 call            @Func_2512

@@ -291,7 +291,7 @@ code0301        8, 7
 code047d        0, 136
 code047e        0, 1
 dialogtxt       "What's wrong?"
-dialogtxt       "Surely you can at least repair a sword?"
+dialogtxt       "Surely you can repair a sword?"
 code0309        
 code047e        0, 0
 code0302        7

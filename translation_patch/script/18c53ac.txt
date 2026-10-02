@@ -125,8 +125,8 @@ code047e        0, 1
 dialogtxt       "Hey, could you look for"
 dialogtxt       "Katin Ore"
 code0309        
-dialogtxt       "A customer wants some."
-dialogtxt       "I'll give you a great find in exchange."
+dialogtxt       "A customer wants some. I'll give"
+dialogtxt       "you a great find in exchange."
 dialogtxt       "Please?"
 code0309        
 code047e        0, 0
@@ -235,7 +235,7 @@ jumpz           @Cond_0adc, ($bv018 == 0)
 setvar          $bv018, ($bv018 | 0x0001)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "I really [NAME 4]kka."
+dialogtxt       "I really want some Kicker Potion."
 dialogtxt       "Could you look for it"
 dialogtxt       "and bring me some?"
 code0309        
@@ -286,7 +286,7 @@ jumpz           @Cond_0cd0, ($bv018 == 1)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Could there be"
-dialogtxt       "some [NAME 4]kka Medicine"
+dialogtxt       "some Kicker Potion"
 dialogtxt       "somewhere~?"
 code0309        
 code047e        0, 0
@@ -351,11 +351,11 @@ jumpz           @Cond_0f94, ($bv018 == 0)
 setvar          $bv018, ($bv018 | 0x0001)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey, [NAME 4]-mi,"
+dialogtxt       "Hey, you there,"
 dialogtxt       "have you seen"
 dialogtxt       "a protective charm?"
 code0309        
-dialogtxt       "I've really been feeling unsafe lately."
+dialogtxt       "I've felt really unsafe lately."
 dialogtxt       "I wonder if there's one somewhere~"
 code0309        
 code047e        0, 0
@@ -490,7 +490,7 @@ jumpz           @Cond_1434, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -500,7 +500,7 @@ code047e        0, 1
 dialogtxt       "Huh?"
 dialogtxt       "It's not that impressive?"
 code0309        
-dialogtxt       "[NAME 8] is good at business."
+dialogtxt       "I'm good at business."
 dialogtxt       "Ahahahaha!"
 code0309        
 dialogtxt       "Until next time."
@@ -551,7 +551,7 @@ jumpz           @Cond_16c6, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -561,7 +561,7 @@ code047e        0, 1
 dialogtxt       "Huh?"
 dialogtxt       "It's not that impressive?"
 code0309        
-dialogtxt       "[NAME 8] is good at business."
+dialogtxt       "I'm good at business."
 dialogtxt       "Ahahahaha!"
 code0309        
 code047e        0, 0
@@ -631,7 +631,7 @@ jumpz           @Cond_19ea, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -664,7 +664,7 @@ goto            @Label_1cb8
 jumpz           @Cond_1c4c, ($bv018 == 1)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "If you're in a hurry, it can't be helped."
+dialogtxt       "If you're rushed, it can't be helped."
 dialogtxt       "It's a shame about the Black Ore..."
 code0309        
 code047e        0, 0
@@ -682,7 +682,7 @@ jumpz           @Cond_1bf8, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -734,7 +734,7 @@ code0301        8, 7
 code047e        0, 1
 dialogtxt       "Heading out to explore?"
 dialogtxt       "While you're out, could you look for"
-dialogtxt       "a Vamp[NAME 7] Lamp?"
+dialogtxt       "a Vampiric Pump?"
 code0309        
 dialogtxt       "I'll trade you something"
 dialogtxt       "so good I can't put it into words."
@@ -754,7 +754,7 @@ jumpz           @Cond_1ed2, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -788,7 +788,7 @@ jumpz           @Cond_2148, ($bv018 == 1)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "While you're out,"
-dialogtxt       "could you Vamp[NAME 7]?"
+dialogtxt       "could you find a Vampiric Pump?"
 dialogtxt       "Would you bring one back?"
 code0309        
 code047e        0, 0
@@ -805,7 +805,7 @@ jumpz           @Cond_20dc, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -865,7 +865,7 @@ jumpz           @Cond_23ea, ($bv029 != 0)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Hah!"
-dialogtxt       "Could this [NAME 4]-?!"
+dialogtxt       "Could it be you?!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -874,7 +874,7 @@ jumpz           @Cond_238a, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -917,7 +917,7 @@ jumpz           @Cond_25d4, ($bv029 != 0)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Hah!"
-dialogtxt       "Could this [NAME 4]-?!"
+dialogtxt       "Could it be you?!"
 code0309        
 code047e        0, 0
 code0302        7
@@ -926,7 +926,7 @@ jumpz           @Cond_2574, ($bv018 == 3)
 code0301        8, 7
 code047e        0, 1
 dialogtxt       "Thanks."
-dialogtxt       "Take this [NAME 8] in return."
+dialogtxt       "Take this in return."
 code0309        
 code047e        0, 0
 code0302        7
@@ -979,8 +979,8 @@ jumpz           @Cond_28ac, ($bv018 == 0)
 setvar          $bv018, ($bv018 | 0x0001)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Hey, [NAME 4]-mi"
-dialogtxt       "have you seen an Ale Fruit around here?"
+dialogtxt       "Hey, have you seen an Ale"
+dialogtxt       "Fruit around here?"
 code0309        
 dialogtxt       "If I had one,"
 dialogtxt       "I think I could manage."

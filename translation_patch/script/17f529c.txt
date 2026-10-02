@@ -99,7 +99,7 @@ goto            @Cond_047a
 
 @Cond_047a:
 jumpz           @Cond_04b4, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "You..."
 dialogtxt       "You're obviously suspicious."
 goto            @Cond_04b4
 
@@ -200,9 +200,9 @@ code0309
 call            @Func_1878
 code0479        0, 4, 12
 call            @Func_17d6
-dialogtxt       "Hey, now."
-dialogtxt       "We got this far without a guide."
-dialogtxt       "Charging the same price isn't fair, is it?"
+dialogtxt       "Hey, now. We got this far without a"
+dialogtxt       "guide. Charging the same price isn't"
+dialogtxt       "fair, is it?"
 code0309        
 call            @Func_180c
 code0479        1, 1, 15
@@ -269,8 +269,8 @@ dialogtxt       "Thanks for your business~!"
 code047b        
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Tch...!"
-dialogtxt       "The second job today is barely worth it."
+dialogtxt       "Tch...! The second job today is barely"
+dialogtxt       "worth it."
 code0309        
 call            @Func_1878
 code0479        0, 0, 16
@@ -377,8 +377,8 @@ dialogtxt       "Thanks for your business~!"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "Tch...!"
-dialogtxt       "The second job today is barely worth it."
+dialogtxt       "Tch...! The second job today is barely"
+dialogtxt       "worth it."
 code0309        
 call            @Func_1878
 code0479        0, 0, 16

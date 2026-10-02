@@ -19,9 +19,9 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_2344
 call            @Func_22ac
-dialogtxt       "Oh, you made it."
-dialogtxt       "You were a little late, but don't worry."
-dialogtxt       "You made it in time for the party."
+dialogtxt       "Oh, you made it. You were a little"
+dialogtxt       "late, but don't worry. You made it in"
+dialogtxt       "time for the party."
 code047b        
 code0309        
 call            @Func_2300
@@ -87,9 +87,9 @@ code0479        0, 3, 12
 code047d        0, 132
 call            @Func_2318
 call            @Func_225e
-dialogtxt       "If you can't give an explanation that"
-dialogtxt       "satisfies [NAME 8] and the"
-dialogtxt       "others, you'll have to go back to the cell!"
+dialogtxt       "If you cannot explain it"
+dialogtxt       "so we can accept it,"
+dialogtxt       "you must return to your cell!"
 code047b        
 code0309        
 call            @Func_2294
@@ -128,9 +128,9 @@ code0309
 call            @Func_2300
 code0479        0, 4, 12
 call            @Func_225e
-dialogtxt       "Can't you understand that you can't win?"
-dialogtxt       "You really never learn."
-dialogtxt       "Did I go too hard on you last time?"
+dialogtxt       "Can't you understand that you can't"
+dialogtxt       "win? You really never learn. Did I go"
+dialogtxt       "too hard on you last time?"
 code0309        
 call            @Func_2384
 call            @Func_2294
@@ -275,8 +275,8 @@ call            @Func_2318
 call            @Func_225e
 jumpz           @Cond_0e96, ($b003 == 0)
 dialogtxt       "However, Lord Wellman's behavior"
-dialogtxt       "contains many suspicious points."
-dialogtxt       "The cause of [NAME 5]..."
+dialogtxt       "has many suspicious points."
+dialogtxt       "The cause is..."
 goto            @Cond_0e96
 
 @Cond_0e96:
@@ -288,9 +288,9 @@ goto            @Cond_0efa
 
 @Cond_0efa:
 jumpz           @Cond_0f62, ($b003 == 2)
-dialogtxt       "You must have noticed"
-dialogtxt       "that something is strange about Wellman."
-dialogtxt       "Could it be...!"
+dialogtxt       "You must have noticed that something"
+dialogtxt       "is strange about Wellman. Could it"
+dialogtxt       "be...!"
 goto            @Cond_0f62
 
 @Cond_0f62:
@@ -386,9 +386,9 @@ code0479        0, 2, 12
 code047d        0, 115
 call            @Func_2318
 call            @Func_225e
-dialogtxt       "That's right... Let's beat the"
-dialogtxt       "true terror of [NAME 8]"
-dialogtxt       "and the others into your bodies!"
+dialogtxt       "That's right... Let's show you"
+dialogtxt       "how terrifying we can be,"
+dialogtxt       "and beat it into your bodies!"
 code047b        
 code0309        
 call            @Func_239a
@@ -547,11 +547,11 @@ code047b
 code0309        
 code0479        1, 3, 15
 jumpz           @Cond_1c0a, ($b002 == 0)
-dialogtxt       "the man [NAME 8] believes in!"
+dialogtxt       "the man I believe in!"
 goto            @Label_1c2c
 
 @Cond_1c0a:
-dialogtxt       "the woman [NAME 8] believes in!"
+dialogtxt       "the woman I believe in!"
 goto            @Label_1c2c
 
 @Label_1c2c:

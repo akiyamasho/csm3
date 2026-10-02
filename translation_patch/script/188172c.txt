@@ -67,7 +67,7 @@ code0479        1, 2, 15
 code047d        1, 109
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "Don't Say Such [NAME 4]..."
+dialogtxt       "Don't be so carefree!"
 dialogtxt       "We were the ones worried about you!"
 dialogtxt       "You'll be fined, a fine!"
 code047b        
@@ -245,8 +245,8 @@ code0479        0, 4, 16
 code047d        0, 112
 call            @Func_437a
 call            @Func_42a2
-dialogtxt       "You don't have to put it that way."
-dialogtxt       "He guided us properly all the way to the"
+dialogtxt       "You don't have to put it that way. He"
+dialogtxt       "guided us properly all the way to the"
 dialogtxt       "and everything..."
 code047b        
 code0309        
@@ -285,9 +285,9 @@ code0479        1, 0, 14
 code047d        1, 109
 call            @Func_4390
 call            @Func_432c
-dialogtxt       "They said it's an investigation."
-dialogtxt       "Apparently there's something about that"
-dialogtxt       "that [NAME 4] is."
+dialogtxt       "They said it was an investigation."
+dialogtxt       "Apparently she's really interested"
+dialogtxt       "in that sword."
 code047b        
 code0309        
 call            @Func_4362
@@ -329,8 +329,8 @@ code0479        0, 4, 16
 call            @Func_42c0
 jumpz           @Cond_109c, ($b002 == 0)
 dialogtxt       "Uh... You know..."
-dialogtxt       "[NAME 8] and the."
-dialogtxt       "So, I'm sure..."
+dialogtxt       "We were okay too, so"
+dialogtxt       "I'm sure..."
 goto            @Label_10ec
 
 @Cond_109c:
@@ -468,9 +468,9 @@ code047d        0, 2
 call            @Func_437a
 call            @Func_42c0
 jumpz           @Cond_16c0, ($b003 == 0)
-dialogtxt       "Indeed, From That Sword"
-dialogtxt       "Multiple Waves Are Being"
-dialogtxt       "Emitted At Once [NAME 8]."
+dialogtxt       "Indeed, that sword is"
+dialogtxt       "emitting multiple waves"
+dialogtxt       "at once."
 goto            @Cond_16c0
 
 @Cond_16c0:
@@ -519,7 +519,7 @@ code047d        1, 129
 call            @Func_4390
 call            @Func_432c
 dialogtxt       "By amplifying that sword's ability to"
-dialogtxt       "and sending it throughout the land via..."
+dialogtxt       "and sending it across the land via..."
 dialogtxt       "they can control every Summon Beast..."
 code047b        
 code0309        
@@ -591,9 +591,9 @@ code047b
 code0309        
 code0479        1, 2, 14
 code0479        0, 0, 14
-dialogtxt       "The magic crystal that amplified magical"
-dialogtxt       "was repurposed as the power to maintain"
-dialogtxt       "instead."
+dialogtxt       "The magic crystal that amplified"
+dialogtxt       "magical was repurposed as the power to"
+dialogtxt       "maintain instead."
 code0309        
 call            @Func_4362
 code0479        0, 0, 16
@@ -603,9 +603,9 @@ code0309
 call            @Func_42f6
 code0479        1, 0, 16
 call            @Func_432c
-dialogtxt       "You saw that explosion."
-dialogtxt       "If all the power sealed inside that sword"
-dialogtxt       "were released..."
+dialogtxt       "You saw that explosion. If all the"
+dialogtxt       "power sealed inside that sword were"
+dialogtxt       "released..."
 code0309        
 code0479        1, 2, 14
 dialogtxt       "I cannot even imagine what would..."
@@ -618,9 +618,9 @@ code0309
 call            @Func_42f6
 code0479        1, 2, 15
 call            @Func_432c
-dialogtxt       "Even as we speak,"
-dialogtxt       "evil energy is leaking from that sword."
-dialogtxt       "My daughter has returned..."
+dialogtxt       "Even as we speak, evil energy is"
+dialogtxt       "leaking from that sword. My daughter"
+dialogtxt       "has returned..."
 code0309        
 call            @Func_43e6
 call            @Func_4362
@@ -974,7 +974,7 @@ code047d        1, 108
 call            @Func_4390
 call            @Func_430e
 dialogtxt       "Tch...!"
-dialogtxt       "This pressure, [NAME 8]...!"
+dialogtxt       "This pressure again...!"
 code047b        
 code0309        
 call            @Func_43e6
@@ -1104,7 +1104,7 @@ code0479        0, 3, 15
 code047d        0, 132
 call            @Func_437a
 call            @Func_42c0
-dialogtxt       "[NAME 4], Master!"
+dialogtxt       "You!"
 code047b        
 code0309        
 call            @Func_43d0
@@ -1148,7 +1148,7 @@ code0479        1, 3, 15
 code047d        0, 112
 call            @Func_4390
 call            @Func_430e
-dialogtxt       "It's here, it's here, it's here, it's here..."
+dialogtxt       "Here! Here! Here! Here!"
 code047b        
 code0309        
 call            @Func_43e6

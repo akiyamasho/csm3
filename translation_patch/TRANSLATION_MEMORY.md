@@ -18,7 +18,7 @@ Use these spellings exactly in runtime text and menus. Names with uncertain stat
 
 | Canonical English | Known aliases/forms | Role and relationship | Evidence / policy |
 |---|---|---|---|
-| `[NAME 0]`, `[NAME 1]` | Player name substitutions | Player/caller-selected names; do not translate, reorder, or replace | `system_messages/dictionary.txt`, `link.txt`; preserve token exactly |
+| `[NAME 0]`–`[NAME 8]` | Runtime NAME controls | Dynamic engine values; do not infer their displayed meaning from the index. Preserve only controls verified in the original payload. | Original-ROM token mapping and runtime encoding |
 | Rob | Master Rob | Player’s master; later revealed as a Stray Summon Beast | `17bd14c.txt`; use “Master Rob” only where source says title + name |
 | V.E | Ms. V.E; Sister V.E; Master V.E | Female craft mentor/master; called “Sis” by younger characters, insists on “Master” | `dictionary.txt`, `17bd14c.txt`, `17c741c.txt`; do not collapse forms |
 | Murno | Lady Murno | Summon Beast/character whose fever and concealment are discussed | `dictionary.txt`, `17d027c.txt`; “Lady” is a contextual title, not always required |
@@ -98,7 +98,10 @@ Only quoted text payloads are translatable. Preserve exactly, byte-for-byte in p
 
 - opcodes/commands (`dialogtxt`, `dialogbig`, `placetxt`, `popuptxt`, `menutxt`, `menutxtp`, `tabletxt`, `gotomap`, `mapev`, etc.);
 - labels (`@start`, `@Label_*`, `@Cond_*`, `@Menu_*`, `@Event_*`), addresses, comments, variables, expressions, numeric arguments, commas, and indentation unless the file’s formatter requires otherwise;
-- substitution/control tokens such as `[NAME 0]`, `[NAME 1]`, and any bracketed token; never translate or reorder them;
+- genuine substitution/control tokens, including `[NAME 0]`–`[NAME 8]` and bracketed width/output controls; preserve and never split or reorder them;
+- Resolve token provenance against the original Japanese ROM payload when available. A marker present only in an English `HEAD` version is not proof that the source had that control: remove or repair it only after a source-payload comparison confirms the mismatch. Never infer token validity from its numeric index or from prose plausibility.
+- In the runtime text encoding, raw Greek glyphs β–ρ encode dynamic NAME0–NAME15 controls (SJIS bytes `83 C0`–`83 CF` respectively); they are semantic controls, not ordinary static-width Greek letters. The current translated corpus has observed β–κ / NAME0–NAME8 forms, but the dispatcher supports all 16 indices. Preserve only controls verified in the original payload. Earlier checks treated the English `HEAD` corpus as the token authority; that assumption is superseded by original-ROM evidence.
+- Runtime sizing is distinct from token preservation: `[NAME 0]` and `[NAME 1]` expand to six glyphs in the observed engine path, while `[NAME 2]`–`[NAME 8]` use engine-provided values whose rendered width requires runtime review. Do not reject or rewrite a token based only on its number; inspect the actual expansion when checking fit.
 - quote delimiters, escaped quotes (`\"`), explicit full-width/ideographic spaces where present, and every `dialogtxt` line/page break;
 - `dialogbig` coordinates and flags, `table` widths, allocation lengths, and other size-sensitive arguments.
 
@@ -126,6 +129,7 @@ Known review queue from the current corpus: `system_messages/menu.txt` has dupli
 - Read this memory before editing and record any new canon in the change report.
 - Work on quoted playable payloads only; never edit `script/Day2_scripts` during the standard pass.
 - Scan all runtime text for Japanese remaining after the pass, including system tables and `credits.txt`; distinguish comments/source annotations from payload.
-- Verify every opcode, label, address, variable, token, quote, line break, page break, and allocation width is preserved.
+- Verify every opcode, label, address, variable, source-backed token, quote, line break, page break, and allocation width is preserved. If a token differs from English `HEAD`, resolve it against the original ROM payload rather than assuming `HEAD` is authoritative.
+- Treat all source-verified bracketed substitution/control tokens as protected; separately review the rendered width of dynamic `[NAME]` expansions in runtime UI cases.
 - Search for inconsistent names, title case, terminology, pronouns, contractions, and reveal timing.
 - Report changed files, translated payload count, Japanese-payload count before/after, unresolved ambiguities, and any structural/control-code concern.

@@ -34,22 +34,22 @@ jumpz           @Cond_04ee, ($f0132 == 1)
 call            @Func_0c0a
 call            @Func_0b72
 jumpz           @Cond_016e, ($b003 == 0)
-dialogtxt       "Is Something Wrong?"
+dialogtxt       "Something Wrong?"
 goto            @Cond_016e
 
 @Cond_016e:
 jumpz           @Cond_0194, ($b003 == 1)
-dialogtxt       "What is it?"
+dialogtxt       "What?"
 goto            @Cond_0194
 
 @Cond_0194:
 jumpz           @Cond_01b4, ($b003 == 2)
-dialogtxt       "What now?"
+dialogtxt       "Now?"
 goto            @Cond_01b4
 
 @Cond_01b4:
 jumpz           @Cond_01de, ($b003 == 3)
-dialogtxt       "Is there something wrong?"
+dialogtxt       "What's wrong?"
 goto            @Cond_01de
 
 @Cond_01de:
@@ -60,13 +60,13 @@ code0479        0, 0, 13
 call            @Func_0b24
 jumpz           @Cond_0264, ($b002 == 0)
 dialogtxt       "That's it!"
-dialogtxt       "There should be a way around"
+dialogtxt       "There's a way around"
 dialogtxt       "through Deckell Mine!"
 goto            @Label_02b8
 
 @Cond_0264:
 dialogtxt       "That's it...!"
-dialogtxt       "There should be a way around"
+dialogtxt       "There's a way around"
 dialogtxt       "through Deckell Mine!"
 goto            @Label_02b8
 

@@ -99,9 +99,9 @@ dialogtxt       "That's right."
 dialogtxt       "You suddenly disappeared..."
 code0309        
 code0479        1, 5, 15
-dialogtxt       "Not that I was worried! I wasn't"
-dialogtxt       "worried about [NAME 8]"
-dialogtxt       "... or anything!"
+dialogtxt       "That's not what I meant!"
+dialogtxt       "I wasn't worried at all,"
+dialogtxt       "or anything like that!"
 code0309        
 call            @Func_102c
 call            @Func_0fbe
@@ -163,9 +163,9 @@ code047d        0, 0
 call            @Func_0fd6
 code0479        1, 0, 16
 call            @Func_0f88
-dialogtxt       "Come to think of it,"
-dialogtxt       "[NAME 8] Mii came back"
-dialogtxt       "earlier, but she seemed a little strange."
+dialogtxt       "Come to think of it, earlier"
+dialogtxt       "Lemmy came back"
+dialogtxt       "but she seemed a little strange."
 code047b        
 code0309        
 code0479        1, 0, 14

@@ -141,7 +141,7 @@ goto            @start
 code0301        8, 7
 dialogtxt       "A notice from Gallahan's Workshop"
 dialogtxt       "When there is no clerk at the counter,"
-dialogtxt       "please help yourself to the merchandise."
+dialogtxt       "please help yourself to our wares."
 code0309        
 code0302        7
 code040b        

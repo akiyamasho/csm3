@@ -19,7 +19,7 @@ goto            @Label_090a
 @Cond_009c:
 jumpz           @Cond_00ea, ($b071 == 0)
 call            @Func_0efc
-dialogtxt       "Equip weapon you will use in the match."
+dialogtxt       "Equip the weapon for the match."
 code047b        
 code0309        
 call            @Func_0fd4
@@ -129,9 +129,9 @@ code047d        1, 2
 call            @Func_0f7e
 call            @Func_0f1a
 jumpz           @Cond_0560, ($b003 == 0)
-dialogtxt       "Judging by [NAME 5]"
-dialogtxt       "'s expression, does Lady Murno"
-dialogtxt       "believe my partner will lose?"
+dialogtxt       "Judging by her expression,"
+dialogtxt       "does Lady Murno think my partner"
+dialogtxt       "will lose?"
 goto            @Cond_0560
 
 @Cond_0560:

@@ -160,7 +160,7 @@ code0301        8, 7
 code047d        0, 136
 code047e        0, 1
 dialogtxt       "Many powerful Summon Beasts"
-dialogtxt       "on the way to the Magic Crystal Pillar,"
+dialogtxt       "on the way to the Crystal Pillar,"
 dialogtxt       "so be careful."
 code0309        
 code047e        0, 0
@@ -170,8 +170,8 @@ code040b
 @Event_0786:
 code0301        8, 7
 dialogtxt       "A message from Gallahan's Workshop:"
-dialogtxt       "If no clerk is at the counter,"
-dialogtxt       "please help yourself to the merchandise."
+dialogtxt       "If no clerk is at the counter, please"
+dialogtxt       "help yourself to the merchandise."
 code0309        
 code0302        7
 code040b        

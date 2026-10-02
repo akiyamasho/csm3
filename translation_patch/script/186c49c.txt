@@ -96,9 +96,9 @@ code043c        2, 4
 code043c        4, 4
 call            @Func_0dbc
 jumpz           @Cond_0446, ($b003 == 0)
-dialogtxt       "The chances of finding [NAME 5] [NAME 4]..."
-dialogtxt       "extremely low, I think, [NAME 8]."
-dialogtxt       "I Will Search as Well."
+dialogtxt       "The chances are extremely low,"
+dialogtxt       "I think."
+dialogtxt       "I will search as well."
 goto            @Cond_0446
 
 @Cond_0446:
@@ -134,13 +134,13 @@ code047d        0, 0
 call            @Func_0e0a
 call            @Func_0d50
 jumpz           @Cond_05dc, ($b002 == 0)
-dialogtxt       "That's true."
-dialogtxt       "Let's search around here a little longer."
+dialogtxt       "That's true. Let's search around here"
+dialogtxt       "a little longer."
 goto            @Label_0610
 
 @Cond_05dc:
-dialogtxt       "That's true."
-dialogtxt       "Let's search around here a little longer."
+dialogtxt       "That's true. Let's search around here"
+dialogtxt       "a little longer."
 goto            @Label_0610
 
 @Label_0610:

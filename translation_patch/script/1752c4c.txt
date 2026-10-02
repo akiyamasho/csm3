@@ -417,7 +417,7 @@ dialogtxt       "Sorry, but beyond this point"
 dialogtxt       "only those with special permission"
 dialogtxt       "may pass."
 code0309        
-dialogtxt       "However, if you have a membership card,"
+dialogtxt       "But if you have a membership card,"
 dialogtxt       "that's another matter."
 code0309        
 code047e        0, 0

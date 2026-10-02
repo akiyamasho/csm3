@@ -69,7 +69,7 @@ code0309
 code0479        0, 0, 13
 dialogtxt       "Oh, that's right."
 dialogtxt       "Master, thanks for letting Murno"
-dialogtxt       "and γ stay with us."
+dialogtxt       "and the others stay with us."
 code0309        
 call            @Func_1124
 code0479        1, 0, 16
@@ -187,7 +187,7 @@ dialogtxt       "That's the spirit!"
 code0309        
 code0479        0, 0, 12
 code0479        1, 0, 13
-dialogtxt       "First, you two need to bond."
+dialogtxt       "First, build trust with [NAME 1]."
 dialogtxt       "You both have to work hard"
 dialogtxt       "until you can trust each other!"
 code0309        
@@ -390,4 +390,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

@@ -175,7 +175,7 @@ code047d        0, 2
 call            @Func_4bb6
 call            @Func_4ade
 jumpz           @Cond_0814, ($b003 == 0)
-dialogtxt       "Sending it back, [NAME 6]."
+dialogtxt       "Sending it back."
 goto            @Cond_0814
 
 @Cond_0814:
@@ -272,7 +272,7 @@ code0309
 call            @Func_4b32
 code0479        1, 5, 16
 call            @Func_4b68
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "You..."
 code0309        
 call            @Func_4c38
@@ -433,9 +433,9 @@ code0479        1, 4, 16
 code047d        1, 111
 call            @Func_4bcc
 call            @Func_4b68
-dialogtxt       "I didn't expect you to be here..."
-dialogtxt       "Perhaps this is the last [NAME 8]..."
-dialogtxt       "maybe the final choice."
+dialogtxt       "I didn't expect you here..."
+dialogtxt       "Perhaps this is my last"
+dialogtxt       "chance to choose."
 code047b        
 code0309        
 call            @Func_4b9e
@@ -447,14 +447,14 @@ code0309
 call            @Func_4b32
 code0479        1, 2, 14
 call            @Func_4b68
-dialogtxt       "But [NAME 8] will not stop now."
+dialogtxt       "But I will not stop now."
 dialogtxt       "This time, I will obtain"
 dialogtxt       "the power...!"
 code0309        
 code0479        1, 2, 17
-dialogtxt       "So remember, [NAME 8]..."
-dialogtxt       "The next time you stand [NAME 8]..."
-dialogtxt       "I will cut you down without hesitation!"
+dialogtxt       "So remember, Lemmy..."
+dialogtxt       "If you stand in my way again,"
+dialogtxt       "I'll cut you down, no hesitation!"
 code0309        
 call            @Func_4c38
 call            @Func_4b86
@@ -513,9 +513,9 @@ code0479        1, 0, 12
 code047d        1, 111
 call            @Func_4bcc
 call            @Func_4b68
-dialogtxt       "So you, too, intend to get"
-dialogtxt       "in [NAME 8]'s"
-dialogtxt       "way...? Rob's apprentice..."
+dialogtxt       "So you intend to get"
+dialogtxt       "in my way too...?"
+dialogtxt       "Rob's apprentice..."
 code047b        
 code0309        
 call            @Func_4c0c
@@ -830,7 +830,7 @@ goto            @Cond_2648
 @Cond_2648:
 jumpz           @Cond_268a, ($b003 == 1)
 dialogtxt       "It was only a glancing blow..."
-dialogtxt       "But this [NAME 4]..."
+dialogtxt       "But this wound..."
 goto            @Cond_268a
 
 @Cond_268a:
@@ -842,7 +842,7 @@ goto            @Cond_26ba
 @Cond_26ba:
 jumpz           @Cond_26fe, ($b003 == 3)
 dialogtxt       "It was only a glancing blow..."
-dialogtxt       "...but this [NAME 4]..."
+dialogtxt       "...but this wound..."
 goto            @Cond_26fe
 
 @Cond_26fe:
@@ -1087,13 +1087,13 @@ code0479        0, 2, 16
 call            @Func_4be2
 call            @Func_4ade
 jumpz           @Cond_316c, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "What is going on?!"
 dialogtxt       "You...!"
 goto            @Label_31a2
 
 @Cond_316c:
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 dialogtxt       "What is going on?!"
 dialogtxt       "You...!"
 goto            @Label_31a2
@@ -1128,9 +1128,9 @@ code047d        1, 2
 call            @Func_4bcc
 call            @Func_4b68
 jumpz           @Cond_32c0, ($b003 == 0)
-dialogtxt       "This Is No Time For [NAME 5]"
-dialogtxt       "Such Things!"
-dialogtxt       "Master And The Others..."
+dialogtxt       "This is no time for this!"
+dialogtxt       "We have to help Master"
+dialogtxt       "and the others..."
 goto            @Cond_32c0
 
 @Cond_32c0:
@@ -1149,9 +1149,9 @@ goto            @Cond_337a
 
 @Cond_337a:
 jumpz           @Cond_33d4, ($b003 == 3)
-dialogtxt       "Now is no time for that."
-dialogtxt       "Please!"
-dialogtxt       "Hurry and save Master and the others..."
+dialogtxt       "Now is no time for that. Please!"
+dialogtxt       "Hurry and save Master and the"
+dialogtxt       "others..."
 goto            @Cond_33d4
 
 @Cond_33d4:
@@ -1290,7 +1290,7 @@ code0479        0, 5, 15
 code047d        0, 0
 call            @Func_4bb6
 call            @Func_4afc
-dialogtxt       "Master! Ani[NAME 4]!"
+dialogtxt       "Master! Bro!"
 dialogtxt       "Are you all right?!"
 code047b        
 code0309        
@@ -1311,7 +1311,7 @@ code0479        0, 2, 14
 call            @Func_4bcc
 code047c        1, 6
 call            @Func_4b68
-dialogtxt       "Those guys are planning to do something"
+dialogtxt       "Those guys plan to do something"
 dialogtxt       "terrible... They mean to go through"
 dialogtxt       "with it...! We have to stop them...!"
 code047b        
@@ -1325,9 +1325,9 @@ code0309
 call            @Func_4b32
 code0479        1, 4, 13
 call            @Func_4b68
-dialogtxt       "Don't worry so much."
-dialogtxt       "[NAME 8] and the others"
-dialogtxt       "are really all right. Right, Sis?"
+dialogtxt       "Do not worry so much."
+dialogtxt       "We are really all right."
+dialogtxt       "Right, Sis?"
 code0309        
 call            @Func_4c22
 code047c        1, 6
@@ -1341,7 +1341,7 @@ code047c        1, 6
 call            @Func_4b68
 dialogtxt       "Yes..."
 dialogtxt       "Besides, Tye is here,"
-dialogtxt       "and [NAME 8] is here too..."
+dialogtxt       "and Lemmy is here too..."
 code047b        
 code0309        
 call            @Func_4c22
@@ -1360,9 +1360,9 @@ code047b
 code0309        
 code043c        10, 2
 code0479        1, 2, 12
-dialogtxt       "I don't really understand, but"
-dialogtxt       "leave it to us!"
-dialogtxt       "Right, [NAME 8]!"
+dialogtxt       "I do not really understand,"
+dialogtxt       "but leave it to us!"
+dialogtxt       "Right, Lemmy!"
 code0309        
 call            @Func_4c0c
 call            @Func_4b9e
@@ -1378,7 +1378,7 @@ code0309
 call            @Func_4b32
 code0479        1, 2, 17
 call            @Func_4b68
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 code0309        
 call            @Func_4b9e
 code0479        0, 4, 14
@@ -1442,7 +1442,7 @@ call            @Func_4b9e
 code0479        0, 4, 16
 call            @Func_4afc
 dialogtxt       "Master..."
-dialogtxt       "Ani[NAME 4]..."
+dialogtxt       "Bro..."
 dialogtxt       "........."
 code0309        
 code043c        0, 4

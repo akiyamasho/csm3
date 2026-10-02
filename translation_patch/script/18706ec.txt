@@ -38,9 +38,9 @@ code047d        1, 2
 call            @Func_0d2c
 call            @Func_0caa
 jumpz           @Cond_021e, ($b003 == 0)
-dialogtxt       "... The wave is getting much"
-dialogtxt       "stronger, [NAME 4]"
-dialogtxt       "... Raising protection level."
+dialogtxt       "... The wave is getting"
+dialogtxt       "stronger..."
+dialogtxt       "Raising protection level."
 code047b        
 code0309        
 dialogtxt       "We must be nearing the ruins"

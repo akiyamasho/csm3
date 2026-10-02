@@ -14,7 +14,7 @@ code0482
 code047d        0, 107
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "So this is where you were..."
+dialogtxt       "You were here..."
 code0309        
 code047e        0, 0
 code0302        3
@@ -44,21 +44,21 @@ code0479        1, 0, 12
 code047d        1, 107
 call            @Func_10d2
 call            @Func_103a
-dialogtxt       "What's wrong?"
-dialogtxt       "Lost in thought...?"
+dialogtxt       "What now?"
+dialogtxt       "Lost in thought?"
 code047b        
 code0309        
 call            @Func_108e
 code0479        0, 4, 12
 call            @Func_0fec
 jumpz           @Cond_0312, ($b002 == 0)
-dialogtxt       "Yeah... I feel like [NAME 8]"
-dialogtxt       "has to do something,"
-dialogtxt       "too, but... I don't know what to do."
+dialogtxt       "Yeah... I feel like"
+dialogtxt       "I need to do something, but"
+dialogtxt       "I don't know what to do."
 goto            @Label_0368
 
 @Cond_0312:
-dialogtxt       "Yeah... I feel like I have to"
+dialogtxt       "Yeah, I feel like I have to"
 dialogtxt       "do something, too, but..."
 dialogtxt       "I don't know what to do."
 goto            @Label_0368
@@ -75,15 +75,15 @@ call            @Func_108e
 code0479        0, 0, 14
 call            @Func_0fec
 jumpz           @Cond_043c, ($b002 == 0)
-dialogtxt       "A lot happened in Louise Village, that's for"
-dialogtxt       "sure... We even summoned Genryuuki."
+dialogtxt       "A lot happened in Louise Village..."
+dialogtxt       "We even summoned Genryuuki."
 dialogtxt       "We even summoned Genryuuki."
 goto            @Label_0486
 
 @Cond_043c:
-dialogtxt       "A lot happened in Louise Village, that's"
-dialogtxt       "sure. lot happened in Louise Village,"
-dialogtxt       "that's sure. We summoned Genryuuki."
+dialogtxt       "A lot happened in Louise Village..."
+dialogtxt       "We summoned Genryuuki."
+dialogtxt       "We summoned Genryuuki."
 goto            @Label_0486
 
 @Label_0486:
@@ -91,7 +91,7 @@ code0309
 call            @Func_1022
 code0479        1, 1, 12
 call            @Func_1058
-dialogtxt       "You really saved the day."
+dialogtxt       "You saved the day."
 dialogtxt       "Now that you're finally back,"
 dialogtxt       "why not take it easy today?"
 code0309        
@@ -99,7 +99,7 @@ call            @Func_108e
 code0479        1, 0, 12
 code0479        0, 2, 16
 call            @Func_0fec
-dialogtxt       "But..."
+dialogtxt       "Yet..."
 dialogtxt       "We don't know when"
 dialogtxt       "those guys might come back..."
 code0309        
@@ -107,25 +107,25 @@ call            @Func_1022
 code0479        1, 4, 16
 call            @Func_1058
 dialogtxt       "I'm sorry."
-dialogtxt       "All because of me..."
+dialogtxt       "Because of me..."
 code0309        
 call            @Func_108e
 code0479        0, 0, 12
 call            @Func_0fec
 jumpz           @Cond_06a8, ($b002 == 0)
-dialogtxt       "Murno's been through far worse than"
-dialogtxt       "[NAME 8] than anything"
-dialogtxt       "I've faced. So don't worry about it."
+dialogtxt       "Murno's had it much harder"
+dialogtxt       "than I have. So don't worry"
+dialogtxt       "about that."
 code0309        
 code0479        0, 2, 13
-dialogtxt       "If we can make it so Murno doesn't"
-dialogtxt       "have to keep running anymore, Then"
-dialogtxt       "[NAME 8] Will Do My Best!"
+dialogtxt       "If Murno won't have to run"
+dialogtxt       "anymore, I'll do my best"
+dialogtxt       "to make that happen!"
 goto            @Label_077a
 
 @Cond_06a8:
-dialogtxt       "Murno's been through far worse"
-dialogtxt       "than anything I've faced."
+dialogtxt       "Murno's suffered worse"
+dialogtxt       "than I have."
 dialogtxt       "So don't worry about it."
 code0309        
 code0479        0, 2, 13
@@ -139,7 +139,7 @@ code0309
 call            @Func_1022
 code0479        1, 5, 12
 call            @Func_1058
-dialogtxt       "δ..."
+dialogtxt       "δ."
 code0309        
 call            @Func_108e
 code0479        1, 0, 12
@@ -147,13 +147,13 @@ code0479        0, 1, 12
 call            @Func_0fec
 jumpz           @Cond_0840, ($b002 == 0)
 dialogtxt       "Explain this tomorrow,"
-dialogtxt       "Then they'll know who's at fault!"
-dialogtxt       "Then they'll know who's at fault!"
+dialogtxt       "They'll know who's at fault!"
+dialogtxt       "They'll know who's at fault!"
 goto            @Label_089e
 
 @Cond_0840:
 dialogtxt       "Explain this tomorrow,"
-dialogtxt       "Then they'll know who's at fault!"
+dialogtxt       "They'll know who's at fault!"
 dialogtxt       "Explain this tomorrow,"
 goto            @Label_089e
 
@@ -162,9 +162,9 @@ code0309
 call            @Func_1022
 code0479        1, 4, 14
 call            @Func_1058
-dialogtxt       "But even if it were δ..."
-dialogtxt       "But people might listen to δ..."
-dialogtxt       "Would they really listen to me...?"
+dialogtxt       "But even if it were δ,"
+dialogtxt       "would anyone listen to"
+dialogtxt       "what I have to say...?"
 code0309        
 call            @Func_108e
 code0479        0, 2, 13
@@ -187,7 +187,7 @@ call            @Func_1022
 code0479        1, 7, 12
 call            @Func_1058
 dialogtxt       "Hehe..."
-dialogtxt       "I don't really understand, but..."
+dialogtxt       "I don't know, but..."
 dialogtxt       "Thanks."
 code0309        
 call            @Func_1128

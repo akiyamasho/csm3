@@ -397,9 +397,9 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "I heard from Prosbaan Town"
-dialogtxt       "that Akaba[NAME 6] is one"
-dialogtxt       "is rampaging."
+dialogtxt       "A traveler from Prosbaan Town"
+dialogtxt       "told me Akabane"
+dialogtxt       "is on a rampage."
 code0309        
 dialogtxt       "Apparently it's incredibly vicious."
 dialogtxt       "It's terribly dangerous."

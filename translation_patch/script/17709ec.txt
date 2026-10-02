@@ -307,7 +307,7 @@ ret
 code0301        8, 7
 code047d        0, 151
 code047e        0, 1
-dialogtxt       "I wasn't running away. I was calling for"
+dialogtxt       "I wasn't fleeing. I was calling for"
 dialogtxt       "everyone in the village to evacuate."
 dialogtxt       "Really."
 code0309        

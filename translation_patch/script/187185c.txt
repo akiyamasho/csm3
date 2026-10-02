@@ -8,12 +8,12 @@ code047d        1, 116
 call            @Func_453a
 call            @Func_44a2
 jumpz           @Cond_00c4, ($b002 == 0)
-dialogtxt       "Getting stronger every time you fight..."
-dialogtxt       "You're quite a guy, kid..."
+dialogtxt       "Getting stronger every time you"
+dialogtxt       "fight... You're quite a guy, kid..."
 goto            @Label_0110
 
 @Cond_00c4:
-dialogtxt       "Getting stronger every time you fight..."
+dialogtxt       "Growing stronger with every fight..."
 dialogtxt       "You're quite a girl, sweetheart..."
 goto            @Label_0110
 
@@ -28,9 +28,9 @@ code0479        1, 4, 14
 code047d        1, 115
 call            @Func_4524
 call            @Func_44c0
-dialogtxt       "But [NAME 8] and the others"
-dialogtxt       "won't be moved by your spirit"
-dialogtxt       "and sheathe their swords."
+dialogtxt       "But we will not be moved"
+dialogtxt       "by your spirit and sheathe"
+dialogtxt       "our swords."
 code047b        
 code0309        
 code0479        1, 2, 15
@@ -145,7 +145,7 @@ code047d        1, 2
 call            @Func_4524
 call            @Func_44a2
 jumpz           @Cond_06aa, ($b003 == 0)
-dialogtxt       "IF YOU CANNOT DO IT, [NAME 4]"
+dialogtxt       "IF YOU CANNOT DO IT,"
 dialogtxt       "I WILL DO IT INSTEAD..."
 goto            @Cond_06aa
 
@@ -159,7 +159,7 @@ goto            @Cond_06f6
 @Cond_06f6:
 jumpz           @Cond_0736, ($b003 == 2)
 dialogtxt       "Move!"
-dialogtxt       "Even if [NAME 4] cannot do it,"
+dialogtxt       "Even if you cannot do it,"
 dialogtxt       "I will..."
 goto            @Cond_0736
 
@@ -292,7 +292,7 @@ dialogtxt       "And Mr. Velworen, too?"
 code047b        
 code0309        
 code0479        0, 5, 16
-dialogtxt       "Even [NAME 8]-mii...?!"
+dialogtxt       "Even Lemmy...?!"
 code0309        
 call            @Func_4590
 call            @Func_4472
@@ -404,7 +404,7 @@ call            @Func_450e
 call            @Func_4436
 dialogtxt       "So, basically..."
 dialogtxt       "we're ignoring the line"
-dialogtxt       "‘my δ,’ right?"
+dialogtxt       "\"my δ,\" right?"
 code047b        
 code0309        
 call            @Func_4564
@@ -464,14 +464,14 @@ goto            @Cond_168e
 
 @Cond_168e:
 jumpz           @Cond_16ec, ($b003 == 2)
-dialogtxt       "Even [NAME 4] could tell..."
-dialogtxt       "Is it because we're getting closer"
+dialogtxt       "Even you can tell..."
+dialogtxt       "Is it because we are closer"
 dialogtxt       "to the ruin that held the magic stone?"
 goto            @Cond_16ec
 
 @Cond_16ec:
 jumpz           @Cond_1762, ($b003 == 3)
-dialogtxt       "The unpleasant feeling is getting worse,"
+dialogtxt       "The foul feeling keeps getting worse,"
 dialogtxt       "so it must be because we're near"
 dialogtxt       "the ruin that held the magic stone..."
 goto            @Cond_1762
@@ -489,9 +489,9 @@ code0479        0, 2, 15
 code047d        0, 116
 call            @Func_450e
 call            @Func_4454
-dialogtxt       "It would be one thing if you were merely"
+dialogtxt       "It'd be one thing if you were merely"
 dialogtxt       "alive, but to get through that maze so"
-dialogtxt       "quickly and make it all the way here..."
+dialogtxt       "and make it all the way here fast..."
 code047b        
 code0309        
 code0479        0, 2, 17
@@ -533,7 +533,7 @@ code047d        0, 2
 call            @Func_450e
 call            @Func_4454
 jumpz           @Cond_19ee, ($b003 == 0)
-dialogtxt       "If you ask [NAME 5]..."
+dialogtxt       "Come to think of it..."
 dialogtxt       "A man named Velworen..."
 goto            @Cond_19ee
 
@@ -614,13 +614,13 @@ code043c        0, 2
 code0479        1, 4, 12
 call            @Func_44c0
 jumpz           @Cond_1d56, ($b002 == 0)
-dialogtxt       "S-Sorry... Sorry for worrying"
-dialogtxt       "Sorry about that, [NAME 8]-mii."
+dialogtxt       "S-Sorry... I worried you."
+dialogtxt       "I am sorry, Lemmy."
 goto            @Label_1d88
 
 @Cond_1d56:
 dialogtxt       "S-Sorry..."
-dialogtxt       "you, [NAME 8] -mii."
+dialogtxt       "I worried you, Lemmy."
 goto            @Label_1d88
 
 @Label_1d88:
@@ -822,8 +822,8 @@ code0309
 call            @Func_44f6
 code0479        0, 5, 17
 call            @Func_4454
-dialogtxt       "That applies to you, not us."
-dialogtxt       "That isn't something to say to a [NAME 5]..."
+dialogtxt       "You should say that"
+dialogtxt       "to the woman over there..."
 code047b        
 code0309        
 call            @Func_4590
@@ -922,7 +922,7 @@ code047d        0, 115
 call            @Func_450e
 code047c        0, 6
 call            @Func_4454
-dialogtxt       "[NAME 4] and the others..."
+dialogtxt       "You people..."
 code047b        
 code0309        
 call            @Func_4564
@@ -974,7 +974,7 @@ code047d        0, 115
 call            @Func_450e
 call            @Func_4454
 dialogtxt       "Guh... Damn it!"
-dialogtxt       "You [NAME 4]...!"
+dialogtxt       "You...!"
 code047b        
 code0309        
 call            @Func_448a
@@ -1186,9 +1186,9 @@ call            @Func_44f6
 code043c        7, 4
 code0479        0, 2, 16
 call            @Func_4454
-dialogtxt       "Then you can stay here."
-dialogtxt       "Why not?"
-dialogtxt       "Ms. V.E and the others are here, too..."
+dialogtxt       "Then you can stay here. Why not?"
+dialogtxt       "Ms. V.E and the others are here,"
+dialogtxt       "too..."
 code0309        
 call            @Func_448a
 code0479        1, 4, 16

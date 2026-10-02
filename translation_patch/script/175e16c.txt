@@ -139,7 +139,7 @@ call            @Func_38b6
 code0479        1, 2, 12
 call            @Func_38ec
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Murno is in the underground palace, but"
+dialogtxt       "Murno's in the palace below, but"
 dialogtxt       "Can we reach it without being caught?"
 code0309        
 call            @Func_3922
@@ -195,8 +195,8 @@ call            @Func_38b6
 code0479        1, 2, 12
 call            @Func_38ec
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Lady Murno is in the underground palace."
-dialogtxt       "Let's avoid the villagers."
+dialogtxt       "Lady Murno is in the underground"
+dialogtxt       "palace. Let's avoid the villagers."
 code0309        
 call            @Func_3922
 code0479        0, 2, 12
@@ -256,12 +256,12 @@ call            @Func_3966
 jumpz           @Cond_0c64, ($b003 == 0)
 call            @Func_3862
 jumpz           @Cond_0ac8, ($b002 == 0)
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0b0e
 
 @Cond_0ac8:
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0b0e
 
@@ -301,12 +301,12 @@ goto            @Cond_0c64
 jumpz           @Cond_0e72, ($b003 == 1)
 call            @Func_3862
 jumpz           @Cond_0cd0, ($b002 == 0)
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0d16
 
 @Cond_0cd0:
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0d16
 
@@ -346,12 +346,12 @@ goto            @Cond_0e72
 jumpz           @Cond_108a, ($b003 == 2)
 call            @Func_3862
 jumpz           @Cond_0ede, ($b002 == 0)
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0f24
 
 @Cond_0ede:
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_0f24
 
@@ -362,7 +362,7 @@ call            @Func_38b6
 code0479        1, 2, 13
 call            @Func_38ec
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Murno is in the underground palace, but"
+dialogtxt       "Murno's in the palace below, but"
 dialogtxt       "Can we reach it without being caught?"
 code0309        
 call            @Func_3922
@@ -391,12 +391,12 @@ goto            @Cond_108a
 jumpz           @Cond_129c, ($b003 == 3)
 call            @Func_3862
 jumpz           @Cond_10f6, ($b002 == 0)
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_113c
 
 @Cond_10f6:
-dialogtxt       "We can use the old man's workshop, too."
+dialogtxt       "We can use the old man's shop, too."
 dialogtxt       "Let's give our all and rescue Murno!"
 goto            @Label_113c
 
@@ -407,8 +407,8 @@ call            @Func_38b6
 code0479        1, 2, 14
 call            @Func_38ec
 dialogtxt       "The Lecui Water Ruins outside town"
-dialogtxt       "Lady Murno is in the underground palace."
-dialogtxt       "Let's avoid the villagers."
+dialogtxt       "Lady Murno is in the underground"
+dialogtxt       "palace. Let's avoid the villagers."
 code0309        
 call            @Func_3922
 code0479        0, 2, 12
@@ -465,13 +465,13 @@ call            @Func_3966
 jumpz           @Cond_153a, ($b003 == 0)
 call            @Func_3862
 jumpz           @Cond_1408, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1468
 
 @Cond_1408:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1468
@@ -482,9 +482,9 @@ code0309
 call            @Func_38b6
 code0479        1, 0, 12
 call            @Func_38ec
-dialogtxt       "A faint energy is detected in the ruins."
-dialogtxt       "It has been detected."
-dialogtxt       "Please be very careful."
+dialogtxt       "A faint energy is detected in the"
+dialogtxt       "ruins. It has been detected. Please be"
+dialogtxt       "very careful."
 code0309        
 call            @Func_3922
 code0479        0, 2, 16
@@ -501,13 +501,13 @@ goto            @Cond_153a
 jumpz           @Cond_16ee, ($b003 == 1)
 call            @Func_3862
 jumpz           @Cond_15b2, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1612
 
 @Cond_15b2:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1612
@@ -538,13 +538,13 @@ goto            @Cond_16ee
 jumpz           @Cond_187a, ($b003 == 2)
 call            @Func_3862
 jumpz           @Cond_1766, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_17c6
 
 @Cond_1766:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_17c6
@@ -555,14 +555,14 @@ code0309
 call            @Func_38b6
 code0479        1, 2, 14
 call            @Func_38ec
-dialogtxt       "There's a faint ripple inside the ruins..."
-dialogtxt       "This feels bad."
+dialogtxt       "There's a faint ripple inside the"
+dialogtxt       "ruins... This feels bad."
 code0309        
 call            @Func_3922
 code0479        0, 2, 16
 call            @Func_3880
 dialogtxt       "It feels more ominous than usual,"
-dialogtxt       "[NAME 4]... Let's be careful."
+dialogtxt       "Let's be careful anyway."
 code0309        
 call            @Func_39bc
 call            @Func_389e
@@ -573,13 +573,13 @@ goto            @Cond_187a
 jumpz           @Cond_1a10, ($b003 == 3)
 call            @Func_3862
 jumpz           @Cond_18f2, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1952
 
 @Cond_18f2:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1952
@@ -638,13 +638,13 @@ call            @Func_3966
 jumpz           @Cond_1d5a, ($b003 == 0)
 call            @Func_3862
 jumpz           @Cond_1b94, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1bf4
 
 @Cond_1b94:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1bf4
@@ -685,13 +685,13 @@ goto            @Cond_1d5a
 jumpz           @Cond_1fca, ($b003 == 1)
 call            @Func_3862
 jumpz           @Cond_1dd2, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1e32
 
 @Cond_1dd2:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_1e32
@@ -737,13 +737,13 @@ goto            @Cond_1fca
 jumpz           @Cond_21f2, ($b003 == 2)
 call            @Func_3862
 jumpz           @Cond_2042, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_20a2
 
 @Cond_2042:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_20a2
@@ -787,13 +787,13 @@ goto            @Cond_21f2
 jumpz           @Cond_2482, ($b003 == 3)
 call            @Func_3862
 jumpz           @Cond_226a, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_22ca
 
 @Cond_226a:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_22ca
@@ -876,7 +876,7 @@ call            @Func_38b6
 code0479        1, 0, 12
 call            @Func_38ec
 dialogtxt       "The source is unknown..."
-dialogtxt       "... ... [NAME 8]..."
+dialogtxt       "Slight sensor disturbance..."
 dialogtxt       "It is occurring."
 code0309        
 call            @Func_3922
@@ -1003,13 +1003,13 @@ call            @Func_3966
 jumpz           @Cond_2bee, ($b003 == 0)
 call            @Func_3862
 jumpz           @Cond_2a98, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2af8
 
 @Cond_2a98:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2af8
@@ -1039,13 +1039,13 @@ goto            @Cond_2bee
 jumpz           @Cond_2e06, ($b003 == 1)
 call            @Func_3862
 jumpz           @Cond_2c66, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2cc6
 
 @Cond_2c66:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2cc6
@@ -1056,7 +1056,7 @@ code0309
 call            @Func_38b6
 code0479        1, 2, 16
 call            @Func_38ec
-dialogtxt       "Tye...、...[NAME 4]......"
+dialogtxt       "Tier, then my brother and Master..."
 dialogtxt       "It's linked to that presence"
 dialogtxt       "inside the ruins..."
 code0309        
@@ -1084,13 +1084,13 @@ goto            @Cond_2e06
 jumpz           @Cond_2fb8, ($b003 == 2)
 call            @Func_3862
 jumpz           @Cond_2e7e, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2ede
 
 @Cond_2e7e:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_2ede
@@ -1127,13 +1127,13 @@ goto            @Cond_2fb8
 jumpz           @Cond_3180, ($b003 == 3)
 call            @Func_3862
 jumpz           @Cond_3030, ($b002 == 0)
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from that thing called the Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_3090
 
 @Cond_3030:
-dialogtxt       "At [NAME 8] Water Ruins' bottom"
+dialogtxt       "At the bottom of Lecui Water Ruins"
 dialogtxt       "from the Summon Beast called Master"
 dialogtxt       "We have to rescue Murno!"
 goto            @Label_3090
@@ -1254,7 +1254,7 @@ code0309
 call            @Func_38b6
 code0479        1, 2, 15
 call            @Func_38ec
-dialogtxt       "[NAME 8] Water Ruins' bottom!"
+dialogtxt       "Bottom floor of Lecui Water Ruins!"
 dialogtxt       "If we don't hurry, Murno becomes"
 dialogtxt       "Summon Beast food!"
 code0309        
@@ -1292,7 +1292,7 @@ code0309
 call            @Func_38b6
 code0479        1, 3, 15
 call            @Func_38ec
-dialogtxt       "[NAME 8] Water Ruins' bottom!"
+dialogtxt       "Bottom floor of Lecui Water Ruins!"
 dialogtxt       "If we don't hurry, that Master"
 dialogtxt       "She'll be made into Summon Beast food!"
 code0309        
@@ -1330,7 +1330,7 @@ code0309
 call            @Func_38b6
 code0479        1, 2, 15
 call            @Func_38ec
-dialogtxt       "[NAME 8] Water Ruins' bottom!"
+dialogtxt       "Bottom floor of Lecui Water Ruins!"
 dialogtxt       "If we don't hurry, Lady Murno becomes"
 dialogtxt       "Summon Beast food!"
 code0309        

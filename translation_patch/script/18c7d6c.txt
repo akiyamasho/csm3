@@ -56,8 +56,8 @@ dialogtxt       "are quite skilled."
 dialogtxt       "Is that right?"
 code0309        
 code0479        1, 2, 13
-dialogtxt       "Would you like to put those skills to use"
-dialogtxt       "by taking on stray-hunting work"
+dialogtxt       "Would you like to put those skills to"
+dialogtxt       "use by taking on stray-hunting work"
 dialogtxt       "for us?"
 code0309        
 code0479        1, 0, 12
@@ -90,9 +90,9 @@ jumpz           @Cond_0574, ($bv044 == 1)
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
-dialogtxt       "I'm sorry, but regarding stray hunting,"
-dialogtxt       "I have no work I can assign you"
-dialogtxt       "right now."
+dialogtxt       "I'm sorry, but regarding stray"
+dialogtxt       "hunting, I have no work I can assign"
+dialogtxt       "you right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -139,7 +139,7 @@ code0479        1, 0, 13
 call            @Func_2962
 dialogtxt       "You eliminated the stray."
 dialogtxt       "Well done."
-dialogtxt       "Then this, [NAME 8]."
+dialogtxt       "Then, this is your reward."
 code047b        
 code0309        
 call            @Func_2a50
@@ -155,9 +155,9 @@ jumpz           @Cond_07dc, ($bv043 == 3)
 code0479        0, 0, 12
 code0479        1, 0, 12
 call            @Func_2962
-dialogtxt       "I'm sorry, but regarding stray hunting,"
-dialogtxt       "I have no work I can assign you"
-dialogtxt       "right now."
+dialogtxt       "I'm sorry, but regarding stray"
+dialogtxt       "hunting, I have no work I can assign"
+dialogtxt       "you right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -169,9 +169,9 @@ jumpz           @Label_0880, ($bv043 == 4)
 code0479        0, 0, 16
 code0479        1, 2, 14
 call            @Func_2962
-dialogtxt       "I'm sorry, but regarding stray hunting,"
-dialogtxt       "I don't have any work"
-dialogtxt       "for you today."
+dialogtxt       "I'm sorry, but regarding stray"
+dialogtxt       "hunting, I don't have any work for you"
+dialogtxt       "today."
 code047b        
 code0309        
 call            @Func_2a50
@@ -270,9 +270,9 @@ goto            @Label_1036
 jumpz           @Cond_0dea, ($bv043 == 0)
 jumpz           @Cond_0d76, ($bv044 == 1)
 call            @Func_2962
-dialogtxt       "Oh, if you're asking about stray hunting,"
-dialogtxt       "I don't have a job"
-dialogtxt       "for you right now."
+dialogtxt       "Oh, if you're asking about stray"
+dialogtxt       "hunting, I don't have a job for you"
+dialogtxt       "right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -327,9 +327,9 @@ goto            @Label_1032
 @Cond_0ec0:
 jumpz           @Cond_0f26, ($bv043 == 3)
 call            @Func_2962
-dialogtxt       "Oh, if you're asking about stray hunting,"
-dialogtxt       "I don't have a job"
-dialogtxt       "for you right now."
+dialogtxt       "Oh, if you're asking about stray"
+dialogtxt       "hunting, I don't have a job for you"
+dialogtxt       "right now."
 code047b        
 code0309        
 call            @Func_2a50
@@ -347,8 +347,8 @@ dialogtxt       "You've forgotten, haven't you...?"
 code047b        
 code0309        
 code0479        1, 4, 16
-dialogtxt       "That puts me in a difficult position..."
-dialogtxt       "This is all such a hassle,"
+dialogtxt       "That puts me in a difficult"
+dialogtxt       "position... This is all such a hassle,"
 dialogtxt       "so I'll cancel the request."
 code0309        
 call            @Func_2a50
@@ -416,7 +416,7 @@ goto            @Label_1500
 jumpz           @Cond_13d2, ($bv044 == 1)
 jumpz           @Cond_136c, ($bv029 == 0)
 code0476        -14973, $w014, 0
-dialogtxt       "θ stray Summon Beasts remaining"
+dialogtxt       "θ η stray Summon Beasts remaining"
 call            @Func_1d26
 code0309        
 dialogtxt       "Do your best with the job."
@@ -426,9 +426,9 @@ code0302        7
 goto            @Label_13ce
 
 @Cond_136c:
-dialogtxt       "Hmm, looks like you've finished the job."
-dialogtxt       "Good work."
-dialogtxt       "Then this, [NAME 8]."
+dialogtxt       "Looks like you've finished the job."
+dialogtxt       "Good work. Then,"
+dialogtxt       "here's your reward."
 code0309        
 code047e        0, 0
 code0302        7
@@ -562,14 +562,14 @@ goto            @Label_1948
 jumpz           @Cond_18ca, ($bv042 == 2)
 setvar          $h232, 182
 setvar          $h233, 30
-setname         0xC683, "Windon"
+setname         0xC683, "Windleon"
 goto            @Label_1948
 
 @Cond_18ca:
 jumpz           @Cond_190a, ($bv042 == 3)
 setvar          $h232, 181
 setvar          $h233, 50
-setname         0xC683, "Goblin"
+setname         0xC683, "Gremlin"
 goto            @Label_1948
 
 @Cond_190a:
@@ -622,7 +622,7 @@ goto            @Label_1a86
 
 @Label_1a86:
 code0476        -14973, $h233, 0
-dialogtxt       "θ stray Summon Beasts"
+dialogtxt       "θ η stray Summon Beasts"
 call            @Func_1d26
 code0309        
 ret             
@@ -729,7 +729,7 @@ goto            @Label_1eb8
 
 @Cond_1d82:
 jumpz           @Cond_1dd0, ($bv042 == 1)
-dialogtxt       "It's been spotted at the Slenji Mine."
+dialogtxt       "It's at Slenji Mine."
 dialogtxt       "Can you eliminate it?"
 goto            @Label_1eb8
 
@@ -770,11 +770,11 @@ goto            @Label_20ee
 @Cond_1f2a:
 jumpz           @Cond_1f9c, ($bv041 == 1)
 jumpz           @Cond_1f70, ($bv031 == 1)
-dialogtxt       "It's been confirmed at the Slenji Mine."
+dialogtxt       "Confirmed at Slenji Mine."
 goto            @Label_1f98
 
 @Cond_1f70:
-dialogtxt       "Apparently it's rampaging at the Slenji."
+dialogtxt       "Apparently it's raging at Slenji."
 goto            @Label_1f98
 
 @Label_1f98:
@@ -787,7 +787,7 @@ dialogtxt       "It's been confirmed in Sport Cave."
 goto            @Label_2006
 
 @Cond_1fe0:
-dialogtxt       "Apparently it's rampaging in Sport Cave."
+dialogtxt       "Raging in Sport Cave."
 goto            @Label_2006
 
 @Label_2006:
@@ -800,7 +800,7 @@ dialogtxt       "It's been confirmed in Sport Cave."
 goto            @Label_2074
 
 @Cond_204e:
-dialogtxt       "Apparently it's rampaging in Sport Cave."
+dialogtxt       "Raging in Sport Cave."
 goto            @Label_2074
 
 @Label_2074:
@@ -841,8 +841,8 @@ goto            @Label_2364
 @Cond_21c0:
 jumpz           @Cond_2238, (($h311 - ($bv041 + $bv042)) <= 6)
 code0479        1, 0, 12
-dialogtxt       "If you want better jobs,"
-dialogtxt       "First, it's important to build a record."
+dialogtxt       "If you want better jobs, First, it's"
+dialogtxt       "important to build a record."
 goto            @Label_2364
 
 @Cond_2238:
@@ -861,7 +861,7 @@ goto            @Label_2364
 
 @Cond_2316:
 code0479        1, 2, 14
-dialogtxt       "Perhaps the work here"
+dialogtxt       "Maybe the work here"
 dialogtxt       "isn't suited to you."
 goto            @Label_2364
 

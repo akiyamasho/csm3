@@ -28,12 +28,12 @@ call            @Func_10f2
 call            @Func_0fee
 jumpz           @Cond_0136, ($b002 == 0)
 dialogtxt       "Easy!"
-dialogtxt       "We really are strong!"
+dialogtxt       "We are strong!"
 goto            @Label_0164
 
 @Cond_0136:
 dialogtxt       "Easy!"
-dialogtxt       "We really are strong!"
+dialogtxt       "We are strong!"
 goto            @Label_0164
 
 @Label_0164:
@@ -237,11 +237,11 @@ code047d        1, 2
 call            @Func_10f2
 call            @Func_0fee
 jumpz           @Cond_0810, ($b002 == 0)
-dialogtxt       "We really did it!"
+dialogtxt       "We did it!"
 goto            @Label_082c
 
 @Cond_0810:
-dialogtxt       "We really did it!"
+dialogtxt       "We did it!"
 goto            @Label_082c
 
 @Label_082c:

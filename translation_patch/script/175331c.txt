@@ -348,7 +348,7 @@ dialogtxt       "Hey, let's play battle scene!"
 dialogtxt       "I'll shout, 'Don't make fun of me~!'"
 dialogtxt       "and do a roundhouse kick."
 code0309        
-dialogtxt       "[NAME 4]mi keeps apologizing."
+dialogtxt       "You keep apologizing."
 code0309        
 code047e        0, 0
 code0302        7

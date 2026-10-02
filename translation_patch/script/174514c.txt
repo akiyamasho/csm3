@@ -398,7 +398,7 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "With Knuckles, you can move rocks, too."
+dialogtxt       "Knuckles can move rocks, too."
 dialogtxt       "I don't know why"
 dialogtxt       "it works, though."
 code0309        

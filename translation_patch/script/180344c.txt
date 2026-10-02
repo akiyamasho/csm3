@@ -72,11 +72,11 @@ code0479        0, 2, 14
 call            @Func_1050
 jumpz           @Cond_03de, ($b002 == 0)
 dialogtxt       "What did you say...? You think it's"
-dialogtxt       "[NAME 8]'s fault...?"
+dialogtxt       "Who do you think is to blame...?"
 goto            @Label_040c
 
 @Cond_03de:
-dialogtxt       "Oh, come on... You think it's [NAME 8]'s"
+dialogtxt       "Oh, come on... It's your fault?"
 dialogtxt       "fault...?"
 goto            @Label_040c
 

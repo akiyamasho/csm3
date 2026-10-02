@@ -154,7 +154,7 @@ call            @Func_1ba8
 call            @Func_1aee
 jumpz           @Cond_06e2, ($b003 == 0)
 dialogtxt       "You Mean Murno Is Not"
-dialogtxt       "With You, [NAME 6]!?"
+dialogtxt       "You are not with them!?"
 goto            @Cond_06e2
 
 @Cond_06e2:
@@ -165,7 +165,7 @@ goto            @Cond_0728
 
 @Cond_0728:
 jumpz           @Cond_076c, ($b003 == 2)
-dialogtxt       "She Isn't With [NAME 4],"
+dialogtxt       "She isn't with you, Master,"
 dialogtxt       "Then!?"
 goto            @Cond_076c
 
@@ -182,9 +182,9 @@ call            @Func_1b24
 code0333        2, 30
 code0479        1, 5, 17
 call            @Func_1b5a
-dialogtxt       "What!? But..."
-dialogtxt       "It's not time for our appointment, is it?"
-dialogtxt       "If you want to talk, come back later..."
+dialogtxt       "What!? But... It's not time for our"
+dialogtxt       "appointment, is it? If you want to"
+dialogtxt       "talk, come back later..."
 code0309        
 call            @Func_1bfe
 call            @Func_1b90
@@ -218,8 +218,8 @@ call            @Func_1b24
 code0479        1, 0, 12
 call            @Func_1b5a
 dialogtxt       "That's right. She wants to know what's"
-dialogtxt       "happening now, and see if something can"
-dialogtxt       "be done..."
+dialogtxt       "happening now, and see if something"
+dialogtxt       "can be done..."
 code0309        
 code0479        1, 4, 12
 dialogtxt       "She's worried about the village, too,"
@@ -262,7 +262,7 @@ call            @Func_1ba8
 call            @Func_1aee
 jumpz           @Cond_0b9a, ($b003 == 0)
 dialogtxt       "What Did You Say"
-dialogtxt       "To Murno, [NAME 0]?"
+dialogtxt       "What did you say about Lady Murno?"
 goto            @Cond_0b9a
 
 @Cond_0b9a:
@@ -274,7 +274,7 @@ goto            @Cond_0be0
 
 @Cond_0be0:
 jumpz           @Cond_0c1a, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "Master..."
 dialogtxt       "What did you tell Murno?"
 goto            @Cond_0c1a
 
@@ -291,8 +291,8 @@ call            @Func_1b24
 code0479        1, 5, 17
 call            @Func_1b5a
 dialogtxt       "What...? Well... She kept asking me"
-dialogtxt       "questions, so I just told her the rumors"
-dialogtxt       "around town."
+dialogtxt       "questions, so I just told her the"
+dialogtxt       "rumors around town."
 code0309        
 code0479        1, 4, 16
 dialogtxt       "About the girl who's making the Stray"
@@ -322,7 +322,7 @@ goto            @Label_0dd4
 call            @Func_1aee
 jumpz           @Cond_0e24, ($b003 == 0)
 dialogtxt       "Did You Tell Murno"
-dialogtxt       "Such Things, [NAME 5]?"
+dialogtxt       "Did you do that to Murno?"
 goto            @Cond_0e24
 
 @Cond_0e24:
@@ -333,7 +333,7 @@ goto            @Cond_0e68
 
 @Cond_0e68:
 jumpz           @Cond_0eba, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "Master..."
 dialogtxt       "You told Murno"
 dialogtxt       "such nonsense!?"
 goto            @Cond_0eba
@@ -373,9 +373,9 @@ dialogtxt       "powerful Summon Beasts, or that she"
 dialogtxt       "has incredible magical power..."
 code0309        
 code0479        1, 4, 14
-dialogtxt       "If A[NAME 8] really had that"
-dialogtxt       "kind of power, that'd be scary... Maybe"
-dialogtxt       "we shouldn't cross her..."
+dialogtxt       "If she really had that kind of power"
+dialogtxt       "power, that'd be scary... Maybe we"
+dialogtxt       "shouldn't cross her..."
 code0309        
 code0479        1, 0, 12
 dialogtxt       "Oh, maybe she thought"

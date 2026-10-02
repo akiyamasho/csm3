@@ -18,7 +18,7 @@ code031a        0
 code036a        507
 jumpz           @Cond_0126, $b070
 code0366        507, -1
-popuptxt        "[NAME 6]ko escaped!"
+popuptxt        "The cat ran away!"
 code0318        
 goto            @Cond_0126
 

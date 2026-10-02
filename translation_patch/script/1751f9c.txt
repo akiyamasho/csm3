@@ -472,7 +472,7 @@ dialogtxt       "today, maybe as punishment."
 code0309        
 dialogtxt       "With this many of them,"
 dialogtxt       "I really am worn out."
-dialogtxt       "I shouldn't have taken that stupid bet."
+dialogtxt       "I shouldn't have made that stupid bet."
 code0309        
 code047e        0, 0
 code0302        7
@@ -495,9 +495,9 @@ code040b
 
 @Event_140e:
 code0301        8, 7
-dialogtxt       "The Gold Faction is looking for people"
-dialogtxt       "who can resolve urgent Stray incidents."
-dialogtxt       "We await your assistance."
+dialogtxt       "The Gold Faction is looking for"
+dialogtxt       "people who can resolve urgent Stray"
+dialogtxt       "incidents. We await your assistance."
 code0309        
 code0302        7
 code040b        
@@ -513,8 +513,8 @@ code040b
 
 @Event_14e0:
 code0301        8, 7
-dialogtxt       "If you hear the alarm announcing a Stray,"
-dialogtxt       "evacuate into town immediately"
+dialogtxt       "If you hear the alarm announcing a"
+dialogtxt       "Stray, evacuate into town immediately"
 dialogtxt       "and refrain from going outside."
 code0309        
 code0302        7

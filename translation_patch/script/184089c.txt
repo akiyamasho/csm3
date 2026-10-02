@@ -52,9 +52,9 @@ call            @Func_0efc
 code0479        0, 0, 16
 code0479        1, 0, 14
 call            @Func_0e5a
-dialogtxt       "I was, but"
-dialogtxt       "Anise and the others are still out there"
-dialogtxt       "hunting Murno."
+dialogtxt       "I was, but Anise and the others"
+dialogtxt       "are still out there hunting"
+dialogtxt       "Murno."
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_0374, ($b002 == 0)
@@ -70,8 +70,8 @@ code0309
 call            @Func_0e90
 code0479        1, 4, 16
 call            @Func_0ec6
-dialogtxt       "At least sit still today."
-dialogtxt       "After causing everyone so much trouble,"
+dialogtxt       "At least sit still today. After"
+dialogtxt       "causing everyone so much trouble,"
 dialogtxt       "aren't you even sorry?"
 code0309        
 call            @Func_0efc
@@ -91,9 +91,9 @@ code0479        1, 5, 14
 code0479        0, 0, 16
 call            @Func_0e5a
 jumpz           @Cond_0536, ($b002 == 0)
-dialogtxt       "W-Well..."
-dialogtxt       "If our personal blacksmith disappeared,"
-dialogtxt       "the Smiling Inn would be in trouble..."
+dialogtxt       "W-Well... If our personal blacksmith"
+dialogtxt       "disappeared, the Smiling Inn would be"
+dialogtxt       "in trouble..."
 goto            @Label_0582
 
 @Cond_0536:

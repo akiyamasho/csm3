@@ -18,9 +18,9 @@ code0479        1, 0, 12
 code047d        1, 131
 call            @Func_07f6
 call            @Func_075e
-dialogtxt       "With the foreman gone, things are tough,"
-dialogtxt       "so I have to help"
-dialogtxt       "[NAME 8]-mii, too!"
+dialogtxt       "With the foreman gone, things are"
+dialogtxt       "tough, so I have to help Lemmy,"
+dialogtxt       "too!"
 goto            @Label_015e
 
 @Label_015e:

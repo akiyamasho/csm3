@@ -14,7 +14,7 @@ code0479        0, 2, 15
 code047d        0, 0
 call            @Func_0b22
 call            @Func_0a4a
-dialogbig       24, 116, 1, 0, 0, "Ani[NAME 4]!!!"
+dialogbig       24, 116, 1, 0, 0, "Bro!!!"
 code047b        
 code030c        
 code0479        0, 2, 14
@@ -63,21 +63,21 @@ goto            @Cond_0296
 jumpz           @Cond_02f2, ($b003 == 1)
 dialogtxt       "There is no time to remain here"
 dialogtxt       "any longer!"
-dialogtxt       "For Master and Ani[NAME 4]..."
+dialogtxt       "For Master and Bro..."
 goto            @Cond_02f2
 
 @Cond_02f2:
 jumpz           @Cond_0358, ($b003 == 2)
-dialogtxt       "[NAME 4] has no time"
-dialogtxt       "to stop here either! For Master"
-dialogtxt       "and Ani[NAME 4]..."
+dialogtxt       "You have no time"
+dialogtxt       "to stop here! For Master"
+dialogtxt       "and Bro, too..."
 goto            @Cond_0358
 
 @Cond_0358:
 jumpz           @Cond_03c0, ($b003 == 3)
 dialogtxt       "There is no time to remain here"
 dialogtxt       "any longer!"
-dialogtxt       "For Master and Ani[NAME 4]..."
+dialogtxt       "For Master and Bro..."
 goto            @Cond_03c0
 
 @Cond_03c0:

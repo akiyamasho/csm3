@@ -370,12 +370,12 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Sorry, but beyond here, only those with"
+dialogtxt       "Sorry, but only those with"
 dialogtxt       "special permission may pass."
 dialogtxt       "are allowed through."
 code0309        
-dialogtxt       "However, if you have a membership card,"
-dialogtxt       "that's another matter."
+dialogtxt       "However, if you have a membership"
+dialogtxt       "card, that's another matter."
 code0309        
 code047e        0, 0
 code0302        7

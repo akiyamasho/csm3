@@ -85,24 +85,24 @@ goto            @Label_033a
 @Label_033a:
 call            @Func_1582
 jumpz           @Cond_05f2, ($b003 == 0)
-dialogtxt       "The surrounding waves are"
-dialogtxt       "considerably stronger. I Believe We"
-dialogtxt       "Are Nearing The Cause Of The Waves."
+dialogtxt       "The waves are"
+dialogtxt       "much stronger. We"
+dialogtxt       "Are Nearing Their Source."
 code047b        
 code0309        
 call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_048c
 
 @Cond_0432:
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_048c
 
 @Label_048c:
@@ -119,13 +119,13 @@ code043c        0, 4
 code0479        0, 2, 15
 call            @Func_1516
 jumpz           @Cond_056a, ($b002 == 0)
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "we're moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_05b8
 
 @Cond_056a:
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "let's keep moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_05b8
@@ -142,28 +142,28 @@ goto            @Cond_05f2
 @Cond_05f2:
 jumpz           @Cond_0918, ($b003 == 1)
 dialogtxt       "The sinister presence is growing"
-dialogtxt       "stronger. An ordinary Summon Beast"
-dialogtxt       "would have easily gone mad by now."
+dialogtxt       "stronger. An ordinary Beast"
+dialogtxt       "would be mad by now."
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "At this magnitude,"
-dialogtxt       "there can be no mistake"
+dialogtxt       "This strong,"
+dialogtxt       "we must be sure"
 dialogtxt       "that we're nearing its source."
 code0309        
 call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0744, ($b002 == 0)
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_079e
 
 @Cond_0744:
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_079e
 
 @Label_079e:
@@ -180,13 +180,13 @@ code043c        0, 4
 code0479        0, 2, 15
 call            @Func_1516
 jumpz           @Cond_0890, ($b002 == 0)
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "we're moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_08de
 
 @Cond_0890:
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "let's keep moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_08de
@@ -204,7 +204,7 @@ goto            @Cond_0918
 jumpz           @Cond_0c28, ($b003 == 2)
 dialogtxt       "Tch... slowpoke. This bad feeling"
 dialogtxt       "is on another level. An ordinary"
-dialogtxt       "Summon Beast would be going mad."
+dialogtxt       "Beast would go mad."
 code047b        
 code0309        
 code0479        1, 3, 14
@@ -215,15 +215,15 @@ call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0a50, ($b002 == 0)
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_0aaa
 
 @Cond_0a50:
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_0aaa
 
 @Label_0aaa:
@@ -240,13 +240,13 @@ code043c        0, 4
 code0479        0, 2, 15
 call            @Func_1516
 jumpz           @Cond_0b9e, ($b002 == 0)
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "we're moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_0bec
 
 @Cond_0b9e:
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "let's keep moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_0bec
@@ -267,22 +267,22 @@ dialogtxt       "stronger. I feel like I might go"
 dialogtxt       "strange if I let my guard down."
 code0309        
 code0479        1, 2, 14
-dialogtxt       "For it to be this powerful,"
-dialogtxt       "we must definitely be nearing something."
+dialogtxt       "For it to be this powerful, we must"
+dialogtxt       "definitely be nearing something."
 code0309        
 call            @Func_15b8
 code0479        0, 0, 14
 call            @Func_1516
 jumpz           @Cond_0d5c, ($b002 == 0)
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_0db6
 
 @Cond_0d5c:
-dialogtxt       "Come to think of it, this place..."
-dialogtxt       "It resembles the maze in Louise Village"
-dialogtxt       "where Genryuki and Magdrado were..."
+dialogtxt       "This place... It"
+dialogtxt       "resembles the maze in Louise Village"
+dialogtxt       "where Genryuki and Magdrado..."
 goto            @Label_0db6
 
 @Label_0db6:
@@ -298,13 +298,13 @@ code043c        0, 4
 code0479        0, 2, 15
 call            @Func_1516
 jumpz           @Cond_0e9e, ($b002 == 0)
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "we're moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_0eec
 
 @Cond_0e9e:
-dialogtxt       "I don't really understand, but"
+dialogtxt       "I don't understand, but"
 dialogtxt       "let's keep moving forward!"
 dialogtxt       "We'll get Murno back!"
 goto            @Label_0eec

@@ -9,9 +9,9 @@ code0479        1, 1, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "As expected of δ."
-dialogtxt       "I could make you the exclusive blacksmith"
-dialogtxt       "of the Smiling Inn right now."
+dialogtxt       "As expected, δ. I could make"
+dialogtxt       "you the sole smith of"
+dialogtxt       "Smiling Inn now."
 goto            @Label_0198
 
 @Cond_00de:
@@ -23,9 +23,9 @@ code0479        1, 2, 12
 code047d        1, 109
 call            @Func_0aea
 call            @Func_0a52
-dialogtxt       "If you can't even beat me,"
-dialogtxt       " path to coming the exclusive blacksmith"
-dialogtxt       "of the Smiling Inn is still a long way off."
+dialogtxt       "If you can't even beat me, path to"
+dialogtxt       "coming the sole smith of"
+dialogtxt       "Smiling Inn is still a long way off."
 goto            @Label_0198
 
 @Label_0198:
@@ -97,7 +97,7 @@ goto            @Label_0460
 call            @Func_0a3a
 code0479        1, 0, 12
 call            @Func_0a70
-dialogtxt       "Oh, I see..."
+dialogtxt       "Oh..."
 dialogtxt       "Then keep up your training!"
 code0309        
 call            @Func_0b40

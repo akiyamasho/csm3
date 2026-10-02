@@ -352,9 +352,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "They'll hunt Akaba[NAME 6],"
-dialogtxt       "but I hear them saying it..."
-dialogtxt       "but fighting a beast that savage"
+dialogtxt       "Some folks want to hunt Akabane,"
+dialogtxt       "or so I hear..."
+dialogtxt       "but fighting such a savage beast"
 code0309        
 dialogtxt       "is just asking for trouble."
 code0309        

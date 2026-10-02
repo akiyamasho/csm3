@@ -31,7 +31,7 @@ jumpz           @Cond_0212, ($f0152 == 1)
 code0304        1
 dialogtxt       "　　I can't see Murno's face　　"
 dialogtxt       "through the wall, but"
-dialogtxt       "I hoped she was smiling, even a little."
+dialogtxt       "I hoped she smiled, even a little."
 code030a        6, 1
 code0304        0
 goto            @Cond_0212

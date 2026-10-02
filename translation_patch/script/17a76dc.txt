@@ -85,9 +85,9 @@ goto            @start
 
 @Event_0320:
 code0301        8, 7
-dialogtxt       "To customers using our shop one lottery"
-dialogtxt       "drawing is available per lottery ticket."
-dialogtxt       "can be used."
+dialogtxt       "For shop customers, one lottery"
+dialogtxt       "drawing is available per lottery"
+dialogtxt       "ticket. can be used."
 code0309        
 code0302        7
 code040b        
@@ -301,7 +301,7 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "It feels like the whole town has become"
+dialogtxt       "It feels like the whole town became"
 dialogtxt       "filled with an unpleasant atmosphere."
 code0309        
 code047e        0, 0

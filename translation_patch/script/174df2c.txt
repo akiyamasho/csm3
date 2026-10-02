@@ -307,7 +307,7 @@ ret
 code0301        8, 7
 code047d        0, 121
 code047e        0, 1
-dialogtxt       "Is it true smiths make more than blades,"
+dialogtxt       "Smiths make more than blades, right?"
 dialogtxt       "like bows, arrows, and drills,"
 dialogtxt       "with a hammer?"
 code0309        

@@ -59,8 +59,8 @@ goto            @Cond_028c
 @Cond_028c:
 jumpz           @Cond_02f4, ($b003 == 1)
 dialogtxt       "Something happened nearby. Could"
-dialogtxt       "another violent stray Summon Beast have"
-dialogtxt       "appeared...?"
+dialogtxt       "another violent stray Summon Beast"
+dialogtxt       "have appeared...?"
 goto            @Cond_02f4
 
 @Cond_02f4:
@@ -165,8 +165,8 @@ goto            @Label_0676
 @Label_0676:
 call            @Func_0e82
 jumpz           @Cond_06e4, ($b003 == 0)
-dialogtxt       "The Enemy, [NAME 6]... I"
-dialogtxt       "Believe It Is Highly Likely [NAME 5]"
+dialogtxt       "The enemy... I believe it is highly"
+dialogtxt       "likely."
 dialogtxt       "Let Us Return To Lady Murno!"
 goto            @Cond_06e4
 

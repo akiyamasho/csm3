@@ -630,7 +630,7 @@ code0309
 call            @Func_2106
 code0479        1, 2, 15
 call            @Func_213c
-dialogtxt       "‘Surely’...?"
+dialogtxt       "\"Surely\"...?"
 dialogtxt       "Don't rely on intuition"
 dialogtxt       "at a time like this!"
 code0309        

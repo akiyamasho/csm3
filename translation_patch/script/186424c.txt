@@ -23,7 +23,7 @@ call            @Func_1106
 jumpz           @Cond_0132, ($b002 == 0)
 dialogtxt       "Oh no..."
 dialogtxt       "Sorry, Master..."
-dialogtxt       "I broke it again, [NAME 8]..."
+dialogtxt       "I broke it again..."
 goto            @Label_0172
 
 @Cond_0132:
@@ -86,7 +86,7 @@ call            @Func_11ec
 call            @Func_10e8
 jumpz           @Cond_03e4, ($b002 == 0)
 dialogtxt       "I did it..."
-dialogtxt       "[NAME 8]..."
+dialogtxt       "I..."
 dialogtxt       "I won...!"
 goto            @Label_0412
 
@@ -142,9 +142,9 @@ dialogtxt       "Those kids must feel"
 dialogtxt       "the same way you do."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "Besides, you've got me"
-dialogtxt       "watching your back."
-dialogtxt       "Chin up, [NAME 4]!"
+dialogtxt       "Besides,"
+dialogtxt       "I have your back."
+dialogtxt       "So chin up!"
 code0309        
 call            @Func_11a8
 code0479        0, 5, 16
@@ -177,9 +177,9 @@ code0334
 code0331        40, 256
 code0479        1, 2, 13
 call            @Func_1172
-dialogtxt       "Our goal is to use the finest craft"
-dialogtxt       "and rock [NAME 4] roll we create..."
-dialogtxt       "to make all Lyndbaum [NAME 8] ..."
+dialogtxt       "Our goal is to amaze all Lyndbaum"
+dialogtxt       "with the finest craft and rock"
+dialogtxt       "and roll we make together..."
 code0309        
 code0479        1, 2, 15
 dialogtxt       "Until the day we grasp the world,"

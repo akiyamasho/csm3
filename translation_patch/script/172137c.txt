@@ -97,36 +97,36 @@ code031d        7, 1
 jumpz           @Cond_068a, ($h311 == 0)
 strlen          280, "γ"
 jumpz           @Cond_03d2, ($h216 == 1)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Cond_03d2:
 jumpz           @Cond_040c, ($h216 == 2)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Cond_040c:
 jumpz           @Cond_0442, ($h216 == 3)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Cond_0442:
 jumpz           @Cond_0478, ($h216 == 4)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Cond_0478:
 jumpz           @Cond_04aa, ($h216 == 5)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Cond_04aa:
 jumpz           @Label_04dc, ($h216 == 6)
-dialogtxt       "  Honestly, I'm surprised to hear  "
+dialogtxt       "Honestly, sharing a room with [NAME 1]..."
 goto            @Label_04dc
 
 @Label_04dc:
-dialogtxt       "　   I'll be living with γ.        "
+dialogtxt       "I'm surprised this happened, but..."
 dialogtxt       "I'm happy to have a partner, but..."
 code030a        6, 1
 dialogtxt       "        I wonder why Murno         "

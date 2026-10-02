@@ -5,58 +5,58 @@ code031c        8, 1
 code0321        8, 60
 code040d        60
 code0304        1
-dialogtxt       "　　　I was just talking with the      "
-dialogtxt       "　　　Gold Faction's important people,"
-dialogtxt       "　　　about what happened in Mishus.    "
+dialogtxt       "I was just talking with the Gold"
+dialogtxt       "Faction's important people, about what"
+dialogtxt       "happened in Mishus."
 code030a        6, 1
 jumpz           @Cond_030e, ($b002 == 0)
-dialogtxt       "　　The Ringval family of Belvon"
-dialogtxt       "　　doesn't seem to want to make this"
-dialogtxt       "　　incident any bigger than it is.    "
+dialogtxt       "The Ringval family of Belvon doesn't"
+dialogtxt       "seem to want to make this incident any"
+dialogtxt       "bigger than it is."
 code030a        6, 1
-dialogtxt       "　　So Murno and the others were left"
-dialogtxt       "　　　　in a rather murky state,       "
-dialogtxt       "　　　　　just abandoned.               "
+dialogtxt       "So Murno and the others were left"
+dialogtxt       "in a rather murky state, just"
+dialogtxt       "abandoned."
 code030a        6, 1
-dialogtxt       "　　　　　The Gold Faction people      "
-dialogtxt       "　　　seem to have investigated Mishus"
-dialogtxt       "　　　　over and over, but...           "
+dialogtxt       "The Gold Faction people seem to have"
+dialogtxt       "investigated Mishus over and over,"
+dialogtxt       "but..."
 code030a        6, 1
 dialogtxt       "with the Magic Stone and sword gone,"
-dialogtxt       "　and the ruins no longer working,       "
-dialogtxt       "they don't seem to care anymore."
+dialogtxt       "and the ruins no longer working, they"
+dialogtxt       "don't seem to care anymore."
 code030a        6, 1
 goto            @Label_052a
 
 @Cond_030e:
-dialogtxt       "　　The Ringval family of Belvon"
-dialogtxt       "　　doesn't seem to want to make this"
-dialogtxt       "　　incident any bigger than it is.    "
+dialogtxt       "The Ringval family of Belvon doesn't"
+dialogtxt       "seem to want to make this incident any"
+dialogtxt       "bigger than it is."
 code030a        6, 1
-dialogtxt       "　So Murno and the others were left     "
-dialogtxt       "　　　in a rather murky state,          "
-dialogtxt       "　　just left there, or so it seemed.    "
+dialogtxt       "So Murno and the others were left in"
+dialogtxt       "a rather murky state, just left there,"
+dialogtxt       "or so it seemed."
 code030a        6, 1
-dialogtxt       "　　　　The Gold Faction people         "
-dialogtxt       "　　seem to have investigated Mishus    "
-dialogtxt       "　　　over and over, but...             "
+dialogtxt       "The Gold Faction people seem to have"
+dialogtxt       "investigated Mishus over and over,"
+dialogtxt       "but..."
 code030a        6, 1
 dialogtxt       "with the Magic Stone and sword gone,"
-dialogtxt       "　and the ruins no longer working,       "
-dialogtxt       "they don't seem to care anymore."
+dialogtxt       "and the ruins no longer working, they"
+dialogtxt       "don't seem to care anymore."
 code030a        6, 1
 goto            @Label_052a
 
 @Label_052a:
 code031d        8, 0
-dialogtxt       "　　　　Well, Murno and the others can  "
-dialogtxt       "　　　　live in peace now,             "
-dialogtxt       "　　　　　　so that's all right.       "
+dialogtxt       "Well, Murno and the others can"
+dialogtxt       "live in peace now, so that's all"
+dialogtxt       "right."
 code030a        6, 1
 code031f        8
-dialogtxt       "　　　　　　And so, it seemed our     "
-dialogtxt       "　　adventure over Govan's Magic Stone"
-dialogtxt       "　　had finally come to an end...      "
+dialogtxt       "And so, it seemed our adventure over"
+dialogtxt       "Govan's Magic Stone had finally come"
+dialogtxt       "to an end..."
 code030a        6, 1
 code0304        0
 done            

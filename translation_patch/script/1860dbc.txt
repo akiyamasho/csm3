@@ -47,9 +47,9 @@ code043c        1, 2
 code0479        1, 0, 12
 call            @Func_1538
 call            @Func_14d4
-dialogtxt       "Even though [NAME 5] told [NAME 8]"
-dialogtxt       "only the impact of the attack"
-dialogtxt       "was getting through to [NAME 4]..."
+dialogtxt       "Even so, all I felt was"
+dialogtxt       "the attack's impact"
+dialogtxt       "coming through..."
 code0309        
 call            @Func_150a
 code0479        0, 5, 12
@@ -65,17 +65,17 @@ call            @Func_150a
 code0479        0, 2, 14
 call            @Func_1468
 jumpz           @Cond_0432, ($b002 == 0)
-dialogtxt       "The weapon [NAME 8] used"
-dialogtxt       "was made because [NAME 8]"
-dialogtxt       "trained with you. That's why."
+dialogtxt       "The weapon I used"
+dialogtxt       "came from training"
+dialogtxt       "with you. That's why."
 code0309        
 code0479        0, 2, 16
-dialogtxt       "In other words, this isn't [NAME 8]'s weapon."
-dialogtxt       "It's our weapon..."
-dialogtxt       "So, [NAME 8] is, how should I put it..."
+dialogtxt       "This isn't just my weapon."
+dialogtxt       "It's our weapon... So,"
+dialogtxt       "I am, how should I put it..."
 code0309        
 code0479        0, 2, 13
-dialogtxt       "[NAME 8] was fighting"
+dialogtxt       "I was fighting"
 dialogtxt       "together with you."
 goto            @Label_054c
 
@@ -111,8 +111,8 @@ dialogtxt       "was the weapon's power, or rather..."
 code0309        
 code0479        0, 5, 12
 dialogtxt       "That's right. What got through"
-dialogtxt       "to you was the weight of"
-dialogtxt       "[NAME 8]'s and your souls!"
+dialogtxt       "was the weight of"
+dialogtxt       "our souls!"
 goto            @Label_06e2
 
 @Cond_0644:
@@ -153,8 +153,8 @@ code0309
 call            @Func_149e
 code0479        1, 0, 12
 call            @Func_14d4
-dialogtxt       "Yes, [NAME 5],"
-dialogtxt       "[NAME 8]... Indeed..."
+dialogtxt       "Yes, indeed..."
+dialogtxt       "Indeed..."
 code0309        
 call            @Func_150a
 code0479        0, 2, 13
@@ -207,7 +207,7 @@ dialogtxt       "during that battle..."
 code0309        
 code0479        1, 1, 12
 dialogtxt       "I calculate that"
-dialogtxt       "[NAME 8] enjoyed it."
+dialogtxt       "you enjoyed it."
 code0309        
 call            @Func_150a
 code0479        0, 1, 12
@@ -217,9 +217,9 @@ dialogtxt       "That's right! It was fun!"
 dialogtxt       "You're pretty strong, too."
 code0309        
 code0479        0, 0, 13
-dialogtxt       "You were careful to make sure"
-dialogtxt       "[NAME 8] didn't get hurt,"
-dialogtxt       "weren't you? That was kind of you."
+dialogtxt       "You made sure I would not"
+dialogtxt       "get hurt, didn't you?"
+dialogtxt       "That was kind of you."
 goto            @Label_0c1a
 
 @Cond_0b72:

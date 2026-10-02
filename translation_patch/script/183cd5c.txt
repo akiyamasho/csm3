@@ -40,7 +40,7 @@ code0479        0, 4, 14
 code047d        0, 0
 call            @Func_140c
 call            @Func_1334
-dialogtxt       "[NAME 8]-mii..."
+dialogtxt       "Lemmy..."
 code047b        
 code0309        
 call            @Func_1462
@@ -125,7 +125,7 @@ code043c        2, 1
 code0479        1, 0, 16
 dialogtxt       "Even if he were working with them,"
 dialogtxt       "he wouldn't just say,"
-dialogtxt       "‘Yes, that's right.’"
+dialogtxt       "\"Yes, that's right.\""
 code0309        
 call            @Func_13f4
 code043c        3, 4
@@ -171,7 +171,7 @@ code047d        0, 2
 call            @Func_140c
 call            @Func_1352
 jumpz           @Cond_07f0, ($b003 == 0)
-dialogtxt       "IT'S [NAME 5]!"
+dialogtxt       "That's true, but..."
 goto            @Cond_07f0
 
 @Cond_07f0:
@@ -242,8 +242,8 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_1422
 call            @Func_13be
-dialogtxt       "That's right. For now, leave it to"
-dialogtxt       "Leave it to [NAME 8]."
+dialogtxt       "That's right. Leave this to"
+dialogtxt       "us for now."
 code047b        
 code0309        
 call            @Func_1462

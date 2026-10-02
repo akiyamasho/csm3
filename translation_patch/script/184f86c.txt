@@ -75,7 +75,7 @@ call            @Func_0dd8
 code0479        0, 4, 16
 call            @Func_0d36
 dialogtxt       "Um... that person with the creepy way"
-dialogtxt       "of speaking hugged me really tightly..."
+dialogtxt       "of speaking hugged me very tightly..."
 dialogtxt       "Ah, remembering it brings me down..."
 code0309        
 call            @Func_0d6c
@@ -86,8 +86,8 @@ dialogtxt       "Oh, I get it!"
 dialogtxt       "That man... no, woman..."
 code0309        
 code0479        1, 2, 15
-dialogtxt       "No, man is fine! He, my δ..."
-dialogtxt       "Don't turn [NAME 4]"
+dialogtxt       "No, I mean, he is a man!"
+dialogtxt       "Don't turn δ"
 dialogtxt       "into damaged goods..."
 code0309        
 call            @Func_0dd8
@@ -111,8 +111,8 @@ dialogtxt       "But don't worry."
 dialogtxt       "I wouldn't let something like that..."
 code0309        
 code0479        1, 0, 13
-dialogtxt       "About δ I won't let [NAME 4]"
-dialogtxt       "become one of them..."
+dialogtxt       "About δ,"
+dialogtxt       "I could never hate him..."
 code0309        
 call            @Func_0dd8
 code0479        0, 4, 12
@@ -127,7 +127,7 @@ dialogtxt       "You don't have to hold it in..."
 dialogtxt       "Go on, have a cry."
 code0309        
 code0479        1, 10, 12
-dialogtxt       "With my [NAME 6]..."
+dialogtxt       "Against my chest..."
 code0309        
 call            @Func_0dd8
 code0479        0, 7, 15

@@ -796,7 +796,7 @@ code033b        400, 0, 0, 0, 1, 0
 code047d        0, 141
 code0301        8, 7
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "[NAME 4]-shaaaah......"
+dialogbig       24, 116, 1, 0, 0, "Kishaaaah......"
 code030c        
 code047e        0, 0
 code0302        7

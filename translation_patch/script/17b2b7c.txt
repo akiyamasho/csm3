@@ -263,10 +263,10 @@ ret
 code0301        8, 7
 dialogtxt       "On sunny days, I can't just sit still."
 dialogtxt       "Outside town is a little"
-dialogtxt       "[NAME 4] ken, but"
+dialogtxt       "It's a little dangerous, but"
 code0309        
 dialogtxt       "I don't need a reason."
-dialogtxt       "Run across the fields, cross the rivers,"
+dialogtxt       "Run through fields and cross rivers,"
 dialogtxt       "and go wherever I want."
 code0309        
 dialogtxt       "There is no final destination."

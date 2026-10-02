@@ -75,7 +75,7 @@ goto            @Cond_02b6
 
 @Cond_02b6:
 jumpz           @Cond_02f0, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "You..."
 dialogtxt       "You're really getting on my nerves!"
 goto            @Cond_02f0
 
@@ -115,7 +115,7 @@ code0479        1, 5, 16
 code047d        1, 0
 call            @Func_46b6
 call            @Func_4652
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 code047b        
 code0309        
 call            @Func_4722
@@ -196,16 +196,16 @@ code0443        4, 32, 1
 code0479        0, 3, 14
 call            @Func_46a0
 call            @Func_45e6
-dialogtxt       "Please stop this!"
-dialogtxt       "If she learns her own father is doing..."
-dialogtxt       "that girl will...!"
+dialogtxt       "Please stop this! If she learns her"
+dialogtxt       "own father is doing... that girl"
+dialogtxt       "will...!"
 code047b        
 code0309        
 call            @Func_461c
 code0479        1, 5, 16
 call            @Func_4652
 dialogtxt       "My daughter?"
-dialogtxt       "What kind, [NAME 8]...?"
+dialogtxt       "What kind of joke is this, Lemmy...?"
 code0309        
 call            @Func_4688
 code0479        0, 2, 15
@@ -217,9 +217,9 @@ code0309
 call            @Func_461c
 code0479        1, 3, 17
 call            @Func_4652
-dialogtxt       "Shut up, [NAME 8]!"
-dialogtxt       "Even if it's true,"
-dialogtxt       "[NAME 8] can no!"
+dialogtxt       "Shut up, Lemmy!"
+dialogtxt       "Even if it is true,"
+dialogtxt       "I will not turn back!"
 code0309        
 code0479        1, 3, 14
 dialogtxt       "To make this power my own,"
@@ -631,7 +631,7 @@ call            @Func_46cc
 call            @Func_4634
 dialogtxt       "The ruins have activated..."
 dialogtxt       "With this power, every Summon Beast"
-dialogtxt       "will do [NAME 8]'s bidding!"
+dialogtxt       "will obey my will!"
 code047b        
 code0309        
 call            @Func_4688
@@ -797,14 +797,14 @@ call            @Func_46a0
 call            @Func_45c8
 jumpz           @Cond_1fea, ($b002 == 0)
 dialogtxt       "No..."
-dialogtxt       "γ, you're [NAME 5]..."
+dialogtxt       "γ, that cannot be true..."
 dialogtxt       "You..."
 goto            @Label_201a
 
 @Cond_1fea:
 dialogtxt       "No..."
-dialogtxt       "γ, you're [NAME 5]..."
-dialogtxt       "you..."
+dialogtxt       "γ, that cannot be true..."
+dialogtxt       "You..."
 goto            @Label_201a
 
 @Label_201a:
@@ -1003,9 +1003,9 @@ dialogtxt       "Good..."
 code047b        
 code0309        
 code0479        1, 3, 13
-dialogtxt       "Contracts and strays don't matter..."
+dialogtxt       "Contracts and strays do not matter..."
 dialogtxt       "Now any Summon Beast"
-dialogtxt       "will be [NAME 8]'..."
+dialogtxt       "will obey my will..."
 code0309        
 call            @Func_4688
 call            @Func_46a0
@@ -1307,8 +1307,8 @@ code0479        0, 5, 14
 code047d        0, 111
 call            @Func_46a0
 call            @Func_45e6
-dialogtxt       "[NAME 4]..."
-dialogtxt       "You're still alive..."
+dialogtxt       "You..."
+dialogtxt       "You are still alive..."
 code047b        
 code0309        
 call            @Func_461c
@@ -1364,8 +1364,8 @@ code0479        0, 2, 14
 code047d        0, 110
 call            @Func_46a0
 call            @Func_45e6
-dialogtxt       "Why would you..."
-dialogtxt       "when you know it's a power you can't..."
+dialogtxt       "Why would you... when you"
+dialogtxt       "know it's a power you can't..."
 dialogtxt       "why...?"
 code047b        
 code0309        
@@ -1382,9 +1382,9 @@ code0479        0, 2, 14
 code047d        0, 0
 call            @Func_46a0
 code0479        1, 3, 12
-dialogtxt       "By now..."
-dialogtxt       "so things must be getting interesting."
-dialogtxt       "Come to think of it, your Master, too..."
+dialogtxt       "By now... so things must be getting"
+dialogtxt       "interesting. Come to think of it, your"
+dialogtxt       "Master, too..."
 code047b        
 code0309        
 call            @Func_4688
@@ -1396,9 +1396,9 @@ dialogtxt       "Damn it!"
 dialogtxt       "Why!?"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "If you do that, you'll be in trouble too,"
-dialogtxt       "right?"
-dialogtxt       "What about Magdorado?"
+dialogtxt       "If you do that, you'll be in"
+dialogtxt       "trouble too, right? What about"
+dialogtxt       "Magdorado?"
 goto            @Label_3b10
 
 @Cond_3a78:
@@ -1407,8 +1407,8 @@ dialogtxt       "Why"
 dialogtxt       "would you do this!?"
 code0309        
 code0479        0, 2, 15
-dialogtxt       "If you do that, you'll be in trouble too,"
-dialogtxt       "you'll be in trouble too, right?"
+dialogtxt       "If you do that, you'll be in trouble"
+dialogtxt       "too, you'll be in trouble too, right?"
 dialogtxt       "What about Magdorado?"
 goto            @Label_3b10
 
@@ -1420,9 +1420,9 @@ code0309
 call            @Func_461c
 code0479        1, 2, 14
 call            @Func_4652
-dialogtxt       "If Genryuki can no longer be controlled,"
-dialogtxt       "he won't have to remain"
-dialogtxt       "in a place like that forever."
+dialogtxt       "If Genryuki can no longer be"
+dialogtxt       "controlled, he won't have to remain in"
+dialogtxt       "a place like that forever."
 code0309        
 call            @Func_4688
 code0479        0, 5, 14
@@ -1448,8 +1448,8 @@ code047d        0, 111
 call            @Func_46a0
 call            @Func_45e6
 dialogtxt       "You..."
-dialogtxt       "All this, [NAME 8]"
-dialogtxt       "..."
+dialogtxt       "All this time,"
+dialogtxt       "you were deceiving me..."
 code047b        
 code0309        
 call            @Func_461c

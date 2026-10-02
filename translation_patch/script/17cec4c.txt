@@ -12,14 +12,14 @@ code0309
 call            @Func_08f2
 call            @Func_0928
 dialogtxt       "Now, combine it with materials"
-dialogtxt       "and try making a new weapon"
-dialogtxt       "together with γ."
+dialogtxt       "With [NAME 1], try making a"
+dialogtxt       "new weapon together."
 code0309        
 call            @Func_095e
 code043c        0, 4
 code0479        0, 0, 14
 call            @Func_08bc
-dialogtxt       "Crafting with γ..."
+dialogtxt       "Crafting a weapon with [NAME 1]..."
 code0309        
 call            @Func_09e2
 call            @Func_08f2

@@ -182,9 +182,9 @@ code0309
 call            @Func_1a5e
 code0479        1, 2, 14
 call            @Func_1a94
-dialogtxt       "I hated being that way, [NAME 4]"
-dialogtxt       ", so ever since Lady Murno"
-dialogtxt       "summoned me, I've tried to be brave."
+dialogtxt       "I hated that about myself."
+dialogtxt       "Since Lady Murno summoned me,"
+dialogtxt       "I have tried to be brave."
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 16
@@ -251,8 +251,8 @@ code0479        0, 0, 13
 call            @Func_1a28
 jumpz           @Cond_0d88, ($b002 == 0)
 dialogtxt       "What are you saying?"
-dialogtxt       "[NAME 8] is always the one"
-dialogtxt       "being helped by γ."
+dialogtxt       "[NAME 1] is always helping me!"
+dialogtxt       "That is what I mean."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "Even the weapon I used in that match"
@@ -260,8 +260,8 @@ dialogtxt       "was made because I trained"
 dialogtxt       "with γ..."
 code0309        
 code0479        0, 1, 13
-dialogtxt       "So the reason [NAME 8] won"
-dialogtxt       "is because γ was there,"
+dialogtxt       "So the reason I won"
+dialogtxt       "is because [NAME 1] was there,"
 dialogtxt       "right?"
 goto            @Label_0ea6
 
@@ -292,14 +292,14 @@ call            @Func_1aca
 code0479        0, 2, 12
 call            @Func_1a28
 jumpz           @Cond_0fbe, ($b002 == 0)
-dialogtxt       "So, γ,"
-dialogtxt       "don't push yourself too hard."
-dialogtxt       "[NAME 8] wants to help you, too."
+dialogtxt       "So, [NAME 1],"
+dialogtxt       "do not push yourself too hard."
+dialogtxt       "I want to help you, too."
 code0309        
 code0479        0, 0, 16
 code0479        1, 6, 16
-dialogtxt       "If you feel scared from now on,"
-dialogtxt       "be sure to tell [NAME 8]."
+dialogtxt       "If you get scared from now on,"
+dialogtxt       "be sure to tell me."
 dialogtxt       "Then..."
 goto            @Label_1080
 

@@ -432,8 +432,8 @@ code040b
 code0301        8, 7
 code047d        0, 149
 code047e        0, 1
-dialogtxt       "Mother has been incredible lately. She's"
-dialogtxt       "focused entirely on finding blacksmiths,"
+dialogtxt       "Mother's been amazing lately. She's"
+dialogtxt       "focused only on finding blacksmiths,"
 dialogtxt       "and it's becoming a real problem."
 code0309        
 dialogtxt       "She never makes any money at all,"
@@ -441,8 +441,8 @@ dialogtxt       "so unless I earn it,"
 dialogtxt       "we won't even have a place to stay."
 code0309        
 jumpz           @Cond_14c8, ($f1250 == 0)
-dialogtxt       "By the way, you look like a blacksmith."
-dialogtxt       "Hear about enhancement?"
+dialogtxt       "By the way, you look like a"
+dialogtxt       "blacksmith. Hear about enhancement?"
 code0309        
 code047e        0, 0
 choicetxt       @Choice_126c, "Let's hear it"
@@ -451,9 +451,9 @@ choicewait
 
 @Choice_126c:
 code047e        0, 1
-dialogtxt       "Let's see... If you use a Legendary Blue"
-dialogtxt       "Bamboo for enhancement, the special"
-dialogtxt       "effect"
+dialogtxt       "Let's see... If you use a Legendary"
+dialogtxt       "Blue Bamboo for enhancement, the"
+dialogtxt       "special effect"
 code0309        
 dialogtxt       "And this time, believe it or not,"
 dialogtxt       "we're selling a Legendary Blue Bamboo"

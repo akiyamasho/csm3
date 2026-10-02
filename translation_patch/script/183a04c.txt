@@ -89,22 +89,22 @@ goto            @Label_03f0
 @Label_03f0:
 call            @Func_18d2
 jumpz           @Cond_057a, ($b003 == 0)
-dialogtxt       "Then, from here, [NAME 8],"
-dialogtxt       "where shall we go?"
+dialogtxt       "So, where shall we head"
+dialogtxt       "from here?"
 code0309        
 call            @Func_1908
 code0479        0, 0, 16
 call            @Func_1866
 jumpz           @Cond_04aa, ($b002 == 0)
-dialogtxt       "Where else...?"
-dialogtxt       "Myuno’s village, surely?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "Where else...? Murno’s village,"
+dialogtxt       "surely? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_04f6
 
 @Cond_04aa:
-dialogtxt       "Where else...?"
-dialogtxt       "Myuno’s village, right?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "Where else...? Murno’s village,"
+dialogtxt       "right? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_04f6
 
 @Label_04f6:
@@ -112,9 +112,9 @@ code0309
 call            @Func_189c
 code0479        1, 0, 12
 call            @Func_18d2
-dialogtxt       "There are also Anis’s people consider."
-dialogtxt       "I think it would be best avoid approaching"
-dialogtxt       "Approach carefully, [NAME 8]."
+dialogtxt       "We have Anise's group to consider."
+dialogtxt       "We should avoid approaching the"
+dialogtxt       "village carelessly, I think."
 goto            @Cond_057a
 
 @Cond_057a:
@@ -126,15 +126,15 @@ call            @Func_1908
 code0479        0, 0, 16
 call            @Func_1866
 jumpz           @Cond_062c, ($b002 == 0)
-dialogtxt       "Where else...?"
-dialogtxt       "Myuno’s village, surely?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "Where else...? Murno’s village,"
+dialogtxt       "surely? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_0678
 
 @Cond_062c:
-dialogtxt       "Where else...?"
-dialogtxt       "Myuno’s village, right?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "Where else...? Murno’s village,"
+dialogtxt       "right? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_0678
 
 @Label_0678:
@@ -142,7 +142,7 @@ code0309
 call            @Func_189c
 code0479        1, 2, 14
 call            @Func_18d2
-dialogtxt       "Before that, we must deal with Anis and"
+dialogtxt       "First, we must deal with Anise and"
 dialogtxt       "the others targeting the magic stone."
 dialogtxt       "We must do something about them."
 goto            @Cond_06dc
@@ -156,15 +156,15 @@ call            @Func_1908
 code0479        0, 0, 16
 call            @Func_1866
 jumpz           @Cond_0792, ($b002 == 0)
-dialogtxt       "What do you mean...?"
-dialogtxt       "Myuno’s village, surely?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "What do you mean...? Murno’s village,"
+dialogtxt       "surely? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_07e2
 
 @Cond_0792:
-dialogtxt       "What do you mean...?"
-dialogtxt       "Myuno’s village, right?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "What do you mean...? Murno’s village,"
+dialogtxt       "right? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_07e2
 
 @Label_07e2:
@@ -185,15 +185,15 @@ call            @Func_1908
 code0479        0, 0, 16
 call            @Func_1866
 jumpz           @Cond_08ee, ($b002 == 0)
-dialogtxt       "What do you mean...?"
-dialogtxt       "Myuno’s village, surely?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "What do you mean...? Murno’s village,"
+dialogtxt       "surely? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_093e
 
 @Cond_08ee:
-dialogtxt       "What do you mean...?"
-dialogtxt       "Myuno’s village, right?"
-dialogtxt       "We are returning the magic stone, right?"
+dialogtxt       "What do you mean...? Murno’s village,"
+dialogtxt       "right? We are returning the magic"
+dialogtxt       "stone, right?"
 goto            @Label_093e
 
 @Label_093e:
@@ -228,8 +228,8 @@ code0309
 call            @Func_1908
 code0479        0, 2, 14
 call            @Func_1866
-dialogtxt       "True... but Anis may be in town,"
-dialogtxt       "and the master will certainly be angry..."
+dialogtxt       "True... but Anis may be in town, and"
+dialogtxt       "the master will certainly be angry..."
 dialogtxt       "the master will certainly be angry..."
 code0309        
 code0479        0, 1, 16
@@ -270,7 +270,7 @@ code0479        0, 5, 16
 call            @Func_1866
 dialogtxt       "What!?"
 jumpz           @Cond_0cc8, ($b002 == 0)
-dialogtxt       "[NAME 8], was that strange?"
+dialogtxt       "Did I say something strange?"
 goto            @Label_0cf0
 
 @Cond_0cc8:
@@ -312,8 +312,8 @@ code047d        1, 2
 call            @Func_1936
 call            @Func_18d2
 jumpz           @Cond_0ed0, ($b003 == 0)
-dialogtxt       "Indeed. That is an answer worthy"
-dialogtxt       "That is a very characteristic conclusion."
+dialogtxt       "Indeed. That is an answer worthy That"
+dialogtxt       "is a very characteristic conclusion."
 code047b        
 code0309        
 call            @Func_1908
@@ -365,7 +365,7 @@ goto            @Cond_0fbc
 @Cond_0fbc:
 jumpz           @Cond_109a, ($b003 == 2)
 dialogtxt       "Indeed."
-dialogtxt       "Lord [NAME 4]'s answer."
+dialogtxt       "That sounds like you."
 code047b        
 code0309        
 call            @Func_1908

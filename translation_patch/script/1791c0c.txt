@@ -250,7 +250,7 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "At a busy time like this, that Zack punk"
+dialogtxt       "At a time like this, that brat Zack"
 dialogtxt       "went back to his parents' place."
 code0309        
 dialogtxt       "They say his parents were worried"

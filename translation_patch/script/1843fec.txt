@@ -46,9 +46,9 @@ call            @Func_13b2
 code0479        0, 0, 12
 call            @Func_1310
 jumpz           @Cond_02e8, ($b002 == 0)
-dialogtxt       "[NAME 8] and I"
-dialogtxt       "are going out for a little while,"
-dialogtxt       "so please look after Murno!"
+dialogtxt       "We will be gone for a while,"
+dialogtxt       "so please look after"
+dialogtxt       "Murno for us!"
 goto            @Label_0334
 
 @Cond_02e8:
@@ -102,12 +102,12 @@ code047d        0, 0
 call            @Func_13ca
 call            @Func_12f2
 jumpz           @Cond_04dc, ($b002 == 0)
-dialogtxt       "...It feels like they somehow understand"
+dialogtxt       "...It feels like they understand"
 dialogtxt       "each other. I'm a little jealous..."
 goto            @Label_0512
 
 @Cond_04dc:
-dialogtxt       "...It feels like they somehow understand"
+dialogtxt       "...It feels like they understand"
 dialogtxt       "each other. I'm a little jealous..."
 goto            @Label_0512
 

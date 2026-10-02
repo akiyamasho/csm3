@@ -217,7 +217,7 @@ code047d        1, 134
 call            @Func_2030
 call            @Func_1fcc
 dialogtxt       "This is bad...! At this rate,"
-dialogtxt       "Akaba[NAME 6] will...!"
+dialogtxt       "Akabane will...!"
 code047b        
 code0309        
 call            @Func_2086
@@ -268,7 +268,7 @@ code048c
 code048d        1, 1
 code0301        8, 7
 code047e        0, 0
-dialogtxt       "[NAME 4]..."
+dialogtxt       "Hehehe..."
 code0309        
 code0302        7
 code0489        6, 1, 32
@@ -385,13 +385,13 @@ code0479        0, 4, 14
 call            @Func_201a
 call            @Func_1f60
 jumpz           @Cond_1380, ($b002 == 0)
-dialogtxt       "Thank you, [NAME 8]..."
-dialogtxt       "But [NAME 8], the hammer..."
-dialogtxt       "It's [NAME 8]'s weapon!"
+dialogtxt       "Thank you, Lemmy..."
+dialogtxt       "But Lemmy, the hammer..."
+dialogtxt       "Lemmy's weapon is over there too..."
 goto            @Label_13da
 
 @Cond_1380:
-dialogtxt       "Thank you, [NAME 8]..."
+dialogtxt       "Thank you, Lemmy..."
 dialogtxt       "But my hammer..."
 dialogtxt       "My weapon is over there too..."
 goto            @Label_13da
@@ -464,9 +464,9 @@ code0309
 call            @Func_1f96
 code0479        1, 2, 15
 call            @Func_1fcc
-dialogtxt       "What are you doing at a time like this?!"
-dialogtxt       "We have to get out of here quickly,"
-dialogtxt       "or Akaba[NAME 6] will...!"
+dialogtxt       "What are you doing at a time like"
+dialogtxt       "this?! We have to get out of here"
+dialogtxt       "quickly, or Akabane will...!"
 code0309        
 call            @Func_2002
 code0479        0, 2, 15
@@ -530,15 +530,15 @@ code0479        0, 2, 15
 call            @Func_201a
 call            @Func_1f42
 jumpz           @Cond_1952, ($b002 == 0)
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 dialogtxt       "..."
 dialogtxt       "Damn it! γ!"
 goto            @Label_1976
 
 @Cond_1952:
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 dialogtxt       "No..."
-dialogtxt       "γ！"
+dialogtxt       "γ!"
 goto            @Label_1976
 
 @Label_1976:

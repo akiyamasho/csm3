@@ -105,8 +105,8 @@ code043c        2, 4
 code0479        1, 4, 12
 call            @Func_1e46
 dialogtxt       "I don't know about your grandmother,"
-dialogtxt       "but the forest is full of danger,"
-dialogtxt       "so this much preparation is only natural~"
+dialogtxt       "but the forest is full of danger, so"
+dialogtxt       "this much preparation is only natural~"
 code0309        
 call            @Func_1eea
 call            @Func_1e7c
@@ -150,7 +150,7 @@ goto            @Cond_0690
 
 @Cond_0690:
 jumpz           @Cond_06e8, ($b003 == 2)
-dialogtxt       "We're in this mess because [NAME 4]"
+dialogtxt       "We're in this mess because you"
 dialogtxt       "attacked carelessly."
 goto            @Cond_06e8
 
@@ -172,9 +172,9 @@ dialogtxt       "What did you say!? You lot started"
 dialogtxt       "fighting on your own, didn't you?"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "If you're going to say things like that,"
-dialogtxt       "you should've left it to me"
-dialogtxt       "in the first place."
+dialogtxt       "If you're going to say things like"
+dialogtxt       "that, you should've left it to me in"
+dialogtxt       "the first place."
 code0309        
 call            @Func_1eea
 call            @Func_1e7c

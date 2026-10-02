@@ -354,7 +354,7 @@ dialogtxt       "　"
 dialogtxt       "　　　　　　∞Hmm, hmm∞"
 code0309        
 dialogtxt       "People who love spicy food"
-dialogtxt       "apparently like [NAME 6]ko too."
+dialogtxt       "apparently like cats too."
 code0309        
 code0302        7
 code040b        

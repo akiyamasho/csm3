@@ -147,8 +147,8 @@ code0309
 call            @Func_144c
 code0479        0, 0, 12
 call            @Func_13aa
-dialogtxt       "γ found it, not me."
-dialogtxt       "Thank them instead."
+dialogtxt       "I didn't find it; [NAME 1] did."
+dialogtxt       "Thank [NAME 1] instead."
 goto            @Label_07ae
 
 @Label_07ae:
@@ -551,4 +551,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

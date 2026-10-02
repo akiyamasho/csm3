@@ -46,13 +46,13 @@ goto            @Cond_01aa
 @Cond_01aa:
 jumpz           @Cond_01d4, ($b003 == 2)
 dialogtxt       "Tch..."
-dialogtxt       "An[NAME 8] is..."
+dialogtxt       "What is that...?"
 goto            @Cond_01d4
 
 @Cond_01d4:
 jumpz           @Cond_01fc, ($b003 == 3)
 dialogtxt       "δ."
-dialogtxt       "An[NAME 8]..."
+dialogtxt       "What...?"
 goto            @Cond_01fc
 
 @Cond_01fc:
@@ -71,8 +71,8 @@ code0479        0, 0, 14
 code047d        0, 120
 call            @Func_12ba
 call            @Func_11e2
-dialogtxt       "What is that guy doing?!"
-dialogtxt       "It's long past time for his shift change!"
+dialogtxt       "What is that guy doing?! It's long"
+dialogtxt       "past time for his shift change!"
 dialogtxt       "Damn..."
 code047b        
 code0309        
@@ -190,8 +190,8 @@ goto            @Cond_07a4
 
 @Cond_07a4:
 jumpz           @Cond_07e2, ($b003 == 2)
-dialogtxt       "Master [NAME 4] ... What"
-dialogtxt       "are you planning to do about the guard?"
+dialogtxt       "You... What will you"
+dialogtxt       "planning to do about the guard?"
 goto            @Cond_07e2
 
 @Cond_07e2:
@@ -212,8 +212,8 @@ dialogtxt       "we have no choice but to defeat it...!"
 goto            @Label_08a6
 
 @Cond_087e:
-dialogtxt       "I guess"
-dialogtxt       "we have no choice but to defeat it...!?"
+dialogtxt       "I guess we have no choice but to"
+dialogtxt       "defeat it...!?"
 goto            @Label_08a6
 
 @Label_08a6:

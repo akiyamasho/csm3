@@ -41,8 +41,8 @@ code0309
 call            @Func_24e4
 code0479        1, 0, 13
 call            @Func_251a
-dialogtxt       "Well, it's [NAME 8]'s request."
-dialogtxt       "I guess we have no choice but to listen."
+dialogtxt       "Well, I'm asking you. I"
+dialogtxt       "guess we have no choice but to listen."
 dialogtxt       "Because..."
 code0309        
 call            @Func_25be
@@ -80,7 +80,7 @@ code0309
 call            @Func_24e4
 code0479        1, 4, 12
 call            @Func_251a
-dialogtxt       "You'll have to negotiate that yourself."
+dialogtxt       "You'll need to negotiate yourself."
 code0309        
 call            @Func_25ea
 call            @Func_2538
@@ -117,9 +117,9 @@ code0479        1, 0, 12
 code047d        1, 130
 call            @Func_257e
 call            @Func_24fc
-dialogtxt       "Hello, I'm Iana Mortia. You're the ones"
-dialogtxt       "who want to meet Lord Belvon, aren't"
-dialogtxt       "you?"
+dialogtxt       "Hello, I'm Iana Mortia. You're the"
+dialogtxt       "ones who want to meet Lord Belvon,"
+dialogtxt       "aren't you?"
 code047b        
 code0309        
 call            @Func_2550
@@ -177,9 +177,9 @@ code0309
 call            @Func_24e4
 code0479        1, 2, 16
 call            @Func_251a
-dialogtxt       "You're from, if I remember correctly..."
-dialogtxt       "Mishus Village..."
-dialogtxt       "What brings you here...?"
+dialogtxt       "You're from, if I remember"
+dialogtxt       "correctly... Mishus Village... What"
+dialogtxt       "brings you here...?"
 code0309        
 call            @Func_25ea
 call            @Func_2538
@@ -360,8 +360,8 @@ code0309
 call            @Func_2550
 code0479        0, 2, 16
 call            @Func_24ae
-dialogtxt       "Um..."
-dialogtxt       "There's something I'd like to tell you."
+dialogtxt       "Um... There's something I'd like to"
+dialogtxt       "tell you."
 code0309        
 call            @Func_25ea
 call            @Func_24cc
@@ -480,7 +480,7 @@ call            @Func_2568
 call            @Func_24ae
 jumpz           @Cond_1328, ($b002 == 0)
 dialogtxt       "Does that mean..."
-dialogtxt       "[NAME 8] can't go either...?"
+dialogtxt       "I can't go either...?"
 goto            @Label_135c
 
 @Cond_1328:
@@ -638,9 +638,9 @@ code0309
 call            @Func_2550
 code0479        0, 2, 12
 call            @Func_24ae
-dialogtxt       "Ah...!"
-dialogtxt       "Um... so... a reward..."
-dialogtxt       "Could I receive something like that...?"
+dialogtxt       "Ah...! Um... so... a reward..."
+dialogtxt       "Could I receive something like"
+dialogtxt       "that...?"
 code0309        
 call            @Func_24e4
 code0479        1, 4, 12
@@ -707,7 +707,7 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_257e
 call            @Func_24fc
-dialogtxt       "Looks like they won't be back for a while."
+dialogtxt       "Looks like they'll be gone a while."
 code047b        
 code0309        
 call            @Func_2550
@@ -718,7 +718,7 @@ code047d        0, 0
 call            @Func_2568
 call            @Func_24ae
 jumpz           @Cond_1d40, ($b002 == 0)
-dialogtxt       "Then what about [NAME 8] and"
+dialogtxt       "Then what about"
 dialogtxt       "the others...?"
 goto            @Label_1d62
 
@@ -754,7 +754,7 @@ code0309
 code0479        1, 0, 13
 dialogtxt       "And don't worry about those guys."
 dialogtxt       "I'll make sure they know that"
-dialogtxt       "[NAME 8] and others returned."
+dialogtxt       "So ask them to let us have them."
 code0309        
 call            @Func_25ea
 call            @Func_2538

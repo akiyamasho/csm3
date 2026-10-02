@@ -89,7 +89,7 @@ call            @Func_0e00
 code0479        1, 1, 12
 call            @Func_0e36
 dialogtxt       "Thank you, δ."
-dialogtxt       "You really are"
+dialogtxt       "δ, you really are"
 dialogtxt       "so kind..."
 code0309        
 call            @Func_0e6c
@@ -147,8 +147,8 @@ call            @Func_0e00
 code0479        1, 0, 12
 call            @Func_0e36
 dialogtxt       "But don't push yourself too hard."
-dialogtxt       "What makes me happiest"
-dialogtxt       "is knowing δ is safe."
+dialogtxt       "Knowing δ is safe"
+dialogtxt       "is what makes me happiest."
 code0309        
 call            @Func_0e6c
 code0479        0, 0, 13

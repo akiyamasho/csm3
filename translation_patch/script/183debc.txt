@@ -21,7 +21,7 @@ dialogtxt       "never came near town, but..."
 code047b        
 code0309        
 code0479        0, 2, 16
-dialogtxt       "I wonder where on earth they're hiding..."
+dialogtxt       "Where on earth are they hiding...?"
 code0309        
 goto            @Label_018e
 
@@ -46,7 +46,7 @@ code0312
 menutxt         @Menu_025a, "Murno"
 menutxt         @Menu_0266, "γ"
 menutxt         @Menu_0272, "V.E"
-menutxt         @Menu_027e, "[NAME 8]"
+menutxt         @Menu_027e, "Lemmy"
 menutxt         @Menu_028a, "Jade"
 menutxt         @Menu_0296, "Tier"
 menuwait        

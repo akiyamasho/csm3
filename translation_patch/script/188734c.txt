@@ -197,13 +197,13 @@ jumpz           @Cond_0730, ($f0265 == 1)
 jumpz           @Cond_06ec, ($b002 == 0)
 dialogtxt       "I heard you..."
 dialogtxt       "Everyone's voices... And then..."
-dialogtxt       "Ani[NAME 4]'s voice..."
+dialogtxt       "Big bro's voice..."
 goto            @Label_072c
 
 @Cond_06ec:
 dialogtxt       "I heard you..."
 dialogtxt       "Everyone's voices... And then..."
-dialogtxt       "Ani[NAME 4]'s voice..."
+dialogtxt       "Big bro's voice..."
 goto            @Label_072c
 
 @Label_072c:
@@ -312,8 +312,8 @@ call            @Func_234c
 call            @Func_22b4
 jumpz           @Cond_0b58, ($b003 == 0)
 dialogtxt       "TO CAUSE A MIRACLE IS"
-dialogtxt       "JUST LIKE YOU, [NAME 6]."
-dialogtxt       "YOU ARE IMPRESSIVE, PARTNER."
+dialogtxt       "Just like you."
+dialogtxt       "You're so cool, partner."
 goto            @Cond_0b58
 
 @Cond_0b58:
@@ -326,7 +326,7 @@ goto            @Cond_0bac
 @Cond_0bac:
 jumpz           @Cond_0bf0, ($b003 == 2)
 dialogtxt       "Hmph, a miracle..."
-dialogtxt       "Just like [NAME 4]."
+dialogtxt       "Just like you."
 dialogtxt       "δ"
 goto            @Cond_0bf0
 
@@ -400,8 +400,8 @@ code047b
 code0309        
 code0479        0, 11, 12
 code0479        1, 7, 13
-dialogtxt       "The δ [NAME 8] believed in"
-dialogtxt       "That's who you are!"
+dialogtxt       "You're the one I believed in,"
+dialogtxt       "That's why, δ!"
 code0309        
 call            @Func_2308
 code0479        0, 7, 13

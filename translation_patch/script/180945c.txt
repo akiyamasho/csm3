@@ -101,7 +101,7 @@ call            @Func_1250
 call            @Func_1196
 jumpz           @Cond_04ce, ($b003 == 0)
 dialogtxt       "The ones following us were"
-dialogtxt       "them.[NAME 6]"
+dialogtxt       "them."
 goto            @Cond_04ce
 
 @Cond_04ce:
@@ -174,7 +174,7 @@ code0479        1, 0, 12
 code047d        1, 120
 call            @Func_1266
 call            @Func_11e4
-dialogtxt       "Are you [NAME 4], the"
+dialogtxt       "Are you the Summon Beast's apprentice?"
 dialogtxt       "Summon Beast's apprentice, β?"
 code047b        
 code0309        
@@ -202,7 +202,7 @@ code0309
 call            @Func_11cc
 code0479        1, 0, 14
 call            @Func_1202
-dialogtxt       "We [NAME 8] got put through"
+dialogtxt       "We got put through"
 dialogtxt       "hell because of that woman."
 code0309        
 call            @Func_1238
@@ -244,24 +244,24 @@ call            @Func_1238
 code0479        0, 0, 12
 call            @Func_1196
 jumpz           @Cond_0aec, ($b002 == 0)
-dialogtxt       "Yeah, yeah."
-dialogtxt       "It's what our master taught us:"
-dialogtxt       "starting fights right away is no good..."
+dialogtxt       "Yeah, yeah. It's what our master"
+dialogtxt       "taught us: starting fights right away"
+dialogtxt       "is no good..."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "And we've got a little girl with us, too,"
-dialogtxt       "That's why..."
-dialogtxt       "y'know? So..."
+dialogtxt       "And we've got a little girl with"
+dialogtxt       "us, too, That's why... y'know?"
+dialogtxt       "So..."
 goto            @Label_0b78
 
 @Cond_0aec:
-dialogtxt       "That's right. Our master taught us that"
-dialogtxt       "starting fights right away is no good..."
-dialogtxt       "..."
+dialogtxt       "That's right. Our master taught us"
+dialogtxt       "that starting fights right away is no"
+dialogtxt       "good... ..."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "And we've got a little girl with us, too,"
-dialogtxt       "okay?"
+dialogtxt       "And we've got a little girl with us,"
+dialogtxt       "too, okay?"
 goto            @Label_0b78
 
 @Label_0b78:

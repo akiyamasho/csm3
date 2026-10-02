@@ -173,16 +173,16 @@ call            @Func_2a48
 code0479        0, 4, 12
 call            @Func_29a6
 dialogtxt       "So That Sound Was You Sisters Fighting"
-dialogtxt       "Earlier...? Then It’s Fine That O[NAME 8]"
+dialogtxt       "Earlier...? Then It’s Fine That He"
 dialogtxt       "Missed His Turn."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "But The Disappointed One Isn't O[NAME 8]."
+dialogtxt       "But The Disappointed One Isn't Me."
 dialogtxt       "It's You Sisters. Because..."
 dialogtxt       "..."
 code0309        
 code0479        0, 2, 13
-dialogtxt       "You Didn't Get To See O[NAME 8]'s"
+dialogtxt       "You Didn't Get To See My"
 dialogtxt       "Glorious Battle."
 code0309        
 call            @Func_29dc
@@ -197,9 +197,9 @@ code043c        7, 1
 code047d        1, 120
 code0301        8, 7
 code047e        1, 1
-dialogtxt       "Looks Like Our Work Is All Gone... Shall"
-dialogtxt       "We Make A Round And Then Head Back?"
-dialogtxt       "..."
+dialogtxt       "Looks Like Our Work Is All Gone..."
+dialogtxt       "Shall We Make A Round And Then Head"
+dialogtxt       "Back? ..."
 code0309        
 code047e        1, 0
 code0302        7
@@ -247,9 +247,9 @@ code0309
 call            @Func_2a48
 code0479        0, 0, 16
 call            @Func_29a6
-dialogtxt       "O[NAME 8] Is In The Town"
+dialogtxt       "I Am In The Town"
 dialogtxt       "Watch. Taking Down Strays Around Here"
-dialogtxt       "Is Part Of O[NAME 8]'s Job."
+dialogtxt       "Is Part Of My Job."
 code0309        
 call            @Func_2ae2
 call            @Func_29c4
@@ -407,8 +407,8 @@ code0479        1, 2, 16
 code047d        1, 107
 call            @Func_2a76
 call            @Func_29f4
-dialogtxt       "The Gold Faction... If I Recall, They're A"
-dialogtxt       "Summoner Faction..."
+dialogtxt       "The Gold Faction... If I Recall,"
+dialogtxt       "They're A Summoner Faction..."
 code047b        
 code0309        
 call            @Func_2a48
@@ -442,7 +442,7 @@ call            @Func_2a48
 code0479        0, 4, 16
 call            @Func_29a6
 dialogtxt       "Give You One...?"
-dialogtxt       "Don't Ask O[NAME 8]."
+dialogtxt       "Don't Ask Me."
 code0309        
 code0479        0, 0, 16
 dialogtxt       "Besides, You Know"
@@ -454,12 +454,12 @@ code0479        1, 2, 12
 call            @Func_2a12
 dialogtxt       "You won't know unless you try it."
 dialogtxt       "You can't know for sure!"
-dialogtxt       "Should I Tell Da[NAME 8]?"
+dialogtxt       "Should I Tell Anyone?"
 code0309        
 call            @Func_2a48
 code0479        0, 0, 12
 call            @Func_29a6
-dialogtxt       "Da[NAME 8]...?"
+dialogtxt       "Who...?"
 dialogtxt       "The Chief, Belvon..."
 dialogtxt       "No, That'd Be Ms. Iana."
 code0309        
@@ -561,7 +561,7 @@ code047d        0, 132
 call            @Func_2a60
 call            @Func_29a6
 dialogtxt       "Fine! Don't Go Off On Your Own!"
-dialogtxt       "O[NAME 8] Has To Report"
+dialogtxt       "I Have To Report"
 dialogtxt       "This Incident Too, So I'll Come Along!"
 code047b        
 code0309        
@@ -592,7 +592,7 @@ code0479        0, 0, 16
 call            @Func_2a60
 call            @Func_29a6
 jumpz           @Cond_1b72, ($b002 == 0)
-dialogtxt       "Then O[NAME 8] Will...?"
+dialogtxt       "Then I Will...?"
 goto            @Label_1b8c
 
 @Cond_1b72:
@@ -711,7 +711,7 @@ goto            @Cond_1f68
 
 @Cond_1f68:
 jumpz           @Cond_1fbc, ($b003 == 2)
-dialogtxt       "I Must Go With Those Two. [NAME 4],"
+dialogtxt       "I Must Go With Those Two."
 dialogtxt       "You're Protecting Murno, Right?"
 goto            @Cond_1fbc
 
@@ -782,7 +782,7 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_2a76
 call            @Func_29f4
-dialogtxt       "Come On, O[NAME 8], Let's"
+dialogtxt       "Come On, We Should"
 dialogtxt       "Go Too. Follow Me."
 code0309        
 call            @Func_2acc

@@ -22,9 +22,9 @@ code0309
 call            @Func_07f6
 code0479        1, 2, 14
 call            @Func_082c
-dialogtxt       "Like I said before,"
-dialogtxt       "I'm pretty worked up right now,"
-dialogtxt       "so I can't promise I'll go easy on you."
+dialogtxt       "Like I said before, I'm pretty worked"
+dialogtxt       "up right now, so I can't promise I'll"
+dialogtxt       "go easy on you."
 code0309        
 code0479        1, 2, 12
 dialogtxt       "So you'd better worry"

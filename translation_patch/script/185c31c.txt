@@ -72,7 +72,7 @@ code0479        0, 4, 17
 call            @Func_11cc
 jumpz           @Cond_03dc, ($b002 == 0)
 dialogtxt       "Hey... What's Gotten Into You, Master?"
-dialogtxt       "Praising O[NAME 8] So Much"
+dialogtxt       "Praising me so much"
 dialogtxt       "Is Making Me Feel Weird."
 goto            @Label_043e
 
@@ -122,8 +122,8 @@ code047d        1, 117
 code0479        0, 5, 15
 call            @Func_12b2
 call            @Func_11ae
-dialogtxt       "Whoa!"
-dialogtxt       "It's Been A While Since I've Seen That!"
+dialogtxt       "Whoa! It's Been A While Since I've"
+dialogtxt       "Seen That!"
 code047b        
 code0309        
 call            @Func_1202
@@ -183,8 +183,8 @@ code0309
 call            @Func_1202
 code0479        1, 0, 14
 call            @Func_1238
-dialogtxt       "Part Of The Reason You Could Do So Well"
-dialogtxt       "Was Because γ Was There,"
+dialogtxt       "Part Of The Reason You Could Do"
+dialogtxt       "So Well Was Because γ Was There,"
 dialogtxt       "Wouldn't You Say?"
 code0309        
 call            @Func_126e

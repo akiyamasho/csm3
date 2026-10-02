@@ -82,8 +82,8 @@ call            @Func_10ae
 code0479        1, 4, 16
 call            @Func_10e4
 dialogtxt       "You say it like it's no big deal,"
-dialogtxt       "but you already have two guests."
-dialogtxt       "It's tough in a lot ways, right?"
+dialogtxt       "but Murno and [NAME 1] have joined you,"
+dialogtxt       "so it must be a lot to handle."
 code0309        
 call            @Func_111a
 code0479        0, 0, 16
@@ -127,9 +127,9 @@ goto            @Label_074e
 code0309        
 code0479        1, 0, 12
 code0479        0, 4, 12
-dialogtxt       "If you were serious,"
-dialogtxt       "I honestly don't know if I could"
-dialogtxt       "beat you even with [NAME 1]."
+dialogtxt       "If you were really serious,"
+dialogtxt       "even with [NAME 1],"
+dialogtxt       "I don't know if I could beat you."
 code0309        
 call            @Func_10ae
 code0479        1, 0, 13

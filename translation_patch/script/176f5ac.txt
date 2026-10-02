@@ -376,7 +376,7 @@ dialogtxt       "but I'm doing business"
 dialogtxt       "for my future."
 code0309        
 jumpz           @Cond_1376, ($f1249 == 0)
-dialogtxt       "By the way, you look like a blacksmith."
+dialogtxt       "Say, you look like a blacksmith."
 dialogtxt       "Would you like to hear about upgrades?"
 code0309        
 code047e        0, 0

@@ -68,8 +68,8 @@ code0479        0, 0, 12
 code047d        0, 135
 call            @Func_1656
 call            @Func_1552
-dialogtxt       "By the way, did you learn"
-dialogtxt       "anything about the magic crystal pillar?"
+dialogtxt       "By the way, did you learn anything"
+dialogtxt       "about the magic crystal pillar?"
 code047b        
 code0309        
 call            @Func_15a6
@@ -81,13 +81,13 @@ dialogtxt       "it... And Summon Beast went berserk..."
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 14
-dialogtxt       "That magic crystal pillar reacted to the"
-dialogtxt       "magic stone, released even greater"
+dialogtxt       "That magic crystal pillar reacted to"
+dialogtxt       "the magic stone, released even greater"
 dialogtxt       "power, and drove Magdrado berserk."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "That power was the same power"
-dialogtxt       "γ sensed when we fled"
+dialogtxt       "That was the same power"
+dialogtxt       "[NAME 1] felt as we fled"
 dialogtxt       "Mishus Village..."
 code0309        
 code0479        1, 4, 14
@@ -197,19 +197,19 @@ code043c        1, 2
 code043c        2, 2
 call            @Func_1570
 dialogtxt       "As I told you before, Louise Village"
-dialogtxt       "was built long ago"
-dialogtxt       "by people who came from Mishus Village."
+dialogtxt       "was built long ago by people who came"
+dialogtxt       "from Mishus Village."
 code047b        
 code0309        
 code0479        1, 2, 14
 code0479        0, 2, 16
 dialogtxt       "Perhaps for reason, stories Govan's"
 dialogtxt       "magic stone have been passed down, but"
-dialogtxt       "they say is... ‘It holds great power.’"
+dialogtxt       "they say is... \"It holds great power.\""
 code0309        
 code0479        0, 2, 14
-dialogtxt       "So I think that's all Anise knows, too..."
-dialogtxt       "So I think that's all Anise knows, too..."
+dialogtxt       "I think that's all she knows..."
+dialogtxt       "So that's all Anise knows, I think..."
 code0309        
 call            @Func_15a6
 code0479        1, 2, 16
@@ -284,7 +284,7 @@ goto            @Label_0ce6
 @Label_0ce6:
 code0309        
 code0479        1, 2, 14
-dialogtxt       "village secret you mentioned before...?"
+dialogtxt       "village secret you mentioned...?"
 code0309        
 call            @Func_1612
 code0479        0, 1, 12

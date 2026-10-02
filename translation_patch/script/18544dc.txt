@@ -31,7 +31,7 @@ call            @Func_1178
 call            @Func_10be
 jumpz           @Cond_01b0, ($b002 == 0)
 dialogtxt       "Were you waiting for"
-dialogtxt       "us, [NAME 8]...?"
+dialogtxt       "us...?"
 goto            @Label_01d8
 
 @Cond_01b0:
@@ -52,7 +52,7 @@ code0309
 code0479        1, 2, 14
 dialogtxt       "Then let's settle"
 dialogtxt       "our score once and for all,"
-dialogtxt       "[NAME 4]!"
+dialogtxt       "you!"
 code0309        
 call            @Func_11ce
 code047b        
@@ -116,7 +116,7 @@ goto            @Cond_04c0
 
 @Cond_04c0:
 jumpz           @Cond_04fc, ($b003 == 2)
-dialogtxt       "[NAME 4]..."
+dialogtxt       "You..."
 dialogtxt       "Do you really want to be erased?"
 goto            @Cond_04fc
 
@@ -131,8 +131,8 @@ call            @Func_10f4
 code0479        1, 1, 13
 call            @Func_112a
 dialogtxt       "Good! That's the spirit! Try"
-dialogtxt       "your best to inflict pain on"
-dialogtxt       "[NAME 8] and show me!"
+dialogtxt       "do your best to make me"
+dialogtxt       "feel pain!"
 code0309        
 call            @Func_11ce
 call            @Func_1160
@@ -144,7 +144,7 @@ call            @Func_1178
 call            @Func_10be
 jumpz           @Cond_0642, ($b002 == 0)
 dialogtxt       "Sorry, but right now,"
-dialogtxt       "[NAME 8] and I have more"
+dialogtxt       "we have more"
 dialogtxt       "important things to do: rescue Murno."
 goto            @Label_06a6
 

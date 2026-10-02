@@ -330,7 +330,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "I, [NAME 8], guard this place."
+dialogtxt       "I guard this place."
 dialogtxt       "No matter what happens, I can't leave"
 dialogtxt       "I'm not going!"
 code0309        
@@ -357,7 +357,7 @@ dialogtxt       "Sorry, but beyond here is reserved"
 dialogtxt       "specially I cannot let anyone through"
 dialogtxt       "except those authorized, No, I'm not."
 code0309        
-dialogtxt       "However, if you have a membership card,"
+dialogtxt       "But if you have a membership card,"
 dialogtxt       "but that's another matter."
 code0309        
 code047e        0, 0

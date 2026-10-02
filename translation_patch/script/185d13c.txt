@@ -116,7 +116,7 @@ dialogtxt       "Even I only have one weapon"
 dialogtxt       "that Rob approved."
 code0309        
 code0479        1, 2, 13
-dialogtxt       "That weapon is still [NAME 8]'s..."
+dialogtxt       "That weapon is still mine..."
 code0309        
 call            @Func_0f6a
 code0479        0, 0, 16
@@ -156,13 +156,13 @@ call            @Func_0f6a
 code0479        0, 2, 15
 call            @Func_0ec8
 jumpz           @Cond_080e, ($b002 == 0)
-dialogtxt       "Hey, Ani[NAME 4]!"
+dialogtxt       "Hey, Bro!"
 dialogtxt       "Quit keeping us in suspense!"
 dialogtxt       "Stingy!"
 goto            @Label_084a
 
 @Cond_080e:
-dialogtxt       "Hey, Ani[NAME 4]!"
+dialogtxt       "Hey, Bro!"
 dialogtxt       "Don't keep us in suspense!"
 dialogtxt       "Stingy!"
 goto            @Label_084a

@@ -126,7 +126,7 @@ code0479        0, 2, 14
 call            @Func_107e
 call            @Func_101a
 jumpz           @Cond_059c, ($b003 == 0)
-dialogtxt       "He fled, [NAME 6]."
+dialogtxt       "It seems he really fled."
 goto            @Cond_059c
 
 @Cond_059c:

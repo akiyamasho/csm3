@@ -106,7 +106,7 @@ goto            @start
 @Event_049e:
 code0301        8, 7
 dialogtxt       "Have you ever been injured while"
-dialogtxt       "traveling? In times like that, F-Aid is the"
+dialogtxt       "traveling? At such times, F-Aid is the"
 dialogtxt       "convenient"
 code0309        
 code0302        7
@@ -317,8 +317,8 @@ ret
 code0301        8, 7
 code047d        0, 148
 code047e        0, 1
-dialogtxt       "That's right, there's a great smith here"
-dialogtxt       "named Master Benon. I hear he's"
+dialogtxt       "That's right, there's a great smith"
+dialogtxt       "here named Master Benon. I hear he's"
 dialogtxt       "amazing."
 code0309        
 dialogtxt       "he wouldn't talk to me. And he's so"

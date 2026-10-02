@@ -63,15 +63,15 @@ goto            @Cond_02a8
 
 @Cond_02a8:
 jumpz           @Cond_030c, ($b003 == 1)
-dialogtxt       "I have something to discuss with Murno,"
-dialogtxt       "so forgive me,"
-dialogtxt       "but I'll be taking my leave for a while."
+dialogtxt       "I have something to discuss with"
+dialogtxt       "Murno, so forgive me, but I'll be"
+dialogtxt       "taking my leave for a while."
 goto            @Cond_030c
 
 @Cond_030c:
 jumpz           @Cond_0352, ($b003 == 2)
-dialogtxt       "I must discuss something with Murno."
-dialogtxt       "It has nothing to do with [NAME 4]."
+dialogtxt       "I have business with Murno."
+dialogtxt       "This has nothing to do with you."
 goto            @Cond_0352
 
 @Cond_0352:

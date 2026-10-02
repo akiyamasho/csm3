@@ -139,8 +139,8 @@ goto            @Cond_04d4
 
 @Cond_04d4:
 jumpz           @Cond_05d6, ($b003 == 1)
-dialogtxt       "Do not move carelessly."
-dialogtxt       "If we're spotted, it'll all be for nothing."
+dialogtxt       "Do not move carelessly. If we're"
+dialogtxt       "spotted, it'll all be for nothing."
 code0309        
 call            @Func_0f34
 code0479        0, 2, 12

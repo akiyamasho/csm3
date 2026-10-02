@@ -576,7 +576,7 @@ code040b
 @Event_16c0:
 code0301        8, 7
 dialogtxt       "Enhancement isn't so easy"
-dialogtxt       "that you'll find what you need right away."
+dialogtxt       "you'll find what you need right away."
 dialogtxt       "You'll have to work it out yourself."
 code0309        
 code0302        7

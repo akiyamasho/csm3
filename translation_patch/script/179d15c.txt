@@ -228,7 +228,7 @@ call            @Func_39ca
 code0479        1, 4, 12
 call            @Func_3a00
 dialogtxt       "Insufficient Data... Judging by Lord"
-dialogtxt       "Wellman's condition suggests he couldn't"
+dialogtxt       "Wellman's condition means he couldn't"
 dialogtxt       "have gone far, I believe..."
 code0309        
 call            @Func_3a36
@@ -381,8 +381,8 @@ code0309
 call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
-dialogtxt       "Unknown. To determine the cause,"
-dialogtxt       "Anise and the others Let us chase them."
+dialogtxt       "Unknown. To determine the cause, Anise"
+dialogtxt       "and the others Let us chase them."
 dialogtxt       "Let's chase them."
 code0309        
 call            @Func_3a36
@@ -474,9 +474,9 @@ code0309
 call            @Func_39ca
 code0479        1, 3, 14
 call            @Func_3a00
-dialogtxt       "There is no time to sit around thinking."
-dialogtxt       "We can do it after we catch up to them."
-dialogtxt       "Hurry!"
+dialogtxt       "There is no time to sit around"
+dialogtxt       "thinking. We can do it after we catch"
+dialogtxt       "up to them. Hurry!"
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -610,9 +610,9 @@ call            @Func_3a36
 code0479        0, 2, 12
 call            @Func_3994
 jumpz           @Cond_170c, ($b002 == 0)
-dialogtxt       "No, γ. That is what I expect from"
-dialogtxt       "That is what I expect from [NAME 8]’s partner."
-dialogtxt       "Hurry up!"
+dialogtxt       "No, γ."
+dialogtxt       "As expected, my"
+dialogtxt       "partner. Let's hurry!"
 goto            @Label_1748
 
 @Cond_170c:
@@ -668,7 +668,7 @@ code0479        0, 2, 12
 call            @Func_3994
 jumpz           @Cond_18fa, ($b002 == 0)
 dialogtxt       "As expected of you, γ."
-dialogtxt       "[NAME 8]’s partner."
+dialogtxt       "My partner."
 dialogtxt       "Then let us hurry!"
 goto            @Label_1938
 
@@ -717,7 +717,7 @@ call            @Func_39ca
 code0479        1, 0, 13
 call            @Func_3a00
 dialogtxt       "Hmph..."
-dialogtxt       "A simple idea from [NAME 4]"
+dialogtxt       "A simple idea from you."
 dialogtxt       "Naturally, I know."
 code0309        
 call            @Func_3a36
@@ -725,7 +725,7 @@ code0479        0, 2, 12
 call            @Func_3994
 jumpz           @Cond_1ae6, ($b002 == 0)
 dialogtxt       "As expected of you, γ."
-dialogtxt       "[NAME 8]’s partner."
+dialogtxt       "My partner."
 dialogtxt       "Then let us hurry!"
 goto            @Label_1b24
 
@@ -781,9 +781,9 @@ call            @Func_3a36
 code0479        0, 2, 12
 call            @Func_3994
 jumpz           @Cond_1cf6, ($b002 == 0)
-dialogtxt       "No, γ. That is what I expect from"
-dialogtxt       "That is what I expect from [NAME 8]’s partner."
-dialogtxt       "Hurry up!"
+dialogtxt       "No, γ."
+dialogtxt       "As expected, my"
+dialogtxt       "partner. Let's hurry!"
 goto            @Label_1d32
 
 @Cond_1cf6:
@@ -907,9 +907,9 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 13
 call            @Func_3a00
-dialogtxt       "It cannot be helped. I cannot let those"
-dialogtxt       "people do as they please I absolutely"
-dialogtxt       "cannot stand it."
+dialogtxt       "It cannot be helped. I cannot let"
+dialogtxt       "those people do as they please I"
+dialogtxt       "absolutely cannot stand it."
 code0309        
 call            @Func_3ad0
 call            @Func_3a1e
@@ -1008,9 +1008,9 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 16
 call            @Func_3a00
-dialogtxt       "It used to be a beautiful village... No, let"
-dialogtxt       "us talk about the past another time..."
-dialogtxt       "For now..."
+dialogtxt       "It used to be a beautiful village..."
+dialogtxt       "No, let us talk about the past another"
+dialogtxt       "time... For now..."
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -1033,9 +1033,9 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 14
 call            @Func_3a00
-dialogtxt       "Yes, it was all their doing... But now is"
-dialogtxt       "no time to wallow in sentiment There is"
-dialogtxt       "no time to dwell on it..."
+dialogtxt       "Yes, it was all their doing... But"
+dialogtxt       "now is no time to wallow in sentiment"
+dialogtxt       "There is no time to dwell on it..."
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -1059,8 +1059,8 @@ call            @Func_39ca
 code0479        1, 2, 14
 call            @Func_3a00
 dialogtxt       "It was once a beautiful village..."
-dialogtxt       "There is so much I want to tell you, but"
-dialogtxt       "For now..."
+dialogtxt       "There is so much I want to tell you,"
+dialogtxt       "but For now..."
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -1121,13 +1121,13 @@ code0309
 call            @Func_39ca
 code0479        1, 0, 12
 call            @Func_3a00
-dialogtxt       "There is no problem. However, the"
-dialogtxt       "magic stone was stored [NAME 8]"
-dialogtxt       "as we're approaching the ruins."
+dialogtxt       "No problem. However, we're"
+dialogtxt       "approaching the ruins where the"
+dialogtxt       "magic stone was kept."
 code0309        
-dialogtxt       "Most likely, Lady Murno also thinks"
-dialogtxt       "it is [NAME 5]'s [NAME 8]."
-dialogtxt       "[NAME 8], you should prepare."
+dialogtxt       "Most likely, Lady Murno thinks"
+dialogtxt       "that's where it is."
+dialogtxt       "You should prepare."
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -1214,13 +1214,13 @@ code0309
 call            @Func_39ca
 code0479        1, 2, 12
 call            @Func_3a00
-dialogtxt       "Of course. More importantly, ahead is"
-dialogtxt       "the magic stone’s Govan Ruins where"
-dialogtxt       "it was kept."
+dialogtxt       "Of course. More importantly, ahead lie"
+dialogtxt       "the Govan Ruins, where the Magic Stone"
+dialogtxt       "is kept."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "They are probably there too,"
-dialogtxt       "Are you the one who should be ready, [NAME 4]?"
+dialogtxt       "They may be there, too."
+dialogtxt       "Are you ready?"
 code0309        
 call            @Func_3a36
 code0479        0, 2, 14
@@ -1347,15 +1347,15 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_31f6, ($b002 == 0)
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! We will take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! We will take"
+dialogtxt       "Murno back!"
 goto            @Label_323c
 
 @Cond_31f6:
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! Let us take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! Let us take"
+dialogtxt       "Murno back!"
 goto            @Label_323c
 
 @Label_323c:
@@ -1399,15 +1399,15 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_3436, ($b002 == 0)
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! We will take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! We will take"
+dialogtxt       "Murno back!"
 goto            @Label_347c
 
 @Cond_3436:
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! Let us take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! Let us take"
+dialogtxt       "Murno back!"
 goto            @Label_347c
 
 @Label_347c:
@@ -1451,15 +1451,15 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_368a, ($b002 == 0)
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! We will take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! We will take"
+dialogtxt       "Murno back!"
 goto            @Label_36d0
 
 @Cond_368a:
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! Let us take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! Let us take"
+dialogtxt       "Murno back!"
 goto            @Label_36d0
 
 @Label_36d0:
@@ -1503,15 +1503,15 @@ call            @Func_3a36
 code0479        0, 2, 15
 call            @Func_3994
 jumpz           @Cond_38d2, ($b002 == 0)
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! We will take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! We will take"
+dialogtxt       "Murno back!"
 goto            @Label_3918
 
 @Cond_38d2:
-dialogtxt       "All right...! Let us hurry and get Murno"
-dialogtxt       "back from Anise! Let us take Murno"
-dialogtxt       "back!"
+dialogtxt       "All right...! Let us hurry and get"
+dialogtxt       "Murno back from Anise! Let us take"
+dialogtxt       "Murno back!"
 goto            @Label_3918
 
 @Label_3918:

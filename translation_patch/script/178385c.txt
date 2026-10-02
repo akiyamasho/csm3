@@ -47,7 +47,7 @@ goto            @start
 
 @Event_01da:
 code0301        8, 7
-dialogtxt       "When boarding the Summon Beast trolley,"
+dialogtxt       "Aboard the Summon Beast trolley,"
 dialogtxt       "please watch your step."
 code0309        
 code0302        7

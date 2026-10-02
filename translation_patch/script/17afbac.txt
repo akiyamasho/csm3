@@ -348,7 +348,7 @@ dialogtxt       "are like by looks alone."
 code0309        
 jumpz           @Cond_1a80, ($f1267 == 0)
 dialogtxt       "But unless you've mastered something"
-dialogtxt       "you're good at, you won't get anywhere."
+dialogtxt       "you're good at, you won't advance."
 code0309        
 dialogtxt       "So? Will you tell me what's so great"
 dialogtxt       "about you as a blacksmith?"
@@ -383,7 +383,7 @@ code0301        0, 7
 code0305        1
 dialogtxt       "If you save while carrying the 'Sword"
 dialogtxt       "Master's Guide,' the bonus condition"
-dialogtxt       "'[NAME 8]mi' will be added."
+dialogtxt       "'Lemmy' will be added."
 code0309        
 code0302        7
 goto            @Cond_110c
@@ -459,9 +459,9 @@ code0366        525, 1
 code0367        
 code0301        0, 7
 code0305        1
-dialogtxt       "If you save while carrying the 'Knuckle"
-dialogtxt       "Master's Guide,' the bonus condition"
-dialogtxt       "'Jade' will be added."
+dialogtxt       "If you save while carrying the"
+dialogtxt       "'Knuckle Master's Guide,' the bonus"
+dialogtxt       "condition 'Jade' will be added."
 code0309        
 code0302        7
 goto            @Cond_15ca
@@ -529,7 +529,7 @@ goto            @Label_1a7c
 jumpz           @Cond_1a16, ($f1260 == 0 && $f1261 == 0 && $f1262 == 0 && $f1263 == 0 && $f1264 == 0 && $f1265 == 0)
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Oh dear, you haven't mastered anything."
+dialogtxt       "Oh dear, you've mastered nothing."
 dialogtxt       "That's no good. You need to train"
 dialogtxt       "properly. Do your best from here on!"
 code0309        

@@ -521,7 +521,7 @@ dialogtxt       "West of Prosban"
 dialogtxt       "is the Slenji Mine."
 code0309        
 dialogtxt       "But there's a rumor of a terrifying"
-dialogtxt       "stray Summon Beast called Akaba[NAME 6]"
+dialogtxt       "stray Summon Beast called Akabane"
 dialogtxt       "there, so no one goes near it anymore."
 code0309        
 code047e        0, 0

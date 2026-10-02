@@ -163,9 +163,9 @@ code0331        40, 256
 code043c        2, 3
 code043c        3, 3
 code0479        0, 2, 12
-dialogtxt       "Until [NAME 8] and the others"
+dialogtxt       "Until we"
 dialogtxt       "catch the bad guys!"
-dialogtxt       "Come on, let's go to Lute Cave!"
+dialogtxt       "Come on, let us go to Lute Cave!"
 goto            @Label_08be
 
 @Cond_07ea:
@@ -304,7 +304,7 @@ call            @Func_1906
 call            @Func_184c
 jumpz           @Cond_0e9a, ($b003 == 0)
 dialogtxt       "..."
-dialogtxt       "LET US GO, [NAME 4]"
+dialogtxt       "LET US GO!"
 code047b        
 code0309        
 call            @Func_1882

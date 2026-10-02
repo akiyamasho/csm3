@@ -33,12 +33,12 @@ call            @Func_143a
 code0479        0, 5, 16
 call            @Func_1398
 jumpz           @Cond_0222, ($b002 == 0)
-dialogtxt       "What is it, [NAME 8]?"
+dialogtxt       "What is this?"
 dialogtxt       "A scale?"
 goto            @Label_0242
 
 @Cond_0222:
-dialogtxt       "What is it, [NAME 8]?"
+dialogtxt       "What is this?"
 dialogtxt       "A scale?"
 goto            @Label_0242
 
@@ -211,9 +211,9 @@ dialogtxt       "hey..."
 code047b        
 code0309        
 code0479        1, 7, 12
-dialogtxt       "You heard we were smiths,"
-dialogtxt       "thank you for understanding right away."
-dialogtxt       "It made me happy."
+dialogtxt       "You heard we were smiths, thank you"
+dialogtxt       "for understanding right away. It made"
+dialogtxt       "me happy."
 goto            @Label_0892
 
 @Cond_080c:
@@ -223,7 +223,7 @@ code047b
 code0309        
 code0479        1, 7, 12
 dialogtxt       "When you first heard we were"
-dialogtxt       "blacksmiths, thank you for understanding"
+dialogtxt       "blacksmiths, thanks for understanding"
 dialogtxt       "right away. it made me happy."
 goto            @Label_0892
 
@@ -332,7 +332,7 @@ code0479        1, 0, 16
 call            @Func_1404
 dialogtxt       "Mr. Gallahan,"
 jumpz           @Cond_0d1e, ($b002 == 0)
-dialogtxt       "You really were thinking of your son..."
+dialogtxt       "You truly were thinking of your son..."
 goto            @Label_0d40
 
 @Cond_0d1e:
@@ -346,7 +346,7 @@ code043c        4, 4
 code0479        0, 0, 12
 call            @Func_1398
 dialogtxt       "What are you talking about?"
-dialogtxt       "[NAME 8] is leaving now."
+dialogtxt       "I'm leaving now."
 code0309        
 call            @Func_14d4
 call            @Func_13b6

@@ -27,15 +27,15 @@ code047d        0, 0
 call            @Func_10ba
 call            @Func_0fb6
 jumpz           @Cond_0148, ($b002 == 0)
-dialogtxt       "Calm down!"
-dialogtxt       "I'm telling you, it's a misunderstanding,"
-dialogtxt       "aren't I?!"
+dialogtxt       "Calm down! I'm telling you,"
+dialogtxt       "it's a misunderstanding, aren't"
+dialogtxt       "I?!"
 goto            @Label_018a
 
 @Cond_0148:
-dialogtxt       "Calm down!"
-dialogtxt       "I'm telling you, it's a misunderstanding,"
-dialogtxt       "aren't I?!"
+dialogtxt       "Calm down! I'm telling you,"
+dialogtxt       "it's a misunderstanding, aren't"
+dialogtxt       "I?!"
 goto            @Label_018a
 
 @Label_018a:
@@ -146,8 +146,8 @@ goto            @Label_04ea
 call            @Func_10ba
 call            @Func_1022
 jumpz           @Cond_0532, ($b003 == 0)
-dialogtxt       "Was it [NAME 5]...?"
-dialogtxt       "I Am Sorry To Intrude."
+dialogtxt       "I see..."
+dialogtxt       "I am sorry to intrude."
 goto            @Cond_0532
 
 @Cond_0532:
@@ -191,7 +191,7 @@ code047d        1, 107
 call            @Func_10a4
 call            @Func_1022
 dialogtxt       "It's all right, γ."
-dialogtxt       "Won't you practice with us?"
+dialogtxt       "Won't you practice with γ?"
 code047b        
 code0309        
 call            @Func_1076

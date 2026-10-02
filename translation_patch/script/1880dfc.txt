@@ -55,13 +55,13 @@ goto            @Label_01fe
 @Cond_0190:
 jumpz           @Cond_01ba, ($f0264 == 1)
 dialogtxt       "Oh..."
-dialogtxt       "[NAME 8]...?"
+dialogtxt       "Lemmy...?"
 goto            @Label_01fe
 
 @Cond_01ba:
 jumpz           @Cond_01e4, ($f0265 == 1)
 dialogtxt       "Oh..."
-dialogtxt       "Ani[NAME 4]...?"
+dialogtxt       "Big bro...?"
 goto            @Label_01fe
 
 @Cond_01e4:
@@ -155,7 +155,7 @@ code047d        1, 2
 call            @Func_1b22
 call            @Func_1aa0
 jumpz           @Cond_05da, ($b003 == 0)
-dialogtxt       "Are You Awake, [NAME 4]?"
+dialogtxt       "Are you awake?"
 dialogtxt       "Partner"
 goto            @Cond_05da
 
@@ -251,7 +251,7 @@ goto            @Label_08e8
 @Label_08e8:
 jumpz           @Cond_0918, ($b002 == 0)
 dialogtxt       "Y-yeah..."
-dialogtxt       "What about [NAME 8]...?"
+dialogtxt       "What about me...?"
 goto            @Label_0938
 
 @Cond_0918:
@@ -314,8 +314,8 @@ code047d        1, 2
 call            @Func_1b22
 call            @Func_1abe
 jumpz           @Cond_0afc, ($b003 == 0)
-dialogtxt       "Due To The Impact [NAME 4]"
-dialogtxt       "I Fell From The Floor."
+dialogtxt       "Because of the impact earlier,"
+dialogtxt       "I fell off the floor."
 goto            @Cond_0afc
 
 @Cond_0afc:
@@ -490,12 +490,12 @@ call            @Func_1b0c
 call            @Func_1a34
 jumpz           @Cond_112e, ($b002 == 0)
 dialogtxt       "I'm all right~!"
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 goto            @Label_1154
 
 @Cond_112e:
 dialogtxt       "I'm all right~!"
-dialogtxt       "[NAME 8]!"
+dialogtxt       "Lemmy!"
 goto            @Label_1154
 
 @Label_1154:
@@ -517,7 +517,7 @@ code047d        0, 0
 call            @Func_1b0c
 call            @Func_1a34
 dialogtxt       "I'm all right~!"
-dialogtxt       "Ani[NAME 4]~!"
+dialogtxt       "Big bro~!"
 goto            @Label_12e6
 
 @Cond_1226:

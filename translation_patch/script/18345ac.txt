@@ -159,14 +159,14 @@ code047d        0, 107
 call            @Func_1354
 call            @Func_12d2
 jumpz           @Cond_06ba, ($b003 == 0)
-dialogtxt       "[NAME 4]ken! Lady Murno!"
+dialogtxt       "It's dangerous! Lady Murno!"
 dialogtxt       "Please get back!"
 goto            @Cond_06ba
 
 @Cond_06ba:
 jumpz           @Cond_06fc, ($b003 == 1)
 dialogtxt       "Get back, Murno!"
-dialogtxt       "It's [NAME 4]ken!"
+dialogtxt       "It's dangerous!"
 goto            @Cond_06fc
 
 @Cond_06fc:

@@ -44,18 +44,18 @@ code0479        1, 0, 16
 code047d        1, 132
 call            @Func_0f52
 call            @Func_0eba
-dialogtxt       "You really worked hard today. Thanks"
+dialogtxt       "You worked hard today. Thanks"
 dialogtxt       "to you two, we found out what"
 dialogtxt       "happened to Anise and the others,"
 code0309        
 code0479        1, 0, 13
-dialogtxt       "and you even took care of Akaba[NAME 6]."
+dialogtxt       "and you even took care of Akabane."
 code0309        
 call            @Func_0f0e
 code0479        0, 0, 13
 call            @Func_0e6c
 jumpz           @Cond_03d8, ($b002 == 0)
-dialogtxt       "Both of those were thanks to [NAME 8]mi."
+dialogtxt       "Both of those were thanks to Lemmy."
 dialogtxt       "When Anise and the others captured us,"
 dialogtxt       "if she hadn't come..."
 code0309        
@@ -65,7 +65,7 @@ dialogtxt       "defeated right there..."
 goto            @Label_048a
 
 @Cond_03d8:
-dialogtxt       "Both of those were thanks to [NAME 8]mi."
+dialogtxt       "Both of those were thanks to Lemmy."
 dialogtxt       "When Anise and the others captured us,"
 dialogtxt       "if she hadn't come..."
 code0309        
@@ -80,14 +80,14 @@ call            @Func_0ea2
 code0479        1, 0, 12
 call            @Func_0ed8
 dialogtxt       "I see."
-dialogtxt       "That's just like her."
+dialogtxt       "That's like her."
 dialogtxt       "She swooped in and stole the glory."
 code0309        
 code0479        0, 0, 12
 code0479        1, 4, 16
 dialogtxt       "And me, on the other hand... I"
 dialogtxt       "showed up late, and didn't even get"
-dialogtxt       "my big [NAME 4] line..."
+dialogtxt       "my big line..."
 code0309        
 call            @Func_0f0e
 code0479        0, 4, 13
@@ -99,21 +99,21 @@ call            @Func_0ea2
 code0479        1, 0, 12
 call            @Func_0ed8
 dialogtxt       "Still, you two did well"
-dialogtxt       "to defeat Akaba[NAME 6]"
+dialogtxt       "to defeat Akabane"
 dialogtxt       "all by yourselves."
 code0309        
 call            @Func_0f0e
 code0479        0, 2, 12
 call            @Func_0e6c
 jumpz           @Cond_069a, ($b002 == 0)
-dialogtxt       "[NAME 8]mi fought first,"
+dialogtxt       "Lemmy fought first,"
 dialogtxt       "so we could win after she weakened it."
 dialogtxt       "I hate to admit it, but she's amazing."
 goto            @Label_0702
 
 @Cond_069a:
-dialogtxt       "Thanks to [NAME 8]mi fighting first,"
-dialogtxt       "so we could win after she weakened it..."
+dialogtxt       "Thanks to Lemmy fighting first,"
+dialogtxt       "so we won after she weakened it..."
 dialogtxt       "I hate to admit it, but she's amazing."
 goto            @Label_0702
 
@@ -122,15 +122,15 @@ code0309
 call            @Func_0ea2
 code0479        1, 2, 16
 call            @Func_0ed8
-dialogtxt       "[NAME 8]mi... I see..."
+dialogtxt       "Lemmy... I see..."
 dialogtxt       "Come to think of it, at the time,"
-dialogtxt       "didn't you see a Summon Beast?"
+dialogtxt       "didn't you see a Beast?"
 code0309        
 call            @Func_0f0e
 code0479        0, 0, 16
 call            @Func_0e6c
-dialogtxt       "A Summon Beast?"
-dialogtxt       "There was only Akaba[NAME 6]..."
+dialogtxt       "A Beast?"
+dialogtxt       "There was only Akabane..."
 code0309        
 call            @Func_0ea2
 code0479        1, 4, 12
@@ -154,7 +154,7 @@ call            @Func_0f0e
 code0479        0, 2, 14
 call            @Func_0e6c
 dialogtxt       "Suspicious."
-dialogtxt       "Very suspicious..."
+dialogtxt       "suspicious..."
 code0309        
 call            @Func_0fa8
 call            @Func_0e8a

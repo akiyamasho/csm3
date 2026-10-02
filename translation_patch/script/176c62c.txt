@@ -42,17 +42,17 @@ dialogtxt       "　　　　　As for Master Rob...　　　　"
 setvar          $h216, 0
 strlen          280, "γ"
 jumpz           @Cond_0266, ($h216 == 1)
-dialogtxt       "　　　I couldn't tell γ, either...　　　　"
+dialogtxt       "I couldn't tell γ, either..."
 goto            @Label_0374
 
 @Cond_0266:
 jumpz           @Cond_02a0, ($h216 == 2)
-dialogtxt       "　　I couldn't tell γ, either...　　　　"
+dialogtxt       "I couldn't tell γ, either..."
 goto            @Label_0374
 
 @Cond_02a0:
 jumpz           @Cond_02d8, ($h216 == 3)
-dialogtxt       "　　I couldn't tell γ, either...　　　"
+dialogtxt       "I couldn't tell γ, either..."
 goto            @Label_0374
 
 @Cond_02d8:
@@ -78,12 +78,12 @@ goto            @Cond_038e
 @Cond_038e:
 jumpz           @Cond_047a, ($f0154 == 1)
 code0304        1
-dialogtxt       "　No, there couldn't be a connection.　"
-dialogtxt       "　　Master Rob killed Voygin...　　"
-dialogtxt       "　　　　　Impossible...　　　　　　"
+dialogtxt       "No, there couldn't be a connection."
+dialogtxt       "Master Rob killed Voygin..."
+dialogtxt       "Impossible..."
 code030a        6, 1
 dialogtxt       "　"
-dialogtxt       "　　Anise's [NAME 5]...!　　"
+dialogtxt       "　　Anise's lying...!　　"
 dialogtxt       "　"
 code030a        6, 1
 code0304        0

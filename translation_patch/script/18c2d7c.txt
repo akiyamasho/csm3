@@ -15,7 +15,7 @@ call            @Func_0fc0
 code043c        2, 4
 code0479        0, 0, 16
 call            @Func_0f1e
-dialogtxt       "We really were in danger"
+dialogtxt       "We were in danger"
 dialogtxt       "so many times..."
 dialogtxt       "It's a miracle we made it out alive."
 code0309        
@@ -39,8 +39,8 @@ goto            @Label_0200
 code0309        
 code0479        0, 0, 12
 code0479        1, 0, 13
-dialogtxt       "I suppose I have the Magic Stone"
-dialogtxt       "to thank for becoming friends with Tier,"
+dialogtxt       "I have the Magic Stone to"
+dialogtxt       "thank for becoming friends with Tier,"
 dialogtxt       "too."
 code0309        
 call            @Func_0fc0
@@ -48,7 +48,7 @@ code0479        0, 0, 13
 call            @Func_0f1e
 dialogtxt       "That's true..."
 dialogtxt       "But even without the stone,"
-dialogtxt       "I would have met δ."
+dialogtxt       "I'd have met δ."
 code0309        
 code0479        0, 10, 12
 dialogtxt       "After all, you and I"
@@ -58,22 +58,22 @@ call            @Func_0f54
 code0479        1, 1, 16
 call            @Func_0f8a
 dialogtxt       "The way you put that"
-dialogtxt       "sounds just like Master..."
+dialogtxt       "sounds like Master..."
 code0309        
 call            @Func_0fc0
 code033b        396, 0, 0, 0, 1, 1
 code0479        0, 9, 12
 call            @Func_0f1e
 jumpz           @Cond_0428, ($b002 == 0)
-dialogtxt       " that the Magic Stone matter is settled,"
-dialogtxt       "I can properly serve the Smiling Inn"
-dialogtxt       "as its dedicated smith..."
+dialogtxt       "that the Magic Stone matter is"
+dialogtxt       "settled, I can properly serve the"
+dialogtxt       "Smiling Inn as its dedicated smith..."
 goto            @Label_048c
 
 @Cond_0428:
-dialogtxt       " that the Magic Stone matter is settled,"
+dialogtxt       "now the Magic Stone matter is settled,"
 dialogtxt       "I can properly serve the Smiling Inn"
-dialogtxt       "as its dedicated smith and poster girl..."
+dialogtxt       "as its smith and poster girl..."
 goto            @Label_048c
 
 @Label_048c:
@@ -83,15 +83,15 @@ code043c        0, 1
 code0479        1, 4, 12
 call            @Func_0f8a
 jumpz           @Cond_051e, ($b002 == 0)
-dialogtxt       "But first, you know,"
-dialogtxt       "I to do something about the million Baam"
-dialogtxt       "I promised Master..."
+dialogtxt       "But first, you know, I to do something"
+dialogtxt       "about the million Baam I promised"
+dialogtxt       "Master..."
 goto            @Label_0572
 
 @Cond_051e:
-dialogtxt       "But first, you know,"
-dialogtxt       "I to do something about the million Baam"
-dialogtxt       "I promised Master..."
+dialogtxt       "But first, you know, I to do something"
+dialogtxt       "about the million Baam I promised"
+dialogtxt       "Master..."
 goto            @Label_0572
 
 @Label_0572:
@@ -120,11 +120,11 @@ call            @Func_0f54
 code0479        1, 2, 16
 call            @Func_0f8a
 jumpz           @Cond_06ba, ($b002 == 0)
-dialogtxt       "That's quite a situation..."
+dialogtxt       "That's a situation..."
 goto            @Label_06dc
 
 @Cond_06ba:
-dialogtxt       "That's quite a situation..."
+dialogtxt       "That's a situation..."
 goto            @Label_06dc
 
 @Label_06dc:

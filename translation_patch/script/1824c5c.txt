@@ -165,8 +165,8 @@ call            @Func_168e
 code0479        0, 4, 16
 call            @Func_15ec
 jumpz           @Cond_06c4, ($b002 == 0)
-dialogtxt       "Wait A Moment. Tier, What About"
-dialogtxt       "Tier, [NAME 8]?"
+dialogtxt       "Wait a moment."
+dialogtxt       "Tier, what about us...?"
 goto            @Label_06f6
 
 @Cond_06c4:
@@ -204,9 +204,9 @@ code047d        1, 2
 call            @Func_16bc
 call            @Func_1658
 jumpz           @Cond_081c, ($b003 == 0)
-dialogtxt       "As [NAME 5] Says. Lady"
+dialogtxt       "That is correct. Lady"
 dialogtxt       "Murno’s Life Is In Danger. We Must"
-dialogtxt       "Find Her Quickly, [NAME 8] ."
+dialogtxt       "find her quickly."
 goto            @Cond_081c
 
 @Cond_081c:

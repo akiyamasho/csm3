@@ -10,9 +10,9 @@ code0479        1, 0, 12
 code047d        1, 0
 call            @Func_0ef8
 call            @Func_0df4
-dialogtxt       "Those important Gold Faction people"
-dialogtxt       "seemed like they didn't want to"
-dialogtxt       "see us anymore..."
+dialogtxt       "Those Gold Faction people"
+dialogtxt       "didn't seem to want"
+dialogtxt       "us anymore..."
 code047b        
 code0309        
 call            @Func_0e48
@@ -21,7 +21,7 @@ code0479        1, 2, 16
 call            @Func_0e7e
 jumpz           @Cond_0168, ($b002 == 0)
 dialogtxt       "That's right."
-dialogtxt       "It's not [NAME 8]"
+dialogtxt       "we didn't do anything wrong..."
 dialogtxt       "did anything wrong..."
 goto            @Label_01ac
 
@@ -36,9 +36,9 @@ code0309
 call            @Func_0eb4
 code0479        0, 0, 12
 call            @Func_0e12
-dialogtxt       "Looks like I won't have a reason"
-dialogtxt       "to come to this town anymore."
-dialogtxt       "I need to get the village back in order..."
+dialogtxt       "I won't have reason to"
+dialogtxt       "come to this town anymore. I need to"
+dialogtxt       "get the village back in order..."
 code0309        
 code043c        2, 1
 code0479        1, 0, 16
@@ -62,14 +62,14 @@ code0309
 call            @Func_0e48
 code0479        1, 2, 15
 call            @Func_0e7e
-dialogtxt       "No!"
-dialogtxt       "It wasn't Murno's fault..."
-dialogtxt       "And it wasn't the Magic Stone's fault..."
+dialogtxt       "No! It wasn't Murno's fault..."
+dialogtxt       "And it wasn't the Magic Stone's"
+dialogtxt       "fault..."
 code0309        
 code043c        2, 4
 code0479        1, 2, 16
-dialogtxt       "The ones at fault are the people"
-dialogtxt       "who attacked the village for that stone..."
+dialogtxt       "Those at fault are people who"
+dialogtxt       "attacked the village for that stone..."
 code0309        
 call            @Func_0eb4
 code0479        0, 4, 12
@@ -80,12 +80,12 @@ call            @Func_0e48
 code0479        1, 0, 12
 call            @Func_0e7e
 jumpz           @Cond_0468, ($b002 == 0)
-dialogtxt       "Besides, thanks to that Magic Stone,"
-dialogtxt       "[NAME 8] got meet Murno..."
+dialogtxt       "Thanks to that Magic Stone,"
+dialogtxt       "I met Murno..."
 goto            @Label_04ac
 
 @Cond_0468:
-dialogtxt       "Besides, thanks to that Magic Stone,"
+dialogtxt       "Thanks to that Magic Stone,"
 dialogtxt       "I got to meet Murno..."
 goto            @Label_04ac
 
@@ -106,7 +106,7 @@ code0479        1, 2, 12
 call            @Func_0e7e
 jumpz           @Cond_059c, ($b002 == 0)
 dialogtxt       "Yeah, let's do our best."
-dialogtxt       "[NAME 8] will get..."
+dialogtxt       "I'll get much stronger..."
 dialogtxt       "Let's work hard together."
 goto            @Label_05ec
 
@@ -121,7 +121,7 @@ code0309
 call            @Func_0eb4
 code0479        0, 2, 13
 call            @Func_0e12
-dialogtxt       "Then I'll think of δ every day"
+dialogtxt       "Then I'll think of δ eday"
 dialogtxt       "as I work hard,"
 dialogtxt       "and work even harder."
 code0309        
@@ -129,14 +129,14 @@ call            @Func_0e48
 code0479        1, 2, 13
 call            @Func_0e7e
 jumpz           @Cond_06c8, ($b002 == 0)
-dialogtxt       " [NAME 8] will think of Murno"
-dialogtxt       "every day and work"
+dialogtxt       " I'll think of Murno"
+dialogtxt       "eday and work"
 dialogtxt       "even harder, too!"
 goto            @Label_0714
 
 @Cond_06c8:
 dialogtxt       "Then I'll think of Murno"
-dialogtxt       "every day and work"
+dialogtxt       "eday and work"
 dialogtxt       "even harder, too!"
 goto            @Label_0714
 
@@ -153,12 +153,12 @@ code0479        1, 1, 12
 call            @Func_0e7e
 jumpz           @Cond_07ae, ($b002 == 0)
 dialogtxt       "What?"
-dialogtxt       "Murno's the same way."
+dialogtxt       "Murno's too."
 goto            @Label_07ce
 
 @Cond_07ae:
 dialogtxt       "What?"
-dialogtxt       "Murno's the same way."
+dialogtxt       "Murno's too."
 goto            @Label_07ce
 
 @Label_07ce:

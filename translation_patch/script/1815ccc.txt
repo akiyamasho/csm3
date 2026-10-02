@@ -91,7 +91,7 @@ code047d        0, 2
 call            @Func_1fe0
 call            @Func_1f26
 jumpz           @Cond_0422, ($b003 == 0)
-dialogtxt       "[NAME 5][NAME 8],"
+dialogtxt       "So, what about Lady Murno,"
 dialogtxt       "was Lady Murno here?"
 goto            @Cond_0422
 
@@ -138,9 +138,9 @@ dialogtxt       "..."
 code047b        
 code0309        
 code0479        0, 4, 12
-dialogtxt       "No... you're right... [NAME 8]"
-dialogtxt       "should've kept a better eye on them. I'm"
-dialogtxt       "sorry."
+dialogtxt       "No... you're right..."
+dialogtxt       "should've kept a better eye on them."
+dialogtxt       "I'm sorry."
 code0309        
 call            @Func_204c
 call            @Func_1f5c
@@ -219,7 +219,7 @@ call            @Func_1fc8
 code0479        0, 0, 12
 call            @Func_1f26
 dialogtxt       "Yeah."
-dialogtxt       "I'll help, too, [NAME 8]."
+dialogtxt       "I'll help, too!"
 code0309        
 call            @Func_1f5c
 code0479        1, 5, 15
@@ -230,7 +230,7 @@ code0309
 call            @Func_1fc8
 code0479        0, 2, 13
 call            @Func_1f26
-dialogtxt       "You think [NAME 8] is"
+dialogtxt       "Who do you think I am?"
 dialogtxt       "helpless? The name Immortal isn't for"
 dialogtxt       "nothing."
 code0309        
@@ -244,7 +244,7 @@ code0479        0, 2, 12
 code047d        0, 0
 call            @Func_1fe0
 call            @Func_1f08
-dialogtxt       "Big bro[NAME 4]..."
+dialogtxt       "Big bro..."
 dialogtxt       "So cool..."
 code047b        
 code0309        
@@ -267,8 +267,8 @@ code0309
 call            @Func_1f5c
 code0479        1, 2, 12
 call            @Func_1f92
-dialogtxt       "Sorry, [NAME 8]. Right now,"
-dialogtxt       "[NAME 8] has more important"
+dialogtxt       "Sorry, Lemmy. Right now,"
+dialogtxt       "I have more important things to do."
 dialogtxt       "friends to worry about..."
 code0309        
 call            @Func_2036
@@ -279,7 +279,7 @@ code0479        0, 4, 12
 code047d        0, 0
 call            @Func_1fe0
 call            @Func_1f26
-dialogtxt       "B... Big bro[NAME 4]..."
+dialogtxt       "B... Big bro..."
 code047b        
 code0309        
 call            @Func_2036
@@ -291,7 +291,7 @@ code047d        0, 110
 call            @Func_1fe0
 code0479        1, 0, 16
 call            @Func_1f92
-dialogtxt       "I'm sorry, [NAME 8], but"
+dialogtxt       "I'm sorry, Lemmy, but"
 dialogtxt       "I'll leave the rest to you..."
 dialogtxt       "Ah, that's right, the Gold Faction..."
 code047b        
@@ -299,8 +299,8 @@ code0309
 call            @Func_1fc8
 code0479        0, 2, 12
 call            @Func_1f26
-dialogtxt       "It's fine. I'll take care of it. Then, for"
-dialogtxt       "now, let's head back to town..."
+dialogtxt       "It's fine. I'll take care of it. Then,"
+dialogtxt       "for now, let's head back to town..."
 dialogtxt       "..."
 code0309        
 code0333        2, 30
@@ -425,7 +425,7 @@ goto            @Label_132e
 call            @Func_1f92
 jumpz           @Cond_138a, ($b003 == 0)
 dialogtxt       "I Believe They Are The Likeliest"
-dialogtxt       "Candidates, [NAME 8]. Let Us"
+dialogtxt       "Candidates seem highly likely. Let us"
 dialogtxt       "Search For Them Immediately."
 goto            @Cond_138a
 
@@ -443,8 +443,8 @@ goto            @Cond_13f8
 
 @Cond_13f8:
 jumpz           @Cond_1444, ($b003 == 3)
-dialogtxt       "It has to be those scary-looking people..."
-dialogtxt       "Let's hurry!"
+dialogtxt       "It has to be those scary-looking"
+dialogtxt       "people... Let's hurry!"
 goto            @Cond_1444
 
 @Cond_1444:
@@ -497,7 +497,7 @@ code047d        0, 2
 call            @Func_1fe0
 call            @Func_1f26
 jumpz           @Cond_162a, ($b003 == 0)
-dialogtxt       "We Are In A Hurry, [NAME 5]."
+dialogtxt       "We are in a hurry."
 dialogtxt       "Please Save The Discussion For Later."
 goto            @Cond_162a
 

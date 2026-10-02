@@ -124,8 +124,8 @@ call            @Func_26c0
 code0479        0, 4, 12
 call            @Func_261e
 jumpz           @Cond_054a, ($b002 == 0)
-dialogtxt       "Yeah... I Feel So Heavy-Hearted... What"
-dialogtxt       "Will Happen to [NAME 8]...?"
+dialogtxt       "Yeah... I Feel So Heavy-Hearted..."
+dialogtxt       "What Will Become of Me...?"
 dialogtxt       "..."
 goto            @Label_058c
 
@@ -141,7 +141,7 @@ call            @Func_2654
 code0479        1, 0, 12
 call            @Func_268a
 dialogtxt       "I Cannot"
-dialogtxt       "Working Here."
+dialogtxt       "Work Here."
 code0309        
 call            @Func_26c0
 code0479        0, 0, 16
@@ -151,29 +151,29 @@ code0309
 call            @Func_2654
 code0479        1, 0, 12
 call            @Func_268a
-dialogtxt       "That Is Fine, But... Then You Showed A"
-dialogtxt       "[NAME 8][NAME 5]"
-dialogtxt       "Somewhat Happy Reaction..."
+dialogtxt       "That Is Fine, But... At the time,"
+dialogtxt       "you seemed a little happy..."
+dialogtxt       "That is what I noticed..."
 code0309        
 call            @Func_26c0
 jumpz           @Cond_0844, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a"
-dialogtxt       "Blacksmith, I Was a Little Happy. It Felt"
-dialogtxt       "Like My Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "But What Is This ‘Husband’ Stuff...?"
+dialogtxt       "But What Is This \"Husband\" Stuff...?"
 dialogtxt       "I Never Thought It Would Come to This."
 dialogtxt       "I Never Expected This Either..."
 code0309        
 call            @Func_2654
 code0479        1, 4, 12
 call            @Func_268a
-dialogtxt       "[NAME 5][NAME 8] Reacted"
-dialogtxt       "When She Called You Cool, [NAME 8]!"
-dialogtxt       "Seemed Happy About It..."
+dialogtxt       "And when she called you cool,"
+dialogtxt       "you seemed happy about it..."
+dialogtxt       "That is what I noticed..."
 code0309        
 call            @Func_26c0
 code0479        0, 8, 15
@@ -187,21 +187,21 @@ goto            @Label_09fe
 @Cond_0844:
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a"
-dialogtxt       "Blacksmith, I Was a Little Happy. It Felt"
-dialogtxt       "Like My Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I Never Expected to Be the Poster Girl..."
+dialogtxt       "Never thought I'd be a poster girl..."
 dialogtxt       "I Never Thought It Would Come to This."
 dialogtxt       "I Never Expected This Either..."
 code0309        
 call            @Func_2654
 code0479        1, 4, 12
 call            @Func_268a
-dialogtxt       "[NAME 5][NAME 8] Reacted"
-dialogtxt       "When She Called You the Poster Girl, [NAME 8]!"
-dialogtxt       "Seemed Happy About It..."
+dialogtxt       "And when she called you"
+dialogtxt       "the poster girl, you seemed"
+dialogtxt       "happy about it..."
 code0309        
 call            @Func_26c0
 code0479        0, 5, 15
@@ -215,7 +215,7 @@ goto            @Label_09fe
 @Label_09fe:
 code0479        1, 0, 12
 call            @Func_268a
-dialogtxt       "Please Do Not [NAME 8]"
+dialogtxt       "Please Do Not"
 dialogtxt       "Forget. My Mission Is To Protect Lady"
 dialogtxt       "Murno."
 code0309        
@@ -299,14 +299,14 @@ call            @Func_26c0
 jumpz           @Cond_0f34, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a Smith,"
-dialogtxt       "I Was a Little Happy."
-dialogtxt       "It Felt Like My [NAME 8]'s Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "But What Is This ‘Husband’ Stuff...?"
+dialogtxt       "But What Is This \"Husband\" Stuff...?"
 dialogtxt       "I Never Thought It Would Come to This."
-dialogtxt       "I [NAME 8] Never Expected This..."
+dialogtxt       "I Never Expected This Either..."
 code0309        
 call            @Func_2654
 code0479        1, 0, 13
@@ -327,12 +327,12 @@ goto            @Label_10ee
 @Cond_0f34:
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a"
-dialogtxt       "Blacksmith, I Was a Little Happy. It Felt"
-dialogtxt       "Like My Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I Never Expected to Be the Poster Girl..."
+dialogtxt       "Never thought I'd be a poster girl..."
 dialogtxt       "I Never Thought It Would Come to This."
 dialogtxt       "I Never Expected This Either..."
 code0309        
@@ -398,15 +398,15 @@ call            @Func_26c0
 code0479        0, 4, 12
 call            @Func_261e
 jumpz           @Cond_130c, ($b002 == 0)
-dialogtxt       "Do Not Say That... I [NAME 8]"
-dialogtxt       "Am Thinking About What to Do... I"
-dialogtxt       "Really Do Not Know."
+dialogtxt       "Don't say that..."
+dialogtxt       "I'm thinking about what to do..."
+dialogtxt       "..."
 goto            @Label_1360
 
 @Cond_130c:
-dialogtxt       "Do Not Say That..."
-dialogtxt       "I Am Thinking About What to Do..."
-dialogtxt       "I Really Do Not Know."
+dialogtxt       "Don't say that..."
+dialogtxt       "I'm thinking about what to do..."
+dialogtxt       "..."
 goto            @Label_1360
 
 @Label_1360:
@@ -414,8 +414,8 @@ code0309
 call            @Func_2654
 code0479        1, 0, 12
 call            @Func_268a
-dialogtxt       "You May Work Here If You Wish, [NAME 4]"
-dialogtxt       "But I Have No Such Intention."
+dialogtxt       "You may work here if you wish,"
+dialogtxt       "but I have no such intention."
 code0309        
 call            @Func_26c0
 code0479        0, 0, 16
@@ -433,29 +433,29 @@ code0309
 call            @Func_2654
 code0479        1, 0, 13
 call            @Func_268a
-dialogtxt       "I Wonder. Truthfully, Perhaps [NAME 4]"
-dialogtxt       "Was Not Entirely Unhappy About It."
-dialogtxt       "..."
+dialogtxt       "I wonder... You didn't seem"
+dialogtxt       "entirely unhappy about it..."
+dialogtxt       "That's what it looked like."
 code0309        
 call            @Func_26c0
 jumpz           @Cond_1632, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a Smith,"
-dialogtxt       "I Was a Little Happy."
-dialogtxt       "It Felt Like My [NAME 8]'s Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 2, 14
-dialogtxt       "But What Is This ‘Husband’ Stuff...?"
+dialogtxt       "But What Is This \"Husband\" Stuff...?"
 dialogtxt       "I Never Thought It Would Come to This."
-dialogtxt       "I [NAME 8] Never Expected This..."
+dialogtxt       "I Never Expected This Either..."
 code0309        
 call            @Func_2654
 code0479        1, 3, 12
 call            @Func_268a
-dialogtxt       "I Wonder."
-dialogtxt       "[NAME 4], You Are Not"
-dialogtxt       "Indifferent to That Girl, Are You?"
+dialogtxt       "I wonder..."
+dialogtxt       "You don't dislike that girl,"
+dialogtxt       "do you?"
 code0309        
 call            @Func_26c0
 code0479        0, 8, 15
@@ -469,12 +469,12 @@ goto            @Label_17de
 @Cond_1632:
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a"
-dialogtxt       "Blacksmith, I Was a Little Happy. It Felt"
-dialogtxt       "Like My Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        0, 4, 14
-dialogtxt       "I Never Expected to Be the Poster Girl..."
+dialogtxt       "Never thought I'd be a poster girl..."
 dialogtxt       "I Never Thought It Would Come to This."
 dialogtxt       "I Never Expected This Either..."
 code0309        
@@ -483,7 +483,7 @@ code0479        1, 3, 12
 call            @Func_268a
 dialogtxt       "I Wonder..."
 dialogtxt       "You Did React to the Words"
-dialogtxt       "‘Poster Girl,’ Though."
+dialogtxt       "\"Poster Girl,\" Though."
 code0309        
 call            @Func_26c0
 code0479        0, 5, 15
@@ -497,8 +497,8 @@ goto            @Label_17de
 @Label_17de:
 code0479        1, 0, 12
 call            @Func_268a
-dialogtxt       "However, If [NAME 4] Still"
-dialogtxt       "Intends To Protect Murno, You Had"
+dialogtxt       "But if you still"
+dialogtxt       "intend to protect Murno, you had"
 dialogtxt       "Better Be Prepared..."
 code0309        
 call            @Func_26c0
@@ -591,15 +591,15 @@ call            @Func_26c0
 jumpz           @Cond_1d6c, ($b002 == 0)
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a Smith,"
-dialogtxt       "I Was a Little Happy."
-dialogtxt       "It Felt Like My [NAME 8]'s Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        1, 0, 12
 code0479        0, 2, 14
-dialogtxt       "But What Is This ‘Husband’ Stuff...?"
+dialogtxt       "But What Is This \"Husband\" Stuff...?"
 dialogtxt       "I Never Thought It Would Come to This."
-dialogtxt       "I [NAME 8] Never Expected This..."
+dialogtxt       "I Never Expected This Either..."
 code0309        
 call            @Func_2654
 code0479        1, 4, 13
@@ -620,13 +620,13 @@ goto            @Label_1f40
 @Cond_1d6c:
 code0479        0, 2, 16
 call            @Func_261e
-dialogtxt       "When Asked If I Wanted to Be a"
-dialogtxt       "Blacksmith, I Was a Little Happy. It Felt"
-dialogtxt       "Like My Skills Were Recognized."
+dialogtxt       "When asked if I wanted"
+dialogtxt       "to work as a blacksmith, I felt"
+dialogtxt       "glad my skills were noticed."
 code0309        
 code0479        1, 0, 12
 code0479        0, 4, 14
-dialogtxt       "I Never Expected to Be the Poster Girl..."
+dialogtxt       "Never thought I'd be a poster girl..."
 dialogtxt       "I Never Thought It Would Come to This."
 dialogtxt       "I Never Expected This Either..."
 code0309        

@@ -53,8 +53,8 @@ code0309
 call            @Func_10a4
 code0479        1, 0, 16
 call            @Func_10da
-dialogtxt       "I heard some awful groaning,"
-dialogtxt       "so I thought it might be another stray."
+dialogtxt       "I heard some awful groaning, so I"
+dialogtxt       "thought it might be another stray."
 code0309        
 call            @Func_1110
 code0479        0, 4, 14
@@ -141,19 +141,19 @@ goto            @Label_06cc
 @Label_06cc:
 code0479        1, 5, 12
 call            @Func_10da
-dialogtxt       "I'm surprised..."
-dialogtxt       "I never thought I'd hear that from you..."
+dialogtxt       "I'm surprised... I never thought I'd"
+dialogtxt       "hear that from you..."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "You live however you please every day,"
-dialogtxt       "and you're saying you're unhappier than"
-dialogtxt       "me? That's not a funny joke."
+dialogtxt       "and you're saying you're unhappier"
+dialogtxt       "than me? That's not a funny joke."
 code0309        
 call            @Func_1110
 code0479        0, 2, 15
 call            @Func_106e
 jumpz           @Cond_07ea, ($b002 == 0)
-dialogtxt       "What...? [NAME 8] was"
+dialogtxt       "What...? I was"
 dialogtxt       "seriously worried about it!"
 goto            @Label_0822
 
@@ -172,8 +172,8 @@ dialogtxt       "If you're really that worried,"
 dialogtxt       "you should go to sleep right now."
 code0309        
 code0479        1, 0, 13
-dialogtxt       "Then by tomorrow morning,"
-dialogtxt       "I think you'll have forgotten all about it."
+dialogtxt       "Then by tomorrow morning, I think"
+dialogtxt       "you'll have forgotten all about it."
 code0309        
 call            @Func_1110
 code0479        0, 2, 15

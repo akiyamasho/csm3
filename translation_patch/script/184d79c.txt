@@ -42,21 +42,21 @@ code047d        0, 2
 code0301        16, 3
 code047e        0, 1
 jumpz           @Cond_01d6, ($b003 == 0)
-dialogtxt       "Are You All Right, Partner?"
+dialogtxt       "All Right, Partner?"
 goto            @Label_023e
 
 @Cond_01d6:
 jumpz           @Cond_020c, ($b003 == 1)
-dialogtxt       "Being Well Is Good, But..."
+dialogtxt       "Being Well Is Good, Though..."
 goto            @Label_023e
 
 @Cond_020c:
 jumpz           @Cond_022a, ($b003 == 2)
-dialogtxt       "Hmph..."
+dialogtxt       "Hm..."
 goto            @Label_023e
 
 @Cond_022a:
-dialogtxt       "Oh, δ."
+dialogtxt       "δ."
 goto            @Label_023e
 
 @Label_023e:
@@ -108,21 +108,21 @@ call            @Func_2788
 jumpz           @Cond_0a50, ($b003 == 0)
 call            @Func_26f0
 dialogtxt       "You Should Rest Today."
-dialogtxt       "Wouldn't That Be Best?"
+dialogtxt       "Wouldn't That Do?"
 code0309        
 call            @Func_2744
 code0479        0, 2, 16
 call            @Func_26a2
 jumpz           @Cond_04d0, ($b002 == 0)
-dialogtxt       "I Sure Had A Rough Day Today."
-dialogtxt       "They Really Did A Number On Me..."
-dialogtxt       "Are You All Right, γ?"
+dialogtxt       "Rough Day Today."
+dialogtxt       "They Did A Number On Me..."
+dialogtxt       "All Right, γ?"
 goto            @Label_0512
 
 @Cond_04d0:
-dialogtxt       "I Sure Had A Rough Day Today."
-dialogtxt       "They Really Did A Number On Me..."
-dialogtxt       "Are You All Right, γ?"
+dialogtxt       "Rough Day."
+dialogtxt       "They Did A Number On Me..."
+dialogtxt       "All Right, γ?"
 goto            @Label_0512
 
 @Label_0512:
@@ -130,27 +130,27 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 12
 call            @Func_270e
-dialogtxt       "There Is No Problem."
-dialogtxt       "There Is No Functional Damage."
-dialogtxt       "Are You [NAME 5], All Right?"
+dialogtxt       "There is no problem."
+dialogtxt       "No functional damage."
+dialogtxt       "Are you all right?"
 code0309        
 call            @Func_2744
 code0479        0, 4, 14
 call            @Func_26a2
 jumpz           @Cond_0658, ($b002 == 0)
 dialogtxt       "Yeah."
-dialogtxt       "They Really Roughed Me Up, But..."
+dialogtxt       "They Roughed Me Up, But..."
 dialogtxt       "The Worst Part Was..."
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Getting Hugged By Someone"
+dialogtxt       "Being Hugged By Someone"
 dialogtxt       "Named Gillan. I Still Cringe"
 dialogtxt       "When I Think About It..."
 goto            @Label_0702
 
 @Cond_0658:
 dialogtxt       "Yeah."
-dialogtxt       "They Really Roughed Me Up, But..."
+dialogtxt       "They Roughed Me Up, But..."
 dialogtxt       "The Worst Part Was..."
 code0309        
 code0479        0, 4, 12
@@ -164,14 +164,14 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 12
 call            @Func_270e
-dialogtxt       "At That Time, You Were"
-dialogtxt       "In Very Great Pain, [NAME 5]..."
+dialogtxt       "You certainly seemed"
+dialogtxt       "to be in great pain..."
 code0309        
 call            @Func_2744
 code0479        0, 4, 12
 call            @Func_26a2
 dialogtxt       "It Was Hard."
-dialogtxt       "Really Hard..."
+dialogtxt       "Hard..."
 dialogtxt       "And Then..."
 code0309        
 code0479        0, 2, 16
@@ -208,8 +208,8 @@ code0309
 call            @Func_26d8
 code0479        1, 4, 12
 call            @Func_270e
-dialogtxt       "Something You Cannot Say"
-dialogtxt       "What Is It, [NAME 6]...?"
+dialogtxt       "Something Unsaid"
+dialogtxt       "What is it...?"
 code0309        
 call            @Func_2744
 code0479        0, 4, 16
@@ -220,14 +220,14 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 12
 call            @Func_270e
-dialogtxt       "Your Reaction Is Not Like You At All."
-dialogtxt       "Something Serious Has"
-dialogtxt       "Happened, [NAME 4] , Hasn't It, [NAME 6]..."
+dialogtxt       "Your Reaction Isn't Like You."
+dialogtxt       "Something Serious"
+dialogtxt       "Something serious happened, right...?"
 code0309        
 code0479        1, 2, 12
-dialogtxt       "When We Meet Them Next Time,"
-dialogtxt       "I Will Include [NAME 5]'s Share"
-dialogtxt       "In My Response."
+dialogtxt       "If we meet them next time,"
+dialogtxt       "I will take that into account"
+dialogtxt       "when I respond."
 code0309        
 call            @Func_2744
 code0479        0, 1, 14
@@ -244,22 +244,22 @@ jumpz           @Cond_1182, ($b003 == 1)
 call            @Func_26f0
 dialogtxt       "What Is It, Youngster?"
 dialogtxt       "You Should Rest Today."
-dialogtxt       "Wouldn't That Be Best?"
+dialogtxt       "Wouldn't That Do?"
 code047b        
 code0309        
 call            @Func_2744
 code0479        0, 4, 16
 call            @Func_26a2
 jumpz           @Cond_0b24, ($b002 == 0)
-dialogtxt       "I Sure Had A Rough Day Today."
-dialogtxt       "They Really Did A Number On Me..."
-dialogtxt       "Are You All Right, γ?"
+dialogtxt       "Rough Day."
+dialogtxt       "They Did A Number On Me..."
+dialogtxt       "All Right, γ?"
 goto            @Label_0b66
 
 @Cond_0b24:
-dialogtxt       "I Sure Had A Rough Day Today."
-dialogtxt       "They Really Did A Number On Me..."
-dialogtxt       "Are You All Right, γ?"
+dialogtxt       "Rough Day."
+dialogtxt       "They Did A Number On Me..."
+dialogtxt       "All Right, γ?"
 goto            @Label_0b66
 
 @Label_0b66:
@@ -282,19 +282,19 @@ code0479        0, 0, 12
 call            @Func_26a2
 jumpz           @Cond_0d46, ($b002 == 0)
 dialogtxt       "Yeah."
-dialogtxt       "They Really Roughed Me Up, But..."
+dialogtxt       "They Roughed Me Up, But..."
 dialogtxt       "The Worst Part Was..."
 code0309        
 code0479        1, 0, 14
 code0479        0, 4, 12
-dialogtxt       "Getting Hugged By Someone"
+dialogtxt       "Being Hugged By Someone"
 dialogtxt       "Named Gillan. I Still Cringe"
 dialogtxt       "When I Think About It..."
 goto            @Label_0e06
 
 @Cond_0d46:
 dialogtxt       "Yeah."
-dialogtxt       "They Really Roughed Me Up, But..."
+dialogtxt       "They Roughed Me Up, But..."
 dialogtxt       "The Worst Part Was..."
 code0309        
 code0479        1, 0, 14
@@ -309,15 +309,15 @@ code0309
 call            @Func_26d8
 code0479        1, 4, 12
 call            @Func_270e
-dialogtxt       "Oh, Yes... Indeed, [NAME 8]"
-dialogtxt       "Looked To Be In Pain. Just Imagining"
-dialogtxt       "It Makes My Fur Stand On End."
+dialogtxt       "Yes... That looked painful."
+dialogtxt       "Just imagining it makes"
+dialogtxt       "my fur stand on end."
 code0309        
 call            @Func_2744
 code0479        0, 4, 12
 call            @Func_26a2
 dialogtxt       "It Was Hard."
-dialogtxt       "Really Hard..."
+dialogtxt       "Hard..."
 dialogtxt       "And Then..."
 code0309        
 code0479        0, 2, 16
@@ -334,7 +334,7 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 16
 call            @Func_270e
-dialogtxt       "What Is That Supposed To Mean?"
+dialogtxt       "What Does That Mean?"
 code0309        
 call            @Func_2744
 code0479        0, 5, 14
@@ -354,8 +354,8 @@ code0309
 call            @Func_26d8
 code0479        1, 2, 14
 call            @Func_270e
-dialogtxt       "If they cannot even tell me..."
-dialogtxt       "It must be quite serious..."
+dialogtxt       "If they can't even tell me..."
+dialogtxt       "It must be serious..."
 dialogtxt       "Those people..."
 code0309        
 call            @Func_2744
@@ -367,14 +367,14 @@ code0309
 call            @Func_26d8
 code0479        1, 2, 15
 call            @Func_270e
-dialogtxt       "Very well!"
+dialogtxt       "well!"
 dialogtxt       "You needn't say a thing!"
 code0309        
 code0479        0, 0, 16
 code0479        1, 2, 12
-dialogtxt       "The next time I meet them,"
-dialogtxt       "I swear on this topknot"
-dialogtxt       "I shall make them pay for your sake too!"
+dialogtxt       "The next time I meet them, I swear on"
+dialogtxt       "this topknot I shall make them pay for"
+dialogtxt       "your sake too!"
 code0309        
 call            @Func_2744
 code0479        0, 1, 14
@@ -396,15 +396,15 @@ call            @Func_2744
 code0479        0, 0, 16
 call            @Func_26a2
 jumpz           @Cond_1248, ($b002 == 0)
-dialogtxt       "What about you, γ? Are you"
+dialogtxt       "And you, γ? Are you"
 dialogtxt       "all right? You went through"
-dialogtxt       "quite a lot too, didn't you?"
+dialogtxt       "a lot too, didn't you?"
 goto            @Label_1290
 
 @Cond_1248:
-dialogtxt       "What about you, γ? Are you"
+dialogtxt       "And you, γ? Are you"
 dialogtxt       "all right? You went through"
-dialogtxt       "quite a lot too, didn't you?"
+dialogtxt       "a lot too, didn't you?"
 goto            @Label_1290
 
 @Label_1290:
@@ -412,9 +412,9 @@ code0309
 call            @Func_26d8
 code0479        1, 2, 14
 call            @Func_270e
-dialogtxt       "Being in the same room as that"
-dialogtxt       "mop-head was the greatest humiliation..."
-dialogtxt       "Just remembering it makes me furious."
+dialogtxt       "Sharing a room with that"
+dialogtxt       "mop-head was my worst humiliation..."
+dialogtxt       "remembering it makes me furious."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "When I meet that mop-head again,"
@@ -426,7 +426,7 @@ code0479        0, 4, 13
 call            @Func_26a2
 jumpz           @Cond_1440, ($b002 == 0)
 dialogtxt       "Haha..."
-dialogtxt       "I got roughed up pretty badly too, but"
+dialogtxt       "I got roughed up badly too, but"
 dialogtxt       "the worst part was..."
 code0309        
 code0479        1, 0, 12
@@ -453,14 +453,14 @@ code0479        1, 4, 13
 call            @Func_270e
 dialogtxt       "Heh..."
 dialogtxt       "If it were me, I'd be so ashamed"
-dialogtxt       "I might just disappear..."
+dialogtxt       "I might disappear..."
 code0309        
 call            @Func_2744
 code0479        0, 4, 16
 call            @Func_26a2
 jumpz           @Cond_15f4, ($b002 == 0)
 dialogtxt       "It's no laughing matter."
-dialogtxt       "It was really painful..."
+dialogtxt       "It was painful..."
 dialogtxt       "And..."
 code0309        
 code0479        1, 0, 12
@@ -470,7 +470,7 @@ goto            @Label_167c
 
 @Cond_15f4:
 dialogtxt       "It's no laughing matter."
-dialogtxt       "It was really painful..."
+dialogtxt       "It was painful..."
 dialogtxt       "And..."
 code0309        
 code0479        1, 0, 12
@@ -483,7 +483,7 @@ code0309
 call            @Func_26d8
 code0479        1, 3, 12
 call            @Func_270e
-dialogtxt       "What is that supposed to mean?"
+dialogtxt       "What is that meant to mean?"
 code0309        
 call            @Func_2744
 code0479        0, 5, 17
@@ -504,7 +504,7 @@ call            @Func_26d8
 code0479        1, 2, 14
 call            @Func_270e
 dialogtxt       "..."
-dialogtxt       "That attitude of [NAME 4]..."
+dialogtxt       "Your attitude..."
 dialogtxt       "It must be something serious."
 code0309        
 call            @Func_2744
@@ -516,9 +516,9 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 13
 call            @Func_270e
-dialogtxt       "Heh... Very well. When I find them"
-dialogtxt       "next time, I'll also give them what"
-dialogtxt       "they deserve for [NAME 4]."
+dialogtxt       "Heh... well. Next time I find them,"
+dialogtxt       "I'll pay you back for what"
+dialogtxt       "you did to me."
 code0309        
 code0479        1, 2, 13
 dialogtxt       "Such exquisite pain"
@@ -545,14 +545,14 @@ call            @Func_2744
 code0479        0, 2, 16
 call            @Func_26a2
 jumpz           @Cond_1988, ($b002 == 0)
-dialogtxt       "Today was certainly rough..."
-dialogtxt       "They really put us through the wringer..."
+dialogtxt       "Today was certainly rough... They"
+dialogtxt       "put us through the wringer..."
 dialogtxt       "Are you all right too, γ?"
 goto            @Label_19ca
 
 @Cond_1988:
-dialogtxt       "Today was certainly rough..."
-dialogtxt       "They really put us through the wringer..."
+dialogtxt       "Today was certainly rough... They"
+dialogtxt       "put us through the wringer..."
 dialogtxt       "Are you all right too, γ?"
 goto            @Label_19ca
 
@@ -606,7 +606,7 @@ code0309
 call            @Func_26d8
 code0479        1, 4, 16
 call            @Func_270e
-dialogtxt       "Ah, yes, [NAME 8] certainly..."
+dialogtxt       "Ah, yes, that..."
 dialogtxt       "Ugh... Just imagining it"
 dialogtxt       "gives me goosebumps."
 code0309        
@@ -638,7 +638,7 @@ code0309
 call            @Func_26d8
 code0479        1, 0, 16
 call            @Func_270e
-dialogtxt       "What is that supposed to mean?"
+dialogtxt       "What is that meant to mean?"
 code0309        
 call            @Func_2744
 code0479        0, 5, 14
@@ -658,7 +658,7 @@ code0309
 call            @Func_26d8
 code0479        1, 2, 16
 call            @Func_270e
-dialogtxt       "You cannot even tell me?"
+dialogtxt       "You can't even tell me?"
 dialogtxt       "I have a feeling something terrible"
 dialogtxt       "must have happened..."
 code0309        
@@ -672,13 +672,13 @@ call            @Func_26d8
 code0479        1, 2, 14
 call            @Func_270e
 dialogtxt       "No, you don't have to force yourself."
-dialogtxt       "I understand those people are the worst."
-dialogtxt       "I will never forgive them!"
+dialogtxt       "I understand those people are the"
+dialogtxt       "worst. I'll never forgive them!"
 code0309        
 code0479        0, 5, 14
 code0479        1, 2, 15
 dialogtxt       "The next time I meet them,"
-dialogtxt       "I will make absolutely sure"
+dialogtxt       "I'll make absolutely sure"
 dialogtxt       "they learn what they did!"
 code0309        
 call            @Func_2744

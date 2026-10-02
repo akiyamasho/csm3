@@ -150,7 +150,7 @@ jumpz           @Cond_0702, ($b003 == 1)
 code0479        1, 0, 14
 call            @Func_171e
 dialogtxt       "Help!?"
-dialogtxt       "With that [NAME 6]?"
+dialogtxt       "With that thing?"
 dialogtxt       "What could you possibly help with?"
 code0309        
 call            @Func_17c2
@@ -162,7 +162,7 @@ code047d        0, 2
 call            @Func_176c
 code0479        0, 2, 15
 call            @Func_16b2
-dialogtxt       "I Am Not a [NAME 6]!"
+dialogtxt       "I am not a cat!"
 dialogtxt       "I Am Toramata, a tiger yokai!"
 code047b        
 code0309        
@@ -193,7 +193,7 @@ call            @Func_176c
 code0479        0, 2, 14
 call            @Func_16b2
 dialogtxt       "I Am Not a Child!"
-dialogtxt       "[NAME 4], don't talk big"
+dialogtxt       "Master, don't talk big"
 dialogtxt       "just because I look young!"
 code047b        
 code0309        
@@ -211,9 +211,9 @@ goto            @Cond_0882
 jumpz           @Cond_09d6, ($b003 == 3)
 code0479        1, 0, 14
 call            @Func_171e
-dialogtxt       "Help!?"
-dialogtxt       "With a Summon Beast in that frilly outfit?"
-dialogtxt       "What could you possibly help with?"
+dialogtxt       "Help!? With a Summon Beast in that"
+dialogtxt       "frilly outfit? What could you possibly"
+dialogtxt       "help with?"
 code0309        
 call            @Func_17c2
 call            @Func_1754
@@ -288,7 +288,7 @@ code047d        0, 0
 call            @Func_176c
 code0479        1, 2, 14
 call            @Func_171e
-dialogtxt       "[NAME 4], if you're this one's"
+dialogtxt       "Master, if you're this one's"
 dialogtxt       "owner, you'd better train it properly."
 code047b        
 code0309        
@@ -317,9 +317,9 @@ dialogtxt       "Honestly... The owner's own training"
 dialogtxt       "is lacking, too..."
 code0309        
 code0479        1, 2, 15
-dialogtxt       "Listen! Summon Beasts are tools!"
-dialogtxt       "Tools do not talk back."
-dialogtxt       "A talking Summon Beast is an unfit tool."
+dialogtxt       "Listen! Summon Beasts are tools! Tools"
+dialogtxt       "do not talk back. A talking Summon"
+dialogtxt       "Beast is an unfit tool."
 code0309        
 call            @Func_1754
 code0479        0, 5, 15
@@ -330,7 +330,7 @@ call            @Func_16e8
 code0479        1, 2, 12
 call            @Func_171e
 dialogtxt       "Perfect. In your master's place, I,"
-dialogtxt       "[NAME 8], will teach that"
+dialogtxt       "I will teach that"
 dialogtxt       "Summon Beast"
 code0309        
 code0479        1, 2, 13
@@ -377,7 +377,7 @@ goto            @Cond_0f44
 
 @Cond_0f44:
 jumpz           @Cond_0faa, ($b003 == 2)
-dialogtxt       "[NAME 4], I will teach you"
+dialogtxt       "Master, I will teach you"
 dialogtxt       "exactly what happens when you"
 dialogtxt       "talk back to me."
 goto            @Cond_0faa
@@ -397,7 +397,7 @@ code0479        1, 2, 15
 call            @Func_171e
 dialogtxt       "What spirit!"
 dialogtxt       "With that attitude, try to"
-dialogtxt       "entertain me, [NAME 8]!"
+dialogtxt       "entertain me!"
 code0309        
 call            @Func_17c2
 call            @Func_1754

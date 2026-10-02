@@ -190,12 +190,12 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_09aa, ($b002 == 0)
-dialogtxt       "Ani[NAME 4] and the Gold Faction"
+dialogtxt       "Big Brother and the Gold Faction"
 dialogtxt       "aren't this way!"
 goto            @Label_09cc
 
 @Cond_09aa:
-dialogtxt       "We've got to catch Ani[NAME 4]!"
+dialogtxt       "We've got to catch Big Brother!"
 goto            @Label_09cc
 
 @Label_09cc:
@@ -575,8 +575,8 @@ code047e        0, 1
 dialogtxt       "East of town lies Lyute Grotto,"
 dialogtxt       "you know."
 code0309        
-dialogtxt       "There are lots of rocky areas and caves,"
-dialogtxt       "so I often go mining for ore, but lately"
+dialogtxt       "There are many rocky areas and caves,"
+dialogtxt       "so I often mine for ore, but lately"
 dialogtxt       "the strays have been causing trouble."
 code0309        
 code047e        0, 0
@@ -585,9 +585,9 @@ code040b
 
 @Event_18b4:
 code0301        8, 7
-dialogtxt       "Tomorrow we'll publish hints"
-dialogtxt       "for enhancement combinations."
-dialogtxt       "Please take a look if you're interested."
+dialogtxt       "Tomorrow we'll publish hints for"
+dialogtxt       "enhancement combinations. Please take"
+dialogtxt       "a look if you're interested."
 code0309        
 code0302        7
 code040b        

@@ -444,9 +444,9 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　　~Hey, hey~"
 code0309        
-dialogtxt       "Lately, strange voices have been coming"
-dialogtxt       "from the desk behind me. It's giving me"
-dialogtxt       "the creeps."
+dialogtxt       "Lately, strange voices have come from"
+dialogtxt       "the desk behind me. It's giving me the"
+dialogtxt       "creeps."
 code0309        
 code0302        7
 code040b        
@@ -465,8 +465,8 @@ code0301        8, 7
 dialogtxt       "Fishing Friends News -- Extra"
 dialogtxt       "Fishing Friends News -- Extra"
 code0309        
-dialogtxt       "They say the Fisherman's Pond in Dickle"
-dialogtxt       "Village has an unbelievably huge catch."
+dialogtxt       "They say the pond in Dickle Village"
+dialogtxt       "has an amazingly huge catch."
 code0309        
 dialogtxt       "The fisherman who claims to have"
 dialogtxt       "caught it says, \"It stuck way out"

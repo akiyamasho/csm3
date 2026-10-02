@@ -14,7 +14,7 @@ code0482
 code047d        0, 108
 code0301        16, 3
 code047e        0, 1
-dialogtxt       "That's quite a sigh you're letting out."
+dialogtxt       "That's a sigh."
 code0309        
 code047e        0, 0
 code0302        3
@@ -52,21 +52,21 @@ code0309
 call            @Func_10d0
 code0479        1, 1, 13
 call            @Func_1106
-dialogtxt       "What's wrong? Did you run away because"
+dialogtxt       "What's wrong? Run away because"
 dialogtxt       "you're too popular?"
 code0309        
 call            @Func_113c
 code0479        0, 2, 15
 call            @Func_109a
 jumpz           @Cond_0376, ($b002 == 0)
-dialogtxt       "What are you talking about?! The reason"
-dialogtxt       "[NAME 8] ended up like this is"
-dialogtxt       "partly your fault, Chief!"
+dialogtxt       "What are you saying?!"
+dialogtxt       "I'm like this because"
+dialogtxt       "you're partly to blame too, Master!"
 goto            @Label_03ce
 
 @Cond_0376:
-dialogtxt       "What are you talking about?!"
-dialogtxt       "The reason I'm like this"
+dialogtxt       "What do you mean?!"
+dialogtxt       "Why I'm like this"
 dialogtxt       "is partly your fault, Chief!"
 goto            @Label_03ce
 
@@ -75,19 +75,19 @@ code0309
 call            @Func_10d0
 code0479        1, 2, 15
 call            @Func_1106
-dialogtxt       "Don't blame me! If you can't deal with"
-dialogtxt       "that yourself, what kind of full-fledged"
-dialogtxt       "blacksmith are you?!"
+dialogtxt       "Don't blame me! If you can't deal"
+dialogtxt       "with that yourself, what sort of"
+dialogtxt       "smith are you?!"
 code0309        
 call            @Func_113c
 code0479        0, 2, 15
 call            @Func_109a
 jumpz           @Cond_04a4, ($b002 == 0)
-dialogtxt       "Th-the blacksmith thing is unrelated?!"
+dialogtxt       "Th-the smith thing is unrelated?!"
 goto            @Label_04ca
 
 @Cond_04a4:
-dialogtxt       "Th-the blacksmith thing is unrelated?!"
+dialogtxt       "Th-the smith thing is unrelated?!"
 goto            @Label_04ca
 
 @Label_04ca:
@@ -95,8 +95,8 @@ code0309
 call            @Func_10d0
 code0479        1, 2, 12
 call            @Func_1106
-dialogtxt       "What are you talking about?"
-dialogtxt       "Top-class blacksmiths are popular."
+dialogtxt       "What do you mean?"
+dialogtxt       "Top-class smiths are popular."
 dialogtxt       "They're cool, after all."
 code0309        
 code0479        0, 0, 16
@@ -141,7 +141,7 @@ goto            @Label_070a
 code0479        1, 0, 12
 call            @Func_1106
 dialogtxt       "He didn't do anything."
-dialogtxt       "He just acted as he always did."
+dialogtxt       "He acted as he always did."
 code0309        
 call            @Func_113c
 code0479        0, 0, 16
@@ -164,8 +164,8 @@ code0309
 call            @Func_10d0
 code0479        1, 2, 13
 call            @Func_1106
-dialogtxt       "If a man like that fell for me,"
-dialogtxt       "I'm a top-class blacksmith, too, right?"
+dialogtxt       "If a man like that fell for me, I'm a"
+dialogtxt       "top-class smith, too, right?"
 code0309        
 call            @Func_113c
 code0479        0, 4, 12
@@ -176,13 +176,13 @@ code0309
 call            @Func_10d0
 call            @Func_1106
 jumpz           @Cond_0912, ($b002 == 0)
-dialogtxt       "You're that popular, too, so you've got"
-dialogtxt       "what it takes to be top-class."
+dialogtxt       "You're popular, too, so you've"
+dialogtxt       "got what it takes to be top-class."
 goto            @Label_0958
 
 @Cond_0912:
-dialogtxt       "You're that popular, too, so you've got"
-dialogtxt       "what it takes to be top-class."
+dialogtxt       "You're that popular, too, so you've"
+dialogtxt       "got what it takes to be top-class."
 goto            @Label_0958
 
 @Label_0958:

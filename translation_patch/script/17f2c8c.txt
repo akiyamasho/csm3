@@ -38,8 +38,8 @@ code047b
 code0309        
 code0331        31, 256
 code0479        1, 4, 12
-dialogtxt       "I must say, my skills have gotten rusty."
-dialogtxt       "Even if I've been taking it easy like a dog"
+dialogtxt       "My skills have grown rusty, I admit."
+dialogtxt       "Even if I've lazed around like a dog"
 dialogtxt       "in summer, to end up like this..."
 code0309        
 call            @Func_1668
@@ -75,7 +75,7 @@ call            @Func_1680
 call            @Func_15c6
 jumpz           @Cond_03a2, ($b003 == 0)
 dialogtxt       "Affirmative. Compared To"
-dialogtxt       "Compared To [NAME 4]'s Previous Movements,"
+dialogtxt       "Compared To Your Previous Movements,"
 dialogtxt       "Movements, Speed Was Lacking."
 code047b        
 code0309        
@@ -96,7 +96,7 @@ goto            @Cond_0420
 @Cond_0420:
 jumpz           @Cond_04c2, ($b003 == 2)
 dialogtxt       "Honestly..."
-dialogtxt       "Compared to [NAME 4] last time,"
+dialogtxt       "Compared to last time,"
 dialogtxt       "you were nothing alike."
 code047b        
 code0309        
@@ -108,7 +108,7 @@ goto            @Cond_04c2
 @Cond_04c2:
 jumpz           @Cond_0528, ($b003 == 3)
 dialogtxt       "Indeed, compared to before, your"
-dialogtxt       "movements lacked [NAME 4][NAME 8]."
+dialogtxt       "your movements lacked sharpness."
 dialogtxt       "Do not overexert yourself."
 code047b        
 goto            @Cond_0528
@@ -222,7 +222,7 @@ call            @Func_15c6
 jumpz           @Cond_0920, ($b003 == 0)
 dialogtxt       "..."
 dialogtxt       "I Judge That The Probability Of"
-dialogtxt       "[NAME 5] Is High."
+dialogtxt       "I Will Make A Judgment."
 goto            @Cond_0920
 
 @Cond_0920:

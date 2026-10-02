@@ -323,8 +323,8 @@ code047e        0, 1
 dialogtxt       "When I grow up,"
 dialogtxt       "I'll become an adult."
 code0309        
-dialogtxt       "For now, I realized that thinking about it"
-dialogtxt       "from there is the realistic thing to do."
+dialogtxt       "For now, I know thinking about it from"
+dialogtxt       "there is the realistic thing to do."
 dialogtxt       "can be used."
 code0309        
 code047e        0, 0

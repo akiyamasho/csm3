@@ -45,12 +45,12 @@ goto            @Label_01c8
 @Label_01c8:
 call            @Func_0b20
 jumpz           @Cond_0252, ($b003 == 0)
-dialogtxt       "Brother said earlier"
-dialogtxt       "it was past the dead end, after turning,"
-dialogtxt       "...or so he said."
+dialogtxt       "Brother said earlier it was past the"
+dialogtxt       "dead end, after turning, ...or so he"
+dialogtxt       "said."
 code0309        
-dialogtxt       "For [NAME 5], I Think This Is"
-dialogtxt       "The Way [NAME 8]"
+dialogtxt       "For that reason, I think this is"
+dialogtxt       "the right way."
 goto            @Cond_0252
 
 @Cond_0252:

@@ -322,7 +322,7 @@ code043e        16, 3, 0
 code0301        8, 7
 code047d        0, 127
 code047e        0, 1
-dialogtxt       "Lately, even the factions and the militia"
+dialogtxt       "Lately, even the factions and militia"
 dialogtxt       "can't handle all the stray attacks."
 code0309        
 code047e        0, 0
@@ -337,7 +337,7 @@ dialogtxt       "The sheer number of strays lately"
 dialogtxt       "is a real problem."
 code0309        
 dialogtxt       "Even when you think you've beaten one,"
-dialogtxt       "it can show up again when you turn back."
+dialogtxt       "it may reappear when you turn back."
 code0309        
 code047e        0, 0
 code0302        7

@@ -245,7 +245,7 @@ dialogtxt       "I felt like I had to work around here,"
 dialogtxt       "but"
 dialogtxt       "it doesn't look like good business..."
 code0309        
-dialogtxt       "Buy something, [NAME 4]mi?"
+dialogtxt       "Buy something, you?"
 code0309        
 code047e        0, 0
 code0302        7

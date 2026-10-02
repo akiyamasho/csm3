@@ -111,9 +111,9 @@ dialogtxt       "Those two..."
 dialogtxt       "They're going too far..."
 code0309        
 code0479        1, 0, 14
-dialogtxt       "You know,"
-dialogtxt       "they have been pretty angry"
-dialogtxt       "ever since you beat them..."
+dialogtxt       "Since [NAME 2] and friends beat us..."
+dialogtxt       "They got chewed out at the workshop"
+dialogtxt       "and were furious..."
 code0309        
 call            @Func_1284
 code0479        0, 4, 16

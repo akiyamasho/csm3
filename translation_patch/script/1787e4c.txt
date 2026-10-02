@@ -261,7 +261,7 @@ ret
 code0301        8, 7
 dialogtxt       "If magic attacks deal"
 dialogtxt       "only 1 damage, magic may not work."
-dialogtxt       "You may be facing a terrifying opponent."
+dialogtxt       "You may face a terrifying opponent."
 code0309        
 code0302        7
 code040b        

@@ -264,7 +264,7 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　∞Missing∞"
 code0309        
-dialogtxt       "We're looking for a [NAME 6]ko"
+dialogtxt       "We're looking for a cat"
 dialogtxt       "with a striped tail."
 dialogtxt       "Please contact us if you find it."
 code0309        

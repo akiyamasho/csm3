@@ -186,7 +186,7 @@ call            @Func_1374
 call            @Func_129c
 jumpz           @Cond_08e2, ($b002 == 0)
 dialogtxt       "What?!"
-dialogtxt       "[NAME 8] isn't scared!"
+dialogtxt       "I'm not scared!"
 goto            @Label_091a
 
 @Cond_08e2:

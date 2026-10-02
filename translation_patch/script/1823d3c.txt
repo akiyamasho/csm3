@@ -88,15 +88,15 @@ call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_03ba, ($b002 == 0)
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
-dialogtxt       "It's fine."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools and"
+dialogtxt       "such. Fine."
 goto            @Label_0410
 
 @Cond_03ba:
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
-dialogtxt       "It's fine."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools and"
+dialogtxt       "Fine."
 goto            @Label_0410
 
 @Label_0410:
@@ -104,7 +104,7 @@ code0309
 call            @Func_0e72
 code0479        1, 0, 12
 call            @Func_0ea8
-dialogtxt       "EMERGENCY, [NAME 6]!"
+dialogtxt       "IT IS AN EMERGENCY!"
 goto            @Cond_0444
 
 @Cond_0444:
@@ -115,15 +115,15 @@ call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_04f6, ($b002 == 0)
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
-dialogtxt       "It's fine."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools and"
+dialogtxt       "Fine."
 goto            @Label_054c
 
 @Cond_04f6:
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
-dialogtxt       "It's fine."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools and"
+dialogtxt       "such. It's fine."
 goto            @Label_054c
 
 @Label_054c:
@@ -144,15 +144,15 @@ call            @Func_0ede
 code0479        0, 1, 17
 call            @Func_0e3c
 jumpz           @Cond_0642, ($b002 == 0)
-dialogtxt       "No!"
-dialogtxt       "We're borrowing the workshop!"
-dialogtxt       "We'll pay properly for the tools and such!"
+dialogtxt       "No! We're borrowing the workshop!"
+dialogtxt       "We'll pay properly for the tools and"
+dialogtxt       "such!"
 goto            @Label_0690
 
 @Cond_0642:
-dialogtxt       "No!"
-dialogtxt       "We're borrowing the workshop!"
-dialogtxt       "We'll pay properly for the tools and such!"
+dialogtxt       "No! We're borrowing the workshop!"
+dialogtxt       "We'll pay for the tools and"
+dialogtxt       "such!"
 goto            @Label_0690
 
 @Label_0690:
@@ -172,14 +172,14 @@ call            @Func_0ede
 code0479        0, 0, 14
 call            @Func_0e3c
 jumpz           @Cond_0782, ($b002 == 0)
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools."
 dialogtxt       "It'll be fine. He won't get angry."
 goto            @Label_07e8
 
 @Cond_0782:
-dialogtxt       "What else can we do? He's not here."
-dialogtxt       "We'll pay properly for the tools and such."
+dialogtxt       "What can we do? He's not here."
+dialogtxt       "We'll pay for the tools."
 dialogtxt       "It'll be fine. He won't get angry."
 goto            @Label_07e8
 

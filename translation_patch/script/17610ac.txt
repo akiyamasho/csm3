@@ -140,7 +140,7 @@ dialogtxt       "I was rough with you the other day."
 dialogtxt       "I'm sorry..."
 code0309        
 dialogtxt       "I'm watching over Anise now."
-dialogtxt       "Anise betrayed [NAME 8]?"
+dialogtxt       "Anise betrayed us?"
 dialogtxt       "and the others..."
 code0309        
 code047e        0, 0

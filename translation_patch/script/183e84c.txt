@@ -200,14 +200,14 @@ call            @Func_2ace
 code0479        0, 0, 12
 call            @Func_2a2c
 jumpz           @Cond_0946, ($b002 == 0)
-dialogtxt       "That's right You remember,"
-dialogtxt       "right? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_0982
 
 @Cond_0946:
-dialogtxt       "That's right You remember, don't"
-dialogtxt       "you? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_0982
 
@@ -216,7 +216,7 @@ code0309
 call            @Func_2a62
 code0479        1, 0, 12
 call            @Func_2a98
-dialogtxt       "The [NAME 8]?"
+dialogtxt       "What is it?"
 code0309        
 call            @Func_2ace
 code0479        0, 2, 15
@@ -242,7 +242,7 @@ code0479        1, 0, 12
 call            @Func_2a98
 dialogtxt       "As I Said Before"
 dialogtxt       "I Do Not Understand"
-dialogtxt       "Why We Shout [NAME 4]"
+dialogtxt       "Why We Shout That"
 code0309        
 call            @Func_2ace
 code0479        0, 2, 13
@@ -265,9 +265,9 @@ call            @Func_2a62
 code0479        0, 5, 14
 code0479        1, 0, 12
 call            @Func_2a98
-dialogtxt       "[NAME 8], tomorrow!"
-dialogtxt       "Please Do Your Best"
-dialogtxt       "To Prove Anise And The Others' Crimes"
+dialogtxt       "More importantly, at tomorrow's"
+dialogtxt       "meeting, prove that Anise and her"
+dialogtxt       "group have done wrong. Do your best!"
 code0309        
 call            @Func_2ace
 code0479        0, 2, 15
@@ -375,14 +375,14 @@ call            @Func_2ace
 code0479        0, 0, 13
 call            @Func_2a2c
 jumpz           @Cond_11c0, ($b002 == 0)
-dialogtxt       "That's right You remember,"
-dialogtxt       "right? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_11fc
 
 @Cond_11c0:
-dialogtxt       "That's right You remember, don't"
-dialogtxt       "you? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_11fc
 
@@ -415,22 +415,22 @@ code0309
 call            @Func_2a62
 code0479        1, 4, 13
 call            @Func_2a98
-dialogtxt       "Ah... Forgive me"
-dialogtxt       "I just can't seem to get in the mood..."
-dialogtxt       "Perhaps the fatigue has built up after all"
+dialogtxt       "Ah... Forgive me I just can't seem to"
+dialogtxt       "get in the mood... Perhaps the fatigue"
+dialogtxt       "has built up after all"
 code0309        
 call            @Func_2ace
 code0479        0, 0, 13
 call            @Func_2a2c
 dialogtxt       "That's exactly when"
-dialogtxt       "You should shout [NAME 8]..."
+dialogtxt       "you should shout that..."
 code0309        
 call            @Func_2a62
 code0479        1, 0, 12
 call            @Func_2a98
-dialogtxt       "In any case, at tomorrow's"
-dialogtxt       "meeting We must expose Anise and"
-dialogtxt       "the others' crimes! Do your best"
+dialogtxt       "More importantly, at tomorrow's"
+dialogtxt       "meeting, expose Anise and the"
+dialogtxt       "others' crimes! Do your best!"
 code0309        
 call            @Func_2ace
 code0479        0, 5, 16
@@ -445,7 +445,7 @@ goto            @Cond_147a
 @Cond_147a:
 jumpz           @Cond_1c18, ($b003 == 2)
 call            @Func_2a7a
-dialogtxt       "Heh... Are you sure, [NAME 4]?"
+dialogtxt       "Heh... Are you sure about this?"
 dialogtxt       "That woman told you"
 dialogtxt       "To stay quiet today, didn't she?"
 code047b        
@@ -538,14 +538,14 @@ call            @Func_2ace
 code0479        0, 2, 12
 call            @Func_2a2c
 jumpz           @Cond_19b2, ($b002 == 0)
-dialogtxt       "That's right You remember,"
-dialogtxt       "right? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_19ee
 
 @Cond_19b2:
-dialogtxt       "That's right You remember, don't"
-dialogtxt       "you? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_19ee
 
@@ -579,20 +579,20 @@ call            @Func_2a62
 code0479        1, 4, 16
 call            @Func_2a98
 dialogtxt       "Please..."
-dialogtxt       "Anything but [NAME 8]"
+dialogtxt       "Anything but that."
 code0309        
 call            @Func_2ace
 code0479        0, 5, 17
 call            @Func_2a2c
 jumpz           @Cond_1bc4, ($b002 == 0)
 dialogtxt       "What...!?"
-dialogtxt       "γ asking [NAME 8] for a favor..."
+dialogtxt       "γ is asking me for a favor..."
 dialogtxt       "Do you hate it that much...?"
 goto            @Label_1c08
 
 @Cond_1bc4:
 dialogtxt       "What...!?"
-dialogtxt       "γ asking me for a favor..."
+dialogtxt       "γ is asking me for a favor..."
 dialogtxt       "Do you hate it that much...?"
 goto            @Label_1c08
 
@@ -700,14 +700,14 @@ call            @Func_2ace
 code0479        0, 0, 13
 call            @Func_2a2c
 jumpz           @Cond_2188, ($b002 == 0)
-dialogtxt       "That's right You remember,"
-dialogtxt       "right? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_21c4
 
 @Cond_2188:
-dialogtxt       "That's right You remember, don't"
-dialogtxt       "you? The [NAME 8]"
+dialogtxt       "That's right!"
+dialogtxt       "You remember what"
 dialogtxt       "we shouted at the start!"
 goto            @Label_21c4
 
@@ -740,8 +740,8 @@ code0309
 call            @Func_2a62
 code0479        1, 4, 13
 call            @Func_2a98
-dialogtxt       "S-sorry... I'm still too embarrassed"
-dialogtxt       "Too shy to shout [NAME 8]."
+dialogtxt       "S-sorry..."
+dialogtxt       "It's still embarrassing to shout that."
 dialogtxt       "Please let me try another time"
 code0309        
 call            @Func_2ace

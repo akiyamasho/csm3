@@ -8,14 +8,14 @@ call            @Func_0a5e
 call            @Func_0986
 jumpz           @Cond_00a4, ($b002 == 0)
 dialogtxt       "Oh, man..."
-dialogtxt       "How long are we"
-dialogtxt       "supposed to stay like this...?"
+dialogtxt       "How long must we"
+dialogtxt       "meant to stay like this...?"
 goto            @Label_00d8
 
 @Cond_00a4:
 dialogtxt       "Geez..."
-dialogtxt       "How long are we"
-dialogtxt       "supposed to stay like this...?"
+dialogtxt       "How long must we"
+dialogtxt       "meant to stay like this...?"
 goto            @Label_00d8
 
 @Label_00d8:
@@ -68,12 +68,12 @@ code0479        0, 2, 16
 call            @Func_0a5e
 call            @Func_09a4
 jumpz           @Cond_0294, ($b002 == 0)
-dialogtxt       "...What are you planning to do this time?"
+dialogtxt       "...What now?"
 goto            @Label_02c2
 
 @Cond_0294:
-dialogtxt       "W-wait!"
-dialogtxt       "...What are you planning to do this time?"
+dialogtxt       "W-wait! ...What are you planning to do"
+dialogtxt       "this time?"
 goto            @Label_02c2
 
 @Label_02c2:

@@ -113,7 +113,7 @@ code047d        0, 111
 call            @Func_1e5e
 call            @Func_1d86
 dialogtxt       "The ruins..."
-dialogtxt       "[NAME 8]'s power..."
+dialogtxt       "My power..."
 code047b        
 code0309        
 call            @Func_1eb4
@@ -251,15 +251,15 @@ code047d        0, 2
 call            @Func_1e5e
 call            @Func_1da4
 jumpz           @Cond_0aec, ($b003 == 0)
-dialogtxt       "Lady Murno."
-dialogtxt       "In this situation, the appropriate words"
-dialogtxt       "are not 'I'm sorry,' but..."
+dialogtxt       "Lady Murno. In this situation, the"
+dialogtxt       "appropriate words are not 'I'm sorry,'"
+dialogtxt       "but..."
 goto            @Cond_0aec
 
 @Cond_0aec:
 jumpz           @Cond_0b30, ($b003 == 1)
-dialogtxt       "Murno."
-dialogtxt       "In this situation, instead of 'sorry'..."
+dialogtxt       "Murno. In this situation, instead of"
+dialogtxt       "'sorry'..."
 goto            @Cond_0b30
 
 @Cond_0b30:
@@ -344,7 +344,7 @@ code047d        0, 2
 call            @Func_1e5e
 call            @Func_1d86
 jumpz           @Cond_0e2e, ($b003 == 0)
-dialogtxt       "It Seems, [NAME 6]."
+dialogtxt       "It seems to have stopped completely."
 goto            @Cond_0e2e
 
 @Cond_0e2e:

@@ -296,8 +296,8 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "They call it the Gold Faction, but"
-dialogtxt       "there are smaller factions within it, too."
-dialogtxt       "The Belvon faction or the Iana faction."
+dialogtxt       "there are smaller factions in it, too."
+dialogtxt       "The Belvon or Iana faction."
 code0309        
 dialogtxt       "Huh? Which one am I in?"
 dialogtxt       "Technically, the Belvon faction,"

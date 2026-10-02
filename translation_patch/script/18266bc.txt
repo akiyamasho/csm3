@@ -25,13 +25,13 @@ call            @Func_1330
 jumpz           @Cond_018e, ($f0137 == 0)
 setvar          $f0137, 1
 dialogtxt       "Master!?"
-dialogtxt       "Anise [NAME 4]!?"
+dialogtxt       "Brother!?"
 dialogtxt       "Why Are You Here!?"
 goto            @Label_020e
 
 @Cond_018e:
 dialogtxt       "Master!?"
-dialogtxt       "Anise [NAME 4]!?"
+dialogtxt       "Brother!?"
 dialogtxt       "Why Are You Here!?"
 code047b        
 code0309        
@@ -63,7 +63,7 @@ code047d        1, 132
 call            @Func_141e
 call            @Func_13ba
 dialogtxt       "Protecting You Is"
-dialogtxt       "Our Duty, [NAME 8]!"
+dialogtxt       "our duty!"
 dialogtxt       "So, Are You Hurt?"
 code047b        
 code0309        
@@ -72,7 +72,7 @@ code0479        0, 4, 14
 call            @Func_134e
 dialogtxt       "Ah... Yeah."
 jumpz           @Cond_038e, ($b002 == 0)
-dialogtxt       "We Are Fine, [NAME 8], But"
+dialogtxt       "We Are Fine, But"
 dialogtxt       "Murno..."
 goto            @Label_03be
 
@@ -110,7 +110,7 @@ code047d        1, 132
 call            @Func_141e
 call            @Func_13ba
 dialogtxt       "Understood."
-dialogtxt       "Leave That To Us, [NAME 8]."
+dialogtxt       "Leave that to us."
 dialogtxt       "You Go Back!"
 code047b        
 code0309        
@@ -177,7 +177,7 @@ code0479        1, 4, 12
 call            @Func_13ba
 dialogtxt       "I Understand How You Feel, But I"
 dialogtxt       "Cannot Stand By While You Remain In"
-dialogtxt       "Danger. I Cannot Stay Silent Any Longer."
+dialogtxt       "Danger. I Can No Longer Stay Silent."
 code0309        
 call            @Func_148a
 call            @Func_13d8
@@ -237,14 +237,14 @@ code047d        1, 132
 call            @Func_141e
 call            @Func_13ba
 dialogtxt       "Leave The Rest To Us,"
-dialogtxt       "[NAME 8] . You Must"
+dialogtxt       "you must"
 dialogtxt       "Never Come Near Here Again..."
 code047b        
 code0309        
 call            @Func_13f0
 code0479        0, 2, 16
 call            @Func_134e
-dialogtxt       "Anise [NAME 4]..."
+dialogtxt       "Brother..."
 dialogtxt       "Master..."
 code0309        
 code033a        113, 0
@@ -261,7 +261,7 @@ code0479        0, 2, 15
 jumpz           @Cond_0b82, ($b002 == 0)
 dialogtxt       "But I Still Worry About"
 dialogtxt       "Murno! I Want To Go Help,"
-dialogtxt       "Too, [NAME 8] !"
+dialogtxt       "too!"
 goto            @Label_0bce
 
 @Cond_0b82:
@@ -284,7 +284,7 @@ call            @Func_13ba
 code0334        
 code0331        37, 256
 dialogtxt       "You... Do You Have So Little"
-dialogtxt       "Do you trust us, [NAME 8]?"
+dialogtxt       "Do you trust us?"
 dialogtxt       ", That You Cannot Trust Us...?"
 code047b        
 code0309        

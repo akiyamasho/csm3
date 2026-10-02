@@ -73,7 +73,7 @@ code0479        0, 5, 13
 code047d        0, 0
 call            @Func_1370
 call            @Func_12b6
-dialogtxt       "Ah, Ani[NAME 4]!"
+dialogtxt       "Ah, Big Bro!"
 code047b        
 code0309        
 call            @Func_12ec
@@ -175,7 +175,7 @@ code0479        0, 5, 16
 call            @Func_12b6
 dialogtxt       "Huh...?"
 dialogtxt       "Um...?"
-dialogtxt       "Ani[NAME 4]...?"
+dialogtxt       "Big Bro...?"
 code0309        
 call            @Func_13f2
 call            @Func_12d4

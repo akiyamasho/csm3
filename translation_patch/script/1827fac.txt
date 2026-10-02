@@ -30,7 +30,7 @@ code047d        1, 2
 call            @Func_0ec6
 call            @Func_0dee
 jumpz           @Cond_0162, ($b002 == 0)
-dialogtxt       "Huh? [NAME 8]"
+dialogtxt       "Huh? "
 dialogtxt       ", what was I"
 dialogtxt       "doing again...? Ummm..."
 goto            @Label_019e
@@ -70,7 +70,7 @@ call            @Func_0edc
 call            @Func_0e78
 jumpz           @Cond_03a4, ($b003 == 0)
 dialogtxt       "An invalid process has occurred."
-dialogtxt       "Data corrupted, [NAME 8]."
+dialogtxt       "Some of the data is corrupted."
 dialogtxt       "Other processes are fine."
 code047b        
 code0309        
@@ -91,9 +91,9 @@ code0309
 call            @Func_0e42
 code0479        1, 0, 12
 call            @Func_0e78
-dialogtxt       "There is no problem. Where is Lady"
-dialogtxt       "Myuno, according to [NAME 5] [NAME 8]?"
-dialogtxt       "[NAME 8] ? Where is she?"
+dialogtxt       "There is no problem. More importantly,"
+dialogtxt       "More importantly, Lady Murno..."
+dialogtxt       "Where is she?"
 goto            @Cond_03a4
 
 @Cond_03a4:
@@ -126,18 +126,18 @@ call            @Func_0e42
 code0479        1, 5, 16
 call            @Func_0e78
 dialogtxt       "That is right."
-dialogtxt       "Myuno is..."
+dialogtxt       "Murno is..."
 goto            @Cond_04d4
 
 @Cond_04d4:
 jumpz           @Cond_0624, ($b003 == 2)
 dialogtxt       "Tch..."
 dialogtxt       "What are you doing?"
-dialogtxt       "Lord [NAME 4] is..."
+dialogtxt       "You..."
 code047b        
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Lord [NAME 4] is...?"
+dialogtxt       "You...?"
 code0309        
 call            @Func_0eae
 code0479        0, 2, 12
@@ -161,7 +161,7 @@ code0479        1, 2, 14
 call            @Func_0e78
 dialogtxt       "Do not be ridiculous!"
 dialogtxt       "It is that one."
-dialogtxt       "It is Myuno."
+dialogtxt       "It is Murno."
 goto            @Cond_0624
 
 @Cond_0624:
@@ -195,7 +195,7 @@ dialogtxt       "N-no, that is not it."
 dialogtxt       "Well, you see..."
 code0309        
 code0479        1, 5, 14
-dialogtxt       "Come think of it, where is Lady Myuno?"
+dialogtxt       "Come think of it, where is Lady Murno?"
 goto            @Cond_0790
 
 @Cond_0790:
@@ -203,7 +203,7 @@ code0309
 call            @Func_0eae
 code0479        0, 5, 16
 call            @Func_0e0c
-dialogtxt       "Myuno...?"
+dialogtxt       "Murno...?"
 code0309        
 code0479        0, 2, 15
 dialogtxt       "That is right!"

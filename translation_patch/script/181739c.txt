@@ -83,8 +83,8 @@ code047d        1, 116
 call            @Func_2418
 call            @Func_23b4
 jumpz           @Cond_03de, ($b002 == 0)
-dialogtxt       "Oh!"
-dialogtxt       "Well, if it isn't the boys from before..."
+dialogtxt       "Oh! Well, if it isn't the boys from"
+dialogtxt       "before..."
 goto            @Label_0418
 
 @Cond_03de:
@@ -242,8 +242,8 @@ code047d        1, 116
 call            @Func_2418
 call            @Func_23b4
 dialogtxt       "As if! Those Stray Summon Beasts"
-dialogtxt       "around here are running wild because of"
-dialogtxt       "that girl!"
+dialogtxt       "around here are running wild because"
+dialogtxt       "of that girl!"
 code0309        
 call            @Func_23ea
 code0479        0, 2, 14
@@ -338,13 +338,13 @@ code0479        0, 2, 14
 code0479        1, 2, 12
 jumpz           @Cond_0d9c, ($b002 == 0)
 dialogtxt       "You thought you came to rescue a"
-dialogtxt       "princess kidnapped by the forces of evil,"
+dialogtxt       "princess seized by the forces of evil,"
 dialogtxt       "but it seems you were the only one!"
 goto            @Label_0e02
 
 @Cond_0d9c:
-dialogtxt       "You thought you came to rescue a friend"
-dialogtxt       "kidnapped by some bad people,"
+dialogtxt       "You thought you came to rescue a"
+dialogtxt       "friend kidnapped by some bad people,"
 dialogtxt       "but it seems you were the only one!"
 goto            @Label_0e02
 
@@ -415,7 +415,7 @@ code0309
 call            @Func_23ea
 code0479        0, 2, 15
 call            @Func_2348
-dialogtxt       "Why, you... [NAME 4]!"
+dialogtxt       "Why, you...!"
 code0309        
 call            @Func_2484
 call            @Func_2366
@@ -616,7 +616,7 @@ code0309
 code043c        0, 4
 code043c        1, 2
 code0479        1, 3, 15
-dialogtxt       "[NAME 4] only needs to"
+dialogtxt       "You only need to"
 dialogtxt       "protect Murno as promised."
 goto            @Cond_1ae8
 

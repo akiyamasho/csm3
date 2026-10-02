@@ -69,8 +69,8 @@ goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "I only have business with Murno. It has"
-dialogtxt       "nothing to do with [NAME 4]."
+dialogtxt       "I have business with Murno."
+dialogtxt       "This has nothing to do with you."
 goto            @Cond_0346
 
 @Cond_0346:
@@ -222,8 +222,8 @@ code0309
 call            @Func_154c
 code0479        0, 8, 14
 call            @Func_14aa
-dialogtxt       "Hey..."
-dialogtxt       "Bro [NAME 4]..."
+dialogtxt       "Hey, Bro..."
+dialogtxt       "Listen..."
 code0309        
 call            @Func_14e0
 code043b        3
@@ -240,8 +240,8 @@ call            @Func_154c
 code0479        0, 8, 12
 call            @Func_14aa
 jumpz           @Cond_0afc, ($b002 == 0)
-dialogtxt       "[NAME 8]..."
-dialogtxt       "I want to fight that knuckle."
+dialogtxt       "I..."
+dialogtxt       "want to fight that knuckle."
 goto            @Label_0b2a
 
 @Cond_0afc:
@@ -260,9 +260,9 @@ call            @Func_154c
 code0479        0, 8, 16
 call            @Func_14aa
 jumpz           @Cond_0bf8, ($b002 == 0)
-dialogtxt       "I want to know how well"
-dialogtxt       "[NAME 8]'s weapon will fare"
-dialogtxt       "against a weapon approved by Master..."
+dialogtxt       "I want to see how my weapon fares"
+dialogtxt       "against one Master Rob approved,"
+dialogtxt       "in smithing and in battle."
 goto            @Label_0c4c
 
 @Cond_0bf8:
@@ -288,8 +288,8 @@ code0309
 call            @Func_154c
 code0479        0, 1, 12
 call            @Func_14aa
-dialogtxt       "Thank you!"
-dialogtxt       "Bro [NAME 4]!"
+dialogtxt       "Thanks!"
+dialogtxt       "Bro!"
 code0309        
 call            @Func_14e0
 code0479        1, 0, 12
@@ -298,9 +298,9 @@ dialogtxt       "Then..."
 code0309        
 code0479        1, 2, 13
 code0479        0, 0, 16
-dialogtxt       "Bring just one weapon that can stand"
-dialogtxt       "against this knuckle! [NAME 8]"
-dialogtxt       "will wait in front of the workshop!"
+dialogtxt       "Bring just one weapon that can"
+dialogtxt       "stand up to this knuckle!"
+dialogtxt       "I will wait by the workshop!"
 code0309        
 call            @Func_154c
 code0479        0, 2, 12

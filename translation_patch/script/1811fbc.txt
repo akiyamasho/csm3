@@ -103,9 +103,9 @@ dialogtxt       "Because..."
 code0309        
 code043c        2, 1
 code0479        1, 2, 12
-dialogtxt       "She stayed at our place! It's only fair"
-dialogtxt       "that she helps out, right, Boss? Isn't it,"
-dialogtxt       "Boss?"
+dialogtxt       "She stayed at our place! It's only"
+dialogtxt       "fair that she helps out, right, Boss?"
+dialogtxt       "Isn't it, Boss?"
 code0309        
 call            @Func_2104
 call            @Func_2052
@@ -149,9 +149,9 @@ code0479        1, 4, 12
 code047d        1, 132
 call            @Func_2098
 call            @Func_2034
-dialogtxt       "And Sis V.E just hurried off"
-dialogtxt       "to see Bostaph, while I don't even know"
-dialogtxt       "where Tier went..."
+dialogtxt       "And Sis V.E just hurried off to see"
+dialogtxt       "Bostaph, while I don't even know where"
+dialogtxt       "Tier went..."
 code047b        
 code0309        
 call            @Func_2104
@@ -292,9 +292,9 @@ goto            @Label_0c1a
 code047d        0, 2
 code0479        1, 0, 12
 call            @Func_2082
-dialogtxt       "So? What do you think of this situation?"
-dialogtxt       "You're ready to help out too, right?"
-dialogtxt       "Actually, you better be!"
+dialogtxt       "So? What do you think of this"
+dialogtxt       "situation? You're ready to help out"
+dialogtxt       "too, right? Actually, you better be!"
 code047b        
 code0309        
 call            @Func_206a
@@ -355,8 +355,8 @@ code030c
 code0334        
 code0331        39, 256
 code0479        1, 2, 13
-dialogtxt       "Protect her from what? Elie?!"
-dialogtxt       "You think Elie is going to attack Murno?!"
+dialogtxt       "Protect her from what? Elie?! You"
+dialogtxt       "think Elie is going to attack Murno?!"
 dialogtxt       "That's a funny joke."
 code0309        
 call            @Func_206a
@@ -391,7 +391,7 @@ goto            @Cond_1076
 
 @Cond_1076:
 jumpz           @Cond_10a0, ($b003 == 2)
-dialogtxt       "What did you say, [NAME 4]?!"
+dialogtxt       "What did you say?!"
 goto            @Cond_10a0
 
 @Cond_10a0:
@@ -529,7 +529,7 @@ code047d        1, 132
 call            @Func_20ae
 call            @Func_2016
 dialogtxt       "Hey, I don't know what's going on, but"
-dialogtxt       "is it all right if I ask you for something?"
+dialogtxt       "may I ask you for something?"
 code047b        
 code0309        
 call            @Func_206a
@@ -541,7 +541,7 @@ code0309
 call            @Func_1ffe
 code0479        1, 0, 13
 call            @Func_2034
-dialogtxt       "Then I want you two to carry [NAME 8]"
+dialogtxt       "Then I want you two to carry it"
 dialogtxt       "to the Tool Shop."
 code0309        
 call            @Func_206a
@@ -573,8 +573,8 @@ code047b
 code0309        
 code0479        1, 2, 12
 dialogtxt       "If you jostle it while carrying it,"
-dialogtxt       "or leave scratches on it, it'll be ruined."
-dialogtxt       "So, understood...?"
+dialogtxt       "or leave scratches on it, it'll be"
+dialogtxt       "ruined. So, understood...?"
 code0309        
 code0479        1, 2, 15
 dialogbig       36, 116, 1, 0, 0, "Whatever you do, don't run!"

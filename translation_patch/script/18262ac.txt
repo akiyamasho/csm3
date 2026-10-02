@@ -77,8 +77,8 @@ goto            @Cond_02c4
 
 @Cond_02c4:
 jumpz           @Cond_030c, ($b003 == 3)
-dialogtxt       "Yes, It Seems So."
-dialogtxt       "It Certainly Sounded Like Master, But..."
+dialogtxt       "Yes, It Seems So. It Certainly Sounded"
+dialogtxt       "Like Master, But..."
 goto            @Cond_030c
 
 @Cond_030c:

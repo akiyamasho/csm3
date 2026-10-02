@@ -79,9 +79,9 @@ goto            @Label_02ea
 @Label_02ea:
 call            @Func_0aa2
 jumpz           @Cond_0356, ($b003 == 0)
-dialogtxt       "LADY MURNO IS UNDERGROUND"
-dialogtxt       "DOOR THERE, [NAME 8]"
-dialogtxt       "BELOW LEADS THERE LET US HURRY"
+dialogtxt       "LADY MURNO IS BELOW."
+dialogtxt       "THERE APPEARS TO BE A DOOR"
+dialogtxt       "BELOW. LET US HURRY."
 goto            @Cond_0356
 
 @Cond_0356:

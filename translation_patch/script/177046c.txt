@@ -339,8 +339,8 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "Mr. Gallahan's wife... She was young"
-dialogtxt       "and beautiful, wasn't she...? He married"
-dialogtxt       "a wife young enough to be his daughter,"
+dialogtxt       "and beautiful, wasn't she...? He wed a"
+dialogtxt       "wife young enough to be his daughter,"
 code0309        
 dialogtxt       "so everyone in town teased him, but..."
 dialogtxt       "Who"

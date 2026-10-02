@@ -48,8 +48,8 @@ code047d        1, 134
 code0479        0, 2, 14
 call            @Func_456c
 call            @Func_44d4
-dialogtxt       "So you followed us."
-dialogtxt       "I should have dealt with you earlier..."
+dialogtxt       "So you followed us. I should have"
+dialogtxt       "dealt with you earlier..."
 code047b        
 code0309        
 call            @Func_45ac
@@ -118,7 +118,7 @@ goto            @Cond_04fa
 
 @Cond_04fa:
 jumpz           @Cond_0542, ($b003 == 2)
-dialogtxt       "If [NAME 4] returns Murno,"
+dialogtxt       "If you return Murno,"
 dialogtxt       "I may reconsider."
 goto            @Cond_0542
 
@@ -231,7 +231,7 @@ code047d        0, 134
 code0479        1, 0, 16
 call            @Func_456c
 call            @Func_4468
-dialogtxt       "[NAME 4]... Master..."
+dialogtxt       "You... Master..."
 code047b        
 code0309        
 call            @Func_44bc
@@ -260,7 +260,7 @@ code0309
 call            @Func_4528
 code0479        0, 4, 16
 call            @Func_4486
-dialogtxt       "Wait... Master [NAME 4]..."
+dialogtxt       "Wait... Master..."
 dialogtxt       "How could you..."
 code0309        
 call            @Func_45c2
@@ -1060,8 +1060,8 @@ code0309
 call            @Func_44bc
 code0479        1, 5, 12
 call            @Func_44f2
-dialogtxt       "[NAME 5][NAME 8] is"
-dialogtxt       "the amulet received from Tram..."
+dialogtxt       "That is..."
+dialogtxt       "The amulet Tram gave me..."
 dialogtxt       "The amulet..."
 code0309        
 call            @Func_45c2
@@ -1377,7 +1377,7 @@ code033b        400, 0, 0, 0, 1, 1
 code0301        8, 0
 code047d        0, 141
 code047e        0, 1
-dialogbig       24, 116, 1, 0, 0, "[NAME 4]-shaaaah!"
+dialogbig       24, 116, 1, 0, 0, "Kshaaa!"
 code030c        
 code047e        0, 0
 code0302        0

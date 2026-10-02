@@ -32,7 +32,7 @@ code043c        0, 3
 code033e        172
 code047e        0, 0
 code0301        8, 3
-dialogtxt       "[NAME 4]...！"
+dialogtxt       "Kikikiki...!"
 code0309        
 code0302        3
 code048d        3, 3
@@ -82,12 +82,12 @@ call            @Func_1a52
 call            @Func_194e
 jumpz           @Cond_03c0, ($b002 == 0)
 dialogtxt       "What is it...?"
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 goto            @Label_03dc
 
 @Cond_03c0:
 dialogtxt       "What...?"
-dialogtxt       "[NAME 8]..."
+dialogtxt       "Lemmy..."
 goto            @Label_03dc
 
 @Label_03dc:
@@ -115,9 +115,9 @@ goto            @Label_0480
 @Label_0480:
 call            @Func_19d8
 jumpz           @Cond_04d8, ($b003 == 0)
-dialogtxt       "A considerable electrical energy reading"
-dialogtxt       "has been confirmed..."
-dialogtxt       "What shall we do?"
+dialogtxt       "A considerable electrical energy"
+dialogtxt       "reading has been confirmed... What"
+dialogtxt       "shall we do?"
 goto            @Cond_04d8
 
 @Cond_04d8:
@@ -151,7 +151,7 @@ dialogtxt       "What should we do...?"
 code0309        
 code0479        0, 2, 14
 choicetxt       @Choice_0686, "For now, we can only flee"
-choicetxt       @Choice_10b2, "Save [NAME 8]-mii!"
+choicetxt       @Choice_10b2, "Save Lemmy!"
 choicewait      
 
 @Choice_0686:
@@ -182,7 +182,7 @@ goto            @Label_075e
 call            @Func_19d8
 jumpz           @Cond_07f6, ($b003 == 0)
 dialogtxt       "Is That Acceptable?"
-dialogtxt       "Is Remii"
+dialogtxt       "Is Lemmy"
 dialogtxt       "not over there?"
 code0309        
 call            @Func_1a0e
@@ -194,8 +194,8 @@ goto            @Cond_07f6
 
 @Cond_07f6:
 jumpz           @Cond_0880, ($b003 == 1)
-dialogtxt       "Are you right with [NAME 8]"
-dialogtxt       "-mii is over there, isn't she?"
+dialogtxt       "Is Lemmy over there,"
+dialogtxt       "isn't she?"
 code0309        
 call            @Func_1a0e
 code0479        0, 4, 16
@@ -207,7 +207,7 @@ goto            @Cond_0880
 @Cond_0880:
 jumpz           @Cond_08fe, ($b003 == 2)
 dialogtxt       "I see. So you're abandoning"
-dialogtxt       "[NAME 8] -mii."
+dialogtxt       "Lemmy."
 code0309        
 call            @Func_1a0e
 code0479        0, 4, 16
@@ -218,7 +218,7 @@ goto            @Cond_08fe
 
 @Cond_08fe:
 jumpz           @Cond_097a, ($b003 == 3)
-dialogtxt       "But [NAME 8]-mii"
+dialogtxt       "But Lemmy"
 dialogtxt       "is over there, right?"
 code0309        
 call            @Func_1a0e
@@ -260,9 +260,9 @@ dialogtxt       "My master, Voijin,"
 dialogtxt       "was killed by that man!"
 code0309        
 code0479        1, 3, 14
-dialogtxt       "You are his apprentice."
-dialogtxt       "You have no right to complain"
-dialogtxt       "if I hold a grudge against you... do you?"
+dialogtxt       "You are his apprentice. You have no"
+dialogtxt       "right to complain if I hold a grudge"
+dialogtxt       "against you... do you?"
 code0309        
 code031c        6, 1
 code031f        6
@@ -343,7 +343,7 @@ goto            @Label_0f56
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Let's go"
-dialogtxt       "to [NAME 8]-mii!"
+dialogtxt       "to Lemmy!"
 code0309        
 call            @Func_19a2
 jumpz           @Cond_0fba, ($b003 == 0)
@@ -409,12 +409,12 @@ code0334
 code046e        40, 256, 1
 code0479        0, 2, 12
 jumpz           @Cond_118a, ($b002 == 0)
-dialogtxt       "I Can't Leave [NAME 8] Alone"
+dialogtxt       "I Can't Leave Lemmy Alone"
 dialogtxt       "I'm not leaving!"
 goto            @Label_11c2
 
 @Cond_118a:
-dialogtxt       "I Can't Leave [NAME 8] Alone"
+dialogtxt       "I Can't Leave Lemmy Alone"
 dialogtxt       "I'm not leaving!"
 goto            @Label_11c2
 
@@ -457,7 +457,7 @@ goto            @Cond_12ee
 @Cond_12ee:
 jumpz           @Cond_1328, ($b003 == 2)
 dialogtxt       "That is more like you, Master"
-dialogtxt       "[NAME 4] . Do as you please."
+dialogtxt       "you. Do as you please."
 goto            @Cond_1328
 
 @Cond_1328:

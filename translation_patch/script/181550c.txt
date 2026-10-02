@@ -45,13 +45,13 @@ call            @Func_0b0a
 call            @Func_0a32
 jumpz           @Cond_0232, ($b002 == 0)
 dialogtxt       "Those guys... Are they companions of"
-dialogtxt       "the Strays that Ani[NAME 4]"
+dialogtxt       "the Strays that big bro"
 dialogtxt       "and the others went after...?"
 goto            @Label_0280
 
 @Cond_0232:
-dialogtxt       "Could they be... companions of the Stray"
-dialogtxt       "Summon Beasts that Ani[NAME 4]"
+dialogtxt       "Could they be... companions of the"
+dialogtxt       "Stray Summon Beasts that big bro"
 dialogtxt       "and the others went to defeat...?"
 goto            @Label_0280
 

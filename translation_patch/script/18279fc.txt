@@ -40,22 +40,22 @@ call            @Func_0daa
 call            @Func_0e44
 call            @Func_0de0
 jumpz           @Cond_0198, ($b003 == 0)
-dialogtxt       "Lady Myuno!?"
+dialogtxt       "Lady Murno!?"
 goto            @Cond_0198
 
 @Cond_0198:
 jumpz           @Cond_01c2, ($b003 == 1)
-dialogtxt       "Myuno!?"
+dialogtxt       "Murno!?"
 goto            @Cond_01c2
 
 @Cond_01c2:
 jumpz           @Cond_01e6, ($b003 == 2)
-dialogtxt       "Myuno!?"
+dialogtxt       "Murno!?"
 goto            @Cond_01e6
 
 @Cond_01e6:
 jumpz           @Cond_020c, ($b003 == 3)
-dialogtxt       "Lady Myuno!?"
+dialogtxt       "Lady Murno!?"
 goto            @Cond_020c
 
 @Cond_020c:
@@ -81,13 +81,13 @@ code0479        0, 2, 14
 call            @Func_0e5a
 call            @Func_0d56
 jumpz           @Cond_0358, ($b002 == 0)
-dialogtxt       "Are you all right, Myuno? Are"
+dialogtxt       "Are you all right, Murno? Are"
 dialogtxt       "you hurt? And what about"
 dialogtxt       "this “Master” person...?"
 goto            @Label_03a8
 
 @Cond_0358:
-dialogtxt       "Myuno, are you all right?"
+dialogtxt       "Murno, are you all right?"
 dialogtxt       "Are you hurt?"
 dialogtxt       "And what about this “Master”...?"
 goto            @Label_03a8
@@ -156,7 +156,7 @@ goto            @Label_07d0
 code0479        0, 2, 16
 dialogtxt       "Hey..."
 dialogtxt       "You really are"
-dialogtxt       "Myuno, right...?"
+dialogtxt       "Murno, right...?"
 code0309        
 call            @Func_0daa
 code0479        1, 2, 14
@@ -186,7 +186,7 @@ call            @Func_0e16
 code0479        0, 2, 14
 call            @Func_0d74
 dialogtxt       "That is right...!"
-dialogtxt       "Those people... Myuno..."
+dialogtxt       "Those people... Murno..."
 code0309        
 call            @Func_0e84
 call            @Func_0daa

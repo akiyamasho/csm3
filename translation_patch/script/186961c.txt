@@ -252,9 +252,9 @@ goto            @Cond_0848
 @Cond_0848:
 code0479        1, 2, 14
 call            @Func_1e60
-dialogtxt       "He didn't seem fully recovered yet, so I"
-dialogtxt       "should've told him to take it easy, but it"
-dialogtxt       "sounds like the Gold Faction called him..."
+dialogtxt       "He wasn't fully recovered yet, so I"
+dialogtxt       "should've told him to rest, but it"
+dialogtxt       "seems the Gold Faction summoned him..."
 code047b        
 code0309        
 call            @Func_1f1a
@@ -266,8 +266,8 @@ code047d        1, 132
 code0479        0, 4, 14
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Sorry... I would've stopped him"
-dialogtxt       "if [NAME 8] were here,"
+dialogtxt       "Sorry... I'd have stopped him"
+dialogtxt       "if I were there,"
 dialogtxt       "but the Master still can't move."
 code047b        
 code0309        
@@ -290,8 +290,8 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "He didn't seem fully recovered yet, so I"
-dialogtxt       "shouldn't have pushed him, but it sounds"
+dialogtxt       "He wasn't fully recovered yet, so I"
+dialogtxt       "shouldn't have pushed him, but seems"
 dialogtxt       "like the Gold Faction called him..."
 goto            @Label_0b4e
 
@@ -301,9 +301,9 @@ code0479        1, 2, 14
 code047d        1, 108
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "He didn't seem fully recovered yet, so I"
-dialogtxt       "should've told him to take it easy, but it"
-dialogtxt       "sounds like the Gold Faction called him..."
+dialogtxt       "He wasn't fully recovered yet, so I"
+dialogtxt       "should've told him to rest, but it"
+dialogtxt       "seems the Gold Faction summoned him..."
 goto            @Label_0b4e
 
 @Label_0b4e:
@@ -337,9 +337,9 @@ call            @Func_1ec4
 code0479        0, 0, 14
 call            @Func_1e60
 jumpz           @Cond_0c8e, ($b003 == 0)
-dialogtxt       "I Was Out With Lady Murno"
-dialogtxt       "When [NAME 5] Happened,"
-dialogtxt       "So I Could Not Stop Him..."
+dialogtxt       "I was out with Lady Murno"
+dialogtxt       "when it happened, so I could not"
+dialogtxt       "stop him..."
 goto            @Cond_0c8e
 
 @Cond_0c8e:
@@ -375,9 +375,9 @@ code0479        1, 0, 16
 code047d        1, 132
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Well, if he's headed to the Gold Faction,"
-dialogtxt       "maybe there's no need"
-dialogtxt       "to worry so much..."
+dialogtxt       "Well, if he's headed to the Gold"
+dialogtxt       "Faction, maybe there's no need to"
+dialogtxt       "worry so much..."
 goto            @Label_0ee8
 
 @Cond_0e74:
@@ -386,7 +386,7 @@ code0479        1, 0, 16
 code047d        1, 109
 call            @Func_1ec4
 call            @Func_1e60
-dialogtxt       "Well, if he's headed to the Gold Faction,"
+dialogtxt       "Well, if he's off to the Gold Faction,"
 dialogtxt       "we probably don't need to worry..."
 goto            @Label_0ee8
 
@@ -623,8 +623,8 @@ code0479        1, 2, 16
 code047d        1, 109
 call            @Func_1ec4
 call            @Func_1e42
-dialogtxt       "What's with that, [NAME 8]?"
-dialogtxt       "This feels a little unpleasant..."
+dialogtxt       "What's with that?"
+dialogtxt       "This feels unpleasant..."
 goto            @Label_17d8
 
 @Label_17d8:

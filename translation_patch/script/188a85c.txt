@@ -23,7 +23,7 @@ code047d        1, 137
 call            @Func_092a
 call            @Func_0892
 dialogtxt       "Well?"
-dialogtxt       " fruits of [NAME 8]'s training!"
+dialogtxt       "The fruits of my training!"
 goto            @Label_0148
 
 @Label_0148:
@@ -46,7 +46,7 @@ code0479        1, 2, 12
 code047d        1, 137
 call            @Func_092a
 call            @Func_0892
-dialogtxt       "[NAME 8]'s training and..."
+dialogtxt       "I've trained hard and grown stronger!"
 dialogtxt       "So?"
 dialogtxt       "Want to have a match?"
 code047b        

@@ -173,7 +173,7 @@ code047d        0, 2
 call            @Func_187c
 call            @Func_17c2
 jumpz           @Cond_0788, ($b003 == 0)
-dialogtxt       "It Takes Longer Than Walking, [NAME 6]."
+dialogtxt       "It takes longer than walking."
 goto            @Cond_0788
 
 @Cond_0788:
@@ -208,8 +208,8 @@ code0479        0, 0, 16
 code047d        0, 0
 call            @Func_187c
 call            @Func_17c2
-dialogtxt       "When you say staying over,"
-dialogtxt       "do you mean the Hohoemi Inn over there?"
+dialogtxt       "When you say staying over, do you mean"
+dialogtxt       "the Hohoemi Inn over there?"
 code047b        
 code0309        
 call            @Func_18e8
@@ -305,7 +305,7 @@ code0479        0, 0, 15
 code047d        0, 131
 call            @Func_187c
 call            @Func_17a4
-dialogtxt       "Oh, Ms. [NAME 8]mi."
+dialogtxt       "Oh, Ms. Lemmy."
 code047b        
 code0309        
 call            @Func_18d2
@@ -333,7 +333,7 @@ call            @Func_187c
 call            @Func_17a4
 jumpz           @Cond_0de8, ($b002 == 0)
 dialogtxt       "Well..."
-dialogtxt       "We should go, too, [NAME 8]."
+dialogtxt       "We should go, too."
 goto            @Label_0e0e
 
 @Cond_0de8:

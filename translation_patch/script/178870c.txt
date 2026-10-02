@@ -362,7 +362,7 @@ code040b
 
 @Event_0f38:
 code0301        8, 7
-dialogtxt       "When hit by a [NAME 6]muri"
+dialogtxt       "When hit by a Nemuri"
 dialogtxt       "attack, you instantly fall asleep and"
 dialogtxt       "recover"
 code0309        

@@ -119,7 +119,7 @@ code0479        0, 4, 14
 call            @Func_2d60
 jumpz           @Cond_04dc, ($b002 == 0)
 dialogtxt       "What is it?"
-dialogtxt       "[NAME 8], what should I do?"
+dialogtxt       "What should I do?"
 goto            @Label_0510
 
 @Cond_04dc:
@@ -173,8 +173,8 @@ code0309
 call            @Func_2d96
 code0479        1, 2, 12
 call            @Func_2dcc
-dialogtxt       "But If [NAME 5] Is Lost,"
-dialogtxt       "I Will..."
+dialogtxt       "But if I do not..."
+dialogtxt       "I will..."
 dialogtxt       "..."
 code0309        
 call            @Func_2e02
@@ -215,7 +215,7 @@ code047d        1, 134
 call            @Func_2e30
 call            @Func_2dcc
 dialogtxt       "What...?!"
-dialogtxt       "γ's consciousness...?"
+dialogtxt       "Its consciousness...?"
 code047b        
 code0309        
 call            @Func_2e86
@@ -282,7 +282,7 @@ code0479        0, 4, 14
 call            @Func_2d60
 jumpz           @Cond_0b98, ($b002 == 0)
 dialogtxt       "What is it?"
-dialogtxt       "[NAME 8], what should I do?"
+dialogtxt       "What should I do?"
 goto            @Label_0bc4
 
 @Cond_0b98:
@@ -366,7 +366,7 @@ code047d        1, 134
 call            @Func_2e30
 call            @Func_2dcc
 dialogtxt       "What...?!"
-dialogtxt       "γ's consciousness...?"
+dialogtxt       "Its consciousness...?"
 code047b        
 code0309        
 call            @Func_2e86
@@ -424,8 +424,8 @@ code0309
 call            @Func_2d96
 code0479        1, 2, 14
 call            @Func_2dcc
-dialogtxt       "Even now, I still ache"
-dialogtxt       "to defeat [NAME 4]..."
+dialogtxt       "Even now, I ache"
+dialogtxt       "to defeat you..."
 dialogtxt       "So..."
 code0309        
 call            @Func_2e02
@@ -433,7 +433,7 @@ code0479        0, 4, 16
 call            @Func_2d60
 jumpz           @Cond_11c0, ($b002 == 0)
 dialogtxt       "What is it?"
-dialogtxt       "[NAME 8], what should I do?"
+dialogtxt       "What should I do?"
 goto            @Label_11ec
 
 @Cond_11c0:
@@ -477,8 +477,8 @@ code0309
 call            @Func_2d96
 code0479        1, 3, 14
 call            @Func_2dcc
-dialogtxt       "[NAME 4], you want to die...?"
-dialogtxt       "Don't dawdle..."
+dialogtxt       "Do you want to die...?"
+dialogtxt       "Do not dawdle..."
 dialogtxt       "..."
 code0309        
 call            @Func_2e02
@@ -519,7 +519,7 @@ code047d        1, 134
 call            @Func_2e30
 call            @Func_2dcc
 dialogtxt       "What...?!"
-dialogtxt       "γ's consciousness...?"
+dialogtxt       "Its consciousness...?"
 code047b        
 code0309        
 call            @Func_2e86
@@ -586,7 +586,7 @@ code0479        0, 4, 14
 call            @Func_2d60
 jumpz           @Cond_1812, ($b002 == 0)
 dialogtxt       "What is it?"
-dialogtxt       "[NAME 8], what should I do?"
+dialogtxt       "What should I do?"
 goto            @Label_183e
 
 @Cond_1812:
@@ -883,9 +883,9 @@ dialogtxt       "Everything that's happened until now?!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "That can't be true..."
-dialogtxt       "γ wouldn't forget."
-dialogtxt       "γ has to remember!"
+dialogtxt       "That cannot be true..."
+dialogtxt       "γ would not forget."
+dialogtxt       "It must remember!"
 goto            @Label_25c0
 
 @Cond_2510:
@@ -895,9 +895,9 @@ dialogtxt       "Everything that's happened until now?!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "That can't be true..."
-dialogtxt       "γ wouldn't forget."
-dialogtxt       "γ has to remember!"
+dialogtxt       "That cannot be true..."
+dialogtxt       "γ would not forget."
+dialogtxt       "It must remember!"
 goto            @Label_25c0
 
 @Label_25c0:
@@ -947,9 +947,9 @@ code047d        0, 0
 call            @Func_2e1a
 call            @Func_2d42
 jumpz           @Cond_2764, ($b002 == 0)
-dialogtxt       "Then [NAME 8] will"
+dialogtxt       "Then I will make you remember"
 dialogtxt       "with this weapon"
-dialogtxt       "we trained with!"
+dialogtxt       "we trained with."
 goto            @Label_27ae
 
 @Cond_2764:

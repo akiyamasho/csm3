@@ -383,7 +383,7 @@ code047e        0, 1
 dialogtxt       "Hey, let's play legendary warrior!"
 code0309        
 dialogtxt       "I'll be the legendary warrior, and"
-dialogtxt       "[NAME 4] mi will try to be the"
+dialogtxt       "you will try to be the"
 dialogtxt       "evil emperor bent on world domination!"
 code0309        
 code047e        0, 0
@@ -394,13 +394,13 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Myotarou is acting a little strange today."
+dialogtxt       "Myotarou seems a little odd today."
 dialogtxt       "I've lost count of how many times"
 dialogtxt       "he's bitten me today."
 code0309        
 dialogtxt       "But I believe in Myotarou, so I won't"
-dialogtxt       "give him up over something like this. I"
-dialogtxt       "won't"
+dialogtxt       "give him up over something like this."
+dialogtxt       "I won't"
 code0309        
 code047e        0, 0
 code0302        7
@@ -416,9 +416,9 @@ code0301        8, 7
 dialogtxt       "　"
 dialogtxt       "　　　　　　~Hey, hey~"
 code0309        
-dialogtxt       "Lately, a strange voice has been coming"
-dialogtxt       "from the desk behind me. It gives me"
-dialogtxt       "the creeps."
+dialogtxt       "Lately, a strange voice has been"
+dialogtxt       "coming from the desk behind me. It"
+dialogtxt       "gives me the creeps."
 code0309        
 code0302        7
 code040b        
@@ -426,7 +426,7 @@ code040b
 @Event_121e:
 code0301        8, 7
 dialogtxt       "Why not test your luck with the"
-dialogtxt       "“Lottery”? Would you like to try your"
+dialogtxt       "Lottery? Would you like to try your"
 dialogtxt       "luck? A drawing every day! No blanks!!"
 code0309        
 code0302        7

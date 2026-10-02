@@ -16,7 +16,7 @@ code0309
 call            @Func_249c
 code0479        0, 0, 12
 dialogtxt       "Who would've thought we'd"
-dialogtxt       "end up fighting Akabane[NAME 6]"
+dialogtxt       "end up fighting Akabane"
 dialogtxt       "...?"
 goto            @Label_019e
 
@@ -28,7 +28,7 @@ code0309
 call            @Func_249c
 code0479        0, 0, 12
 dialogtxt       "Who would've thought we'd"
-dialogtxt       "end up fighting Akabane[NAME 6]"
+dialogtxt       "end up fighting Akabane"
 dialogtxt       "...?"
 goto            @Label_019e
 
@@ -97,21 +97,21 @@ goto            @Cond_0436
 
 @Cond_0436:
 jumpz           @Cond_0486, ($b003 == 1)
-dialogtxt       "Indeed, Akabane[NAME 6] seemed"
+dialogtxt       "Indeed, Akabane seemed"
 dialogtxt       "quite worn out."
 goto            @Cond_0486
 
 @Cond_0486:
 jumpz           @Cond_0504, ($b003 == 2)
-dialogtxt       "Akabane[NAME 6] was weakened."
-dialogtxt       "was already weakened before the fight..."
+dialogtxt       "Akabane was weakened. was"
+dialogtxt       "already weakened before the fight..."
 dialogtxt       "Tch... You ruined my fun."
 goto            @Cond_0504
 
 @Cond_0504:
 jumpz           @Cond_0568, ($b003 == 3)
 dialogtxt       "That's right. You weakened"
-dialogtxt       "Akabane[NAME 6] for"
+dialogtxt       "Akabane for"
 dialogtxt       "us, which helped us immensely."
 goto            @Cond_0568
 
@@ -127,13 +127,13 @@ code047d        0, 0
 call            @Func_2486
 call            @Func_23cc
 jumpz           @Cond_05f2, ($b002 == 0)
-dialogtxt       "So Akabane[NAME 6] was"
-dialogtxt       "defeated by [NAME 8]"
-dialogtxt       ", γ, and you..."
+dialogtxt       "So Akabane was defeated"
+dialogtxt       "by me,"
+dialogtxt       "γ, and you..."
 goto            @Label_062a
 
 @Cond_05f2:
-dialogtxt       "So Akabane[NAME 6] was"
+dialogtxt       "So Akabane was"
 dialogtxt       "defeated by"
 dialogtxt       "me, γ, and you..."
 goto            @Label_062a
@@ -290,7 +290,7 @@ code0479        1, 2, 14
 code047d        1, 131
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "[NAME 8]-mii!"
+dialogtxt       "Lemmy!"
 dialogtxt       "You really were here!"
 code047b        
 code0309        
@@ -314,9 +314,9 @@ code0479        1, 2, 12
 code047d        1, 132
 call            @Func_249c
 call            @Func_241a
-dialogtxt       "Anyway, leave the rest to"
-dialogtxt       "[NAME 8] and"
-dialogtxt       "stay back! Because..."
+dialogtxt       "Anyway, leave the rest to me."
+dialogtxt       "You two, stand back!"
+dialogtxt       "Because..."
 code047b        
 code0309        
 call            @Func_24f2
@@ -333,7 +333,7 @@ code047d        1, 131
 call            @Func_24b2
 call            @Func_241a
 dialogtxt       "That's right!"
-dialogtxt       "Let's go, [NAME 8]-mii!"
+dialogtxt       "Let's go, Lemmy!"
 dialogtxt       "It's dangerous!"
 code047b        
 code0309        
@@ -352,9 +352,9 @@ code0479        1, 5, 17
 code047d        1, 109
 call            @Func_24b2
 call            @Func_241a
-dialogtxt       "Hurry, hurry!"
-dialogtxt       "If you don't run, it'll suck your blood"
-dialogtxt       "and then eat you!"
+dialogtxt       "Hurry, hurry! If you don't run,"
+dialogtxt       "it'll suck your blood and then eat"
+dialogtxt       "you!"
 code0309        
 call            @Func_2508
 call            @Func_2456
@@ -367,7 +367,7 @@ code047d        1, 108
 code0479        0, 0, 12
 call            @Func_24b2
 call            @Func_241a
-dialogtxt       "So where is Akabane[NAME 6]"
+dialogtxt       "So where is Akabane"
 dialogtxt       "hiding? I can't sense"
 dialogtxt       "him... I can't sense him..."
 code047b        
@@ -380,7 +380,7 @@ code0479        1, 2, 13
 code047d        1, 132
 call            @Func_249c
 call            @Func_2438
-dialogtxt       "Akabane[NAME 6] fled."
+dialogtxt       "Akabane fled."
 dialogtxt       "He must have lost his nerve"
 dialogtxt       "and gone into hiding, because..."
 code047b        
@@ -390,7 +390,7 @@ code0478        0, 0
 code0479        0, 0, 13
 code047d        0, 0
 call            @Func_23cc
-dialogtxt       "Akabane[NAME 6]?"
+dialogtxt       "Akabane?"
 dialogtxt       "We defeated him earlier."
 code0309        
 call            @Func_2508
@@ -427,16 +427,16 @@ code0479        1, 11, 13
 code047d        1, 131
 call            @Func_24b2
 call            @Func_241a
-dialogtxt       "That's just like you, [NAME 8]"
-dialogtxt       "-mii! I wish I'd seen"
-dialogtxt       "it. [NAME 8] -mii's fight."
+dialogtxt       "That's just like you, Lemmy!"
+dialogtxt       "I wish I'd seen"
+dialogtxt       "Lemmy fight."
 code047b        
 code0309        
 call            @Func_246e
 code0479        0, 5, 16
 call            @Func_23cc
-dialogtxt       "Ah... No... I wasn't the one"
-dialogtxt       "I wasn't the one who defeated Akabane[NAME 6]"
+dialogtxt       "Ah... No... I wasn't the one I wasn't"
+dialogtxt       "the one who defeated Akabane"
 dialogtxt       "..."
 code0309        
 call            @Func_2508
@@ -467,19 +467,19 @@ code047b
 code0309        
 code0479        0, 0, 13
 jumpz           @Cond_1584, ($b002 == 0)
-dialogtxt       "The ones who defeated Akabane[NAME 6]"
-dialogtxt       "were the three of us, [NAME 8]."
-code0309        
-code043c        0, 3
-dialogtxt       "Right, [NAME 8]-mii?"
-goto            @Label_15da
-
-@Cond_1584:
-dialogtxt       "The ones who defeated Akabane[NAME 6]"
+dialogtxt       "The ones who defeated Akabane"
 dialogtxt       "were the three of us."
 code0309        
 code043c        0, 3
-dialogtxt       "Right, [NAME 8]-mii?"
+dialogtxt       "Right, Lemmy?"
+goto            @Label_15da
+
+@Cond_1584:
+dialogtxt       "The ones who defeated Akabane"
+dialogtxt       "were the three of us."
+code0309        
+code043c        0, 3
+dialogtxt       "Right, Lemmy?"
 goto            @Label_15da
 
 @Label_15da:
@@ -529,7 +529,7 @@ call            @Func_249c
 call            @Func_241a
 dialogtxt       "I never thought you'd actually defeat"
 dialogtxt       "him... But you were quite the"
-dialogtxt       "[NAME 6] ... Because..."
+dialogtxt       "Because..."
 code047b        
 code0309        
 call            @Func_246e
@@ -565,7 +565,7 @@ call            @Func_2486
 call            @Func_23cc
 dialogtxt       "I wanted to capture them, but I heard"
 dialogtxt       "δ and the others were attacked"
-dialogtxt       "by Akabane[NAME 6]..."
+dialogtxt       "by Akabane..."
 code0309        
 call            @Func_2508
 call            @Func_23ea
@@ -598,14 +598,14 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_249c
 call            @Func_2438
-dialogtxt       "[NAME 8] -mii, is true? You"
-dialogtxt       "got lead on them, [NAME 7] ,"
-dialogtxt       "right? Then you can tell Gold Faction..."
+dialogtxt       "Is that true, Lemmy?"
+dialogtxt       "You found their trail? Then"
+dialogtxt       "you can tell the Gold Faction..."
 code047b        
 code0309        
 code0479        1, 5, 12
-dialogtxt       "Ah... Sorry... [NAME 8]"
-dialogtxt       ", I brought up Iana again..."
+dialogtxt       "Ah... Sorry... I brought up"
+dialogtxt       "Iana again..."
 code0309        
 call            @Func_246e
 code0479        0, 0, 13

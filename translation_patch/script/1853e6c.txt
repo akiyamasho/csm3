@@ -74,7 +74,7 @@ code047d        1, 2
 call            @Func_11f4
 call            @Func_1190
 jumpz           @Cond_0348, ($b003 == 0)
-dialogtxt       "I Was Attacked... [NAME 6]..."
+dialogtxt       "I was attacked..."
 goto            @Cond_0348
 
 @Cond_0348:

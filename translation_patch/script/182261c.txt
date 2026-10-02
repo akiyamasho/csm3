@@ -572,8 +572,8 @@ goto            @Cond_13e0
 
 @Cond_13e0:
 jumpz           @Cond_142c, ($b003 == 2)
-dialogtxt       "Break it, Master [NAME 4]."
-dialogtxt       "There Is A Better Way To Do It."
+dialogtxt       "Even if you break it,"
+dialogtxt       "there's a better way."
 goto            @Cond_142c
 
 @Cond_142c:
@@ -589,18 +589,18 @@ call            @Func_1c7c
 code0479        1, 2, 12
 call            @Func_1cb2
 jumpz           @Cond_153c, ($b002 == 0)
-dialogtxt       "Also, Murno Is At The Water Ruin Of"
-dialogtxt       "At [NAME 8]kui Water Ruin."
-dialogtxt       "Outskirts, On The Lowest Floor!"
+dialogtxt       "Murno's at the Rekui Water Ruins"
+dialogtxt       "outside the village, on the lowest"
+dialogtxt       "floor!"
 code0309        
 code0479        1, 2, 15
 dialogtxt       "Let Us Hurry!"
 goto            @Label_15c2
 
 @Cond_153c:
-dialogtxt       "Also, Murno Is At Water Ruin"
-dialogtxt       "At [NAME 8]kui Water Ruin."
-dialogtxt       "Outskirts, They Are On Lowest Floor!"
+dialogtxt       "Murno's at the Rekui Water Ruins"
+dialogtxt       "outside the village, on the lowest"
+dialogtxt       "floor!"
 code0309        
 code0479        1, 2, 15
 dialogtxt       "Let Us Hurry!"

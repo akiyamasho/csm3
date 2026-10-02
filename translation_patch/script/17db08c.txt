@@ -38,7 +38,7 @@ call            @Func_224c
 code0479        1, 0, 12
 call            @Func_2282
 dialogtxt       "Umm..."
-dialogtxt       "So your portion is..."
+dialogtxt       "So [NAME 2]'s portion is..."
 code0309        
 call            @Func_2352
 call            @Func_22a0
@@ -816,4 +816,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

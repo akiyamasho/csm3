@@ -148,7 +148,7 @@ code040b
 code0301        8, 7
 dialogtxt       "A notice from Gallahan's Workshop"
 dialogtxt       "If there is no clerk at the counter,"
-dialogtxt       "please help yourself to the merchandise."
+dialogtxt       "please help yourself to our wares."
 code0309        
 code0302        7
 code040b        
@@ -367,7 +367,7 @@ dialogtxt       "so I can open a big shop someday"
 dialogtxt       "and live there with my daughter."
 code0309        
 dialogtxt       "I know a lot about smithing, so ask me"
-dialogtxt       "if there's anything you'd like to know."
+dialogtxt       "if there's anything you want to know."
 code0309        
 code047e        0, 0
 choicetxt       @Choice_10a6, "Tell me about crafting"
@@ -382,15 +382,15 @@ dialogtxt       "I'll tell you the secret to making"
 dialogtxt       "high-quality weapons."
 code0309        
 dialogtxt       "When crafting normally, if the weapon"
-dialogtxt       "rank is higher than your smithing rank,"
-dialogtxt       "the odds are low and it's hard to make."
+dialogtxt       "rank tops your smithing rank,"
+dialogtxt       "odds are low and it's hard to craft."
 code0309        
 dialogtxt       "But if you craft a weapon below your"
 dialogtxt       "smithing"
 code0309        
 dialogtxt       "And I've learned that when you make a"
-dialogtxt       "weapon your partner is skilled with, the"
-dialogtxt       "odds go up even further."
+dialogtxt       "weapon your partner is skilled with,"
+dialogtxt       "the odds go up even further."
 code0309        
 goto            @Label_1372
 
@@ -404,8 +404,8 @@ dialogtxt       "know there's also something called"
 dialogtxt       "Advanced Dismantling?"
 code0309        
 dialogtxt       "When you dismantle a weapon with max"
-dialogtxt       "proficiency, you can obtain any Mater left"
-dialogtxt       "over from its special attack or effect."
+dialogtxt       "skill can yield any Mater left"
+dialogtxt       "from its special attack or effect."
 code0309        
 dialogtxt       "You can use this Mater to add the"
 dialogtxt       "Add effects to any weapon, right?"

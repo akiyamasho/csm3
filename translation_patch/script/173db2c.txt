@@ -321,8 +321,8 @@ code0301        8, 7
 code047d        0, 121
 code047e        0, 1
 dialogtxt       "Someone is putting targets everywhere,"
-dialogtxt       "like those for arrows,"
-dialogtxt       "I wonder what is so interesting about it."
+dialogtxt       "like those for arrows, I wonder what's"
+dialogtxt       "so interesting about it."
 code0309        
 code047e        0, 0
 code0302        7

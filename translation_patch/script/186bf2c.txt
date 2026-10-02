@@ -133,9 +133,9 @@ code0309
 call            @Func_0f16
 code0479        0, 2, 14
 call            @Func_0e74
-dialogtxt       "That's right."
-dialogtxt       "It seems Mr. Wellman isn't here either."
-dialogtxt       "I wonder if they went somewhere..."
+dialogtxt       "That's right. It seems Mr. Wellman"
+dialogtxt       "isn't here either. I wonder if they"
+dialogtxt       "went somewhere..."
 code0309        
 call            @Func_0fb0
 call            @Func_0e92
@@ -203,7 +203,7 @@ goto            @Label_07ba
 @Label_07ba:
 call            @Func_0ee0
 jumpz           @Cond_07f4, ($b003 == 0)
-dialogtxt       "We Will Go Search As [NAME 4] ..."
+dialogtxt       "We Will Go Search Too."
 goto            @Cond_07f4
 
 @Cond_07f4:

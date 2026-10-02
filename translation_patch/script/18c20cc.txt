@@ -24,7 +24,7 @@ call            @Func_101c
 code043c        2, 4
 code0479        0, 0, 13
 call            @Func_0f7a
-dialogtxt       "Well, I am part of the town watch."
+dialogtxt       "Well, I'm part of the town watch."
 code0309        
 call            @Func_0fb0
 code043c        0, 2
@@ -66,13 +66,13 @@ call            @Func_0fb0
 code0479        1, 1, 16
 call            @Func_0fe6
 jumpz           @Cond_031e, ($b002 == 0)
-dialogtxt       "Is thanking [NAME 8]"
-dialogtxt       "really that embarrassing...?"
+dialogtxt       "Is thanking me"
+dialogtxt       "that embarrassing...?"
 goto            @Label_035e
 
 @Cond_031e:
 dialogtxt       "So thanking me"
-dialogtxt       "is really that embarrassing...?"
+dialogtxt       "is that embarrassing...?"
 goto            @Label_035e
 
 @Label_035e:
@@ -104,7 +104,7 @@ call            @Func_101c
 code0479        0, 0, 12
 call            @Func_0f7a
 dialogtxt       "Well... um... the other day..."
-dialogtxt       "just like you told me,"
+dialogtxt       "like you told me,"
 dialogtxt       "I talked things over with Mom..."
 code0309        
 code0479        1, 0, 12
@@ -119,7 +119,7 @@ call            @Func_0fe6
 jumpz           @Cond_057e, ($b002 == 0)
 dialogtxt       "I see! That's great!"
 dialogtxt       "Now that your worries are gone,"
-dialogtxt       "you can challenge [NAME 8]..."
+dialogtxt       "you can challenge me..."
 goto            @Label_05ce
 
 @Cond_057e:
@@ -176,7 +176,7 @@ call            @Func_101c
 code0479        0, 8, 15
 code0479        1, 5, 14
 call            @Func_0f7a
-dialogbig       60, 116, 1, 0, 0, "Just do it!"
+dialogbig       60, 116, 1, 0, 0, "do it!"
 code030c        
 call            @Func_0fb0
 code0479        1, 5, 16
@@ -196,12 +196,12 @@ call            @Func_0fb0
 code0479        1, 1, 13
 call            @Func_0fe6
 jumpz           @Cond_0896, ($b002 == 0)
-dialogtxt       "That's great, [NAME 8]my."
+dialogtxt       "That's great, Remy."
 goto            @Label_08c4
 
 @Cond_0896:
 dialogtxt       "You're welcome."
-dialogtxt       "That's great, [NAME 8]my."
+dialogtxt       "That's great, Remy."
 goto            @Label_08c4
 
 @Label_08c4:
@@ -218,7 +218,7 @@ code0479        1, 2, 12
 call            @Func_0fe6
 jumpz           @Cond_096c, ($b002 == 0)
 dialogtxt       "What was that?"
-dialogtxt       "[NAME 8] won't lose, either."
+dialogtxt       "I won't lose, either."
 goto            @Label_09a0
 
 @Cond_096c:

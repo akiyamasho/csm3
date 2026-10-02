@@ -35,7 +35,7 @@ code0309
 code0479        0, 2, 16
 jumpz           @Cond_0206, ($b002 == 0)
 dialogtxt       "(I don't know why, though..."
-dialogtxt       "  γ won't tell me, either.)"
+dialogtxt       "I do not know, either.)"
 dialogtxt       "  γ won't tell me, either.)"
 code0309        
 code0479        0, 4, 16
@@ -45,7 +45,7 @@ goto            @Label_0292
 
 @Cond_0206:
 dialogtxt       "(I don't know why..."
-dialogtxt       "  and γ won't tell me.)"
+dialogtxt       "I do not know, either.)"
 dialogtxt       "  and γ won't tell me.)"
 code0309        
 code0479        0, 4, 16

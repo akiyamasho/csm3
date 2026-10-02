@@ -264,9 +264,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "I wonder what it is... I have a feeling"
-dialogtxt       "something is going to happen, but I don't"
-dialogtxt       "know what."
+dialogtxt       "I wonder what it is... I sense"
+dialogtxt       "something is going to happen, but I"
+dialogtxt       "don't know what."
 code0309        
 code047e        0, 0
 code0302        7

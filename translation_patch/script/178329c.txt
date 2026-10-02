@@ -361,7 +361,7 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "They say the one who defeated"
-dialogtxt       "Akaba[NAME 6] is wandering around here."
+dialogtxt       "Akabane is wandering around here."
 code0309        
 dialogtxt       "There might be someone that dangerous"
 dialogtxt       "around here. It's just too dangerous."

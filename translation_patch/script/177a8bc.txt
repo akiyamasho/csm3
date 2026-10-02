@@ -364,7 +364,7 @@ ret
 code0301        8, 7
 code047d        0, 118
 code047e        0, 1
-dialogtxt       "You defeated Akaba[NAME 6]?"
+dialogtxt       "You defeated Akabane?"
 dialogtxt       "Amazing..."
 code0309        
 code047e        0, 0
@@ -388,7 +388,7 @@ code040b
 @Event_0f8c:
 code0301        8, 7
 dialogtxt       "At the Slenji Mine ahead, the vicious"
-dialogtxt       "Stray Summon Beast Akaba[NAME 6]"
+dialogtxt       "Stray Summon Beast Akabane"
 dialogtxt       "has been defeated."
 code0309        
 dialogtxt       "But other Strays, too,"

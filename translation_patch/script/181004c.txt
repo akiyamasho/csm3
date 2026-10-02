@@ -82,20 +82,20 @@ call            @Func_1096
 code0479        1, 0, 12
 call            @Func_10cc
 dialogtxt       "Well, I don't know what happened, but"
-dialogtxt       "I'm really glad you didn't say that Murno"
+dialogtxt       "I'm glad you didn't say that Murno"
 dialogtxt       "and the others were leaving town."
 code0309        
 code0479        0, 0, 14
 code0479        1, 2, 16
-dialogtxt       "I still have to talk to Bostaph, though."
-dialogtxt       "That Bostaph doesn't have"
-dialogtxt       "any intention of listening to me..."
+dialogtxt       "I still have to talk to Bostaph,"
+dialogtxt       "though. That Bostaph doesn't have any"
+dialogtxt       "intention of listening to me..."
 code0309        
 call            @Func_1102
 code0479        0, 2, 16
 call            @Func_1060
 jumpz           @Cond_0570, ($b002 == 0)
-dialogtxt       "He told [NAME 8], too."
+dialogtxt       "He told me, too."
 dialogtxt       "He won't stop the stray hunt..."
 goto            @Label_05b8
 
@@ -133,7 +133,7 @@ call            @Func_1102
 code0479        0, 2, 16
 call            @Func_1060
 dialogtxt       "Come to think of it,"
-dialogtxt       "[NAME 4] didn't know..."
+dialogtxt       "Big bro didn't know..."
 code0309        
 call            @Func_1096
 code0479        1, 2, 16
@@ -171,9 +171,9 @@ dialogtxt       "Fine."
 dialogtxt       "I'll ask Bostaph tomorrow."
 code0309        
 code0479        1, 2, 16
-dialogtxt       "But if you keep worrying about it alone,"
-dialogtxt       "something strange"
-dialogtxt       "might happen..."
+dialogtxt       "But if you keep worrying about"
+dialogtxt       "it alone, something strange might"
+dialogtxt       "happen..."
 code0309        
 call            @Func_1102
 code0479        0, 2, 14

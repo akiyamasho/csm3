@@ -140,7 +140,7 @@ code047d        1, 132
 call            @Func_2ae0
 call            @Func_2a5e
 dialogtxt       "Now then, you two are going to give me"
-dialogtxt       "a full explanation, [NAME 4]."
+dialogtxt       "I'll have a full explanation from you."
 code047b        
 code0309        
 call            @Func_2b36
@@ -210,8 +210,8 @@ code043e        3, 3, 0
 code043c        3, 1
 code0479        0, 2, 14
 call            @Func_2a10
-dialogtxt       "I have to get it... Because of that Magic"
-dialogtxt       "Stone, that person... Voijin..."
+dialogtxt       "I have to get it... Because of that"
+dialogtxt       "Magic Stone, that person... Voijin..."
 dialogtxt       "..."
 code0309        
 code0479        0, 3, 15
@@ -387,7 +387,7 @@ code0479        1, 3, 15
 code047d        1, 132
 call            @Func_2ae0
 call            @Func_2a7c
-dialogtxt       "[NAME 4], you two stay put!"
+dialogtxt       "You two, stay put!"
 code047b        
 code0309        
 call            @Func_2b4c
@@ -479,7 +479,7 @@ goto            @Cond_12aa
 @Cond_12aa:
 jumpz           @Cond_12de, ($b003 == 2)
 dialogtxt       "δ!"
-dialogtxt       "[NAME 4], protect Murno!"
+dialogtxt       "You, protect Murno!"
 goto            @Cond_12de
 
 @Cond_12de:

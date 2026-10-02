@@ -406,7 +406,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "I want to see what's outside the village,"
+dialogtxt       "I want to see beyond the village,"
 dialogtxt       "but strays are scary..."
 code0309        
 code047e        0, 0

@@ -46,7 +46,7 @@ call            @Func_1984
 call            @Func_18ec
 dialogtxt       "δ...!"
 dialogtxt       "You're safe."
-dialogtxt       "I'm so glad..."
+dialogtxt       "So glad..."
 code047b        
 code0309        
 call            @Func_1940
@@ -84,20 +84,20 @@ call            @Func_18d4
 code0479        1, 4, 16
 call            @Func_190a
 dialogtxt       "I don't know..."
-dialogtxt       "The people here took γ away..."
-dialogtxt       "And Govann's Summon Stone, too..."
+dialogtxt       "They took me away..."
+dialogtxt       "And Govan's Magic Stone..."
 code0309        
 call            @Func_1940
 code0479        0, 5, 15
 call            @Func_189e
 jumpz           @Cond_048e, ($b002 == 0)
 dialogtxt       "What!?"
-dialogtxt       "They took the Summon Stone!?"
+dialogtxt       "They took the Magic Stone!?"
 goto            @Label_04be
 
 @Cond_048e:
 dialogtxt       "No way...!"
-dialogtxt       "They took the Summon Stone!?"
+dialogtxt       "They took the Magic Stone!?"
 goto            @Label_04be
 
 @Label_04be:
@@ -106,21 +106,21 @@ call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
 dialogtxt       "Yes..."
-dialogtxt       "But... they didn't seem to be"
-dialogtxt       "after the Summon Stone..."
+dialogtxt       "But... they weren't"
+dialogtxt       "after the Magic Stone..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_05a6, ($b002 == 0)
 dialogtxt       "I see... Damn..."
-dialogtxt       "Why did they have to do this"
-dialogtxt       "to [NAME 8] and the others..."
+dialogtxt       "Why do this"
+dialogtxt       "...to us and the others..."
 goto            @Label_0602
 
 @Cond_05a6:
 dialogtxt       "I see... Even so..."
-dialogtxt       "Why did they have to do this"
+dialogtxt       "Why do this"
 dialogtxt       "to us...?"
 goto            @Label_0602
 
@@ -129,7 +129,7 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 16
 call            @Func_190a
-dialogtxt       "That... I don't know, either..."
+dialogtxt       "I don't know..."
 dialogtxt       "But..."
 dialogtxt       "I'm sorry..."
 code0309        
@@ -143,20 +143,20 @@ code0479        1, 4, 17
 call            @Func_190a
 dialogtxt       "I'm sorry..."
 dialogtxt       "This happened because of me..."
-dialogtxt       "I dragged you into it, too..."
+dialogtxt       "I dragged you in..."
 code0309        
 call            @Func_1940
 code0479        0, 5, 15
 call            @Func_189e
 jumpz           @Cond_0772, ($b002 == 0)
 dialogtxt       "This isn't your fault, Murno!"
-dialogtxt       "Anise and the others"
+dialogtxt       "Anise and others"
 dialogtxt       "are to blame for this!"
 goto            @Label_07ca
 
 @Cond_0772:
 dialogtxt       "This isn't your fault, Murno!"
-dialogtxt       "Anise and the others"
+dialogtxt       "Anise and others"
 dialogtxt       "are the ones to blame!"
 goto            @Label_07ca
 
@@ -166,12 +166,12 @@ call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
 dialogtxt       "But they only did that because"
-dialogtxt       "I... had Govann's Summon Stone"
-dialogtxt       "in my possession..."
+dialogtxt       "I... had Govan's Magic Stone"
+dialogtxt       "with me..."
 code0309        
 code0479        0, 0, 16
-dialogtxt       "Govann's Summon Stone really was"
-dialogtxt       "something that brings misfortune..."
+dialogtxt       "Govan's Magic Stone was"
+dialogtxt       "something bringing misfortune..."
 code0309        
 call            @Func_1940
 call            @Func_189e
@@ -180,23 +180,23 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
-dialogtxt       "Long ago, the power of that Summon"
+dialogtxt       "Long ago, that Summon's power"
 dialogtxt       "Stone destroyed a great city... That's"
-dialogtxt       "what the stories say..."
+dialogtxt       "so the stories say..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 15
 call            @Func_189e
 jumpz           @Cond_09a6, ($b002 == 0)
-dialogtxt       "A city was destroyed...!?"
-dialogtxt       "You've been carrying"
-dialogtxt       "something that dangerous all this time!?"
+dialogtxt       "A city was destroyed!? You carried"
+dialogtxt       "danger like that"
+dialogtxt       "this time!?"
 goto            @Label_09ee
 
 @Cond_09a6:
-dialogtxt       "A city was destroyed...!?"
-dialogtxt       "You've been carrying"
-dialogtxt       "something that dangerous all this time!?"
+dialogtxt       "A city was destroyed!? You've been"
+dialogtxt       "carrying that danger all"
+dialogtxt       "this time!?"
 goto            @Label_09ee
 
 @Label_09ee:
@@ -204,9 +204,9 @@ code0309
 call            @Func_18d4
 code0479        1, 2, 16
 call            @Func_190a
-dialogtxt       "Because it was so dangerous,"
-dialogtxt       "my family had protected"
-dialogtxt       "the Summon Stone all this time..."
+dialogtxt       "Since it was dangerous,"
+dialogtxt       "my family protected"
+dialogtxt       "the Magic Stone all this time..."
 code0309        
 code0479        1, 3, 14
 dialogtxt       "And now I have to..."
@@ -224,12 +224,12 @@ code0309
 call            @Func_18d4
 code0479        1, 3, 16
 call            @Func_190a
-dialogtxt       "I'd kept it secret all this time, but then"
-dialogtxt       "they suddenly came... They demanded"
-dialogtxt       "the Summon Stone, and the village..."
+dialogtxt       "I kept it secret, but then"
+dialogtxt       "they came... They demanded"
+dialogtxt       "the Magic Stone, and the village..."
 code0309        
 code0479        1, 3, 12
-dialogtxt       "They ruined everything..."
+dialogtxt       "They ruined it all..."
 dialogtxt       "It was horrible..."
 code0309        
 call            @Func_1940
@@ -250,9 +250,9 @@ code0309
 call            @Func_18d4
 code0479        1, 4, 14
 call            @Func_190a
-dialogtxt       "My father told me he'd take care of the"
-dialogtxt       "village, and ordered me to protect the"
-dialogtxt       "Summon Stone... So I..."
+dialogtxt       "My father told me he'd take care of"
+dialogtxt       "the village, and ordered me to protect"
+dialogtxt       "the Magic Stone... So I..."
 code0309        
 call            @Func_1940
 code0479        0, 4, 16
@@ -264,9 +264,9 @@ dialogtxt       "father...?"
 goto            @Label_0d74
 
 @Cond_0d24:
-dialogtxt       "So I escaped... Then I don't know what"
-dialogtxt       "happened to the village or my father...?"
-dialogtxt       "..."
+dialogtxt       "So I escaped... Then I don't know"
+dialogtxt       "what happened to the village or my"
+dialogtxt       "father...? ..."
 goto            @Label_0d74
 
 @Label_0d74:
@@ -287,17 +287,17 @@ call            @Func_18d4
 code0479        1, 3, 16
 call            @Func_190a
 dialogtxt       "I'm sorry, δ."
-dialogtxt       "I meant to keep you out of this,"
+dialogtxt       "I meant to spare you,"
 dialogtxt       "but now this has happened..."
 code0309        
 dialogtxt       "I'll make things right..."
-dialogtxt       "I'll definitely make things right..."
+dialogtxt       "I'll make this right..."
 code0309        
 call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_0ed6, ($b002 == 0)
-dialogtxt       "I'll do my best, [NAME 8]..."
+dialogtxt       "I'll do my best..."
 goto            @Label_0ef2
 
 @Cond_0ed6:
@@ -315,12 +315,12 @@ call            @Func_1940
 code0479        0, 2, 16
 call            @Func_189e
 jumpz           @Cond_106a, ($b002 == 0)
-dialogtxt       "After going through all that pain,"
-dialogtxt       "you kept protecting [NAME 8] and others..."
+dialogtxt       "After all that pain,"
+dialogtxt       "you kept us out of it..."
 dialogtxt       "You've done your best, Murno..."
 code0309        
 code0479        0, 0, 13
-dialogtxt       "That's why I'll try even harder, [NAME 8],"
+dialogtxt       "So I'll try even harder..."
 dialogtxt       "so things can get better without"
 dialogtxt       "Murno having to suffer so much."
 code0309        
@@ -331,14 +331,14 @@ code0309
 goto            @Label_118e
 
 @Cond_106a:
-dialogtxt       "After going through all that pain, you kept"
-dialogtxt       "trying to protect us... Murno's been"
-dialogtxt       "doing her best all this time..."
+dialogtxt       "After all that pain, you"
+dialogtxt       "kept trying to protect us... Murno's"
+dialogtxt       "been doing her best all this time..."
 code0309        
 code0479        0, 0, 13
-dialogtxt       "That's why I'll try even harder,"
-dialogtxt       "so things can get better"
-dialogtxt       "without Murno having to suffer so much."
+dialogtxt       "I'll try even harder, so"
+dialogtxt       "things can get better without Murno"
+dialogtxt       "suffering so much."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "So Murno"
@@ -356,15 +356,15 @@ call            @Func_1940
 code0479        0, 2, 14
 call            @Func_189e
 jumpz           @Cond_1232, ($b002 == 0)
-dialogtxt       "All right, first we need to find a way"
+dialogtxt       "First, we need a way"
 dialogtxt       "out of here"
-dialogtxt       "and get the Summon Stone back..."
+dialogtxt       "and get the Magic Stone back..."
 goto            @Label_1280
 
 @Cond_1232:
-dialogtxt       "All right, first we need to find a way"
+dialogtxt       "First, we need a way"
 dialogtxt       "out of here"
-dialogtxt       "and get the Summon Stone back..."
+dialogtxt       "and get the Magic Stone back..."
 goto            @Label_1280
 
 @Label_1280:

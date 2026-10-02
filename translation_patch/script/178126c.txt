@@ -26,8 +26,8 @@ code047d        1, 2
 call            @Func_2e04
 jumpz           @Cond_025a, ($b003 == 0)
 call            @Func_2d00
-dialogtxt       "Let's go look for Anise and the others!"
-dialogtxt       "We'll definitely catch them today!"
+dialogtxt       "Let's find Anise and them!"
+dialogtxt       "We'll catch them today!"
 code047b        
 code0309        
 call            @Func_2d54
@@ -41,14 +41,14 @@ code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_0202, ($b002 == 0)
 dialogtxt       "That's true, but..."
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it."
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't."
 goto            @Label_024a
 
 @Cond_0202:
 dialogtxt       "That's true, but..."
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it, okay?"
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't, okay?"
 goto            @Label_024a
 
 @Label_024a:
@@ -61,8 +61,8 @@ goto            @Cond_025a
 @Cond_025a:
 jumpz           @Cond_03a0, ($b003 == 1)
 call            @Func_2d00
-dialogtxt       "Let's go look for Anise and the others!"
-dialogtxt       "We'll definitely catch them today!"
+dialogtxt       "Let's find Anise and them!"
+dialogtxt       "We'll catch them today!"
 code047b        
 code0309        
 call            @Func_2d54
@@ -75,13 +75,13 @@ call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_0360, ($b002 == 0)
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it."
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't."
 goto            @Label_0390
 
 @Cond_0360:
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it, okay?"
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't, okay?"
 goto            @Label_0390
 
 @Label_0390:
@@ -94,27 +94,27 @@ goto            @Cond_03a0
 @Cond_03a0:
 jumpz           @Cond_04de, ($b003 == 2)
 call            @Func_2d00
-dialogtxt       "Let's go look for Anise and the others!"
-dialogtxt       "We'll definitely catch them today!"
+dialogtxt       "Let's find Anise and them!"
+dialogtxt       "We'll catch them today!"
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 2, 13
 call            @Func_2d8a
-dialogtxt       "As long as we capture them alive,"
+dialogtxt       "If we capture them alive,"
 dialogtxt       "you won't complain, right?"
 code0309        
 call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_049e, ($b002 == 0)
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it."
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't."
 goto            @Label_04ce
 
 @Cond_049e:
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it, okay?"
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't, okay?"
 goto            @Label_04ce
 
 @Label_04ce:
@@ -127,27 +127,27 @@ goto            @Cond_04de
 @Cond_04de:
 jumpz           @Cond_061a, ($b003 == 3)
 call            @Func_2d00
-dialogtxt       "Let's go look for Anise and the others!"
-dialogtxt       "We'll definitely catch them today!"
+dialogtxt       "Let's find Anise and them!"
+dialogtxt       "We'll catch them today!"
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 2, 16
 call            @Func_2d8a
-dialogtxt       "As long as we capture them alive,"
+dialogtxt       "If we capture them alive,"
 dialogtxt       "That's okay, right?"
 code0309        
 call            @Func_2dc0
 code0479        0, 1, 16
 call            @Func_2d1e
 jumpz           @Cond_05da, ($b002 == 0)
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it."
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't."
 goto            @Label_060a
 
 @Cond_05da:
-dialogtxt       "Don't do anything too reckless."
-dialogtxt       "Don't even think about it, okay?"
+dialogtxt       "Don't be reckless."
+dialogtxt       "Don't, okay?"
 goto            @Label_060a
 
 @Label_060a:
@@ -189,16 +189,16 @@ code047d        1, 2
 call            @Func_2e04
 jumpz           @Cond_0860, ($b003 == 0)
 call            @Func_2d00
-dialogtxt       "Of all times, a Stray Summon Beast..."
-dialogtxt       "What will happen to our search for"
+dialogtxt       "A Stray Beast, now...?"
+dialogtxt       "What of our search for"
 dialogtxt       "Anise and the others..."
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 0, 12
 call            @Func_2d8a
-dialogtxt       "Confirm The Situation With The Masters."
-dialogtxt       "With The Masters. I Think."
+dialogtxt       "Confirm The Situation With The"
+dialogtxt       "Masters. With The Masters. I Think."
 code0309        
 call            @Func_2dc0
 code0479        0, 0, 12
@@ -212,7 +212,7 @@ dialogtxt       "That's right..."
 goto            @Label_082c
 
 @Label_082c:
-dialogtxt       "Let's go to everyone first!"
+dialogtxt       "Let's go to everyone!"
 code0309        
 call            @Func_2e5a
 call            @Func_2d3c
@@ -222,8 +222,8 @@ goto            @Cond_0860
 @Cond_0860:
 jumpz           @Cond_09a4, ($b003 == 1)
 call            @Func_2d00
-dialogtxt       "Of all times, a Stray Summon Beast..."
-dialogtxt       "What will happen to our search for"
+dialogtxt       "A Stray Beast, now...?"
+dialogtxt       "What of our search for"
 dialogtxt       "Anise and the others..."
 code047b        
 code0309        
@@ -245,7 +245,7 @@ dialogtxt       "That's right..."
 goto            @Label_0970
 
 @Label_0970:
-dialogtxt       "Let's go to everyone first!"
+dialogtxt       "Let's go to everyone!"
 code0309        
 call            @Func_2e5a
 call            @Func_2d3c
@@ -255,17 +255,17 @@ goto            @Cond_09a4
 @Cond_09a4:
 jumpz           @Cond_0b06, ($b003 == 2)
 call            @Func_2d00
-dialogtxt       "Of all times, a Stray Summon Beast..."
-dialogtxt       "What will happen to our search for"
+dialogtxt       "A Stray Beast, now...?"
+dialogtxt       "What of our search for"
 dialogtxt       "Anise and the others..."
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 0, 16
 call            @Func_2d8a
-dialogtxt       "Even if [NAME 4] thinks about"
-dialogtxt       "it here, one thing is certain: it won't"
-dialogtxt       "solve anything. That much is certain."
+dialogtxt       "Even if you think about it here,"
+dialogtxt       "one thing is certain: it won't solve"
+dialogtxt       "anything. That much is certain."
 code0309        
 call            @Func_2dc0
 code0479        0, 4, 12
@@ -289,15 +289,15 @@ goto            @Cond_0b06
 @Cond_0b06:
 jumpz           @Cond_0c70, ($b003 == 3)
 call            @Func_2d00
-dialogtxt       "Of all times, a Stray Summon Beast..."
-dialogtxt       "What will happen to our search for"
+dialogtxt       "A Stray Beast, now...?"
+dialogtxt       "What of our search for"
 dialogtxt       "Anise and the others..."
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 0, 16
 call            @Func_2d8a
-dialogtxt       "We can't just do as we please,"
+dialogtxt       "We can't do as we please,"
 dialogtxt       "so let's go consult the master."
 dialogtxt       "Let's go ask for advice."
 code0309        
@@ -313,7 +313,7 @@ dialogtxt       "That's right..."
 goto            @Label_0c3c
 
 @Label_0c3c:
-dialogtxt       "Let's go to everyone first!"
+dialogtxt       "Let's go to everyone!"
 code0309        
 call            @Func_2e5a
 call            @Func_2d3c
@@ -352,9 +352,9 @@ code047d        1, 2
 call            @Func_2e04
 jumpz           @Cond_0f2e, ($b003 == 0)
 call            @Func_2d00
-dialogtxt       "Leave the Stray to Anise and the others."
-dialogtxt       "Leave it to us."
-dialogtxt       "Let's go look for Anise and the others."
+dialogtxt       "Leave the Stray to Anise and the"
+dialogtxt       "others. Leave it to us. Let's go look"
+dialogtxt       "for Anise and the others."
 code047b        
 code0309        
 call            @Func_2d54
@@ -394,9 +394,9 @@ goto            @Cond_0f2e
 @Cond_0f2e:
 jumpz           @Cond_1128, ($b003 == 1)
 call            @Func_2d00
-dialogtxt       "Leave the Stray to Anise and the others."
-dialogtxt       "Leave it to us."
-dialogtxt       "Let's go look for Anise and the others."
+dialogtxt       "Leave the Stray to Anise and the"
+dialogtxt       "others. Leave it to us. Let's go look"
+dialogtxt       "for Anise and the others."
 code047b        
 code0309        
 call            @Func_2d54
@@ -436,16 +436,16 @@ goto            @Cond_1128
 @Cond_1128:
 jumpz           @Cond_1330, ($b003 == 2)
 call            @Func_2d00
-dialogtxt       "Leave the Stray to Anise and the others."
-dialogtxt       "Leave it to us."
-dialogtxt       "Let's go look for Anise and the others."
+dialogtxt       "Leave the Stray to Anise and the"
+dialogtxt       "others. Leave it to us. Let's go look"
+dialogtxt       "for Anise and the others."
 code047b        
 code0309        
 call            @Func_2d54
 code0479        1, 2, 14
 call            @Func_2d8a
 dialogtxt       "Tch..."
-dialogtxt       "It can't be helped..."
+dialogtxt       "No choice..."
 code0309        
 call            @Func_2dc0
 code0479        0, 2, 12
@@ -468,8 +468,8 @@ call            @Func_2d54
 code0479        1, 8, 16
 call            @Func_2d8a
 dialogtxt       "W-who said I was worried about that"
-dialogtxt       "guy... Stop saying pointless things, and"
-dialogtxt       "let's get going."
+dialogtxt       "guy... Stop saying pointless things,"
+dialogtxt       "and let's get going."
 code0309        
 call            @Func_2e5a
 call            @Func_2da8
@@ -479,9 +479,9 @@ goto            @Cond_1330
 @Cond_1330:
 jumpz           @Cond_1536, ($b003 == 3)
 call            @Func_2d00
-dialogtxt       "Leave the Stray to Anise and the others."
-dialogtxt       "Leave it to us."
-dialogtxt       "Let's go look for Anise and the others."
+dialogtxt       "Leave the Stray to Anise and the"
+dialogtxt       "others. Leave it to us. Let's go look"
+dialogtxt       "for Anise and the others."
 code047b        
 code0309        
 call            @Func_2d54
@@ -552,15 +552,15 @@ call            @Func_2e04
 jumpz           @Cond_178a, ($b003 == 0)
 call            @Func_2d00
 jumpz           @Cond_1690, ($b002 == 0)
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Hurry up!"
-dialogtxt       "Hurry up!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Hurry"
+dialogtxt       "up! Hurry up!"
 goto            @Label_16d0
 
 @Cond_1690:
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Let's hurry!"
-dialogtxt       "Let's hurry!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Let's"
+dialogtxt       "hurry! Let's hurry!"
 goto            @Label_16d0
 
 @Label_16d0:
@@ -596,15 +596,15 @@ goto            @Cond_178a
 jumpz           @Cond_190a, ($b003 == 1)
 call            @Func_2d00
 jumpz           @Cond_17f0, ($b002 == 0)
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Hurry up!"
-dialogtxt       "Hurry up!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Hurry"
+dialogtxt       "up! Hurry up!"
 goto            @Label_1830
 
 @Cond_17f0:
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Let's hurry!"
-dialogtxt       "Let's hurry!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Let's"
+dialogtxt       "hurry! Let's hurry!"
 goto            @Label_1830
 
 @Label_1830:
@@ -614,7 +614,7 @@ call            @Func_2d54
 code0479        1, 2, 12
 call            @Func_2d8a
 dialogtxt       "I swear on this topknot,"
-dialogtxt       "I will never let you escape!"
+dialogtxt       "I'll never let you escape!"
 dialogtxt       "Prepare yourself!"
 code0309        
 call            @Func_2dc0
@@ -641,15 +641,15 @@ goto            @Cond_190a
 jumpz           @Cond_1a6e, ($b003 == 2)
 call            @Func_2d00
 jumpz           @Cond_1970, ($b002 == 0)
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Hurry up!"
-dialogtxt       "Hurry up!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Hurry"
+dialogtxt       "up! Hurry up!"
 goto            @Label_19b0
 
 @Cond_1970:
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Let's hurry!"
-dialogtxt       "Let's hurry!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Let's"
+dialogtxt       "hurry! Let's hurry!"
 goto            @Label_19b0
 
 @Label_19b0:
@@ -659,7 +659,7 @@ call            @Func_2d54
 code0479        1, 3, 13
 call            @Func_2d8a
 dialogtxt       "Those guys..."
-dialogtxt       "I will not let them escape this time."
+dialogtxt       "I won't let them escape this time."
 code0309        
 call            @Func_2dc0
 code0479        0, 2, 12
@@ -685,15 +685,15 @@ goto            @Cond_1a6e
 jumpz           @Cond_1bd8, ($b003 == 3)
 call            @Func_2d00
 jumpz           @Cond_1ad4, ($b002 == 0)
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Hurry up!"
-dialogtxt       "Hurry up!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Hurry"
+dialogtxt       "up! Hurry up!"
 goto            @Label_1b14
 
 @Cond_1ad4:
-dialogtxt       "Anise's companions were spotted in Lute"
-dialogtxt       "Cave! It seems they were! Let's hurry!"
-dialogtxt       "Let's hurry!"
+dialogtxt       "Anise's companions were spotted in"
+dialogtxt       "Lute Cave! Seems they were! Let's"
+dialogtxt       "hurry! Let's hurry!"
 goto            @Label_1b14
 
 @Label_1b14:
@@ -703,7 +703,7 @@ call            @Func_2d54
 code0479        1, 2, 15
 call            @Func_2d8a
 dialogtxt       "This time, for sure,"
-dialogtxt       "I will not let them escape!"
+dialogtxt       "I won't let them escape!"
 code0309        
 call            @Func_2dc0
 code0479        0, 2, 12
@@ -865,9 +865,9 @@ code0309
 call            @Func_2d54
 code0479        1, 2, 14
 call            @Func_2d8a
-dialogtxt       "If you want to be caught like last time,"
-dialogtxt       "I don't mind,"
-dialogtxt       "but if not, keep quiet."
+dialogtxt       "If you want to be caught like last"
+dialogtxt       "time, I don't mind, but if not, keep"
+dialogtxt       "quiet."
 code0309        
 call            @Func_2dc0
 code0479        0, 1, 16
@@ -965,15 +965,15 @@ call            @Func_2e04
 jumpz           @Cond_2724, ($b003 == 0)
 call            @Func_2d00
 jumpz           @Cond_25c4, ($b002 == 0)
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_2618
 
 @Cond_25c4:
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_2618
 
 @Label_2618:
@@ -1009,15 +1009,15 @@ goto            @Cond_2724
 jumpz           @Cond_2910, ($b003 == 1)
 call            @Func_2d00
 jumpz           @Cond_279c, ($b002 == 0)
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_27f0
 
 @Cond_279c:
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_27f0
 
 @Label_27f0:
@@ -1054,15 +1054,15 @@ goto            @Cond_2910
 jumpz           @Cond_2b00, ($b003 == 2)
 call            @Func_2d00
 jumpz           @Cond_2988, ($b002 == 0)
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_29dc
 
 @Cond_2988:
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_29dc
 
 @Label_29dc:
@@ -1099,15 +1099,15 @@ goto            @Cond_2b00
 jumpz           @Cond_2cfa, ($b003 == 3)
 call            @Func_2d00
 jumpz           @Cond_2b78, ($b002 == 0)
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_2bcc
 
 @Cond_2b78:
-dialogtxt       "Anise's companions fled deep into Sport"
-dialogtxt       "Cave! They ran away! Let's hurry after"
-dialogtxt       "them!"
+dialogtxt       "Anise's companions fled deep into"
+dialogtxt       "Sport Cave! They ran away! Let's hurry"
+dialogtxt       "after them!"
 goto            @Label_2bcc
 
 @Label_2bcc:

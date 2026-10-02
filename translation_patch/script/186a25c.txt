@@ -290,8 +290,8 @@ goto            @Cond_0d4c
 
 @Cond_0d4c:
 jumpz           @Cond_0d96, ($b003 == 2)
-dialogtxt       "[NAME 4], with the weapon"
-dialogtxt       "just now! What were you doing to..."
+dialogtxt       "You, just now, with that weapon!"
+dialogtxt       "What were you doing to Murno?!"
 goto            @Cond_0d96
 
 @Cond_0d96:

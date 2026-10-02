@@ -268,7 +268,7 @@ dialogtxt       "Let's go train!"
 code047b        
 code0309        
 code0479        0, 0, 16
-dialogtxt       "...You seem to be"
+dialogtxt       "...[NAME 1], you seem"
 dialogtxt       "grumpier than usual..."
 code0309        
 call            @Func_3bd4
@@ -317,12 +317,12 @@ code047b
 code0309        
 code0479        0, 0, 16
 jumpz           @Cond_0d2e, ($b002 == 0)
-dialogtxt       "...Hey, you look sad."
+dialogtxt       "...[NAME 1], you look sad."
 dialogtxt       "What's wrong?"
 goto            @Label_0d6c
 
 @Cond_0d2e:
-dialogtxt       "...Hey, you look sad."
+dialogtxt       "...[NAME 1], you look sad."
 dialogtxt       "What's wrong?"
 goto            @Label_0d6c
 

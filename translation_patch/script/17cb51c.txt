@@ -299,9 +299,9 @@ code043c        0, 1
 code0479        0, 2, 13
 call            @Func_3362
 call            @Func_328a
-dialogtxt       "One day, I'll make"
-dialogtxt       "γ understand"
-dialogtxt       "what spirit is all about!"
+dialogtxt       "One day, I'll pass"
+dialogtxt       "my fighting spirit on to them"
+dialogtxt       "for sure!"
 goto            @Label_0dde
 
 @Label_0dde:

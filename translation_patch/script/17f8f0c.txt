@@ -133,9 +133,9 @@ code0309
 call            @Func_3044
 code0479        0, 1, 12
 call            @Func_2fa2
-dialogtxt       "Well, how do I put this... I couldn't just"
-dialogtxt       "abandon a girl in trouble. [NAME 8]"
-dialogtxt       "Wouldn't Do That, Right?"
+dialogtxt       "Well, how do I put this..."
+dialogtxt       "I couldn't leave a girl in trouble."
+dialogtxt       "I couldn't do that, okay?"
 code0309        
 call            @Func_2fd8
 code0479        1, 4, 12
@@ -147,9 +147,9 @@ code0309
 call            @Func_3044
 code0479        0, 2, 12
 call            @Func_2fa2
-dialogtxt       "Hey, what are you saying?! This [NAME 8]"
-dialogtxt       "doesn't care about some sugary"
-dialogtxt       "cake..."
+dialogtxt       "Hey, what are you saying?!"
+dialogtxt       "Me, eating cake...?"
+dialogtxt       "That sugary stuff..."
 code0309        
 call            @Func_2fd8
 code0479        1, 0, 12
@@ -171,7 +171,7 @@ call            @Func_3044
 code0479        0, 3, 17
 call            @Func_2fa2
 dialogtxt       "Guh...!"
-dialogtxt       "Ms. [NAME 4]..."
+dialogtxt       "You..."
 code0309        
 call            @Func_2fd8
 code0479        1, 0, 12
@@ -207,7 +207,7 @@ code047d        1, 2
 call            @Func_3072
 call            @Func_300e
 jumpz           @Cond_0a6c, ($b003 == 0)
-dialogtxt       "THAT MEANS IF IT IS BAD, [NAME 8]"
+dialogtxt       "THAT MEANS IF IT'S BAD, I"
 dialogtxt       "WILL RIOT"
 goto            @Cond_0a6c
 
@@ -414,7 +414,7 @@ code0309
 code0334        
 code0331        39, 256
 code0479        0, 2, 17
-dialogtxt       "Profiting by tricking [NAME 8]"
+dialogtxt       "Making money by tricking us"
 dialogtxt       "and the others is pretty rotten!"
 goto            @Label_1366
 
@@ -450,14 +450,14 @@ choicewait
 code0479        0, 2, 15
 jumpz           @Cond_147c, ($b002 == 0)
 dialogtxt       "You tricked us! And that injury you"
-dialogtxt       "mentioned was probably [NAME 5]"
-dialogtxt       "too, wasn't it?!"
+dialogtxt       "mentioned was probably"
+dialogtxt       "a lie all along, wasn't it?!"
 goto            @Label_14ca
 
 @Cond_147c:
 dialogtxt       "You did trick us! That injury you"
-dialogtxt       "mentioned was probably [NAME 5]"
-dialogtxt       "too, wasn't it?!"
+dialogtxt       "mentioned was probably"
+dialogtxt       "a lie all along, wasn't it?!"
 goto            @Label_14ca
 
 @Label_14ca:
@@ -498,9 +498,9 @@ code047d        1, 2
 call            @Func_3072
 call            @Func_300e
 jumpz           @Cond_1646, ($b003 == 0)
-dialogtxt       "IT IS TRUE THAT SHE TRICKED US,"
-dialogtxt       "[NAME 8]. HER INJURY MAY"
-dialogtxt       "BE [NAME 5]..."
+dialogtxt       "Certainly, she seems to have"
+dialogtxt       "tricked us. Her injury may be"
+dialogtxt       "a lie as well..."
 goto            @Cond_1646
 
 @Cond_1646:
@@ -514,7 +514,7 @@ goto            @Cond_16be
 jumpz           @Cond_1722, ($b003 == 2)
 dialogtxt       "That's why you get tricked."
 dialogtxt       "What she said about being injured"
-dialogtxt       "may have been [NAME 5], too."
+dialogtxt       "might have been a lie, too."
 goto            @Cond_1722
 
 @Cond_1722:
@@ -525,7 +525,7 @@ dialogtxt       "tricked us!"
 code0309        
 code0479        0, 0, 12
 dialogtxt       "Perhaps her claim of being injured"
-dialogtxt       "was [NAME 5], too..."
+dialogtxt       "might have been a lie..."
 goto            @Cond_17c2
 
 @Cond_17c2:
@@ -544,8 +544,8 @@ code0479        1, 4, 15
 call            @Func_300e
 code0334        
 code0331        33, 256
-dialogtxt       "How could you say I lied to [NAME 4]"
-dialogtxt       "you... That's awful!"
+dialogtxt       "Calling me a liar..."
+dialogtxt       "That's awful!"
 code0309        
 call            @Func_30de
 call            @Func_302c
@@ -608,7 +608,7 @@ call            @Func_3072
 call            @Func_300e
 jumpz           @Cond_1b2c, ($b002 == 0)
 dialogtxt       "What?!"
-dialogtxt       "This is [NAME 8]'s fault?!"
+dialogtxt       "Is this my fault?!"
 goto            @Label_1b58
 
 @Cond_1b2c:

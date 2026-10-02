@@ -195,17 +195,17 @@ code043c        0, 3
 code043e        0, 3, 0
 code0301        0, 9
 code0305        1
-dialogtxt       "[NAME 7] Portal: dungeon item."
-dialogtxt       "Using a \"[NAME 7] Portal Fragment\" activates it,"
-dialogtxt       "and returns you to the last town."
+dialogtxt       "Portals are dungeon items."
+dialogtxt       "A Portal Fragment activates it,"
+dialogtxt       "sending you back to your last town."
 code0309        
-dialogtxt       "To return to the dungeon, go to the"
-dialogtxt       "[NAME 7] Portal and press A;"
-dialogtxt       "you will return to where you were."
+dialogtxt       "To return, go to the active"
+dialogtxt       "Portal and press A;"
+dialogtxt       "to resume where you left off."
 code0309        
-dialogtxt       "[NAME 7] Portal stops,"
-dialogtxt       "but it also stops when you leave"
-dialogtxt       "from a village or town exit."
+dialogtxt       "The active portal stops"
+dialogtxt       "after one round trip or on leaving"
+dialogtxt       "through a village or town exit."
 code0309        
 code0302        9
 code0461        5

@@ -51,9 +51,9 @@ code0309
 call            @Func_100a
 code0479        0, 2, 16
 call            @Func_0f68
-dialogtxt       "I know, but"
-dialogtxt       "Anise and the others are still out there"
-dialogtxt       "hunting Murno."
+dialogtxt       "I know, but Anise and the others"
+dialogtxt       "are still out there hunting"
+dialogtxt       "Murno."
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_037a, ($b002 == 0)

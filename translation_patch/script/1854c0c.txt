@@ -75,7 +75,7 @@ code0479        1, 5, 13
 call            @Func_264c
 call            @Func_25ca
 dialogtxt       "If you really want to beat"
-dialogtxt       "[NAME 8], try inflicting"
+dialogtxt       "me, try inflicting"
 dialogtxt       "more pain! Come on! What's wrong?"
 code047b        
 code0309        
@@ -162,7 +162,7 @@ call            @Func_2636
 call            @Func_257c
 jumpz           @Cond_0662, ($b002 == 0)
 dialogtxt       "W-wait...!"
-dialogtxt       "[NAME 8]...!"
+dialogtxt       "I...!"
 goto            @Label_068a
 
 @Cond_0662:
@@ -638,7 +638,7 @@ code047d        0, 0
 call            @Func_2662
 call            @Func_255e
 jumpz           @Cond_1e2e, ($b002 == 0)
-dialogtxt       "L-let's go too, [NAME 8]!"
+dialogtxt       "L-let's go too!"
 goto            @Label_1e4e
 
 @Cond_1e2e:

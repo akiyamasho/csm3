@@ -14,7 +14,7 @@ code047d        1, 135
 call            @Func_30e8
 call            @Func_3066
 dialogtxt       "How surprising..."
-dialogtxt       "Are these really children"
+dialogtxt       "Are these children"
 dialogtxt       "who are part of their group...?"
 code047b        
 code0309        
@@ -26,12 +26,12 @@ call            @Func_30d2
 call            @Func_3018
 jumpz           @Cond_0180, ($b002 == 0)
 dialogtxt       "What the..."
-dialogtxt       "You are a child yourself..."
+dialogtxt       "You're a child yourself..."
 goto            @Label_01b6
 
 @Cond_0180:
-dialogtxt       "What is that supposed to mean..."
-dialogtxt       "You are a child too..."
+dialogtxt       "What is that meant to mean..."
+dialogtxt       "You're a child too..."
 goto            @Label_01b6
 
 @Label_01b6:
@@ -46,15 +46,15 @@ call            @Func_30ba
 code0479        0, 2, 15
 call            @Func_3018
 jumpz           @Cond_0274, ($b002 == 0)
-dialogtxt       "And what do you mean, “their group”!?"
-dialogtxt       "Why must [NAME 8] and"
-dialogtxt       "others go through something like this!?"
+dialogtxt       "And what do you mean, 'them'?!"
+dialogtxt       "Why do we have to go through"
+dialogtxt       "something like this!?"
 goto            @Label_02d4
 
 @Cond_0274:
-dialogtxt       "And what do you mean, “their group”!?"
-dialogtxt       "Why do we have to"
-dialogtxt       "go through something like this!?"
+dialogtxt       "And what do you mean, 'them'?!"
+dialogtxt       "Why do we have to go through"
+dialogtxt       "something like this!?"
 goto            @Label_02d4
 
 @Label_02d4:
@@ -134,7 +134,7 @@ code047d        1, 135
 call            @Func_30fe
 call            @Func_3066
 dialogtxt       "Anis"
-dialogtxt       "Are you feeling all right now?"
+dialogtxt       "Are you feeling all now?"
 code047b        
 code0309        
 call            @Func_30ba
@@ -145,9 +145,9 @@ dialogtxt       "Thanks to you."
 dialogtxt       "Tram"
 code0309        
 code0479        0, 4, 12
-dialogtxt       "After escaping, [NAME 8] and"
-dialogtxt       "I these people chased us into the river, I"
-dialogtxt       "honestly thought it was all over..."
+dialogtxt       "They learned we had escaped."
+dialogtxt       "Chased, I jumped into the river."
+dialogtxt       "I thought it was all over..."
 code0309        
 call            @Func_304e
 code0479        1, 0, 12
@@ -201,14 +201,14 @@ code0479        1, 2, 14
 code047d        1, 135
 call            @Func_30e8
 call            @Func_3084
-dialogtxt       "That is right. Anis is one of us!"
-dialogtxt       "She is not one of you!"
+dialogtxt       "That's right. Anis is one of us!"
+dialogtxt       "She isn't one of you!"
 code047b        
 code0309        
 code0479        1, 0, 14
-dialogtxt       "She followed you because"
-dialogtxt       "she wanted to save this village from you,"
-dialogtxt       "even if it meant sacrificing herself!"
+dialogtxt       "She followed you because she wanted to"
+dialogtxt       "save this village from you, even if it"
+dialogtxt       "meant sacrificing herself!"
 code0309        
 call            @Func_3128
 code047b        
@@ -237,14 +237,14 @@ call            @Func_30fe
 call            @Func_2ffa
 jumpz           @Cond_0bb2, ($b002 == 0)
 dialogtxt       "Wait a minute! What are you talking"
-dialogtxt       "about? [NAME 8] and the"
-dialogtxt       "others are not part of their group at all!"
+dialogtxt       "about? We are not their allies"
+dialogtxt       "part of their group at all!"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "And what is that supposed to mean!?"
-dialogtxt       "Protecting village from [NAME 8]!?"
-dialogtxt       "What did [NAME 8] and others do!?"
+dialogtxt       "And what is that meant to mean!?"
+dialogtxt       "Protecting the village from us!?"
+dialogtxt       "What did we ever do!?"
 goto            @Label_0c8a
 
 @Cond_0bb2:
@@ -254,7 +254,7 @@ dialogtxt       "her group like that!"
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "And what is that supposed to mean!?"
+dialogtxt       "And what is that meant to mean!?"
 dialogtxt       "Protecting the village from us!?"
 dialogtxt       "What have we done!?"
 goto            @Label_0c8a
@@ -264,9 +264,9 @@ code0309
 call            @Func_304e
 code0479        1, 2, 14
 call            @Func_3084
-dialogtxt       "Do not play dumb! You minions of Voijin"
-dialogtxt       "and what you did to this village of"
-dialogtxt       "Louise..."
+dialogtxt       "Do not play dumb! You minions of"
+dialogtxt       "Voijin and what you did to this"
+dialogtxt       "village of Louise..."
 code047b        
 code0309        
 code0479        1, 2, 15
@@ -296,28 +296,28 @@ code0479        1, 4, 12
 code047d        1, 134
 call            @Func_30e8
 call            @Func_3084
-dialogtxt       "Hah!"
-dialogtxt       "To forget the name of your own leader..."
-dialogtxt       "Did you hit your heads badly?"
+dialogtxt       "Hah! To forget the name of your own"
+dialogtxt       "leader... Did you hit your heads"
+dialogtxt       "badly?"
 code0309        
 code0479        1, 2, 15
-dialogtxt       "Still, I can’t let that excuse you from"
-dialogtxt       "the villages you have attacked"
-dialogtxt       "I cannot let you forget them!"
+dialogtxt       "Still, I can’t let that excuse you"
+dialogtxt       "from the villages you have attacked I"
+dialogtxt       "cannot let you forget them!"
 code0309        
 call            @Func_30ba
 code0479        0, 2, 15
 call            @Func_3018
 jumpz           @Cond_0f4e, ($b002 == 0)
 dialogtxt       "Wait a minute!"
-dialogtxt       "You attacked Myuno’s village,"
+dialogtxt       "You attacked Murno’s village,"
 dialogtxt       "were you not!?"
 goto            @Label_0fa4
 
 @Cond_0f4e:
-dialogtxt       "Wait a minute! You attacked Myuno’s"
-dialogtxt       "village, You attacked Myuno’s village,"
-dialogtxt       "did you not!?"
+dialogtxt       "Wait a minute! You attacked Murno’s"
+dialogtxt       "village, You attacked Murno’s"
+dialogtxt       "village, did you not!?"
 goto            @Label_0fa4
 
 @Label_0fa4:
@@ -343,17 +343,17 @@ code0479        0, 2, 14
 call            @Func_30d2
 call            @Func_3018
 jumpz           @Cond_10e8, ($b002 == 0)
-dialogtxt       "Listen carefully! [NAME 8] is a"
-dialogtxt       "blacksmith! [NAME 8] has"
+dialogtxt       "Listen carefully! I am a"
+dialogtxt       "blacksmith! I have never"
 dialogtxt       "never even met someone named Voijin..."
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "[NAME 8] Never Attacked A Village!"
+dialogtxt       "attacked a village!"
 goto            @Label_117e
 
 @Cond_10e8:
-dialogtxt       "Listen carefully! I am a blacksmith!"
+dialogtxt       "Listen carefully! I'm a smith!"
 dialogtxt       "I have never even met"
 dialogtxt       "someone named Voijin..."
 code047b        
@@ -374,7 +374,7 @@ code0479        1, 5, 16
 code047d        1, 135
 call            @Func_30fe
 call            @Func_3066
-dialogtxt       "A blacksmith?"
+dialogtxt       "A smith?"
 code047b        
 code0309        
 call            @Func_30ba
@@ -382,13 +382,13 @@ code0479        0, 2, 16
 call            @Func_3018
 jumpz           @Cond_1264, ($b002 == 0)
 dialogtxt       "Together with γ here,"
-dialogtxt       "I am making weapons."
+dialogtxt       "I'm making weapons."
 dialogtxt       "There was a hammer, remember?"
 goto            @Label_12b4
 
 @Cond_1264:
 dialogtxt       "Together with γ here,"
-dialogtxt       "I am making weapons."
+dialogtxt       "I'm making weapons."
 dialogtxt       "There was a hammer, remember?"
 goto            @Label_12b4
 
@@ -399,20 +399,20 @@ code0479        1, 0, 16
 call            @Func_3084
 dialogtxt       "A hammer?"
 dialogtxt       "Yes, there was one, but"
-dialogtxt       "that makes you a blacksmith?"
+dialogtxt       "that makes you a smith?"
 code0309        
 call            @Func_30ba
 code0479        0, 2, 15
 call            @Func_3018
 jumpz           @Cond_1372, ($b002 == 0)
-dialogtxt       "That is right!"
-dialogtxt       "A hammer is a blacksmith’s lifeblood!"
+dialogtxt       "That's right!"
+dialogtxt       "A hammer is a smith’s lifeblood!"
 dialogtxt       "Give it back!"
 goto            @Label_13ae
 
 @Cond_1372:
-dialogtxt       "That is right!"
-dialogtxt       "A hammer is a blacksmith’s lifeblood!"
+dialogtxt       "That's right!"
+dialogtxt       "A hammer is a smith’s lifeblood!"
 dialogtxt       "Give it back!"
 goto            @Label_13ae
 
@@ -440,7 +440,7 @@ code0309
 call            @Func_304e
 code0479        1, 0, 13
 call            @Func_3084
-dialogtxt       "Blacksmith or smithing artisan,"
+dialogtxt       "Smith or smithing artisan,"
 dialogtxt       "for anyone who works at the forge,"
 dialogtxt       "a hammer is naturally their lifeblood."
 code0309        
@@ -460,19 +460,19 @@ call            @Func_30fe
 call            @Func_3066
 dialogtxt       "..."
 dialogtxt       "Well, even if you are"
-dialogtxt       "a blacksmith, as you say,"
+dialogtxt       "a smith, as you say,"
 code047b        
 code0309        
 call            @Func_30ba
 code0479        0, 2, 17
 call            @Func_3018
-dialogtxt       "A blacksmith, she says!"
+dialogtxt       "A smith, she says!"
 code0309        
 call            @Func_304e
 code0479        1, 0, 14
 call            @Func_3084
-dialogtxt       "that you are not one of Voijin’s people"
-dialogtxt       "is not proof, is it?"
+dialogtxt       "that you aren't one of Voijin’s"
+dialogtxt       "people isn't proof, is it?"
 code0309        
 call            @Func_30ba
 code0333        2, 30
@@ -521,11 +521,11 @@ code043c        0, 4
 code0479        0, 1, 14
 call            @Func_3018
 jumpz           @Cond_1800, ($b002 == 0)
-dialogtxt       "You look like you have something to say."
+dialogtxt       "You seem to have something to say."
 goto            @Label_181c
 
 @Cond_1800:
-dialogtxt       "You look like you have something to say."
+dialogtxt       "You seem to have something to say."
 goto            @Label_181c
 
 @Label_181c:
@@ -533,7 +533,7 @@ goto            @Cond_1820
 
 @Cond_1820:
 jumpz           @Cond_18b2, ($b003 == 1)
-dialogtxt       "Quite right, indeed."
+dialogtxt       "right, indeed."
 code047b        
 code0309        
 call            @Func_30ba
@@ -608,15 +608,15 @@ dialogtxt       "Everything δ said"
 dialogtxt       "is true!"
 code0309        
 code0479        0, 2, 14
-dialogtxt       "We do not know anyone named Voijin,"
+dialogtxt       "We don't know anyone named Voijin,"
 dialogtxt       "and we are not"
 dialogtxt       "part of that person’s group either."
 code047b        
 code0309        
 code0479        0, 4, 15
-dialogtxt       "Anis and the others attacked my village..."
-dialogtxt       "That is why I was running away..."
-dialogtxt       "I am the one being chased!"
+dialogtxt       "Anis and the others attacked my"
+dialogtxt       "village... That's why I was running"
+dialogtxt       "away... I'm the one being chased!"
 code0309        
 call            @Func_304e
 jumpz           @Cond_1b70, ($b003 == 0)
@@ -642,22 +642,22 @@ code047d        1, 2
 call            @Func_30e8
 call            @Func_3084
 jumpz           @Cond_1c12, ($b003 == 0)
-dialogtxt       "Lady Myuno..."
+dialogtxt       "Lady Murno..."
 goto            @Cond_1c12
 
 @Cond_1c12:
 jumpz           @Cond_1c34, ($b003 == 1)
-dialogtxt       "Myuno..."
+dialogtxt       "Murno..."
 goto            @Cond_1c34
 
 @Cond_1c34:
 jumpz           @Cond_1c56, ($b003 == 2)
-dialogtxt       "Myuno..."
+dialogtxt       "Murno..."
 goto            @Cond_1c56
 
 @Cond_1c56:
 jumpz           @Cond_1c7a, ($b003 == 3)
-dialogtxt       "Lady Myuno..."
+dialogtxt       "Lady Murno..."
 goto            @Cond_1c7a
 
 @Cond_1c7a:
@@ -674,7 +674,7 @@ code047d        1, 135
 call            @Func_30e8
 code0479        0, 2, 14
 call            @Func_3084
-dialogtxt       "You are being chased?"
+dialogtxt       "You're being chased?"
 dialogtxt       "Why?"
 code047b        
 code0309        
@@ -682,7 +682,7 @@ call            @Func_30ba
 code0479        0, 2, 16
 call            @Func_3018
 dialogtxt       "The one I was carrying..."
-dialogtxt       "It is because of Govan’s magic stone."
+dialogtxt       "It's because of Govan’s magic stone."
 code0309        
 call            @Func_3154
 call            @Func_3036
@@ -693,9 +693,9 @@ code0479        1, 5, 14
 code0479        0, 2, 17
 call            @Func_30fe
 call            @Func_2ffa
-dialogtxt       "That is the Calamity Magic Stone."
-dialogtxt       "Before misfortune befalls this village,"
-dialogtxt       "please return it to me."
+dialogtxt       "That's the Calamity Magic Stone."
+dialogtxt       "Before misfortune befalls this"
+dialogtxt       "village, please return it to me."
 code047b        
 code0309        
 call            @Func_304e
@@ -704,14 +704,14 @@ call            @Func_3084
 dialogtxt       "That...?"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "You were Myuno, were you not?"
+dialogtxt       "You were Murno, were you not?"
 dialogtxt       "Please let the two of us"
 dialogtxt       "have a word."
 code0309        
 call            @Func_30ba
 code0479        0, 2, 14
 call            @Func_3018
-dialogtxt       "I do not mind."
+dialogtxt       "I don't mind."
 code0309        
 call            @Func_313e
 call            @Func_304e
@@ -723,7 +723,7 @@ code0479        1, 5, 16
 code047d        1, 0
 call            @Func_30e8
 call            @Func_3084
-dialogtxt       "Hey, Myuno?"
+dialogtxt       "Hey, Murno?"
 code047b        
 code0309        
 call            @Func_30ba
@@ -767,7 +767,7 @@ goto            @Cond_205e
 @Cond_205e:
 jumpz           @Cond_2084, ($b003 == 1)
 dialogtxt       "..."
-dialogtxt       "Very well."
+dialogtxt       "well."
 goto            @Cond_2084
 
 @Cond_2084:
@@ -780,7 +780,7 @@ goto            @Cond_20ba
 jumpz           @Cond_2100, ($b003 == 3)
 dialogtxt       "..."
 dialogtxt       "Understood..."
-dialogtxt       "You be careful too, Lady Myuno."
+dialogtxt       "You be careful too, Lady Murno."
 goto            @Cond_2100
 
 @Cond_2100:
@@ -797,7 +797,7 @@ code0479        0, 2, 15
 code047d        0, 134
 call            @Func_30d2
 call            @Func_2ffa
-dialogtxt       "Is this really the time for that!?"
+dialogtxt       "Is this the time for that!?"
 dialogtxt       "What will you do if these people"
 dialogtxt       "find out about the Master?"
 code047b        
@@ -822,9 +822,9 @@ dialogtxt       "Are you suggesting we dispose of them?"
 code047b        
 code0309        
 code0479        1, 2, 14
-dialogtxt       "While you were with Voijin and his people,"
-dialogtxt       "did you perhaps"
-dialogtxt       "become tainted by their ways?"
+dialogtxt       "While you were with Voijin and his"
+dialogtxt       "people, did you perhaps become tainted"
+dialogtxt       "by their ways?"
 code0309        
 call            @Func_30ba
 code0479        0, 3, 14
@@ -832,7 +832,7 @@ call            @Func_3018
 dialogtxt       "Grr...!"
 code0309        
 code0479        0, 2, 16
-dialogtxt       "Then what am I supposed to"
+dialogtxt       "Then what am I meant to"
 dialogtxt       "do?"
 code0309        
 call            @Func_304e
@@ -844,8 +844,8 @@ code0309
 code0334        
 code046e        16, 256, 1
 code0479        1, 0, 12
-dialogtxt       "Could you let [NAME 8] confirm"
-dialogtxt       "are these people really blacksmiths?"
+dialogtxt       "Could you let me confirm"
+dialogtxt       "are these people smiths?"
 code0309        
 call            @Func_3154
 call            @Func_30a2
@@ -879,16 +879,16 @@ code043c        3, 1
 code043c        8, 1
 code0479        1, 0, 13
 call            @Func_3084
-dialogtxt       "Who can say..."
-dialogtxt       "But I have worked as a smithing artisan"
-dialogtxt       "longer than you have been alive."
+dialogtxt       "Who can say... But I have worked as a"
+dialogtxt       "smithing artisan longer than you have"
+dialogtxt       "been alive."
 code0309        
 call            @Func_30ba
 code0479        0, 2, 12
 call            @Func_3018
 jumpz           @Cond_2660, ($b002 == 0)
 dialogtxt       "Huh... I see. Then let us show them"
-dialogtxt       "what [NAME 8] and the others"
+dialogtxt       "what we and the others can do"
 dialogtxt       "can do!"
 goto            @Label_26ac
 

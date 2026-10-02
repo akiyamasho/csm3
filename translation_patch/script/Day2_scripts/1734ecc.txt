@@ -660,8 +660,8 @@ ret
 code0301        8, 7
 code047d        0, 123
 code047e        0, 1
-dialogtxt       "There are lots of Strays"
-dialogtxt       "around, so I can't leave the"
+dialogtxt       "Lots of Strays"
+dialogtxt       "here, so I can't leave the"
 dialogtxt       "village."
 code0309        
 code047e        0, 0

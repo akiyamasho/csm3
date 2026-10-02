@@ -404,12 +404,12 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "The usual guard caught a cold,"
-dialogtxt       "so [NAME 8] is filling in today."
+dialogtxt       "so I'm filling in today."
 dialogtxt       "What a hassle..."
 code0309        
 dialogtxt       "They say there's a scary stray"
-dialogtxt       "called Akaba[NAME 6] ahead,"
-dialogtxt       "but I won't stop you if you want to go."
+dialogtxt       "called Akabane ahead,"
+dialogtxt       "but go if you want to."
 code0309        
 code047e        0, 0
 code0302        7
@@ -433,9 +433,9 @@ code040b
 
 @Event_1244:
 code0301        8, 7
-dialogtxt       "If weapon attacks always deal"
-dialogtxt       "only 1 damage; use magic."
-dialogtxt       "You may be facing a terrifying opponent."
+dialogtxt       "If weapon attacks always deal only 1"
+dialogtxt       "damage; use magic. You may be facing a"
+dialogtxt       "terrifying opponent."
 code0309        
 code0302        7
 code040b        

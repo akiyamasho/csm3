@@ -462,7 +462,7 @@ choicewait
 
 @Choice_14a4:
 code047e        0, 1
-dialogtxt       "I'll tell you about high-quality weapons."
+dialogtxt       "I'll explain high-quality weapons."
 dialogtxt       "I'll tell you all about them."
 code0309        
 dialogtxt       "Sometimes crafting produces something"
@@ -471,7 +471,7 @@ dialogtxt       "That is a high-quality weapon."
 code0309        
 dialogtxt       "High-quality weapons have higher stats"
 dialogtxt       "and may swing faster than normal ones,"
-dialogtxt       "and their other effects are stronger too."
+dialogtxt       "and their other effects are stronger."
 code0309        
 goto            @Label_1706
 
@@ -481,8 +481,8 @@ dialogtxt       "Right, to raise your smithing rank,"
 dialogtxt       "I will teach you an important point."
 code0309        
 dialogtxt       "Smithing experience matters for rank,"
-dialogtxt       "but you won't know until you craft one."
-dialogtxt       "When crafting,"
+dialogtxt       "but you won't know until you craft"
+dialogtxt       "one. When crafting,"
 code0309        
 dialogtxt       "if large sparks fly,"
 dialogtxt       "you are gaining smithing experience."

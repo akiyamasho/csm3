@@ -52,19 +52,19 @@ call            @Func_1176
 code0479        1, 0, 13
 call            @Func_11ac
 dialogtxt       "What's wrong?"
-dialogtxt       "Should you really be here?"
+dialogtxt       "Should you be here?"
 code0309        
 call            @Func_11e2
 code0479        0, 0, 16
 call            @Func_1140
 jumpz           @Cond_0330, ($b002 == 0)
 dialogtxt       "Huh...?"
-dialogtxt       "I mean, I think it's fine..."
+dialogtxt       "I mean, it's fine..."
 goto            @Label_0356
 
 @Cond_0330:
 dialogtxt       "Huh...?"
-dialogtxt       "I think it's fine..."
+dialogtxt       "It's fine..."
 goto            @Label_0356
 
 @Label_0356:
@@ -81,13 +81,13 @@ code0479        0, 5, 15
 call            @Func_1140
 jumpz           @Cond_0450, ($b002 == 0)
 dialogtxt       "Why would you say that...?! Do you"
-dialogtxt       "really think [NAME 8] would do"
+dialogtxt       "think I'd do"
 dialogtxt       "something like that, Murno?!"
 goto            @Label_04ac
 
 @Cond_0450:
 dialogtxt       "Why would you say that...?!"
-dialogtxt       "Do you really think I'd do"
+dialogtxt       "Do you think I'd do"
 dialogtxt       "something like that, Murno?!"
 goto            @Label_04ac
 
@@ -105,25 +105,25 @@ code0479        0, 2, 16
 call            @Func_1140
 jumpz           @Cond_061e, ($b002 == 0)
 dialogtxt       "Sure, I was a little happy when they"
-dialogtxt       "asked me to work as a blacksmith."
-dialogtxt       "It seemed [NAME 8]'s skill was recognized."
+dialogtxt       "asked me to work as a smith."
+dialogtxt       "It seemed my skill was recognized."
 code0309        
 code0479        0, 2, 14
 code0479        1, 2, 14
-dialogtxt       "What's this about a husband...? I never"
-dialogtxt       "thought it’d turn out this way. [NAME 8]"
-dialogtxt       "didn't expect it, either..."
+dialogtxt       "What's this about a husband...? I"
+dialogtxt       "never thought it’d turn out this way."
+dialogtxt       "I didn't expect it, either..."
 goto            @Label_071c
 
 @Cond_061e:
 dialogtxt       "Sure, I was a little happy when they"
-dialogtxt       "asked me to work as a blacksmith."
+dialogtxt       "asked me to work as a smith."
 dialogtxt       "It seemed my skill was recognized."
 code0309        
 code0479        0, 4, 14
 code0479        1, 2, 14
-dialogtxt       "But I never expected to be their poster"
-dialogtxt       "girl... I never thought it’d turn out this"
+dialogtxt       "I never expected to be their poster"
+dialogtxt       "girl... Never thought it'd end this"
 dialogtxt       "way. I didn't expect it, either..."
 goto            @Label_071c
 
@@ -151,9 +151,9 @@ call            @Func_11e2
 code0479        0, 10, 13
 code0479        1, 5, 12
 call            @Func_1140
-dialogtxt       "Well, sure. It's the first time anyone's"
-dialogtxt       "said that... Of course [NAME 8]'d be happy..."
-dialogtxt       "..."
+dialogtxt       "Well, sure..."
+dialogtxt       "Nobody's said that to me before..."
+dialogtxt       "It's embarrassing..."
 code0309        
 call            @Func_1176
 code0479        1, 2, 15
@@ -168,16 +168,16 @@ goto            @Label_0a46
 @Cond_08c8:
 code0479        1, 2, 16
 call            @Func_11ac
-dialogtxt       "But when Tier called you their poster girl,"
-dialogtxt       "when she called you that,"
-dialogtxt       "you didn't look too unhappy..."
+dialogtxt       "But when Tier called you their poster"
+dialogtxt       "girl, when she called you that, you"
+dialogtxt       "didn't look too unhappy..."
 code0309        
 call            @Func_11e2
 code0479        0, 10, 13
 call            @Func_1140
-dialogtxt       "Well, sure. It's the first time anyone's"
-dialogtxt       "said that... Of course [NAME 8]'d be happy..."
-dialogtxt       "..."
+dialogtxt       "Well, sure..."
+dialogtxt       "Nobody's said that to me before..."
+dialogtxt       "It's embarrassing..."
 code0309        
 call            @Func_1176
 code0479        1, 2, 15

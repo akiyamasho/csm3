@@ -178,9 +178,9 @@ jumpz           @Cond_06ba, ($b003 == 0)
 dialogbig       24, 116, 1, 0, 0, "Whaaaat?!"
 code030c        
 code0479        0, 5, 12
-dialogtxt       "If One Million Baam Is Saved,"
-dialogtxt       "Does The Blacksmith's Partner's Mission"
-dialogtxt       "Not End?"
+dialogtxt       "If One Million Baam Is Saved, Does"
+dialogtxt       "The Blacksmith's Partner's Mission Not"
+dialogtxt       "End?"
 goto            @Cond_06ba
 
 @Cond_06ba:
@@ -293,7 +293,7 @@ code0479        0, 4, 14
 call            @Func_229e
 dialogtxt       "Well..."
 dialogtxt       "Of course I'd be happier"
-dialogtxt       "if γ stayed with me..."
+dialogtxt       "if you stayed with me..."
 code0309        
 call            @Func_22d4
 code0479        1, 2, 13
@@ -434,7 +434,7 @@ code0479        1, 2, 12
 call            @Func_230a
 dialogtxt       "Don't make that pathetic face."
 dialogtxt       "Here, instead,"
-dialogtxt       "I'll give you [NAME 8]."
+dialogtxt       "I'll give you this."
 code0309        
 call            @Func_23da
 call            @Func_2328
@@ -695,8 +695,8 @@ code0479        1, 1, 12
 code047d        1, 108
 call            @Func_2384
 call            @Func_22ec
-dialogtxt       "Oh, you're fired up today, too."
-dialogtxt       "You look like you're about to do something"
+dialogtxt       "Oh, you're fired up today, too. You"
+dialogtxt       "look like you're about to do something"
 dialogtxt       "that'll get me excited again."
 code047b        
 code0309        

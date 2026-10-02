@@ -14,8 +14,8 @@ code047b
 code0309        
 code0479        0, 0, 12
 code0479        0, 0, 14
-dialogtxt       "Actually, [NAME 8]"
-dialogtxt       "isn't good at discussions."
+dialogtxt       "Actually, talking things through"
+dialogtxt       "is not my strong suit."
 goto            @Label_01ac
 
 @Cond_0110:
@@ -54,7 +54,7 @@ goto            @Label_0242
 @Label_0242:
 call            @Func_138e
 jumpz           @Cond_04ca, ($b003 == 0)
-dialogtxt       "THAT SEEMS SO, [NAME 5]."
+dialogtxt       "That seems so."
 code0309        
 call            @Func_13c4
 code0479        0, 1, 16
@@ -64,14 +64,14 @@ dialogtxt       "I want to hear from γ!"
 code0309        
 code0479        0, 2, 14
 jumpz           @Cond_032e, ($b002 == 0)
-dialogtxt       "Anyway, we have to do our best and"
+dialogtxt       "We must do our best and"
 dialogtxt       "convince everyone that Anise and the"
 dialogtxt       "others are after the magic stone!"
 code0309        
 goto            @Label_038e
 
 @Cond_032e:
-dialogtxt       "Anyway, we have to do our best and"
+dialogtxt       "We must do our best and"
 dialogtxt       "convince everyone that Anise and the"
 dialogtxt       "others are after the magic stone!"
 code0309        
@@ -90,22 +90,22 @@ call            @Func_13c4
 call            @Func_1322
 code0479        0, 1, 14
 jumpz           @Cond_0466, ($b002 == 0)
-dialogtxt       "Something about that bothers me,"
+dialogtxt       "Something bothers me,"
 dialogtxt       "but thanks!"
 code0309        
 code0479        0, 0, 13
-dialogtxt       "All right!"
-dialogtxt       "Let's go!"
+dialogtxt       "Okay!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_04c6
 
 @Cond_0466:
-dialogtxt       "Something about that bothers me,"
+dialogtxt       "Something bothers me,"
 dialogtxt       "but thanks!"
 code0309        
 code0479        0, 0, 13
-dialogtxt       "All right!"
-dialogtxt       "Let's go!"
+dialogtxt       "Okay!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_04c6
 
@@ -148,14 +148,14 @@ call            @Func_1322
 jumpz           @Cond_069a, ($b002 == 0)
 dialogtxt       "I know."
 dialogtxt       "I'll do it properly,"
-dialogtxt       "just watch me!"
+dialogtxt       "watch me!"
 code0309        
 goto            @Label_06d8
 
 @Cond_069a:
 dialogtxt       "I know."
 dialogtxt       "I'll do it properly,"
-dialogtxt       "just watch me!"
+dialogtxt       "watch me!"
 code0309        
 goto            @Label_06d8
 
@@ -163,7 +163,7 @@ goto            @Label_06d8
 call            @Func_1358
 code0479        1, 4, 16
 call            @Func_138e
-dialogtxt       "I really want to know"
+dialogtxt       "I want to know"
 dialogtxt       "where that confidence comes from."
 code0309        
 call            @Func_13c4
@@ -171,13 +171,13 @@ code0479        0, 0, 13
 call            @Func_1322
 jumpz           @Cond_078a, ($b002 == 0)
 dialogtxt       "Don't worry about the details."
-dialogtxt       "Let's go!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_07b4
 
 @Cond_078a:
 dialogtxt       "Don't worry about the details."
-dialogtxt       "Let's go!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_07b4
 
@@ -186,7 +186,7 @@ goto            @Cond_07b8
 
 @Cond_07b8:
 jumpz           @Cond_0a36, ($b003 == 2)
-dialogtxt       "At least you're aware of it."
+dialogtxt       "At least you know."
 code0309        
 call            @Func_13c4
 code0479        0, 1, 17
@@ -196,14 +196,14 @@ dialogtxt       "I want to hear from γ!"
 code0309        
 code0479        0, 2, 12
 jumpz           @Cond_08a6, ($b002 == 0)
-dialogtxt       "Anyway, we have to do our best and"
+dialogtxt       "We must do our best and"
 dialogtxt       "convince everyone that Anise and the"
 dialogtxt       "others are after the magic stone!"
 code0309        
 goto            @Label_0906
 
 @Cond_08a6:
-dialogtxt       "Anyway, we have to do our best and"
+dialogtxt       "We must do our best and"
 dialogtxt       "convince everyone that Anise and the"
 dialogtxt       "others are after the magic stone!"
 code0309        
@@ -213,29 +213,29 @@ goto            @Label_0906
 call            @Func_1358
 code0479        1, 0, 12
 call            @Func_138e
-dialogtxt       "Hmph..."
+dialogtxt       "Hm..."
 dialogtxt       "Do your best, at least."
 code0309        
 call            @Func_13c4
 code0479        0, 1, 14
 call            @Func_1322
 jumpz           @Cond_09d2, ($b002 == 0)
-dialogtxt       "Something about that bothers me,"
+dialogtxt       "Something bothers me,"
 dialogtxt       "but thanks!"
 code0309        
 code0479        0, 2, 13
-dialogtxt       "All right!"
-dialogtxt       "Let's go!"
+dialogtxt       "Okay!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_0a32
 
 @Cond_09d2:
-dialogtxt       "Something about that bothers me,"
+dialogtxt       "Something bothers me,"
 dialogtxt       "but thanks!"
 code0309        
 code0479        0, 2, 13
-dialogtxt       "All right!"
-dialogtxt       "Let's go!"
+dialogtxt       "Okay!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_0a32
 
@@ -268,9 +268,9 @@ goto            @Label_0b20
 call            @Func_1358
 code0479        1, 2, 16
 call            @Func_138e
-dialogtxt       "But we have to convince everyone"
-dialogtxt       "that the magic stone is being targeted!"
-dialogtxt       "You must take this seriously."
+dialogtxt       "But we have to convince everyone that"
+dialogtxt       "the magic stone is being targeted! You"
+dialogtxt       "must take this seriously."
 code0309        
 call            @Func_13c4
 code0479        0, 2, 12
@@ -278,14 +278,14 @@ call            @Func_1322
 jumpz           @Cond_0c14, ($b002 == 0)
 dialogtxt       "I know."
 dialogtxt       "I'll do it properly,"
-dialogtxt       "just watch me!"
+dialogtxt       "watch me!"
 code0309        
 goto            @Label_0c52
 
 @Cond_0c14:
 dialogtxt       "I know."
 dialogtxt       "I'll do it properly,"
-dialogtxt       "just watch me!"
+dialogtxt       "watch me!"
 code0309        
 goto            @Label_0c52
 
@@ -305,13 +305,13 @@ code0479        0, 0, 13
 call            @Func_1322
 jumpz           @Cond_0d36, ($b002 == 0)
 dialogtxt       "Don't worry about the details."
-dialogtxt       "Let's go!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_0d60
 
 @Cond_0d36:
 dialogtxt       "Don't worry about the details."
-dialogtxt       "Let's go!"
+dialogtxt       "Go!"
 code0309        
 goto            @Label_0d60
 

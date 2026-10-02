@@ -113,8 +113,8 @@ dialogtxt       "and Show Murno"
 dialogtxt       "A Good Showing, I Think."
 code047b        
 code0309        
-dialogtxt       "There Is No Need For Murno"
-dialogtxt       "To Worry For [NAME 5]."
+dialogtxt       "Lady Murno doesn't need to"
+dialogtxt       "worry about it."
 goto            @Cond_05a0
 
 @Cond_05a0:
@@ -258,8 +258,8 @@ code047d        1, 2
 call            @Func_1b12
 call            @Func_1aae
 jumpz           @Cond_0b94, ($b003 == 0)
-dialogtxt       "As A Witness To The Match's Result,"
-dialogtxt       "I Will Attend The [NAME 5] Site."
+dialogtxt       "I'll be there as a witness"
+dialogtxt       "to the match's result."
 goto            @Cond_0b94
 
 @Cond_0b94:
@@ -322,7 +322,7 @@ code0446        0
 code0479        1, 2, 14
 call            @Func_1b28
 call            @Func_1a90
-dialogtxt       "What are you saying! The ruins containing"
+dialogtxt       "What?! The ruins containing"
 dialogtxt       "The Hall of Judgment is dangerous."
 dialogtxt       "someone who isn't even a blacksmith..."
 code047b        
@@ -430,9 +430,9 @@ dialogtxt       "I'll hear you out together."
 dialogtxt       "Anyway, let's go."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "[NAME 8]kui is above."
-dialogtxt       "Above [NAME 8]kui."
-dialogtxt       "Gather in the plaza first."
+dialogtxt       "The Gumag Flame Ruins are above"
+dialogtxt       "the Rekui Water Ruins."
+dialogtxt       "Let's meet in the plaza out front."
 code0309        
 call            @Func_1b52
 call            @Func_1ae4
@@ -443,13 +443,13 @@ code047d        0, 0
 call            @Func_1afc
 call            @Func_1a42
 jumpz           @Cond_1362, ($b002 == 0)
-dialogtxt       "The [NAME 8]kui Water Ruins..."
+dialogtxt       "The Rekui Water Ruins..."
 dialogtxt       "That's where the master was."
 dialogtxt       "Got it!"
 goto            @Label_13a6
 
 @Cond_1362:
-dialogtxt       "The [NAME 8]kui Water Ruins..."
+dialogtxt       "The Rekui Water Ruins..."
 dialogtxt       "That's where the master was."
 dialogtxt       "Got it!"
 goto            @Label_13a6

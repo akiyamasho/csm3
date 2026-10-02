@@ -471,8 +471,8 @@ code047e        0, 1
 dialogtxt       "Hey, let's finally play battlefield."
 code0309        
 dialogtxt       "I'll hand in my resignation, and you,"
-dialogtxt       "and you, [NAME 4]mi, should leave while you can."
-dialogtxt       "while you can. That's how it goes."
+dialogtxt       "go while you can."
+dialogtxt       "That's how it goes."
 code0309        
 code047e        0, 0
 code0302        7
@@ -481,8 +481,8 @@ code040b
 @Event_13d0:
 code0301        8, 7
 dialogtxt       "Yesterday, the Weapon Destruction"
-dialogtxt       "Promotion Committee officially announced"
-dialogtxt       "a new policy."
+dialogtxt       "Promotion Committee officially"
+dialogtxt       "announced a new policy."
 code0309        
 dialogtxt       "Some blacksmiths have flooded them"
 dialogtxt       "with protests, demanding to know why"

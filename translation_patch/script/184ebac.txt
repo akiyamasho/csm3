@@ -44,7 +44,7 @@ code0479        1, 6, 12
 code047d        1, 110
 call            @Func_12ee
 call            @Func_1256
-dialogtxt       "Um..."
+dialogtxt       "Um."
 code047b        
 code0309        
 call            @Func_12aa
@@ -52,13 +52,13 @@ code0479        0, 0, 16
 call            @Func_1208
 jumpz           @Cond_02f0, ($b002 == 0)
 dialogtxt       "Oh, you. Are your injuries"
-dialogtxt       "Akaba[NAME 6] attacked you"
+dialogtxt       "Akabane attacked you"
 dialogtxt       "all right?"
 goto            @Label_0332
 
 @Cond_02f0:
 dialogtxt       "Huh? Are your injuries"
-dialogtxt       "from when Akaba[NAME 6]"
+dialogtxt       "from when Akabane"
 dialogtxt       "attacked you all right?"
 goto            @Label_0332
 
@@ -74,12 +74,12 @@ call            @Func_12aa
 code0479        0, 1, 12
 call            @Func_1208
 jumpz           @Cond_03cc, ($b002 == 0)
-dialogtxt       "Thanks for today."
+dialogtxt       "Thanks."
 dialogtxt       "You saved us."
 goto            @Label_03fa
 
 @Cond_03cc:
-dialogtxt       "Thanks for today."
+dialogtxt       "Thanks."
 dialogtxt       "You saved us."
 goto            @Label_03fa
 
@@ -88,19 +88,19 @@ code0309
 call            @Func_123e
 code0479        1, 0, 12
 call            @Func_1274
-dialogtxt       "Ah... yeah..."
+dialogtxt       "Yeah..."
 code0309        
 call            @Func_12aa
 code0479        0, 4, 13
 call            @Func_1208
 jumpz           @Cond_04ba, ($b002 == 0)
-dialogtxt       "Really, if you hadn't come,"
+dialogtxt       "If you hadn't come,"
 dialogtxt       "Anise and the others might have"
 dialogtxt       "beaten us back then."
 goto            @Label_0520
 
 @Cond_04ba:
-dialogtxt       "Really, if you hadn't come,"
+dialogtxt       "If you hadn't come,"
 dialogtxt       "Anise and the others might have"
 dialogtxt       "beaten us back then."
 goto            @Label_0520
@@ -111,19 +111,19 @@ call            @Func_123e
 code0479        1, 8, 16
 call            @Func_1274
 dialogtxt       "Yeah..."
-dialogtxt       "I suppose so."
+dialogtxt       "I guess so."
 dialogtxt       "Um..."
 code0309        
 call            @Func_12aa
 code0479        0, 4, 12
 call            @Func_1208
 jumpz           @Cond_05d6, ($b002 == 0)
-dialogtxt       "Even Akaba[NAME 6]... if it had [NAME 8]..."
-dialogtxt       "I don't know if we could have won."
+dialogtxt       "Even against Akabane, we might"
+dialogtxt       "not have won alone."
 goto            @Label_0626
 
 @Cond_05d6:
-dialogtxt       "Even Akaba[NAME 6]..."
+dialogtxt       "Even Akabane..."
 dialogtxt       "if it had only been us,"
 dialogtxt       "I don't know if we could have won."
 goto            @Label_0626
@@ -139,7 +139,7 @@ call            @Func_12aa
 code0479        0, 0, 12
 call            @Func_1208
 jumpz           @Cond_06be, ($b002 == 0)
-dialogtxt       "And even Master Bostaph..."
+dialogtxt       "Even Master Bostaph..."
 dialogtxt       "because you were there..."
 goto            @Label_06f2
 
@@ -153,7 +153,7 @@ code0309
 call            @Func_123e
 code0479        1, 1, 15
 call            @Func_1274
-dialogtxt       "Just let me speak, too!"
+dialogtxt       "let me speak, too!"
 code0309        
 call            @Func_12aa
 code0479        0, 5, 16
@@ -174,15 +174,15 @@ call            @Func_123e
 code0479        1, 8, 16
 call            @Func_1274
 dialogtxt       "Well..."
-dialogtxt       "I'm sorry."
+dialogtxt       "Sorry."
 code0309        
 call            @Func_12aa
 code0479        0, 0, 16
 call            @Func_1208
 jumpz           @Cond_083c, ($b002 == 0)
-dialogtxt       "For what? We're the ones who"
-dialogtxt       "were saved, aren't we? Were you"
-dialogtxt       "listening to [NAME 8]?"
+dialogtxt       "For what? We were the ones"
+dialogtxt       "who were saved, right? Were you"
+dialogtxt       "listening to me?"
 goto            @Label_088e
 
 @Cond_083c:
@@ -196,22 +196,22 @@ code0309
 call            @Func_123e
 code0479        1, 2, 17
 call            @Func_1274
-dialogtxt       "That's not what I mean. I mean"
-dialogtxt       "that Anise and the others really were"
+dialogtxt       "That's not what I mean."
+dialogtxt       "that Anise and the others were"
 dialogtxt       "bad people! That's what I mean!"
 code0309        
 call            @Func_12aa
 code0479        0, 1, 13
 call            @Func_1208
 jumpz           @Cond_0966, ($b002 == 0)
-dialogtxt       "Ah, yeah!"
-dialogtxt       "I'm really glad you understand, too!"
-dialogtxt       "I'm glad you understand, too!"
+dialogtxt       "Yeah!"
+dialogtxt       "Glad you understand, too!"
+dialogtxt       "Glad you understand, too!"
 goto            @Label_09a2
 
 @Cond_0966:
 dialogtxt       "Ah, yeah!"
-dialogtxt       "I'm really glad you understand."
+dialogtxt       "Glad you understand."
 dialogtxt       "I'm glad you understand."
 goto            @Label_09a2
 
@@ -227,9 +227,9 @@ call            @Func_12aa
 code0479        0, 2, 12
 call            @Func_1208
 jumpz           @Cond_0a6c, ($b002 == 0)
-dialogtxt       "That's right. From now on, I'll"
-dialogtxt       "trust what [NAME 8]"
-dialogtxt       "says a little more."
+dialogtxt       "That is right. From now on,"
+dialogtxt       "trust what I say"
+dialogtxt       "a little more."
 goto            @Label_0ab2
 
 @Cond_0a6c:
@@ -250,13 +250,13 @@ call            @Func_12aa
 code0479        0, 2, 17
 call            @Func_1208
 jumpz           @Cond_0b72, ($b002 == 0)
-dialogtxt       "What's with that answer?!"
+dialogtxt       "What's that answer?!"
 dialogtxt       "You never say what you mean."
 dialogtxt       "You're always like that..."
 goto            @Label_0bc4
 
 @Cond_0b72:
-dialogtxt       "What's with that answer?!"
+dialogtxt       "What's that answer?!"
 dialogtxt       "You never say what you mean."
 dialogtxt       "You're always like that..."
 goto            @Label_0bc4
@@ -273,7 +273,7 @@ code0309
 call            @Func_12aa
 code0479        0, 5, 16
 call            @Func_1208
-dialogtxt       "Y-yes..."
+dialogtxt       "Yes..."
 code0309        
 call            @Func_1344
 call            @Func_1226

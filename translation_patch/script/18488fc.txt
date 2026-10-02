@@ -6,7 +6,7 @@ code0479        0, 4, 14
 code047d        0, 0
 code0301        8, 7
 code047e        0, 1
-dialogtxt       "Ugh... Where is γ...?"
+dialogtxt       "Ugh..."
 dialogtxt       "Mmm..."
 code0309        
 code047e        0, 0
@@ -89,8 +89,8 @@ call            @Func_3272
 call            @Func_316e
 jumpz           @Cond_03b4, ($b002 == 0)
 dialogtxt       "Ugh..."
-dialogtxt       "Where have you taken Lord"
-dialogtxt       "Where are Lord [NAME 4] and γ?"
+dialogtxt       "Where is γ...?"
+dialogtxt       "Where have you taken γ!?"
 goto            @Label_03e8
 
 @Cond_03b4:
@@ -201,14 +201,14 @@ dialogtxt       "Beasts, you know."
 code0309        
 code0479        1, 4, 12
 dialogtxt       "Only fools as stupid as you would come"
-dialogtxt       "wandering into a place like this. You are"
-dialogtxt       "the only ones foolish enough to do that."
+dialogtxt       "wandering into such a place. You're"
+dialogtxt       "the only fools who'd do that."
 code0309        
 call            @Func_322e
 code0479        0, 5, 14
 call            @Func_318c
 dialogtxt       "A nest...?"
-dialogtxt       "Akaba [NAME 6] is here...?"
+dialogtxt       "Akabane is here...?"
 code0309        
 call            @Func_31c2
 code0479        1, 1, 12
@@ -247,13 +247,13 @@ code043e        3, 2, 1
 code0479        0, 2, 14
 call            @Func_318c
 jumpz           @Cond_0b34, ($b002 == 0)
-dialogtxt       "What did you say..."
-dialogtxt       "As if [NAME 8] is afraid...!"
+dialogtxt       "What did you say...?"
+dialogtxt       "Who is afraid...?"
 goto            @Label_0b64
 
 @Cond_0b34:
-dialogtxt       "What did you say..."
-dialogtxt       "As if [NAME 8] is afraid...!"
+dialogtxt       "What did you say...?"
+dialogtxt       "Who is afraid...?"
 goto            @Label_0b64
 
 @Label_0b64:
@@ -328,9 +328,9 @@ code0309
 call            @Func_31c2
 code0479        1, 0, 12
 call            @Func_31f8
-dialogtxt       "Back to Akaba [NAME 6],"
+dialogtxt       "Back to Akabane."
 dialogtxt       "It is all right."
-dialogtxt       "Can you see [NAME 8]?"
+dialogtxt       "Can you see it?"
 code0309        
 call            @Func_32c8
 call            @Func_3216
@@ -341,9 +341,9 @@ code048c
 call            @Func_325c
 call            @Func_31da
 code0479        1, 0, 13
-dialogtxt       "Akaba [NAME 6] is in room"
-dialogtxt       "beyond, sealed by [NAME 8]"
-dialogtxt       ". So she can't come here."
+dialogtxt       "Akabane is in that room."
+dialogtxt       "It is sealed,"
+dialogtxt       "so she cannot come here."
 code0309        
 call            @Func_32b2
 call            @Func_3216
@@ -512,7 +512,7 @@ code0479        0, 0, 12
 code0479        1, 4, 12
 call            @Func_325c
 call            @Func_31da
-dialogtxt       "You really are a stupid child... Think of"
+dialogtxt       "You're a foolish child... Think of"
 dialogtxt       "the trouble it causes me to discipline"
 dialogtxt       "you; you should be more considerate."
 code047b        
@@ -527,9 +527,9 @@ code0479        1, 2, 12
 code047d        1, 134
 call            @Func_325c
 call            @Func_31da
-dialogtxt       "He certainly is foolish, but"
-dialogtxt       "he seems to make excellent weapons."
-dialogtxt       "While we are at it, shall we take them?"
+dialogtxt       "He certainly is foolish, but he seems"
+dialogtxt       "to make excellent weapons. While we"
+dialogtxt       "are at it, shall we take them?"
 code047b        
 code0309        
 call            @Func_322e
@@ -544,8 +544,8 @@ code047b
 code0309        
 code0479        0, 2, 14
 dialogtxt       "You filthy villains..."
-dialogtxt       "you filthy villains..."
-dialogtxt       "Not [NAME 8]'s weapons."
+dialogtxt       "You will not get"
+dialogtxt       "our weapons..."
 goto            @Label_18c2
 
 @Cond_184a:
@@ -553,9 +553,9 @@ dialogtxt       "...Stop!"
 code047b        
 code0309        
 code0479        0, 2, 14
-dialogtxt       "People like you,"
-dialogtxt       "rotten villains..."
-dialogtxt       "you will not get our precious weapons..."
+dialogtxt       "People like you, rotten villains..."
+dialogtxt       "you will not get our precious"
+dialogtxt       "weapons..."
 goto            @Label_18c2
 
 @Label_18c2:
@@ -590,8 +590,8 @@ code043c        6, 2
 code0479        1, 3, 13
 call            @Func_325c
 call            @Func_31da
-dialogtxt       "Hah! You..."
-dialogtxt       "Do you intend to claim that you did nothing"
+dialogtxt       "Hah! You... Do you intend to"
+dialogtxt       "claim that you did nothing"
 dialogtxt       "wrong?"
 code047b        
 code0309        
@@ -652,7 +652,7 @@ code0479        1, 4, 13
 call            @Func_325c
 call            @Func_31f8
 dialogtxt       "Hah...! What is that face? Are you"
-dialogtxt       "going to say you can't believe it? “The"
+dialogtxt       "going to say you doubt it? “The"
 dialogtxt       "master would never do such a thing”?"
 code047b        
 code0309        
@@ -755,9 +755,9 @@ dialogtxt       "of soft-hearted fools. I'll obtain"
 dialogtxt       "the magic stone, no matter what."
 code0309        
 code0479        1, 3, 14
-dialogtxt       "Voijin died without fulfilling his goal."
-dialogtxt       "In Voijin’s place,"
-dialogtxt       "I will see it through!"
+dialogtxt       "Voijin died without fulfilling his"
+dialogtxt       "goal. In Voijin’s place, I will see"
+dialogtxt       "it through!"
 code0309        
 call            @Func_329c
 call            @Func_322e
@@ -785,9 +785,9 @@ code0309
 call            @Func_31c2
 code0479        1, 2, 12
 call            @Func_31f8
-dialogtxt       "Something..."
-dialogtxt       "Let me think..."
-dialogtxt       "I suppose I can tell you one last thing..."
+dialogtxt       "Something... Let me think... I"
+dialogtxt       "suppose I can tell you one last"
+dialogtxt       "thing..."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "Voijin wanted to free humanity from"
@@ -960,8 +960,8 @@ code047b
 code047d        0, 106
 code0301        8, 1
 code047e        0, 1
-dialogtxt       "No way."
-dialogtxt       "I never imagined you were thinking that."
+dialogtxt       "No way. I never imagined you were"
+dialogtxt       "thinking that."
 code0309        
 code047e        0, 0
 code0302        1

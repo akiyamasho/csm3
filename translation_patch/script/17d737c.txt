@@ -444,7 +444,7 @@ call            @Func_209e
 code0479        0, 0, 16
 call            @Func_1ffc
 dialogtxt       "Hm...?"
-dialogtxt       "Get the medicine, of course."
+dialogtxt       "[NAME 1] has that medicine, of course."
 code0309        
 code0479        0, 0, 12
 dialogtxt       "You want to help Murno, right?"
@@ -733,4 +733,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

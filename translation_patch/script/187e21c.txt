@@ -205,14 +205,14 @@ code0479        0, 4, 15
 call            @Func_1b28
 jumpz           @Cond_08fe, ($b002 == 0)
 dialogtxt       "No..."
-dialogtxt       "You forgot..."
-dialogtxt       "It's [NAME 5], γ!"
+dialogtxt       "You forgot me?"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Cond_08fe:
 dialogtxt       "No..."
-dialogtxt       "You forgot..."
-dialogtxt       "It's [NAME 5], γ!"
+dialogtxt       "You forgot me?"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Label_0932:
@@ -253,7 +253,7 @@ call            @Func_1be2
 call            @Func_1b28
 jumpz           @Cond_0a82, ($b002 == 0)
 dialogtxt       "Damn..."
-dialogtxt       "What should [NAME 8] do...?"
+dialogtxt       "What should I do...?"
 goto            @Label_0ab8
 
 @Cond_0a82:
@@ -308,7 +308,7 @@ call            @Func_1be2
 code0479        0, 5, 15
 call            @Func_1c0e
 call            @Func_1b0a
-dialogbig       72, 116, 1, 0, 0, "Ani[NAME 4]!"
+dialogbig       72, 116, 1, 0, 0, "Bro!"
 code047b        
 code030c        
 call            @Func_1c38
@@ -346,12 +346,12 @@ code0309
 code0479        0, 4, 14
 code0479        1, 2, 14
 jumpz           @Cond_0f0e, ($b002 == 0)
-dialogtxt       "You said γ no longer"
-dialogtxt       "recognized [NAME 8]..."
+dialogtxt       "You said I no longer"
+dialogtxt       "recognized me..."
 goto            @Label_0f48
 
 @Cond_0f0e:
-dialogtxt       "You said γ no longer"
+dialogtxt       "You said I no longer"
 dialogtxt       "recognized me..."
 goto            @Label_0f48
 
@@ -381,7 +381,7 @@ code0309
 call            @Func_1b5e
 code0479        1, 2, 12
 call            @Func_1b94
-dialogtxt       "There is no way γ could forget"
+dialogtxt       "There is no way you two could forget"
 dialogtxt       "everything you two have"
 dialogtxt       "done together."
 code0309        
@@ -390,8 +390,8 @@ code0479        0, 4, 15
 call            @Func_1b28
 jumpz           @Cond_110c, ($b002 == 0)
 dialogtxt       "But..."
-dialogtxt       "γ can't hear"
-dialogtxt       "[NAME 8]'s voice anymore!"
+dialogtxt       "[NAME 1] cannot hear"
+dialogtxt       "my voice anymore!"
 goto            @Label_1148
 
 @Cond_110c:
@@ -416,14 +416,14 @@ call            @Func_1bca
 code0479        0, 5, 16
 call            @Func_1b28
 jumpz           @Cond_1290, ($b002 == 0)
-dialogtxt       "[NAME 8] is a blacksmith..."
+dialogtxt       "I am a blacksmith..."
 dialogtxt       "..."
 dialogtxt       "Heh, I see..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "I understand, Ani[NAME 4]."
-dialogtxt       "I'll definitely"
-dialogtxt       "wake γ up..."
+dialogtxt       "I understand, Bro."
+dialogtxt       "I will definitely"
+dialogtxt       "wake [NAME 1] up..."
 goto            @Label_131e
 
 @Cond_1290:
@@ -432,9 +432,9 @@ dialogtxt       "..."
 dialogtxt       "Ah, I see..."
 code0309        
 code0479        0, 2, 12
-dialogtxt       "I understand, Ani[NAME 4]."
-dialogtxt       "I'll definitely"
-dialogtxt       "wake γ up..."
+dialogtxt       "I understand, Bro."
+dialogtxt       "I will definitely"
+dialogtxt       "wake [NAME 1] up..."
 goto            @Label_131e
 
 @Label_131e:

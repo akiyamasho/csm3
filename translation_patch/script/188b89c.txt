@@ -7,8 +7,8 @@ code047d        1, 130
 call            @Func_0752
 call            @Func_06ba
 dialogtxt       "Meeting you"
-dialogtxt       "I feel [NAME 8]my changed."
-dialogtxt       "Please keep [NAME 8]my."
+dialogtxt       "I think Lemmy has changed."
+dialogtxt       "Please keep looking after Lemmy."
 code047b        
 code0309        
 call            @Func_07a8

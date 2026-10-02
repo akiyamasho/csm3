@@ -37,8 +37,8 @@ code0309
 call            @Func_174a
 code0479        0, 2, 16
 call            @Func_16a8
-dialogtxt       "Well, Ani[NAME 4] asked me"
-dialogtxt       "to, so I ran a quick errand. Murno's with"
+dialogtxt       "Well, big bro asked me to, so"
+dialogtxt       "I ran a quick errand. Murno's with"
 dialogtxt       "Ellie..."
 code0309        
 call            @Func_17e4
@@ -351,8 +351,8 @@ code031c        7, 2
 code031f        7
 code031a        7
 code0479        0, 2, 14
-dialogtxt       "(Could she really... be connected to the"
-dialogtxt       "stray Summon Beasts...? )"
+dialogtxt       "(Could she really... be connected to"
+dialogtxt       "the stray Summon Beasts...? )"
 code0309        
 call            @Func_16de
 code0333        2, 30

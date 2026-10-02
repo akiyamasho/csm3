@@ -45,8 +45,8 @@ code047d        1, 108
 call            @Func_1092
 call            @Func_0ffa
 dialogtxt       "Sorry About Today."
-dialogtxt       "Looks Like I Drew The Short Straw."
-dialogtxt       "It's All That Idiot Jade's Fault..."
+dialogtxt       "Looks Like I Drew The Straw."
+dialogtxt       "It's Idiot Jade's Fault..."
 code0309        
 code0479        1, 2, 16
 dialogtxt       "He Said They Weren't At The"
@@ -87,7 +87,7 @@ dialogtxt       "That Doesn't Make It Any Better..."
 code0309        
 code0479        1, 0, 14
 code0479        0, 0, 16
-dialogtxt       "Come To Think Of It..."
+dialogtxt       "Come To Think..."
 dialogtxt       "When Master Rob Was... Attacked,"
 dialogtxt       "He Went Out Alone, Right?"
 code0309        
@@ -150,7 +150,7 @@ code0309
 call            @Func_0fe2
 code0479        1, 0, 14
 call            @Func_1018
-dialogtxt       "What Is It?"
+dialogtxt       "What?"
 dialogtxt       "Does This Voijin Person"
 dialogtxt       "Have Something To Do With Rob?"
 code0309        

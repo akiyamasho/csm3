@@ -147,7 +147,7 @@ code040b
 code0301        8, 7
 dialogtxt       "Notice from Gallahan's Workshop"
 dialogtxt       "If there is no clerk at the counter,"
-dialogtxt       "please help yourself to the merchandise."
+dialogtxt       "please help yourself to our wares."
 code0309        
 code0302        7
 code040b        
@@ -367,10 +367,10 @@ dialogtxt       "I'm looking for an amazing blacksmith."
 dialogtxt       "If I could go into business with one,"
 dialogtxt       "we'd make a fortune..."
 code0309        
-dialogtxt       "Then my daughter could live comfortably"
-dialogtxt       "and without worry."
+dialogtxt       "Then my daughter could live"
+dialogtxt       "comfortably and without worry."
 code0309        
-dialogtxt       "I wonder if there's a great blacksmith~"
+dialogtxt       "I wonder if there's a great smith~"
 code0309        
 code047e        0, 0
 code0302        7

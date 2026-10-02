@@ -59,13 +59,13 @@ code047d        1, 116
 call            @Func_1e5e
 call            @Func_1dfa
 jumpz           @Cond_0376, ($b002 == 0)
-dialogtxt       "You boys... You actually made"
+dialogtxt       "You boys... You made"
 dialogtxt       "it through that maze-like path"
 dialogtxt       "and came all the way here."
 goto            @Label_03d0
 
 @Cond_0376:
-dialogtxt       "You girls... You actually made"
+dialogtxt       "You girls... You made"
 dialogtxt       "it through that maze-like path"
 dialogtxt       "and came all the way here."
 goto            @Label_03d0
@@ -84,13 +84,13 @@ call            @Func_1d8e
 jumpz           @Cond_049a, ($b002 == 0)
 dialogtxt       "Why are you here...?"
 dialogtxt       "Master..."
-dialogtxt       "What happened to Ani[NAME 4]?"
+dialogtxt       "What happened to Bro?"
 goto            @Label_04e2
 
 @Cond_049a:
 dialogtxt       "Why are you here...?"
 dialogtxt       "Master..."
-dialogtxt       "What happened to Ani[NAME 4]?"
+dialogtxt       "What happened to Bro?"
 goto            @Label_04e2
 
 @Label_04e2:
@@ -103,9 +103,9 @@ code0479        1, 2, 13
 code047d        1, 115
 call            @Func_1e5e
 call            @Func_1dfa
-dialogtxt       "Oh... As for them,"
-dialogtxt       "I knocked them into a hole in Sport Cave"
-dialogtxt       "and sent them tumbling down."
+dialogtxt       "Oh... As for them, I knocked them into"
+dialogtxt       "a hole in Sport Cave and sent them"
+dialogtxt       "tumbling down."
 code047b        
 code0309        
 call            @Func_1e30
@@ -116,7 +116,7 @@ dialogbig       24, 116, 1, 0, 0, "What did you say...?!"
 goto            @Label_060e
 
 @Cond_05d8:
-dialogbig       24, 116, 1, 0, 0, "What is that supposed to mean?!"
+dialogbig       24, 116, 1, 0, 0, "What is that meant to mean?!"
 goto            @Label_060e
 
 @Label_060e:
@@ -129,8 +129,8 @@ code0479        1, 4, 13
 code047d        1, 116
 call            @Func_1e5e
 call            @Func_1dfa
-dialogtxt       "They fell from a place like that, so they"
-dialogtxt       "must be flat as pancakes. By now,"
+dialogtxt       "They fell from a place like that, so"
+dialogtxt       "they must be flat as pancakes. By now,"
 dialogtxt       "perhaps they're in a stray's belly..."
 code047b        
 code0309        
@@ -138,7 +138,7 @@ call            @Func_1e30
 code0479        0, 2, 14
 call            @Func_1d8e
 jumpz           @Cond_0708, ($b002 == 0)
-dialogtxt       "[NAME 4]... How could you..."
+dialogtxt       "You people... What have you done...?"
 goto            @Label_072a
 
 @Cond_0708:
@@ -170,14 +170,14 @@ call            @Func_1e5e
 call            @Func_1dfa
 jumpz           @Cond_088a, ($b002 == 0)
 dialogtxt       "Yes, I'm glad I met you boys here..."
-dialogtxt       "I'm truly glad..."
-dialogtxt       "I still wanted to settle things with you..."
+dialogtxt       "I'm truly glad... I still wanted to"
+dialogtxt       "settle things with you..."
 goto            @Label_08f0
 
 @Cond_088a:
 dialogtxt       "Yes, I'm glad I met you girls here..."
-dialogtxt       "I'm truly glad..."
-dialogtxt       "I still wanted to settle things with you..."
+dialogtxt       "I'm truly glad... I still wanted to"
+dialogtxt       "settle things with you..."
 goto            @Label_08f0
 
 @Label_08f0:
@@ -195,7 +195,7 @@ call            @Func_1dc4
 code0479        1, 2, 12
 call            @Func_1dfa
 dialogtxt       "To be honest, we"
-dialogtxt       "don't really care about Anise's plan"
+dialogtxt       "don't care about Anise's plan"
 dialogtxt       "or anything..."
 code0309        
 code0479        0, 2, 16
@@ -205,7 +205,7 @@ dialogtxt       "told Voijin about the rumors of magic"
 dialogtxt       "crystals and he died, apparently."
 code0309        
 code0479        1, 1, 12
-dialogtxt       "We just used the grand causes and"
+dialogtxt       "We used the grand causes and"
 dialogtxt       "slogans she preached as an excuse"
 dialogtxt       "to do whatever we wanted."
 code0309        
@@ -222,14 +222,14 @@ code0479        1, 2, 12
 code047d        1, 115
 call            @Func_1e5e
 call            @Func_1dfa
-dialogtxt       "Voijin hired [NAME 8]"
-dialogtxt       "for their skills, or something like"
-dialogtxt       "that. He was an incredible man..."
+dialogtxt       "We were hired by Voijin"
+dialogtxt       "because of our skills."
+dialogtxt       "He was an incredible man..."
 code047b        
 code0309        
 code0479        1, 2, 14
 dialogtxt       "If he had lived, he might"
-dialogtxt       "really have turned Lyndbaum"
+dialogtxt       "have turned Lyndbaum"
 dialogtxt       "upside down... Besides..."
 code0309        
 code0479        1, 5, 12
@@ -272,15 +272,15 @@ goto            @Cond_0dba
 
 @Cond_0dba:
 jumpz           @Cond_0dfa, ($b003 == 1)
-dialogtxt       "It makes every hair on my body"
+dialogtxt       "It makes ehair on my body"
 dialogtxt       "stand on end, it's so disgusting..."
 goto            @Cond_0dfa
 
 @Cond_0dfa:
 jumpz           @Cond_0e52, ($b003 == 2)
 dialogtxt       "This is the worst..."
-dialogtxt       "Just looking at the shining souls"
-dialogtxt       "makes me [NAME 6] sick..."
+dialogtxt       "Just looking at those shining souls"
+dialogtxt       "makes me feel sick..."
 goto            @Cond_0e52
 
 @Cond_0e52:
@@ -302,8 +302,8 @@ code047d        1, 116
 call            @Func_1e5e
 call            @Func_1dfa
 dialogtxt       "Still, it looked like it might get"
-dialogtxt       "interesting and I wanted to stick around"
-dialogtxt       "a little longer... Just a little longer..."
+dialogtxt       "interesting, so I wanted to stay"
+dialogtxt       "a bit longer... a bit longer..."
 code047b        
 code0309        
 call            @Func_1eb4
@@ -333,7 +333,7 @@ goto            @Label_1010
 @Label_1010:
 call            @Func_1e5e
 call            @Func_1dfa
-dialogtxt       "I won't let a mere Summon Beast"
+dialogtxt       "I won't let a mere Beast"
 dialogtxt       "look down on me. This steel Pike..."
 dialogtxt       "won't calm the beast in my belly!"
 code047b        
@@ -376,7 +376,7 @@ code0309
 code0479        1, 4, 16
 dialogtxt       "Boring..."
 dialogtxt       "Even fighting someone like that"
-dialogtxt       "can't satisfy [NAME 8]..."
+dialogtxt       "does not satisfy me..."
 code0309        
 call            @Func_1e30
 code0333        2, 30
@@ -388,8 +388,8 @@ call            @Func_1dc4
 code0479        1, 5, 16
 call            @Func_1dfa
 dialogtxt       "What...!?"
-dialogtxt       "[NAME 4], what are you saying?"
-dialogtxt       "Don't tell me you've hit your head..."
+dialogtxt       "What are you saying?"
+dialogtxt       "Did you hit your head...?"
 code0309        
 call            @Func_1e30
 code0334        
@@ -427,9 +427,9 @@ call            @Func_1e30
 code0479        0, 2, 14
 call            @Func_1d8e
 jumpz           @Cond_1532, ($b002 == 0)
-dialogtxt       "[NAME 8] has plenty to say too,"
-dialogtxt       "but all of it, as a Craftknight..."
-dialogtxt       "I'll put it all into this weapon..."
+dialogtxt       "I have a lot to say, too,"
+dialogtxt       "but as a Craftknight,"
+dialogtxt       "I will put it all into this weapon..."
 code0309        
 code0479        0, 2, 15
 dialogtxt       "I'll pour it into this weapon"
@@ -452,7 +452,7 @@ call            @Func_1dc4
 code0479        1, 5, 15
 call            @Func_1dfa
 dialogtxt       "What did you say, punk!!!"
-dialogtxt       "I'll shut that mouth right now!"
+dialogtxt       "I'll shut that mouth now!"
 code0309        
 call            @Func_1e30
 code0479        0, 2, 15

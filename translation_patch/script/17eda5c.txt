@@ -104,7 +104,7 @@ call            @Func_13d4
 code0479        0, 4, 16
 call            @Func_1332
 dialogtxt       "I don't really get what you're saying..."
-dialogtxt       "Anyway, you should take [NAME 2]"
+dialogtxt       "Anyway, take [NAME 2]"
 dialogtxt       "with you."
 code0309        
 call            @Func_1368

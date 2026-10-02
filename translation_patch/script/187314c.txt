@@ -53,9 +53,9 @@ code0479        1, 5, 13
 code047d        1, 134
 call            @Func_2c2c
 call            @Func_2baa
-dialogtxt       "I never thought you'd make it this far..."
-dialogtxt       "Hah!"
-dialogtxt       "I have to admire your spirit."
+dialogtxt       "I never thought you'd make it this"
+dialogtxt       "far... Hah! I have to admire your"
+dialogtxt       "spirit."
 code047b        
 code0309        
 code0479        1, 3, 12
@@ -354,9 +354,9 @@ code047d        0, 0
 call            @Func_2c16
 call            @Func_2b5c
 jumpz           @Cond_1116, ($b002 == 0)
-dialogtxt       "You'd better prepare yourself! Master"
-dialogtxt       "and Bro [NAME 4] will be here"
-dialogtxt       "soon. I don't know what you're plotting,"
+dialogtxt       "You should prepare yourself!"
+dialogtxt       "Master and Bro will be here soon."
+dialogtxt       "I do not know what you are plotting..."
 code047b        
 code0309        
 code0479        0, 2, 15
@@ -364,9 +364,9 @@ dialogtxt       "but your plan ends here!"
 goto            @Label_11b2
 
 @Cond_1116:
-dialogtxt       "You'd better prepare yourself! Master"
-dialogtxt       "and Bro [NAME 4] will be here"
-dialogtxt       "soon. I don't know what you're plotting,"
+dialogtxt       "You should prepare yourself!"
+dialogtxt       "Master and Bro will be here soon."
+dialogtxt       "I do not know what you are plotting..."
 code047b        
 code0309        
 code0479        0, 2, 15

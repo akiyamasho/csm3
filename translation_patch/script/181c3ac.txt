@@ -97,7 +97,7 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 12
 call            @Func_5010
-dialogtxt       "I Am Restrained, But [NAME 8]"
+dialogtxt       "I am restrained, but"
 dialogtxt       "There Are No System Abnormalities"
 code0309        
 call            @Func_5046
@@ -122,9 +122,9 @@ code0479        0, 0, 12
 call            @Func_5010
 dialogtxt       "I Do Not Know... After I Rescued You"
 dialogtxt       "From The River The Residents Here"
-dialogtxt       "Restrained Me... [NAME 8]"
+dialogtxt       "The people here restrained me..."
 code0309        
-dialogtxt       "They Carried Me Here, [NAME 8]"
+dialogtxt       "They carried me here."
 code0309        
 call            @Func_5046
 code0479        1, 4, 12
@@ -221,7 +221,7 @@ call            @Func_507c
 jumpz           @Cond_0ad0, ($b002 == 0)
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        0, 0, 12
 code0479        1, 4, 12
@@ -231,7 +231,7 @@ goto            @Label_0b5c
 @Cond_0ad0:
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        1, 4, 12
 dialogtxt       "What Has Become Of Them..."
@@ -242,9 +242,9 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 12
 call            @Func_5010
-dialogtxt       "I Will Change My Priority"
-dialogtxt       "To Protect Lady Murno In This Situation,"
-dialogtxt       "I Judge It Better To Tell You"
+dialogtxt       "I Will Change My Priority To Protect"
+dialogtxt       "Lady Murno In This Situation, I Judge"
+dialogtxt       "It Better To Tell You"
 code0309        
 call            @Func_5046
 code0479        1, 0, 16
@@ -262,7 +262,7 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 12
 call            @Func_5010
-dialogtxt       "That Govan Summon Stone Is"
+dialogtxt       "That Govan's Summon Stone Is"
 dialogtxt       "Lady Murno’s Family"
 dialogtxt       "Has Protected It For Generations"
 code0309        
@@ -351,12 +351,12 @@ call            @Func_5046
 code0479        1, 2, 14
 call            @Func_507c
 jumpz           @Cond_1190, ($b002 == 0)
-dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Hey..."
 dialogtxt       "Why You Want To Protect Murno"
 dialogtxt       "I Think I Understand Now..."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+dialogtxt       "So I'll do my best, too!"
 goto            @Label_121c
 
 @Cond_1190:
@@ -365,7 +365,7 @@ dialogtxt       "Why You Want To Protect Murno"
 dialogtxt       "I Think I Understand Now..."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+dialogtxt       "So I'll do my best, too!"
 goto            @Label_121c
 
 @Label_121c:
@@ -396,7 +396,7 @@ call            @Func_50b2
 code0479        0, 1, 12
 call            @Func_5010
 dialogtxt       "I Understand. Please Take Care Of"
-dialogtxt       "[NAME 6]."
+dialogtxt       "Please take care of me."
 code0309        
 call            @Func_5046
 code0479        1, 1, 13
@@ -441,7 +441,7 @@ code0479        1, 0, 13
 call            @Func_507c
 jumpz           @Cond_14d4, ($b002 == 0)
 dialogtxt       "Yes!"
-dialogtxt       "That Was Her Intention..."
+dialogtxt       "Is γ all right?"
 goto            @Label_14f6
 
 @Cond_14d4:
@@ -466,8 +466,8 @@ code0309
 call            @Func_50b2
 code0479        0, 4, 16
 call            @Func_5010
-dialogtxt       "I Do Not Know... I Used All My Strength"
-dialogtxt       "Just To Save You ..."
+dialogtxt       "I Do Not Know... I Used All My"
+dialogtxt       "Strength Just To Save You ..."
 dialogtxt       "..."
 code0309        
 code0479        0, 4, 14
@@ -566,7 +566,7 @@ call            @Func_507c
 jumpz           @Cond_1b46, ($b002 == 0)
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        1, 4, 12
 code0479        0, 0, 14
@@ -576,7 +576,7 @@ goto            @Label_1be6
 @Cond_1b46:
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        1, 4, 12
 code0479        0, 0, 14
@@ -609,7 +609,7 @@ call            @Func_50b2
 code0479        1, 0, 16
 code0479        0, 0, 14
 call            @Func_5010
-dialogtxt       "That Govan Summon Stone"
+dialogtxt       "That Govan's Summon Stone"
 dialogtxt       "It Is What They Have Protected."
 dialogtxt       "For Generations."
 code0309        
@@ -676,7 +676,7 @@ call            @Func_507c
 jumpz           @Cond_20ea, ($b002 == 0)
 dialogtxt       "No... Even Though You Suffered So"
 dialogtxt       "Much, You Kept Silent Around Us..."
-dialogtxt       "[NAME 8]"
+dialogtxt       "You kept it from us all this time..."
 goto            @Label_213e
 
 @Cond_20ea:
@@ -698,7 +698,7 @@ call            @Func_5046
 code0479        1, 2, 14
 call            @Func_507c
 jumpz           @Cond_2264, ($b002 == 0)
-dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "Hey..."
 dialogtxt       "Why You Want To Protect Murno"
 dialogtxt       "I Think I Understand Now..."
 code0309        
@@ -779,7 +779,7 @@ code0479        0, 0, 13
 call            @Func_50ca
 call            @Func_5010
 dialogtxt       "Hmph... Even An Attack Like That"
-dialogtxt       "[NAME 8] Cannot Bring Me"
+dialogtxt       "Even that cannot bring me down"
 dialogtxt       "Down"
 code047b        
 code0309        
@@ -801,8 +801,8 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 12
 call            @Func_5010
-dialogtxt       "There’s Nothing For [NAME 4] To Worry About."
-dialogtxt       "Nothing At All."
+dialogtxt       "Nothing for you to worry about."
+dialogtxt       "Nothing at all."
 code0309        
 call            @Func_5046
 code0479        1, 0, 16
@@ -834,7 +834,7 @@ code0309
 call            @Func_50b2
 code0479        0, 2, 12
 call            @Func_5010
-dialogtxt       "Just Carrying You This Far [NAME 4]"
+dialogtxt       "Just carrying you this far"
 dialogtxt       "My Strength Seems Exhausted..."
 dialogtxt       "When I Came To, I Was In This Room..."
 code0309        
@@ -942,13 +942,13 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 12
 call            @Func_5010
-dialogtxt       "I Told You There’s No Need"
-dialogtxt       "For [NAME 4] To Worry."
-dialogtxt       "There Is Nothing To Worry About."
+dialogtxt       "I told you there's no need"
+dialogtxt       "for you to worry."
+dialogtxt       "There's nothing to worry about."
 code0309        
 code0479        1, 2, 14
 code0479        0, 2, 12
-dialogtxt       "More importantly, think about [NAME 4]"
+dialogtxt       "More importantly, think about this"
 dialogtxt       "What You Must Think About Is..."
 code0309        
 call            @Func_5046
@@ -963,7 +963,7 @@ code0479        0, 2, 12
 code0479        1, 2, 16
 dialogtxt       "The Reason Murno Was Targeted..."
 dialogtxt       "Was That Summon Stone"
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        1, 4, 12
 dialogtxt       "...Was That A Secret?"
@@ -978,7 +978,7 @@ code0479        0, 2, 12
 code0479        1, 2, 16
 dialogtxt       "The Reason Murno Was Targeted..."
 dialogtxt       "Was That Summon Stone"
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        1, 4, 12
 dialogtxt       "...Was That A Secret?"
@@ -990,7 +990,7 @@ call            @Func_50b2
 code0479        0, 2, 14
 call            @Func_5010
 dialogtxt       "Tch... Since You Have Seen This Much"
-dialogtxt       "[NAME 8] There Is No Point In"
+dialogtxt       "There is no point in hiding it now."
 dialogtxt       "Hiding It"
 code0309        
 call            @Func_5046
@@ -1011,7 +1011,7 @@ code0479        0, 0, 12
 call            @Func_5010
 dialogtxt       "Enough. Listen."
 code0309        
-dialogtxt       "That Govan Summon Stone"
+dialogtxt       "That Govan's Summon Stone"
 dialogtxt       "Murno's Family Have"
 dialogtxt       "Protected It For Generations"
 code0309        
@@ -1047,7 +1047,7 @@ code0479        0, 2, 14
 call            @Func_5010
 dialogtxt       "Tch... To Keep That Power From Being"
 dialogtxt       "Misused, We Only Kept It Hidden From"
-dialogtxt       "[NAME 5]."
+dialogtxt       "We were just hiding it."
 code0309        
 code0479        1, 2, 14
 code0479        0, 0, 12
@@ -1118,7 +1118,7 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 16
 call            @Func_5010
-dialogtxt       "She Was Afraid Of Causing You [NAME 4]"
+dialogtxt       "She was afraid of causing you trouble"
 dialogtxt       "Trouble, It Seems So She Went"
 dialogtxt       "Alone..."
 code0309        
@@ -1126,7 +1126,7 @@ call            @Func_5046
 code0479        1, 2, 14
 call            @Func_507c
 jumpz           @Cond_3662, ($b002 == 0)
-dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "I..."
 dialogtxt       "Why You Want To Protect Murno"
 dialogtxt       "I Think I Understand Now..."
 goto            @Label_36ba
@@ -1148,7 +1148,7 @@ call            @Func_5046
 code0479        1, 2, 12
 call            @Func_507c
 jumpz           @Cond_37a0, ($b002 == 0)
-dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+dialogtxt       "So I'll do my best, too!"
 code0309        
 code0479        1, 2, 13
 dialogtxt       "I Will Work Even Harder"
@@ -1217,7 +1217,7 @@ code0479        1, 0, 13
 call            @Func_507c
 jumpz           @Cond_39f2, ($b002 == 0)
 dialogtxt       "Yeah!"
-dialogtxt       "I Am Fine! [NAME 8]"
+dialogtxt       "I'm fine!"
 dialogtxt       "Are You All Right, γ?"
 goto            @Label_3a2c
 
@@ -1352,7 +1352,7 @@ call            @Func_507c
 jumpz           @Cond_40ca, ($b002 == 0)
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        0, 2, 14
 code0479        1, 4, 12
@@ -1362,7 +1362,7 @@ goto            @Label_416a
 @Cond_40ca:
 dialogtxt       "Those People、That Murno Possessed"
 dialogtxt       "Were After The Summon Stone..."
-dialogtxt       "What Exactly Is It? [NAME 8]"
+dialogtxt       "What exactly is it?"
 code0309        
 code0479        0, 2, 14
 code0479        1, 4, 12
@@ -1393,7 +1393,7 @@ code0309
 call            @Func_50b2
 code0479        0, 0, 16
 call            @Func_5010
-dialogtxt       "That Govan Summon Stone"
+dialogtxt       "That Govan's Summon Stone"
 dialogtxt       "Lady Murno's Family Have"
 dialogtxt       "Have Protected It For Generations"
 code0309        
@@ -1482,12 +1482,12 @@ call            @Func_5046
 code0479        1, 2, 14
 call            @Func_507c
 jumpz           @Cond_47f6, ($b002 == 0)
-dialogtxt       "Hey... [NAME 8]"
+dialogtxt       "I..."
 dialogtxt       "Why You Want To Protect Murno"
 dialogtxt       "I Think I Understand Now..."
 code0309        
 code0479        1, 2, 12
-dialogtxt       "I’ll Do My Best, Too! [NAME 8]"
+dialogtxt       "So I'll do my best, too!"
 goto            @Label_4882
 
 @Cond_47f6:

@@ -51,7 +51,7 @@ dialogtxt       "They're great for preventing"
 dialogtxt       "drafts from coming in."
 code0309        
 dialogtxt       "You know, my dream is to live"
-dialogtxt       "in a house build by my own hands."
+dialogtxt       "in a house built by my own hands."
 code0309        
 dialogtxt       "I've built one before, but there"
 dialogtxt       "were cracks everywhere, and my"

@@ -354,7 +354,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Akaba[NAME 6]'s wings are red"
+dialogtxt       "Akabane's wings are red"
 dialogtxt       "because they're all..."
 dialogtxt       "Well, that's the rumor..."
 code0309        
@@ -384,9 +384,9 @@ code040b
 
 @Event_101a:
 code0301        8, 7
-dialogtxt       "Poison, [NAME 6]muri, rust"
-dialogtxt       "are very painful, but over time"
-dialogtxt       "their effects will wear off."
+dialogtxt       "Poison, paralysis, sleep, and rust"
+dialogtxt       "hurt badly, but their effects"
+dialogtxt       "wear off over time."
 code0309        
 code0302        7
 code040b        

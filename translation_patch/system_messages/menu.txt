@@ -112,8 +112,8 @@ menutxtp 0x08bc9e68, "Field", 8 ; 0x080baf24="マップ"
 menutxtp 0x08bc9e6c, "Attack", 8 ; 0x080baf4c="攻撃" - correct?
 menutxtp 0x08bc9e70, "Healing", 8 ; 0x080baeb4="回復"
 menutxtp 0x08bc9e74, "Assist", 8 ; 0x080baf44="補助"
-menutxtp 0x08bc9e78, "Attack", 8 ; 0x080baf3c="交代"
-menutxtp 0x08bc9e7c, "Attack", 8 ; 0x080baf3c="交代"
+menutxtp 0x08bc9e78, "Switch", 8 ; 0x080baf3c="交代"
+menutxtp 0x08bc9e7c, "Switch", 8 ; 0x080baf3c="交代"
 
 ; Menu for equipment select.
 menutxtp 0x08bc9e80, "Equip", 8 ; 0x080baf5c="装　備"

@@ -53,7 +53,7 @@ jumpz           @Cond_041c, ($b002 == 0)
 code0479        1, 2, 14
 call            @Func_1a8e
 dialogtxt       "I heard you went to Jade's workshop,"
-dialogtxt       "When I arrived, they said you came this"
+dialogtxt       "When I arrived, they said you came"
 dialogtxt       "way... And that you were with a girl!"
 code0309        
 call            @Func_1b32
@@ -109,8 +109,8 @@ call            @Func_1a58
 code0479        1, 0, 12
 call            @Func_1a8e
 dialogtxt       "Hello, I'm Tia."
-dialogtxt       "δ and I"
-dialogtxt       "will be business partners in the future."
+dialogtxt       "δ and I will be workmates"
+dialogtxt       "in the future."
 code0309        
 call            @Func_1b32
 call            @Func_1ac4
@@ -146,13 +146,13 @@ call            @Func_1ac4
 code0479        0, 0, 16
 call            @Func_1a22
 jumpz           @Cond_072a, ($b002 == 0)
-dialogtxt       "Sorry for going home without telling you,"
-dialogtxt       "Ani[NAME 4] told me to come..."
+dialogtxt       "Sorry for going home without telling"
+dialogtxt       "you, big bro, told me to come..."
 goto            @Label_0764
 
 @Cond_072a:
-dialogtxt       "Sorry for going home without telling you,"
-dialogtxt       "Ani[NAME 4] told me to come..."
+dialogtxt       "Sorry for going home without telling"
+dialogtxt       "you, big bro, told me to come..."
 goto            @Label_0764
 
 @Label_0764:
@@ -247,15 +247,15 @@ call            @Func_1ac4
 code0479        0, 2, 16
 call            @Func_1a22
 jumpz           @Cond_0b3a, ($b002 == 0)
-dialogtxt       "There's something I want to look into. I"
-dialogtxt       "want to go farther ahead, but apparently"
-dialogtxt       "a scary stray has appeared."
+dialogtxt       "There's something I want to look"
+dialogtxt       "into. I want to go farther ahead, but"
+dialogtxt       "apparently a scary stray has appeared."
 goto            @Label_0b9a
 
 @Cond_0b3a:
-dialogtxt       "There's something I want to look into. I"
-dialogtxt       "want to go farther ahead, but apparently"
-dialogtxt       "a scary stray has appeared."
+dialogtxt       "There's something I want to look"
+dialogtxt       "into. I want to go farther ahead, but"
+dialogtxt       "apparently a scary stray has appeared."
 goto            @Label_0b9a
 
 @Label_0b9a:
@@ -299,7 +299,7 @@ code047d        0, 2
 call            @Func_1adc
 call            @Func_1a22
 jumpz           @Cond_0d1e, ($b003 == 0)
-dialogtxt       "I Will Go, [NAME 4]."
+dialogtxt       "I will go."
 goto            @Cond_0d1e
 
 @Cond_0d1e:

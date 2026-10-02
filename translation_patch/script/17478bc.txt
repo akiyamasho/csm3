@@ -357,14 +357,14 @@ code040b
 code0301        8, 7
 dialogtxt       "Part-time firewood splitters wanted"
 dialogtxt       "For details, visit Marneil Waystation"
-dialogtxt       "or the firewood boss by the Smiling Inn."
+dialogtxt       "or the firewood boss near Smile Inn."
 code0309        
 code0302        7
 code040b        
 
 @Event_0f90:
 code0301        8, 7
-dialogtxt       "More [NAME 6]ko are getting lost"
+dialogtxt       "More cats are getting lost"
 dialogtxt       "after strays chased them."
 dialogtxt       "Owners, please take care."
 code0309        

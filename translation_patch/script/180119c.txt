@@ -61,7 +61,7 @@ code0479        0, 5, 17
 call            @Func_100c
 jumpz           @Cond_036e, ($b002 == 0)
 dialogtxt       "There's nothing to discuss."
-dialogtxt       "I, [NAME 8]..."
+dialogtxt       "I, um..."
 dialogtxt       "I can't be your husband..."
 goto            @Label_03b0
 
@@ -88,7 +88,7 @@ code0309
 code0479        0, 2, 16
 jumpz           @Cond_0522, ($b002 == 0)
 dialogtxt       "Sure, I was a little happy when they"
-dialogtxt       "asked me to work as a smith. [NAME 8]'s"
+dialogtxt       "asked me to work as a smith. My"
 dialogtxt       "skill was recognized."
 code0309        
 code0479        1, 0, 13
@@ -98,9 +98,9 @@ dialogtxt       "That's different!"
 goto            @Label_05f0
 
 @Cond_0522:
-dialogtxt       "Sure, I was a little happy"
-dialogtxt       "when they asked me to work as a smith."
-dialogtxt       "It seemed my skill had been recognized."
+dialogtxt       "Sure, I was a little happy when they"
+dialogtxt       "asked me to work as a smith. It seemed"
+dialogtxt       "my skill had been recognized."
 code0309        
 code0479        1, 0, 13
 code0479        0, 2, 17
@@ -136,7 +136,7 @@ call            @Func_1042
 code0479        1, 0, 13
 call            @Func_1078
 dialogtxt       "First, you and I go into town"
-dialogtxt       "to defeat Stray Summon Beasts"
+dialogtxt       "to defeat Stray Beasts"
 dialogtxt       "and help the townspeople..."
 code0309        
 code0479        0, 2, 14
@@ -175,14 +175,14 @@ code0309
 call            @Func_10ae
 code0479        0, 4, 13
 call            @Func_100c
-dialogtxt       "Th-that's quite a plan..."
+dialogtxt       "Th-that's a plan..."
 code0309        
 call            @Func_1042
 code0479        1, 1, 12
 call            @Func_1078
-dialogtxt       "Let's work hard together"
-dialogtxt       "and make this the best inn in Lyndbaum,"
-dialogtxt       "okay, δ◎?"
+dialogtxt       "Let's work hard together and make"
+dialogtxt       "this the best inn in Lyndbaum, okay,"
+dialogtxt       "δ◎?"
 code0309        
 call            @Func_10ae
 code0479        0, 1, 16

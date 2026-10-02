@@ -46,8 +46,8 @@ dialogtxt       "Are You All Gathering Materials Today?"
 dialogtxt       "Lute Cave Should Be Fine..."
 code0309        
 dialogtxt       "Sport Cave Was Damaged By The"
-dialogtxt       "Earthquake, So It's Dangerous. Nobody's"
-dialogtxt       "Allowed In There Right Now."
+dialogtxt       "Earthquake, So It's Dangerous."
+dialogtxt       "Nobody's Allowed In There Right Now."
 code0309        
 code047e        0, 0
 code0302        7

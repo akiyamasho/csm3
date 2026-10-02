@@ -59,7 +59,7 @@ code0479        1, 0, 13
 call            @Func_14d2
 dialogtxt       "It seems there's no need to"
 dialogtxt       "worry anymore. He was a little"
-dialogtxt       "groggy, but he just fell asleep."
+dialogtxt       "groggy, but he fell asleep."
 code0309        
 call            @Func_1508
 code0479        0, 1, 12
@@ -109,7 +109,7 @@ call            @Func_149c
 code0479        1, 4, 16
 call            @Func_14d2
 dialogtxt       "But..."
-dialogtxt       "All that's really left"
+dialogtxt       "All that's left"
 dialogtxt       "is returning the magic stone..."
 code0309        
 code0479        0, 0, 16
@@ -121,7 +121,7 @@ code0479        0, 2, 12
 call            @Func_1466
 jumpz           @Cond_0660, ($b002 == 0)
 dialogtxt       "Sorry, Murno, but"
-dialogtxt       "[NAME 8] wants to go."
+dialogtxt       "I want to go."
 dialogtxt       "I'll follow even if you say no."
 goto            @Label_06b8
 
@@ -136,7 +136,7 @@ code0309
 call            @Func_149c
 code0479        1, 5, 17
 call            @Func_14d2
-dialogtxt       "No, I would never say that."
+dialogtxt       "No, I'd never say that."
 dialogtxt       "δ..."
 dialogtxt       "Thank you..."
 code0309        
@@ -147,13 +147,13 @@ call            @Func_1466
 jumpz           @Cond_07ac, ($b002 == 0)
 dialogtxt       "Even so..."
 dialogtxt       "A lot has happened since we met Murno."
-dialogtxt       "The time has just flown by."
+dialogtxt       "The time has flown by."
 goto            @Label_0804
 
 @Cond_07ac:
 dialogtxt       "Even so..."
 dialogtxt       "A lot has happened since we met Murno."
-dialogtxt       "The time has just flown by."
+dialogtxt       "The time has flown by."
 goto            @Label_0804
 
 @Label_0804:
@@ -170,7 +170,7 @@ code0479        0, 1, 13
 call            @Func_1466
 jumpz           @Cond_095a, ($b002 == 0)
 dialogtxt       "You never caused us trouble."
-dialogtxt       "[NAME 8] had so much fun"
+dialogtxt       "I had so much fun"
 dialogtxt       "meeting Murno."
 code0309        
 code0479        0, 4, 12
@@ -264,15 +264,15 @@ call            @Func_1508
 code0479        0, 0, 13
 call            @Func_1466
 jumpz           @Cond_0e04, ($b002 == 0)
-dialogtxt       "[NAME 5] [NAME 5],"
-dialogtxt       "of course it's not a problem! How could it"
-dialogtxt       "be? Then let's make it together..."
+dialogtxt       "Just kidding! Of course it is fine!"
+dialogtxt       "Let us make it together"
+dialogtxt       "tomorrow!"
 goto            @Label_0e66
 
 @Cond_0e04:
-dialogtxt       "[NAME 5] [NAME 5],"
-dialogtxt       "of course it's not a problem! How could it"
-dialogtxt       "be? Let's make it tomorrow!"
+dialogtxt       "Just kidding! Of course it is fine!"
+dialogtxt       "Let us make it together"
+dialogtxt       "tomorrow!"
 goto            @Label_0e66
 
 @Label_0e66:

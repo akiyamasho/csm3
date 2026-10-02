@@ -57,7 +57,7 @@ call            @Func_28f6
 jumpz           @Cond_02de, ($b002 == 0)
 dialogtxt       "The match is already over."
 dialogtxt       "If you keep this up,"
-dialogtxt       "[NAME 8] will...!"
+dialogtxt       "I will...!"
 goto            @Label_032a
 
 @Cond_02de:
@@ -313,7 +313,7 @@ goto            @Label_0da8
 @Label_0da8:
 call            @Func_2962
 jumpz           @Cond_0dce, ($b003 == 0)
-dialogtxt       "[NAME 5] IT IS [NAME 6]."
+dialogtxt       "That is so."
 goto            @Cond_0dce
 
 @Cond_0dce:
@@ -455,9 +455,9 @@ code0479        0, 2, 13
 code047d        0, 107
 call            @Func_29b0
 call            @Func_28d8
-dialogtxt       "Oh, δ... Even though δ"
+dialogtxt       "Oh, δ... Though it"
 dialogtxt       "is stronger than Magdrado,"
-dialogtxt       "δ is helpless against Tia."
+dialogtxt       "it is helpless against Tia."
 code047b        
 code0309        
 call            @Func_292c
@@ -541,7 +541,7 @@ dialogtxt       "because..."
 code0309        
 code0479        1, 2, 13
 code0479        0, 0, 16
-dialogtxt       "There was no place for [NAME 8]"
+dialogtxt       "I had no part in it"
 dialogtxt       "in your fight."
 code0309        
 call            @Func_2a1c
@@ -568,15 +568,15 @@ code0309
 code043c        0, 3
 code0479        0, 6, 12
 jumpz           @Cond_1994, ($b002 == 0)
-dialogtxt       "[NAME 8] and the others made it"
-dialogtxt       "this far because everyone was here..."
-dialogtxt       "to you, too, [NAME 8] -mii."
+dialogtxt       "Lemmy made it this far"
+dialogtxt       "because everyone was here..."
+dialogtxt       "Thanks to Lemmy, too."
 goto            @Label_19f0
 
 @Cond_1994:
 dialogtxt       "We made it this far because"
 dialogtxt       "everyone was here. Thanks to"
-dialogtxt       "you, too, [NAME 8] -mii."
+dialogtxt       "Lemmy, too."
 goto            @Label_19f0
 
 @Label_19f0:
@@ -781,7 +781,7 @@ call            @Func_29dc
 call            @Func_2944
 jumpz           @Cond_221a, ($b002 == 0)
 dialogtxt       "Huh?! W-Why...?! Did"
-dialogtxt       "[NAME 8]"
+dialogtxt       "I"
 dialogtxt       "say something wrong?!"
 goto            @Label_2262
 

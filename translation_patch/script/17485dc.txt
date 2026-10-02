@@ -153,7 +153,7 @@ code0301        8, 7
 code047d        0, 118
 code047e        0, 1
 dialogtxt       "You'd better not go any farther."
-dialogtxt       "A stray called Akaba[NAME 6]"
+dialogtxt       "A stray called Akabane"
 dialogtxt       "and it's dangerous."
 code0309        
 code047e        0, 0
@@ -373,8 +373,8 @@ code0301        8, 7
 code047d        0, 123
 code047e        0, 1
 dialogtxt       "Hey, let's play Summon Beast!"
-dialogtxt       "I'll summon [NAME 4]mi,"
-dialogtxt       "and [NAME 4]mi will be a stray!"
+dialogtxt       "I'll summon you,"
+dialogtxt       "and you will be a stray!"
 code0309        
 code047e        0, 0
 code0302        7

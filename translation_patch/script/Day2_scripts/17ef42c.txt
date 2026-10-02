@@ -140,12 +140,12 @@ call            @Func_2fd4
 code0479        0, 0, 12
 call            @Func_2f32
 jumpz           @Cond_05bc, ($b002 == 0)
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_05fa
 
 @Cond_05bc:
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_05fa
 
@@ -249,14 +249,14 @@ code0479        0, 7, 13
 call            @Func_2f32
 jumpz           @Cond_0ba4, ($b002 == 0)
 dialogtxt       "Haha..."
-dialogtxt       "I'm really happy"
-dialogtxt       "to hear that from you!"
+dialogtxt       "To be praised by [NAME 1]..."
+dialogtxt       "makes me so happy!"
 goto            @Label_0be4
 
 @Cond_0ba4:
 dialogtxt       "Haha..."
-dialogtxt       "I'm really happy"
-dialogtxt       "to hear that from you!"
+dialogtxt       "To be praised by [NAME 1]..."
+dialogtxt       "makes me so happy!"
 goto            @Label_0be4
 
 @Label_0be4:
@@ -317,12 +317,12 @@ code0479        1, 0, 12
 code0479        0, 0, 13
 call            @Func_2f32
 jumpz           @Cond_0e72, ($b002 == 0)
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_0eb0
 
 @Cond_0e72:
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_0eb0
 
@@ -513,12 +513,12 @@ code0479        1, 0, 12
 code0479        0, 0, 13
 call            @Func_2f32
 jumpz           @Cond_17e4, ($b002 == 0)
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for being holding back today."
 goto            @Label_1822
 
 @Cond_17e4:
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for being holding back today."
 goto            @Label_1822
 
@@ -636,7 +636,7 @@ code0309
 call            @Func_2fd4
 code0479        0, 5, 16
 call            @Func_2f32
-dialogtxt       "Huh...?"
+dialogtxt       "Huh...? What, [NAME 1]?"
 code0309        
 call            @Func_2f68
 code0479        1, 0, 14
@@ -698,12 +698,12 @@ code0479        1, 0, 12
 code0479        0, 0, 13
 call            @Func_2f32
 jumpz           @Cond_20fa, ($b002 == 0)
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_2138
 
 @Cond_20fa:
-dialogtxt       "Speaking of which,"
+dialogtxt       "Speaking of which, [NAME 1]"
 dialogtxt       "thanks for holding back today."
 goto            @Label_2138
 

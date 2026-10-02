@@ -14,8 +14,8 @@ code0479        1, 0, 16
 code047d        1, 132
 call            @Func_085a
 call            @Func_07d8
-dialogtxt       "The Golden Faction is past the dead end"
-dialogtxt       "around the corner up ahead..."
+dialogtxt       "The Golden Faction is past the dead"
+dialogtxt       "end around the corner up ahead..."
 dialogtxt       "Follow me."
 code047b        
 code0309        

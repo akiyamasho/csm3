@@ -206,13 +206,13 @@ call            @Func_17ac
 jumpz           @Cond_08fe, ($b002 == 0)
 dialogtxt       "No..."
 dialogtxt       "You forgot me?"
-dialogtxt       "It's U[NAME 5], γ!"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Cond_08fe:
 dialogtxt       "No..."
 dialogtxt       "You forgot me?"
-dialogtxt       "It's U[NAME 5], γ!"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Label_0932:

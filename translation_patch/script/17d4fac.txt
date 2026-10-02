@@ -120,7 +120,7 @@ dialogtxt       "Wha..."
 code047b        
 code0309        
 code0479        0, 2, 15
-dialogtxt       "γ...!"
+dialogtxt       "What do you mean!?"
 goto            @Label_0402
 
 @Label_0402:
@@ -378,4 +378,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

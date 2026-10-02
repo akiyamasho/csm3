@@ -490,7 +490,7 @@ call            @Func_20d8
 code0479        0, 5, 12
 call            @Func_2036
 dialogtxt       "Wait..."
-dialogtxt       "You just THOUGHT it would fall!?"
+dialogtxt       "[NAME 1], you just THOUGHT it'd fall!?"
 code0309        
 call            @Func_206c
 code0479        1, 2, 14
@@ -780,4 +780,3 @@ ret
 code047a        0, 0, 1
 code047a        1, 0, 1
 ret             
-

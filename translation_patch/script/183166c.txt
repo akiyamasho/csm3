@@ -75,8 +75,8 @@ goto            @Label_02b4
 @Label_02b4:
 call            @Func_18f2
 jumpz           @Cond_02f6, ($b003 == 0)
-dialogtxt       "Lava is flowing, [NAME 8]!"
-dialogtxt       "That's Why, I Think [NAME 8]."
+dialogtxt       "It's probably because lava"
+dialogtxt       "is flowing."
 goto            @Cond_02f6
 
 @Cond_02f6:
@@ -96,7 +96,7 @@ goto            @Cond_037e
 @Cond_037e:
 jumpz           @Cond_03d4, ($b003 == 3)
 dialogtxt       "L-Look!"
-dialogtxt       "Ah, [NAME 8], it's lava!"
+dialogtxt       "That's lava!"
 dialogtxt       "No wonder it's so hot..."
 goto            @Cond_03d4
 
@@ -200,9 +200,9 @@ goto            @Label_076e
 @Label_076e:
 call            @Func_18f2
 jumpz           @Cond_07dc, ($b003 == 0)
-dialogtxt       "It But Is [NAME 8] No Me."
-dialogtxt       "Is Special Occasionally It Effect"
-dialogtxt       "Weak, Wave Detected Has On"
+dialogtxt       "It's very weak, but a special wave"
+dialogtxt       "is occasionally detected."
+dialogtxt       "It doesn't affect me."
 goto            @Cond_07dc
 
 @Cond_07dc:
@@ -334,7 +334,7 @@ call            @Func_1956
 call            @Func_18f2
 dialogtxt       "Forget About Me."
 dialogtxt       "I'd Just Get In The Way"
-dialogtxt       "If I Went With δ And The Others."
+dialogtxt       "If I Went With [NAME 2] And The Others."
 code047b        
 code0309        
 code0479        1, 2, 14
@@ -432,8 +432,8 @@ code047d        1, 2
 call            @Func_196c
 call            @Func_1886
 jumpz           @Cond_116a, ($b002 == 0)
-dialogtxt       "All Right...! Come On,"
-dialogtxt       "[NAME 8] , Let's Go Too!"
+dialogtxt       "All right...!"
+dialogtxt       "Then let's go, too!"
 goto            @Label_1198
 
 @Cond_116a:

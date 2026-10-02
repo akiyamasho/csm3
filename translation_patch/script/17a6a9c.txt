@@ -259,9 +259,9 @@ code047e        0, 1
 dialogtxt       "I never thought they'd come apologize"
 dialogtxt       "of their own accord."
 code0309        
-dialogtxt       "And to think they even found the A[NAME 8]"
-dialogtxt       "from our memories, they really did"
-dialogtxt       "remember."
+dialogtxt       "They even found that thing"
+dialogtxt       "from our memories..."
+dialogtxt       "They remembered it."
 code0309        
 code047e        0, 0
 code0302        7

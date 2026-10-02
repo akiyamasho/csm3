@@ -1,0 +1,74 @@
+name: Translation build
+
+on:
+  push:
+    branches: [complete-english-translation]
+  pull_request:
+    branches: [complete-english-translation]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install native build tools
+        run: sudo apt-get update && sudo apt-get install --yes g++ make
+
+      - name: Compile native script inserters
+        working-directory: translation_patch/script_inserter
+        env:
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
+        run: make -j1 all
+
+      - name: Validate complete manifest and protected artifacts
+        run: |
+          python3 translation_patch/generate_build_manifest.py --check
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+
+          root = Path('.').resolve()
+          patch = root / 'translation_patch'
+          manifest = patch / 'build_scripts.manifest'
+          rows = [line.split() for line in manifest.read_text(encoding='utf-8').splitlines() if line.strip()]
+          if len(rows) != 1052:
+              raise SystemExit(f'manifest has {len(rows)} entries; expected 1052')
+          addresses = []
+          for row in rows:
+              if len(row) != 2:
+                  raise SystemExit(f'invalid manifest row: {row}')
+              path, pos = row
+              if not re.fullmatch(r'--pos=[0-9a-f]+', pos):
+                  raise SystemExit(f'invalid ROM address: {pos}')
+              addresses.append(pos[6:])
+              if not (patch / path).is_file():
+                  raise SystemExit(f'missing manifest source: {path}')
+          if len(set(addresses)) != len(addresses):
+              raise SystemExit('manifest contains duplicate ROM addresses')
+
+          tracked = subprocess.check_output(['git', 'ls-files'], text=True).splitlines()
+          forbidden = [p for p in tracked if re.search(r'\.(gba|sav|sgm|sg1|sa1)$', p, re.I)]
+          if forbidden:
+              raise SystemExit('forbidden ROM/save artifacts are tracked: ' + ', '.join(forbidden))
+          print(f'validated {len(rows)} unique manifest entries and {len(tracked)} tracked paths')
+          PY
+
+      - name: Run text-fit and regression tests
+        run: |
+          python3 translation_patch/qa/check_translation_integrity.py --no-diff
+          python3 translation_patch/qa/measure_text.py --fail-on-static-overflow
+          python3 -m unittest discover -s translation_patch/qa -p 'test_*.py'

@@ -1,4 +1,13 @@
 patches
 swordcraft3.gba
 swordcraft3-test.gba
-
+# The manifest generator is part of the reproducible build tooling.
+!generate_build_manifest.py
+!qa/check_translation_integrity.py
+!qa/extract_original_text.py
+!build_full.bat
+!build_full.sh
+/script_inserter/swordcraft3c
+/script_inserter/swordcraft3-menu
+/qa/__pycache__/
+/tmp_repair_part2.rb

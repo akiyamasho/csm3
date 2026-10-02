@@ -130,12 +130,12 @@ code0479        0, 2, 16
 call            @Func_14a8
 call            @Func_13d0
 jumpz           @Cond_0500, ($b002 == 0)
-dialogtxt       "[NAME 8]?"
+dialogtxt       "Who is it?"
 dialogtxt       "Murno?"
 goto            @Label_051c
 
 @Cond_0500:
-dialogtxt       "[NAME 8]?"
+dialogtxt       "Who is it?"
 dialogtxt       "Murno?"
 goto            @Label_051c
 
@@ -157,11 +157,11 @@ code0479        0, 2, 14
 call            @Func_14a8
 call            @Func_13ee
 jumpz           @Cond_05d2, ($b002 == 0)
-dialogtxt       "[NAME 8], you...?"
+dialogtxt       "Who are you...?"
 goto            @Label_05e8
 
 @Cond_05d2:
-dialogtxt       "You, [NAME 8]?"
+dialogtxt       "Who are you?"
 goto            @Label_05e8
 
 @Label_05e8:
@@ -279,9 +279,9 @@ dialogtxt       "Yes..."
 dialogtxt       "The Lord is a Summon Beast"
 dialogtxt       "that protects this village."
 code0309        
-dialogtxt       "At Water Ruins of [NAME 8]"
-dialogtxt       "kui on the edge of the village, on the"
-dialogtxt       "lowest floor of the underground palace."
+dialogtxt       "At Rekui Water Ruins on the"
+dialogtxt       "edge of the village, on the lowest"
+dialogtxt       "floor of the underground palace."
 code0309        
 code047e        1, 0
 code0302        7

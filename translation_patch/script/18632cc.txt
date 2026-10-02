@@ -69,8 +69,8 @@ goto            @Cond_0300
 
 @Cond_0300:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "I Must Discuss Something With Murno."
-dialogtxt       "It Has Nothing To Do With [NAME 4]."
+dialogtxt       "I have business with Murno."
+dialogtxt       "This has nothing to do with you."
 goto            @Cond_0346
 
 @Cond_0346:
@@ -192,8 +192,8 @@ call            @Func_1164
 code0479        0, 2, 16
 call            @Func_10c2
 jumpz           @Cond_091e, ($b002 == 0)
-dialogtxt       "But This..."
-dialogtxt       "Can [NAME 8] Repair It...?"
+dialogtxt       "But... this..."
+dialogtxt       "Can I fix it...?"
 goto            @Label_0950
 
 @Cond_091e:

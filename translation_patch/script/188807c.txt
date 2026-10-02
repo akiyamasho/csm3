@@ -72,12 +72,12 @@ goto            @Cond_0298
 
 @Cond_0298:
 jumpz           @Cond_0346, ($b003 == 2)
-dialogtxt       "No..."
-dialogtxt       "I've learned that saying so is pointless,"
-dialogtxt       "so I'll go along with it..."
+dialogtxt       "No... I've learned that saying so"
+dialogtxt       "is pointless, so I'll go along with"
+dialogtxt       "it..."
 code0309        
 code0479        1, 0, 12
-dialogtxt       "And, [NAME 4]..."
+dialogtxt       "Still, you won't give up, will you?"
 dialogtxt       "to do this time?"
 goto            @Cond_0346
 
@@ -94,13 +94,13 @@ code0479        0, 2, 16
 call            @Func_0df0
 jumpz           @Cond_042c, ($b002 == 0)
 dialogtxt       "Well, I want to make a new weapon,"
-dialogtxt       "and fight [NAME 8]mi..."
+dialogtxt       "and fight Lemmy and her Summon Beast,"
 dialogtxt       "hmm..."
 goto            @Label_048e
 
 @Cond_042c:
 dialogtxt       "Yes, I want to make a new weapon,"
-dialogtxt       "and fight [NAME 8]mi..."
+dialogtxt       "and fight Lemmy and her Summon Beast,"
 dialogtxt       "hmm..."
 goto            @Label_048e
 

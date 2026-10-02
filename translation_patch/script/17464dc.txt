@@ -112,12 +112,12 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_05a8, ($b002 == 0)
-dialogtxt       "Ani[NAME 4] and the Gold Faction"
+dialogtxt       "Big Brother and the Gold Faction"
 dialogtxt       "aren't this way!"
 goto            @Label_05ca
 
 @Cond_05a8:
-dialogtxt       "We've got to catch Ani[NAME 4]!"
+dialogtxt       "We've got to catch Big Brother!"
 goto            @Label_05ca
 
 @Label_05ca:
@@ -546,7 +546,7 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Oh, [NAME 4]mi, you have one."
+dialogtxt       "Oh, you have a Summon Beast too."
 dialogtxt       "Let me introduce you."
 dialogtxt       "This is my Summon Beast, Myotaro."
 code0309        
@@ -582,7 +582,7 @@ code040b
 
 @Event_18a6:
 code0301        8, 7
-dialogtxt       "If you hear the alarm announcing a stray,"
+dialogtxt       "If you hear the Stray alarm,"
 dialogtxt       "evacuate into town immediately"
 dialogtxt       "and refrain from going outside."
 code0309        

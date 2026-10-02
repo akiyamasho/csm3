@@ -363,9 +363,9 @@ code040b
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Ugh... Today, even the gift certificates"
-dialogtxt       "I saved little by little I lost the bet and"
-dialogtxt       "my coworker took it."
+dialogtxt       "Ugh... Today, even gift certificates I"
+dialogtxt       "saved little by little I lost the bet"
+dialogtxt       "and my coworker took it."
 code0309        
 code047e        0, 0
 code0302        7
@@ -388,9 +388,9 @@ code040b
 
 @Event_1066:
 code0301        8, 7
-dialogtxt       "In battles against humans, destroy their"
-dialogtxt       "weapons I think you should win. Weapon"
-dialogtxt       "Destruction Promotion Committee"
+dialogtxt       "In battles against humans, destroy"
+dialogtxt       "their weapons I think you should win."
+dialogtxt       "Weapon Destruction Committee"
 code0309        
 code0302        7
 code040b        
@@ -405,7 +405,7 @@ code040b
 
 @Event_1138:
 code0301        8, 7
-dialogtxt       "When struck by a [NAME 6]muri attack,"
+dialogtxt       "When struck by a Nemuri attack,"
 dialogtxt       "you fall asleep instantly."
 dialogtxt       "Be careful."
 code0309        

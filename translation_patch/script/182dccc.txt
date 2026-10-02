@@ -10,8 +10,8 @@ dialogtxt       "in a one-on-one match."
 code047b        
 code0309        
 code0479        0, 4, 12
-dialogtxt       "Come to think of it, everyone doesn't"
-dialogtxt       "Doesn't know [NAME 8] and me."
+dialogtxt       "Come to think of it, no one knows"
+dialogtxt       "what we're doing here,"
 dialogtxt       "doing this, so they must be worried..."
 goto            @Label_01cc
 
@@ -36,7 +36,7 @@ dialogtxt       "Ahh..."
 code0309        
 code0479        0, 4, 12
 choicetxt       @Choice_0290, "Master's stew, please."
-choicetxt       @Choice_02a0, "See [NAME 4]!"
+choicetxt       @Choice_02a0, "See Bro's scary face!"
 choicetxt       @Choice_02b0, "Is Tier earning money?"
 choicewait      
 

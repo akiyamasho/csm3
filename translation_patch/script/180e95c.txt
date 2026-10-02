@@ -10,9 +10,9 @@ dialogtxt       "Maybe I'll head back..."
 goto            @Label_00f0
 
 @Cond_009c:
-dialogtxt       "Even if I stay here..."
-dialogtxt       "It's not going to solve anything, is it?"
-dialogtxt       "Maybe I'll head back..."
+dialogtxt       "Even if I stay here... It's not going"
+dialogtxt       "to solve anything, is it? Maybe I'll"
+dialogtxt       "head back..."
 goto            @Label_00f0
 
 @Label_00f0:
@@ -49,7 +49,7 @@ code0312
  menutxt         @Menu_01fc, "Murno"
 menutxt         @Menu_0208, "γ"
  menutxt         @Menu_0214, "V.E"
- menutxt         @Menu_0220, "[NAME 8]my"
+ menutxt         @Menu_0220, "Lemmy"
  menutxt         @Menu_022c, "Jade"
  menutxt         @Menu_0238, "Tier"
 menuwait        

@@ -1373,7 +1373,7 @@ code0309
 call            @Func_4758
 code0479        0, 0, 13
 call            @Func_46b6
-dialogtxt       "I'm counting on you!"
+dialogtxt       "I'm counting on you, [NAME 1]!"
 goto            @Label_3f36
 
 @Label_3f36:

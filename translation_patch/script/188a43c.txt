@@ -48,8 +48,8 @@ code0479        1, 0, 16
 code047d        1, 135
 call            @Func_0b58
 call            @Func_0ac0
-dialogtxt       "I can't believe Genryuki did such a thing."
-dialogtxt       "It seems things became quite serious..."
+dialogtxt       "I can't believe Genryuki did that."
+dialogtxt       "It seems things got quite serious..."
 code047b        
 code0309        
 call            @Func_0b14

@@ -418,7 +418,7 @@ goto            @Cond_0f74
 @Cond_0f74:
 jumpz           @Cond_1692, ($b003 == 2)
 dialogtxt       "δ..."
-dialogtxt       "Master [NAME 4], It Can't Be..."
+dialogtxt       "You... it can't be..."
 code0309        
 call            @Func_2ad6
 code043c        0, 3
@@ -537,7 +537,7 @@ code047d        0, 2
 code0301        16, 7
 code047e        0, 1
 dialogtxt       "To Restore My Spiritual Power,"
-dialogtxt       "Master [NAME 4]"
+dialogtxt       "Tch..."
 dialogtxt       "Must... Tch... So That Is It..."
 code0309        
 code0481        0

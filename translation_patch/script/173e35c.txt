@@ -564,7 +564,7 @@ dialogtxt       "So I must earn travel money;"
 dialogtxt       "that is how it is."
 code0309        
 jumpz           @Cond_18aa, ($f1246 == 0)
-dialogtxt       "By the way, you look like a Craftknight."
+dialogtxt       "Say, you look like a Craftknight."
 dialogtxt       "Want to hear about enhancement?"
 code0309        
 code047e        0, 0
@@ -657,9 +657,9 @@ dialogtxt       "That person is a real handful."
 dialogtxt       "He says he wants help splitting logs,"
 dialogtxt       "then says he cannot trust a novice."
 code0309        
-dialogtxt       "Everyone starts as a novice."
-dialogtxt       "What am I supposed to do?"
-dialogtxt       "Is there a beginner's log-splitting guide?"
+dialogtxt       "Everyone starts as a novice. What am I"
+dialogtxt       "supposed to do? Is there a beginner's"
+dialogtxt       "log-splitting guide?"
 code0309        
 code047e        0, 0
 code0302        7

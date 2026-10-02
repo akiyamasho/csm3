@@ -257,7 +257,7 @@ code0301        8, 7
 code047d        0, 119
 code047e        0, 1
 dialogtxt       "Looks like you've improved."
-dialogtxt       "I'll have you handle the repairs this time."
+dialogtxt       "You'll handle the repairs this time."
 code0309        
 code047e        0, 0
 code0302        7
@@ -268,8 +268,8 @@ code0301        8, 7
 code047d        0, 120
 code047e        0, 1
 dialogtxt       "It's been awfully peaceful lately."
-dialogtxt       "The dangerous thing is,"
-dialogtxt       "even girls who don't look all that strong"
+dialogtxt       "The dangerous thing is, even girls who"
+dialogtxt       "don't look all that strong"
 code0309        
 dialogtxt       "can turn out to be incredibly strong."
 dialogtxt       "Watch yourself."

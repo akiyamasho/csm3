@@ -491,7 +491,7 @@ code047e        0, 1
 dialogtxt       "I've been waiting for you ◎"
 code0309        
 dialogtxt       "To honor your love of bows,"
-dialogtxt       "I'll give you a set of enhancement items"
+dialogtxt       "I'll give you enhancement items"
 dialogtxt       "that add a bow-only special attack."
 code0309        
 code047e        0, 0
@@ -530,7 +530,7 @@ code047e        0, 1
 dialogtxt       "Here's a little trivia."
 code0309        
 dialogtxt       "Bows are counted as"
-dialogtxt       "one chō, two chō,"
+dialogtxt       "one cho, two cho,"
 dialogtxt       "you know."
 code0309        
 dialogtxt       "Did you know that?"

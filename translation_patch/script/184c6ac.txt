@@ -14,21 +14,21 @@ goto            @Label_0110
 @Label_0110:
 code030a        6, 1
 jumpz           @Cond_01aa, ($b002 == 0)
-dialogtxt       "Thanks to [NAME 8] Mii explaining"
+dialogtxt       "Thanks to Lemmy explaining"
 dialogtxt       "everything, Master Bostaph seems to"
-dialogtxt       "believe that Anise and the others are..."
+dialogtxt       "believe Anise and the others are..."
 goto            @Label_0226
 
 @Cond_01aa:
-dialogtxt       "Thanks to [NAME 8] Mii explaining"
+dialogtxt       "Thanks to Lemmy explaining"
 dialogtxt       "everything, Master Bostaph seems to"
-dialogtxt       "believe that Anise and the others are..."
+dialogtxt       "believe Anise and the others are..."
 goto            @Label_0226
 
 @Label_0226:
 code030a        6, 1
 dialogtxt       "Murno's name has been cleared, and to"
-dialogtxt       "protect Govann's Summon Stone, we're"
+dialogtxt       "protect Govan's Magic Stone, we're"
 dialogtxt       "going to capture Anise and the others."
 code030a        6, 1
 jumpz           @Cond_0346, ($b002 == 0)

@@ -25,13 +25,13 @@ code047d        1, 0
 call            @Func_1640
 call            @Func_15be
 jumpz           @Cond_01d2, ($b002 == 0)
-dialogtxt       "Huh...?"
-dialogtxt       "What are you doing?"
+dialogtxt       "Huh?"
+dialogtxt       "What's up?"
 goto            @Label_01f6
 
 @Cond_01d2:
-dialogtxt       "Huh...?"
-dialogtxt       "What are you doing?"
+dialogtxt       "Huh?"
+dialogtxt       "What's up?"
 goto            @Label_01f6
 
 @Label_01f6:
@@ -54,7 +54,7 @@ code0479        1, 2, 14
 code047d        1, 130
 call            @Func_1656
 call            @Func_15be
-dialogtxt       "That's enough, [NAME 8]-mii."
+dialogtxt       "That's enough, Lemmy."
 dialogtxt       "You should stop."
 code047b        
 code0309        
@@ -156,13 +156,13 @@ call            @Func_15a6
 code0479        1, 0, 14
 call            @Func_15dc
 jumpz           @Cond_0894, ($b002 == 0)
-dialogtxt       "A child is going somewhere dangerous."
+dialogtxt       "Your child is in danger."
 dialogtxt       "Of course she'd worry, right?"
 dialogtxt       "She's your mother."
 goto            @Label_08e4
 
 @Cond_0894:
-dialogtxt       "A child is going somewhere dangerous."
+dialogtxt       "Your child is in danger."
 dialogtxt       "Of course she'd worry, right?"
 dialogtxt       "She's your mother."
 goto            @Label_08e4
@@ -172,21 +172,21 @@ code0309
 call            @Func_1612
 code0479        0, 2, 13
 call            @Func_1570
-dialogtxt       "If it's dangerous enough that I shouldn't"
-dialogtxt       "go, maybe you should stay behind. You..."
-dialogtxt       "do anything without your Summon Beast."
+dialogtxt       "If it's too dangerous for me to"
+dialogtxt       "go, perhaps you should stay. You..."
+dialogtxt       "do anything without your Beast."
 code0309        
 call            @Func_15a6
 code0479        1, 2, 15
 call            @Func_15dc
 jumpz           @Cond_09da, ($b002 == 0)
-dialogtxt       "What did you say?!"
-dialogtxt       "Even without γ,"
-dialogtxt       "[NAME 8] can...!"
+dialogtxt       "What?!"
+dialogtxt       "Even without [NAME 1],"
+dialogtxt       "I can...!"
 goto            @Label_0a14
 
 @Cond_09da:
-dialogtxt       "What did you say?!"
+dialogtxt       "What?!"
 dialogtxt       "Even without γ,"
 dialogtxt       "I can...!"
 goto            @Label_0a14
@@ -198,7 +198,7 @@ code0479        0, 2, 12
 call            @Func_1570
 dialogtxt       "You seem pretty full of yourself after"
 dialogtxt       "beating Magdorado, but you only did"
-dialogtxt       "that because you had a Summon Beast."
+dialogtxt       "that because you had a Beast."
 code0309        
 code0479        0, 2, 13
 code0479        1, 2, 14
@@ -209,9 +209,9 @@ call            @Func_15a6
 code0479        1, 2, 15
 call            @Func_15dc
 jumpz           @Cond_0b6c, ($b002 == 0)
-dialogtxt       "Who's full of themselves?!"
-dialogtxt       "[NAME 8] alone could"
-dialogtxt       "beat someone like you!"
+dialogtxt       "Who's acting so high and mighty?!"
+dialogtxt       "I can beat"
+dialogtxt       "someone like you!"
 goto            @Label_0bc8
 
 @Cond_0b6c:
@@ -225,7 +225,7 @@ code0309
 call            @Func_1612
 code0479        0, 2, 16
 call            @Func_1570
-dialogtxt       "It looks like your usual Summon Beast"
+dialogtxt       "Looks like your usual Beast"
 dialogtxt       "isn't with you today,"
 dialogtxt       "so maybe you shouldn't push yourself."
 code0309        
@@ -234,13 +234,13 @@ code0479        1, 2, 14
 call            @Func_15dc
 jumpz           @Cond_0cb4, ($b002 == 0)
 dialogtxt       "Shut up!"
-dialogtxt       "I wanted to have a one-on-one"
+dialogtxt       "I wanted a one-on-one"
 dialogtxt       "fight with you at least once!"
 goto            @Label_0cfc
 
 @Cond_0cb4:
 dialogtxt       "Shut up!"
-dialogtxt       "I wanted to have a one-on-one"
+dialogtxt       "I wanted a one-on-one"
 dialogtxt       "fight with you at least once!"
 goto            @Label_0cfc
 
@@ -271,9 +271,9 @@ code0309
 call            @Func_1612
 code0479        0, 2, 16
 call            @Func_1570
-dialogtxt       "We could fight right now,"
-dialogtxt       "but you'll need to prepare a few things,"
-dialogtxt       "so I'll wait in front of the north gate."
+dialogtxt       "We could fight now, but you'll"
+dialogtxt       "need to prepare a few things, so I'll"
+dialogtxt       "wait before the north gate."
 code0309        
 code0479        0, 2, 12
 dialogtxt       "Tell me when you're ready."

@@ -50,11 +50,11 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_01c0, ($b002 == 0)
-dialogtxt       "You do not have enough lottery tickets..."
+dialogtxt       "You lack enough lottery tickets..."
 goto            @Label_01e0
 
 @Cond_01c0:
-dialogtxt       "You do not have enough lottery tickets..."
+dialogtxt       "You lack enough lottery tickets..."
 goto            @Label_01e0
 
 @Label_01e0:

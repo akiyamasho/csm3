@@ -54,7 +54,7 @@ code0479        0, 0, 13
 call            @Func_1b50
 jumpz           @Cond_0368, ($b002 == 0)
 	dialogtxt       "You think so?"
-	dialogtxt       "It's [NAME 8]'s partner!"
+	dialogtxt       "It's My partner!"
 	dialogtxt       "My partner!"
 goto            @Label_039a
 
@@ -115,7 +115,7 @@ jumpz           @Cond_0634, ($b003 == 1)
 code0479        1, 1, 12
 call            @Func_1bbc
 	dialogtxt       "My, how cute!"
-	dialogtxt       "[NAME 6]'s a Summon Beast~!"
+	dialogtxt       "It's a kitty Summon Beast~!"
 code047b        
 code0309        
 call            @Func_1bf2
@@ -123,7 +123,7 @@ code0479        0, 3, 15
 call            @Func_1b50
 	dialogtxt       "Look closely! I'm a tiger!"
 	dialogtxt       "I am the tiger yokai Toramata!"
-	dialogtxt       "Are your Mega[NAME 6] glasses just for show?"
+	dialogtxt       "Are your glasses just for show?"
 code0309        
 call            @Func_1b86
 code0479        1, 5, 15
@@ -143,7 +143,7 @@ code0309
 call            @Func_1bf2
 code0479        0, 2, 14
 call            @Func_1b50
-	dialogtxt       "What is it, [NAME 4]?"
+	dialogtxt       "What is it?"
 	dialogtxt       "Don't get so familiar."
 code0309        
 call            @Func_1b86
@@ -220,7 +220,7 @@ call            @Func_1bbc
 	dialogtxt       "and it's like a maze up ahead."
 code0309        
 code0479        1, 0, 15
-	dialogtxt       "You're definitely better off with a guide~"
+	dialogtxt       "You're better off with a guide~"
 code0309        
 call            @Func_1bf2
 code0479        0, 0, 12
@@ -306,7 +306,7 @@ call            @Func_1bbc
 	dialogtxt       "up ahead."
 code0309        
 code0479        1, 2, 12
-	dialogtxt       "You're definitely better off with a guide."
+	dialogtxt       "You're better off with a guide."
 code0309        
 call            @Func_1bf2
 code0479        0, 4, 12
@@ -462,8 +462,8 @@ call            @Func_1bbc
 	dialogtxt       "while you still have the chance!"
 code0309        
 code0479        1, 0, 12
-	dialogtxt       "I'll be right here,"
-	dialogtxt       "so let me know if you change your mind."
+	dialogtxt       "I'll be right here, so let me know if"
+	dialogtxt       "you change your mind."
 code0309        
 call            @Func_1c8c
 call            @Func_1bda

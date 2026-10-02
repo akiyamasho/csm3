@@ -139,8 +139,8 @@ code0309
 call            @Func_0d3a
 code0479        1, 1, 12
 call            @Func_0d70
-dialogtxt       "I mean, you're much more"
-dialogtxt       "like yourself when you're like that!"
+dialogtxt       "I mean, that's much more"
+dialogtxt       "like you, δ!"
 dialogtxt       "Don't forget it!"
 code0309        
 call            @Func_0da6

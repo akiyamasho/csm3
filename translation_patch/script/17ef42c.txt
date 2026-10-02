@@ -253,14 +253,14 @@ code0479        0, 7, 13
 call            @Func_2f32
 jumpz           @Cond_0ba4, ($b002 == 0)
 dialogtxt       "Haha..."
-dialogtxt       "I'm really happy"
-dialogtxt       "to hear that from you!"
+dialogtxt       "To be praised by [NAME 1]..."
+dialogtxt       "makes me so happy!"
 goto            @Label_0be4
 
 @Cond_0ba4:
 dialogtxt       "Haha..."
-dialogtxt       "I'm really happy"
-dialogtxt       "to hear that from you!"
+dialogtxt       "To be praised by [NAME 1]..."
+dialogtxt       "makes me so happy!"
 goto            @Label_0be4
 
 @Label_0be4:

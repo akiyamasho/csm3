@@ -283,11 +283,11 @@ setvar          $f1023, 1
 code043e        0, 3, 0
 code0301        0, 9
 code0305        1
-dialogtxt       "Hit switch on the floor with your hammer"
-dialogtxt       "to move the plate floating on the lava."
-dialogtxt       "It moves."
+dialogtxt       "Hit switch on the floor with your"
+dialogtxt       "hammer to move the plate floating on"
+dialogtxt       "the lava. It moves."
 code0309        
-dialogtxt       " switch's shape determines the direction,"
+dialogtxt       "the switch's shape sets direction,"
 dialogtxt       "and some plates can be moved"
 dialogtxt       "by operating up to four switches."
 code0309        

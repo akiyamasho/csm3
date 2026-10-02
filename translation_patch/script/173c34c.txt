@@ -296,9 +296,9 @@ ret
 code0301        8, 7
 code047d        0, 120
 code047e        0, 1
-dialogtxt       "Selling ore will earn you some"
-dialogtxt       "money, but"
-dialogtxt       "the quality is poor, so that's its worth."
+dialogtxt       "Selling ore will earn you some money,"
+dialogtxt       "but it's poor quality, so that's its"
+dialogtxt       "worth."
 code0309        
 code047e        0, 0
 code0302        7

@@ -175,14 +175,14 @@ code0301        8, 7
 code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_08b2, ($b002 == 0)
-dialogtxt       "Tram awaits [NAME 8]."
-dialogtxt       "He's waiting for our match."
+dialogtxt       "Tram is waiting"
+dialogtxt       "to fight us."
 dialogtxt       "We have to go to Gumag Flame Ruins!"
 goto            @Label_0900
 
 @Cond_08b2:
 dialogtxt       "Tram is waiting to battle us."
-dialogtxt       "He's waiting for our match."
+dialogtxt       "to fight us."
 dialogtxt       "Let's go to Gumag Flame Ruins!"
 goto            @Label_0900
 
@@ -203,14 +203,14 @@ code047d        0, 0
 code047e        0, 1
 jumpz           @Cond_09e0, ($b002 == 0)
 dialogtxt       "Murno went with Tram"
-dialogtxt       "to study the pillar in the Flame Ruins."
-dialogtxt       "We'd better hurry, [NAME 8]!"
+dialogtxt       "to study the Flame Ruins' pillar."
+dialogtxt       "We should hurry, too!"
 goto            @Label_0a48
 
 @Cond_09e0:
-dialogtxt       "Murno went with Tram"
-dialogtxt       "to study the pillar in the Flame Ruins."
-dialogtxt       "We have to hurry, too!"
+dialogtxt       "Murno went with Tram to study the"
+dialogtxt       "pillar in the Flame Ruins. We have to"
+dialogtxt       "hurry, too!"
 goto            @Label_0a48
 
 @Label_0a48:

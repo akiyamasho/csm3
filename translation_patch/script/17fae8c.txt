@@ -97,7 +97,7 @@ call            @Func_233a
 code0479        0, 2, 16
 call            @Func_2298
 jumpz           @Cond_052a, ($b002 == 0)
-dialogtxt       "What the hell are you saying!?"
+dialogtxt       "What are you saying!?"
 dialogtxt       "Were you really planning to take"
 dialogtxt       "those guys on?"
 goto            @Label_0576
@@ -169,7 +169,7 @@ code033b        396, 0, 0, 0, 1, 0
 code0479        1, 3, 13
 call            @Func_2368
 call            @Func_22e6
-dialogtxt       "（Could this work...!? [NAME 8]"
+dialogtxt       "（Could this work...!?"
 dialogtxt       "might just do it...!）"
 code047b        
 code0309        
@@ -202,9 +202,9 @@ code0309
 call            @Func_22ce
 code0479        1, 11, 12
 call            @Func_2304
-dialogtxt       "Then the weapons you make"
-dialogtxt       "aren't ordinary weapons!"
-dialogtxt       "They'll definitely become our specialty!"
+dialogtxt       "Then the weapons you make aren't"
+dialogtxt       "ordinary weapons! They'll definitely"
+dialogtxt       "become our specialty!"
 code0309        
 code0479        1, 2, 12
 dialogtxt       "We should have many more customers"
@@ -344,7 +344,7 @@ goto            @Cond_0f0e
 
 @Cond_0f0e:
 jumpz           @Cond_0f60, ($b003 == 2)
-dialogtxt       "Why should I work for [NAME 4]'s shop?"
+dialogtxt       "Why should I work for your shop?"
 dialogtxt       "..."
 goto            @Cond_0f60
 
@@ -386,8 +386,8 @@ goto            @Label_11b8
 @Choice_10d4:
 code0479        0, 2, 14
 jumpz           @Cond_1154, ($b002 == 0)
-dialogtxt       "[NAME 8] and I are on our way"
-dialogtxt       "to town. We don't have time to help with"
+dialogtxt       "We're on our way to town."
+dialogtxt       "We don't have time to help with"
 dialogtxt       "smithing here."
 goto            @Label_11b2
 
@@ -414,9 +414,9 @@ code0309
 call            @Func_22ce
 code0479        1, 2, 12
 call            @Func_2304
-dialogtxt       "That's only what you're saying for now."
-dialogtxt       "All right... I'll definitely"
-dialogtxt       "get you to change your mind!"
+dialogtxt       "That's only what you're saying for"
+dialogtxt       "now. All right... I'll definitely get"
+dialogtxt       "you to change your mind!"
 code0309        
 call            @Func_233a
 code0479        0, 5, 17
@@ -550,7 +550,7 @@ goto            @Label_1732
 @Label_1732:
 call            @Func_2304
 jumpz           @Cond_1766, ($b003 == 0)
-dialogtxt       "Nothing To Tell [NAME 4]"
+dialogtxt       "I Cannot Tell You."
 goto            @Cond_1766
 
 @Cond_1766:
@@ -560,7 +560,7 @@ goto            @Cond_1792
 
 @Cond_1792:
 jumpz           @Cond_17c6, ($b003 == 2)
-dialogtxt       "I have nothing to tell [NAME 4]."
+dialogtxt       "I have nothing to tell you."
 goto            @Cond_17c6
 
 @Cond_17c6:
@@ -611,8 +611,8 @@ goto            @Cond_195c
 
 @Cond_195c:
 jumpz           @Cond_19c2, ($b003 == 2)
-dialogtxt       "Murno made me promise that... but"
-dialogtxt       "[NAME 4], do you want me to"
+dialogtxt       "Murno made me promise..."
+dialogtxt       "Do you want me to"
 dialogtxt       "break it?"
 goto            @Cond_19c2
 
@@ -657,7 +657,7 @@ call            @Func_233a
 code0479        0, 0, 12
 call            @Func_2298
 jumpz           @Cond_1b14, ($b002 == 0)
-dialogtxt       "Then [NAME 8] and I, too,"
+dialogtxt       "Then he and I, too,"
 goto            @Label_1b2e
 
 @Cond_1b14:

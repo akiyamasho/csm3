@@ -12,7 +12,7 @@ code0309
 call            @Func_0bb0
 code0479        0, 0, 12
 call            @Func_0b0e
-choicetxt       @Choice_00d8, "Ready to fight, [NAME 4]"
+choicetxt       @Choice_00d8, "I'm all set to fight!"
 choicetxt       @Choice_0560, "I want to wait a little longer"
 choicewait      
 

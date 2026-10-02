@@ -86,7 +86,7 @@ dialogtxt       "We have to get to Lyute Grotto!"
 goto            @Label_03f6
 
 @Cond_03da:
-dialogtxt       "Let's head back to the workshop today..."
+dialogtxt       "Let's return to the workshop..."
 goto            @Label_03f6
 
 @Label_03f6:

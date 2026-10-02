@@ -56,13 +56,13 @@ call            @Func_0eee
 code0479        0, 1, 12
 call            @Func_0e4c
 jumpz           @Cond_0366, ($b002 == 0)
-dialogtxt       "That's really good."
+dialogtxt       "That's good."
 dialogtxt       "Bostaph is going to help"
 dialogtxt       "capture Anise and the others, too."
 goto            @Label_03c4
 
 @Cond_0366:
-dialogtxt       "It really is good."
+dialogtxt       "It's good."
 dialogtxt       "Bostaph is going to help"
 dialogtxt       "capture Anise and the others, too."
 goto            @Label_03c4
@@ -72,7 +72,7 @@ code0309
 call            @Func_0e82
 code0479        1, 0, 16
 call            @Func_0eb8
-dialogtxt       "But once again, because of me,"
+dialogtxt       "But again, because of me,"
 dialogtxt       "you got dragged into trouble."
 dialogtxt       "I'm sorry."
 code0309        
@@ -80,9 +80,9 @@ call            @Func_0eee
 code0479        0, 0, 13
 call            @Func_0e4c
 jumpz           @Cond_04b6, ($b002 == 0)
-dialogtxt       "It's okay! [NAME 8] has also"
-dialogtxt       "been hurt pretty badly by them. It's"
-dialogtxt       "not someone else's problem anymore."
+dialogtxt       "It is okay! They treated me"
+dialogtxt       "pretty badly, too. This is"
+dialogtxt       "my business now."
 goto            @Label_051e
 
 @Cond_04b6:
@@ -119,9 +119,9 @@ dialogtxt       "It's nothing."
 code0309        
 code0479        1, 0, 12
 code0479        0, 0, 16
-dialogtxt       "Anyway, [NAME 8] also"
-dialogtxt       "has business with them..."
-dialogtxt       "So this time, I'll"
+dialogtxt       "Anyway, I have business"
+dialogtxt       "with them now..."
+dialogtxt       "So this time, I will"
 code0309        
 code0479        0, 2, 14
 dialogtxt       "definitely capture them...!"

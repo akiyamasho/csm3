@@ -25,8 +25,8 @@ code047d        0, 0
 call            @Func_0d1e
 call            @Func_0c86
 jumpz           @Cond_012a, ($b003 == 0)
-dialogtxt       "Did You Choose Your Favorite"
-dialogtxt       "[NAME 4] Weapon Successfully?"
+dialogtxt       "Did you choose your favorite"
+dialogtxt       "weapon successfully?"
 goto            @Cond_012a
 
 @Cond_012a:
@@ -100,9 +100,9 @@ goto            @Label_034c
 @Label_034c:
 call            @Func_0ca4
 jumpz           @Cond_0476, ($b003 == 0)
-dialogtxt       "You Said You Chose One, But Isn't"
-dialogtxt       "Your Favorite [NAME 4]"
-dialogtxt       "Weapon Just One Weapon?"
+dialogtxt       "You said you chose one, but"
+dialogtxt       "is your favorite weapon just"
+dialogtxt       "one weapon?"
 code0309        
 call            @Func_0cda
 code0479        0, 0, 16

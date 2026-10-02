@@ -175,9 +175,9 @@ code0479        1, 0, 12
 code047d        1, 132
 call            @Func_396e
 call            @Func_38d6
-dialogtxt       "Once the confusion in town settles down,"
-dialogtxt       "we'll ask Mr. Wellman"
-dialogtxt       "to come in for another meeting."
+dialogtxt       "Once the confusion in town settles"
+dialogtxt       "down, we'll ask Mr. Wellman to come in"
+dialogtxt       "for another meeting."
 code047b        
 code0309        
 call            @Func_392a
@@ -250,7 +250,7 @@ code047d        0, 2
 call            @Func_3942
 call            @Func_3888
 jumpz           @Cond_0aa0, ($b003 == 0)
-dialogtxt       "[NAME 5] and..."
+dialogtxt       "Then I'll come along, too."
 goto            @Cond_0aa0
 
 @Cond_0aa0:
@@ -404,7 +404,7 @@ code047d        0, 2
 call            @Func_3942
 call            @Func_3888
 jumpz           @Cond_10d8, ($b003 == 0)
-dialogtxt       "[NAME 5] and..."
+dialogtxt       "Of course..."
 goto            @Cond_10d8
 
 @Cond_10d8:
@@ -611,9 +611,9 @@ code0479        1, 2, 12
 code047d        1, 108
 call            @Func_3958
 call            @Func_38f4
-dialogtxt       "That's right!"
-dialogtxt       "A blacksmith's promise is stronger than."
-dialogtxt       "I'll make [NAME 4]."
+dialogtxt       "That's right! A smith's promise"
+dialogtxt       "is stronger than steel. I'll make sure"
+dialogtxt       "you work hard."
 code047b        
 code0309        
 call            @Func_392a
@@ -638,7 +638,7 @@ goto            @Label_197a
 @Label_197a:
 call            @Func_3888
 jumpz           @Cond_199e, ($b003 == 0)
-dialogtxt       "[NAME 5]..."
+dialogtxt       "Oh, come on..."
 goto            @Cond_199e
 
 @Cond_199e:
@@ -695,8 +695,8 @@ code043c        0, 3
 code0479        0, 0, 12
 call            @Func_3888
 jumpz           @Cond_1bcc, ($b002 == 0)
-dialogtxt       "I see..."
-dialogtxt       "Then I look forward to working with you."
+dialogtxt       "I see... Then I look"
+dialogtxt       "forward to working with you."
 dialogtxt       "γ"
 goto            @Label_1c02
 
@@ -768,7 +768,7 @@ code047d        1, 132
 call            @Func_3958
 call            @Func_38f4
 dialogtxt       "That's good, δ."
-dialogtxt       "You still have [NAME 8]my..."
+dialogtxt       "You still need to face Lemmy, right?"
 code047b        
 code0309        
 call            @Func_392a
@@ -782,7 +782,7 @@ code0479        1, 5, 16
 call            @Func_38f4
 dialogtxt       "Huh?"
 dialogtxt       "Have you"
-dialogtxt       "ever seen [NAME 8]my'?"
+dialogtxt       "seen Lemmy's Summon Beast?"
 code0309        
 call            @Func_3998
 call            @Func_392a
@@ -1037,7 +1037,7 @@ call            @Func_396e
 call            @Func_38d6
 dialogtxt       "Bye, Murno!"
 dialogtxt       "Come visit us at Smile Inn, too."
-dialogtxt       "I'll buy [NAME 4] cake!"
+dialogtxt       "I'll treat you to cake!"
 code047b        
 code0309        
 code033b        396, 0, 0, 0, 1, 1

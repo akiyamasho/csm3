@@ -3,9 +3,9 @@ jumpz           @Cond_00ce, ($b070 == 0)
 code0301        8, 7
 code047d        0, 147
 code047e        0, 1
-dialogtxt       "Log splitting looks simple, but it's not."
+dialogtxt       "Log splitting looks easy, but isn't."
 code0309        
-dialogtxt       "If you've mastered basic log splitting,"
+dialogtxt       "If you've mastered log splitting,"
 dialogtxt       "I will let you try splitting logs too."
 code0309        
 code047e        0, 0

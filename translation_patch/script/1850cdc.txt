@@ -25,9 +25,9 @@ code0309
 call            @Func_1430
 code0479        0, 0, 12
 call            @Func_138e
-dialogtxt       "Yes, That's Right Apparently There"
-dialogtxt       "Are Quite A Few This Time Sorry, But"
-dialogtxt       "[NAME 8] And I Are Heading Out"
+dialogtxt       "Yes, that is right."
+dialogtxt       "There seem to be quite a few"
+dialogtxt       "this time. I am heading out too."
 code0309        
 call            @Func_14ca
 call            @Func_13ac
@@ -48,9 +48,9 @@ code0309
 call            @Func_13c4
 code0479        1, 0, 13
 call            @Func_13fa
-dialogtxt       "It's Fine"
-dialogtxt       "Leave This To [NAME 8] And Us"
-dialogtxt       "You Take Care Of Anise And The Others"
+dialogtxt       "It is fine."
+dialogtxt       "Leave this to us."
+dialogtxt       "Take care of Anise and the others."
 code0309        
 call            @Func_1430
 code0479        0, 2, 12

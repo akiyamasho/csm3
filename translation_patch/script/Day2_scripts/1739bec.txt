@@ -343,7 +343,7 @@ code0309
 call            @Func_3d66
 code0479        0, 5, 17
 call            @Func_3cc4
-dialogtxt       "Woah, hey, calm down!"
+dialogtxt       "Whoa, [NAME 1], calm down!"
 code0309        
 call            @Func_3e00
 call            @Func_3ce2
@@ -655,11 +655,11 @@ code0479        0, 5, 12
 call            @Func_3cc4
 dialogtxt       "Ah, I see."
 jumpz           @Cond_1da4, ($b002 == 0)
-dialogtxt       "So you're saying you'll be fine..."
+dialogtxt       "So you're saying you'll be fine, [NAME 1]..."
 goto            @Label_1dbe
 
 @Cond_1da4:
-dialogtxt       "So you're saying you'll be fine..."
+dialogtxt       "So you're saying you'll be fine, [NAME 1]..."
 goto            @Label_1dbe
 
 @Label_1dbe:
@@ -714,7 +714,7 @@ code0309
 call            @Func_3d66
 code0479        0, 1, 16
 call            @Func_3cc4
-dialogtxt       "[NAME 1]..."
+dialogtxt       "Even if it's a lie..."
 code0309        
 call            @Func_3e00
 call            @Func_3ce2
@@ -1334,13 +1334,13 @@ call            @Func_3d66
 code0479        0, 2, 12
 call            @Func_3cc4
 jumpz           @Cond_395a, ($b002 == 0)
-dialogtxt       "Aren't you reliable."
+dialogtxt       "You're reliable, [NAME 1]."
 dialogtxt       "Somehow I feel like"
 dialogtxt       "I can do this too."
 goto            @Label_39a2
 
 @Cond_395a:
-dialogtxt       "Aren't you reliable."
+dialogtxt       "You're reliable, [NAME 1]."
 dialogtxt       "Somehow I feel like"
 dialogtxt       "I can do this too."
 goto            @Label_39a2

@@ -49,47 +49,47 @@ call            @Func_15f2
 call            @Func_14ee
 dialogtxt       "Well? Have you got what you"
 dialogtxt       "want to say all sorted out?"
-dialogtxt       "That's what I'd like to ask, but..."
+dialogtxt       "I'd ask that, but..."
 code047b        
 code0309        
 code0479        0, 4, 13
 dialogtxt       "Knowing you, if you still"
-dialogtxt       "remembered it after sleeping all"
+dialogtxt       "remembered it after sleeping"
 dialogtxt       "night, I'd say you've done well."
 code0309        
 call            @Func_1542
 code0479        1, 2, 13
 call            @Func_1578
 jumpz           @Cond_0416, ($b002 == 0)
-dialogtxt       "Just watch me! I'll tell everyone Anise"
+dialogtxt       "watch! I'll tell all that Anise"
 dialogtxt       "and the others are after the Summon"
-dialogtxt       "Stone! I'll make sure everyone hears it!"
+dialogtxt       "Stone! I'll make sure all hear it!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "But if Master Bostaph really was"
+dialogtxt       "But if Bostaph was"
 dialogtxt       "one of Anise and the others' allies,"
-dialogtxt       "what would happen...?"
+dialogtxt       "what then...?"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Master Bostaph does seem"
-dialogtxt       "kind of suspicious..."
+dialogtxt       "Bostaph seems"
+dialogtxt       "suspicious..."
 dialogtxt       "And his face is scary..."
 code0309        
 goto            @Label_0540
 
 @Cond_0416:
-dialogtxt       "Just watch me! I'll tell everyone Anise"
+dialogtxt       "watch! I'll tell all that Anise"
 dialogtxt       "and the others are after the Summon"
 dialogtxt       "Stone! I'll prove I can tell them all!"
 code0309        
 code0479        1, 2, 14
-dialogtxt       "But if Master Bostaph really was"
+dialogtxt       "But if Bostaph was"
 dialogtxt       "one of Anise and the others' allies,"
-dialogtxt       "what would happen...?"
+dialogtxt       "what then...?"
 code0309        
 code0479        1, 2, 16
-dialogtxt       "Master Bostaph does seem"
-dialogtxt       "kind of suspicious..."
+dialogtxt       "Bostaph seems"
+dialogtxt       "suspicious..."
 dialogtxt       "And his face is scary..."
 code0309        
 goto            @Label_0540
@@ -106,7 +106,7 @@ code047d        0, 138
 call            @Func_15c6
 code043c        6, 4
 call            @Func_14ee
-dialogtxt       "Master Bostaph is..."
+dialogtxt       "Bostaph is..."
 dialogtxt       "Suspicious...?"
 code047b        
 code0309        
@@ -121,7 +121,7 @@ code047d        0, 132
 code0479        1, 0, 16
 call            @Func_15f2
 call            @Func_14ee
-dialogtxt       "Hey, δ! You shouldn't accuse"
+dialogtxt       "δ! Don't accuse"
 dialogtxt       "someone based on a hunch. And his"
 dialogtxt       "scary face has nothing to do with it!"
 code047b        
@@ -130,14 +130,14 @@ call            @Func_1542
 code0479        1, 5, 17
 call            @Func_1578
 dialogtxt       "Oh, I see!"
-dialogtxt       "Sorry, Ani[NAME 4]"
+dialogtxt       "Sorry, Bro"
 code0309        
 call            @Func_15ae
 code0479        1, 5, 16
 call            @Func_150c
 dialogtxt       "Wait a minute!"
-dialogtxt       "What exactly did you mean"
-dialogtxt       "when you apologized just now?"
+dialogtxt       "What did you mean"
+dialogtxt       "when you apologized now?"
 code0309        
 call            @Func_1632
 call            @Func_1542
@@ -166,27 +166,27 @@ code047d        1, 2
 call            @Func_15dc
 call            @Func_1578
 jumpz           @Cond_0844, ($b003 == 0)
-dialogtxt       "I Suppose That's True. His Frightening"
-dialogtxt       "Face Doesn't Make Him A Villain..."
+dialogtxt       "I Suppose So. His Scary"
+dialogtxt       "Face Doesn't Make Him Villain..."
 goto            @Cond_0844
 
 @Cond_0844:
 jumpz           @Cond_0892, ($b003 == 1)
-dialogtxt       "Yes, indeed."
-dialogtxt       "If we judged someone a villain"
-dialogtxt       "just because their face was scary..."
+dialogtxt       "Indeed."
+dialogtxt       "If we judged a villain"
+dialogtxt       "because their face was scary..."
 goto            @Cond_0892
 
 @Cond_0892:
 jumpz           @Cond_08d0, ($b003 == 2)
-dialogtxt       "Hmph."
-dialogtxt       "If we judged villains by their faces..."
+dialogtxt       "Hmph. If we judged villains by their"
+dialogtxt       "faces..."
 goto            @Cond_08d0
 
 @Cond_08d0:
 jumpz           @Cond_0918, ($b003 == 3)
-dialogtxt       "It's true, if we judged someone villain"
-dialogtxt       "by face, because it looked frightening..."
+dialogtxt       "True, if we judged a villain"
+dialogtxt       "by a frightening-looking face..."
 goto            @Cond_0918
 
 @Cond_0918:
@@ -215,7 +215,7 @@ code0479        0, 0, 12
 code047d        0, 133
 call            @Func_15c6
 call            @Func_14ee
-dialogtxt       "Hm?"
+dialogtxt       "?"
 code047b        
 code0309        
 call            @Func_161c
@@ -227,8 +227,8 @@ code0479        0, 1, 17
 code047d        0, 107
 call            @Func_15f2
 call            @Func_14ee
-dialogtxt       "Honestly, γ..."
-dialogtxt       "You really are something!"
+dialogtxt       "γ..."
+dialogtxt       "You're something!"
 code047b        
 code0309        
 call            @Func_1648
@@ -242,7 +242,7 @@ code0479        1, 0, 13
 code047d        1, 132
 call            @Func_15f2
 call            @Func_155a
-dialogtxt       "Well, that's how it is,"
+dialogtxt       "That's how it is,"
 dialogtxt       "so don't worry about it."
 dialogtxt       "Okay, Elie?"
 code047b        
@@ -282,8 +282,8 @@ code0479        0, 0, 12
 code047d        0, 132
 call            @Func_15c6
 call            @Func_14ee
-dialogtxt       "[NAME 8] and others wait."
-dialogtxt       "are waiting outside, so hurry up."
+dialogtxt       "We will wait outside."
+dialogtxt       "Hurry and join us."
 code047b        
 code0309        
 call            @Func_161c

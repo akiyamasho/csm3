@@ -206,13 +206,13 @@ call            @Func_16d4
 jumpz           @Cond_08fe, ($b002 == 0)
 dialogtxt       "No..."
 dialogtxt       "You forgot me?"
-dialogtxt       "It's U[NAME 5], γ!"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Cond_08fe:
 dialogtxt       "No..."
 dialogtxt       "You forgot me?"
-dialogtxt       "It's U[NAME 5], γ!"
+dialogtxt       "That is a lie, [NAME 1]!"
 goto            @Label_0932
 
 @Label_0932:
@@ -291,8 +291,8 @@ call            @Func_178e
 call            @Func_16d4
 jumpz           @Cond_0c3c, ($b002 == 0)
 dialogtxt       "But what am I supposed to do!?"
-dialogtxt       "γ can't hear"
-dialogtxt       "O[NAME 8]'s voice anymore...!"
+dialogtxt       "[NAME 1] cannot hear"
+dialogtxt       "my voice anymore...!"
 goto            @Label_0c8a
 
 @Cond_0c3c:
@@ -322,7 +322,7 @@ code0479        0, 5, 16
 call            @Func_178e
 call            @Func_16b6
 jumpz           @Cond_0d86, ($b002 == 0)
-dialogtxt       "O[NAME 8] is a smith..."
+dialogtxt       "I am a blacksmith..."
 dialogtxt       "..."
 dialogtxt       "Heh, I see..."
 goto            @Label_0dba
@@ -349,15 +349,15 @@ code0479        0, 2, 12
 call            @Func_17ba
 call            @Func_16b6
 jumpz           @Cond_0e92, ($b002 == 0)
-dialogtxt       "All right, [NAME 8]mi."
-dialogtxt       "I'll be the one to"
-dialogtxt       "wake γ up, no matter what..."
+dialogtxt       "All right, Lemmy."
+dialogtxt       "I will be the one to"
+dialogtxt       "wake [NAME 1] up, no matter what..."
 goto            @Label_0eda
 
 @Cond_0e92:
-dialogtxt       "All right, [NAME 8]mi."
-dialogtxt       "I'll be the one to"
-dialogtxt       "wake γ up, no matter what..."
+dialogtxt       "All right, Lemmy."
+dialogtxt       "I will be the one to"
+dialogtxt       "wake [NAME 1] up, no matter what..."
 goto            @Label_0eda
 
 @Label_0eda:
