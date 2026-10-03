@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cstddef>
 #include <cstdint>
 #include <cstdio>
 #include <limits>
@@ -245,7 +246,7 @@ void LZ77GBACompressor::CompressReverse(int max_scenarios) {
 
 	// Start at the END, and build the file backwards.
 	// This gives us the smartest backreference decisions.
-	ptrdiff_t total_saved = 0;
+	std::ptrdiff_t total_saved = 0;
 	size_t compressed_size = 0;
 	for (size_t src = input_.size(); src > 0; ) {
 		if (src == 0 || src > input_.size()) {
@@ -392,7 +393,7 @@ void LZ77GBACompressor::CompressForward(int max_scenarios) {
 	*pos++ = (input_.size() >> 8) & 0xFF;
 	*pos++ = (input_.size() >> 16) & 0xFF;
 
-	ptrdiff_t total_saved = 0;
+	std::ptrdiff_t total_saved = 0;
 	for (size_t src = 0; src < input_.size(); ) {
 		uint8_t *quadflags = pos++;
 		uint8_t nowflags = 0;

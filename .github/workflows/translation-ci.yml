@@ -2,9 +2,9 @@ name: Translation build
 
 on:
   push:
-    branches: [complete-english-translation]
+    branches: [main, complete-english-translation]
   pull_request:
-    branches: [complete-english-translation]
+    branches: [main, complete-english-translation]
   workflow_dispatch:
 
 permissions:
