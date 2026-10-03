@@ -1,6 +1,6 @@
 # Summon Night Swordcraft Story 3: Stone of Beginnings — English Translation
 
-[![Translation build](https://github.com/akiyamasho/csm3/actions/workflows/translation-ci.yml/badge.svg?branch=complete-english-translation)](https://github.com/akiyamasho/csm3/actions/workflows/translation-ci.yml)
+[![Translation build](https://github.com/akiyamasho/csm3/actions/workflows/translation-ci.yml/badge.svg?branch=main)](https://github.com/akiyamasho/csm3/actions/workflows/translation-ci.yml)
 [![Latest release](https://img.shields.io/github/v/release/akiyamasho/csm3?display_name=tag)](https://github.com/akiyamasho/csm3/releases)
 
 This repository contains the English translation patch for *Summon Night Swordcraft Story 3: Stone of Beginnings* (サモンナイト クラフトソード物語 はじまりの石), built from the [upstream GBA decompilation](https://github.com/jiangzhengwenjz/csm3) and the original game data.
